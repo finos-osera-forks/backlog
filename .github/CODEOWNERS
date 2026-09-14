@@ -1,0 +1,4 @@
+# Who approves what. A change to the supported lines is approved by two Premier member approvers.
+# Everything else (workflows, schema, rules, README) is ControlPlane and FINOS.
+*                      @d1gital-f @maoo
+supported-lines.csv    @DovOps @grovesyp @mark-hoare-db @kriswest
