@@ -6,12 +6,11 @@
 # names is a supported line, and no CVE appears twice for the same library.
 name: validate
 
+# Runs on every pull request, whatever it changes: the line manager waits for this
+# check to exist and pass before it merges, so a pull request that touches only the
+# status files must have it too. It takes seconds.
 on:
   pull_request:
-    paths:
-      - cve-backlog.json
-      - supported-lines.csv
-      - schema/**
 
 permissions: {}
 
