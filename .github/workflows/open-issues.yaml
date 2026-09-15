@@ -98,9 +98,13 @@ jobs:
           gh issue list --repo "$ORG/$REPO" --state all --limit 2000 \
             --json number,title,state,url,labels \
             --jq '.[] | {title, state, url, labels: [.labels[].name], repo: env.REPO}' > existing.jsonl
-          gh search issues --owner "$ORG" "CVE-" --match title --limit 1000 \
-            --json title,state,url,repository,labels \
-            --jq '.[] | {title, state, url, labels: [.labels[].name], repo: .repository.name}' >> existing.jsonl
+          # a CVE id or a GitHub advisory id, both are what an entry can be named by
+          for PREFIX in "CVE-" "GHSA-"
+          do
+            gh search issues --owner "$ORG" "$PREFIX" --match title --limit 1000 \
+              --json title,state,url,repository,labels \
+              --jq '.[] | {title, state, url, labels: [.labels[].name], repo: .repository.name}' >> existing.jsonl
+          done
           jq -s 'unique_by(.url)' existing.jsonl > existing.json
           echo "$(jq length existing.json) issue(s) with a CVE in the title found in $ORG"
 
@@ -121,8 +125,9 @@ jobs:
             echo "no previous book"
           fi
 
-      # 6. One issue per CVE: open the missing ones from the template, refresh the priority label
-      #    on the ones that live here, comment on the ones that moved elsewhere.
+      # 6. One issue per CVE and library version, the unit a producer patches (one branch of the fork):
+      #    open the missing ones from the template, refresh the priority label on the ones that live
+      #    here, comment on the ones that moved elsewhere.
       - name: Open the missing issues
         if: steps.book.outputs.present == 'true'
         env:
@@ -133,10 +138,10 @@ jobs:
           TEMPLATE_BODY="$(awk 'BEGIN { fm = 0 } /^---$/ { fm++; next } fm >= 2 { print }' "$TEMPLATE")"
           OPENED=0
           KEPT=0
-          for CVE in $(jq -r '[.entries[].cve] | unique | .[]' "$BOOK")
+          while IFS=$'\t' read -r CVE LIBRARY VERSION
           do
-            # 6a. every row of the book for this CVE (one row per library)
-            ROWS="$(jq -c --arg cve "$CVE" '[.entries[] | select(.cve == $cve)]' "$BOOK")"
+            # 6a. every row of the book for this CVE at this library version (one row per line)
+            ROWS="$(jq -c --arg cve "$CVE" --arg lib "$LIBRARY" --arg v "$VERSION" '[.entries[] | select(.cve == $cve and .library == $lib and .version == $v)]' "$BOOK")"
             PRIORITY="$(jq -r '.[0].priority' <<<"$ROWS")"
             LIBRARIES="$(jq -r '[.[].library] | join(", ")' <<<"$ROWS")"
             VERSIONS="$(jq -r '[.[].version] | unique | join(", ")' <<<"$ROWS")"
@@ -149,8 +154,9 @@ jobs:
             SHORT="$(jq -r '.[0].library | split(":")[-1]' <<<"$ROWS")"
             TITLE="${PRIORITY%% *} $CVE in $SHORT $(jq -r '.[0].version' <<<"$ROWS")"
 
-            # 6b. an issue for this CVE already exists somewhere in the organisation
-            FOUND="$(jq -c --arg cve "$CVE" 'map(select(.title | test("(^|[^0-9A-Za-z-])" + $cve + "([^0-9]|$)"))) | first // empty' existing.json)"
+            # 6b. an issue for this CVE at this library version already exists somewhere in the organisation:
+            #     the title ends with "in <artifact> <version>"
+            FOUND="$(jq -c --arg cve "$CVE" --arg tail " in $SHORT $VERSION" 'map(select((.title | test("(^|[^0-9A-Za-z-])" + $cve + "([^0-9]|$)")) and (.title | endswith($tail)))) | first // empty' existing.json)"
             if [ -n "$FOUND" ]
             then
               KEPT=$((KEPT + 1))
@@ -203,7 +209,7 @@ jobs:
             gh issue create --repo "$ORG/$REPO" --title "$TITLE" --label "$LABELS" --body "$BODY"
             OPENED=$((OPENED + 1))
             sleep "$PAUSE_SECONDS"
-          done
+          done < <(jq -r '[.entries[] | "\(.cve)\t\(.library)\t\(.version)"] | unique | .[]' "$BOOK")
           echo "opened $OPENED issue(s), $KEPT already existed" | tee -a "$GITHUB_STEP_SUMMARY"
 
       # 7. CVEs that were in the previous book and are not in this one: a comment, never a close.
