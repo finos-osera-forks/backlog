@@ -1,0 +1,225 @@
+# Copyright (c) 2026 Control Plane Limited. All rights reserved.
+# Built by ControlPlane for the FINOS OSERA Exchange.
+# SPDX-License-Identifier: Apache-2.0
+#
+# One issue per CVE in the order book.
+#
+# Trigger: a tag on this repository named after the book version (v2026.09.09). Merging the
+# pull request is the review, pushing the tag is the act of publishing the book. Only admins
+# create tags (repository ruleset).
+#
+# Safe to run again: it reads the book at the tag and the issues that already exist, and only
+# does what is missing. It never closes, reopens, assigns or deletes an issue.
+name: OSERA backlog issue orchestration
+run-name: OSERA backlog issue orchestration ${{ github.ref_name }}
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions: {}
+
+jobs:
+  open-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read # read the book at the tag and the previous one
+      issues: write  # open and label issues in this repository
+    env:
+      ORG: ${{ github.repository_owner }}  # the organisation the issues are searched in
+      REPO: ${{ github.event.repository.name }}  # this repository, where the issues are opened
+      BOOK: cve-backlog.json
+      TEMPLATE: .github/ISSUE_TEMPLATE/cve.md
+      PAUSE_SECONDS: "3"
+    steps:
+      # 1. The book at the tag, with the whole history so the tag can be checked against main.
+      - name: Checkout the tagged book
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: refs/tags/${{ github.ref_name }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      # 2. The tag must sit on main. A tag on any other commit stops the run.
+      - name: The tagged commit is on main
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          SHA="$(git rev-parse "refs/tags/${TAG}^{commit}")"
+          if git merge-base --is-ancestor "$SHA" origin/main
+          then
+            echo "tag $TAG is on main at $SHA"
+          else
+            echo "tag $TAG points at $SHA, which is not on main"
+            exit 1
+          fi
+
+      # 2b. A tag with no book (the first tag, when only the line was approved) opens nothing and ends green.
+      - name: Is there a book at this tag
+        id: book
+        run: |
+          set -euo pipefail
+          if [ -f "$BOOK" ]
+          then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "no $BOOK at this tag, nothing to open"
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # 3. The labels the issues use, created or refreshed in this repository.
+      - name: Labels
+        if: steps.book.outputs.present == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh label create cve --color 0E8A16 --description "A CVE to fix on a supported line, from the order book" --force
+          gh label create "P0 / Act" --color B60205 --description "Risk Navigator priority P0" --force
+          gh label create "P1 / Attend" --color D93F0B --description "Risk Navigator priority P1" --force
+          gh label create "P2 / Investigate" --color FBCA04 --description "Risk Navigator priority P2" --force
+          gh label create kev --color 5319E7 --description "On the CISA Known Exploited Vulnerabilities list" --force
+          for LINE in $(jq -r '[.entries[].lines[]] | unique | .[]' "$BOOK")
+          do
+            gh label create "$LINE" --color 1D76DB --description "Supported line" --force
+          done
+
+      # 4. Every issue that already exists for a CVE, anywhere in the organisation.
+      #    This repository is read through the issues API (no index lag), the rest of the
+      #    organisation through search (issues transferred into a patch repository).
+      - name: Existing issues
+        if: steps.book.outputs.present == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          gh issue list --repo "$ORG/$REPO" --state all --limit 2000 \
+            --json number,title,state,url,labels \
+            --jq '.[] | {title, state, url, labels: [.labels[].name], repo: env.REPO}' > existing.jsonl
+          gh search issues --owner "$ORG" "CVE-" --match title --limit 1000 \
+            --json title,state,url,repository,labels \
+            --jq '.[] | {title, state, url, labels: [.labels[].name], repo: .repository.name}' >> existing.jsonl
+          jq -s 'unique_by(.url)' existing.jsonl > existing.json
+          echo "$(jq length existing.json) issue(s) with a CVE in the title found in $ORG"
+
+      # 5. The book before this one, to see which CVEs left it and which changed priority.
+      - name: Previous book
+        if: steps.book.outputs.present == 'true'
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          PREVIOUS="$(git tag --list 'v*' --sort=-version:refname | grep -vx "$TAG" | head -1 || true)"
+          if [ -n "$PREVIOUS" ]
+          then
+            git show "refs/tags/${PREVIOUS}:${BOOK}" > previous.json
+            echo "previous book: $PREVIOUS"
+          else
+            echo '{"entries": []}' > previous.json
+            echo "no previous book"
+          fi
+
+      # 6. One issue per CVE: open the missing ones from the template, refresh the priority label
+      #    on the ones that live here, comment on the ones that moved elsewhere.
+      - name: Open the missing issues
+        if: steps.book.outputs.present == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          TEMPLATE_BODY="$(awk 'BEGIN { fm = 0 } /^---$/ { fm++; next } fm >= 2 { print }' "$TEMPLATE")"
+          OPENED=0
+          KEPT=0
+          for CVE in $(jq -r '[.entries[].cve] | unique | .[]' "$BOOK")
+          do
+            # 6a. every row of the book for this CVE (one row per library)
+            ROWS="$(jq -c --arg cve "$CVE" '[.entries[] | select(.cve == $cve)]' "$BOOK")"
+            PRIORITY="$(jq -r '.[0].priority' <<<"$ROWS")"
+            LIBRARIES="$(jq -r '[.[].library] | join(", ")' <<<"$ROWS")"
+            VERSIONS="$(jq -r '[.[].version] | unique | join(", ")' <<<"$ROWS")"
+            LINES="$(jq -r '[.[].lines[]] | unique | join(", ")' <<<"$ROWS")"
+            KEV="$(jq -r 'if any(.[]; .cisa_kev) then "yes" else "no" end' <<<"$ROWS")"
+            CVSS="$(jq -r '.[0] | "\(.cvss) (v\(.cvss_version))"' <<<"$ROWS")"
+            EPSS="$(jq -r '.[0].epss_percentile // "not scored"' <<<"$ROWS")"
+            RULES="$(jq -r '[.[].why[]] | reduce .[] as $r ([]; if index($r) then . else . + [$r] end) | map("- " + .) | join("\n")' <<<"$ROWS")"
+            SUMMARY="$(jq -r '.[0].summary' <<<"$ROWS")"
+            SHORT="$(jq -r '.[0].library | split(":")[-1]' <<<"$ROWS")"
+            TITLE="${PRIORITY%% *} $CVE in $SHORT $(jq -r '.[0].version' <<<"$ROWS")"
+
+            # 6b. an issue for this CVE already exists somewhere in the organisation
+            FOUND="$(jq -c --arg cve "$CVE" 'map(select(.title | test("(^|[^0-9A-Za-z-])" + $cve + "([^0-9]|$)"))) | first // empty' existing.json)"
+            if [ -n "$FOUND" ]
+            then
+              KEPT=$((KEPT + 1))
+              URL="$(jq -r .url <<<"$FOUND")"
+              REPO_FOUND="$(jq -r .repo <<<"$FOUND")"
+              STATE="$(jq -r .state <<<"$FOUND")"
+              HAS_PRIORITY="$(jq -r --arg p "$PRIORITY" 'any(.labels[]; . == $p)' <<<"$FOUND")"
+              if [ "$STATE" = "OPEN" ] && [ "$HAS_PRIORITY" = "false" ]
+              then
+                if [ "$REPO_FOUND" = "$REPO" ]
+                then
+                  gh issue edit "$URL" --remove-label "P0 / Act" --remove-label "P1 / Attend" --remove-label "P2 / Investigate" --add-label "$PRIORITY"
+                fi
+                gh issue comment "$URL" --body "Priority in the book $TAG: $PRIORITY"
+                sleep "$PAUSE_SECONDS"
+              fi
+              # 6b. a line the book added since the issue was opened: the label here, a comment anywhere
+              MISSING_LINES="$(jq -r --argjson have "$(jq -c .labels <<<"$FOUND")" '[.[].lines[]] | unique | map(select(. as $l | $have | index($l) | not)) | join(",")' <<<"$ROWS")"
+              if [ "$STATE" = "OPEN" ] && [ -n "$MISSING_LINES" ]
+              then
+                if [ "$REPO_FOUND" = "$REPO" ]
+                then
+                  gh issue edit "$URL" --add-label "$MISSING_LINES"
+                fi
+                gh issue comment "$URL" --body "In the book $TAG this CVE is also on: $MISSING_LINES"
+                sleep "$PAUSE_SECONDS"
+              fi
+              continue
+            fi
+
+            # 6c. no issue yet: fill the template and open one
+            BODY="$TEMPLATE_BODY"
+            BODY="${BODY//"<CVE id, with the link to the advisory>"/$CVE, https://nvd.nist.gov/vuln/detail/$CVE}"
+            BODY="${BODY//"<group:artifact of the jar that holds the affected code>"/$LIBRARIES}"
+            BODY="${BODY//"<version>"/$VERSIONS}"
+            BODY="${BODY//"<the supported lines this CVE is on>"/$LINES}"
+            BODY="${BODY//"<priority band>"/$PRIORITY}"
+            BODY="${BODY//"<score and version, as recorded at NVD>"/$CVSS}"
+            BODY="${BODY//"<yes or no>"/$KEV}"
+            BODY="${BODY//"<value>"/$EPSS}"
+            BODY="${BODY//"<one rule per line>"/$RULES}"
+            BODY="${BODY//"<the advisory's one line summary>"/$SUMMARY}"
+            BODY="${BODY//"<book version tag>"/$TAG}"
+            BODY="${BODY//"<link to the row in cve-backlog.md>"/https://github.com/$ORG/$REPO/blob/$TAG/cve-backlog.md}"
+            LABELS="cve,$PRIORITY,$(jq -r '[.[].lines[]] | unique | join(",")' <<<"$ROWS")"
+            if [ "$KEV" = "yes" ]
+            then
+              LABELS="$LABELS,kev"
+            fi
+            gh issue create --repo "$ORG/$REPO" --title "$TITLE" --label "$LABELS" --body "$BODY"
+            OPENED=$((OPENED + 1))
+            sleep "$PAUSE_SECONDS"
+          done
+          echo "opened $OPENED issue(s), $KEPT already existed" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      # 7. CVEs that were in the previous book and are not in this one: a comment, never a close.
+      - name: CVEs that left the book
+        if: steps.book.outputs.present == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          for CVE in $(jq -r --slurpfile now "$BOOK" '[.entries[].cve] - [$now[0].entries[].cve] | unique | .[]' previous.json)
+          do
+            FOUND="$(jq -c --arg cve "$CVE" 'map(select((.title | test("(^|[^0-9A-Za-z-])" + $cve + "([^0-9]|$)")) and .state == "OPEN")) | first // empty' existing.json)"
+            if [ -n "$FOUND" ]
+            then
+              gh issue comment "$(jq -r .url <<<"$FOUND")" --body "$CVE is no longer in the book as of $TAG. Left open on purpose, a person decides what happens to this issue."
+              sleep "$PAUSE_SECONDS"
+            fi
+          done

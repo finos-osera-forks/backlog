@@ -1,0 +1,104 @@
+# Copyright (c) 2026 Control Plane Limited. All rights reserved.
+# Built by ControlPlane for the FINOS OSERA Exchange.
+# SPDX-License-Identifier: Apache-2.0
+#
+# The pull request check on the order book: every entry matches the schema, every line it
+# names is a supported line, and no CVE appears twice for the same library.
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - cve-backlog.json
+      - supported-lines.csv
+      - schema/**
+
+permissions: {}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read # read the pull request's files
+    env:
+      BOOK: cve-backlog.json
+      LINES: supported-lines.csv
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      # 1. The file parses and names the schema its entries follow.
+      - name: The book names its schema
+        run: |
+          set -euo pipefail
+          if [ ! -f "$BOOK" ]
+          then
+            echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
+            exit 0
+          fi
+          SCHEMA="schema/$(jq -r '.entry_schema' "$BOOK")"
+          if [ -f "$SCHEMA" ]
+          then
+            echo "entries follow $SCHEMA"
+          else
+            echo "the book names $SCHEMA, which does not exist"
+            exit 1
+          fi
+          echo "SCHEMA=$SCHEMA" >> "$GITHUB_ENV"
+
+      # 2. Every entry validates against the schema (ajv, pinned).
+      - name: Every entry matches the schema
+        run: |
+          set -euo pipefail
+          if [ ! -f "$BOOK" ]
+          then
+            echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
+            exit 0
+          fi
+          mkdir -p entries
+          COUNT="$(jq '.entries | length' "$BOOK")"
+          for I in $(seq 0 $((COUNT - 1)))
+          do
+            jq ".entries[$I]" "$BOOK" > "entries/entry-$I.json"
+          done
+          npx --yes ajv-cli@5.0.0 validate --spec=draft2020 -s "$SCHEMA" -d 'entries/entry-*.json' --all-errors
+          echo "$COUNT entries validated"
+
+
+      # 3. Every line an entry names is in supported-lines.csv.
+      - name: Every line is a supported line
+        run: |
+          set -euo pipefail
+          if [ ! -f "$BOOK" ]
+          then
+            echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
+            exit 0
+          fi
+          KNOWN="$(tail -n +2 "$LINES" | cut -d, -f1 | sort -u)"
+          USED="$(jq -r '[.entries[].lines[]] | unique | .[]' "$BOOK")"
+          UNKNOWN="$(comm -13 <(echo "$KNOWN") <(echo "$USED"))"
+          if [ -n "$UNKNOWN" ]
+          then
+            echo "lines named in the book but not in $LINES: $UNKNOWN"
+            exit 1
+          fi
+          echo "every line is supported"
+
+      # 4. No CVE twice for the same library on the same line (a CVE on two lines is two entries).
+      - name: No duplicate entry
+        run: |
+          set -euo pipefail
+          if [ ! -f "$BOOK" ]
+          then
+            echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
+            exit 0
+          fi
+          DUPLICATES="$(jq -r '[.entries[] | .cve + " " + .library + " on " + (.lines | join(","))] | group_by(.) | map(select(length > 1) | .[0]) | .[]' "$BOOK")"
+          if [ -n "$DUPLICATES" ]
+          then
+            echo "duplicate entries: $DUPLICATES"
+            exit 1
+          fi
+          echo "$(jq '.entries | length' "$BOOK") entries, $(jq '[.entries[].cve] | unique | length' "$BOOK") CVEs, no duplicate on a line"
