@@ -1,0 +1,122 @@
+{
+  "line": "spring-security-5.7.x",
+  "book_version": "v2026.09.15",
+  "as_of": "2026-09-15T16:17:10Z",
+  "status": "not fixed",
+  "in_scope": 27,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2016-1000027",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2020-36518",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2021-46877",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2022-42003",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2022-42004",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2024-22243",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-22257",
+      "library": "org.springframework.security:spring-security-core"
+    },
+    {
+      "cve": "CVE-2024-22259",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-22262",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-38821",
+      "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2025-22228",
+      "library": "org.springframework.security:spring-security-crypto"
+    },
+    {
+      "cve": "CVE-2025-41249",
+      "library": "org.springframework:spring-core"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "CVE-2026-22732",
+      "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-40988",
+      "library": "org.springframework.security:spring-security-saml2-service-provider"
+    },
+    {
+      "cve": "CVE-2026-41706",
+      "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-41716",
+      "library": "org.springframework.data:spring-data-commons"
+    },
+    {
+      "cve": "CVE-2026-41720",
+      "library": "org.springframework.ldap:spring-ldap-core"
+    },
+    {
+      "cve": "CVE-2026-41848",
+      "library": "org.springframework:spring-core"
+    },
+    {
+      "cve": "CVE-2026-41849",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41850",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41851",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-47838",
+      "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-50193",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54512",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54513",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "GHSA-r7wm-3cxj-wff9",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}
