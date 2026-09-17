@@ -1,10 +1,8 @@
 # Supported projects
 
-Generated 2026-09-17T20:20:36Z. Written by the line manager, never by hand.
+Generated 2026-09-17T20:20:36Z. Written by the line manager reconciler.
 
-Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only: nothing reads this file back.
-
-A row reads `fixed` when every CVE on that library and version is fixed or declared not remediable, `in progress` when a producer has claimed one, and `open` when any is still unclaimed. **Patched as** is the version a member would consume.
+Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
 ## Lines
 
