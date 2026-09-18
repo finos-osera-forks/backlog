@@ -1,9 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.15",
-  "as_of": "2026-09-15T16:17:10Z",
+  "as_of": "2026-09-18T11:59:19Z",
   "status": "not fixed",
-  "in_scope": 135,
+  "chain": "",
+  "in_scope": 137,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -114,6 +115,10 @@
     {
       "cve": "CVE-2025-11143",
       "library": "org.eclipse.jetty:jetty-http"
+    },
+    {
+      "cve": "CVE-2025-11226",
+      "library": "ch.qos.logback:logback-core"
     },
     {
       "cve": "CVE-2025-22227",
@@ -541,6 +546,10 @@
     },
     {
       "cve": "CVE-2026-75595",
+      "library": "io.netty:netty-handler"
+    },
+    {
+      "cve": "CVE-2026-75596",
       "library": "io.netty:netty-handler"
     },
     {

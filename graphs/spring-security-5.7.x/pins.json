@@ -1,0 +1,175 @@
+{
+  "line": "spring-security-5.7.x",
+  "anchor": "org.springframework.security:spring-security-bom@5.7.11",
+  "files": [
+    {
+      "coordinate": "org.springframework.security:spring-security-bom@5.7.11",
+      "url": "https://repo1.maven.org/maven2/org/springframework/security/spring-security-bom/5.7.11/spring-security-bom-5.7.11.pom",
+      "sha256": "50e99b090df36a72b200456929d29351f70ea62b7cc48cdc305e28df306f602c",
+      "packaging": "pom",
+      "role": "anchor"
+    }
+  ],
+  "entries": [
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-acl",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-aspects",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-cas",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-config",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-core",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-crypto",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-data",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-ldap",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-messaging",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-oauth2-client",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-oauth2-core",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-oauth2-jose",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-oauth2-resource-server",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-openid",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-remoting",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-rsocket",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-saml2-service-provider",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-taglibs",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-test",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    },
+    {
+      "group": "org.springframework.security",
+      "artifact": "spring-security-web",
+      "version_as_written": "5.7.11",
+      "version": "5.7.11",
+      "kind": "library",
+      "file": "org.springframework.security:spring-security-bom@5.7.11"
+    }
+  ]
+}

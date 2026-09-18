@@ -1,8 +1,9 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.09.15",
-  "as_of": "2026-09-15T16:17:10Z",
+  "as_of": "2026-09-18T11:59:19Z",
   "status": "not fixed",
+  "chain": "",
   "in_scope": 19,
   "fixed": [],
   "in_progress": [],

@@ -1,0 +1,191 @@
+{
+  "line": "spring-framework-5.3.x",
+  "anchor": "org.springframework:spring-framework-bom@5.3.39",
+  "files": [
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39",
+      "url": "https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.39/spring-framework-bom-5.3.39.pom",
+      "sha256": "f6d481093e75767cba1ac7e1db38f8f692cbe3e38744693371a75aeb21c6148b",
+      "packaging": "pom",
+      "role": "anchor"
+    }
+  ],
+  "entries": [
+    {
+      "group": "org.springframework",
+      "artifact": "spring-aop",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-aspects",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-beans",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-context",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-context-indexer",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-context-support",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-core",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-expression",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-instrument",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-jcl",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-jdbc",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-jms",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-messaging",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-orm",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-oxm",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-r2dbc",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-test",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-tx",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-web",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-webflux",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-webmvc",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    },
+    {
+      "group": "org.springframework",
+      "artifact": "spring-websocket",
+      "version_as_written": "5.3.39",
+      "version": "5.3.39",
+      "kind": "library",
+      "file": "org.springframework:spring-framework-bom@5.3.39"
+    }
+  ]
+}
