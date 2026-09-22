@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.22.2",
-  "as_of": "2026-09-22T08:48:04Z",
+  "as_of": "2026-09-22T09:25:52Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 168,
@@ -731,6 +731,7 @@
     "issue #37 for CVE-2024-8184 is closed in backlog while the entry on org.eclipse.jetty:jetty-server is open",
     "issue #38 for CVE-2024-9823 is closed in backlog while the entry on org.eclipse.jetty:jetty-servlets is open",
     "issue #39 for CVE-2025-11143 is closed in backlog while the entry on org.eclipse.jetty:jetty-http is open",
+    "issue #40 for CVE-2025-22227 is closed in backlog while the entry on io.projectreactor.netty:reactor-netty-http is open",
     "issue #43 for CVE-2025-24813 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #44 for CVE-2025-24970 is closed in backlog while the entry on io.netty:netty-handler is open",
     "issue #45 for CVE-2025-31650 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
@@ -751,6 +752,8 @@
     "issue #64 for CVE-2025-58057 is closed in backlog while the entry on io.netty:netty-codec is open",
     "issue #65 for CVE-2025-66614 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #66 for CVE-2025-67735 is closed in backlog while the entry on io.netty:netty-codec-http is open",
+    "issue #68 for CVE-2026-10050 is closed in backlog while the entry on org.eclipse.jetty:jetty-security is open",
+    "issue #72 for CVE-2026-2332 is closed in backlog while the entry on org.eclipse.jetty:jetty-http is open",
     "issue #73 for CVE-2026-24734 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #74 for CVE-2026-24880 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #75 for CVE-2026-25854 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
@@ -759,7 +762,8 @@
     "issue #79 for CVE-2026-34483 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #80 for CVE-2026-34487 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #88 for CVE-2026-41284 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
-    "issue #89 for CVE-2026-41293 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open"
+    "issue #89 for CVE-2026-41293 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
+    "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open"
   ],
   "consume": ""
 }
