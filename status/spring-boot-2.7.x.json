@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.22.7",
-  "as_of": "2026-09-22T22:37:06Z",
+  "book_version": "v2026.09.22.8",
+  "as_of": "2026-09-22T22:38:20Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -336,6 +336,8 @@
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
