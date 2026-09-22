@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.22.14",
-  "as_of": "2026-09-22T22:51:43Z",
+  "book_version": "v2026.09.22.15",
+  "as_of": "2026-09-22T22:52:52Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -61,6 +61,14 @@
       "patch": "00002",
       "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
       "at": "2026-09-22T22:25:26Z"
+    },
+    {
+      "cve": "CVE-2026-41717",
+      "library": "org.springframework.data:spring-data-mongodb",
+      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00001",
+      "at": "2026-09-22T22:52:52Z"
     },
     {
       "cve": "CVE-2026-41720",
@@ -262,10 +270,6 @@
       "library": "org.springframework.data:spring-data-commons"
     },
     {
-      "cve": "CVE-2026-41717",
-      "library": "org.springframework.data:spring-data-mongodb"
-    },
-    {
       "cve": "CVE-2026-41719",
       "library": "org.springframework.data:spring-data-keyvalue"
     },
@@ -375,6 +379,9 @@
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
@@ -403,5 +410,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.13"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.14"
 }
