@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.22.10",
-  "as_of": "2026-09-22T22:43:26Z",
+  "book_version": "v2026.09.22.11",
+  "as_of": "2026-09-22T22:44:43Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -17,10 +17,10 @@
     {
       "cve": "CVE-2026-10050",
       "library": "org.eclipse.jetty:jetty-security",
-      "coordinate": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00002",
-      "patch": "00002",
-      "named_by": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00002",
-      "at": "2026-09-22T22:41:46Z"
+      "coordinate": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
+      "patch": "00003",
+      "named_by": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
+      "at": "2026-09-22T22:44:43Z"
     },
     {
       "cve": "CVE-2026-2332",
@@ -337,6 +337,8 @@
   "not_remediable": [],
   "discrepancies": [
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
@@ -344,10 +346,13 @@
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002",
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002",
+    "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00002",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
@@ -374,5 +379,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.9"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.10"
 }
