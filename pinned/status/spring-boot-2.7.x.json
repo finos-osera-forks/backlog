@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.22.8",
-  "as_of": "2026-09-22T22:38:20Z",
+  "as_of": "2026-09-22T22:40:17Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 168,
@@ -824,7 +824,9 @@
     "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "promoted org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty.http2:http2-common at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-jaspi at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-jaspi at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
