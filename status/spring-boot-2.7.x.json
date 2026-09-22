@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.22.13",
-  "as_of": "2026-09-22T22:49:12Z",
+  "as_of": "2026-09-22T22:50:24Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -29,6 +29,14 @@
       "patch": "00004",
       "named_by": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
       "at": "2026-09-22T22:47:32Z"
+    },
+    {
+      "cve": "CVE-2026-34480",
+      "library": "org.apache.logging.log4j:log4j-core",
+      "coordinate": "org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00001",
+      "at": "2026-09-22T22:50:24Z"
     },
     {
       "cve": "CVE-2026-41006",
@@ -202,10 +210,6 @@
       "library": "org.apache.logging.log4j:log4j-1.2-api"
     },
     {
-      "cve": "CVE-2026-34480",
-      "library": "org.apache.logging.log4j:log4j-core"
-    },
-    {
       "cve": "CVE-2026-34481",
       "library": "org.apache.logging.log4j:log4j-layout-template-json"
     },
@@ -340,7 +344,6 @@
   ],
   "not_remediable": [],
   "discrepancies": [
-    "CVE-2026-34480 on log4j-core 2.17.2: promoted artifact org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00001 refused: log4j-core-2.17.2.1-osera-00001.pom.sha1 missing in the release repository",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
@@ -366,6 +369,7 @@
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
@@ -394,5 +398,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.11"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.12"
 }
