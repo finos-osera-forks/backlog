@@ -46,6 +46,15 @@
       "first_seen": "2026-09-22T22:43:26Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-bom@9.4.58.v20250814-osera-00004",
+      "library": "org.eclipse.jetty:jetty-bom",
+      "base": "9.4.58.v20250814",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 9.4.53.v20231009",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-22T22:47:32Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-project",
       "base": "9.4.58.v20250814",
@@ -71,6 +80,15 @@
       "released_with": "patch-jetty.project v9.4.58.v20250814-osera-00003",
       "why": "the patched modules name it as their parent, a build needs it to resolve them",
       "first_seen": "2026-09-22T22:44:43Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00004",
+      "library": "org.eclipse.jetty:jetty-project",
+      "base": "9.4.58.v20250814",
+      "kind": "parent",
+      "released_with": "patch-jetty.project v9.4.58.v20250814-osera-00004",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-09-22T22:47:32Z"
     }
   ]
 }
