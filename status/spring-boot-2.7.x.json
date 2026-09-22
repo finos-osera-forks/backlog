@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.22.15",
-  "as_of": "2026-09-22T22:52:52Z",
+  "book_version": "v2026.09.22.16",
+  "as_of": "2026-09-22T22:54:32Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -65,10 +65,10 @@
     {
       "cve": "CVE-2026-41717",
       "library": "org.springframework.data:spring-data-mongodb",
-      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00001",
-      "at": "2026-09-22T22:52:52Z"
+      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
+      "at": "2026-09-22T22:54:32Z"
     },
     {
       "cve": "CVE-2026-41720",
@@ -77,6 +77,14 @@
       "patch": "00001",
       "named_by": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
       "at": "2026-09-22T20:58:45Z"
+    },
+    {
+      "cve": "CVE-2026-41729",
+      "library": "org.springframework.data:spring-data-rest-core",
+      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00002",
+      "at": "2026-09-22T22:54:32Z"
     },
     {
       "cve": "CVE-2026-50193",
@@ -286,10 +294,6 @@
       "library": "org.springframework.data:spring-data-rest-core"
     },
     {
-      "cve": "CVE-2026-41729",
-      "library": "org.springframework.data:spring-data-rest-core"
-    },
-    {
       "cve": "CVE-2026-41731",
       "library": "org.springframework.kafka:spring-kafka"
     },
@@ -380,8 +384,14 @@
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
@@ -410,5 +420,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.14"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.15"
 }
