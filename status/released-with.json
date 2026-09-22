@@ -8,6 +8,15 @@
       "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-09-22T22:29:37Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00007",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-22T22:33:07Z"
     }
   ]
 }

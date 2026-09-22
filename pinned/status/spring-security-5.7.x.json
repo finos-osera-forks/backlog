@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.22.5",
-  "as_of": "2026-09-22T22:31:38Z",
+  "as_of": "2026-09-22T22:33:07Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 27,
@@ -140,6 +140,7 @@
     "issue #92 for CVE-2026-41716 is closed in backlog while the entry on org.springframework.data:spring-data-commons is open",
     "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1"
   ],
