@@ -1,11 +1,19 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.22.4",
-  "as_of": "2026-09-22T22:26:15Z",
+  "as_of": "2026-09-22T22:30:17Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 20,
   "fixed": [
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+      "patch": "00006",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+      "at": "2026-09-22T22:30:17Z"
+    },
     {
       "cve": "CVE-2026-41720",
       "library": "org.springframework.ldap:spring-ldap-core",
@@ -13,6 +21,38 @@
       "patch": "00001",
       "named_by": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
       "at": "2026-09-22T20:58:45Z"
+    },
+    {
+      "cve": "CVE-2026-50193",
+      "library": "com.fasterxml.jackson.core:jackson-databind",
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
+      "patch": "00006",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
+      "at": "2026-09-22T22:30:17Z"
+    },
+    {
+      "cve": "CVE-2026-54512",
+      "library": "com.fasterxml.jackson.core:jackson-databind",
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
+      "patch": "00006",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
+      "at": "2026-09-22T22:30:17Z"
+    },
+    {
+      "cve": "CVE-2026-54513",
+      "library": "com.fasterxml.jackson.core:jackson-databind",
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
+      "patch": "00006",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
+      "at": "2026-09-22T22:30:17Z"
+    },
+    {
+      "cve": "GHSA-r7wm-3cxj-wff9",
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+      "patch": "00006",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+      "at": "2026-09-22T22:30:17Z"
     }
   ],
   "in_progress": [],
@@ -36,10 +76,6 @@
     {
       "cve": "CVE-2025-41249",
       "library": "org.springframework:spring-core"
-    },
-    {
-      "cve": "CVE-2025-52999",
-      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2026-22732",
@@ -76,25 +112,17 @@
     {
       "cve": "CVE-2026-47838",
       "library": "org.springframework.security:spring-security-web"
-    },
-    {
-      "cve": "CVE-2026-50193",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "CVE-2026-54512",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "CVE-2026-54513",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "GHSA-r7wm-3cxj-wff9",
-      "library": "com.fasterxml.jackson.core:jackson-core"
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.22"
+  "discrepancies": [
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006"
+  ],
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.22.2"
 }
