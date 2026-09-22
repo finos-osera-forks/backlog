@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.22.2",
-  "as_of": "2026-09-22T08:48:04Z",
+  "as_of": "2026-09-22T09:25:52Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 27,
@@ -119,13 +119,26 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "issue #106 for CVE-2026-41848 is closed in backlog while the entry on org.springframework:spring-core is open",
+    "issue #108 for CVE-2026-41849 is closed in backlog while the entry on org.springframework:spring-expression is open",
+    "issue #110 for CVE-2026-41850 is closed in backlog while the entry on org.springframework:spring-expression is open",
+    "issue #112 for CVE-2026-41851 is closed in backlog while the entry on org.springframework:spring-expression is open",
+    "issue #137 for CVE-2026-50193 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
+    "issue #139 for CVE-2026-54512 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
+    "issue #141 for CVE-2026-54513 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #15 for CVE-2022-42003 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
+    "issue #157 for GHSA-r7wm-3cxj-wff9 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
     "issue #16 for CVE-2022-42004 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #21 for CVE-2024-22243 is closed in backlog while the entry on org.springframework:spring-web is open",
     "issue #23 for CVE-2024-22259 is closed in backlog while the entry on org.springframework:spring-web is open",
     "issue #24 for CVE-2024-22262 is closed in backlog while the entry on org.springframework:spring-web is open",
+    "issue #47 for CVE-2025-41249 is closed in backlog while the entry on org.springframework:spring-core is open",
+    "issue #5 for CVE-2016-1000027 is closed in backlog while the entry on org.springframework:spring-web is open",
+    "issue #56 for CVE-2025-52999 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
     "issue #7 for CVE-2020-36518 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
-    "issue #8 for CVE-2021-46877 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open"
+    "issue #8 for CVE-2021-46877 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
+    "issue #92 for CVE-2026-41716 is closed in backlog while the entry on org.springframework.data:spring-data-commons is open",
+    "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open"
   ],
   "consume": ""
 }
