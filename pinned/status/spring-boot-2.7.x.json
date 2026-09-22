@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.22.6",
-  "as_of": "2026-09-22T22:34:14Z",
+  "book_version": "v2026.09.22.7",
+  "as_of": "2026-09-22T22:35:41Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 168,
@@ -824,5 +824,5 @@
     "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.4"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.5"
 }
