@@ -24,7 +24,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -36,15 +36,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -74,7 +74,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -86,15 +86,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -124,7 +124,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -136,15 +136,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -174,7 +174,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -186,15 +186,65 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:20Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:20Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:20Z"
+          "checked_at": "2026-09-22T22:28:59Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00005",
+      "producer": "moderne",
+      "fork": "patch-jackson-dataformats-binary",
+      "tag": "v2.13.5.1-osera-00005",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:29:00Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:29:00Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:29:00Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:29:00Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:28:59Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:28:59Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:26:18Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:29:01Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:29:01Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-22T22:29:01Z"
         }
       },
       "chain": "complete",
@@ -224,7 +274,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -236,15 +286,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -276,7 +326,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -288,15 +338,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -328,7 +378,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -340,15 +390,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -378,7 +428,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -390,15 +440,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -431,7 +481,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -443,15 +493,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -481,7 +531,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -493,15 +543,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
@@ -531,7 +581,7 @@
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "verdict": {
           "state": "present",
@@ -543,15 +593,15 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         },
         "tagger": {
           "state": "present",
-          "checked_at": "2026-09-22T22:28:18Z"
+          "checked_at": "2026-09-22T22:28:59Z"
         }
       },
       "chain": "complete",
