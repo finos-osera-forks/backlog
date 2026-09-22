@@ -1,11 +1,19 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.22.13",
-  "as_of": "2026-09-22T22:50:24Z",
+  "book_version": "v2026.09.22.14",
+  "as_of": "2026-09-22T22:51:43Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
   "fixed": [
+    {
+      "cve": "CVE-2025-22227",
+      "library": "io.projectreactor.netty:reactor-netty-http",
+      "coordinate": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001",
+      "patch": "00001",
+      "named_by": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001",
+      "at": "2026-09-22T22:51:43Z"
+    },
     {
       "cve": "CVE-2025-52999",
       "library": "com.fasterxml.jackson.core:jackson-core",
@@ -172,10 +180,6 @@
     {
       "cve": "CVE-2025-11226",
       "library": "ch.qos.logback:logback-core"
-    },
-    {
-      "cve": "CVE-2025-22227",
-      "library": "io.projectreactor.netty:reactor-netty-http"
     },
     {
       "cve": "CVE-2025-22228",
@@ -350,6 +354,7 @@
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
+    "fixed, not in the backlog: CVE-2025-22227 on io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
@@ -398,5 +403,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.12"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.13"
 }

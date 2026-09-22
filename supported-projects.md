@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-22T22:50:24Z. Written by the line manager reconciler.
+Generated 2026-09-22T22:51:43Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 71 | 12 | 17% | 196 | 0 | 59 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 71 | 13 | 18% | 196 | 0 | 58 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 19 | 0 | 0% | 24 | 0 | 19 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 20 | 6 | 30% | 40 | 0 | 14 | 0 |
 
@@ -23,7 +23,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 2 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00001 | 1.0.48.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 2 | 0 | 0 | 0 | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -59,6 +59,14 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 6 | 0 | 0% | 9 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+
+## Libraries promoted, not in the backlog
+
+1 library, 1 patched version(s).
+
+| name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| io.projectreactor.kafka:reactor-kafka | 1.3.23 | in the dependency graph of spring-boot-2.7.x at 1.3.25, uploaded on 1.3.23 | spring-boot-2.7.x |  | 1.3.23.1-osera-00001 | 1.3.23.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 
 ## Released with the lines
 
