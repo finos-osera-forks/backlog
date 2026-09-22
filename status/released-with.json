@@ -37,6 +37,15 @@
       "first_seen": "2026-09-22T22:40:17Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-bom@9.4.58.v20250814-osera-00003",
+      "library": "org.eclipse.jetty:jetty-bom",
+      "base": "9.4.58.v20250814",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 9.4.53.v20231009",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-22T22:43:26Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-project",
       "base": "9.4.58.v20250814",
