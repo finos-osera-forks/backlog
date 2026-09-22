@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:702aa37e-35ed-4b38-a931-cd3530357419",
+ "serialNumber": "urn:uuid:ea9f365b-b800-4db5-b147-653813e533fe",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-22T08:35:02Z",
+  "timestamp": "2026-09-22T19:43:25Z",
   "tools": {
    "components": [
     {
@@ -1702,11 +1702,67 @@
   },
   {
    "type": "library",
+   "bom-ref": "pkg:maven/io.projectreactor.addons/reactor-adapter@3.4.10",
+   "group": "io.projectreactor.addons",
+   "name": "reactor-adapter",
+   "version": "3.4.10",
+   "purl": "pkg:maven/io.projectreactor.addons/reactor-adapter@3.4.10",
+   "properties": [
+    {
+     "name": "osera:listed",
+     "value": "io.projectreactor:reactor-bom@2020.0.38"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/io.projectreactor.addons/reactor-extra@3.4.10",
+   "group": "io.projectreactor.addons",
+   "name": "reactor-extra",
+   "version": "3.4.10",
+   "purl": "pkg:maven/io.projectreactor.addons/reactor-extra@3.4.10",
+   "properties": [
+    {
+     "name": "osera:listed",
+     "value": "io.projectreactor:reactor-bom@2020.0.38"
+    }
+   ]
+  },
+  {
+   "type": "library",
    "bom-ref": "pkg:maven/io.projectreactor.addons/reactor-pool@0.2.12",
    "group": "io.projectreactor.addons",
    "name": "reactor-pool",
    "version": "0.2.12",
    "purl": "pkg:maven/io.projectreactor.addons/reactor-pool@0.2.12"
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/io.projectreactor.kafka/reactor-kafka@1.3.22",
+   "group": "io.projectreactor.kafka",
+   "name": "reactor-kafka",
+   "version": "1.3.22",
+   "purl": "pkg:maven/io.projectreactor.kafka/reactor-kafka@1.3.22",
+   "properties": [
+    {
+     "name": "osera:listed",
+     "value": "io.projectreactor:reactor-bom@2020.0.38"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/io.projectreactor.kotlin/reactor-kotlin-extensions@1.1.10",
+   "group": "io.projectreactor.kotlin",
+   "name": "reactor-kotlin-extensions",
+   "version": "1.1.10",
+   "purl": "pkg:maven/io.projectreactor.kotlin/reactor-kotlin-extensions@1.1.10",
+   "properties": [
+    {
+     "name": "osera:listed",
+     "value": "io.projectreactor:reactor-bom@2020.0.38"
+    }
+   ]
   },
   {
    "type": "library",
@@ -1754,11 +1810,53 @@
   },
   {
    "type": "library",
+   "bom-ref": "pkg:maven/io.projectreactor.rabbitmq/reactor-rabbitmq@1.5.6",
+   "group": "io.projectreactor.rabbitmq",
+   "name": "reactor-rabbitmq",
+   "version": "1.5.6",
+   "purl": "pkg:maven/io.projectreactor.rabbitmq/reactor-rabbitmq@1.5.6",
+   "properties": [
+    {
+     "name": "osera:listed",
+     "value": "io.projectreactor:reactor-bom@2020.0.38"
+    }
+   ]
+  },
+  {
+   "type": "library",
    "bom-ref": "pkg:maven/io.projectreactor/reactor-core@3.4.34",
    "group": "io.projectreactor",
    "name": "reactor-core",
    "version": "3.4.34",
    "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.34"
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/io.projectreactor/reactor-test@3.4.34",
+   "group": "io.projectreactor",
+   "name": "reactor-test",
+   "version": "3.4.34",
+   "purl": "pkg:maven/io.projectreactor/reactor-test@3.4.34",
+   "properties": [
+    {
+     "name": "osera:listed",
+     "value": "io.projectreactor:reactor-bom@2020.0.38"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/io.projectreactor/reactor-tools@3.4.34",
+   "group": "io.projectreactor",
+   "name": "reactor-tools",
+   "version": "3.4.34",
+   "purl": "pkg:maven/io.projectreactor/reactor-tools@3.4.34",
+   "properties": [
+    {
+     "name": "osera:listed",
+     "value": "io.projectreactor:reactor-bom@2020.0.38"
+    }
+   ]
   },
   {
    "type": "library",
@@ -7556,7 +7654,23 @@
    "dependsOn": []
   },
   {
+   "ref": "pkg:maven/io.projectreactor.addons/reactor-adapter@3.4.10",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/io.projectreactor.addons/reactor-extra@3.4.10",
+   "dependsOn": []
+  },
+  {
    "ref": "pkg:maven/io.projectreactor.addons/reactor-pool@0.2.12",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/io.projectreactor.kafka/reactor-kafka@1.3.22",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/io.projectreactor.kotlin/reactor-kotlin-extensions@1.1.10",
    "dependsOn": []
   },
   {
@@ -7583,10 +7697,22 @@
    "dependsOn": []
   },
   {
+   "ref": "pkg:maven/io.projectreactor.rabbitmq/reactor-rabbitmq@1.5.6",
+   "dependsOn": []
+  },
+  {
    "ref": "pkg:maven/io.projectreactor/reactor-core@3.4.34",
    "dependsOn": [
     "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
    ]
+  },
+  {
+   "ref": "pkg:maven/io.projectreactor/reactor-test@3.4.34",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/io.projectreactor/reactor-tools@3.4.34",
+   "dependsOn": []
   },
   {
    "ref": "pkg:maven/io.r2dbc/r2dbc-pool@0.9.2.RELEASE",
