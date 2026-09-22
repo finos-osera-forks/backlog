@@ -9,7 +9,8 @@
 # create tags (repository ruleset).
 #
 # Safe to run again: it reads the book at the tag and the issues that already exist, and only
-# does what is missing. It never closes, reopens, assigns or deletes an issue.
+# does what is missing. It never closes, reopens, assigns or deletes an issue: closing the issue
+# of a CVE that left the book, with the reason, is the line manager's (trust backlog T58, 22 Sept 2026).
 name: OSERA backlog issue orchestration
 run-name: OSERA backlog issue orchestration ${{ github.ref_name }}
 
@@ -189,7 +190,16 @@ jobs:
 
             # 6c. no issue yet: fill the template and open one
             BODY="$TEMPLATE_BODY"
-            BODY="${BODY//"<CVE id, with the link to the advisory>"/$CVE, https://nvd.nist.gov/vuln/detail/$CVE}"
+            # a CVE id links to NVD, a GHSA id to GitHub's advisory database
+            case "$CVE" in
+              GHSA-*)
+                ADVISORY_URL="https://github.com/advisories/$CVE"
+                ;;
+              *)
+                ADVISORY_URL="https://nvd.nist.gov/vuln/detail/$CVE"
+                ;;
+            esac
+            BODY="${BODY//"<CVE id, with the link to the advisory>"/$CVE, $ADVISORY_URL}"
             BODY="${BODY//"<group:artifact of the jar that holds the affected code>"/$LIBRARIES}"
             BODY="${BODY//"<version>"/$VERSIONS}"
             BODY="${BODY//"<the supported lines this CVE is on>"/$LINES}"
@@ -211,21 +221,3 @@ jobs:
             sleep "$PAUSE_SECONDS"
           done < <(jq -r '[.entries[] | "\(.cve)\t\(.library)\t\(.version)"] | unique | .[]' "$BOOK")
           echo "opened $OPENED issue(s), $KEPT already existed" | tee -a "$GITHUB_STEP_SUMMARY"
-
-      # 7. CVEs that were in the previous book and are not in this one: a comment, never a close.
-      - name: CVEs that left the book
-        if: steps.book.outputs.present == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-          TAG: ${{ github.ref_name }}
-        run: |
-          set -euo pipefail
-          for CVE in $(jq -r --slurpfile now "$BOOK" '[.entries[].cve] - [$now[0].entries[].cve] | unique | .[]' previous.json)
-          do
-            FOUND="$(jq -c --arg cve "$CVE" 'map(select((.title | test("(^|[^0-9A-Za-z-])" + $cve + "([^0-9]|$)")) and .state == "OPEN")) | first // empty' existing.json)"
-            if [ -n "$FOUND" ]
-            then
-              gh issue comment "$(jq -r .url <<<"$FOUND")" --body "$CVE is no longer in the book as of $TAG. Left open on purpose, a person decides what happens to this issue."
-              sleep "$PAUSE_SECONDS"
-            fi
-          done
