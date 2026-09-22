@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.22.3",
-  "as_of": "2026-09-22T20:59:37Z",
+  "as_of": "2026-09-22T22:24:46Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -299,6 +299,8 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "CVE-2026-41006 on spring-hateoas 1.5.6: promoted artifact org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001 refused: no verdict for 1.5.6.1-osera-00001 in osera-releases-raw-01"
+  ],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22"
 }

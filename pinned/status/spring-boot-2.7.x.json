@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.22.3",
-  "as_of": "2026-09-22T20:59:37Z",
+  "as_of": "2026-09-22T22:24:46Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 168,
@@ -683,6 +683,7 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "CVE-2026-41006 on spring-hateoas 1.5.6: promoted artifact org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001 refused: no verdict for 1.5.6.1-osera-00001 in osera-releases-raw-01",
     "issue #116 for CVE-2026-42498 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #117 for CVE-2026-42578 is closed in backlog while the entry on io.netty:netty-handler-proxy is open",
     "issue #118 for CVE-2026-42579 is closed in backlog while the entry on io.netty:netty-codec-dns is open",
