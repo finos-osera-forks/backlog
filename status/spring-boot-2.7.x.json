@@ -1,11 +1,27 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.22.3",
-  "as_of": "2026-09-22T22:24:46Z",
+  "as_of": "2026-09-22T22:25:26Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
   "fixed": [
+    {
+      "cve": "CVE-2026-41006",
+      "library": "org.springframework.hateoas:spring-hateoas",
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "at": "2026-09-22T22:25:26Z"
+    },
+    {
+      "cve": "CVE-2026-41007",
+      "library": "org.springframework.hateoas:spring-hateoas",
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "at": "2026-09-22T22:25:26Z"
+    },
     {
       "cve": "CVE-2026-41720",
       "library": "org.springframework.ldap:spring-ldap-core",
@@ -170,14 +186,6 @@
       "library": "org.springframework.ws:spring-ws-core"
     },
     {
-      "cve": "CVE-2026-41006",
-      "library": "org.springframework.hateoas:spring-hateoas"
-    },
-    {
-      "cve": "CVE-2026-41007",
-      "library": "org.springframework.hateoas:spring-hateoas"
-    },
-    {
       "cve": "CVE-2026-41700",
       "library": "org.springframework.graphql:spring-graphql"
     },
@@ -299,8 +307,6 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [
-    "CVE-2026-41006 on spring-hateoas 1.5.6: promoted artifact org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001 refused: no verdict for 1.5.6.1-osera-00001 in osera-releases-raw-01"
-  ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22"
+  "discrepancies": [],
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.22.2"
 }

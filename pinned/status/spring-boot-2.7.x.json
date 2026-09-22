@@ -1,11 +1,28 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.22.3",
-  "as_of": "2026-09-22T22:24:46Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-09-22T22:25:26Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 168,
-  "fixed": [],
+  "fixed": [
+    {
+      "cve": "CVE-2026-41006",
+      "library": "org.springframework.hateoas:spring-hateoas",
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "at": "2026-09-22T22:25:26Z"
+    },
+    {
+      "cve": "CVE-2026-41007",
+      "library": "org.springframework.hateoas:spring-hateoas",
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "at": "2026-09-22T22:25:26Z"
+    }
+  ],
   "in_progress": [],
   "open": [
     {
@@ -323,14 +340,6 @@
     {
       "cve": "CVE-2026-40999",
       "library": "org.springframework.ws:spring-ws-core"
-    },
-    {
-      "cve": "CVE-2026-41006",
-      "library": "org.springframework.hateoas:spring-hateoas"
-    },
-    {
-      "cve": "CVE-2026-41007",
-      "library": "org.springframework.hateoas:spring-hateoas"
     },
     {
       "cve": "CVE-2026-41284",
@@ -683,7 +692,6 @@
   ],
   "not_remediable": [],
   "discrepancies": [
-    "CVE-2026-41006 on spring-hateoas 1.5.6: promoted artifact org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001 refused: no verdict for 1.5.6.1-osera-00001 in osera-releases-raw-01",
     "issue #116 for CVE-2026-42498 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #117 for CVE-2026-42578 is closed in backlog while the entry on io.netty:netty-handler-proxy is open",
     "issue #118 for CVE-2026-42579 is closed in backlog while the entry on io.netty:netty-codec-dns is open",
