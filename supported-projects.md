@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-22T22:33:07Z. Written by the line manager reconciler.
+Generated 2026-09-22T22:34:14Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -20,7 +20,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 1 | 0 | 0% | 5 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 2 | 0 | 0 | 0 | 2.13.5.1-osera-00006 | 2.13.5.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 2 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
