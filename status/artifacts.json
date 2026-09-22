@@ -1,34 +1,34 @@
 {
   "artifacts": [
     {
-      "coordinate": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
+      "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
       "producer": "moderne",
       "fork": "patch-spring-ldap",
       "tag": "v2.4.4.1-osera-00001",
       "links": {
         "files": {
           "state": "present",
-          "checked_at": "2026-09-22T20:58:07Z"
+          "checked_at": "2026-09-22T20:58:49Z"
         },
         "evidence": {
           "state": "present",
-          "checked_at": "2026-09-22T20:58:07Z"
+          "checked_at": "2026-09-22T20:58:49Z"
         },
         "signatures": {
           "state": "present",
-          "checked_at": "2026-09-22T20:58:07Z"
+          "checked_at": "2026-09-22T20:58:49Z"
         },
         "document": {
           "state": "present",
-          "checked_at": "2026-09-22T20:58:07Z"
+          "checked_at": "2026-09-22T20:58:49Z"
         },
         "producer": {
           "state": "present",
-          "checked_at": "2026-09-22T20:58:05Z"
+          "checked_at": "2026-09-22T20:58:48Z"
         },
         "verdict": {
           "state": "present",
-          "checked_at": "2026-09-22T20:58:05Z"
+          "checked_at": "2026-09-22T20:58:48Z"
         },
         "fork": {
           "state": "present",
@@ -36,15 +36,218 @@
         },
         "tag": {
           "state": "present",
-          "checked_at": "2026-09-22T20:58:08Z"
+          "checked_at": "2026-09-22T20:58:49Z"
         },
         "upload": {
           "state": "present",
-          "checked_at": "2026-09-22T20:58:08Z"
+          "checked_at": "2026-09-22T20:58:49Z"
         },
         "tagger": {
           "state": "present",
+          "checked_at": "2026-09-22T20:58:49Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-ldap",
+      "tag": "v2.4.4.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:49Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:49Z"
+        },
+        "fork": {
+          "state": "present",
           "checked_at": "2026-09-22T20:58:08Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        }
+      },
+      "chain": "complete",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ]
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-ldap",
+      "tag": "v2.4.4.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:48Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:48Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:48Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:48Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:47Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:47Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:08Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:48Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:48Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:48Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-ldap",
+      "tag": "v2.4.4.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:51Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:51Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:51Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:51Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:50Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:08Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:51Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:51Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:51Z"
+        }
+      },
+      "chain": "complete",
+      "lines": []
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001",
+      "producer": "moderne",
+      "fork": "patch-spring-ldap",
+      "tag": "v2.4.4.1-osera-00001",
+      "links": {
+        "files": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:52Z"
+        },
+        "evidence": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:52Z"
+        },
+        "signatures": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:52Z"
+        },
+        "document": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:53Z"
+        },
+        "producer": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:51Z"
+        },
+        "verdict": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:52Z"
+        },
+        "fork": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:08Z"
+        },
+        "tag": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:53Z"
+        },
+        "upload": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:53Z"
+        },
+        "tagger": {
+          "state": "present",
+          "checked_at": "2026-09-22T20:58:53Z"
         }
       },
       "chain": "complete",
