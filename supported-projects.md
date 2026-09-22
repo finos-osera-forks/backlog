@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-22T22:47:32Z. Written by the line manager reconciler.
+Generated 2026-09-22T22:49:12Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -62,10 +62,12 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-3 component(s), 10 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+5 component(s), 12 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | com.fasterxml.jackson:jackson-bom | 2.13.5 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-52999, CVE-2026-50193, CVE-2026-54512, CVE-2026-54513, CVE-2026-54514, CVE-2026-54515, GHSA-R7WM-3CXJ-WFF9) | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (log4j-2.17.2.1-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j-bom | 2.17.2 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-34480) | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-bom | 9.4.58.v20250814 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 9.4.53.v20231009 | pins the patched modules (REL-009: a pinning BOM releases again) | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-11143, CVE-2026-10050, CVE-2026-2332, CVE-2026-5795) | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-project | 9.4.58.v20250814 | parent | patch-jetty.project v9.4.58.v20250814-osera-00004 | the patched modules name it as their parent, a build needs it to resolve them | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (jetty-project-9.4.58.v20250814-osera-00004-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
