@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-22T22:40:17Z. Written by the line manager reconciler.
+Generated 2026-09-22T22:41:46Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 71 | 9 | 13% | 196 | 0 | 62 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 71 | 10 | 14% | 196 | 0 | 61 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | not fixed | 19 | 0 | 0% | 24 | 0 | 19 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 20 | 6 | 30% | 40 | 0 | 14 | 0 |
 
@@ -29,7 +29,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-http | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 9.4.58.v20250814-osera-00002 | 9.4.58.v20250814-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-jaspi | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.eclipse.jetty:jetty-security | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.eclipse.jetty:jetty-security | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 9.4.58.v20250814-osera-00002 | 9.4.58.v20250814-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.hibernate:hibernate-core | 5.6.15.Final | spring-boot-2.7.x | listed by the BOM at 5.6.15.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -62,10 +62,10 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-3 component(s), 5 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+3 component(s), 6 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | com.fasterxml.jackson:jackson-bom | 2.13.5 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-52999, CVE-2026-50193, CVE-2026-54512, CVE-2026-54513, CVE-2026-54514, CVE-2026-54515, GHSA-R7WM-3CXJ-WFF9) | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-bom | 9.4.58.v20250814 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 9.4.53.v20231009 | pins the patched modules (REL-009: a pinning BOM releases again) | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | 9.4.58.v20250814-osera-00002 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-10050, CVE-2026-2332) | OK | OK | OK | OK | OK | OK |
-| org.eclipse.jetty:jetty-project | 9.4.58.v20250814 | parent | patch-jetty.project v9.4.58.v20250814-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 9.4.58.v20250814-osera-00001 | 9.4.58.v20250814-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (jetty-project-9.4.58.v20250814-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
+| org.eclipse.jetty:jetty-project | 9.4.58.v20250814 | parent | patch-jetty.project v9.4.58.v20250814-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 | 9.4.58.v20250814-osera-00002 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (jetty-project-9.4.58.v20250814-osera-00002-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
