@@ -1,0 +1,91 @@
+{
+  "line": "spring-framework-5.3.x",
+  "book_version": "v2026.09.15",
+  "as_of": "2026-09-22T08:26:52Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 19,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2016-1000027",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-38816",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2024-38816",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2024-38819",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2024-38819",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2025-41249",
+      "library": "org.springframework:spring-core"
+    },
+    {
+      "cve": "CVE-2026-22740",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41838",
+      "library": "org.springframework:spring-websocket"
+    },
+    {
+      "cve": "CVE-2026-41842",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41842",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-41844",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41844",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-41845",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-41846",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-41848",
+      "library": "org.springframework:spring-core"
+    },
+    {
+      "cve": "CVE-2026-41849",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41850",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41851",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41855",
+      "library": "org.springframework:spring-jms"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}

@@ -4,7 +4,7 @@
   "as_of": "2026-09-22T08:26:52Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 148,
+  "in_scope": 168,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -179,6 +179,10 @@
     {
       "cve": "CVE-2025-49125",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2025-5115",
+      "library": "org.eclipse.jetty.http2:http2-common"
     },
     {
       "cve": "CVE-2025-52434",
@@ -469,6 +473,10 @@
       "library": "io.netty:netty-codec-http"
     },
     {
+      "cve": "CVE-2026-42586",
+      "library": "io.netty:netty-codec-redis"
+    },
+    {
       "cve": "CVE-2026-42587",
       "library": "io.netty:netty-codec-http"
     },
@@ -489,8 +497,28 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2026-44248",
+      "library": "io.netty:netty-codec-mqtt"
+    },
+    {
       "cve": "CVE-2026-44249",
       "library": "io.netty:netty-handler"
+    },
+    {
+      "cve": "CVE-2026-44250",
+      "library": "io.netty:netty-codec-redis"
+    },
+    {
+      "cve": "CVE-2026-44890",
+      "library": "io.netty:netty-codec-redis"
+    },
+    {
+      "cve": "CVE-2026-44891",
+      "library": "io.netty:netty-codec-stomp"
+    },
+    {
+      "cve": "CVE-2026-44893",
+      "library": "io.netty:netty-codec-haproxy"
     },
     {
       "cve": "CVE-2026-45416",
@@ -505,6 +533,10 @@
       "library": "io.netty:netty-resolver-dns"
     },
     {
+      "cve": "CVE-2026-46340",
+      "library": "io.netty:netty-transport-sctp"
+    },
+    {
       "cve": "CVE-2026-47691",
       "library": "io.netty:netty-resolver-dns"
     },
@@ -513,12 +545,24 @@
       "library": "org.springframework.security:spring-security-web"
     },
     {
+      "cve": "CVE-2026-48006",
+      "library": "io.netty:netty-codec-redis"
+    },
+    {
       "cve": "CVE-2026-48043",
       "library": "io.netty:netty-codec-http2"
     },
     {
+      "cve": "CVE-2026-48059",
+      "library": "io.netty:netty-codec-haproxy"
+    },
+    {
       "cve": "CVE-2026-50010",
       "library": "io.netty:netty-handler"
+    },
+    {
+      "cve": "CVE-2026-50011",
+      "library": "io.netty:netty-codec-redis"
     },
     {
       "cve": "CVE-2026-50193",
@@ -541,6 +585,10 @@
       "library": "io.netty:netty-codec-http"
     },
     {
+      "cve": "CVE-2026-55851",
+      "library": "io.netty:netty-codec-haproxy"
+    },
+    {
       "cve": "CVE-2026-56745",
       "library": "io.netty:netty-codec-http"
     },
@@ -549,8 +597,28 @@
       "library": "io.netty:netty-codec-http"
     },
     {
+      "cve": "CVE-2026-56817",
+      "library": "io.netty:netty-codec-xml"
+    },
+    {
+      "cve": "CVE-2026-56818",
+      "library": "io.netty:netty-codec-redis"
+    },
+    {
       "cve": "CVE-2026-56819",
       "library": "io.netty:netty-codec-http2"
+    },
+    {
+      "cve": "CVE-2026-56820",
+      "library": "io.netty:netty-handler-ssl-ocsp"
+    },
+    {
+      "cve": "CVE-2026-56821",
+      "library": "io.netty:netty-handler-ssl-ocsp"
+    },
+    {
+      "cve": "CVE-2026-56822",
+      "library": "io.netty:netty-handler-ssl-ocsp"
     },
     {
       "cve": "CVE-2026-5795",
@@ -569,8 +637,16 @@
       "library": "io.netty:netty-codec"
     },
     {
+      "cve": "CVE-2026-59902",
+      "library": "io.netty:netty-transport-sctp"
+    },
+    {
       "cve": "CVE-2026-59903",
       "library": "io.netty:netty-codec-http"
+    },
+    {
+      "cve": "CVE-2026-59920",
+      "library": "io.netty:netty-codec-stomp"
     },
     {
       "cve": "CVE-2026-59921",
@@ -587,6 +663,10 @@
     {
       "cve": "CVE-2026-68525",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-73507",
+      "library": "io.netty:netty-codec-xml"
     },
     {
       "cve": "CVE-2026-75595",

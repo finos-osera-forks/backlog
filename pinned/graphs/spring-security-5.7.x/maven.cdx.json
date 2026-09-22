@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:664ff73d-ea02-4954-9549-a8086b538be1",
+ "serialNumber": "urn:uuid:8a3868df-4d30-4907-bff2-59df365eee64",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-22T08:33:58Z",
+  "timestamp": "2026-09-22T08:35:06Z",
   "tools": {
    "components": [
     {
@@ -42,11 +42,11 @@
     },
     {
      "name": "osera:view",
-     "value": "latest_patch"
+     "value": "pinned"
     },
     {
      "name": "osera:latest",
-     "value": "org.springframework:spring-beans:5.3.29\u003e5.3.39,com.fasterxml.jackson.core:jackson-annotations:2.13.0\u003e2.13.5,io.netty:netty-buffer:4.1.93.Final\u003e4.1.138.Final,org.springframework:spring-jdbc:5.3.29\u003e5.3.39,org.springframework:spring-test:5.3.29\u003e5.3.39,org.springframework:spring-messaging:5.3.29\u003e5.3.39,net.minidev:json-smart:2.4.8\u003e2.4.11,org.springframework.ldap:spring-ldap-core:2.4.1\u003e2.4.4,io.rsocket:rsocket-core:1.1.4\u003e1.1.5,joda-time:joda-time:2.9\u003e2.9.9,org.springframework:spring-context:5.3.29\u003e5.3.39,io.netty:netty-common:4.1.93.Final\u003e4.1.138.Final,com.fasterxml.jackson.core:jackson-core:2.13.0\u003e2.13.5,org.springframework:spring-expression:5.3.29\u003e5.3.39,org.springframework.data:spring-data-commons:2.7.14\u003e2.7.18,org.springframework:spring-aop:5.3.29\u003e5.3.39,org.springframework:spring-jcl:5.3.29\u003e5.3.39,org.springframework:spring-web:5.3.29\u003e5.3.39,net.minidev:accessors-smart:2.4.8\u003e2.4.11,com.fasterxml.jackson.core:jackson-databind:2.13.0\u003e2.13.5,org.springframework:spring-tx:5.3.29\u003e5.3.39,org.aspectj:aspectjrt:1.9.19\u003e1.9.25.1,commons-collections:commons-collections:3.2.1\u003e3.2.2,org.springframework:spring-core:5.3.29\u003e5.3.39,org.slf4j:slf4j-api:1.7.32\u003e1.7.36,io.projectreactor:reactor-core:3.4.29\u003e3.4.41"
+     "value": ""
     },
     {
      "name": "osera:method",
@@ -62,27 +62,27 @@
  "components": [
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.5",
+   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.0",
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-annotations",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.5"
+   "version": "2.13.0",
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.0"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5",
+   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.0",
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-core",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5"
+   "version": "2.13.0",
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.0"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5",
+   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.0",
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-databind",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5"
+   "version": "2.13.0",
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.0"
   },
   {
    "type": "library",
@@ -166,11 +166,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.2",
+   "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
    "group": "commons-collections",
    "name": "commons-collections",
-   "version": "3.2.2",
-   "purl": "pkg:maven/commons-collections/commons-collections@3.2.2"
+   "version": "3.2.1",
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.1"
   },
   {
    "type": "library",
@@ -190,35 +190,35 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.138.Final",
+   "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.93.Final",
    "group": "io.netty",
    "name": "netty-buffer",
-   "version": "4.1.138.Final",
-   "purl": "pkg:maven/io.netty/netty-buffer@4.1.138.Final"
+   "version": "4.1.93.Final",
+   "purl": "pkg:maven/io.netty/netty-buffer@4.1.93.Final"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-common@4.1.138.Final",
+   "bom-ref": "pkg:maven/io.netty/netty-common@4.1.93.Final",
    "group": "io.netty",
    "name": "netty-common",
-   "version": "4.1.138.Final",
-   "purl": "pkg:maven/io.netty/netty-common@4.1.138.Final"
+   "version": "4.1.93.Final",
+   "purl": "pkg:maven/io.netty/netty-common@4.1.93.Final"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor/reactor-core@3.4.41",
+   "bom-ref": "pkg:maven/io.projectreactor/reactor-core@3.4.29",
    "group": "io.projectreactor",
    "name": "reactor-core",
-   "version": "3.4.41",
-   "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.41"
+   "version": "3.4.29",
+   "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.rsocket/rsocket-core@1.1.5",
+   "bom-ref": "pkg:maven/io.rsocket/rsocket-core@1.1.4",
    "group": "io.rsocket",
    "name": "rsocket-core",
-   "version": "1.1.5",
-   "purl": "pkg:maven/io.rsocket/rsocket-core@1.1.5"
+   "version": "1.1.4",
+   "purl": "pkg:maven/io.rsocket/rsocket-core@1.1.4"
   },
   {
    "type": "library",
@@ -238,11 +238,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/joda-time/joda-time@2.9.9",
+   "bom-ref": "pkg:maven/joda-time/joda-time@2.9",
    "group": "joda-time",
    "name": "joda-time",
-   "version": "2.9.9",
-   "purl": "pkg:maven/joda-time/joda-time@2.9.9"
+   "version": "2.9",
+   "purl": "pkg:maven/joda-time/joda-time@2.9"
   },
   {
    "type": "library",
@@ -254,19 +254,19 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/net.minidev/accessors-smart@2.4.11",
+   "bom-ref": "pkg:maven/net.minidev/accessors-smart@2.4.8",
    "group": "net.minidev",
    "name": "accessors-smart",
-   "version": "2.4.11",
-   "purl": "pkg:maven/net.minidev/accessors-smart@2.4.11"
+   "version": "2.4.8",
+   "purl": "pkg:maven/net.minidev/accessors-smart@2.4.8"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/net.minidev/json-smart@2.4.11",
+   "bom-ref": "pkg:maven/net.minidev/json-smart@2.4.8",
    "group": "net.minidev",
    "name": "json-smart",
-   "version": "2.4.11",
-   "purl": "pkg:maven/net.minidev/json-smart@2.4.11"
+   "version": "2.4.8",
+   "purl": "pkg:maven/net.minidev/json-smart@2.4.8"
   },
   {
    "type": "library",
@@ -318,11 +318,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.aspectj/aspectjrt@1.9.25.1",
+   "bom-ref": "pkg:maven/org.aspectj/aspectjrt@1.9.19",
    "group": "org.aspectj",
    "name": "aspectjrt",
-   "version": "1.9.25.1",
-   "purl": "pkg:maven/org.aspectj/aspectjrt@1.9.25.1"
+   "version": "1.9.19",
+   "purl": "pkg:maven/org.aspectj/aspectjrt@1.9.19"
   },
   {
    "type": "library",
@@ -478,11 +478,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.ow2.asm/asm@9.3",
+   "bom-ref": "pkg:maven/org.ow2.asm/asm@9.1",
    "group": "org.ow2.asm",
    "name": "asm",
-   "version": "9.3",
-   "purl": "pkg:maven/org.ow2.asm/asm@9.3"
+   "version": "9.1",
+   "purl": "pkg:maven/org.ow2.asm/asm@9.1"
   },
   {
    "type": "library",
@@ -494,27 +494,27 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+   "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.32",
    "group": "org.slf4j",
    "name": "slf4j-api",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   "version": "1.7.32",
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.32"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18",
+   "bom-ref": "pkg:maven/org.springframework.data/spring-data-commons@2.7.14",
    "group": "org.springframework.data",
    "name": "spring-data-commons",
-   "version": "2.7.18",
-   "purl": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18"
+   "version": "2.7.14",
+   "purl": "pkg:maven/org.springframework.data/spring-data-commons@2.7.14"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4",
+   "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.1",
    "group": "org.springframework.ldap",
    "name": "spring-ldap-core",
-   "version": "2.4.4",
-   "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4"
+   "version": "2.4.1",
+   "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.1"
   },
   {
    "type": "library",
@@ -678,91 +678,91 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-aop@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-aop@5.3.29",
    "group": "org.springframework",
    "name": "spring-aop",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-aop@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-aop@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.29",
    "group": "org.springframework",
    "name": "spring-beans",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-beans@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-beans@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-context@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-context@5.3.29",
    "group": "org.springframework",
    "name": "spring-context",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-context@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-context@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.29",
    "group": "org.springframework",
    "name": "spring-core",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-core@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-core@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-expression@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-expression@5.3.29",
    "group": "org.springframework",
    "name": "spring-expression",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-expression@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-expression@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.3.29",
    "group": "org.springframework",
    "name": "spring-jcl",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-jcl@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-jcl@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-jdbc@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-jdbc@5.3.29",
    "group": "org.springframework",
    "name": "spring-jdbc",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-jdbc@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-jdbc@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-messaging@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-messaging@5.3.29",
    "group": "org.springframework",
    "name": "spring-messaging",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-messaging@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-messaging@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-test@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-test@5.3.29",
    "group": "org.springframework",
    "name": "spring-test",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-test@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-test@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-tx@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-tx@5.3.29",
    "group": "org.springframework",
    "name": "spring-tx",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-tx@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-tx@5.3.29"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework/spring-web@5.3.39",
+   "bom-ref": "pkg:maven/org.springframework/spring-web@5.3.29",
    "group": "org.springframework",
    "name": "spring-web",
-   "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-web@5.3.39"
+   "version": "5.3.29",
+   "purl": "pkg:maven/org.springframework/spring-web@5.3.29"
   },
   {
    "type": "library",
@@ -808,18 +808,18 @@
    ]
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.5",
+   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.0",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5",
+   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.0",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5",
+   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.0",
    "dependsOn": [
-    "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.5",
-    "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5"
+    "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.0",
+    "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.0"
    ]
   },
   {
@@ -862,7 +862,7 @@
     "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
     "pkg:maven/com.nimbusds/content-type@2.2",
     "pkg:maven/com.nimbusds/lang-tag@1.6",
-    "pkg:maven/net.minidev/json-smart@2.4.11"
+    "pkg:maven/net.minidev/json-smart@2.4.8"
    ]
   },
   {
@@ -870,7 +870,7 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/commons-collections/commons-collections@3.2.2",
+   "ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
    "dependsOn": []
   },
   {
@@ -882,26 +882,26 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/io.netty/netty-buffer@4.1.138.Final",
+   "ref": "pkg:maven/io.netty/netty-buffer@4.1.93.Final",
    "dependsOn": [
-    "pkg:maven/io.netty/netty-common@4.1.138.Final"
+    "pkg:maven/io.netty/netty-common@4.1.93.Final"
    ]
   },
   {
-   "ref": "pkg:maven/io.netty/netty-common@4.1.138.Final",
+   "ref": "pkg:maven/io.netty/netty-common@4.1.93.Final",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/io.projectreactor/reactor-core@3.4.41",
+   "ref": "pkg:maven/io.projectreactor/reactor-core@3.4.29",
    "dependsOn": [
     "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
    ]
   },
   {
-   "ref": "pkg:maven/io.rsocket/rsocket-core@1.1.5",
+   "ref": "pkg:maven/io.rsocket/rsocket-core@1.1.4",
    "dependsOn": [
-    "pkg:maven/io.netty/netty-buffer@4.1.138.Final",
-    "pkg:maven/io.projectreactor/reactor-core@3.4.41"
+    "pkg:maven/io.netty/netty-buffer@4.1.93.Final",
+    "pkg:maven/io.projectreactor/reactor-core@3.4.29"
    ]
   },
   {
@@ -915,7 +915,7 @@
    ]
   },
   {
-   "ref": "pkg:maven/joda-time/joda-time@2.9.9",
+   "ref": "pkg:maven/joda-time/joda-time@2.9",
    "dependsOn": []
   },
   {
@@ -923,15 +923,15 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/net.minidev/accessors-smart@2.4.11",
+   "ref": "pkg:maven/net.minidev/accessors-smart@2.4.8",
    "dependsOn": [
-    "pkg:maven/org.ow2.asm/asm@9.3"
+    "pkg:maven/org.ow2.asm/asm@9.1"
    ]
   },
   {
-   "ref": "pkg:maven/net.minidev/json-smart@2.4.11",
+   "ref": "pkg:maven/net.minidev/json-smart@2.4.8",
    "dependsOn": [
-    "pkg:maven/net.minidev/accessors-smart@2.4.11"
+    "pkg:maven/net.minidev/accessors-smart@2.4.8"
    ]
   },
   {
@@ -966,12 +966,12 @@
   {
    "ref": "pkg:maven/org.apache.velocity/velocity@1.7",
    "dependsOn": [
-    "pkg:maven/commons-collections/commons-collections@3.2.2",
+    "pkg:maven/commons-collections/commons-collections@3.2.1",
     "pkg:maven/commons-lang/commons-lang@2.4"
    ]
   },
   {
-   "ref": "pkg:maven/org.aspectj/aspectjrt@1.9.25.1",
+   "ref": "pkg:maven/org.aspectj/aspectjrt@1.9.19",
    "dependsOn": []
   },
   {
@@ -1000,10 +1000,10 @@
   {
    "ref": "pkg:maven/org.jasig.cas.client/cas-client-core@3.6.4",
    "dependsOn": [
-    "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5",
+    "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.0",
     "pkg:maven/commons-codec/commons-codec@1.15",
     "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70",
-    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+    "pkg:maven/org.slf4j/slf4j-api@1.7.32"
    ]
   },
   {
@@ -1016,7 +1016,7 @@
    "ref": "pkg:maven/org.opensaml/opensaml-core@3.4.6",
    "dependsOn": [
     "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.5",
-    "pkg:maven/joda-time/joda-time@2.9.9",
+    "pkg:maven/joda-time/joda-time@2.9",
     "pkg:maven/net.shibboleth.utilities/java-support@7.5.2"
    ]
   },
@@ -1081,7 +1081,7 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.ow2.asm/asm@9.3",
+   "ref": "pkg:maven/org.ow2.asm/asm@9.1",
    "dependsOn": []
   },
   {
@@ -1089,39 +1089,39 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+   "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.32",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18",
+   "ref": "pkg:maven/org.springframework.data/spring-data-commons@2.7.14",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4",
+   "ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.1",
    "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
    "dependsOn": [
-    "pkg:maven/org.springframework/spring-aop@5.3.39",
-    "pkg:maven/org.springframework/spring-context@5.3.39",
-    "pkg:maven/org.springframework/spring-core@5.3.39",
-    "pkg:maven/org.springframework/spring-jdbc@5.3.39",
-    "pkg:maven/org.springframework/spring-tx@5.3.39"
+    "pkg:maven/org.springframework/spring-aop@5.3.29",
+    "pkg:maven/org.springframework/spring-context@5.3.29",
+    "pkg:maven/org.springframework/spring-core@5.3.29",
+    "pkg:maven/org.springframework/spring-jdbc@5.3.29",
+    "pkg:maven/org.springframework/spring-tx@5.3.29"
    ]
   },
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11",
    "dependsOn": [
-    "pkg:maven/org.aspectj/aspectjrt@1.9.25.1",
-    "pkg:maven/org.springframework/spring-beans@5.3.39"
+    "pkg:maven/org.aspectj/aspectjrt@1.9.19",
+    "pkg:maven/org.springframework/spring-beans@5.3.29"
    ]
   },
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.11",
    "dependsOn": [
     "pkg:maven/org.jasig.cas.client/cas-client-core@3.6.4",
-    "pkg:maven/org.springframework/spring-web@5.3.39"
+    "pkg:maven/org.springframework/spring-web@5.3.29"
    ]
   },
   {
@@ -1131,7 +1131,7 @@
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
    "dependsOn": [
-    "pkg:maven/org.springframework/spring-expression@5.3.39"
+    "pkg:maven/org.springframework/spring-expression@5.3.29"
    ]
   },
   {
@@ -1142,19 +1142,19 @@
    "ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.11",
    "dependsOn": [
     "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3",
-    "pkg:maven/org.springframework.data/spring-data-commons@2.7.18"
+    "pkg:maven/org.springframework.data/spring-data-commons@2.7.14"
    ]
   },
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11",
    "dependsOn": [
-    "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4"
+    "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.1"
    ]
   },
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11",
    "dependsOn": [
-    "pkg:maven/org.springframework/spring-messaging@5.3.39"
+    "pkg:maven/org.springframework/spring-messaging@5.3.29"
    ]
   },
   {
@@ -1193,7 +1193,7 @@
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11",
    "dependsOn": [
-    "pkg:maven/io.rsocket/rsocket-core@1.1.5"
+    "pkg:maven/io.rsocket/rsocket-core@1.1.4"
    ]
   },
   {
@@ -1211,7 +1211,7 @@
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.11",
    "dependsOn": [
-    "pkg:maven/org.springframework/spring-test@5.3.39"
+    "pkg:maven/org.springframework/spring-test@5.3.29"
    ]
   },
   {
@@ -1219,49 +1219,49 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-aop@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-aop@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-beans@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-beans@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-context@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-context@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-core@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-core@5.3.29",
    "dependsOn": [
-    "pkg:maven/org.springframework/spring-jcl@5.3.39"
+    "pkg:maven/org.springframework/spring-jcl@5.3.29"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-expression@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-expression@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-jcl@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-jcl@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-jdbc@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-jdbc@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-messaging@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-messaging@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-test@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-test@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-tx@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-tx@5.3.29",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework/spring-web@5.3.39",
+   "ref": "pkg:maven/org.springframework/spring-web@5.3.29",
    "dependsOn": []
   },
   {
