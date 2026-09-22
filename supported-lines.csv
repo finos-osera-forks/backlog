@@ -1,4 +1,4 @@
-line_id,ecosystem,anchor,components,scope,source,status,book_version,as_of,in_scope,fixed,in_progress,open,not_remediable,consume,chain
-spring-boot-2.7.x,maven,org.springframework.boot:spring-boot-dependencies@2.7.18,org.springframework@5.3.39 org.springframework.security@5.7.11,wave-1,Board 19 Aug 2026 and risk-navigator #7,not fixed,v2026.09.15,2026-09-18T11:59:19Z,137,0,0,137,0,,
-spring-framework-5.3.x,maven,org.springframework:spring-framework-bom@5.3.39,,wave-1,Board 19 Aug 2026 and risk-navigator #7,not fixed,v2026.09.15,2026-09-18T11:59:19Z,19,0,0,19,0,,
-spring-security-5.7.x,maven,org.springframework.security:spring-security-bom@5.7.11,,wave-1,Board 19 Aug 2026 and risk-navigator #7,not fixed,v2026.09.15,2026-09-18T11:59:19Z,27,0,0,27,0,,
+line_id,ecosystem,anchor,components,scope,source,status,book_version,as_of,consume
+spring-boot-2.7.x,maven,org.springframework.boot:spring-boot-dependencies@2.7.18,org.springframework@5.3.39 org.springframework.security@5.7.11,wave-1,Board 19 Aug 2026 and risk-navigator #7,not fixed,v2026.09.15,2026-09-22T08:26:52Z,
+spring-framework-5.3.x,maven,org.springframework:spring-framework-bom@5.3.39,,wave-1,Board 19 Aug 2026 and risk-navigator #7,not fixed,v2026.09.15,2026-09-22T08:26:52Z,
+spring-security-5.7.x,maven,org.springframework.security:spring-security-bom@5.7.11,,wave-1,Board 19 Aug 2026 and risk-navigator #7,not fixed,v2026.09.15,2026-09-22T08:26:52Z,
