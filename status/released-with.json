@@ -44,6 +44,15 @@
       "released_with": "patch-jetty.project v9.4.58.v20250814-osera-00001",
       "why": "the patched modules name it as their parent, a build needs it to resolve them",
       "first_seen": "2026-09-22T22:38:20Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00002",
+      "library": "org.eclipse.jetty:jetty-project",
+      "base": "9.4.58.v20250814",
+      "kind": "parent",
+      "released_with": "patch-jetty.project v9.4.58.v20250814-osera-00002",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-09-22T22:41:46Z"
     }
   ]
 }
