@@ -145,6 +145,15 @@
       "first_seen": "2026-09-23T02:10:06Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00001",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00001",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-09-23T02:10:50Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-bom",
       "base": "2021.2.18",
