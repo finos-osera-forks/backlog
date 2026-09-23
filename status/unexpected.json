@@ -1,15 +1,3 @@
 {
-  "artifacts": [
-    {
-      "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
-      "library": "org.yaml:snakeyaml",
-      "base": "1.33",
-      "reason": "in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33",
-      "lines": [
-        "spring-boot-2.7.x"
-      ],
-      "words": "org.yaml:snakeyaml@1.33.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33",
-      "first_seen": "2026-09-23T14:02:28Z"
-    }
-  ]
+  "artifacts": null
 }
