@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-23T02:09:39Z. Written by the line manager reconciler.
+Generated 2026-09-23T02:10:06Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -70,7 +70,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-10 component(s), 18 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+12 component(s), 20 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -81,6 +81,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.eclipse.jetty:jetty-bom | 9.4.58.v20250814 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 9.4.53.v20231009 | pins the patched modules (REL-009: a pinning BOM releases again) | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-11143, CVE-2026-10050, CVE-2026-2332, CVE-2026-5795) | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-project | 9.4.58.v20250814 | parent | patch-jetty.project v9.4.58.v20250814-osera-00004 | the patched modules name it as their parent, a build needs it to resolve them | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (jetty-project-9.4.58.v20250814-osera-00004-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:org.springframework.boot.gradle.plugin | 2.7.18 | plugin marker | patch-spring-boot v2.7.18.1-osera-00001 | lets Gradle find the patched plugin | 2.7.18.1-osera-00001 | 2.7.18.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot-dependencies | 2.7.18 | BOM | the anchor of spring-boot-2.7.x | pins the patched modules (REL-009: a pinning BOM releases again) | 2.7.18.1-osera-00001 | 2.7.18.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2016-1000027) | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot-gradle-plugin | 2.7.18 | build plugin | patch-spring-boot v2.7.18.1-osera-00001 | the build plugin at the patched version | 2.7.18.1-osera-00001 | 2.7.18.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-bom | 2021.2.18 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2021.2.18.1-osera-00001 2021.2.18.1-osera-00002 | 2021.2.18.1-osera-00002 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-41717, CVE-2026-41729) | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-mongodb-parent | 3.4.18 | parent | patch-spring-data-mongodb v3.4.18.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.4.18.1-osera-00001 | 3.4.18.1-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (spring-data-mongodb-parent-3.4.18.1-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-rest-parent | 3.7.18 | parent | patch-spring-data-rest v3.7.18.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 3.7.18.1-osera-00002 | 3.7.18.1-osera-00002 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (spring-data-rest-parent-3.7.18.1-osera-00002-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
