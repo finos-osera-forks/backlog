@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.22.17",
-  "as_of": "2026-09-22T22:55:51Z",
+  "as_of": "2026-09-23T02:10:06Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 168,
@@ -724,6 +724,8 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
