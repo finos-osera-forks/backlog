@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.23.8",
-  "as_of": "2026-09-23T19:45:50Z",
+  "as_of": "2026-09-23T20:45:41Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -63,36 +63,12 @@
       "at": "2026-09-22T22:50:24Z"
     },
     {
-      "cve": "CVE-2026-41006",
-      "library": "org.springframework.hateoas:spring-hateoas",
-      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-      "at": "2026-09-22T22:25:26Z"
-    },
-    {
-      "cve": "CVE-2026-41007",
-      "library": "org.springframework.hateoas:spring-hateoas",
-      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-      "at": "2026-09-22T22:25:26Z"
-    },
-    {
       "cve": "CVE-2026-41717",
       "library": "org.springframework.data:spring-data-mongodb",
       "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
       "patch": "00002",
       "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00002",
       "at": "2026-09-22T22:54:32Z"
-    },
-    {
-      "cve": "CVE-2026-41720",
-      "library": "org.springframework.ldap:spring-ldap-core",
-      "coordinate": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
-      "at": "2026-09-22T20:58:45Z"
     },
     {
       "cve": "CVE-2026-41729",
@@ -270,6 +246,14 @@
       "library": "org.springframework.ws:spring-ws-core"
     },
     {
+      "cve": "CVE-2026-41006",
+      "library": "org.springframework.hateoas:spring-hateoas"
+    },
+    {
+      "cve": "CVE-2026-41007",
+      "library": "org.springframework.hateoas:spring-hateoas"
+    },
+    {
       "cve": "CVE-2026-41700",
       "library": "org.springframework.graphql:spring-graphql"
     },
@@ -288,6 +272,10 @@
     {
       "cve": "CVE-2026-41719",
       "library": "org.springframework.data:spring-data-keyvalue"
+    },
+    {
+      "cve": "CVE-2026-41720",
+      "library": "org.springframework.ldap:spring-ldap-core"
     },
     {
       "cve": "CVE-2026-41726",
@@ -475,9 +463,7 @@
     "fixed, not in the backlog: CVE-2025-52520 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2025-52520 on org.springframework.boot:spring-boot@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2025-52520 on org.springframework.boot:spring-boot@2.7.18.1-osera-00005",
-    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2025-53506 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2025-53506 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00004",
@@ -615,23 +601,14 @@
     "fixed, not in the backlog: CVE-2026-47691 on org.springframework.boot:spring-boot@2.7.18.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-48043 on org.springframework.boot:spring-boot@2.7.18.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-50010 on org.springframework.boot:spring-boot@2.7.18.1-osera-00005",
-    "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-50193 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54512 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54513 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
@@ -663,11 +640,12 @@
     "fixed, not in the backlog: CVE-2026-68525 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2026-68525 on org.springframework.boot:spring-boot@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2026-68525 on org.springframework.boot:spring-boot@2.7.18.1-osera-00005",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00006",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00007",
+    "issue #176 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
+    "issue #86 for CVE-2026-41006 is closed in backlog while the entry on org.springframework.hateoas:spring-hateoas is open",
+    "issue #87 for CVE-2026-41007 is closed in backlog while the entry on org.springframework.hateoas:spring-hateoas is open",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.23.6"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.23.7"
 }
