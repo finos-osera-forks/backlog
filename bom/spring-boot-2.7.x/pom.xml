@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-09-24T13:21:18Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-09-24T13:24:08Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.09.24.11</version>
+  <version>2026.09.24.12</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -30,27 +30,27 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-web</artifactId>
-        <version>5.3.39.1-osera-00002</version>
+        <version>5.3.39.1-osera-00003</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webflux</artifactId>
-        <version>5.3.39.1-osera-00002</version>
+        <version>5.3.39.1-osera-00003</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webmvc</artifactId>
-        <version>5.3.39.1-osera-00002</version>
+        <version>5.3.39.1-osera-00003</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot</artifactId>
-        <version>2.7.18.1-osera-00006</version>
+        <version>2.7.18.1-osera-00007</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-actuator</artifactId>
-        <version>2.7.18.1-osera-00006</version>
+        <version>2.7.18.1-osera-00007</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.ldap</groupId>

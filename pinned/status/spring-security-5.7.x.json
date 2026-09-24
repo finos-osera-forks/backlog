@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.09.24.11",
-  "as_of": "2026-09-24T13:19:24Z",
+  "book_version": "v2026.09.24.12",
+  "as_of": "2026-09-24T13:22:02Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 27,
@@ -142,10 +142,13 @@
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
-    "promoted org.springframework:spring-web@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
   ],
   "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.24.3"
 }
