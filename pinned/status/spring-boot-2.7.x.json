@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.24.117",
-  "as_of": "2026-09-24T20:38:33Z",
+  "book_version": "v2026.09.24.118",
+  "as_of": "2026-09-24T20:40:42Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 169,
@@ -133,6 +133,14 @@
       "patch": "00002",
       "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
       "at": "2026-09-24T15:17:30Z"
+    },
+    {
+      "cve": "CVE-2026-41700",
+      "library": "org.springframework.graphql:spring-graphql",
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00001",
+      "at": "2026-09-24T20:40:42Z"
     },
     {
       "cve": "CVE-2026-41716",
@@ -564,10 +572,6 @@
     {
       "cve": "CVE-2026-41293",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
-    },
-    {
-      "cve": "CVE-2026-41700",
-      "library": "org.springframework.graphql:spring-graphql"
     },
     {
       "cve": "CVE-2026-41706",
@@ -18644,5 +18648,5 @@
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844",
     "CVE-2026-41844 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.116"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.117"
 }
