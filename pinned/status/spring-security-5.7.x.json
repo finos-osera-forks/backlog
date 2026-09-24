@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.09.24.50",
-  "as_of": "2026-09-24T15:30:46Z",
+  "book_version": "v2026.09.24.51",
+  "as_of": "2026-09-24T15:32:22Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 27,
@@ -153,6 +153,7 @@
     "promoted org.springframework:spring-core@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00008 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00009 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
@@ -161,6 +162,7 @@
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00008 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00009 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
@@ -168,7 +170,8 @@
     "promoted org.springframework:spring-web@5.3.39.1-osera-00005 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
-    "promoted org.springframework:spring-web@5.3.39.1-osera-00008 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00008 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00009 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
   ],
   "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.24.10"
 }
