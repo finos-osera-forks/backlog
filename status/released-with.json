@@ -235,6 +235,15 @@
       "first_seen": "2026-09-24T14:52:20Z"
     },
     {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00018",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00018",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-09-24T15:05:25Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-dependencies",
       "base": "2.7.18",
@@ -388,6 +397,15 @@
       "first_seen": "2026-09-24T14:52:20Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00018",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-24T15:05:25Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-gradle-plugin",
       "base": "2.7.18",
@@ -539,6 +557,15 @@
       "released_with": "patch-spring-boot v2.7.18.1-osera-00017",
       "why": "the build plugin at the patched version",
       "first_seen": "2026-09-24T14:52:20Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00018",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00018",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-09-24T15:05:25Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00001",
