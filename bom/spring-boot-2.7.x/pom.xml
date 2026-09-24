@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-09-24T20:45:59Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-09-24T20:47:52Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.09.24.119</version>
+  <version>2026.09.24.120</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -120,7 +120,7 @@
       <dependency>
         <groupId>org.springframework.graphql</groupId>
         <artifactId>spring-graphql</artifactId>
-        <version>1.0.6.1-osera-00001</version>
+        <version>1.0.6.1-osera-00002</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.hateoas</groupId>
