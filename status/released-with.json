@@ -1,6 +1,15 @@
 {
   "artifacts": [
     {
+      "coordinate": "ch.qos.logback:logback-parent@1.2.13.1-osera-00001",
+      "library": "ch.qos.logback:logback-parent",
+      "base": "1.2.13",
+      "kind": "parent",
+      "released_with": "patch-logback v1.2.13.1-osera-00001",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-09-24T14:44:35Z"
+    },
+    {
       "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00001",
       "library": "io.projectreactor:reactor-bom",
       "base": "2020.0.47",
@@ -188,6 +197,15 @@
       "released_with": "patch-spring-boot v2.7.18.1-osera-00014",
       "why": "lets Gradle find the patched plugin",
       "first_seen": "2026-09-24T14:41:47Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00015",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00015",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-09-24T14:44:35Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00001",
