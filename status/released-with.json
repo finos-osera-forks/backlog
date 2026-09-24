@@ -2386,6 +2386,15 @@
       "first_seen": "2026-09-24T20:28:05Z"
     },
     {
+      "coordinate": "org.springframework.ws:spring-ws@3.1.8.1-osera-00002",
+      "library": "org.springframework.ws:spring-ws",
+      "base": "3.1.8",
+      "kind": "parent",
+      "released_with": "patch-spring-ws v3.1.8.1-osera-00002",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-09-24T20:34:59Z"
+    },
+    {
       "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001",
       "library": "org.springframework:spring-framework-bom",
       "base": "5.3.39",

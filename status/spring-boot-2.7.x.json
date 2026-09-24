@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.24.114",
-  "as_of": "2026-09-24T20:33:43Z",
+  "book_version": "v2026.09.24.115",
+  "as_of": "2026-09-24T20:34:59Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 71,
@@ -135,12 +135,20 @@
       "at": "2026-09-24T06:09:26Z"
     },
     {
+      "cve": "CVE-2026-40998",
+      "library": "org.springframework.ws:spring-xml",
+      "coordinate": "org.springframework.ws:spring-xml@3.1.8.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.ws:spring-xml@3.1.8.1-osera-00002",
+      "at": "2026-09-24T20:34:59Z"
+    },
+    {
       "cve": "CVE-2026-40999",
       "library": "org.springframework.ws:spring-ws-core",
-      "coordinate": "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00001",
-      "at": "2026-09-24T20:28:05Z"
+      "coordinate": "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00002",
+      "at": "2026-09-24T20:34:59Z"
     },
     {
       "cve": "CVE-2026-41006",
@@ -416,10 +424,6 @@
     {
       "cve": "CVE-2026-40994",
       "library": "org.springframework.ws:spring-ws-security"
-    },
-    {
-      "cve": "CVE-2026-40998",
-      "library": "org.springframework.ws:spring-xml"
     },
     {
       "cve": "CVE-2026-41700",
@@ -9517,12 +9521,16 @@
     "fixed, not in the backlog: CVE-2026-40988 on org.springframework.boot:spring-boot@2.7.18.1-osera-00044",
     "fixed, not in the backlog: CVE-2026-40988 on org.springframework.boot:spring-boot@2.7.18.1-osera-00045",
     "fixed, not in the backlog: CVE-2026-40988 on org.springframework.boot:spring-boot@2.7.18.1-osera-00046",
+    "fixed, not in the backlog: CVE-2026-40998 on org.springframework.ws:spring-ws-core@3.1.8.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-40998 on org.springframework.ws:spring-ws-security@3.1.8.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00046",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00046",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00046",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.boot:spring-boot@2.7.18.1-osera-00046",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-ws-security@3.1.8.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-xml@3.1.8.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-40999 on org.springframework.ws:spring-xml@3.1.8.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41006 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00020",
     "fixed, not in the backlog: CVE-2026-41006 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00021",
     "fixed, not in the backlog: CVE-2026-41006 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00022",
@@ -17695,5 +17703,5 @@
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844",
     "CVE-2026-41844 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.114"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.115"
 }
