@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.24.62",
-  "as_of": "2026-09-24T16:07:53Z",
+  "book_version": "v2026.09.24.63",
+  "as_of": "2026-09-24T16:09:43Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 168,
@@ -61,6 +61,14 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-core@5.3.39.1-osera-00012",
       "at": "2026-09-24T16:03:48Z"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001",
+      "at": "2026-09-24T16:09:43Z"
     },
     {
       "cve": "CVE-2026-0603",
@@ -364,10 +372,6 @@
     {
       "cve": "CVE-2025-52520",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
-    },
-    {
-      "cve": "CVE-2025-52999",
-      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2025-53506",
@@ -3626,6 +3630,8 @@
     "fixed, not in the backlog: CVE-2025-52520 on org.springframework.boot:spring-boot@2.7.18.1-osera-00025",
     "fixed, not in the backlog: CVE-2025-52520 on org.springframework.boot:spring-boot@2.7.18.1-osera-00026",
     "fixed, not in the backlog: CVE-2025-52520 on org.springframework.boot:spring-boot@2.7.18.1-osera-00027",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00001",
+    "fixed, not in the backlog: CVE-2025-52999 on com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00001",
     "fixed, not in the backlog: CVE-2025-53506 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2025-53506 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00005",
     "fixed, not in the backlog: CVE-2025-53506 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00006",
@@ -9435,7 +9441,6 @@
     "issue #53 for CVE-2025-49125 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #54 for CVE-2025-52434 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #55 for CVE-2025-52520 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
-    "issue #57 for CVE-2025-52999 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
     "issue #58 for CVE-2025-53506 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #59 for CVE-2025-55163 is closed in backlog while the entry on io.netty:netty-codec-http2 is open",
     "issue #60 for CVE-2025-55668 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
@@ -9488,5 +9493,5 @@
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844",
     "CVE-2026-41844 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.61"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.62"
 }
