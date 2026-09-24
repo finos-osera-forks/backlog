@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.24.3",
-  "as_of": "2026-09-24T06:46:43Z",
+  "as_of": "2026-09-24T06:47:25Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -29,6 +29,14 @@
       "patch": "00001",
       "named_by": "org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00001",
       "at": "2026-09-24T06:09:26Z"
+    },
+    {
+      "cve": "CVE-2026-41720",
+      "library": "org.springframework.ldap:spring-ldap-core",
+      "coordinate": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001",
+      "at": "2026-09-24T06:47:25Z"
     }
   ],
   "in_progress": [],
@@ -206,10 +214,6 @@
       "library": "org.springframework.data:spring-data-keyvalue"
     },
     {
-      "cve": "CVE-2026-41720",
-      "library": "org.springframework.ldap:spring-ldap-core"
-    },
-    {
       "cve": "CVE-2026-41726",
       "library": "org.springframework.kafka:spring-kafka"
     },
@@ -317,7 +321,6 @@
     "issue #158 for GHSA-r7wm-3cxj-wff9 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
     "issue #169 for CVE-2026-10050 is closed in backlog while the entry on org.eclipse.jetty:jetty-security is open",
     "issue #170 for CVE-2026-2332 is closed in backlog while the entry on org.eclipse.jetty:jetty-http is open",
-    "issue #176 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "issue #180 for CVE-2026-5795 is closed in backlog while the entry on org.eclipse.jetty:jetty-jaspi is open",
     "issue #42 for CVE-2025-22235 is closed in backlog while the entry on org.springframework.boot:spring-boot is open",
     "issue #57 for CVE-2025-52999 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
@@ -328,5 +331,5 @@
     "issue #98 for CVE-2026-41729 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.3"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.4"
 }
