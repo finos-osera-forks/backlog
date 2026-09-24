@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-24T17:25:04Z. Written by the line manager reconciler.
+Generated 2026-09-24T19:04:37Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -91,7 +91,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-16 component(s), 202 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+17 component(s), 203 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -109,5 +109,6 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.boot:spring-boot-starter-parent | 2.7.18 | parent | patch-spring-boot v2.7.18.1-osera-00034 | the patched modules name it as their parent, a build needs it to resolve them | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 2.7.18.1-osera-00007 2.7.18.1-osera-00008 2.7.18.1-osera-00009 2.7.18.1-osera-00010 2.7.18.1-osera-00011 2.7.18.1-osera-00012 2.7.18.1-osera-00013 2.7.18.1-osera-00014 2.7.18.1-osera-00015 2.7.18.1-osera-00016 2.7.18.1-osera-00017 2.7.18.1-osera-00018 2.7.18.1-osera-00019 2.7.18.1-osera-00020 2.7.18.1-osera-00021 2.7.18.1-osera-00022 2.7.18.1-osera-00023 2.7.18.1-osera-00024 2.7.18.1-osera-00025 2.7.18.1-osera-00026 2.7.18.1-osera-00027 2.7.18.1-osera-00028 2.7.18.1-osera-00029 2.7.18.1-osera-00030 2.7.18.1-osera-00031 2.7.18.1-osera-00032 2.7.18.1-osera-00033 2.7.18.1-osera-00034 | 2.7.18.1-osera-00034 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-bom | 2021.2.18 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2021.2.18.1-osera-00001 2021.2.18.1-osera-00002 | 2021.2.18.1-osera-00002 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-41717, CVE-2026-41729) | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-mongodb-parent | 3.4.18 | parent | patch-spring-data-mongodb v3.4.18.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.4.18.1-osera-00001 | 3.4.18.1-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (spring-data-mongodb-parent-3.4.18.1-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
+| org.springframework.data:spring-data-rest-parent | 3.7.18 | parent | patch-spring-data-rest v3.7.18.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 3.7.18.1-osera-00002 | 3.7.18.1-osera-00002 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (spring-data-rest-parent-3.7.18.1-osera-00002-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-bom | 5.7.14 | BOM | the anchor of spring-security-5.7.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.7.11 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.7.14.1-osera-00001 | 5.7.14.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-22732) | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 5.3.39.1-osera-00004 5.3.39.1-osera-00005 5.3.39.1-osera-00006 5.3.39.1-osera-00007 5.3.39.1-osera-00008 5.3.39.1-osera-00009 5.3.39.1-osera-00010 5.3.39.1-osera-00011 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2016-1000027, CVE-2024-38816, CVE-2024-38819, CVE-2025-41249, CVE-2026-22740, CVE-2026-41838, CVE-2026-41842, CVE-2026-41844, CVE-2026-41845, CVE-2026-41846, CVE-2026-41848, CVE-2026-41849, CVE-2026-41850, CVE-2026-41851) | OK | OK | OK | OK | OK | OK |
