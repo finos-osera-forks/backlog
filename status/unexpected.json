@@ -48,6 +48,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-acl",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-acl@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-aspects",
       "base": "5.7.14",
@@ -82,6 +94,18 @@
       ],
       "words": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-aspects",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00001",
@@ -120,6 +144,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-cas",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-cas@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-config@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-config",
       "base": "5.7.14",
@@ -154,6 +190,18 @@
       ],
       "words": "org.springframework.security:spring-security-config@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-config@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-config",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-config@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-core@5.7.14.1-osera-00001",
@@ -192,6 +240,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-core@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-core",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-core@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-crypto",
       "base": "5.7.14",
@@ -226,6 +286,18 @@
       ],
       "words": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-crypto",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-data@5.7.14.1-osera-00001",
@@ -264,6 +336,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-data@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-data",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-data@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-ldap@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-ldap",
       "base": "5.7.14",
@@ -298,6 +382,18 @@
       ],
       "words": "org.springframework.security:spring-security-ldap@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-ldap@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-ldap",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-ldap@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-messaging@5.7.14.1-osera-00001",
@@ -336,6 +432,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-messaging@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-messaging",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-messaging@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-oauth2-client",
       "base": "5.7.14",
@@ -370,6 +478,18 @@
       ],
       "words": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-oauth2-client",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00001",
@@ -408,6 +528,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-oauth2-core",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-oauth2-jose",
       "base": "5.7.14",
@@ -442,6 +574,18 @@
       ],
       "words": "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-oauth2-jose",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00001",
@@ -480,6 +624,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-oauth2-resource-server",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-openid",
       "base": "5.7.14",
@@ -514,6 +670,18 @@
       ],
       "words": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-openid",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-openid@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00001",
@@ -552,6 +720,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-remoting",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-rsocket",
       "base": "5.7.14",
@@ -586,6 +766,18 @@
       ],
       "words": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-rsocket",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001",
@@ -624,6 +816,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-saml2-service-provider",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-taglibs",
       "base": "5.7.14",
@@ -658,6 +862,18 @@
       ],
       "words": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-taglibs",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.springframework.security:spring-security-test@5.7.14.1-osera-00001",
@@ -696,6 +912,18 @@
       "first_seen": "2026-09-24T19:43:41Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-test@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-test",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-test@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-web",
       "base": "5.7.14",
@@ -730,6 +958,18 @@
       ],
       "words": "org.springframework.security:spring-security-web@5.7.14.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:43:41Z"
+    },
+    {
+      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00004",
+      "library": "org.springframework.security:spring-security-web",
+      "base": "5.7.14",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "org.springframework.security:spring-security-web@5.7.14.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
+      "first_seen": "2026-09-24T19:49:59Z"
     },
     {
       "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
