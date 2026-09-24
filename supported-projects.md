@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-24T13:09:54Z. Written by the line manager reconciler.
+Generated 2026-09-24T13:11:52Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 71 | 6 | 8% | 196 | 0 | 65 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 71 | 7 | 10% | 196 | 0 | 64 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 1 | 5% | 24 | 0 | 18 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 20 | 2 | 10% | 40 | 0 | 18 | 0 |
 
@@ -31,7 +31,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.eclipse.jetty:jetty-jaspi | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-security | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.hibernate:hibernate-core | 5.6.15.Final | spring-boot-2.7.x | listed by the BOM at 5.6.15.Final | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.6.15.Final-osera-00001 | 5.6.15.Final-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 2.7.18.1-osera-00003 | 2.7.18.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00003 | 2.7.18.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -71,16 +71,16 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-9 component(s), 18 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+9 component(s), 22 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | io.projectreactor:reactor-bom | 2020.0.47 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38 | pins the patched modules (REL-009: a pinning BOM releases again) | 2020.0.47.1-osera-00001 | 2020.0.47.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-22227) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (log4j-2.17.2.1-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-bom | 2.17.2 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-34480) | OK | OK | OK | OK | OK | OK |
-| org.springframework.boot:org.springframework.boot.gradle.plugin | 2.7.18 | plugin marker | patch-spring-boot v2.7.18.1-osera-00003 | lets Gradle find the patched plugin | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | 2.7.18.1-osera-00003 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.boot:spring-boot-dependencies | 2.7.18 | BOM | the anchor of spring-boot-2.7.x | pins the patched modules (REL-009: a pinning BOM releases again) | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | 2.7.18.1-osera-00003 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2016-1000027, CVE-2025-22235, CVE-2026-22733) | OK | OK | OK | OK | OK | OK |
-| org.springframework.boot:spring-boot-gradle-plugin | 2.7.18 | build plugin | patch-spring-boot v2.7.18.1-osera-00003 | the build plugin at the patched version | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | 2.7.18.1-osera-00003 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:org.springframework.boot.gradle.plugin | 2.7.18 | plugin marker | patch-spring-boot v2.7.18.1-osera-00004 | lets Gradle find the patched plugin | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 | 2.7.18.1-osera-00004 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot-dependencies | 2.7.18 | BOM | the anchor of spring-boot-2.7.x | pins the patched modules (REL-009: a pinning BOM releases again) | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 | 2.7.18.1-osera-00004 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2016-1000027, CVE-2024-23672, CVE-2024-24549, CVE-2024-34750, CVE-2024-38286, CVE-2024-50379, CVE-2024-56337, CVE-2025-22235, CVE-2025-24813, CVE-2025-31650, CVE-2025-31651, CVE-2025-46701, CVE-2025-48988, CVE-2025-48989, CVE-2025-49124, CVE-2025-49125, CVE-2025-52434, CVE-2025-52520, CVE-2025-53506, CVE-2025-55668, CVE-2025-55752, CVE-2025-55754, CVE-2025-66614, CVE-2026-22733, CVE-2026-24734, CVE-2026-24880, CVE-2026-25854, CVE-2026-34483, CVE-2026-34487, CVE-2026-41284, CVE-2026-41293, CVE-2026-42498, CVE-2026-43512, CVE-2026-43513, CVE-2026-43515, CVE-2026-65182, CVE-2026-65905, CVE-2026-68525) | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot-gradle-plugin | 2.7.18 | build plugin | patch-spring-boot v2.7.18.1-osera-00004 | the build plugin at the patched version | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 | 2.7.18.1-osera-00004 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-maven-plugin | 2.7.18 | build plugin | patch-spring-boot v2.7.18.1-osera-00003 | the build plugin at the patched version | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | 2.7.18.1-osera-00003 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.boot:spring-boot-starter-parent | 2.7.18 | parent | patch-spring-boot v2.7.18.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 | 2.7.18.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot-starter-parent | 2.7.18 | parent | patch-spring-boot v2.7.18.1-osera-00003 | the patched modules name it as their parent, a build needs it to resolve them | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 | 2.7.18.1-osera-00003 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 | 5.3.39.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2016-1000027) | OK | OK | OK | OK | OK | OK |
