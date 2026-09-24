@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
-  "book_version": "v2026.09.24.5",
-  "as_of": "2026-09-24T12:59:18Z",
+  "book_version": "v2026.09.24.6",
+  "as_of": "2026-09-24T13:00:26Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 19,
@@ -96,7 +96,8 @@
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-expression@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-jms@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00001",
-    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001"
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-websocket@5.3.39.1-osera-00001"
   ],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.09.24"
 }
