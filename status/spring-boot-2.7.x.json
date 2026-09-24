@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.24.109",
-  "as_of": "2026-09-24T20:19:59Z",
+  "as_of": "2026-09-24T20:20:54Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 71,
@@ -97,10 +97,10 @@
     {
       "cve": "CVE-2026-10050",
       "library": "org.eclipse.jetty:jetty-security",
-      "coordinate": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
-      "patch": "00003",
-      "named_by": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
-      "at": "2026-09-24T20:12:58Z"
+      "coordinate": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
+      "patch": "00004",
+      "named_by": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
+      "at": "2026-09-24T20:20:54Z"
     },
     {
       "cve": "CVE-2026-22733",
@@ -121,10 +121,10 @@
     {
       "cve": "CVE-2026-2332",
       "library": "org.eclipse.jetty:jetty-http",
-      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
-      "patch": "00003",
-      "named_by": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
-      "at": "2026-09-24T20:12:58Z"
+      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
+      "patch": "00004",
+      "named_by": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
+      "at": "2026-09-24T20:20:54Z"
     },
     {
       "cve": "CVE-2026-34480",
@@ -311,6 +311,14 @@
       "at": "2026-09-24T17:17:30Z"
     },
     {
+      "cve": "CVE-2026-5795",
+      "library": "org.eclipse.jetty:jetty-jaspi",
+      "coordinate": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
+      "patch": "00004",
+      "named_by": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
+      "at": "2026-09-24T20:20:54Z"
+    },
+    {
       "cve": "GHSA-r7wm-3cxj-wff9",
       "library": "com.fasterxml.jackson.core:jackson-core",
       "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
@@ -444,10 +452,6 @@
     {
       "cve": "CVE-2026-47838",
       "library": "org.springframework.security:spring-security-web"
-    },
-    {
-      "cve": "CVE-2026-5795",
-      "library": "org.eclipse.jetty:jetty-jaspi"
     }
   ],
   "not_remediable": [],
@@ -3220,8 +3224,11 @@
     "fixed, not in the backlog: CVE-2024-9823 on org.springframework.boot:spring-boot@2.7.18.1-osera-00043",
     "fixed, not in the backlog: CVE-2024-9823 on org.springframework.boot:spring-boot@2.7.18.1-osera-00044",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2025-11143 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00044",
     "fixed, not in the backlog: CVE-2025-11143 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00044",
     "fixed, not in the backlog: CVE-2025-11143 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00044",
@@ -7143,8 +7150,10 @@
     "fixed, not in the backlog: CVE-2026-0603 on org.springframework.boot:spring-boot@2.7.18.1-osera-00044",
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002",
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002",
     "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2026-10050 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-10050 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00014",
     "fixed, not in the backlog: CVE-2026-10050 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00015",
     "fixed, not in the backlog: CVE-2026-10050 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00016",
@@ -7641,9 +7650,11 @@
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00002",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-2332 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00013",
     "fixed, not in the backlog: CVE-2026-2332 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00014",
     "fixed, not in the backlog: CVE-2026-2332 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00015",
@@ -15321,6 +15332,8 @@
     "fixed, not in the backlog: CVE-2026-56819 on org.springframework.boot:spring-boot@2.7.18.1-osera-00042",
     "fixed, not in the backlog: CVE-2026-56819 on org.springframework.boot:spring-boot@2.7.18.1-osera-00043",
     "fixed, not in the backlog: CVE-2026-56819 on org.springframework.boot:spring-boot@2.7.18.1-osera-00044",
+    "fixed, not in the backlog: CVE-2026-5795 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004",
+    "fixed, not in the backlog: CVE-2026-5795 on org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00004",
     "fixed, not in the backlog: CVE-2026-59898 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-59898 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-59898 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00007",
@@ -16689,7 +16702,6 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00042",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00043",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on org.springframework.boot:spring-boot@2.7.18.1-osera-00044",
-    "issue #180 for CVE-2026-5795 is closed in backlog while the entry on org.eclipse.jetty:jetty-jaspi is open",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
@@ -16717,5 +16729,5 @@
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844",
     "CVE-2026-41844 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.108"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.109"
 }
