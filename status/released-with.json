@@ -478,6 +478,15 @@
       "first_seen": "2026-09-24T14:00:32Z"
     },
     {
+      "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00001",
+      "library": "org.springframework.data:spring-data-bom",
+      "base": "2021.2.18",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-24T14:23:42Z"
+    },
+    {
       "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001",
       "library": "org.springframework:spring-framework-bom",
       "base": "5.3.39",
