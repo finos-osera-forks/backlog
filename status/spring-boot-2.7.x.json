@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.24.3",
-  "as_of": "2026-09-24T06:46:00Z",
+  "as_of": "2026-09-24T06:46:43Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -325,7 +325,8 @@
     "issue #86 for CVE-2026-41006 is closed in backlog while the entry on org.springframework.hateoas:spring-hateoas is open",
     "issue #87 for CVE-2026-41007 is closed in backlog while the entry on org.springframework.hateoas:spring-hateoas is open",
     "issue #94 for CVE-2026-41717 is closed in backlog while the entry on org.springframework.data:spring-data-mongodb is open",
-    "issue #98 for CVE-2026-41729 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open"
+    "issue #98 for CVE-2026-41729 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open",
+    "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.3"
 }
