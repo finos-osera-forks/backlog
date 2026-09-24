@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.09.24.83",
-  "as_of": "2026-09-24T17:23:49Z",
+  "book_version": "v2026.09.24.84",
+  "as_of": "2026-09-24T17:25:04Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 20,
@@ -265,6 +265,8 @@
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00011",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00012",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00007",
