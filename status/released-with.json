@@ -1990,6 +1990,15 @@
       "first_seen": "2026-09-24T14:29:31Z"
     },
     {
+      "coordinate": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00002",
+      "library": "org.springframework.security:spring-security-bom",
+      "base": "5.7.14",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-security-5.7.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.7.11",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-24T19:37:38Z"
+    },
+    {
       "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001",
       "library": "org.springframework:spring-framework-bom",
       "base": "5.3.39",
