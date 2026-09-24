@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-24T16:01:53Z. Written by the line manager reconciler.
+Generated 2026-09-24T16:03:48Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,8 +8,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 71 | 29 | 41% | 196 | 0 | 42 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 17 | 89% | 24 | 0 | 2 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 71 | 30 | 42% | 196 | 0 | 41 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 18 | 95% | 24 | 0 | 1 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 20 | 7 | 35% | 40 | 0 | 13 | 0 |
 
 ## Libraries
@@ -51,13 +51,13 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-ws-security | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00011 | 5.3.39.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00011 | 5.3.39.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00011 | 5.3.39.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 5 | 5 | 100% | 10 | 0 | 0 | 0 | 5.3.39.1-osera-00011 | 5.3.39.1-osera-00011 | not ready, evidence chain incomplete: VEX document | broken | OK | OK | OK | NOK (the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844) | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 6 | 5 | 83% | 9 | 0 | 1 | 0 | 5.3.39.1-osera-00011 | 5.3.39.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00011 | 5.3.39.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 5 | 5 | 100% | 10 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | not ready, evidence chain incomplete: VEX document | broken | OK | OK | OK | NOK (the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844) | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 6 | 6 | 100% | 9 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Libraries promoted, not in the backlog
@@ -91,7 +91,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-15 component(s), 153 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+15 component(s), 154 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -109,4 +109,4 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.data:spring-data-bom | 2021.2.18 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2021.2.18.1-osera-00001 | 2021.2.18.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-41717) | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-mongodb-parent | 3.4.18 | parent | patch-spring-data-mongodb v3.4.18.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.4.18.1-osera-00001 | 3.4.18.1-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (spring-data-mongodb-parent-3.4.18.1-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-bom | 5.7.14 | BOM | the anchor of spring-security-5.7.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.7.11 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.7.14.1-osera-00001 | 5.7.14.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-22732) | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 5.3.39.1-osera-00004 5.3.39.1-osera-00005 5.3.39.1-osera-00006 5.3.39.1-osera-00007 5.3.39.1-osera-00008 5.3.39.1-osera-00009 5.3.39.1-osera-00010 5.3.39.1-osera-00011 | 5.3.39.1-osera-00011 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2016-1000027, CVE-2024-38816, CVE-2024-38819, CVE-2025-41249, CVE-2026-22740, CVE-2026-41838, CVE-2026-41842, CVE-2026-41844, CVE-2026-41845, CVE-2026-41848, CVE-2026-41849, CVE-2026-41850, CVE-2026-41851) | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 5.3.39.1-osera-00004 5.3.39.1-osera-00005 5.3.39.1-osera-00006 5.3.39.1-osera-00007 5.3.39.1-osera-00008 5.3.39.1-osera-00009 5.3.39.1-osera-00010 5.3.39.1-osera-00011 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2016-1000027, CVE-2024-38816, CVE-2024-38819, CVE-2025-41249, CVE-2026-22740, CVE-2026-41838, CVE-2026-41842, CVE-2026-41844, CVE-2026-41845, CVE-2026-41846, CVE-2026-41848, CVE-2026-41849, CVE-2026-41850, CVE-2026-41851) | OK | OK | OK | OK | OK | OK |
