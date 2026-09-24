@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.09.24.95",
-  "as_of": "2026-09-24T19:29:58Z",
+  "book_version": "v2026.09.24.96",
+  "as_of": "2026-09-24T19:31:29Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 20,
@@ -33,10 +33,10 @@
     {
       "cve": "CVE-2026-41716",
       "library": "org.springframework.data:spring-data-commons",
-      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00005",
-      "at": "2026-09-24T19:22:58Z"
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00006",
+      "patch": "00006",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00006",
+      "at": "2026-09-24T19:31:29Z"
     },
     {
       "cve": "CVE-2026-41720",
@@ -268,18 +268,23 @@
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00010",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00011",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00012",
+    "fixed, not in the backlog: CVE-2026-41696 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41719 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-41719 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41728 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2026-41728 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-41728 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00004",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00007",
@@ -414,5 +419,5 @@
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.24.25"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.24.26"
 }
