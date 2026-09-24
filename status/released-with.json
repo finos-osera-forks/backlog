@@ -1684,6 +1684,15 @@
       "first_seen": "2026-09-24T14:23:42Z"
     },
     {
+      "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00002",
+      "library": "org.springframework.data:spring-data-bom",
+      "base": "2021.2.18",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-24T17:25:04Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-mongodb-parent",
       "base": "3.4.18",
