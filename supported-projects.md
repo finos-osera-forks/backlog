@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-24T06:44:58Z. Written by the line manager reconciler.
+Generated 2026-09-24T06:46:43Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -62,11 +62,12 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-1 library, 1 patched version(s).
+2 libraries, 2 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | io.projectreactor.kafka:reactor-kafka | 1.3.23 | in the dependency graph of spring-boot-2.7.x at 1.3.25, uploaded on 1.3.23 | spring-boot-2.7.x |  | 1.3.23.1-osera-00001 | 1.3.23.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.33 | in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33 | spring-boot-2.7.x |  | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 
 ## Released with the lines
 
