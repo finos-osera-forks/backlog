@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
-  "book_version": "v2026.09.24.51",
-  "as_of": "2026-09-24T15:32:22Z",
+  "book_version": "v2026.09.24.52",
+  "as_of": "2026-09-24T15:33:57Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 19,
@@ -424,5 +424,5 @@
     "CVE-2026-22740 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842",
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.09.24.10"
+  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.09.24.11"
 }
