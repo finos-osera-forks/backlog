@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.24.6",
-  "as_of": "2026-09-24T13:08:09Z",
+  "book_version": "v2026.09.24.7",
+  "as_of": "2026-09-24T13:09:54Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -33,10 +33,10 @@
     {
       "cve": "CVE-2026-22733",
       "library": "org.springframework.boot:spring-boot-starter-actuator",
-      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
-      "at": "2026-09-24T13:08:09Z"
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00003",
+      "at": "2026-09-24T13:09:54Z"
     },
     {
       "cve": "CVE-2026-34480",
@@ -322,11 +322,15 @@
   "discrepancies": [
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-core@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-expression@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-jms@5.3.39.1-osera-00001",
@@ -334,8 +338,14 @@
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-websocket@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2025-22227 on io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001",
+    "fixed, not in the backlog: CVE-2025-22235 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00003",
+    "fixed, not in the backlog: CVE-2025-22235 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00003",
+    "fixed, not in the backlog: CVE-2025-22235 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00003",
+    "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
     "issue #138 for CVE-2026-50193 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
@@ -353,5 +363,5 @@
     "issue #98 for CVE-2026-41729 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.6"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.7"
 }
