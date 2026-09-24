@@ -1376,6 +1376,15 @@
       "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-09-24T15:42:11Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00012",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-24T16:03:48Z"
     }
   ]
 }
