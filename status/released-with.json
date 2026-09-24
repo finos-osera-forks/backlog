@@ -10,6 +10,15 @@
       "first_seen": "2026-09-24T14:44:35Z"
     },
     {
+      "coordinate": "ch.qos.logback:logback-parent@1.2.13.1-osera-00002",
+      "library": "ch.qos.logback:logback-parent",
+      "base": "1.2.13",
+      "kind": "parent",
+      "released_with": "patch-logback v1.2.13.1-osera-00002",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-09-24T15:03:57Z"
+    },
+    {
       "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00001",
       "library": "io.projectreactor:reactor-bom",
       "base": "2020.0.47",

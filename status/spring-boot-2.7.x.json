@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.24.33",
-  "as_of": "2026-09-24T15:02:54Z",
+  "book_version": "v2026.09.24.34",
+  "as_of": "2026-09-24T15:03:57Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 71,
@@ -45,6 +45,14 @@
       "patch": "00007",
       "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00007",
       "at": "2026-09-24T14:24:27Z"
+    },
+    {
+      "cve": "CVE-2025-11226",
+      "library": "ch.qos.logback:logback-core",
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00002",
+      "patch": "00002",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00002",
+      "at": "2026-09-24T15:03:57Z"
     },
     {
       "cve": "CVE-2025-22227",
@@ -204,10 +212,6 @@
     {
       "cve": "CVE-2024-38821",
       "library": "org.springframework.security:spring-security-web"
-    },
-    {
-      "cve": "CVE-2025-11226",
-      "library": "ch.qos.logback:logback-core"
     },
     {
       "cve": "CVE-2025-22228",
@@ -511,6 +515,7 @@
     "fixed, not in the backlog: CVE-2023-6481 on org.springframework.boot:spring-boot@2.7.18.1-osera-00016",
     "fixed, not in the backlog: CVE-2023-6481 on org.springframework.boot:spring-boot@2.7.18.1-osera-00017",
     "fixed, not in the backlog: CVE-2024-12801 on ch.qos.logback:logback-core@1.2.13.1-osera-00001",
+    "fixed, not in the backlog: CVE-2024-12801 on ch.qos.logback:logback-core@1.2.13.1-osera-00002",
     "fixed, not in the backlog: CVE-2024-12801 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00015",
     "fixed, not in the backlog: CVE-2024-12801 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00016",
     "fixed, not in the backlog: CVE-2024-12801 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00017",
@@ -4803,5 +4808,5 @@
     "CVE-2024-38819 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names none and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-41842; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842",
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names none and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-41842; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.33"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.34"
 }
