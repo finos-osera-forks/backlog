@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.24.3",
-  "as_of": "2026-09-24T06:46:43Z",
+  "as_of": "2026-09-24T06:47:25Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 168,
@@ -788,6 +788,7 @@
     "issue #98 for CVE-2026-41729 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open",
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty at 1.0.39",
+    "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30"
   ],
   "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.3"
