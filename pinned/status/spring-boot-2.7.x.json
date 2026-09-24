@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.24.41",
-  "as_of": "2026-09-24T15:15:40Z",
+  "book_version": "v2026.09.24.42",
+  "as_of": "2026-09-24T15:17:30Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 168,
@@ -89,10 +89,18 @@
     {
       "cve": "CVE-2026-41006",
       "library": "org.springframework.hateoas:spring-hateoas",
-      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00001",
-      "at": "2026-09-24T15:13:07Z"
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "at": "2026-09-24T15:17:30Z"
+    },
+    {
+      "cve": "CVE-2026-41007",
+      "library": "org.springframework.hateoas:spring-hateoas",
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
+      "at": "2026-09-24T15:17:30Z"
     },
     {
       "cve": "CVE-2026-41717",
@@ -412,10 +420,6 @@
     {
       "cve": "CVE-2026-40999",
       "library": "org.springframework.ws:spring-ws-core"
-    },
-    {
-      "cve": "CVE-2026-41007",
-      "library": "org.springframework.hateoas:spring-hateoas"
     },
     {
       "cve": "CVE-2026-41284",
@@ -6334,7 +6338,6 @@
     "issue #77 for CVE-2026-33871 is closed in backlog while the entry on io.netty:netty-codec-http2 is open",
     "issue #79 for CVE-2026-34483 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #80 for CVE-2026-34487 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
-    "issue #87 for CVE-2026-41007 is closed in backlog while the entry on org.springframework.hateoas:spring-hateoas is open",
     "issue #88 for CVE-2026-41284 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #89 for CVE-2026-41293 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
@@ -6367,5 +6370,5 @@
     "CVE-2024-38819 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names none and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-41842; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842",
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names none and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-41842; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.40"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.41"
 }
