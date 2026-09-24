@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.09.24.92",
-  "as_of": "2026-09-24T19:20:48Z",
+  "book_version": "v2026.09.24.93",
+  "as_of": "2026-09-24T19:22:58Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 27,
@@ -157,6 +157,7 @@
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00002 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00003 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00004 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
+    "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00005 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
