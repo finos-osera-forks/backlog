@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-security-5.7.x line, built 2026-09-24T19:23:37Z by the line manager.
+  The OSERA BOM of the spring-security-5.7.x line, built 2026-09-24T19:32:12Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-security-5.7.x</artifactId>
-  <version>2026.09.24.25</version>
+  <version>2026.09.24.26</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-security-5.7.x</name>
   <dependencyManagement>
@@ -40,7 +40,7 @@
       <dependency>
         <groupId>org.springframework.data</groupId>
         <artifactId>spring-data-commons</artifactId>
-        <version>2.7.18.1-osera-00005</version>
+        <version>2.7.18.1-osera-00006</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.ldap</groupId>
