@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.24.6",
-  "as_of": "2026-09-24T13:06:57Z",
+  "as_of": "2026-09-24T13:08:09Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 168,
@@ -21,6 +21,14 @@
       "patch": "00001",
       "named_by": "org.hibernate:hibernate-core@5.6.15.Final-osera-00001",
       "at": "2026-09-24T06:05:27Z"
+    },
+    {
+      "cve": "CVE-2026-22733",
+      "library": "org.springframework.boot:spring-boot-starter-actuator",
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
+      "at": "2026-09-24T13:08:09Z"
     },
     {
       "cve": "CVE-2026-34480",
@@ -260,10 +268,6 @@
     {
       "cve": "CVE-2026-22732",
       "library": "org.springframework.security:spring-security-web"
-    },
-    {
-      "cve": "CVE-2026-22733",
-      "library": "org.springframework.boot:spring-boot-starter-actuator"
     },
     {
       "cve": "CVE-2026-22740",
@@ -697,8 +701,11 @@
   "not_remediable": [],
   "discrepancies": [
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework.boot:spring-boot@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-core@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-expression@5.3.39.1-osera-00001",
@@ -706,6 +713,8 @@
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-websocket@5.3.39.1-osera-00001",
+    "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-22733 on org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
     "issue #116 for CVE-2026-42498 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
@@ -784,7 +793,6 @@
     "issue #65 for CVE-2025-66614 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #66 for CVE-2025-67735 is closed in backlog while the entry on io.netty:netty-codec-http is open",
     "issue #68 for CVE-2026-10050 is closed in backlog while the entry on org.eclipse.jetty:jetty-security is open",
-    "issue #70 for CVE-2026-22733 is closed in backlog while the entry on org.springframework.boot:spring-boot-starter-actuator is open",
     "issue #72 for CVE-2026-2332 is closed in backlog while the entry on org.eclipse.jetty:jetty-http is open",
     "issue #73 for CVE-2026-24734 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #74 for CVE-2026-24880 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
