@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.09.24.18",
-  "as_of": "2026-09-24T14:02:42Z",
+  "as_of": "2026-09-24T14:24:27Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 27,
@@ -139,6 +139,7 @@
     "issue #8 for CVE-2021-46877 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #92 for CVE-2026-41716 is closed in backlog while the entry on org.springframework.data:spring-data-commons is open",
     "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
+    "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00001 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
@@ -146,18 +147,21 @@
     "promoted org.springframework:spring-core@5.3.39.1-osera-00004 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00005 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00004 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00005 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00004 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00005 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
-    "promoted org.springframework:spring-web@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00006 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00007 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
   ],
   "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.24.7"
 }
