@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.09.24.86",
-  "as_of": "2026-09-24T19:09:20Z",
+  "book_version": "v2026.09.24.87",
+  "as_of": "2026-09-24T19:11:00Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 20,
@@ -29,6 +29,14 @@
       "patch": "00007",
       "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
       "at": "2026-09-24T17:17:30Z"
+    },
+    {
+      "cve": "CVE-2026-41716",
+      "library": "org.springframework.data:spring-data-commons",
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00003",
+      "at": "2026-09-24T19:11:00Z"
     },
     {
       "cve": "CVE-2026-41720",
@@ -128,10 +136,6 @@
     {
       "cve": "CVE-2026-41706",
       "library": "org.springframework.security:spring-security-web"
-    },
-    {
-      "cve": "CVE-2026-41716",
-      "library": "org.springframework.data:spring-data-commons"
     },
     {
       "cve": "CVE-2026-47838",
@@ -266,7 +270,9 @@
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00012",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41717 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41729 on org.springframework.data:spring-data-commons@2.7.18.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41838 on org.springframework:spring-core@5.3.39.1-osera-00007",
@@ -401,5 +407,5 @@
     "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.24.22"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.24.23"
 }
