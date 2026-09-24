@@ -208,6 +208,15 @@
       "first_seen": "2026-09-24T14:44:35Z"
     },
     {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00016",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00016",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-09-24T14:47:57Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-dependencies",
       "base": "2.7.18",
