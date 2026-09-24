@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-24T06:09:26Z. Written by the line manager reconciler.
+Generated 2026-09-24T06:13:35Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -59,3 +59,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 6 | 0 | 0% | 9 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+
+## Released with the lines
+
+1 component(s), 1 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+
+| name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| org.apache.logging.log4j:log4j-bom | 2.17.2 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-34480) | OK | OK | OK | OK | OK | OK |

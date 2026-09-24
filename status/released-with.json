@@ -1,3 +1,13 @@
 {
-  "artifacts": null
+  "artifacts": [
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00001",
+      "library": "org.apache.logging.log4j:log4j-bom",
+      "base": "2.17.2",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-24T06:13:35Z"
+    }
+  ]
 }
