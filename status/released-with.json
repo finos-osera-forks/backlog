@@ -370,6 +370,15 @@
       "first_seen": "2026-09-24T16:20:28Z"
     },
     {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00030",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00030",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-09-24T16:27:27Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-dependencies",
       "base": "2.7.18",
@@ -629,6 +638,15 @@
       "released_with": "the anchor of spring-boot-2.7.x",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-09-24T16:20:28Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00030",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-09-24T16:27:27Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00001",
@@ -892,6 +910,15 @@
       "first_seen": "2026-09-24T16:20:28Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00030",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00030",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-09-24T16:27:27Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-maven-plugin",
       "base": "2.7.18",
@@ -1151,6 +1178,15 @@
       "released_with": "patch-spring-boot v2.7.18.1-osera-00029",
       "why": "the build plugin at the patched version",
       "first_seen": "2026-09-24T16:20:28Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00030",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00030",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-09-24T16:27:27Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00001",
