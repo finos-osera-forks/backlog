@@ -1,11 +1,19 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.24.2",
-  "as_of": "2026-09-24T06:13:01Z",
+  "as_of": "2026-09-24T06:44:58Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
   "fixed": [
+    {
+      "cve": "CVE-2025-22227",
+      "library": "io.projectreactor.netty:reactor-netty-http",
+      "coordinate": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001",
+      "patch": "00001",
+      "named_by": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001",
+      "at": "2026-09-24T06:44:58Z"
+    },
     {
       "cve": "CVE-2026-0603",
       "library": "org.hibernate:hibernate-core",
@@ -92,10 +100,6 @@
     {
       "cve": "CVE-2025-11226",
       "library": "ch.qos.logback:logback-core"
-    },
-    {
-      "cve": "CVE-2025-22227",
-      "library": "io.projectreactor.netty:reactor-netty-http"
     },
     {
       "cve": "CVE-2025-22228",
@@ -304,13 +308,13 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "fixed, not in the backlog: CVE-2025-22227 on io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
     "issue #138 for CVE-2026-50193 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #140 for CVE-2026-54512 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #142 for CVE-2026-54513 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #158 for GHSA-r7wm-3cxj-wff9 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
-    "issue #168 for CVE-2025-22227 is closed in backlog while the entry on io.projectreactor.netty:reactor-netty-http is open",
     "issue #169 for CVE-2026-10050 is closed in backlog while the entry on org.eclipse.jetty:jetty-security is open",
     "issue #170 for CVE-2026-2332 is closed in backlog while the entry on org.eclipse.jetty:jetty-http is open",
     "issue #176 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
@@ -323,5 +327,5 @@
     "issue #94 for CVE-2026-41717 is closed in backlog while the entry on org.springframework.data:spring-data-mongodb is open",
     "issue #98 for CVE-2026-41729 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.2"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.3"
 }
