@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-24T12:59:18Z. Written by the line manager reconciler.
+Generated 2026-09-24T13:00:26Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -71,11 +71,12 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-4 component(s), 4 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+5 component(s), 5 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | io.projectreactor:reactor-bom | 2020.0.47 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38 | pins the patched modules (REL-009: a pinning BOM releases again) | 2020.0.47.1-osera-00001 | 2020.0.47.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-22227) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (log4j-2.17.2.1-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-bom | 2.17.2 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-34480) | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:org.springframework.boot.gradle.plugin | 2.7.18 | plugin marker | patch-spring-boot v2.7.18.1-osera-00001 | lets Gradle find the patched plugin | 2.7.18.1-osera-00001 | 2.7.18.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 | 5.3.39.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2016-1000027) | OK | OK | OK | OK | OK | OK |

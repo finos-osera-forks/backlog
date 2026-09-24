@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.24.5",
-  "as_of": "2026-09-24T12:59:18Z",
+  "book_version": "v2026.09.24.6",
+  "as_of": "2026-09-24T13:00:26Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 71,
@@ -321,6 +321,7 @@
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-jms@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webflux@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-webmvc@5.3.39.1-osera-00001",
+    "fixed, not in the backlog: CVE-2016-1000027 on org.springframework:spring-websocket@5.3.39.1-osera-00001",
     "fixed, not in the backlog: CVE-2025-22227 on io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
     "fixed, not in the backlog: CVE-2026-34480 on org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00001",
