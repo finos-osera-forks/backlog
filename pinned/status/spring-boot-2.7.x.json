@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.09.24.21",
-  "as_of": "2026-09-24T14:31:27Z",
+  "book_version": "v2026.09.24.22",
+  "as_of": "2026-09-24T14:33:55Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 168,
@@ -3510,6 +3510,12 @@
     "issue #98 for CVE-2026-41729 is closed in backlog while the entry on org.springframework.data:spring-data-rest-core is open",
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty at 1.0.39",
+    "promoted org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty.http2:http2-common at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-jaspi at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
@@ -3520,5 +3526,5 @@
     "CVE-2024-38819 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names none and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-41842; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842",
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names none and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-41842; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.20"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.09.24.21"
 }
