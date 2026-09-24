@@ -1396,6 +1396,15 @@
       "first_seen": "2026-09-24T16:14:28Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00029",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00029",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-09-24T16:22:25Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-bom",
       "base": "2021.2.18",
