@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.24.120",
-  "as_of": "2026-09-24T20:46:47Z",
+  "as_of": "2026-09-24T20:47:39Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 169,
@@ -137,10 +137,10 @@
     {
       "cve": "CVE-2026-41700",
       "library": "org.springframework.graphql:spring-graphql",
-      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00001",
-      "at": "2026-09-24T20:40:42Z"
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
+      "at": "2026-09-24T20:47:39Z"
     },
     {
       "cve": "CVE-2026-41716",
@@ -269,6 +269,14 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00012",
       "at": "2026-09-24T16:03:48Z"
+    },
+    {
+      "cve": "CVE-2026-41856",
+      "library": "org.springframework.graphql:spring-graphql",
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
+      "at": "2026-09-24T20:47:39Z"
     },
     {
       "cve": "CVE-2026-50193",
@@ -600,10 +608,6 @@
     {
       "cve": "CVE-2026-41855",
       "library": "org.springframework:spring-jms"
-    },
-    {
-      "cve": "CVE-2026-41856",
-      "library": "org.springframework.graphql:spring-graphql"
     },
     {
       "cve": "CVE-2026-42498",
