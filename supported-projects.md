@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-24T17:16:14Z. Written by the line manager reconciler.
+Generated 2026-09-24T17:17:30Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -19,8 +19,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | fixed | 1 | 1 | 100% | 5 | 0 | 0 | 0 | 1.2.13.1-osera-00002 | 1.2.13.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00006 | 2.13.5.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 2 | 0 | 0 | 0 | 2.13.5.1-osera-00006 | 2.13.5.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 2 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00001 | 1.0.48.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -91,12 +91,12 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-16 component(s), 195 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+16 component(s), 196 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | ch.qos.logback:logback-parent | 1.2.13 | parent | patch-logback v1.2.13.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 | 1.2.13.1-osera-00002 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (logback-parent-1.2.13.1-osera-00002-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.jackson:jackson-bom | 2.13.5 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 | 2.13.5.1-osera-00006 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-52999, CVE-2026-50193, CVE-2026-54512, CVE-2026-54513, CVE-2026-54514, GHSA-R7WM-3CXJ-WFF9) | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson:jackson-bom | 2.13.5 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-52999, CVE-2026-50193, CVE-2026-54512, CVE-2026-54513, CVE-2026-54514, CVE-2026-54515, GHSA-R7WM-3CXJ-WFF9) | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-bom | 2020.0.47 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38 | pins the patched modules (REL-009: a pinning BOM releases again) | 2020.0.47.1-osera-00001 | 2020.0.47.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2025-22227) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (log4j-2.17.2.1-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-bom | 2.17.2 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.17.2.1-osera-00001 | 2.17.2.1-osera-00001 | broken | OK | OK | OK | NOK (the evidence names none and the vulnerability document names CVE-2026-34480) | OK | OK | OK | OK | OK | OK |
