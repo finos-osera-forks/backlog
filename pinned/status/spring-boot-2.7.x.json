@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.09.24",
-  "as_of": "2026-09-24T06:06:24Z",
+  "as_of": "2026-09-24T06:09:26Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 168,
@@ -13,6 +13,14 @@
       "patch": "00001",
       "named_by": "org.hibernate:hibernate-core@5.6.15.Final-osera-00001",
       "at": "2026-09-24T06:05:27Z"
+    },
+    {
+      "cve": "CVE-2026-34480",
+      "library": "org.apache.logging.log4j:log4j-core",
+      "coordinate": "org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00001",
+      "at": "2026-09-24T06:09:26Z"
     }
   ],
   "in_progress": [],
@@ -284,10 +292,6 @@
     {
       "cve": "CVE-2026-34479",
       "library": "org.apache.logging.log4j:log4j-1.2-api"
-    },
-    {
-      "cve": "CVE-2026-34480",
-      "library": "org.apache.logging.log4j:log4j-core"
     },
     {
       "cve": "CVE-2026-34481",
@@ -771,7 +775,6 @@
     "issue #75 for CVE-2026-25854 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #76 for CVE-2026-33870 is closed in backlog while the entry on io.netty:netty-codec-http is open",
     "issue #77 for CVE-2026-33871 is closed in backlog while the entry on io.netty:netty-codec-http2 is open",
-    "issue #78 for CVE-2026-34480 is closed in backlog while the entry on org.apache.logging.log4j:log4j-core is open",
     "issue #79 for CVE-2026-34483 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #80 for CVE-2026-34487 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #86 for CVE-2026-41006 is closed in backlog while the entry on org.springframework.hateoas:spring-hateoas is open",
