@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-09-26T19:51:24Z. Written by the line manager reconciler.
+Generated 2026-09-29T09:07:07Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -10,7 +10,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 |---|---|---|---|---|---|---|---|---|---|---|
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 169 | 41 | 24% | 159 | 0 | 128 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 19 | 18 | 95% | 24 | 0 | 1 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 0 | 0% | 41 | 0 | 27 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 27 | 0 | 0% | 44 | 0 | 27 | 0 |
 
 ## Libraries
 
@@ -22,7 +22,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | ch.qos.logback:logback-core | 1.2.12 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 3 | 0 | 0% | 5 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (com.fasterxml.jackson.core:jackson-databind@2.13.0) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.jackson.core:jackson-databind | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (org.jasig.cas.client:cas-client-core@3.6.4) | open | 7 | 0 | 0% | 2 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.fasterxml.jackson.core:jackson-databind | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (org.jasig.cas.client:cas-client-core@3.6.4) | open | 7 | 0 | 0% | 5 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 2 | 0 | 0 | 0 | 2.13.5.1-osera-00007 | 2.13.5.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.netty:netty-codec | 4.1.101.Final | spring-boot-2.7.x | listed by the BOM at 4.1.101.Final (io.netty:netty-bom@4.1.101.Final) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
