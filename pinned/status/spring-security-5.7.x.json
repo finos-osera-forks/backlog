@@ -1,10 +1,10 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.02",
-  "as_of": "2026-10-02T08:37:37Z",
+  "as_of": "2026-10-02T09:18:37Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 29,
+  "in_scope": 30,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -111,6 +111,10 @@
     {
       "cve": "CVE-2026-54513",
       "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-89425",
+      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2026-91776",
