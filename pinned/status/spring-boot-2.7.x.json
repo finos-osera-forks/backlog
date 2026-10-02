@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.02.2",
-  "as_of": "2026-10-02T09:21:42Z",
+  "as_of": "2026-10-02T10:09:22Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
-  "in_scope": 171,
+  "in_scope": 172,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -848,6 +848,10 @@
     {
       "cve": "CVE-2026-75596",
       "library": "io.netty:netty-handler"
+    },
+    {
+      "cve": "CVE-2026-89425",
+      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2026-91776",
