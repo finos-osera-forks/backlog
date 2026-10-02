@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.01.2",
-  "as_of": "2026-10-01T12:31:37Z",
+  "as_of": "2026-10-02T08:36:37Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
-  "in_scope": 71,
+  "in_scope": 73,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -480,6 +480,14 @@
     {
       "cve": "CVE-2026-47838",
       "library": "org.springframework.security:spring-security-web"
+    },
+    {
+      "cve": "CVE-2026-91776",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-91777",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
     }
   ],
   "not_remediable": [],
