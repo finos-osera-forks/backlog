@@ -1,10 +1,10 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.03.2",
-  "as_of": "2026-10-03T20:41:22Z",
+  "as_of": "2026-10-03T21:27:22Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 31,
+  "in_scope": 30,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -127,10 +127,6 @@
     {
       "cve": "CVE-2026-91777",
       "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
-      "cve": "GHSA-r7wm-3cxj-wff9",
-      "library": "com.fasterxml.jackson.core:jackson-core"
     }
   ],
   "not_remediable": [],
@@ -143,7 +139,6 @@
     "issue #139 for CVE-2026-54512 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #141 for CVE-2026-54513 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #15 for CVE-2022-42003 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
-    "issue #157 for GHSA-r7wm-3cxj-wff9 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-core is open",
     "issue #16 for CVE-2022-42004 is closed in backlog while the entry on com.fasterxml.jackson.core:jackson-databind is open",
     "issue #21 for CVE-2024-22243 is closed in backlog while the entry on org.springframework:spring-web is open",
     "issue #23 for CVE-2024-22259 is closed in backlog while the entry on org.springframework:spring-web is open",
