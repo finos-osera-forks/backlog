@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.08",
-  "as_of": "2026-10-08T09:53:04Z",
+  "book_version": "v2026.10.08.2",
+  "as_of": "2026-10-08T20:44:36Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
-  "in_scope": 74,
+  "in_scope": 75,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -468,6 +468,10 @@
     {
       "cve": "CVE-2026-47884",
       "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-47892",
+      "library": "org.springframework:spring-webflux"
     },
     {
       "cve": "CVE-2026-68494",
