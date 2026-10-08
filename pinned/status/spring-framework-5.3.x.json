@@ -1,10 +1,10 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.10.07.3",
-  "as_of": "2026-10-07T20:42:52Z",
+  "as_of": "2026-10-08T09:49:24Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
-  "in_scope": 20,
+  "in_scope": 21,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -160,6 +160,10 @@
     {
       "cve": "CVE-2026-47884",
       "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-47892",
+      "library": "org.springframework:spring-webflux"
     }
   ],
   "not_remediable": [],

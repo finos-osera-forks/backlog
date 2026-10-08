@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-06T10:19:22Z. Written by the line manager reconciler.
+Generated 2026-10-08T09:49:24Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -9,7 +9,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 172 | 39 | 23% | 163 | 0 | 133 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 20 | 18 | 90% | 24 | 0 | 2 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 21 | 18 | 86% | 24 | 0 | 3 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 30 | 0 | 0% | 45 | 0 | 30 | 0 |
 
 ## Libraries
@@ -80,7 +80,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-web | 5.3.29 | spring-security-5.7.x | pulled in by a dependency (org.springframework.security:spring-security-cas@5.7.11) | open | 4 | 0 | 0% | 2 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 5 | 5 | 100% | 10 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | not ready, evidence chain incomplete: VEX document | broken | OK | OK | OK | NOK (the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844) | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 6 | 5 | 83% | 10 | 0 | 1 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | not ready, evidence chain incomplete: VEX document | broken | OK | OK | OK | NOK (the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844) | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 7 | 6 | 86% | 9 | 0 | 1 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00012 | 5.3.39.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
