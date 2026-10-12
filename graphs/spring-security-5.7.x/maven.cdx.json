@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:664ff73d-ea02-4954-9549-a8086b538be1",
+ "serialNumber": "urn:uuid:58a85ad0-b9bc-4be6-a2bf-ff362ede570a",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-22T08:33:58Z",
+  "timestamp": "2026-10-07T08:38:41Z",
   "tools": {
    "components": [
     {
@@ -46,7 +46,7 @@
     },
     {
      "name": "osera:latest",
-     "value": "org.springframework:spring-beans:5.3.29\u003e5.3.39,com.fasterxml.jackson.core:jackson-annotations:2.13.0\u003e2.13.5,io.netty:netty-buffer:4.1.93.Final\u003e4.1.138.Final,org.springframework:spring-jdbc:5.3.29\u003e5.3.39,org.springframework:spring-test:5.3.29\u003e5.3.39,org.springframework:spring-messaging:5.3.29\u003e5.3.39,net.minidev:json-smart:2.4.8\u003e2.4.11,org.springframework.ldap:spring-ldap-core:2.4.1\u003e2.4.4,io.rsocket:rsocket-core:1.1.4\u003e1.1.5,joda-time:joda-time:2.9\u003e2.9.9,org.springframework:spring-context:5.3.29\u003e5.3.39,io.netty:netty-common:4.1.93.Final\u003e4.1.138.Final,com.fasterxml.jackson.core:jackson-core:2.13.0\u003e2.13.5,org.springframework:spring-expression:5.3.29\u003e5.3.39,org.springframework.data:spring-data-commons:2.7.14\u003e2.7.18,org.springframework:spring-aop:5.3.29\u003e5.3.39,org.springframework:spring-jcl:5.3.29\u003e5.3.39,org.springframework:spring-web:5.3.29\u003e5.3.39,net.minidev:accessors-smart:2.4.8\u003e2.4.11,com.fasterxml.jackson.core:jackson-databind:2.13.0\u003e2.13.5,org.springframework:spring-tx:5.3.29\u003e5.3.39,org.aspectj:aspectjrt:1.9.19\u003e1.9.25.1,commons-collections:commons-collections:3.2.1\u003e3.2.2,org.springframework:spring-core:5.3.29\u003e5.3.39,org.slf4j:slf4j-api:1.7.32\u003e1.7.36,io.projectreactor:reactor-core:3.4.29\u003e3.4.41"
+     "value": "com.fasterxml.jackson.core:jackson-annotations:2.13.0\u003e2.13.5,com.fasterxml.jackson.core:jackson-core:2.13.0\u003e2.13.5,com.fasterxml.jackson.core:jackson-databind:2.13.0\u003e2.13.5,commons-collections:commons-collections:3.2.1\u003e3.2.2,io.netty:netty-buffer:4.1.93.Final\u003e4.1.139.Final,io.netty:netty-common:4.1.93.Final\u003e4.1.139.Final,io.projectreactor:reactor-core:3.4.29\u003e3.4.41,io.rsocket:rsocket-core:1.1.4\u003e1.1.5,joda-time:joda-time:2.9\u003e2.9.9,net.minidev:accessors-smart:2.4.8\u003e2.4.11,net.minidev:json-smart:2.4.8\u003e2.4.11,org.aspectj:aspectjrt:1.9.19\u003e1.9.25.1,org.slf4j:slf4j-api:1.7.32\u003e1.7.36,org.springframework.data:spring-data-commons:2.7.14\u003e2.7.18,org.springframework.ldap:spring-ldap-core:2.4.1\u003e2.4.4,org.springframework:spring-aop:5.3.29\u003e5.3.39,org.springframework:spring-beans:5.3.29\u003e5.3.39,org.springframework:spring-context:5.3.29\u003e5.3.39,org.springframework:spring-core:5.3.29\u003e5.3.39,org.springframework:spring-expression:5.3.29\u003e5.3.39,org.springframework:spring-jcl:5.3.29\u003e5.3.39,org.springframework:spring-jdbc:5.3.29\u003e5.3.39,org.springframework:spring-messaging:5.3.29\u003e5.3.39,org.springframework:spring-test:5.3.29\u003e5.3.39,org.springframework:spring-tx:5.3.29\u003e5.3.39,org.springframework:spring-web:5.3.29\u003e5.3.39"
     },
     {
      "name": "osera:method",
@@ -190,19 +190,19 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.138.Final",
+   "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.139.Final",
    "group": "io.netty",
    "name": "netty-buffer",
-   "version": "4.1.138.Final",
-   "purl": "pkg:maven/io.netty/netty-buffer@4.1.138.Final"
+   "version": "4.1.139.Final",
+   "purl": "pkg:maven/io.netty/netty-buffer@4.1.139.Final"
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-common@4.1.138.Final",
+   "bom-ref": "pkg:maven/io.netty/netty-common@4.1.139.Final",
    "group": "io.netty",
    "name": "netty-common",
-   "version": "4.1.138.Final",
-   "purl": "pkg:maven/io.netty/netty-common@4.1.138.Final"
+   "version": "4.1.139.Final",
+   "purl": "pkg:maven/io.netty/netty-common@4.1.139.Final"
   },
   {
    "type": "library",
@@ -882,13 +882,13 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/io.netty/netty-buffer@4.1.138.Final",
+   "ref": "pkg:maven/io.netty/netty-buffer@4.1.139.Final",
    "dependsOn": [
-    "pkg:maven/io.netty/netty-common@4.1.138.Final"
+    "pkg:maven/io.netty/netty-common@4.1.139.Final"
    ]
   },
   {
-   "ref": "pkg:maven/io.netty/netty-common@4.1.138.Final",
+   "ref": "pkg:maven/io.netty/netty-common@4.1.139.Final",
    "dependsOn": []
   },
   {
@@ -900,7 +900,7 @@
   {
    "ref": "pkg:maven/io.rsocket/rsocket-core@1.1.5",
    "dependsOn": [
-    "pkg:maven/io.netty/netty-buffer@4.1.138.Final",
+    "pkg:maven/io.netty/netty-buffer@4.1.139.Final",
     "pkg:maven/io.projectreactor/reactor-core@3.4.41"
    ]
   },
