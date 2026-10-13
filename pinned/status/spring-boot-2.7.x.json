@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.13.2",
-  "as_of": "2026-10-13T12:00:23Z",
+  "book_version": "v2026.10.13.3",
+  "as_of": "2026-10-13T13:26:50Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
   "in_scope": 174,
@@ -878,6 +878,7 @@
     "issue #131 for CVE-2026-45673 is closed in backlog while the entry on io.netty:netty-resolver-dns is open",
     "issue #132 for CVE-2026-45674 is closed in backlog while the entry on io.netty:netty-resolver-dns is open",
     "issue #133 for CVE-2026-47691 is closed in backlog while the entry on io.netty:netty-resolver-dns is open",
+    "issue #134 for CVE-2026-47838 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
     "issue #135 for CVE-2026-48043 is closed in backlog while the entry on io.netty:netty-codec-http2 is open",
     "issue #136 for CVE-2026-50010 is closed in backlog while the entry on io.netty:netty-handler is open",
     "issue #143 for CVE-2026-55831 is closed in backlog while the entry on io.netty:netty-codec-http is open",
@@ -909,6 +910,7 @@
     "issue #38 for CVE-2024-9823 is closed in backlog while the entry on org.eclipse.jetty:jetty-servlets is open",
     "issue #39 for CVE-2025-11143 is closed in backlog while the entry on org.eclipse.jetty:jetty-http is open",
     "issue #40 for CVE-2025-22227 is closed in backlog while the entry on io.projectreactor.netty:reactor-netty-http is open",
+    "issue #41 for CVE-2025-22228 is closed in backlog while the entry on org.springframework.security:spring-security-crypto is open",
     "issue #43 for CVE-2025-24813 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #44 for CVE-2025-24970 is closed in backlog while the entry on io.netty:netty-handler is open",
     "issue #45 for CVE-2025-31650 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
@@ -930,6 +932,7 @@
     "issue #65 for CVE-2025-66614 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #66 for CVE-2025-67735 is closed in backlog while the entry on io.netty:netty-codec-http is open",
     "issue #68 for CVE-2026-10050 is closed in backlog while the entry on org.eclipse.jetty:jetty-security is open",
+    "issue #69 for CVE-2026-22732 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
     "issue #72 for CVE-2026-2332 is closed in backlog while the entry on org.eclipse.jetty:jetty-http is open",
     "issue #73 for CVE-2026-24734 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #74 for CVE-2026-24880 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
@@ -938,8 +941,10 @@
     "issue #77 for CVE-2026-33871 is closed in backlog while the entry on io.netty:netty-codec-http2 is open",
     "issue #79 for CVE-2026-34483 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #80 for CVE-2026-34487 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
+    "issue #83 for CVE-2026-40988 is closed in backlog while the entry on org.springframework.security:spring-security-saml2-service-provider is open",
     "issue #88 for CVE-2026-41284 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #89 for CVE-2026-41293 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
+    "issue #91 for CVE-2026-41706 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
     "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
@@ -1005,5 +1010,5 @@
     "CVE-2026-41842 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844",
     "CVE-2026-41844 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.13"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.13.2"
 }
