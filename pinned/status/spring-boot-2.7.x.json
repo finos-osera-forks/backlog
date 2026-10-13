@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.13",
-  "as_of": "2026-10-13T10:19:45Z",
+  "as_of": "2026-10-13T11:53:20Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
-  "in_scope": 173,
+  "in_scope": 174,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -13,6 +13,14 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-web@5.3.39.1-osera-00012",
       "at": "2026-09-24T16:03:48Z"
+    },
+    {
+      "cve": "CVE-2022-1471",
+      "library": "org.yaml:snakeyaml",
+      "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.yaml:snakeyaml@1.33.1-osera-00001",
+      "at": "2026-10-13T11:53:20Z"
     },
     {
       "cve": "CVE-2024-38807",
@@ -69,14 +77,6 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-core@5.3.39.1-osera-00012",
       "at": "2026-09-24T16:03:48Z"
-    },
-    {
-      "cve": "CVE-2025-52999",
-      "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
-      "patch": "00007",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
-      "at": "2026-09-24T17:17:30Z"
     },
     {
       "cve": "CVE-2026-22733",
@@ -301,30 +301,10 @@
       "patch": "00007",
       "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
       "at": "2026-09-24T17:17:30Z"
-    },
-    {
-      "cve": "CVE-2026-54512",
-      "library": "com.fasterxml.jackson.core:jackson-databind",
-      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
-      "patch": "00007",
-      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
-      "at": "2026-09-24T17:17:30Z"
-    },
-    {
-      "cve": "CVE-2026-54513",
-      "library": "com.fasterxml.jackson.core:jackson-databind",
-      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
-      "patch": "00007",
-      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
-      "at": "2026-09-24T17:17:30Z"
     }
   ],
   "in_progress": [],
   "open": [
-    {
-      "cve": "CVE-2022-1471",
-      "library": "org.yaml:snakeyaml"
-    },
     {
       "cve": "CVE-2022-25857",
       "library": "org.yaml:snakeyaml"
@@ -472,6 +452,10 @@
     {
       "cve": "CVE-2025-52520",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
       "cve": "CVE-2025-53506",
@@ -738,6 +722,14 @@
       "library": "io.netty:netty-codec-redis"
     },
     {
+      "cve": "CVE-2026-54512",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54513",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
       "cve": "CVE-2026-55831",
       "library": "io.netty:netty-codec-http"
     },
@@ -826,6 +818,10 @@
       "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
+      "cve": "CVE-2026-68497",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
       "cve": "CVE-2026-68525",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -864,12 +860,6 @@
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00003",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00004",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "issue #116 for CVE-2026-42498 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #117 for CVE-2026-42578 is closed in backlog while the entry on io.netty:netty-handler-proxy is open",
     "issue #118 for CVE-2026-42579 is closed in backlog while the entry on io.netty:netty-codec-dns is open",
@@ -955,6 +945,13 @@
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
     "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00003 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00004 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty at 1.0.39",
     "promoted org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty.http2:http2-common at 9.4.53.v20231009",
@@ -1002,7 +999,6 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
-    "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.30",
     "CVE-2024-38816 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844",
     "CVE-2024-38819 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844",
     "CVE-2026-22740 on spring-webflux 5.3.39 is patched, the evidence chain is broken: the evidence names CVE-2026-22740 and the vulnerability document names CVE-2024-38816, CVE-2024-38819, CVE-2026-22740, CVE-2026-41842, CVE-2026-41844; in the evidence and not in the document: none; in the document and not in the evidence: CVE-2024-38816, CVE-2024-38819, CVE-2026-41842, CVE-2026-41844",

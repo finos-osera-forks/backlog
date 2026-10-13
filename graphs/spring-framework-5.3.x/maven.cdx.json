@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:02e97a55-dc0c-4466-8922-65235c4e01c1",
+ "serialNumber": "urn:uuid:dfa5d255-99e4-445b-b911-1f6f7608eedf",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-09-22T08:33:04Z",
+  "timestamp": "2026-10-13T11:56:34Z",
   "tools": {
    "components": [
     {
@@ -46,11 +46,27 @@
     },
     {
      "name": "osera:latest",
-     "value": "org.reactivestreams:reactive-streams:1.0.3\u003e1.0.4,org.aspectj:aspectjweaver:1.9.7\u003e1.9.25.1"
+     "value": "org.aspectj:aspectjweaver:1.9.7\u003e1.9.25.1,org.reactivestreams:reactive-streams:1.0.3\u003e1.0.4"
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
     },
     {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -66,7 +82,13 @@
    "group": "io.projectreactor",
    "name": "reactor-core",
    "version": "3.4.41",
-   "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.41"
+   "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.41",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +96,13 @@
    "group": "io.r2dbc",
    "name": "r2dbc-spi",
    "version": "0.8.6.RELEASE",
-   "purl": "pkg:maven/io.r2dbc/r2dbc-spi@0.8.6.RELEASE"
+   "purl": "pkg:maven/io.r2dbc/r2dbc-spi@0.8.6.RELEASE",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +110,13 @@
    "group": "org.aspectj",
    "name": "aspectjweaver",
    "version": "1.9.25.1",
-   "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1"
+   "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -90,7 +124,13 @@
    "group": "org.reactivestreams",
    "name": "reactive-streams",
    "version": "1.0.4",
-   "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
+   "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -98,7 +138,13 @@
    "group": "org.springframework",
    "name": "spring-aop",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-aop@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-aop@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -106,7 +152,13 @@
    "group": "org.springframework",
    "name": "spring-aspects",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-aspects@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-aspects@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -114,7 +166,13 @@
    "group": "org.springframework",
    "name": "spring-beans",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-beans@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-beans@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -122,7 +180,13 @@
    "group": "org.springframework",
    "name": "spring-context-indexer",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-context-indexer@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-context-indexer@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -130,7 +194,13 @@
    "group": "org.springframework",
    "name": "spring-context-support",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-context-support@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-context-support@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -138,7 +208,13 @@
    "group": "org.springframework",
    "name": "spring-context",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-context@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-context@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -146,7 +222,13 @@
    "group": "org.springframework",
    "name": "spring-core",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-core@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-core@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -154,7 +236,13 @@
    "group": "org.springframework",
    "name": "spring-expression",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-expression@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-expression@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -162,7 +250,13 @@
    "group": "org.springframework",
    "name": "spring-instrument",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-instrument@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-instrument@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -170,7 +264,13 @@
    "group": "org.springframework",
    "name": "spring-jcl",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-jcl@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-jcl@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -178,7 +278,13 @@
    "group": "org.springframework",
    "name": "spring-jdbc",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-jdbc@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-jdbc@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -186,7 +292,13 @@
    "group": "org.springframework",
    "name": "spring-jms",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-jms@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-jms@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -194,7 +306,13 @@
    "group": "org.springframework",
    "name": "spring-messaging",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-messaging@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-messaging@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -202,7 +320,13 @@
    "group": "org.springframework",
    "name": "spring-orm",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-orm@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-orm@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -210,7 +334,13 @@
    "group": "org.springframework",
    "name": "spring-oxm",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-oxm@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-oxm@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -218,7 +348,13 @@
    "group": "org.springframework",
    "name": "spring-r2dbc",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-r2dbc@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-r2dbc@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -226,7 +362,13 @@
    "group": "org.springframework",
    "name": "spring-test",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-test@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-test@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -234,7 +376,13 @@
    "group": "org.springframework",
    "name": "spring-tx",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-tx@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-tx@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -242,7 +390,13 @@
    "group": "org.springframework",
    "name": "spring-web",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-web@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-web@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -250,7 +404,13 @@
    "group": "org.springframework",
    "name": "spring-webflux",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-webflux@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-webflux@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -258,7 +418,13 @@
    "group": "org.springframework",
    "name": "spring-webmvc",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-webmvc@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-webmvc@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -266,7 +432,13 @@
    "group": "org.springframework",
    "name": "spring-websocket",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-websocket@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-websocket@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [
@@ -299,7 +471,9 @@
   },
   {
    "ref": "pkg:maven/io.projectreactor/reactor-core@3.4.41",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
+   ]
   },
   {
    "ref": "pkg:maven/io.r2dbc/r2dbc-spi@0.8.6.RELEASE",
@@ -317,7 +491,10 @@
   },
   {
    "ref": "pkg:maven/org.springframework/spring-aop@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-aspects@5.3.39",
@@ -327,7 +504,9 @@
   },
   {
    "ref": "pkg:maven/org.springframework/spring-beans@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-context-indexer@5.3.39",
@@ -335,19 +514,32 @@
   },
   {
    "ref": "pkg:maven/org.springframework/spring-context-support@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-context@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-expression@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-core@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-jcl@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-expression@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-instrument@5.3.39",
@@ -359,54 +551,101 @@
   },
   {
    "ref": "pkg:maven/org.springframework/spring-jdbc@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-tx@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-jms@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-messaging@5.3.39",
+    "pkg:maven/org.springframework/spring-tx@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-messaging@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-orm@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-jdbc@5.3.39",
+    "pkg:maven/org.springframework/spring-tx@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-oxm@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-r2dbc@5.3.39",
    "dependsOn": [
     "pkg:maven/io.projectreactor/reactor-core@3.4.41",
-    "pkg:maven/io.r2dbc/r2dbc-spi@0.8.6.RELEASE"
+    "pkg:maven/io.r2dbc/r2dbc-spi@0.8.6.RELEASE",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-tx@5.3.39"
    ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-test@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-tx@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-web@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/io.projectreactor/reactor-core@3.4.41",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-web@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-expression@5.3.39",
+    "pkg:maven/org.springframework/spring-web@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-websocket@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-web@5.3.39"
+   ]
   }
  ]
 }

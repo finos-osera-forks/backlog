@@ -1210,17 +1210,6 @@
       ],
       "words": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 5.7.11 and spring-security-5.7.x at 5.7.11, uploaded on 5.7.14",
       "first_seen": "2026-09-24T19:57:13Z"
-    },
-    {
-      "coordinate": "org.yaml:snakeyaml@1.33.1-osera-00001",
-      "library": "org.yaml:snakeyaml",
-      "base": "1.33",
-      "reason": "in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33",
-      "lines": [
-        "spring-boot-2.7.x"
-      ],
-      "words": "org.yaml:snakeyaml@1.33.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 1.30, uploaded on 1.33",
-      "first_seen": "2026-09-24T06:46:43Z"
     }
   ]
 }
