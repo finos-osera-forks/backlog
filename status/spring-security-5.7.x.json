@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.13.2",
-  "as_of": "2026-10-13T12:00:23Z",
+  "as_of": "2026-10-13T13:23:35Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 23,
@@ -13,6 +13,14 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-web@5.3.39.1-osera-00012",
       "at": "2026-09-24T16:03:48Z"
+    },
+    {
+      "cve": "CVE-2025-22228",
+      "library": "org.springframework.security:spring-security-crypto",
+      "coordinate": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00005",
+      "at": "2026-10-13T13:23:35Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -29,6 +37,30 @@
       "patch": "00007",
       "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
       "at": "2026-09-24T17:17:30Z"
+    },
+    {
+      "cve": "CVE-2026-22732",
+      "library": "org.springframework.security:spring-security-web",
+      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
+      "at": "2026-10-13T13:23:35Z"
+    },
+    {
+      "cve": "CVE-2026-40988",
+      "library": "org.springframework.security:spring-security-saml2-service-provider",
+      "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005",
+      "at": "2026-10-13T13:23:35Z"
+    },
+    {
+      "cve": "CVE-2026-41706",
+      "library": "org.springframework.security:spring-security-web",
+      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
+      "at": "2026-10-13T13:23:35Z"
     },
     {
       "cve": "CVE-2026-41716",
@@ -79,6 +111,14 @@
       "at": "2026-09-24T16:03:48Z"
     },
     {
+      "cve": "CVE-2026-47838",
+      "library": "org.springframework.security:spring-security-web",
+      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
+      "at": "2026-10-13T13:23:35Z"
+    },
+    {
       "cve": "CVE-2026-50193",
       "library": "com.fasterxml.jackson.core:jackson-databind",
       "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
@@ -114,26 +154,6 @@
       "library": "org.springframework.security:spring-security-web"
     },
     {
-      "cve": "CVE-2025-22228",
-      "library": "org.springframework.security:spring-security-crypto"
-    },
-    {
-      "cve": "CVE-2026-22732",
-      "library": "org.springframework.security:spring-security-web"
-    },
-    {
-      "cve": "CVE-2026-40988",
-      "library": "org.springframework.security:spring-security-saml2-service-provider"
-    },
-    {
-      "cve": "CVE-2026-41706",
-      "library": "org.springframework.security:spring-security-web"
-    },
-    {
-      "cve": "CVE-2026-47838",
-      "library": "org.springframework.security:spring-security-web"
-    },
-    {
       "cve": "CVE-2026-68494",
       "library": "com.fasterxml.jackson.core:jackson-core"
     },
@@ -165,22 +185,7 @@
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
-    "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
-    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
-    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
-    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
-    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
-    "promoted org.springframework.security:spring-security-crypto@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-crypto at 5.7.11",
-    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
-    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
-    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
-    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
-    "promoted org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-saml2-service-provider at 5.7.11",
-    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
-    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
-    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00003 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
-    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
-    "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
+    "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.09.24.26"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.13"
 }

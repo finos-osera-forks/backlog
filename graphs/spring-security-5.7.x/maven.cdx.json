@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:f07e23f5-2359-426c-a299-924a12fc698f",
+ "serialNumber": "urn:uuid:8197c888-dc4c-4add-bd02-dc2c981abcfb",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-13T11:56:48Z",
+  "timestamp": "2026-10-13T13:24:59Z",
   "tools": {
    "components": [
     {
@@ -54,11 +54,11 @@
     },
     {
      "name": "osera:baseline",
-     "value": ""
+     "value": "org.springframework.security:spring-security-bom:5.7.11\u003e5.7.14"
     },
     {
      "name": "osera:line_release",
-     "value": ""
+     "value": "the line release rules of REL-009-JAVA (draft), the owner's decisions of 8 Oct 2026"
     },
     {
      "name": "osera:method",
@@ -904,11 +904,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-acl",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -918,11 +918,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-aspects",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -932,11 +932,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-cas",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-cas@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-cas@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -946,11 +946,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-config@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-config@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-config",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-config@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-config@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -960,11 +960,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-core",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -974,11 +974,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-crypto",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -988,11 +988,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-data",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-data@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-data@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1002,11 +1002,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-ldap",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1016,11 +1016,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-messaging",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1030,11 +1030,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-oauth2-client",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1044,11 +1044,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-oauth2-core",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1058,11 +1058,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-oauth2-jose",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1072,11 +1072,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-oauth2-resource-server",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1086,11 +1086,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-openid@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-openid@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-openid",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-openid@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-openid@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1100,11 +1100,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-remoting",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1114,11 +1114,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-rsocket",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1128,11 +1128,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-saml2-service-provider",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1142,11 +1142,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-taglibs",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1156,11 +1156,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-test",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-test@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-test@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1170,11 +1170,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-web",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -1369,26 +1369,26 @@
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-bom@5.7.11?type=pom",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-cas@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-config@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-data@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-openid@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-remoting@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-test@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11"
+    "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-aspects@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-cas@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-config@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-data@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-messaging@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-openid@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-remoting@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-test@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14"
    ]
   },
   {
@@ -1791,9 +1791,9 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-aop@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
     "pkg:maven/org.springframework/spring-core@5.3.39",
@@ -1802,21 +1802,21 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.14",
    "dependsOn": [
     "pkg:maven/org.aspectj/aspectjrt@1.9.25.1",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
     "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.14",
    "dependsOn": [
     "pkg:maven/org.jasig.cas.client/cas-client-core@3.6.4",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
     "pkg:maven/org.springframework/spring-core@5.3.39",
@@ -1824,9 +1824,9 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-config@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-config@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-aop@5.3.39",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
@@ -1834,9 +1834,9 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
     "pkg:maven/org.springframework/spring-aop@5.3.39",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
@@ -1845,23 +1845,23 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.14",
    "dependsOn": [
     "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3",
     "pkg:maven/org.springframework.data/spring-data-commons@2.7.18",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14",
    "dependsOn": [
     "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
     "pkg:maven/org.springframework/spring-core@5.3.39",
@@ -1869,9 +1869,9 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
     "pkg:maven/org.springframework/spring-core@5.3.39",
@@ -1880,50 +1880,50 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.14",
    "dependsOn": [
     "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
     "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-core@5.3.39",
     "pkg:maven/org.springframework/spring-web@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.14",
    "dependsOn": [
     "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
     "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
     "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-openid@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-openid@5.7.14",
    "dependsOn": [
     "pkg:maven/com.google.inject/guice@3.0",
     "pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22",
     "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
     "pkg:maven/org.openid4java/openid4java-nodeps@0.9.6",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
     "pkg:maven/org.springframework/spring-aop@5.3.39",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
@@ -1932,9 +1932,9 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-aop@5.3.39",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
@@ -1943,27 +1943,27 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.14",
    "dependsOn": [
     "pkg:maven/io.rsocket/rsocket-core@1.1.5",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11"
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14",
    "dependsOn": [
     "pkg:maven/org.opensaml/opensaml-core@3.4.6",
     "pkg:maven/org.opensaml/opensaml-saml-api@3.4.6",
     "pkg:maven/org.opensaml/opensaml-saml-impl@3.4.6",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11"
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
     "pkg:maven/org.springframework/spring-aop@5.3.39",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
@@ -1973,18 +1973,18 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
     "pkg:maven/org.springframework/spring-core@5.3.39",
     "pkg:maven/org.springframework/spring-test@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-aop@5.3.39",
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",

@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:dfa5d255-99e4-445b-b911-1f6f7608eedf",
+ "serialNumber": "urn:uuid:73d3c489-f176-4648-a90e-6657808bfd40",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-13T11:56:34Z",
+  "timestamp": "2026-10-13T13:24:45Z",
   "tools": {
    "components": [
     {
@@ -58,7 +58,7 @@
     },
     {
      "name": "osera:line_release",
-     "value": ""
+     "value": "the line release rules of REL-009-JAVA (draft), the owner's decisions of 8 Oct 2026"
     },
     {
      "name": "osera:method",
