@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:4a574124-a242-4f1a-b3f2-ca05b4c890eb",
+ "serialNumber": "urn:uuid:e7ed33a1-0706-45c3-8914-cd3ccb34f0cf",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-13T13:24:35Z",
+  "timestamp": "2026-10-14T08:50:39Z",
   "tools": {
    "components": [
     {
@@ -5580,11 +5580,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.5.Final",
+   "bom-ref": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.6.Final",
    "group": "org.hibernate.validator",
    "name": "hibernate-validator-annotation-processor",
-   "version": "6.2.5.Final",
-   "purl": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.5.Final",
+   "version": "6.2.6.Final",
+   "purl": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.6.Final",
    "properties": [
     {
      "name": "osera:listed",
@@ -11950,7 +11950,7 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.5.Final",
+   "ref": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.6.Final",
    "dependsOn": []
   },
   {
