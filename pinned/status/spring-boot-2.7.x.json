@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.13.3",
-  "as_of": "2026-10-13T13:26:50Z",
+  "as_of": "2026-10-14T00:00:35Z",
   "status": "in progress",
   "chain": "broken: 1 artifact",
-  "in_scope": 174,
+  "in_scope": 182,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -77,6 +77,14 @@
       "patch": "00012",
       "named_by": "org.springframework:spring-core@5.3.39.1-osera-00012",
       "at": "2026-09-24T16:03:48Z"
+    },
+    {
+      "cve": "CVE-2025-52999",
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
+      "at": "2026-10-14T00:00:35Z"
     },
     {
       "cve": "CVE-2026-22733",
@@ -301,10 +309,30 @@
       "patch": "00007",
       "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
       "at": "2026-09-24T17:17:30Z"
+    },
+    {
+      "cve": "CVE-2026-54512",
+      "library": "com.fasterxml.jackson.core:jackson-databind",
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+      "at": "2026-10-14T00:00:35Z"
+    },
+    {
+      "cve": "CVE-2026-54513",
+      "library": "com.fasterxml.jackson.core:jackson-databind",
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+      "at": "2026-10-14T00:00:35Z"
     }
   ],
   "in_progress": [],
   "open": [
+    {
+      "cve": "CVE-2022-1471",
+      "library": "org.yaml:snakeyaml"
+    },
     {
       "cve": "CVE-2022-25857",
       "library": "org.yaml:snakeyaml"
@@ -818,6 +846,10 @@
       "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
+      "cve": "CVE-2026-68494",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
       "cve": "CVE-2026-68497",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
@@ -846,7 +878,19 @@
       "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
+      "cve": "CVE-2026-89425",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
       "cve": "CVE-2026-91776",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-91776",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-91777",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
@@ -860,6 +904,12 @@
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00003",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00004",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "issue #116 for CVE-2026-42498 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #117 for CVE-2026-42578 is closed in backlog while the entry on io.netty:netty-handler-proxy is open",
     "issue #118 for CVE-2026-42579 is closed in backlog while the entry on io.netty:netty-codec-dns is open",
@@ -944,19 +994,13 @@
     "issue #83 for CVE-2026-40988 is closed in backlog while the entry on org.springframework.security:spring-security-saml2-service-provider is open",
     "issue #88 for CVE-2026-41284 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
     "issue #89 for CVE-2026-41293 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
+    "issue #9 for CVE-2022-1471 is closed in backlog while the entry on org.yaml:snakeyaml is open",
     "issue #91 for CVE-2026-41706 is closed in backlog while the entry on org.springframework.security:spring-security-web is open",
     "issue #96 for CVE-2026-41720 is closed in backlog while the entry on org.springframework.ldap:spring-ldap-core is open",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
     "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00003 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00004 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
-    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.14.2",
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty at 1.0.39",
     "promoted org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty.http2:http2-common at 9.4.53.v20231009",
