@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.15.48",
-  "as_of": "2026-10-15T17:11:46Z",
+  "book_version": "v2026.10.15.49",
+  "as_of": "2026-10-15T17:14:32Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 182,
@@ -81,10 +81,10 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00072",
-      "patch": "00072",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00072",
-      "at": "2026-10-15T17:05:31Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00073",
+      "patch": "00073",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00073",
+      "at": "2026-10-15T17:14:32Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -153,10 +153,10 @@
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00072",
-      "patch": "00072",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00072",
-      "at": "2026-10-15T17:05:31Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00073",
+      "patch": "00073",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00073",
+      "at": "2026-10-15T17:14:32Z"
     },
     {
       "cve": "CVE-2026-40987",
@@ -1146,5 +1146,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.72"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.73"
 }
