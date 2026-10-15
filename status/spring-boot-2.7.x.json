@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.15.11",
-  "as_of": "2026-10-15T14:02:51Z",
+  "book_version": "v2026.10.15.12",
+  "as_of": "2026-10-15T14:04:36Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 68,
@@ -105,10 +105,10 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
-      "patch": "00053",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
-      "at": "2026-09-24T21:22:56Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
+      "patch": "00054",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
+      "at": "2026-10-15T14:04:36Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -201,10 +201,10 @@
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
-      "patch": "00053",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00053",
-      "at": "2026-09-24T21:22:56Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
+      "patch": "00054",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
+      "at": "2026-10-15T14:04:36Z"
     },
     {
       "cve": "CVE-2026-40988",
@@ -591,5 +591,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00010",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.21"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.22"
 }
