@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:58a85ad0-b9bc-4be6-a2bf-ff362ede570a",
+ "serialNumber": "urn:uuid:8197c888-dc4c-4add-bd02-dc2c981abcfb",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-07T08:38:41Z",
+  "timestamp": "2026-10-13T13:24:59Z",
   "tools": {
    "components": [
     {
@@ -49,8 +49,24 @@
      "value": "com.fasterxml.jackson.core:jackson-annotations:2.13.0\u003e2.13.5,com.fasterxml.jackson.core:jackson-core:2.13.0\u003e2.13.5,com.fasterxml.jackson.core:jackson-databind:2.13.0\u003e2.13.5,commons-collections:commons-collections:3.2.1\u003e3.2.2,io.netty:netty-buffer:4.1.93.Final\u003e4.1.139.Final,io.netty:netty-common:4.1.93.Final\u003e4.1.139.Final,io.projectreactor:reactor-core:3.4.29\u003e3.4.41,io.rsocket:rsocket-core:1.1.4\u003e1.1.5,joda-time:joda-time:2.9\u003e2.9.9,net.minidev:accessors-smart:2.4.8\u003e2.4.11,net.minidev:json-smart:2.4.8\u003e2.4.11,org.aspectj:aspectjrt:1.9.19\u003e1.9.25.1,org.slf4j:slf4j-api:1.7.32\u003e1.7.36,org.springframework.data:spring-data-commons:2.7.14\u003e2.7.18,org.springframework.ldap:spring-ldap-core:2.4.1\u003e2.4.4,org.springframework:spring-aop:5.3.29\u003e5.3.39,org.springframework:spring-beans:5.3.29\u003e5.3.39,org.springframework:spring-context:5.3.29\u003e5.3.39,org.springframework:spring-core:5.3.29\u003e5.3.39,org.springframework:spring-expression:5.3.29\u003e5.3.39,org.springframework:spring-jcl:5.3.29\u003e5.3.39,org.springframework:spring-jdbc:5.3.29\u003e5.3.39,org.springframework:spring-messaging:5.3.29\u003e5.3.39,org.springframework:spring-test:5.3.29\u003e5.3.39,org.springframework:spring-tx:5.3.29\u003e5.3.39,org.springframework:spring-web:5.3.29\u003e5.3.39"
     },
     {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": "org.springframework.security:spring-security-bom:5.7.11\u003e5.7.14"
+    },
+    {
+     "name": "osera:line_release",
+     "value": "the line release rules of REL-009-JAVA (draft), the owner's decisions of 8 Oct 2026"
+    },
+    {
      "name": "osera:method",
      "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
     },
     {
      "name": "osera:listing",
@@ -62,11 +78,31 @@
  "components": [
   {
    "type": "library",
+   "bom-ref": "pkg:maven/asm/asm@3.1",
+   "group": "asm",
+   "name": "asm",
+   "version": "3.1",
+   "purl": "pkg:maven/asm/asm@3.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
    "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.5",
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-annotations",
    "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.5"
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.5",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -74,7 +110,13 @@
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-core",
    "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5"
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -82,7 +124,13 @@
    "group": "com.fasterxml.jackson.core",
    "name": "jackson-databind",
    "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5"
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -90,7 +138,13 @@
    "group": "com.fasterxml.woodstox",
    "name": "woodstox-core",
    "version": "5.0.3",
-   "purl": "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3"
+   "purl": "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -98,7 +152,13 @@
    "group": "com.github.stephenc.jcip",
    "name": "jcip-annotations",
    "version": "1.0-1",
-   "purl": "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1"
+   "purl": "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -106,7 +166,13 @@
    "group": "com.google.code.findbugs",
    "name": "jsr305",
    "version": "3.0.2",
-   "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2"
+   "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -114,7 +180,13 @@
    "group": "com.google.guava",
    "name": "guava",
    "version": "20.0",
-   "purl": "pkg:maven/com.google.guava/guava@20.0"
+   "purl": "pkg:maven/com.google.guava/guava@20.0",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -122,7 +194,13 @@
    "group": "com.google.inject",
    "name": "guice",
    "version": "3.0",
-   "purl": "pkg:maven/com.google.inject/guice@3.0"
+   "purl": "pkg:maven/com.google.inject/guice@3.0",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -130,7 +208,13 @@
    "group": "com.nimbusds",
    "name": "content-type",
    "version": "2.2",
-   "purl": "pkg:maven/com.nimbusds/content-type@2.2"
+   "purl": "pkg:maven/com.nimbusds/content-type@2.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -138,7 +222,13 @@
    "group": "com.nimbusds",
    "name": "lang-tag",
    "version": "1.6",
-   "purl": "pkg:maven/com.nimbusds/lang-tag@1.6"
+   "purl": "pkg:maven/com.nimbusds/lang-tag@1.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -146,7 +236,13 @@
    "group": "com.nimbusds",
    "name": "nimbus-jose-jwt",
    "version": "9.22",
-   "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22"
+   "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -154,7 +250,13 @@
    "group": "com.nimbusds",
    "name": "oauth2-oidc-sdk",
    "version": "9.35",
-   "purl": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35"
+   "purl": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -162,7 +264,13 @@
    "group": "commons-codec",
    "name": "commons-codec",
    "version": "1.15",
-   "purl": "pkg:maven/commons-codec/commons-codec@1.15"
+   "purl": "pkg:maven/commons-codec/commons-codec@1.15",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -170,7 +278,13 @@
    "group": "commons-collections",
    "name": "commons-collections",
    "version": "3.2.2",
-   "purl": "pkg:maven/commons-collections/commons-collections@3.2.2"
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -178,7 +292,13 @@
    "group": "commons-lang",
    "name": "commons-lang",
    "version": "2.4",
-   "purl": "pkg:maven/commons-lang/commons-lang@2.4"
+   "purl": "pkg:maven/commons-lang/commons-lang@2.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -186,7 +306,13 @@
    "group": "io.dropwizard.metrics",
    "name": "metrics-core",
    "version": "3.1.5",
-   "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.5"
+   "purl": "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.5",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -194,7 +320,13 @@
    "group": "io.netty",
    "name": "netty-buffer",
    "version": "4.1.139.Final",
-   "purl": "pkg:maven/io.netty/netty-buffer@4.1.139.Final"
+   "purl": "pkg:maven/io.netty/netty-buffer@4.1.139.Final",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -202,7 +334,13 @@
    "group": "io.netty",
    "name": "netty-common",
    "version": "4.1.139.Final",
-   "purl": "pkg:maven/io.netty/netty-common@4.1.139.Final"
+   "purl": "pkg:maven/io.netty/netty-common@4.1.139.Final",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -210,7 +348,13 @@
    "group": "io.projectreactor",
    "name": "reactor-core",
    "version": "3.4.41",
-   "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.41"
+   "purl": "pkg:maven/io.projectreactor/reactor-core@3.4.41",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -218,7 +362,13 @@
    "group": "io.rsocket",
    "name": "rsocket-core",
    "version": "1.1.5",
-   "purl": "pkg:maven/io.rsocket/rsocket-core@1.1.5"
+   "purl": "pkg:maven/io.rsocket/rsocket-core@1.1.5",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -226,7 +376,13 @@
    "group": "jakarta.activation",
    "name": "jakarta.activation-api",
    "version": "1.2.2",
-   "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2"
+   "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -234,7 +390,13 @@
    "group": "jakarta.xml.bind",
    "name": "jakarta.xml.bind-api",
    "version": "2.3.3",
-   "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3"
+   "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -242,7 +404,13 @@
    "group": "joda-time",
    "name": "joda-time",
    "version": "2.9.9",
-   "purl": "pkg:maven/joda-time/joda-time@2.9.9"
+   "purl": "pkg:maven/joda-time/joda-time@2.9.9",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -250,7 +418,13 @@
    "group": "net.jcip",
    "name": "jcip-annotations",
    "version": "1.0",
-   "purl": "pkg:maven/net.jcip/jcip-annotations@1.0"
+   "purl": "pkg:maven/net.jcip/jcip-annotations@1.0",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -258,7 +432,13 @@
    "group": "net.minidev",
    "name": "accessors-smart",
    "version": "2.4.11",
-   "purl": "pkg:maven/net.minidev/accessors-smart@2.4.11"
+   "purl": "pkg:maven/net.minidev/accessors-smart@2.4.11",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -266,7 +446,13 @@
    "group": "net.minidev",
    "name": "json-smart",
    "version": "2.4.11",
-   "purl": "pkg:maven/net.minidev/json-smart@2.4.11"
+   "purl": "pkg:maven/net.minidev/json-smart@2.4.11",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -274,7 +460,13 @@
    "group": "net.shibboleth.utilities",
    "name": "java-support",
    "version": "7.5.2",
-   "purl": "pkg:maven/net.shibboleth.utilities/java-support@7.5.2"
+   "purl": "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -282,7 +474,13 @@
    "group": "net.sourceforge.nekohtml",
    "name": "nekohtml",
    "version": "1.9.22",
-   "purl": "pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22"
+   "purl": "pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -290,7 +488,13 @@
    "group": "org.apache.httpcomponents",
    "name": "httpclient",
    "version": "4.5.14",
-   "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14"
+   "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -298,7 +502,13 @@
    "group": "org.apache.httpcomponents",
    "name": "httpcore",
    "version": "4.4.16",
-   "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16"
+   "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -306,7 +516,13 @@
    "group": "org.apache.santuario",
    "name": "xmlsec",
    "version": "2.0.10",
-   "purl": "pkg:maven/org.apache.santuario/xmlsec@2.0.10"
+   "purl": "pkg:maven/org.apache.santuario/xmlsec@2.0.10",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -314,7 +530,13 @@
    "group": "org.apache.velocity",
    "name": "velocity",
    "version": "1.7",
-   "purl": "pkg:maven/org.apache.velocity/velocity@1.7"
+   "purl": "pkg:maven/org.apache.velocity/velocity@1.7",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -322,7 +544,13 @@
    "group": "org.aspectj",
    "name": "aspectjrt",
    "version": "1.9.25.1",
-   "purl": "pkg:maven/org.aspectj/aspectjrt@1.9.25.1"
+   "purl": "pkg:maven/org.aspectj/aspectjrt@1.9.25.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -330,7 +558,13 @@
    "group": "org.bouncycastle",
    "name": "bcpkix-jdk15on",
    "version": "1.70",
-   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70"
+   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -338,7 +572,13 @@
    "group": "org.bouncycastle",
    "name": "bcprov-jdk15on",
    "version": "1.70",
-   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70"
+   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -346,7 +586,13 @@
    "group": "org.bouncycastle",
    "name": "bcutil-jdk15on",
    "version": "1.70",
-   "purl": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70"
+   "purl": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -354,7 +600,13 @@
    "group": "org.codehaus.woodstox",
    "name": "stax2-api",
    "version": "3.1.4",
-   "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4"
+   "purl": "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -362,7 +614,13 @@
    "group": "org.cryptacular",
    "name": "cryptacular",
    "version": "1.1.4",
-   "purl": "pkg:maven/org.cryptacular/cryptacular@1.1.4"
+   "purl": "pkg:maven/org.cryptacular/cryptacular@1.1.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -370,7 +628,13 @@
    "group": "org.jasig.cas.client",
    "name": "cas-client-core",
    "version": "3.6.4",
-   "purl": "pkg:maven/org.jasig.cas.client/cas-client-core@3.6.4"
+   "purl": "pkg:maven/org.jasig.cas.client/cas-client-core@3.6.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -378,7 +642,13 @@
    "group": "org.openid4java",
    "name": "openid4java-nodeps",
    "version": "0.9.6",
-   "purl": "pkg:maven/org.openid4java/openid4java-nodeps@0.9.6"
+   "purl": "pkg:maven/org.openid4java/openid4java-nodeps@0.9.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -386,7 +656,13 @@
    "group": "org.opensaml",
    "name": "opensaml-core",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-core@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-core@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -394,7 +670,13 @@
    "group": "org.opensaml",
    "name": "opensaml-messaging-api",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -402,7 +684,13 @@
    "group": "org.opensaml",
    "name": "opensaml-profile-api",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-profile-api@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-profile-api@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -410,7 +698,13 @@
    "group": "org.opensaml",
    "name": "opensaml-saml-api",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-saml-api@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-saml-api@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -418,7 +712,13 @@
    "group": "org.opensaml",
    "name": "opensaml-saml-impl",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-saml-impl@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-saml-impl@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -426,7 +726,13 @@
    "group": "org.opensaml",
    "name": "opensaml-security-api",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-security-api@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-security-api@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -434,7 +740,13 @@
    "group": "org.opensaml",
    "name": "opensaml-security-impl",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-security-impl@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-security-impl@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -442,7 +754,13 @@
    "group": "org.opensaml",
    "name": "opensaml-soap-api",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-soap-api@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-soap-api@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -450,7 +768,13 @@
    "group": "org.opensaml",
    "name": "opensaml-soap-impl",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-soap-impl@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-soap-impl@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -458,7 +782,13 @@
    "group": "org.opensaml",
    "name": "opensaml-storage-api",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-storage-api@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-storage-api@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -466,7 +796,13 @@
    "group": "org.opensaml",
    "name": "opensaml-xmlsec-api",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -474,7 +810,13 @@
    "group": "org.opensaml",
    "name": "opensaml-xmlsec-impl",
    "version": "3.4.6",
-   "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-impl@3.4.6"
+   "purl": "pkg:maven/org.opensaml/opensaml-xmlsec-impl@3.4.6",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -482,7 +824,13 @@
    "group": "org.ow2.asm",
    "name": "asm",
    "version": "9.3",
-   "purl": "pkg:maven/org.ow2.asm/asm@9.3"
+   "purl": "pkg:maven/org.ow2.asm/asm@9.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -490,7 +838,13 @@
    "group": "org.reactivestreams",
    "name": "reactive-streams",
    "version": "1.0.4",
-   "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
+   "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -498,7 +852,27 @@
    "group": "org.slf4j",
    "name": "slf4j-api",
    "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.sonatype.sisu.inject/cglib@2.2.1-v20090111",
+   "group": "org.sonatype.sisu.inject",
+   "name": "cglib",
+   "version": "2.2.1-v20090111",
+   "purl": "pkg:maven/org.sonatype.sisu.inject/cglib@2.2.1-v20090111",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -506,7 +880,13 @@
    "group": "org.springframework.data",
    "name": "spring-data-commons",
    "version": "2.7.18",
-   "purl": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18"
+   "purl": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -514,167 +894,293 @@
    "group": "org.springframework.ldap",
    "name": "spring-ldap-core",
    "version": "2.4.4",
-   "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4"
+   "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-acl",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-acl@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-aspects",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-cas",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-cas@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-cas@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-config@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-config@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-config",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-config@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-config@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-core",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-core@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-crypto",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-data",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-data@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-data@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-ldap",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-messaging",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-oauth2-client",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-oauth2-core",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-oauth2-jose",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-oauth2-resource-server",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-openid@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-openid@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-openid",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-openid@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-openid@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-remoting",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-rsocket",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-saml2-service-provider",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-taglibs",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-test",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-test@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-test@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
+   "bom-ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
    "group": "org.springframework.security",
    "name": "spring-security-web",
-   "version": "5.7.11",
-   "purl": "pkg:maven/org.springframework.security/spring-security-web@5.7.11"
+   "version": "5.7.14",
+   "purl": "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -682,7 +1188,13 @@
    "group": "org.springframework",
    "name": "spring-aop",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-aop@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-aop@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -690,7 +1202,13 @@
    "group": "org.springframework",
    "name": "spring-beans",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-beans@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-beans@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -698,7 +1216,13 @@
    "group": "org.springframework",
    "name": "spring-context",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-context@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-context@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -706,7 +1230,13 @@
    "group": "org.springframework",
    "name": "spring-core",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-core@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-core@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -714,7 +1244,13 @@
    "group": "org.springframework",
    "name": "spring-expression",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-expression@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-expression@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -722,7 +1258,13 @@
    "group": "org.springframework",
    "name": "spring-jcl",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-jcl@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-jcl@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -730,7 +1272,13 @@
    "group": "org.springframework",
    "name": "spring-jdbc",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-jdbc@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-jdbc@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -738,7 +1286,13 @@
    "group": "org.springframework",
    "name": "spring-messaging",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-messaging@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-messaging@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -746,7 +1300,13 @@
    "group": "org.springframework",
    "name": "spring-test",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-test@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-test@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -754,7 +1314,13 @@
    "group": "org.springframework",
    "name": "spring-tx",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-tx@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-tx@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -762,7 +1328,13 @@
    "group": "org.springframework",
    "name": "spring-web",
    "version": "5.3.39",
-   "purl": "pkg:maven/org.springframework/spring-web@5.3.39"
+   "purl": "pkg:maven/org.springframework/spring-web@5.3.39",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -770,7 +1342,13 @@
    "group": "xerces",
    "name": "xercesImpl",
    "version": "2.11.0",
-   "purl": "pkg:maven/xerces/xercesImpl@2.11.0"
+   "purl": "pkg:maven/xerces/xercesImpl@2.11.0",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   },
   {
    "type": "library",
@@ -778,34 +1356,44 @@
    "group": "xml-apis",
    "name": "xml-apis",
    "version": "1.4.01",
-   "purl": "pkg:maven/xml-apis/xml-apis@1.4.01"
+   "purl": "pkg:maven/xml-apis/xml-apis@1.4.01",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
   }
  ],
  "dependencies": [
   {
    "ref": "pkg:maven/org.springframework.security/spring-security-bom@5.7.11?type=pom",
    "dependsOn": [
-    "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-cas@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-config@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-data@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-openid@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-remoting@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-test@5.7.11",
-    "pkg:maven/org.springframework.security/spring-security-web@5.7.11"
+    "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-aspects@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-cas@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-config@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-data@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-messaging@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-openid@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-remoting@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-test@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14"
    ]
+  },
+  {
+   "ref": "pkg:maven/asm/asm@3.1",
+   "dependsOn": []
   },
   {
    "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.5",
@@ -842,7 +1430,9 @@
   },
   {
    "ref": "pkg:maven/com.google.inject/guice@3.0",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.sonatype.sisu.inject/cglib@2.2.1-v20090111"
+   ]
   },
   {
    "ref": "pkg:maven/com.nimbusds/content-type@2.2",
@@ -854,7 +1444,9 @@
   },
   {
    "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1"
+   ]
   },
   {
    "ref": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35",
@@ -862,6 +1454,7 @@
     "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
     "pkg:maven/com.nimbusds/content-type@2.2",
     "pkg:maven/com.nimbusds/lang-tag@1.6",
+    "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22",
     "pkg:maven/net.minidev/json-smart@2.4.11"
    ]
   },
@@ -879,7 +1472,9 @@
   },
   {
    "ref": "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.5",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
    "ref": "pkg:maven/io.netty/netty-buffer@4.1.139.Final",
@@ -901,7 +1496,8 @@
    "ref": "pkg:maven/io.rsocket/rsocket-core@1.1.5",
    "dependsOn": [
     "pkg:maven/io.netty/netty-buffer@4.1.139.Final",
-    "pkg:maven/io.projectreactor/reactor-core@3.4.41"
+    "pkg:maven/io.projectreactor/reactor-core@3.4.41",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
@@ -938,7 +1534,10 @@
    "ref": "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
    "dependsOn": [
     "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
-    "pkg:maven/com.google.guava/guava@20.0"
+    "pkg:maven/com.google.guava/guava@20.0",
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/joda-time/joda-time@2.9.9",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
@@ -950,6 +1549,7 @@
   {
    "ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
    "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
     "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16"
    ]
   },
@@ -960,7 +1560,9 @@
   {
    "ref": "pkg:maven/org.apache.santuario/xmlsec@2.0.10",
    "dependsOn": [
-    "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3"
+    "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3",
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
@@ -987,7 +1589,9 @@
   },
   {
    "ref": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70"
+   ]
   },
   {
    "ref": "pkg:maven/org.codehaus.woodstox/stax2-api@3.1.4",
@@ -995,7 +1599,9 @@
   },
   {
    "ref": "pkg:maven/org.cryptacular/cryptacular@1.1.4",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70"
+   ]
   },
   {
    "ref": "pkg:maven/org.jasig.cas.client/cas-client-core@3.6.4",
@@ -1015,69 +1621,141 @@
   {
    "ref": "pkg:maven/org.opensaml/opensaml-core@3.4.6",
    "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
     "pkg:maven/io.dropwizard.metrics/metrics-core@3.1.5",
     "pkg:maven/joda-time/joda-time@2.9.9",
-    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2"
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/joda-time/joda-time@2.9.9",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
+    "pkg:maven/org.opensaml/opensaml-core@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-profile-api@3.4.6",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.opensaml/opensaml-core@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-saml-api@3.4.6",
    "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
     "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
     "pkg:maven/org.opensaml/opensaml-profile-api@3.4.6",
     "pkg:maven/org.opensaml/opensaml-soap-api@3.4.6",
     "pkg:maven/org.opensaml/opensaml-storage-api@3.4.6",
-    "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.6"
+    "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-saml-impl@3.4.6",
    "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
     "pkg:maven/org.apache.velocity/velocity@1.7",
+    "pkg:maven/org.opensaml/opensaml-profile-api@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-saml-api@3.4.6",
     "pkg:maven/org.opensaml/opensaml-security-impl@3.4.6",
     "pkg:maven/org.opensaml/opensaml-soap-impl@3.4.6",
-    "pkg:maven/org.opensaml/opensaml-xmlsec-impl@3.4.6"
+    "pkg:maven/org.opensaml/opensaml-storage-api@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-xmlsec-impl@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-security-api@3.4.6",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.apache.santuario/xmlsec@2.0.10",
+    "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70",
+    "pkg:maven/org.cryptacular/cryptacular@1.1.4",
+    "pkg:maven/org.opensaml/opensaml-core@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-security-impl@3.4.6",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-security-api@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-soap-api@3.4.6",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
+    "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-soap-impl@3.4.6",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.opensaml/opensaml-profile-api@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-soap-api@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-storage-api@3.4.6",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/joda-time/joda-time@2.9.9",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.6",
    "dependsOn": [
-    "pkg:maven/org.opensaml/opensaml-security-api@3.4.6"
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
+    "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-security-api@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
    "ref": "pkg:maven/org.opensaml/opensaml-xmlsec-impl@3.4.6",
    "dependsOn": [
+    "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+    "pkg:maven/com.google.guava/guava@20.0",
+    "pkg:maven/commons-codec/commons-codec@1.15",
+    "pkg:maven/net.shibboleth.utilities/java-support@7.5.2",
     "pkg:maven/org.apache.santuario/xmlsec@2.0.10",
-    "pkg:maven/org.cryptacular/cryptacular@1.1.4"
+    "pkg:maven/org.cryptacular/cryptacular@1.1.4",
+    "pkg:maven/org.opensaml/opensaml-core@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-messaging-api@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-security-api@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-security-impl@3.4.6",
+    "pkg:maven/org.opensaml/opensaml-xmlsec-api@3.4.6",
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
@@ -1093,16 +1771,29 @@
    "dependsOn": []
   },
   {
+   "ref": "pkg:maven/org.sonatype.sisu.inject/cglib@2.2.1-v20090111",
+   "dependsOn": [
+    "pkg:maven/asm/asm@3.1"
+   ]
+  },
+  {
    "ref": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+   ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
    "dependsOn": [
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
     "pkg:maven/org.springframework/spring-aop@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39",
     "pkg:maven/org.springframework/spring-core@5.3.39",
@@ -1111,124 +1802,218 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-aspects@5.7.14",
    "dependsOn": [
     "pkg:maven/org.aspectj/aspectjrt@1.9.25.1",
-    "pkg:maven/org.springframework/spring-beans@5.3.39"
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-cas@5.7.14",
    "dependsOn": [
     "pkg:maven/org.jasig.cas.client/cas-client-core@3.6.4",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
     "pkg:maven/org.springframework/spring-web@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-config@5.7.11",
-   "dependsOn": []
+   "ref": "pkg:maven/org.springframework.security/spring-security-config@5.7.14",
+   "dependsOn": [
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
    "dependsOn": [
+    "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
     "pkg:maven/org.springframework/spring-expression@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14",
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-data@5.7.14",
    "dependsOn": [
     "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3",
-    "pkg:maven/org.springframework.data/spring-data-commons@2.7.18"
+    "pkg:maven/org.springframework.data/spring-data-commons@2.7.18",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14",
    "dependsOn": [
-    "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4"
+    "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-tx@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-messaging@5.7.14",
    "dependsOn": [
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-expression@5.3.39",
     "pkg:maven/org.springframework/spring-messaging@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-client@5.7.14",
    "dependsOn": [
-    "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35"
+    "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.11",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
    "dependsOn": [
-    "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22"
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-web@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.11",
-   "dependsOn": []
+   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-jose@5.7.14",
+   "dependsOn": [
+    "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-openid@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-oauth2-resource-server@5.7.14",
+   "dependsOn": [
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-oauth2-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.springframework.security/spring-security-openid@5.7.14",
    "dependsOn": [
     "pkg:maven/com.google.inject/guice@3.0",
     "pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22",
     "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14",
-    "pkg:maven/org.openid4java/openid4java-nodeps@0.9.6"
+    "pkg:maven/org.openid4java/openid4java-nodeps@0.9.6",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-web@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.11",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-remoting@5.7.14",
    "dependsOn": [
-    "pkg:maven/io.rsocket/rsocket-core@1.1.5"
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-web@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-rsocket@5.7.14",
+   "dependsOn": [
+    "pkg:maven/io.rsocket/rsocket-core@1.1.5",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14",
    "dependsOn": [
     "pkg:maven/org.opensaml/opensaml-core@3.4.6",
     "pkg:maven/org.opensaml/opensaml-saml-api@3.4.6",
-    "pkg:maven/org.opensaml/opensaml-saml-impl@3.4.6"
+    "pkg:maven/org.opensaml/opensaml-saml-impl@3.4.6",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.11",
-   "dependsOn": []
+   "ref": "pkg:maven/org.springframework.security/spring-security-taglibs@5.7.14",
+   "dependsOn": [
+    "pkg:maven/org.springframework.security/spring-security-acl@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-expression@5.3.39",
+    "pkg:maven/org.springframework/spring-web@5.3.39"
+   ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.11",
+   "ref": "pkg:maven/org.springframework.security/spring-security-test@5.7.14",
    "dependsOn": [
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
     "pkg:maven/org.springframework/spring-test@5.3.39"
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.11",
-   "dependsOn": []
+   "ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14",
+   "dependsOn": [
+    "pkg:maven/org.springframework.security/spring-security-core@5.7.14",
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-context@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-expression@5.3.39",
+    "pkg:maven/org.springframework/spring-web@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-aop@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-beans@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-context@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-aop@5.3.39",
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-expression@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-core@5.3.39",
@@ -1238,7 +2023,9 @@
   },
   {
    "ref": "pkg:maven/org.springframework/spring-expression@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-jcl@5.3.39",
@@ -1246,23 +2033,38 @@
   },
   {
    "ref": "pkg:maven/org.springframework/spring-jdbc@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39",
+    "pkg:maven/org.springframework/spring-tx@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-messaging@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-test@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-tx@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/org.springframework/spring-web@5.3.39",
-   "dependsOn": []
+   "dependsOn": [
+    "pkg:maven/org.springframework/spring-beans@5.3.39",
+    "pkg:maven/org.springframework/spring-core@5.3.39"
+   ]
   },
   {
    "ref": "pkg:maven/xerces/xercesImpl@2.11.0",

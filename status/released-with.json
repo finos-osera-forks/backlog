@@ -19,6 +19,15 @@
       "first_seen": "2026-09-24T15:03:57Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformats-text@2.13.5.1-osera-00008",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformats-text",
+      "base": "2.13.5",
+      "kind": "parent",
+      "released_with": "patch-jackson-dataformats-text v2.13.5.1-osera-00008",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T11:28:54Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson:jackson-bom",
       "base": "2.13.5",
@@ -82,6 +91,42 @@
       "first_seen": "2026-09-24T17:17:30Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00008",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T11:21:47Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00009",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T11:33:06Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00010",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T11:39:06Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00011",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:38:21Z"
+    },
+    {
       "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00001",
       "library": "io.projectreactor:reactor-bom",
       "base": "2020.0.47",
@@ -89,6 +134,15 @@
       "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-09-24T06:44:58Z"
+    },
+    {
+      "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00002",
+      "library": "io.projectreactor:reactor-bom",
+      "base": "2020.0.47",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T12:54:13Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00001",
@@ -100,6 +154,33 @@
       "first_seen": "2026-09-24T06:13:35Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00002",
+      "library": "org.apache.logging.log4j:log4j-bom",
+      "base": "2.17.2",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T12:54:13Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00003",
+      "library": "org.apache.logging.log4j:log4j-bom",
+      "base": "2.17.2",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:08:02Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00004",
+      "library": "org.apache.logging.log4j:log4j-bom",
+      "base": "2.17.2",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:13:44Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j",
       "base": "2.17.2",
@@ -107,6 +188,33 @@
       "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00001",
       "why": "the patched modules name it as their parent, a build needs it to resolve them",
       "first_seen": "2026-09-24T06:43:03Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00002",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.17.2",
+      "kind": "parent",
+      "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00002",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T12:54:13Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00003",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.17.2",
+      "kind": "parent",
+      "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00003",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T12:59:46Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00004",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.17.2",
+      "kind": "parent",
+      "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00004",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T13:20:26Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-bom@9.4.58.v20250814-osera-00001",
@@ -658,6 +766,195 @@
       "first_seen": "2026-09-24T21:20:50Z"
     },
     {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00054",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00054",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T14:02:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00055",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00055",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T14:12:53Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00056",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00056",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T14:20:37Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00057",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00057",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T14:27:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00058",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00058",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T14:34:13Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00059",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00059",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T14:42:02Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00060",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00060",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T15:48:11Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00061",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00061",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T15:54:26Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00062",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00062",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T15:59:58Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00063",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00063",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:05:39Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00064",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00064",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:12:10Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00065",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00065",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:18:25Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00066",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00066",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:24:52Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00067",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00067",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:31:22Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00068",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00068",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:38:11Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00069",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00069",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:44:46Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00070",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00070",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:50:47Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00071",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00071",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T16:57:16Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00072",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00072",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T17:04:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00073",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00073",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T17:10:38Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00074",
+      "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
+      "base": "2.7.18",
+      "kind": "plugin marker",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00074",
+      "why": "lets Gradle find the patched plugin",
+      "first_seen": "2026-10-15T17:17:30Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-dependencies",
       "base": "2.7.18",
@@ -1133,6 +1430,195 @@
       "released_with": "the anchor of spring-boot-2.7.x",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-09-24T21:20:50Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00054",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T14:02:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00055",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T14:12:53Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00056",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T14:20:37Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00057",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T14:29:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00058",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T14:34:13Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00059",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T14:42:02Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00060",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T15:49:22Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00061",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T15:54:26Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00062",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T15:59:58Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00063",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:05:39Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00064",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:12:10Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00065",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:19:45Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00066",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:28:30Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00067",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:32:35Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00068",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:38:11Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00069",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:44:46Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00070",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:51:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00071",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T16:58:28Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00072",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T17:04:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00073",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T17:11:46Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00074",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T17:18:35Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00001",
@@ -1612,6 +2098,195 @@
       "first_seen": "2026-09-24T21:20:50Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00054",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00054",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:02:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00055",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00055",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:14:10Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00056",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00056",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:20:37Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00057",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00057",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:29:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00058",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00058",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:34:13Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00059",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00059",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:42:02Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00060",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00060",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T15:49:22Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00061",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00061",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T15:54:26Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00062",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00062",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T15:59:58Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00063",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00063",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:06:59Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00064",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00064",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:12:10Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00065",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00065",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:19:45Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00066",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00066",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:28:30Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00067",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00067",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:32:35Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00068",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00068",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:38:11Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00069",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00069",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:44:46Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00070",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00070",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:51:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00071",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00071",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:58:28Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00072",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00072",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T17:04:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00073",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00073",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T17:11:46Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00074",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00074",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T17:18:35Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-maven-plugin",
       "base": "2.7.18",
@@ -2087,6 +2762,195 @@
       "released_with": "patch-spring-boot v2.7.18.1-osera-00053",
       "why": "the build plugin at the patched version",
       "first_seen": "2026-09-24T21:20:50Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00054",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00054",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:02:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00055",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00055",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:14:10Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00056",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00056",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:20:37Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00057",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00057",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:29:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00058",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00058",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:34:13Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00059",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00059",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T14:42:02Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00060",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00060",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T15:49:22Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00061",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00061",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T15:54:26Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00062",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00062",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T15:59:58Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00063",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00063",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:06:59Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00064",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00064",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:12:10Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00065",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00065",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:19:45Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00066",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00066",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:28:30Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00067",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00067",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:32:35Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00068",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00068",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:38:11Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00069",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00069",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:44:46Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00070",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00070",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:51:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00071",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00071",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T16:58:28Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00072",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00072",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T17:05:31Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00073",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00073",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T17:11:46Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00074",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00074",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-10-15T17:18:35Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00001",
@@ -2566,6 +3430,195 @@
       "first_seen": "2026-09-24T21:22:56Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00054",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00054",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T14:04:36Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00055",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00055",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T14:14:10Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00056",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00056",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T14:22:31Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00057",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00057",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T14:29:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00058",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00058",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T14:38:30Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00059",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00059",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T14:44:12Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00060",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00060",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T15:49:22Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00061",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00061",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T15:56:53Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00062",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00062",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:01:34Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00063",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00063",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:06:59Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00064",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00064",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:14:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00065",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00065",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:19:45Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00066",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00066",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:28:30Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00067",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00067",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:32:35Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00068",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00068",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:39:54Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00069",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00069",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:46:56Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00070",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00070",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:51:51Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00071",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00071",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T16:58:28Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00072",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00072",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T17:05:31Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00073",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00073",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T17:11:46Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00074",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00074",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T17:18:35Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-bom",
       "base": "2021.2.18",
@@ -2647,6 +3700,15 @@
       "first_seen": "2026-09-24T19:04:37Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-bom@5.5.20.1-osera-00001",
+      "library": "org.springframework.integration:spring-integration-bom",
+      "base": "5.5.20",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T14:16:42Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-bom",
       "base": "5.7.14",
@@ -2708,6 +3770,15 @@
       "released_with": "patch-spring-ws v3.1.8.1-osera-00002",
       "why": "the patched modules name it as their parent, a build needs it to resolve them",
       "first_seen": "2026-09-24T20:34:59Z"
+    },
+    {
+      "coordinate": "org.springframework.ws:spring-ws@3.1.8.1-osera-00003",
+      "library": "org.springframework.ws:spring-ws",
+      "base": "3.1.8",
+      "kind": "parent",
+      "released_with": "patch-spring-ws v3.1.8.1-osera-00003",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T12:54:13Z"
     },
     {
       "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001",
@@ -2816,6 +3887,42 @@
       "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-09-24T16:03:48Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00013",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:31:42Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00014",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:38:21Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00015",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:43:44Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00016",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:45:40Z"
     }
   ]
 }
