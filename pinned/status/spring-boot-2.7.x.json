@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.15.14",
-  "as_of": "2026-10-15T14:14:10Z",
+  "book_version": "v2026.10.15.15",
+  "as_of": "2026-10-15T14:16:42Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 182,
@@ -81,10 +81,10 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-      "patch": "00054",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-      "at": "2026-10-15T14:04:36Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00055",
+      "patch": "00055",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00055",
+      "at": "2026-10-15T14:16:42Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -153,10 +153,18 @@
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-      "patch": "00054",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00054",
-      "at": "2026-10-15T14:04:36Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00055",
+      "patch": "00055",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00055",
+      "at": "2026-10-15T14:16:42Z"
+    },
+    {
+      "cve": "CVE-2026-40987",
+      "library": "org.springframework.integration:spring-integration-file",
+      "coordinate": "org.springframework.integration:spring-integration-file@5.5.20.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.integration:spring-integration-file@5.5.20.1-osera-00001",
+      "at": "2026-10-15T14:16:42Z"
     },
     {
       "cve": "CVE-2026-40994",
@@ -674,10 +682,6 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
-      "cve": "CVE-2026-40987",
-      "library": "org.springframework.integration:spring-integration-file"
-    },
-    {
       "cve": "CVE-2026-40988",
       "library": "org.springframework.security:spring-security-saml2-service-provider"
     },
@@ -1142,5 +1146,5 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00004 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00005 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.25"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.26"
 }
