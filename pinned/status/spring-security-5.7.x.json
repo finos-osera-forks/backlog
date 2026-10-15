@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.15.2",
-  "as_of": "2026-10-15T11:30:11Z",
+  "as_of": "2026-10-15T11:34:01Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 30,
@@ -165,6 +165,7 @@
     "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00008 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00009 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00003 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
@@ -173,6 +174,7 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00008 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00009 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00001 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00002 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00003 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
@@ -237,5 +239,5 @@
     "promoted org.springframework:spring-web@5.3.39.1-osera-00011 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00012 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.15.2"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.15.3"
 }
