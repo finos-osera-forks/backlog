@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-15T14:04:36Z. Written by the line manager reconciler.
+Generated 2026-10-15T14:10:05Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -66,7 +66,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.springframework.graphql:spring-graphql | 1.0.6 | spring-boot-2.7.x | listed by the BOM at 1.0.6 | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.0.6.1-osera-00002 | 1.0.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.hateoas:spring-hateoas | 1.5.6 | spring-boot-2.7.x | listed by the BOM at 1.5.6 | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.5.6.1-osera-00002 | 1.5.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.integration:spring-integration-file | 5.5.20 | spring-boot-2.7.x | listed by the BOM at 5.5.20 (org.springframework.integration:spring-integration-bom@5.5.20) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.kafka:spring-kafka | 2.8.11 | spring-boot-2.7.x | listed by the BOM at 2.8.11 | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 2.8.11.1-osera-00004 | 2.8.11.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.kafka:spring-kafka | 2.8.11 | spring-boot-2.7.x | listed by the BOM at 2.8.11 | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 2.8.11.1-osera-00005 | 2.8.11.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ldap:spring-ldap-core | 2.4.1 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.4.1 | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.security:spring-security-core | 5.7.11 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 1 | 0 | 0% | 2 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.security:spring-security-crypto | 5.7.11 | spring-boot-2.7.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework.security@5.7.11) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
