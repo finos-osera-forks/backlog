@@ -118,6 +118,15 @@
       "first_seen": "2026-10-15T11:39:06Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00011",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:38:21Z"
+    },
+    {
       "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00001",
       "library": "io.projectreactor:reactor-bom",
       "base": "2020.0.47",
@@ -125,6 +134,15 @@
       "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-09-24T06:44:58Z"
+    },
+    {
+      "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00002",
+      "library": "io.projectreactor:reactor-bom",
+      "base": "2020.0.47",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T12:54:13Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00001",
@@ -136,6 +154,33 @@
       "first_seen": "2026-09-24T06:13:35Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00002",
+      "library": "org.apache.logging.log4j:log4j-bom",
+      "base": "2.17.2",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T12:54:13Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00003",
+      "library": "org.apache.logging.log4j:log4j-bom",
+      "base": "2.17.2",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:08:02Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00004",
+      "library": "org.apache.logging.log4j:log4j-bom",
+      "base": "2.17.2",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:13:44Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j",
       "base": "2.17.2",
@@ -143,6 +188,33 @@
       "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00001",
       "why": "the patched modules name it as their parent, a build needs it to resolve them",
       "first_seen": "2026-09-24T06:43:03Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00002",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.17.2",
+      "kind": "parent",
+      "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00002",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T12:54:13Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00003",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.17.2",
+      "kind": "parent",
+      "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00003",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T12:59:46Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00004",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.17.2",
+      "kind": "parent",
+      "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00004",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T13:20:26Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-bom@9.4.58.v20250814-osera-00001",
@@ -2746,6 +2818,15 @@
       "first_seen": "2026-09-24T20:34:59Z"
     },
     {
+      "coordinate": "org.springframework.ws:spring-ws@3.1.8.1-osera-00003",
+      "library": "org.springframework.ws:spring-ws",
+      "base": "3.1.8",
+      "kind": "parent",
+      "released_with": "patch-spring-ws v3.1.8.1-osera-00003",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-15T12:54:13Z"
+    },
+    {
       "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001",
       "library": "org.springframework:spring-framework-bom",
       "base": "5.3.39",
@@ -2852,6 +2933,24 @@
       "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-09-24T16:03:48Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00013",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:31:42Z"
+    },
+    {
+      "coordinate": "org.springframework:spring-framework-bom@5.3.39.1-osera-00014",
+      "library": "org.springframework:spring-framework-bom",
+      "base": "5.3.39",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T13:38:21Z"
     }
   ]
 }

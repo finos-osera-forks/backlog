@@ -1,0 +1,10 @@
+{
+  "lines": {
+    "spring-security-5.7.x": {
+      "remediated": true,
+      "since": "2026-10-15T13:38:21Z",
+      "editions": []
+    }
+  },
+  "lists": {}
+}
