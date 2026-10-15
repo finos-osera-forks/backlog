@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:421cd8eb-6101-59e9-aa46-178725469e00",
-  "version": 14,
+  "version": 15,
   "metadata": {
-    "timestamp": "2026-10-15T16:59:14Z",
+    "timestamp": "2026-10-15T17:04:17Z",
     "tools": {
       "components": [
         {
@@ -945,6 +945,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00071",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot-actuator-autoconfigure",
+      "version": "2.7.18.1-osera-00071",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00071"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00051",
       "supplier": {
         "name": "moderne"
@@ -1165,6 +1176,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00071",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot-devtools",
+      "version": "2.7.18.1-osera-00071",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00071"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00059",
       "supplier": {
         "name": "moderne"
@@ -1294,6 +1316,17 @@
       "name": "spring-boot-loader-tools",
       "version": "2.7.18.1-osera-00070",
       "purl": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00070"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00071",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot-loader-tools",
+      "version": "2.7.18.1-osera-00071",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00071"
     },
     {
       "type": "library",
@@ -1437,6 +1470,17 @@
       "name": "spring-boot-loader",
       "version": "2.7.18.1-osera-00070",
       "purl": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00070"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00071",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot-loader",
+      "version": "2.7.18.1-osera-00071",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00071"
     },
     {
       "type": "library",
@@ -6285,6 +6329,49 @@
       ]
     },
     {
+      "bom-ref": "CVE-2025-22235 on pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00071",
+      "id": "CVE-2025-22235",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22235"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-15T16:57:36Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00071"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-22733 on pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00071",
+      "id": "CVE-2026-22733",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22733"
+      },
+      "references": [
+        {
+          "id": "GHSA-mgvc-8q2h-5pgc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mgvc-8q2h-5pgc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-15T16:57:36Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00071"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-40972 on pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00051",
       "id": "CVE-2026-40972",
       "source": {
@@ -6805,6 +6892,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-40972 on pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00071",
+      "id": "CVE-2026-40972",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40972"
+      },
+      "references": [
+        {
+          "id": "GHSA-56v8-86gj-66jp",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-56v8-86gj-66jp"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-15T16:57:45Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00071"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2024-38807 on pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00059",
       "id": "CVE-2024-38807",
       "source": {
@@ -7113,6 +7226,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00070"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-38807 on pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00071",
+      "id": "CVE-2024-38807",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38807"
+      },
+      "references": [
+        {
+          "id": "GHSA-7cj3-x93g-gj76",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7cj3-x93g-gj76"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-15T16:57:46Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00071"
         }
       ]
     },
@@ -7451,6 +7590,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00070"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-38807 on pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00071",
+      "id": "CVE-2024-38807",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38807"
+      },
+      "references": [
+        {
+          "id": "GHSA-7cj3-x93g-gj76",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7cj3-x93g-gj76"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-15T16:57:46Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00071"
         }
       ]
     },
