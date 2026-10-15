@@ -6,7 +6,7 @@
       "spec_version": "0.1",
       "locations": [
         {
-          "url": "https://raw.githubusercontent.com/finos-osera-forks/backlog/main/vex/vex-repository.tar.gz"
+          "url": "https://feed.finos.org/vex-repository.tar.gz"
         }
       ],
       "update_interval": "1h"
