@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.15.3",
-  "as_of": "2026-10-15T11:39:06Z",
+  "book_version": "v2026.10.15.4",
+  "as_of": "2026-10-15T11:41:13Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 68,
@@ -523,5 +523,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00010",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 has no evidence file next to it, it fixes nothing"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.10"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.11"
 }
