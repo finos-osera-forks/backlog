@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.15.35",
-  "as_of": "2026-10-15T16:22:43Z",
+  "as_of": "2026-10-15T16:24:52Z",
   "status": "fixed",
-  "chain": "complete",
+  "chain": "broken: 1 artifact",
   "in_scope": 68,
   "fixed": [
     {
@@ -193,10 +193,10 @@
     {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools",
-      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00065",
-      "patch": "00065",
-      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00065",
-      "at": "2026-10-15T16:19:45Z"
+      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00066",
+      "patch": "00066",
+      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00066",
+      "at": "2026-10-15T16:24:52Z"
     },
     {
       "cve": "CVE-2026-40973",
@@ -593,7 +593,8 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00008",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00009",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00010",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011"
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
+    "CVE-2026-40972 on spring-boot-devtools 2.7.18 is patched, the evidence chain is broken: no signature next to the pom (spring-boot-devtools-2.7.18.1-osera-00066.pom.asc)"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.56"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.57"
 }
