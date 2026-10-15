@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.15.7",
-  "as_of": "2026-10-15T13:50:16Z",
+  "as_of": "2026-10-15T13:51:21Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 68,
@@ -319,6 +319,14 @@
       "at": "2026-09-24T19:31:29Z"
     },
     {
+      "cve": "CVE-2026-41731",
+      "library": "org.springframework.kafka:spring-kafka",
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00001",
+      "at": "2026-10-15T13:51:21Z"
+    },
+    {
       "cve": "CVE-2026-41838",
       "library": "org.springframework:spring-websocket",
       "coordinate": "org.springframework:spring-websocket@5.3.39.1-osera-00016",
@@ -528,10 +536,6 @@
     {
       "cve": "CVE-2026-41727",
       "library": "org.springframework.kafka:spring-kafka"
-    },
-    {
-      "cve": "CVE-2026-41731",
-      "library": "org.springframework.kafka:spring-kafka"
     }
   ],
   "not_remediable": [],
@@ -575,5 +579,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00010",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.15"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.16"
 }
