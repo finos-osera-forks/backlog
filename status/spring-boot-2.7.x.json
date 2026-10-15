@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.15.34",
-  "as_of": "2026-10-15T16:18:25Z",
+  "as_of": "2026-10-15T16:19:45Z",
   "status": "fixed",
-  "chain": "complete",
+  "chain": "broken: 1 artifact",
   "in_scope": 68,
   "fixed": [
     {
@@ -41,10 +41,10 @@
     {
       "cve": "CVE-2024-38807",
       "library": "org.springframework.boot:spring-boot-loader",
-      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00064",
-      "patch": "00064",
-      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00064",
-      "at": "2026-10-15T16:12:10Z"
+      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00065",
+      "patch": "00065",
+      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00065",
+      "at": "2026-10-15T16:19:45Z"
     },
     {
       "cve": "CVE-2024-38816",
@@ -105,10 +105,10 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00064",
-      "patch": "00064",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00064",
-      "at": "2026-10-15T16:14:06Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00065",
+      "patch": "00065",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00065",
+      "at": "2026-10-15T16:19:45Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -145,10 +145,10 @@
     {
       "cve": "CVE-2026-22733",
       "library": "org.springframework.boot:spring-boot-starter-actuator",
-      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00064",
-      "patch": "00064",
-      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00064",
-      "at": "2026-10-15T16:12:10Z"
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00065",
+      "patch": "00065",
+      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00065",
+      "at": "2026-10-15T16:19:45Z"
     },
     {
       "cve": "CVE-2026-22740",
@@ -193,18 +193,18 @@
     {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools",
-      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00064",
-      "patch": "00064",
-      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00064",
-      "at": "2026-10-15T16:12:10Z"
+      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00065",
+      "patch": "00065",
+      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00065",
+      "at": "2026-10-15T16:19:45Z"
     },
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00064",
-      "patch": "00064",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00064",
-      "at": "2026-10-15T16:14:06Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00065",
+      "patch": "00065",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00065",
+      "at": "2026-10-15T16:19:45Z"
     },
     {
       "cve": "CVE-2026-40987",
@@ -593,7 +593,9 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00008",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00009",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00010",
-    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011"
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
+    "CVE-2025-22235 on spring-boot 2.7.18 is patched, the evidence chain is broken: no signature next to the jar (spring-boot-2.7.18.1-osera-00065.jar.asc)",
+    "CVE-2026-40973 on spring-boot 2.7.18 is patched, the evidence chain is broken: no signature next to the jar (spring-boot-2.7.18.1-osera-00065.jar.asc)"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.55"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.56"
 }
