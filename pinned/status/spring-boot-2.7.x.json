@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.15.10",
-  "as_of": "2026-10-15T13:59:34Z",
+  "as_of": "2026-10-15T14:01:49Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 182,
@@ -25,10 +25,10 @@
     {
       "cve": "CVE-2023-34040",
       "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
-      "at": "2026-10-15T13:58:19Z"
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00004",
+      "at": "2026-10-15T14:01:49Z"
     },
     {
       "cve": "CVE-2023-3894",
@@ -233,10 +233,18 @@
     {
       "cve": "CVE-2026-41726",
       "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
-      "at": "2026-10-15T13:58:19Z"
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00004",
+      "at": "2026-10-15T14:01:49Z"
+    },
+    {
+      "cve": "CVE-2026-41727",
+      "library": "org.springframework.kafka:spring-kafka",
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00004",
+      "at": "2026-10-15T14:01:49Z"
     },
     {
       "cve": "CVE-2026-41728",
@@ -257,10 +265,10 @@
     {
       "cve": "CVE-2026-41731",
       "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
-      "at": "2026-10-15T13:58:19Z"
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00004",
+      "at": "2026-10-15T14:01:49Z"
     },
     {
       "cve": "CVE-2026-41838",
@@ -692,10 +700,6 @@
     {
       "cve": "CVE-2026-41720",
       "library": "org.springframework.ldap:spring-ldap-core"
-    },
-    {
-      "cve": "CVE-2026-41727",
-      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2026-42498",
