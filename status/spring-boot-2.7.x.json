@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.14.3",
-  "as_of": "2026-10-15T11:27:42Z",
+  "book_version": "v2026.10.15",
+  "as_of": "2026-10-15T11:28:54Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 68,
@@ -21,6 +21,14 @@
       "patch": "00001",
       "named_by": "org.yaml:snakeyaml@1.33.1-osera-00001",
       "at": "2026-10-13T11:53:20Z"
+    },
+    {
+      "cve": "CVE-2023-3894",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml",
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00008",
+      "patch": "00008",
+      "named_by": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00008",
+      "at": "2026-10-15T11:28:54Z"
     },
     {
       "cve": "CVE-2024-38807",
@@ -422,10 +430,6 @@
       "library": "org.springframework.kafka:spring-kafka"
     },
     {
-      "cve": "CVE-2023-3894",
-      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml"
-    },
-    {
       "cve": "CVE-2026-34479",
       "library": "org.apache.logging.log4j:log4j-1.2-api"
     },
@@ -506,5 +510,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00008"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.4"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.5"
 }
