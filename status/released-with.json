@@ -100,6 +100,15 @@
       "first_seen": "2026-10-15T11:21:47Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00009",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-15T11:33:06Z"
+    },
+    {
       "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00001",
       "library": "io.projectreactor:reactor-bom",
       "base": "2020.0.47",
