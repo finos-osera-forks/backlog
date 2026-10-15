@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The OSERA BOM of the snakeyaml-1.27.x line, built 2026-10-15T19:42:56Z by the line manager.
+  Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.finos.osera</groupId>
+  <artifactId>osera-bom-snakeyaml-1.27.x</artifactId>
+  <version>2026.10.15.4</version>
+  <packaging>pom</packaging>
+  <name>OSERA BOM for snakeyaml-1.27.x</name>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.yaml</groupId>
+        <artifactId>snakeyaml</artifactId>
+        <version>1.33.1-osera-00001</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

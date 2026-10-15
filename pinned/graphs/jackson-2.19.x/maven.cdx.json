@@ -1,0 +1,145 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:3021455c-2120-455c-a43e-b0a0628012b0",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:23:25Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4?type=pom",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-databind",
+   "version": "2.19.4",
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "jackson-2.19.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:2ed750f56fac712a"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.4",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-annotations",
+   "version": "2.19.4",
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-core",
+   "version": "2.19.4",
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4",
+   "group": "com.fasterxml.jackson.core",
+   "name": "jackson-databind",
+   "version": "2.19.4",
+   "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4?type=pom",
+   "dependsOn": [
+    "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.4",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4",
+   "dependsOn": [
+    "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.19.4",
+    "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4"
+   ]
+  }
+ ]
+}

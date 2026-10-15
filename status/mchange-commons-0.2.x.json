@@ -1,0 +1,23 @@
+{
+  "line": "mchange-commons-0.2.x",
+  "book_version": "v2026.10.15.52",
+  "as_of": "2026-10-15T19:39:49Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 2,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2026-27727",
+      "library": "com.mchange:mchange-commons-java"
+    },
+    {
+      "cve": "CVE-2026-55153",
+      "library": "com.mchange:mchange-commons-java"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}

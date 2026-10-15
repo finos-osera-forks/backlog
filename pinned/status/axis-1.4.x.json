@@ -1,0 +1,27 @@
+{
+  "line": "axis-1.4.x",
+  "book_version": "v2026.10.15.52",
+  "as_of": "2026-10-15T19:39:49Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 3,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2018-8032",
+      "library": "org.apache.axis:axis"
+    },
+    {
+      "cve": "CVE-2019-0227",
+      "library": "org.apache.axis:axis"
+    },
+    {
+      "cve": "CVE-2023-40743",
+      "library": "org.apache.axis:axis"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}

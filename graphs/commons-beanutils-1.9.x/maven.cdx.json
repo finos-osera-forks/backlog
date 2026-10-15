@@ -1,0 +1,145 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:ba1780a7-7cd8-4498-8a65-9b6497bf15c2",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:11:44Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=pom",
+   "group": "commons-beanutils",
+   "name": "commons-beanutils",
+   "version": "1.9.4",
+   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "commons-beanutils-1.9.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "latest_patch"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": "the line release rules of REL-009-JAVA (draft), the owner's decisions of 8 Oct 2026"
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:df6426572641df3c"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4",
+   "group": "commons-beanutils",
+   "name": "commons-beanutils",
+   "version": "1.9.4",
+   "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.2",
+   "group": "commons-collections",
+   "name": "commons-collections",
+   "version": "3.2.2",
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2",
+   "group": "commons-logging",
+   "name": "commons-logging",
+   "version": "1.2",
+   "purl": "pkg:maven/commons-logging/commons-logging@1.2",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=pom",
+   "dependsOn": [
+    "pkg:maven/commons-beanutils/commons-beanutils@1.9.4"
+   ]
+  },
+  {
+   "ref": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4",
+   "dependsOn": [
+    "pkg:maven/commons-collections/commons-collections@3.2.2",
+    "pkg:maven/commons-logging/commons-logging@1.2"
+   ]
+  },
+  {
+   "ref": "pkg:maven/commons-collections/commons-collections@3.2.2",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/commons-logging/commons-logging@1.2",
+   "dependsOn": []
+  }
+ ]
+}

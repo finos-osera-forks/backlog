@@ -1,0 +1,31 @@
+{
+  "line": "c3p0-0.9.x",
+  "book_version": "v2026.10.15.52",
+  "as_of": "2026-10-15T19:39:49Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 4,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2026-27727",
+      "library": "com.mchange:mchange-commons-java"
+    },
+    {
+      "cve": "CVE-2026-27830",
+      "library": "com.mchange:c3p0"
+    },
+    {
+      "cve": "CVE-2026-55153",
+      "library": "com.mchange:mchange-commons-java"
+    },
+    {
+      "cve": "CVE-2026-55223",
+      "library": "com.mchange:c3p0"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}

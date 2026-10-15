@@ -1,0 +1,126 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:14e8e3a8-12fb-40ca-9cf3-76da8f26827f",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:18:49Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3?type=pom",
+   "group": "org.apache.logging.log4j",
+   "name": "log4j-core",
+   "version": "2.24.3",
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "log4j2-2.24.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "latest_patch"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": "the line release rules of REL-009-JAVA (draft), the owner's decisions of 8 Oct 2026"
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:4449bcfa27e3cd59"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.3",
+   "group": "org.apache.logging.log4j",
+   "name": "log4j-api",
+   "version": "2.24.3",
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3",
+   "group": "org.apache.logging.log4j",
+   "name": "log4j-core",
+   "version": "2.24.3",
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3?type=pom",
+   "dependsOn": [
+    "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.3",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3",
+   "dependsOn": [
+    "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.3"
+   ]
+  }
+ ]
+}

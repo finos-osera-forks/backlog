@@ -1,0 +1,28 @@
+{
+  "line": "log4j2-2.24.x",
+  "book_version": "v2026.10.15.52",
+  "as_of": "2026-10-15T19:39:49Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 2,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2026-34478",
+      "library": "org.apache.logging.log4j:log4j-core"
+    },
+    {
+      "cve": "CVE-2026-34480",
+      "library": "org.apache.logging.log4j:log4j-core"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [
+    "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00001 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3",
+    "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00002 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3",
+    "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00003 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3",
+    "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00004 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3"
+  ],
+  "consume": ""
+}

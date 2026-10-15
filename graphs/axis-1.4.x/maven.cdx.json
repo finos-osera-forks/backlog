@@ -1,0 +1,106 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:ea872b96-5e0e-43f5-b6de-4021a4937e21",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:12:07Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.axis/axis@1.4?type=pom",
+   "group": "org.apache.axis",
+   "name": "axis",
+   "version": "1.4",
+   "purl": "pkg:maven/org.apache.axis/axis@1.4?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "axis-1.4.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "latest_patch"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": "the line release rules of REL-009-JAVA (draft), the owner's decisions of 8 Oct 2026"
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:ec6de52dd92983da"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.axis/axis@1.4",
+   "group": "org.apache.axis",
+   "name": "axis",
+   "version": "1.4",
+   "purl": "pkg:maven/org.apache.axis/axis@1.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.axis/axis@1.4?type=pom",
+   "dependsOn": [
+    "pkg:maven/org.apache.axis/axis@1.4"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.apache.axis/axis@1.4",
+   "dependsOn": []
+  }
+ ]
+}

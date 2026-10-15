@@ -1,0 +1,39 @@
+{
+  "line": "bouncycastle-1.78.x",
+  "book_version": "v2026.10.15.52",
+  "as_of": "2026-10-15T19:39:49Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 6,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2025-14813",
+      "library": "org.bouncycastle:bcprov-jdk18on"
+    },
+    {
+      "cve": "CVE-2025-8916",
+      "library": "org.bouncycastle:bcpkix-jdk18on"
+    },
+    {
+      "cve": "CVE-2026-0636",
+      "library": "org.bouncycastle:bcprov-jdk18on"
+    },
+    {
+      "cve": "CVE-2026-13506",
+      "library": "org.bouncycastle:bcprov-jdk18on"
+    },
+    {
+      "cve": "CVE-2026-5588",
+      "library": "org.bouncycastle:bcpkix-jdk18on"
+    },
+    {
+      "cve": "CVE-2026-8763",
+      "library": "org.bouncycastle:bcprov-jdk18on"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [],
+  "consume": ""
+}

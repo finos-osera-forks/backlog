@@ -1,0 +1,106 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:a3c789c9-6155-4fc0-a506-ae07f7a25b0e",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:21:32Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.9?type=pom",
+   "group": "org.yaml",
+   "name": "snakeyaml",
+   "version": "1.9",
+   "purl": "pkg:maven/org.yaml/snakeyaml@1.9?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "snakeyaml-1.9.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:532517a347c62c51"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.9?type=bundle",
+   "group": "org.yaml",
+   "name": "snakeyaml",
+   "version": "1.9",
+   "purl": "pkg:maven/org.yaml/snakeyaml@1.9?type=bundle",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.yaml/snakeyaml@1.9?type=pom",
+   "dependsOn": [
+    "pkg:maven/org.yaml/snakeyaml@1.9?type=bundle"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.yaml/snakeyaml@1.9?type=bundle",
+   "dependsOn": []
+  }
+ ]
+}

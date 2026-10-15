@@ -1,5 +1,10 @@
 {
   "lines": {
+    "snakeyaml-1.33.x": {
+      "remediated": true,
+      "since": "2026-10-15T19:39:49Z",
+      "editions": []
+    },
     "spring-boot-2.7.x": {
       "remediated": true,
       "since": "2026-10-15T14:16:42Z",
