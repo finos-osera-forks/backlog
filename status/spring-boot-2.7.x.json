@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.15.23",
-  "as_of": "2026-10-15T14:47:22Z",
+  "as_of": "2026-10-15T14:49:26Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 68,
@@ -595,5 +595,5 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00010",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.40"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.15.41"
 }
