@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-15T13:38:21Z. Written by the line manager reconciler.
+Generated 2026-10-15T13:43:44Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,8 +8,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 68 | 62 | 91% | 219 | 0 | 6 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 21 | 20 | 95% | 24 | 0 | 1 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 68 | 63 | 93% | 219 | 0 | 5 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | fixed | 21 | 21 | 100% | 24 | 0 | 0 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | fixed | 21 | 21 | 100% | 45 | 0 | 0 | 0 |
 
 ## Libraries
@@ -49,18 +49,18 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.ws:spring-ws-core | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 3.1.8.1-osera-00003 | 3.1.8.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ws:spring-ws-security | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | fixed | 1 | 1 | 100% | 4 | 0 | 0 | 0 | 3.1.8.1-osera-00003 | 3.1.8.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ws:spring-xml | 3.1.8 | spring-boot-2.7.x | listed by the BOM at 3.1.8 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 3.1.8.1-osera-00003 | 3.1.8.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00014 | 5.3.39.1-osera-00014 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00014 | 5.3.39.1-osera-00014 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00014 | 5.3.39.1-osera-00014 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 6 | 6 | 100% | 10 | 0 | 0 | 0 | 5.3.39.1-osera-00014 | 5.3.39.1-osera-00014 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 7 | 7 | 100% | 9 | 0 | 0 | 0 | 5.3.39.1-osera-00014 | 5.3.39.1-osera-00014 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00014 | 5.3.39.1-osera-00014 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-core | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00015 | 5.3.39.1-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00015 | 5.3.39.1-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00015 | 5.3.39.1-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00015 | 5.3.39.1-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 6 | 6 | 100% | 10 | 0 | 0 | 0 | 5.3.39.1-osera-00015 | 5.3.39.1-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 7 | 7 | 100% | 9 | 0 | 0 | 0 | 5.3.39.1-osera-00015 | 5.3.39.1-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00015 | 5.3.39.1-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.33 | spring-boot-2.7.x | listed by the BOM at 1.30 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 
 ## Released with the lines
 
-19 component(s), 328 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+19 component(s), 329 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -82,4 +82,4 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.data:spring-data-rest-parent | 3.7.18 | parent | patch-spring-data-rest v3.7.18.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 3.7.18.1-osera-00002 | 3.7.18.1-osera-00002 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (spring-data-rest-parent-3.7.18.1-osera-00002-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.springframework.security:spring-security-bom | 5.7.14 | BOM | the anchor of spring-security-5.7.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.7.11 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.7.14.1-osera-00001 5.7.14.1-osera-00002 5.7.14.1-osera-00003 5.7.14.1-osera-00004 5.7.14.1-osera-00005 | 5.7.14.1-osera-00005 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ws:spring-ws | 3.1.8 | parent | patch-spring-ws v3.1.8.1-osera-00003 | the patched modules name it as their parent, a build needs it to resolve them | 3.1.8.1-osera-00001 3.1.8.1-osera-00002 3.1.8.1-osera-00003 | 3.1.8.1-osera-00003 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (spring-ws-3.1.8.1-osera-00003-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 5.3.39.1-osera-00004 5.3.39.1-osera-00005 5.3.39.1-osera-00006 5.3.39.1-osera-00007 5.3.39.1-osera-00008 5.3.39.1-osera-00009 5.3.39.1-osera-00010 5.3.39.1-osera-00011 5.3.39.1-osera-00012 5.3.39.1-osera-00013 5.3.39.1-osera-00014 | 5.3.39.1-osera-00014 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-framework-bom | 5.3.39 | BOM | the anchor of spring-framework-5.3.x; imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 5.3.31 | pins the patched modules (REL-009: a pinning BOM releases again) | 5.3.39.1-osera-00001 5.3.39.1-osera-00002 5.3.39.1-osera-00003 5.3.39.1-osera-00004 5.3.39.1-osera-00005 5.3.39.1-osera-00006 5.3.39.1-osera-00007 5.3.39.1-osera-00008 5.3.39.1-osera-00009 5.3.39.1-osera-00010 5.3.39.1-osera-00011 5.3.39.1-osera-00012 5.3.39.1-osera-00013 5.3.39.1-osera-00014 5.3.39.1-osera-00015 | 5.3.39.1-osera-00015 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

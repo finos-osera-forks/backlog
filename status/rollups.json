@@ -1,10 +1,45 @@
 {
   "lines": {
+    "spring-framework-5.3.x": {
+      "remediated": true,
+      "since": "2026-10-15T13:43:44Z",
+      "editions": [
+        {
+          "at": "2026-10-15T13:43:44Z",
+          "anchor": "org.springframework:spring-framework-bom@5.3.39.1-osera-00001",
+          "lists": [
+            "org.springframework:spring-framework-bom@5.3.39.1-osera-00001"
+          ],
+          "patched": [
+            "org.springframework:spring-core@5.3.39.1-osera-00015",
+            "org.springframework:spring-expression@5.3.39.1-osera-00015",
+            "org.springframework:spring-jms@5.3.39.1-osera-00015",
+            "org.springframework:spring-web@5.3.39.1-osera-00015",
+            "org.springframework:spring-webflux@5.3.39.1-osera-00015",
+            "org.springframework:spring-webmvc@5.3.39.1-osera-00015",
+            "org.springframework:spring-websocket@5.3.39.1-osera-00015"
+          ]
+        }
+      ]
+    },
     "spring-security-5.7.x": {
       "remediated": true,
       "since": "2026-10-15T13:38:21Z",
       "editions": []
     }
   },
-  "lists": {}
+  "lists": {
+    "org.springframework:spring-framework-bom@5.3.39": {
+      "last": 1,
+      "editions": [
+        {
+          "number": 1,
+          "version": "5.3.39.1-osera-00001",
+          "sha256": "262b62e88ba70bfc8e199288c198a392b787928a535dfb99e8da7b9036e73e77",
+          "line": "spring-framework-5.3.x",
+          "at": "2026-10-15T13:43:44Z"
+        }
+      ]
+    }
+  }
 }
