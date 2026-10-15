@@ -1,7 +1,7 @@
 {
   "line": "snakeyaml-1.27.x",
-  "book_version": "v2026.10.15.52",
-  "as_of": "2026-10-15T19:39:49Z",
+  "book_version": "v2026.10.15.53",
+  "as_of": "2026-10-15T19:44:25Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 6,
@@ -37,5 +37,5 @@
   "discrepancies": [
     "promoted org.yaml:snakeyaml@1.33.1-osera-00001 is on base 1.33, the line has org.yaml:snakeyaml at 1.27"
   ],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-snakeyaml-1.27.x@2026.10.15.4"
 }
