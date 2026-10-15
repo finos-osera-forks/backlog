@@ -1,0 +1,145 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:c6fbb7b6-c0aa-4a20-aa2c-61e44dc645d7",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:21:12Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.velocity/velocity@1.7?type=pom",
+   "group": "org.apache.velocity",
+   "name": "velocity",
+   "version": "1.7",
+   "purl": "pkg:maven/org.apache.velocity/velocity@1.7?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "velocity-1.7.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:c7d91e088ba93af2"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "group": "commons-collections",
+   "name": "commons-collections",
+   "version": "3.2.1",
+   "purl": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/commons-lang/commons-lang@2.4",
+   "group": "commons-lang",
+   "name": "commons-lang",
+   "version": "2.4",
+   "purl": "pkg:maven/commons-lang/commons-lang@2.4",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.velocity/velocity@1.7",
+   "group": "org.apache.velocity",
+   "name": "velocity",
+   "version": "1.7",
+   "purl": "pkg:maven/org.apache.velocity/velocity@1.7",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.velocity/velocity@1.7?type=pom",
+   "dependsOn": [
+    "pkg:maven/org.apache.velocity/velocity@1.7"
+   ]
+  },
+  {
+   "ref": "pkg:maven/commons-collections/commons-collections@3.2.1",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/commons-lang/commons-lang@2.4",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.apache.velocity/velocity@1.7",
+   "dependsOn": [
+    "pkg:maven/commons-collections/commons-collections@3.2.1",
+    "pkg:maven/commons-lang/commons-lang@2.4"
+   ]
+  }
+ ]
+}

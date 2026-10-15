@@ -1,0 +1,126 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:ecc80d51-a33c-432f-a69e-bb1f1a332e13",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:16:03Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.mchange/c3p0@0.9.5.5?type=pom",
+   "group": "com.mchange",
+   "name": "c3p0",
+   "version": "0.9.5.5",
+   "purl": "pkg:maven/com.mchange/c3p0@0.9.5.5?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "c3p0-0.9.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "latest_patch"
+    },
+    {
+     "name": "osera:latest",
+     "value": "com.mchange:mchange-commons-java:0.2.19\u003e0.2.20"
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": "the line release rules of REL-009-JAVA (draft), the owner's decisions of 8 Oct 2026"
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:81e28a6165002c56"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.mchange/c3p0@0.9.5.5",
+   "group": "com.mchange",
+   "name": "c3p0",
+   "version": "0.9.5.5",
+   "purl": "pkg:maven/com.mchange/c3p0@0.9.5.5",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.20",
+   "group": "com.mchange",
+   "name": "mchange-commons-java",
+   "version": "0.2.20",
+   "purl": "pkg:maven/com.mchange/mchange-commons-java@0.2.20",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/com.mchange/c3p0@0.9.5.5?type=pom",
+   "dependsOn": [
+    "pkg:maven/com.mchange/c3p0@0.9.5.5"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.mchange/c3p0@0.9.5.5",
+   "dependsOn": [
+    "pkg:maven/com.mchange/mchange-commons-java@0.2.20"
+   ]
+  },
+  {
+   "ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.20",
+   "dependsOn": []
+  }
+ ]
+}

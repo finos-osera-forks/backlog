@@ -1,0 +1,126 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:580b0a82-e65e-412d-8141-03e9d90e545e",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:20:36Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.commons/commons-text@1.8?type=pom",
+   "group": "org.apache.commons",
+   "name": "commons-text",
+   "version": "1.8",
+   "purl": "pkg:maven/org.apache.commons/commons-text@1.8?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "commons-text-1.8.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:5ecba9a67a4df916"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.9",
+   "group": "org.apache.commons",
+   "name": "commons-lang3",
+   "version": "3.9",
+   "purl": "pkg:maven/org.apache.commons/commons-lang3@3.9",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.apache.commons/commons-text@1.8",
+   "group": "org.apache.commons",
+   "name": "commons-text",
+   "version": "1.8",
+   "purl": "pkg:maven/org.apache.commons/commons-text@1.8",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.apache.commons/commons-text@1.8?type=pom",
+   "dependsOn": [
+    "pkg:maven/org.apache.commons/commons-text@1.8"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.apache.commons/commons-lang3@3.9",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.apache.commons/commons-text@1.8",
+   "dependsOn": [
+    "pkg:maven/org.apache.commons/commons-lang3@3.9"
+   ]
+  }
+ ]
+}

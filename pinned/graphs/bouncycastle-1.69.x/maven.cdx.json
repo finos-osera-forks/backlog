@@ -1,0 +1,147 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:d4a83f5f-4c5c-4af2-aaf5-248ffa1f28e9",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:25:24Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69?type=pom",
+   "group": "org.bouncycastle",
+   "name": "bcpkix-jdk15on",
+   "version": "1.69",
+   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "bouncycastle-1.69.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "8.14.5"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:cf0a3455bdfc4f7a"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69",
+   "group": "org.bouncycastle",
+   "name": "bcpkix-jdk15on",
+   "version": "1.69",
+   "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69",
+   "group": "org.bouncycastle",
+   "name": "bcprov-jdk15on",
+   "version": "1.69",
+   "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.69",
+   "group": "org.bouncycastle",
+   "name": "bcutil-jdk15on",
+   "version": "1.69",
+   "purl": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.69",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven,gradle"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69?type=pom",
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.69",
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69",
+    "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.69"
+   ]
+  },
+  {
+   "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69",
+   "dependsOn": []
+  },
+  {
+   "ref": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.69",
+   "dependsOn": [
+    "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.69"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+  "line": "jackson-2.15.x",
+  "book_version": "v2026.10.15.52",
+  "as_of": "2026-10-15T19:39:49Z",
+  "status": "not fixed",
+  "chain": "",
+  "in_scope": 9,
+  "fixed": [],
+  "in_progress": [],
+  "open": [
+    {
+      "cve": "CVE-2026-18401",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "CVE-2026-54512",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-54513",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-59888",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-68494",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "CVE-2026-68497",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-89425",
+      "library": "com.fasterxml.jackson.core:jackson-core"
+    },
+    {
+      "cve": "CVE-2026-91776",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-91777",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    }
+  ],
+  "not_remediable": [],
+  "discrepancies": [
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00003 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00004 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00005 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00008 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00009 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00010 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00003 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00004 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00005 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00008 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00009 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4"
+  ],
+  "consume": ""
+}

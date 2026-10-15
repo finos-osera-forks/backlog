@@ -1,0 +1,106 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:3ed31780-4835-4ebd-abe9-9579706350c1",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-15T19:25:07Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "pkg:maven/org.lz4/lz4-java@1.8.1?type=pom",
+   "group": "org.lz4",
+   "name": "lz4-java",
+   "version": "1.8.1",
+   "purl": "pkg:maven/org.lz4/lz4-java@1.8.1?type=pom",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "lz4-java-1.8.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "pinned"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "one build"
+    },
+    {
+     "name": "osera:gradle",
+     "value": "failed, the graph is the Maven resolve alone: 1 dependencies unresolved, the first: line asked for org.lz4:lz4-java:1.8.1: Could not resolve org.lz4:lz4-java:1.8.1. \u003c- Module 'org.lz4:lz4-java' has been rejected:"
+    },
+    {
+     "name": "osera:listing",
+     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:288cbeb7089a543b"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1",
+   "group": "at.yawk.lz4",
+   "name": "lz4-java",
+   "version": "1.8.1",
+   "purl": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "maven"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "pkg:maven/org.lz4/lz4-java@1.8.1?type=pom",
+   "dependsOn": [
+    "pkg:maven/at.yawk.lz4/lz4-java@1.8.1"
+   ]
+  },
+  {
+   "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1",
+   "dependsOn": []
+  }
+ ]
+}
