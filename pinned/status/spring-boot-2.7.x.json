@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.15.9",
-  "as_of": "2026-10-15T13:56:22Z",
+  "as_of": "2026-10-15T13:58:19Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 182,
@@ -25,10 +25,10 @@
     {
       "cve": "CVE-2023-34040",
       "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00002",
-      "at": "2026-10-15T13:55:02Z"
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
+      "at": "2026-10-15T13:58:19Z"
     },
     {
       "cve": "CVE-2023-3894",
@@ -231,6 +231,14 @@
       "at": "2026-09-24T19:31:29Z"
     },
     {
+      "cve": "CVE-2026-41726",
+      "library": "org.springframework.kafka:spring-kafka",
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
+      "at": "2026-10-15T13:58:19Z"
+    },
+    {
       "cve": "CVE-2026-41728",
       "library": "org.springframework.data:spring-data-rest-core",
       "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00006",
@@ -249,10 +257,10 @@
     {
       "cve": "CVE-2026-41731",
       "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00002",
-      "at": "2026-10-15T13:55:02Z"
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00003",
+      "at": "2026-10-15T13:58:19Z"
     },
     {
       "cve": "CVE-2026-41838",
@@ -684,10 +692,6 @@
     {
       "cve": "CVE-2026-41720",
       "library": "org.springframework.ldap:spring-ldap-core"
-    },
-    {
-      "cve": "CVE-2026-41726",
-      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2026-41727",
