@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.15.8",
-  "as_of": "2026-10-15T13:54:02Z",
+  "as_of": "2026-10-15T13:55:02Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 182,
@@ -21,6 +21,14 @@
       "patch": "00001",
       "named_by": "org.yaml:snakeyaml@1.33.1-osera-00001",
       "at": "2026-10-13T11:53:20Z"
+    },
+    {
+      "cve": "CVE-2023-34040",
+      "library": "org.springframework.kafka:spring-kafka",
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00002",
+      "at": "2026-10-15T13:55:02Z"
     },
     {
       "cve": "CVE-2023-3894",
@@ -241,10 +249,10 @@
     {
       "cve": "CVE-2026-41731",
       "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00001",
-      "at": "2026-10-15T13:51:21Z"
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00002",
+      "at": "2026-10-15T13:55:02Z"
     },
     {
       "cve": "CVE-2026-41838",
@@ -448,10 +456,6 @@
     {
       "cve": "CVE-2022-41854",
       "library": "org.yaml:snakeyaml"
-    },
-    {
-      "cve": "CVE-2023-34040",
-      "library": "org.springframework.kafka:spring-kafka"
     },
     {
       "cve": "CVE-2023-6378",
