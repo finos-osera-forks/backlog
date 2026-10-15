@@ -1,0 +1,15 @@
+{
+  "name": "OSERA Exchange feed",
+  "description": "The producers' VEX statements for the release sets the OSERA Exchange promoted whole",
+  "versions": [
+    {
+      "spec_version": "0.1",
+      "locations": [
+        {
+          "url": "https://raw.githubusercontent.com/finos-osera-forks/backlog/main/vex/vex-repository.tar.gz"
+        }
+      ],
+      "update_interval": "1h"
+    }
+  ]
+}
