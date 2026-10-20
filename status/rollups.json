@@ -6,7 +6,7 @@
       "editions": []
     },
     "spring-boot-2.7.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-15T14:16:42Z",
       "editions": [
         {

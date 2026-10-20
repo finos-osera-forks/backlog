@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.20.3",
-  "as_of": "2026-10-20T20:20:32Z",
-  "status": "fixed",
+  "as_of": "2026-10-20T21:11:11Z",
+  "status": "in progress",
   "chain": "complete",
-  "in_scope": 68,
+  "in_scope": 69,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -552,7 +552,12 @@
     }
   ],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2026-59889",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [
     "CVE-2026-50193 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
