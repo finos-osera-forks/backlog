@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 20,
+  "version": 21,
   "metadata": {
-    "timestamp": "2026-10-19T10:54:22Z",
+    "timestamp": "2026-10-20T12:01:38Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "main-afe0f144"
+          "version": "main-30929238"
         }
       ]
     },
@@ -12730,6 +12730,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47884"
       },
+      "references": [
+        {
+          "id": "GHSA-pc63-qcmh-9cmg",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-pc63-qcmh-9cmg"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-15T13:35:19Z"
@@ -12850,6 +12859,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47884"
       },
+      "references": [
+        {
+          "id": "GHSA-pc63-qcmh-9cmg",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-pc63-qcmh-9cmg"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-15T13:40:15Z"
@@ -12987,6 +13005,15 @@
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47884"
       },
+      "references": [
+        {
+          "id": "GHSA-pc63-qcmh-9cmg",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-pc63-qcmh-9cmg"
+          }
+        }
+      ],
       "analysis": {
         "state": "resolved_with_pedigree",
         "firstIssued": "2026-10-15T13:45:20Z"

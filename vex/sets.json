@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T10:54:22Z",
-  "feed_version": 20,
+  "generated_at": "2026-10-20T12:01:38Z",
+  "feed_version": 21,
   "sets": [
     {
       "set": "finos-osera-forks/patch-hibernate-orm@v5.6.15.Final-osera-00001",
