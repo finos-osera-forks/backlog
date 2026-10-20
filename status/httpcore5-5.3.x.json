@@ -1,17 +1,22 @@
 {
   "line": "httpcore5-5.3.x",
   "book_version": "v2026.10.20",
-  "as_of": "2026-10-20T14:08:18Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-10-20T17:18:11Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 2,
-  "fixed": [],
-  "in_progress": [],
-  "open": [
+  "fixed": [
     {
       "cve": "CVE-2026-54399",
-      "library": "org.apache.httpcomponents.core5:httpcore5"
-    },
+      "library": "org.apache.httpcomponents.core5:httpcore5",
+      "coordinate": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00001",
+      "at": "2026-10-20T17:18:11Z"
+    }
+  ],
+  "in_progress": [],
+  "open": [
     {
       "cve": "CVE-2026-54428",
       "library": "org.apache.httpcomponents.core5:httpcore5-h2"
@@ -19,5 +24,5 @@
   ],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-httpcore5-5.3.x@2026.10.20"
 }

@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-20T14:05:11Z. Written by the line manager reconciler.
+Generated 2026-10-20T17:18:11Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -37,7 +37,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | not fixed | 1 | 0 | 0% | 13 | 0 | 1 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | not fixed | 1 | 0 | 0% | 8 | 0 | 1 | 0 |
-| httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
+| httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | not fixed | 7 | 0 | 0% | 6 | 0 | 7 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | not fixed | 4 | 0 | 0% | 4 | 0 | 4 | 0 |
@@ -46,8 +46,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | not fixed | 6 | 0 | 0% | 8 | 0 | 6 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | not fixed | 4 | 0 | 0% | 2 | 0 | 4 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 4 | 0 | 0% | 3 | 0 | 4 | 0 |
-| httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
-| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
+| httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 2 | 1 | 50% | 1 | 0 | 1 | 0 |
+| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 2 | 1 | 50% | 1 | 0 | 1 | 0 |
 
 ## Libraries
 
@@ -81,7 +81,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.commons:commons-text | 1.7 | commons-text-1.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-text | 1.8 | commons-text-1.8.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-text | 1.9 | commons-text-1.9.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.httpcomponents.core5:httpcore5 | 5.3.6 | httpclient5-5.4.x, httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.httpcomponents.core5:httpcore5 | 5.3.6 | httpclient5-5.4.x, httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.6.1-osera-00001 | 5.3.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.httpcomponents.core5:httpcore5-h2 | 5.3.6 | httpclient5-5.4.x, httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 2 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -144,7 +144,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-20 component(s), 436 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+21 component(s), 437 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -152,6 +152,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson.dataformat:jackson-dataformats-text | 2.13.5 | parent | patch-jackson-dataformats-text v2.13.5.1-osera-00008 | the patched modules name it as their parent, a build needs it to resolve them | 2.13.5.1-osera-00008 | 2.13.5.1-osera-00008 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (jackson-dataformats-text-2.13.5.1-osera-00008-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson:jackson-bom | 2.13.5 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 2.13.5.1-osera-00008 2.13.5.1-osera-00009 2.13.5.1-osera-00010 2.13.5.1-osera-00011 | 2.13.5.1-osera-00011 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-bom | 2020.0.47 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38 | pins the patched modules (REL-009: a pinning BOM releases again) | 2020.0.47.1-osera-00001 2020.0.47.1-osera-00002 | 2020.0.47.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.httpcomponents.core5:httpcore5-parent | 5.3.6 | parent | patch-httpcomponents-core v5.3.6.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 5.3.6.1-osera-00001 | 5.3.6.1-osera-00001 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (httpcore5-parent-5.3.6.1-osera-00001-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00004 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | broken | OK | OK | OK | NOK (no vulnerability document next to the pom (log4j-2.17.2.1-osera-00004-cyclonedx.json)) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-bom | 2.17.2 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-bom | 9.4.58.v20250814 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 9.4.53.v20231009 | pins the patched modules (REL-009: a pinning BOM releases again) | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
