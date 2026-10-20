@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-19T10:54:22Z",
-  "version": 20,
-  "tooling": "osera-feed main-afe0f144",
+  "last_updated": "2026-10-20T12:01:38Z",
+  "version": 21,
+  "tooling": "osera-feed main-30929238",
   "statements": [
     {
       "vulnerability": {
@@ -6454,7 +6454,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-47884"
+        "name": "CVE-2026-47884",
+        "aliases": [
+          "GHSA-pc63-qcmh-9cmg"
+        ]
       },
       "timestamp": "2026-10-15T13:35:19Z",
       "products": [
@@ -6538,7 +6541,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-47884"
+        "name": "CVE-2026-47884",
+        "aliases": [
+          "GHSA-pc63-qcmh-9cmg"
+        ]
       },
       "timestamp": "2026-10-15T13:40:15Z",
       "products": [
@@ -6635,7 +6641,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-47884"
+        "name": "CVE-2026-47884",
+        "aliases": [
+          "GHSA-pc63-qcmh-9cmg"
+        ]
       },
       "timestamp": "2026-10-15T13:45:20Z",
       "products": [
