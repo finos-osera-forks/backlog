@@ -1,10 +1,10 @@
 {
   "line": "jackson-2.15.x",
   "book_version": "v2026.10.20.2",
-  "as_of": "2026-10-20T17:19:40Z",
+  "as_of": "2026-10-20T20:17:11Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 9,
+  "in_scope": 10,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -22,6 +22,10 @@
     },
     {
       "cve": "CVE-2026-59888",
+      "library": "com.fasterxml.jackson.core:jackson-databind"
+    },
+    {
+      "cve": "CVE-2026-59889",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
