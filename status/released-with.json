@@ -145,6 +145,15 @@
       "first_seen": "2026-10-15T12:54:13Z"
     },
     {
+      "coordinate": "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00001",
+      "library": "org.apache.httpcomponents.core5:httpcore5-parent",
+      "base": "5.3.6",
+      "kind": "parent",
+      "released_with": "patch-httpcomponents-core v5.3.6.1-osera-00001",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-20T17:18:11Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-bom",
       "base": "2.17.2",
