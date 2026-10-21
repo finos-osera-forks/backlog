@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-21T14:46:52Z. Written by the line manager reconciler.
+Generated 2026-10-21T21:40:49Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,8 +8,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 69 | 68 | 99% | 219 | 0 | 1 | 0 |
-| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | fixed | 21 | 21 | 100% | 24 | 0 | 0 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 74 | 68 | 92% | 219 | 0 | 6 | 0 |
+| spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 23 | 21 | 91% | 24 | 0 | 2 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 22 | 21 | 95% | 45 | 0 | 1 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
@@ -98,7 +98,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 0 | 0% | 3 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | open | 2 | 0 | 0% | 4 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.eclipse.jetty:jetty-http | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.eclipse.jetty:jetty-http | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 2 | 1 | 50% | 1 | 0 | 1 | 0 | 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-jaspi | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-security | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 9.4.58.v20250814-osera-00004 | 9.4.58.v20250814-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 1 | 0 | 0% | 5 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -111,7 +111,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.data:spring-data-keyvalue | 2.7.18 | spring-boot-2.7.x | listed by the BOM at 2.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00006 | 2.7.18.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-mongodb | 3.4.18 | spring-boot-2.7.x | listed by the BOM at 3.4.18 (org.springframework.data:spring-data-bom@2021.2.18) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 3.4.18.1-osera-00006 | 3.4.18.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-rest-core | 3.7.18 | spring-boot-2.7.x | listed by the BOM at 3.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 3.7.18.1-osera-00006 | 3.7.18.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.graphql:spring-graphql | 1.0.6 | spring-boot-2.7.x | listed by the BOM at 1.0.6 | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.0.6.1-osera-00002 | 1.0.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.graphql:spring-graphql | 1.0.6 | spring-boot-2.7.x | listed by the BOM at 1.0.6 | open | 4 | 2 | 50% | 0 | 0 | 2 | 0 | 1.0.6.1-osera-00002 | 1.0.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.hateoas:spring-hateoas | 1.5.6 | spring-boot-2.7.x | listed by the BOM at 1.5.6 | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.5.6.1-osera-00002 | 1.5.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.integration:spring-integration-file | 5.5.20 | spring-boot-2.7.x | listed by the BOM at 5.5.20 (org.springframework.integration:spring-integration-bom@5.5.20) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.5.20.1-osera-00001 | 5.5.20.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.kafka:spring-kafka | 2.8.11 | spring-boot-2.7.x | listed by the BOM at 2.8.11 | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 2.8.11.1-osera-00005 | 2.8.11.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -126,8 +126,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework:spring-expression | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-jms | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-web | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x, spring-security-5.7.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 6 | 6 | 100% | 10 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 7 | 7 | 100% | 9 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 7 | 6 | 86% | 10 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 8 | 7 | 88% | 9 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.9 | snakeyaml-1.9.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.16 | snakeyaml-1.16.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |

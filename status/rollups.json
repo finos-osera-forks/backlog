@@ -111,7 +111,7 @@
       ]
     },
     "spring-framework-5.3.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-15T13:43:44Z",
       "editions": [
         {
