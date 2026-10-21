@@ -4561,6 +4561,17 @@
       "first_seen": "2026-10-21T23:24:50Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.15.4.1-osera-00007",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.15.4.1-osera-00007: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:31:30Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-scala_3",
       "base": "2.15.4",
