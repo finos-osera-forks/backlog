@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 30,
+  "version": 31,
   "metadata": {
-    "timestamp": "2026-10-21T14:48:31Z",
+    "timestamp": "2026-10-21T23:01:07Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "main-75557906"
+          "version": "main-2a233d5d"
         }
       ]
     },
@@ -205,6 +205,17 @@
       "name": "jackson-core",
       "version": "2.13.5.1-osera-00008",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00008"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.15.4.1-osera-00001",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00001"
     },
     {
       "type": "library",
@@ -4549,6 +4560,32 @@
       "affects": [
         {
           "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00008"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-18401 on pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00001",
+      "id": "CVE-2026-18401",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18401"
+      },
+      "references": [
+        {
+          "id": "GHSA-72hv-8253-57qq",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-72hv-8253-57qq"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T22:55:57Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00001"
         }
       ]
     },
