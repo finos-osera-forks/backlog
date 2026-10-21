@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 35,
+  "version": 36,
   "metadata": {
-    "timestamp": "2026-10-21T23:31:05Z",
+    "timestamp": "2026-10-21T23:36:09Z",
     "tools": {
       "components": [
         {
@@ -274,6 +274,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00007",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.15.4.1-osera-00007",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00007"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5.1-osera-00003",
       "supplier": {
         "name": "moderne"
@@ -370,6 +381,17 @@
       "name": "jackson-databind",
       "version": "2.15.4.1-osera-00006",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00006"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.15.4.1-osera-00007",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007"
     },
     {
       "type": "library",
@@ -5042,6 +5064,84 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-18401 on pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00007",
+      "id": "CVE-2026-18401",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18401"
+      },
+      "references": [
+        {
+          "id": "GHSA-72hv-8253-57qq",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-72hv-8253-57qq"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T23:27:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-68494 on pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00007",
+      "id": "CVE-2026-68494",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68494"
+      },
+      "references": [
+        {
+          "id": "GHSA-r7wm-3cxj-wff9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r7wm-3cxj-wff9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T23:27:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-89425 on pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00007",
+      "id": "CVE-2026-89425",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89425"
+      },
+      "references": [
+        {
+          "id": "GHSA-7hhh-6rmp-j9qf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7hhh-6rmp-j9qf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T23:27:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00007"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-54513 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5.1-osera-00003",
       "id": "CVE-2026-54513",
       "source": {
@@ -5714,6 +5814,110 @@
       "affects": [
         {
           "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-54512 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007",
+      "id": "CVE-2026-54512",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54512"
+      },
+      "references": [
+        {
+          "id": "GHSA-j3rv-43j4-c7qm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-j3rv-43j4-c7qm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T23:27:56Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-54513 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007",
+      "id": "CVE-2026-54513",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54513"
+      },
+      "references": [
+        {
+          "id": "GHSA-rmj7-2vxq-3g9f",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rmj7-2vxq-3g9f"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T23:27:56Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-91776 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007",
+      "id": "CVE-2026-91776",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91776"
+      },
+      "references": [
+        {
+          "id": "GHSA-wv8q-qhhj-9h54",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wv8q-qhhj-9h54"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T23:27:56Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-91777 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007",
+      "id": "CVE-2026-91777",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91777"
+      },
+      "references": [
+        {
+          "id": "GHSA-cxp5-3px4-pw24",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-cxp5-3px4-pw24"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T23:27:56Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00007"
         }
       ]
     },
