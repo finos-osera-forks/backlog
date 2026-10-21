@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T17:21:35Z",
+  "generated_at": "2026-10-21T10:51:33Z",
   "feed_version": 21,
   "sets": [
     {
@@ -38,6 +38,23 @@
         {
           "member": "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00001",
           "why": "evidence chain not complete: document: missing (no vulnerability document next to the pom (httpcore5-parent-5.3.6.1-osera-00001-cyclonedx.json))"
+        }
+      ]
+    },
+    {
+      "set": "finos-osera-forks/patch-httpcomponents-core@v5.3.6.1-osera-00002",
+      "members": 3,
+      "coordinates": [
+        "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00002",
+        "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00002",
+        "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-10-21T10:51:33Z",
+      "reasons": [
+        {
+          "member": "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00002",
+          "why": "not promoted"
         }
       ]
     },
