@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-21T14:40:42Z. Written by the line manager reconciler.
+Generated 2026-10-21T14:43:36Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -30,7 +30,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 7 | 1 | 14% | 1 | 0 | 6 | 0 |
-| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | in progress | 4 | 2 | 50% | 0 | 0 | 2 | 0 |
+| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | in progress | 4 | 3 | 75% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | not fixed | 11 | 0 | 0% | 5 | 0 | 11 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | not fixed | 10 | 0 | 0% | 5 | 0 | 10 | 0 |
@@ -138,17 +138,17 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | open | 3 | 1 | 33% | 0 | 0 | 2 | 0 | 1.31.1-osera-00001 | 1.31.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | open | 3 | 2 | 67% | 0 | 0 | 1 | 0 | 1.31.1-osera-00002 | 1.31.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.33 | snakeyaml-1.16.x, snakeyaml-1.17.x, snakeyaml-1.19.x, snakeyaml-1.23.x, snakeyaml-1.26.x, snakeyaml-1.27.x, snakeyaml-1.28.x, snakeyaml-1.29.x, snakeyaml-1.31.x, snakeyaml-1.33.x, snakeyaml-1.9.x, spring-boot-2.7.x | own project on snakeyaml-1.16.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
 ## Libraries promoted, not in the backlog
 
-1 library, 1 patched version(s).
+1 library, 2 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| org.yaml:snakeyaml | 1.31 | in the dependency graph of spring-boot-2.7.x at 1.33 and snakeyaml-1.9.x at 1.33 and snakeyaml-1.23.x at 1.33 and snakeyaml-1.19.x at 1.33 and snakeyaml-1.17.x at 1.33 and snakeyaml-1.16.x at 1.33 and snakeyaml-1.29.x at 1.33 and snakeyaml-1.28.x at 1.33 and snakeyaml-1.27.x at 1.33 and snakeyaml-1.26.x at 1.33 and snakeyaml-1.31.x at 1.33 and snakeyaml-1.33.x at 1.33, uploaded on 1.31 | spring-boot-2.7.x, snakeyaml-1.9.x, snakeyaml-1.23.x, snakeyaml-1.19.x, snakeyaml-1.17.x, snakeyaml-1.16.x, snakeyaml-1.29.x, snakeyaml-1.28.x, snakeyaml-1.27.x, snakeyaml-1.26.x, snakeyaml-1.31.x, snakeyaml-1.33.x |  | 1.31.1-osera-00001 | 1.31.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.31 | in the dependency graph of spring-boot-2.7.x at 1.33 and snakeyaml-1.9.x at 1.33 and snakeyaml-1.23.x at 1.33 and snakeyaml-1.19.x at 1.33 and snakeyaml-1.17.x at 1.33 and snakeyaml-1.16.x at 1.33 and snakeyaml-1.29.x at 1.33 and snakeyaml-1.28.x at 1.33 and snakeyaml-1.27.x at 1.33 and snakeyaml-1.26.x at 1.33 and snakeyaml-1.31.x at 1.33 and snakeyaml-1.33.x at 1.33, uploaded on 1.31 | spring-boot-2.7.x, snakeyaml-1.9.x, snakeyaml-1.23.x, snakeyaml-1.19.x, snakeyaml-1.17.x, snakeyaml-1.16.x, snakeyaml-1.29.x, snakeyaml-1.28.x, snakeyaml-1.27.x, snakeyaml-1.26.x, snakeyaml-1.31.x, snakeyaml-1.33.x |  | 1.31.1-osera-00001 1.31.1-osera-00002 | 1.31.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 
 ## Released with the lines
 
