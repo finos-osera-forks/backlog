@@ -15,6 +15,11 @@
       "since": "2026-10-21T13:42:07Z",
       "editions": []
     },
+    "commons-text-1.9.x": {
+      "remediated": true,
+      "since": "2026-10-21T13:48:29Z",
+      "editions": []
+    },
     "httpclient5-5.4.x": {
       "remediated": true,
       "since": "2026-10-21T10:49:45Z",
