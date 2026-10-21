@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-21T14:32:35Z",
-  "version": 27,
+  "last_updated": "2026-10-21T14:38:33Z",
+  "version": 28,
   "tooling": "osera-feed main-75557906",
   "statements": [
     {
@@ -163,6 +163,294 @@
       "products": [
         {
           "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-66566",
+        "aliases": [
+          "GHSA-cmp6-m4wj-q63q"
+        ]
+      },
+      "timestamp": "2026-10-21T14:28:40Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106449",
+        "aliases": [
+          "GHSA-343h-94h5-c4wr"
+        ]
+      },
+      "timestamp": "2026-10-21T14:28:40Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106451",
+        "aliases": [
+          "GHSA-mcr4-qmvw-px4g"
+        ]
+      },
+      "timestamp": "2026-10-21T14:28:40Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106452",
+        "aliases": [
+          "GHSA-4v53-57pg-c464"
+        ]
+      },
+      "timestamp": "2026-10-21T14:28:40Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59949",
+        "aliases": [
+          "GHSA-xx22-p4ch-683r"
+        ]
+      },
+      "timestamp": "2026-10-21T14:28:40Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-66566",
+        "aliases": [
+          "GHSA-cmp6-m4wj-q63q"
+        ]
+      },
+      "timestamp": "2026-10-21T14:31:58Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106449",
+        "aliases": [
+          "GHSA-343h-94h5-c4wr"
+        ]
+      },
+      "timestamp": "2026-10-21T14:31:58Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106451",
+        "aliases": [
+          "GHSA-mcr4-qmvw-px4g"
+        ]
+      },
+      "timestamp": "2026-10-21T14:31:58Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106452",
+        "aliases": [
+          "GHSA-4v53-57pg-c464"
+        ]
+      },
+      "timestamp": "2026-10-21T14:31:58Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106453",
+        "aliases": [
+          "GHSA-6cx8-rjf8-pr8g"
+        ]
+      },
+      "timestamp": "2026-10-21T14:31:58Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59949",
+        "aliases": [
+          "GHSA-xx22-p4ch-683r"
+        ]
+      },
+      "timestamp": "2026-10-21T14:31:58Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-66566",
+        "aliases": [
+          "GHSA-cmp6-m4wj-q63q"
+        ]
+      },
+      "timestamp": "2026-10-21T14:35:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106449",
+        "aliases": [
+          "GHSA-343h-94h5-c4wr"
+        ]
+      },
+      "timestamp": "2026-10-21T14:35:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106450",
+        "aliases": [
+          "GHSA-gm45-99xc-r7wv"
+        ]
+      },
+      "timestamp": "2026-10-21T14:35:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106451",
+        "aliases": [
+          "GHSA-mcr4-qmvw-px4g"
+        ]
+      },
+      "timestamp": "2026-10-21T14:35:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106452",
+        "aliases": [
+          "GHSA-4v53-57pg-c464"
+        ]
+      },
+      "timestamp": "2026-10-21T14:35:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-106453",
+        "aliases": [
+          "GHSA-6cx8-rjf8-pr8g"
+        ]
+      },
+      "timestamp": "2026-10-21T14:35:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59949",
+        "aliases": [
+          "GHSA-xx22-p4ch-683r"
+        ]
+      },
+      "timestamp": "2026-10-21T14:35:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00007"
         }
       ],
       "status": "fixed",
