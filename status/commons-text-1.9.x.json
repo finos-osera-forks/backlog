@@ -1,24 +1,27 @@
 {
   "line": "commons-text-1.9.x",
   "book_version": "v2026.10.21.4",
-  "as_of": "2026-10-21T13:46:22Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-10-21T13:48:29Z",
+  "status": "fixed",
+  "chain": "complete",
   "in_scope": 1,
-  "fixed": [],
-  "in_progress": [],
-  "open": [
+  "fixed": [
     {
       "cve": "CVE-2022-42889",
-      "library": "org.apache.commons:commons-text"
+      "library": "org.apache.commons:commons-text",
+      "coordinate": "org.apache.commons:commons-text@1.9.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.commons:commons-text@1.9.1-osera-00001",
+      "at": "2026-10-21T13:48:29Z"
     }
   ],
+  "in_progress": [],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [
     "promoted org.apache.commons:commons-text@1.6.1-osera-00001 is on base 1.6, the line has org.apache.commons:commons-text at 1.9",
     "promoted org.apache.commons:commons-text@1.7.1-osera-00001 is on base 1.7, the line has org.apache.commons:commons-text at 1.9",
-    "promoted org.apache.commons:commons-text@1.8.1-osera-00001 is on base 1.8, the line has org.apache.commons:commons-text at 1.9",
-    "promoted org.apache.commons:commons-text@1.9.1-osera-00001 has no evidence file next to it, it fixes nothing"
+    "promoted org.apache.commons:commons-text@1.8.1-osera-00001 is on base 1.8, the line has org.apache.commons:commons-text at 1.9"
   ],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-commons-text-1.9.x@2026.10.21.2"
 }
