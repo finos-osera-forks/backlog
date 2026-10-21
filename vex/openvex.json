@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-21T13:37:34Z",
-  "version": 22,
+  "last_updated": "2026-10-21T13:42:36Z",
+  "version": 23,
   "tooling": "osera-feed main-45f309c6",
   "statements": [
     {
@@ -506,6 +506,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.commons/commons-text@1.6.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42889",
+        "aliases": [
+          "GHSA-599f-7c49-w659"
+        ]
+      },
+      "timestamp": "2026-10-21T13:37:11Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.commons/commons-text@1.7.1-osera-00001"
         }
       ],
       "status": "fixed",
