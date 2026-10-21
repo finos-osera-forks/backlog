@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-21T14:43:32Z",
-  "version": 29,
+  "last_updated": "2026-10-21T14:48:31Z",
+  "version": 30,
   "tooling": "osera-feed main-75557906",
   "statements": [
     {
@@ -7987,6 +7987,86 @@
       "products": [
         {
           "@id": "pkg:maven/org.yaml/snakeyaml@1.31.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2026-10-21T14:43:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.31.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38752",
+        "aliases": [
+          "GHSA-9w3m-gqgf-c4p9"
+        ]
+      },
+      "timestamp": "2026-10-21T14:43:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.31.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2026-10-21T14:46:53Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.31.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38752",
+        "aliases": [
+          "GHSA-9w3m-gqgf-c4p9"
+        ]
+      },
+      "timestamp": "2026-10-21T14:46:53Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.31.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-41854",
+        "aliases": [
+          "GHSA-w37g-rhq8-7m4j"
+        ]
+      },
+      "timestamp": "2026-10-21T14:46:53Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.31.1-osera-00003"
         }
       ],
       "status": "fixed",
