@@ -1,9 +1,9 @@
 {
   "line": "jackson-2.15.x",
-  "book_version": "v2026.10.21.19",
-  "as_of": "2026-10-21T23:00:50Z",
+  "book_version": "v2026.10.21.20",
+  "as_of": "2026-10-21T23:02:19Z",
   "status": "in progress",
-  "chain": "broken: 1 artifact",
+  "chain": "complete",
   "in_scope": 10,
   "fixed": [
     {
@@ -81,9 +81,7 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00008 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00009 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
-    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
-    "CVE-2026-18401 on jackson-core 2.15.4 is patched, the evidence chain is broken: no signature next to the jar (jackson-core-2.15.4.1-osera-00002.jar.asc)",
-    "CVE-2026-68494 on jackson-core 2.15.4 is patched, the evidence chain is broken: no signature next to the jar (jackson-core-2.15.4.1-osera-00002.jar.asc)"
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4"
   ],
-  "consume": "org.finos.osera:osera-bom-jackson-2.15.x@2026.10.21"
+  "consume": "org.finos.osera:osera-bom-jackson-2.15.x@2026.10.21.2"
 }
