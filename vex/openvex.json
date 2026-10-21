@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-20T12:01:38Z",
-  "version": 21,
-  "tooling": "osera-feed main-30929238",
+  "last_updated": "2026-10-21T13:37:34Z",
+  "version": 22,
+  "tooling": "osera-feed main-45f309c6",
   "statements": [
     {
       "vulnerability": {
@@ -490,6 +490,22 @@
       "products": [
         {
           "@id": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42889",
+        "aliases": [
+          "GHSA-599f-7c49-w659"
+        ]
+      },
+      "timestamp": "2026-10-21T13:31:53Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.commons/commons-text@1.6.1-osera-00001"
         }
       ],
       "status": "fixed",

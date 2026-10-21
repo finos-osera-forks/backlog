@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-21T13:27:57Z",
-  "feed_version": 21,
+  "generated_at": "2026-10-21T13:37:34Z",
+  "feed_version": 22,
   "sets": [
+    {
+      "set": "finos-osera-forks/patch-commons-text@v1.6.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "org.apache.commons:commons-text@1.6.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
     {
       "set": "finos-osera-forks/patch-hibernate-orm@v5.6.15.Final-osera-00001",
       "members": 14,
