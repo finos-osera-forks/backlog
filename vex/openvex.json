@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-21T23:26:07Z",
-  "version": 34,
+  "last_updated": "2026-10-21T23:31:05Z",
+  "version": 35,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -935,6 +935,54 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-18401",
+        "aliases": [
+          "GHSA-72hv-8253-57qq"
+        ]
+      },
+      "timestamp": "2026-10-21T23:22:25Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-68494",
+        "aliases": [
+          "GHSA-r7wm-3cxj-wff9"
+        ]
+      },
+      "timestamp": "2026-10-21T23:22:25Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-89425",
+        "aliases": [
+          "GHSA-7hhh-6rmp-j9qf"
+        ]
+      },
+      "timestamp": "2026-10-21T23:22:25Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.15.4.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-54513",
         "aliases": [
           "GHSA-rmj7-2vxq-3g9f"
@@ -1296,6 +1344,54 @@
       "products": [
         {
           "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54512",
+        "aliases": [
+          "GHSA-j3rv-43j4-c7qm"
+        ]
+      },
+      "timestamp": "2026-10-21T23:22:31Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54513",
+        "aliases": [
+          "GHSA-rmj7-2vxq-3g9f"
+        ]
+      },
+      "timestamp": "2026-10-21T23:22:31Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-91776",
+        "aliases": [
+          "GHSA-wv8q-qhhj-9h54"
+        ]
+      },
+      "timestamp": "2026-10-21T23:22:31Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.15.4.1-osera-00006"
         }
       ],
       "status": "fixed",
