@@ -1,19 +1,23 @@
 {
   "line": "commons-beanutils-1.9.x",
   "book_version": "v2026.10.21.5",
-  "as_of": "2026-10-21T13:49:29Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-10-21T14:09:56Z",
+  "status": "fixed",
+  "chain": "complete",
   "in_scope": 1,
-  "fixed": [],
-  "in_progress": [],
-  "open": [
+  "fixed": [
     {
       "cve": "CVE-2025-48734",
-      "library": "commons-beanutils:commons-beanutils"
+      "library": "commons-beanutils:commons-beanutils",
+      "coordinate": "commons-beanutils:commons-beanutils@1.9.4.1-osera-00001",
+      "patch": "00001",
+      "named_by": "commons-beanutils:commons-beanutils@1.9.4.1-osera-00001",
+      "at": "2026-10-21T14:09:56Z"
     }
   ],
+  "in_progress": [],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-commons-beanutils-1.9.x@2026.10.21"
 }

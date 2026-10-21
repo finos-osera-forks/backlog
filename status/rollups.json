@@ -1,5 +1,10 @@
 {
   "lines": {
+    "commons-beanutils-1.9.x": {
+      "remediated": true,
+      "since": "2026-10-21T14:09:56Z",
+      "editions": []
+    },
     "commons-text-1.6.x": {
       "remediated": true,
       "since": "2026-10-21T13:31:52Z",
