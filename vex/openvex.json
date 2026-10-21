@@ -4,10 +4,58 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-21T14:21:03Z",
-  "version": 25,
+  "last_updated": "2026-10-21T14:27:48Z",
+  "version": 26,
   "tooling": "osera-feed main-75557906",
   "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2025-66566",
+        "aliases": [
+          "GHSA-cmp6-m4wj-q63q"
+        ]
+      },
+      "timestamp": "2026-10-21T14:15:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-66566",
+        "aliases": [
+          "GHSA-cmp6-m4wj-q63q"
+        ]
+      },
+      "timestamp": "2026-10-21T14:18:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59949",
+        "aliases": [
+          "GHSA-xx22-p4ch-683r"
+        ]
+      },
+      "timestamp": "2026-10-21T14:18:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
     {
       "vulnerability": {
         "name": "CVE-2024-12801",
@@ -631,6 +679,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-48734",
+        "aliases": [
+          "GHSA-wxr5-93ph-8wr9"
+        ]
+      },
+      "timestamp": "2026-10-21T14:09:55Z",
+      "products": [
+        {
+          "@id": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-22227"
       },
       "timestamp": "2026-09-24T06:44:47Z",
@@ -711,6 +775,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.commons/commons-text@1.8.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-42889",
+        "aliases": [
+          "GHSA-599f-7c49-w659"
+        ]
+      },
+      "timestamp": "2026-10-21T13:46:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.commons/commons-text@1.9.1-osera-00001"
         }
       ],
       "status": "fixed",

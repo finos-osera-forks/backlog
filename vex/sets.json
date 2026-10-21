@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-21T14:21:03Z",
-  "feed_version": 25,
+  "generated_at": "2026-10-21T14:27:48Z",
+  "feed_version": 26,
   "sets": [
+    {
+      "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "commons-beanutils:commons-beanutils@1.9.4.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
     {
       "set": "finos-osera-forks/patch-commons-text@v1.6.1-osera-00001",
       "members": 1,
@@ -25,6 +34,15 @@
       "members": 1,
       "coordinates": [
         "org.apache.commons:commons-text@1.8.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-text@v1.9.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "org.apache.commons:commons-text@1.9.1-osera-00001"
       ],
       "state": "in the feed",
       "statements": 1
@@ -1345,6 +1363,24 @@
       ],
       "state": "in the feed",
       "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-lz4-java@v1.8.1.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "at.yawk.lz4:lz4-java@1.8.1.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-lz4-java@v1.8.1.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "at.yawk.lz4:lz4-java@1.8.1.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-reactor@v2020.0.47.1-osera-00001",
