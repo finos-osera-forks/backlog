@@ -1,18 +1,22 @@
 {
   "line": "commons-text-1.6.x",
   "book_version": "v2026.10.21",
-  "as_of": "2026-10-21T10:50:54Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-10-21T13:31:52Z",
+  "status": "fixed",
+  "chain": "complete",
   "in_scope": 1,
-  "fixed": [],
-  "in_progress": [],
-  "open": [
+  "fixed": [
     {
       "cve": "CVE-2022-42889",
-      "library": "org.apache.commons:commons-text"
+      "library": "org.apache.commons:commons-text",
+      "coordinate": "org.apache.commons:commons-text@1.6.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.commons:commons-text@1.6.1-osera-00001",
+      "at": "2026-10-21T13:31:52Z"
     }
   ],
+  "in_progress": [],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [],
   "consume": ""
