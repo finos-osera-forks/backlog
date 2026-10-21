@@ -45,6 +45,17 @@
       "first_seen": "2026-10-21T23:11:31Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor",
       "base": "2.15.4",
@@ -87,6 +98,17 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.15.4.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
       "first_seen": "2026-10-21T23:11:31Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.15.4.1-osera-00001",
@@ -133,6 +155,17 @@
       "first_seen": "2026-10-21T23:11:31Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion",
       "base": "2.15.4",
@@ -175,6 +208,17 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.15.4.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
       "first_seen": "2026-10-21T23:11:31Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.15.4.1-osera-00001",
@@ -221,6 +265,17 @@
       "first_seen": "2026-10-21T23:11:31Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf",
       "base": "2.15.4",
@@ -263,6 +318,17 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.15.4.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
       "first_seen": "2026-10-21T23:11:31Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.15.4.1-osera-00001",
@@ -309,6 +375,17 @@
       "first_seen": "2026-10-21T23:11:31Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml",
       "base": "2.15.4",
@@ -351,6 +428,17 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
       "first_seen": "2026-10-21T23:11:31Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.15.4.1-osera-00001",
@@ -397,6 +485,17 @@
       "first_seen": "2026-10-21T23:11:31Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
       "base": "2.15.4",
@@ -439,6 +538,17 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.15.4.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
       "first_seen": "2026-10-21T23:12:57Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.15.4.1-osera-00005",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.15.4.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-21T23:16:51Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections@2.15.4.1-osera-00001",
