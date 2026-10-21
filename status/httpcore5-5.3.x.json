@@ -1,28 +1,31 @@
 {
   "line": "httpcore5-5.3.x",
   "book_version": "v2026.10.20.4",
-  "as_of": "2026-10-20T21:12:27Z",
-  "status": "in progress",
+  "as_of": "2026-10-21T10:49:45Z",
+  "status": "fixed",
   "chain": "complete",
   "in_scope": 2,
   "fixed": [
     {
       "cve": "CVE-2026-54399",
       "library": "org.apache.httpcomponents.core5:httpcore5",
-      "coordinate": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00001",
-      "at": "2026-10-20T17:18:11Z"
+      "coordinate": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00002",
+      "at": "2026-10-21T10:49:45Z"
+    },
+    {
+      "cve": "CVE-2026-54428",
+      "library": "org.apache.httpcomponents.core5:httpcore5-h2",
+      "coordinate": "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00002",
+      "at": "2026-10-21T10:49:45Z"
     }
   ],
   "in_progress": [],
-  "open": [
-    {
-      "cve": "CVE-2026-54428",
-      "library": "org.apache.httpcomponents.core5:httpcore5-h2"
-    }
-  ],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-httpcore5-5.3.x@2026.10.20"
+  "consume": "org.finos.osera:osera-bom-httpcore5-5.3.x@2026.10.21"
 }

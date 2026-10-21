@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the httpclient5-5.4.x line, built 2026-10-20T17:18:46Z by the line manager.
+  The OSERA BOM of the httpclient5-5.4.x line, built 2026-10-21T10:50:18Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-httpclient5-5.4.x</artifactId>
-  <version>2026.10.20</version>
+  <version>2026.10.21</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for httpclient5-5.4.x</name>
   <dependencyManagement>
@@ -15,12 +15,12 @@
       <dependency>
         <groupId>org.apache.httpcomponents.core5</groupId>
         <artifactId>httpcore5</artifactId>
-        <version>5.3.6.1-osera-00001</version>
+        <version>5.3.6.1-osera-00002</version>
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents.core5</groupId>
         <artifactId>httpcore5-h2</artifactId>
-        <version>5.3.6.1-osera-00001</version>
+        <version>5.3.6.1-osera-00002</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
