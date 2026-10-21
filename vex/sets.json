@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T13:47:45Z",
-  "feed_version": 24,
+  "generated_at": "2026-10-21T14:21:03Z",
+  "feed_version": 25,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-text@v1.6.1-osera-00001",
@@ -59,14 +59,8 @@
         "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00001",
         "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00001",
-          "why": "release record not read: the vulnerability document of org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00001: org/apache/httpcomponents/core5/httpcore5-parent/5.3.6.1-osera-00001/httpcore5-parent-5.3.6.1-osera-00001-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-httpcomponents-core@v5.3.6.1-osera-00002",
@@ -643,14 +637,8 @@
         "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00008",
         "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00008"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "com.fasterxml.jackson.dataformat:jackson-dataformats-text@2.13.5.1-osera-00008",
-          "why": "release record not read: the vulnerability document of com.fasterxml.jackson.dataformat:jackson-dataformats-text@2.13.5.1-osera-00008: com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.13.5.1-osera-00008/jackson-dataformats-text-2.13.5.1-osera-00008-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 8
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00009",
@@ -971,14 +959,8 @@
         "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00001",
         "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00001",
-          "why": "release record not read: the vulnerability document of org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00001: org/eclipse/jetty/jetty-project/9.4.58.v20250814-osera-00001/jetty-project-9.4.58.v20250814-osera-00001-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-jetty.project@v9.4.58.v20250814-osera-00002",
@@ -1049,14 +1031,8 @@
         "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00002",
         "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00002",
-          "why": "release record not read: the vulnerability document of org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00002: org/eclipse/jetty/jetty-project/9.4.58.v20250814-osera-00002/jetty-project-9.4.58.v20250814-osera-00002-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-jetty.project@v9.4.58.v20250814-osera-00003",
@@ -1127,14 +1103,8 @@
         "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00003",
         "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00003",
-          "why": "release record not read: the vulnerability document of org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00003: org/eclipse/jetty/jetty-project/9.4.58.v20250814-osera-00003/jetty-project-9.4.58.v20250814-osera-00003-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 3
     },
     {
       "set": "finos-osera-forks/patch-jetty.project@v9.4.58.v20250814-osera-00004",
@@ -1205,14 +1175,8 @@
         "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00004",
         "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00004",
-          "why": "release record not read: the vulnerability document of org.eclipse.jetty:jetty-project@9.4.58.v20250814-osera-00004: org/eclipse/jetty/jetty-project/9.4.58.v20250814-osera-00004/jetty-project-9.4.58.v20250814-osera-00004-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 4
     },
     {
       "set": "finos-osera-forks/patch-logback@v1.2.13.1-osera-00001",
@@ -1223,14 +1187,8 @@
         "ch.qos.logback:logback-core@1.2.13.1-osera-00001",
         "ch.qos.logback:logback-parent@1.2.13.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "ch.qos.logback:logback-parent@1.2.13.1-osera-00001",
-          "why": "release record not read: the vulnerability document of ch.qos.logback:logback-parent@1.2.13.1-osera-00001: ch/qos/logback/logback-parent/1.2.13.1-osera-00001/logback-parent-1.2.13.1-osera-00001-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-logback@v1.2.13.1-osera-00002",
@@ -1241,14 +1199,8 @@
         "ch.qos.logback:logback-core@1.2.13.1-osera-00002",
         "ch.qos.logback:logback-parent@1.2.13.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "ch.qos.logback:logback-parent@1.2.13.1-osera-00002",
-          "why": "release record not read: the vulnerability document of ch.qos.logback:logback-parent@1.2.13.1-osera-00002: ch/qos/logback/logback-parent/1.2.13.1-osera-00002/logback-parent-1.2.13.1-osera-00002-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-logging-log4j2@v2.17.2.1-osera-00001",
@@ -1283,14 +1235,8 @@
         "org.apache.logging.log4j:log4j-web@2.17.2.1-osera-00001",
         "org.apache.logging.log4j:log4j@2.17.2.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00001",
-          "why": "release record not read: the vulnerability document of org.apache.logging.log4j:log4j@2.17.2.1-osera-00001: org/apache/logging/log4j/log4j/2.17.2.1-osera-00001/log4j-2.17.2.1-osera-00001-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-logging-log4j2@v2.17.2.1-osera-00002",
@@ -1325,14 +1271,8 @@
         "org.apache.logging.log4j:log4j-web@2.17.2.1-osera-00002",
         "org.apache.logging.log4j:log4j@2.17.2.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00002",
-          "why": "release record not read: the vulnerability document of org.apache.logging.log4j:log4j@2.17.2.1-osera-00002: org/apache/logging/log4j/log4j/2.17.2.1-osera-00002/log4j-2.17.2.1-osera-00002-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-logging-log4j2@v2.17.2.1-osera-00003",
@@ -1367,14 +1307,8 @@
         "org.apache.logging.log4j:log4j-web@2.17.2.1-osera-00003",
         "org.apache.logging.log4j:log4j@2.17.2.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00003",
-          "why": "release record not read: the vulnerability document of org.apache.logging.log4j:log4j@2.17.2.1-osera-00003: org/apache/logging/log4j/log4j/2.17.2.1-osera-00003/log4j-2.17.2.1-osera-00003-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 3
     },
     {
       "set": "finos-osera-forks/patch-logging-log4j2@v2.17.2.1-osera-00004",
@@ -1409,14 +1343,8 @@
         "org.apache.logging.log4j:log4j-web@2.17.2.1-osera-00004",
         "org.apache.logging.log4j:log4j@2.17.2.1-osera-00004"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00004",
-          "why": "release record not read: the vulnerability document of org.apache.logging.log4j:log4j@2.17.2.1-osera-00004: org/apache/logging/log4j/log4j/2.17.2.1-osera-00004/log4j-2.17.2.1-osera-00004-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 4
     },
     {
       "set": "finos-osera-forks/patch-reactor@v2020.0.47.1-osera-00001",
@@ -7517,14 +7445,8 @@
         "org.springframework.data:spring-data-rest-parent@3.7.18.1-osera-00002",
         "org.springframework.data:spring-data-rest-webmvc@3.7.18.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-rest-parent@3.7.18.1-osera-00002",
-          "why": "release record not read: the vulnerability document of org.springframework.data:spring-data-rest-parent@3.7.18.1-osera-00002: org/springframework/data/spring-data-rest-parent/3.7.18.1-osera-00002/spring-data-rest-parent-3.7.18.1-osera-00002-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-spring-data-bom@v2021.2.18.1-osera-00003",
@@ -7640,14 +7562,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00001",
-          "why": "release record not read: the vulnerability document of org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00001: org/springframework/data/spring-data-mongodb-parent/3.4.18.1-osera-00001/spring-data-mongodb-parent-3.4.18.1-osera-00001-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "finos-osera-forks/patch-spring-data-mongodb@v3.4.18.1-osera-00006",
@@ -7655,14 +7571,8 @@
       "coordinates": [
         "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00006"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00006",
-          "why": "release record not read: the vulnerability document of org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00006: org/springframework/data/spring-data-mongodb-parent/3.4.18.1-osera-00006/spring-data-mongodb-parent-3.4.18.1-osera-00006-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 0
     },
     {
       "set": "finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00001",
@@ -8463,14 +8373,8 @@
         "org.springframework.ws:spring-ws@3.1.8.1-osera-00001",
         "org.springframework.ws:spring-xml@3.1.8.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.springframework.ws:spring-ws@3.1.8.1-osera-00001",
-          "why": "release record not read: the vulnerability document of org.springframework.ws:spring-ws@3.1.8.1-osera-00001: org/springframework/ws/spring-ws/3.1.8.1-osera-00001/spring-ws-3.1.8.1-osera-00001-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-spring-ws@v3.1.8.1-osera-00002",
@@ -8483,14 +8387,8 @@
         "org.springframework.ws:spring-ws@3.1.8.1-osera-00002",
         "org.springframework.ws:spring-xml@3.1.8.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.springframework.ws:spring-ws@3.1.8.1-osera-00002",
-          "why": "release record not read: the vulnerability document of org.springframework.ws:spring-ws@3.1.8.1-osera-00002: org/springframework/ws/spring-ws/3.1.8.1-osera-00002/spring-ws-3.1.8.1-osera-00002-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-spring-ws@v3.1.8.1-osera-00003",
@@ -8503,14 +8401,8 @@
         "org.springframework.ws:spring-ws@3.1.8.1-osera-00003",
         "org.springframework.ws:spring-xml@3.1.8.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T13:27:57Z",
-      "reasons": [
-        {
-          "member": "org.springframework.ws:spring-ws@3.1.8.1-osera-00003",
-          "why": "release record not read: the vulnerability document of org.springframework.ws:spring-ws@3.1.8.1-osera-00003: org/springframework/ws/spring-ws/3.1.8.1-osera-00003/spring-ws-3.1.8.1-osera-00003-cyclonedx.json in osera-releases-maven-01: not found"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 3
     }
   ]
 }
