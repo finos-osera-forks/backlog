@@ -1,7 +1,7 @@
 {
   "line": "commons-beanutils-1.9.x",
-  "book_version": "v2026.10.21.5",
-  "as_of": "2026-10-21T14:09:56Z",
+  "book_version": "v2026.10.21.6",
+  "as_of": "2026-10-21T14:13:33Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 1,
@@ -19,5 +19,5 @@
   "open": [],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-commons-beanutils-1.9.x@2026.10.21"
 }
