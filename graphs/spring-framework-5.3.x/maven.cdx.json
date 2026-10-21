@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:73d3c489-f176-4648-a90e-6657808bfd40",
+ "serialNumber": "urn:uuid:3852f165-b94c-47d3-b6a1-46f6f439ab2d",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-13T13:24:45Z",
+  "timestamp": "2026-10-21T20:51:41Z",
   "tools": {
    "components": [
     {
@@ -46,7 +46,7 @@
     },
     {
      "name": "osera:latest",
-     "value": "org.aspectj:aspectjweaver:1.9.7\u003e1.9.25.1,org.reactivestreams:reactive-streams:1.0.3\u003e1.0.4"
+     "value": "org.aspectj:aspectjweaver:1.9.7\u003e1.9.26,org.reactivestreams:reactive-streams:1.0.3\u003e1.0.4"
     },
     {
      "name": "osera:lines",
@@ -106,11 +106,11 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+   "bom-ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.26",
    "group": "org.aspectj",
    "name": "aspectjweaver",
-   "version": "1.9.25.1",
-   "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+   "version": "1.9.26",
+   "purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.26",
    "properties": [
     {
      "name": "osera:resolved_by",
@@ -482,7 +482,7 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1",
+   "ref": "pkg:maven/org.aspectj/aspectjweaver@1.9.26",
    "dependsOn": []
   },
   {
@@ -499,7 +499,7 @@
   {
    "ref": "pkg:maven/org.springframework/spring-aspects@5.3.39",
    "dependsOn": [
-    "pkg:maven/org.aspectj/aspectjweaver@1.9.25.1"
+    "pkg:maven/org.aspectj/aspectjweaver@1.9.26"
    ]
   },
   {
