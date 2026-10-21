@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-21T14:38:33Z",
-  "version": 28,
+  "last_updated": "2026-10-21T14:43:32Z",
+  "version": 29,
   "tooling": "osera-feed main-75557906",
   "statements": [
     {
@@ -7971,6 +7971,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00016"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2026-10-21T14:40:23Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.31.1-osera-00001"
         }
       ],
       "status": "fixed",
