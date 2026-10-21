@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 26,
+  "version": 27,
   "metadata": {
-    "timestamp": "2026-10-21T14:27:48Z",
+    "timestamp": "2026-10-21T14:32:35Z",
     "tools": {
       "components": [
         {
@@ -40,6 +40,28 @@
       "name": "lz4-java",
       "version": "1.8.1.1-osera-00002",
       "purl": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "at.yawk.lz4",
+      "name": "lz4-java",
+      "version": "1.8.1.1-osera-00003",
+      "purl": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00003"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "at.yawk.lz4",
+      "name": "lz4-java",
+      "version": "1.8.1.1-osera-00004",
+      "purl": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004"
     },
     {
       "type": "library",
@@ -3352,6 +3374,188 @@
       "affects": [
         {
           "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-66566 on pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00003",
+      "id": "CVE-2025-66566",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66566"
+      },
+      "references": [
+        {
+          "id": "GHSA-cmp6-m4wj-q63q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-cmp6-m4wj-q63q"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T14:21:52Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-106451 on pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00003",
+      "id": "CVE-2026-106451",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106451"
+      },
+      "references": [
+        {
+          "id": "GHSA-mcr4-qmvw-px4g",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mcr4-qmvw-px4g"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T14:21:52Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59949 on pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00003",
+      "id": "CVE-2026-59949",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59949"
+      },
+      "references": [
+        {
+          "id": "GHSA-xx22-p4ch-683r",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xx22-p4ch-683r"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T14:21:52Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-66566 on pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004",
+      "id": "CVE-2025-66566",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66566"
+      },
+      "references": [
+        {
+          "id": "GHSA-cmp6-m4wj-q63q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-cmp6-m4wj-q63q"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T14:25:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-106449 on pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004",
+      "id": "CVE-2026-106449",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106449"
+      },
+      "references": [
+        {
+          "id": "GHSA-343h-94h5-c4wr",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-343h-94h5-c4wr"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T14:25:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-106451 on pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004",
+      "id": "CVE-2026-106451",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106451"
+      },
+      "references": [
+        {
+          "id": "GHSA-mcr4-qmvw-px4g",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mcr4-qmvw-px4g"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T14:25:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59949 on pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004",
+      "id": "CVE-2026-59949",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59949"
+      },
+      "references": [
+        {
+          "id": "GHSA-xx22-p4ch-683r",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xx22-p4ch-683r"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T14:25:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/at.yawk.lz4/lz4-java@1.8.1.1-osera-00004"
         }
       ]
     },
