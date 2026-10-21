@@ -1,7 +1,7 @@
 {
   "line": "lz4-java-1.8.x",
-  "book_version": "v2026.10.21.10",
-  "as_of": "2026-10-21T14:35:33Z",
+  "book_version": "v2026.10.21.11",
+  "as_of": "2026-10-21T14:37:14Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -62,5 +62,5 @@
     "issue #884 for CVE-2026-106451 is closed in backlog while the entry on org.lz4:lz4-java is open",
     "issue #906 for CVE-2026-59949 is closed in backlog while the entry on org.lz4:lz4-java is open"
   ],
-  "consume": "org.finos.osera:osera-bom-lz4-java-1.8.x@2026.10.21.4"
+  "consume": "org.finos.osera:osera-bom-lz4-java-1.8.x@2026.10.21.5"
 }
