@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
   "book_version": "v2026.10.21.5",
-  "as_of": "2026-10-21T13:49:29Z",
+  "as_of": "2026-10-21T14:09:56Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 7,
@@ -38,6 +38,8 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "promoted commons-beanutils:commons-beanutils@1.9.4.1-osera-00001 is on base 1.9.4, the line has commons-beanutils:commons-beanutils at 1.6"
+  ],
   "consume": ""
 }
