@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-21T14:26:37Z. Written by the line manager reconciler.
+Generated 2026-10-21T14:32:17Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -55,7 +55,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | pulled in by a dependency (org.lz4:lz4-java@1.8.1) | fixed | 3 | 3 | 100% | 7 | 0 | 0 | 0 | 1.8.1.1-osera-00004 | 1.8.1.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | pulled in by a dependency (org.lz4:lz4-java@1.8.1) | fixed | 3 | 3 | 100% | 7 | 0 | 0 | 0 | 1.8.1.1-osera-00006 | 1.8.1.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | fixed | 1 | 1 | 100% | 5 | 0 | 0 | 0 | 1.2.13.1-osera-00002 | 1.2.13.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 2.13.5.1-osera-00011 | 2.13.5.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
