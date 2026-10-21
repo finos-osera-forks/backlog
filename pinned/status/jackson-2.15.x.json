@@ -1,17 +1,22 @@
 {
   "line": "jackson-2.15.x",
   "book_version": "v2026.10.21.18",
-  "as_of": "2026-10-21T21:45:43Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-10-21T22:55:45Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 10,
-  "fixed": [],
-  "in_progress": [],
-  "open": [
+  "fixed": [
     {
       "cve": "CVE-2026-18401",
-      "library": "com.fasterxml.jackson.core:jackson-core"
-    },
+      "library": "com.fasterxml.jackson.core:jackson-core",
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00001",
+      "at": "2026-10-21T22:55:45Z"
+    }
+  ],
+  "in_progress": [],
+  "open": [
     {
       "cve": "CVE-2026-54512",
       "library": "com.fasterxml.jackson.core:jackson-databind"
