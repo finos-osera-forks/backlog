@@ -4,10 +4,55 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-21T13:47:45Z",
-  "version": 24,
-  "tooling": "osera-feed main-45f309c6",
+  "last_updated": "2026-10-21T14:21:03Z",
+  "version": 25,
+  "tooling": "osera-feed main-75557906",
   "statements": [
+    {
+      "vulnerability": {
+        "name": "CVE-2024-12801",
+        "aliases": [
+          "GHSA-6v67-2wr5-gvf4"
+        ]
+      },
+      "timestamp": "2026-09-24T14:43:17Z",
+      "products": [
+        {
+          "@id": "pkg:maven/ch.qos.logback/logback-core@1.2.13.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-12801",
+        "aliases": [
+          "GHSA-6v67-2wr5-gvf4"
+        ]
+      },
+      "timestamp": "2026-09-24T15:03:47Z",
+      "products": [
+        {
+          "@id": "pkg:maven/ch.qos.logback/logback-core@1.2.13.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11226"
+      },
+      "timestamp": "2026-09-24T15:03:47Z",
+      "products": [
+        {
+          "@id": "pkg:maven/ch.qos.logback/logback-core@1.2.13.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
     {
       "vulnerability": {
         "name": "CVE-2025-52999",
@@ -211,6 +256,38 @@
       "products": [
         {
           "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-52999",
+        "aliases": [
+          "GHSA-h46c-h94j-95f3"
+        ]
+      },
+      "timestamp": "2026-10-15T11:27:16Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-r7wm-3cxj-wff9",
+        "aliases": [
+          "CVE-2026-68494"
+        ]
+      },
+      "timestamp": "2026-10-15T11:27:16Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.5.1-osera-00008"
         }
       ],
       "status": "fixed",
@@ -458,6 +535,102 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-50193",
+        "aliases": [
+          "GHSA-3wrr-7qpf-2prh"
+        ]
+      },
+      "timestamp": "2026-10-15T11:27:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54512",
+        "aliases": [
+          "GHSA-j3rv-43j4-c7qm"
+        ]
+      },
+      "timestamp": "2026-10-15T11:27:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54513",
+        "aliases": [
+          "GHSA-rmj7-2vxq-3g9f"
+        ]
+      },
+      "timestamp": "2026-10-15T11:27:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54514",
+        "aliases": [
+          "GHSA-hgj6-7826-r7m5"
+        ]
+      },
+      "timestamp": "2026-10-15T11:27:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54515",
+        "aliases": [
+          "GHSA-5jmj-h7xm-6q6v"
+        ]
+      },
+      "timestamp": "2026-10-15T11:27:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.5.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-3894",
+        "aliases": [
+          "GHSA-rg2c-cfxv-qp6f"
+        ]
+      },
+      "timestamp": "2026-10-15T11:28:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.13.5.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-22227"
       },
       "timestamp": "2026-09-24T06:44:47Z",
@@ -538,6 +711,342 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.commons/commons-text@1.8.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-54399",
+        "aliases": [
+          "GHSA-hf6x-8p5f-cgmf"
+        ]
+      },
+      "timestamp": "2026-10-20T17:18:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-09-24T06:09:26Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34479",
+        "aliases": [
+          "GHSA-h383-gmxw-35v2"
+        ]
+      },
+      "timestamp": "2026-10-15T12:53:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-10-15T12:53:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34479",
+        "aliases": [
+          "GHSA-h383-gmxw-35v2"
+        ]
+      },
+      "timestamp": "2026-10-15T13:08:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-10-15T13:08:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34479",
+        "aliases": [
+          "GHSA-h383-gmxw-35v2"
+        ]
+      },
+      "timestamp": "2026-10-15T13:14:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-10-15T13:14:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-h383-gmxw-35v2",
+        "aliases": [
+          "CVE-2026-34479"
+        ]
+      },
+      "timestamp": "2026-10-15T13:14:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34481",
+        "aliases": [
+          "GHSA-w35j-pv5h-q9q9"
+        ]
+      },
+      "timestamp": "2026-10-15T12:58:17Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34481",
+        "aliases": [
+          "GHSA-w35j-pv5h-q9q9"
+        ]
+      },
+      "timestamp": "2026-10-15T13:14:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2332",
+        "aliases": [
+          "GHSA-355h-qmc2-wpwf"
+        ]
+      },
+      "timestamp": "2026-09-24T14:33:11Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2332",
+        "aliases": [
+          "GHSA-355h-qmc2-wpwf"
+        ]
+      },
+      "timestamp": "2026-09-24T14:38:25Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11143",
+        "aliases": [
+          "GHSA-wjpw-4j6x-6rwh"
+        ]
+      },
+      "timestamp": "2026-09-24T20:12:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2332",
+        "aliases": [
+          "GHSA-355h-qmc2-wpwf"
+        ]
+      },
+      "timestamp": "2026-09-24T20:12:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11143",
+        "aliases": [
+          "GHSA-wjpw-4j6x-6rwh"
+        ]
+      },
+      "timestamp": "2026-09-24T20:20:31Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2332",
+        "aliases": [
+          "GHSA-355h-qmc2-wpwf"
+        ]
+      },
+      "timestamp": "2026-09-24T20:20:31Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5795",
+        "aliases": [
+          "GHSA-r7p8-xq5m-436c"
+        ]
+      },
+      "timestamp": "2026-09-24T20:20:35Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.58.v20250814-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-10050",
+        "aliases": [
+          "GHSA-2fvj-hgj9-j2gr"
+        ]
+      },
+      "timestamp": "2026-09-24T14:38:40Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-10050",
+        "aliases": [
+          "GHSA-2fvj-hgj9-j2gr"
+        ]
+      },
+      "timestamp": "2026-09-24T20:13:04Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-10050",
+        "aliases": [
+          "GHSA-2fvj-hgj9-j2gr"
+        ]
+      },
+      "timestamp": "2026-09-24T20:20:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00004"
         }
       ],
       "status": "fixed",
@@ -3758,6 +4267,22 @@
           "GHSA-5whc-4q84-fj73"
         ]
       },
+      "timestamp": "2026-09-24T17:24:29Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41717",
+        "aliases": [
+          "GHSA-5whc-4q84-fj73"
+        ]
+      },
       "timestamp": "2026-09-24T19:10:27Z",
       "products": [
         {
@@ -3826,6 +4351,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41729",
+        "aliases": [
+          "GHSA-j388-8rm5-p97f"
+        ]
+      },
+      "timestamp": "2026-09-24T17:24:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00002"
         }
       ],
       "status": "fixed",
@@ -4534,6 +5075,102 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40999",
+        "aliases": [
+          "GHSA-whpp-xv3h-rwxf"
+        ]
+      },
+      "timestamp": "2026-09-24T20:27:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-core@3.1.8.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40999",
+        "aliases": [
+          "GHSA-whpp-xv3h-rwxf"
+        ]
+      },
+      "timestamp": "2026-09-24T20:34:10Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-core@3.1.8.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40999",
+        "aliases": [
+          "GHSA-whpp-xv3h-rwxf"
+        ]
+      },
+      "timestamp": "2026-10-15T12:54:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-core@3.1.8.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40994",
+        "aliases": [
+          "GHSA-gg9r-wr4p-w63h"
+        ]
+      },
+      "timestamp": "2026-10-15T12:54:31Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40998",
+        "aliases": [
+          "GHSA-2mpf-m756-hxjm"
+        ]
+      },
+      "timestamp": "2026-09-24T20:34:09Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40998",
+        "aliases": [
+          "GHSA-2mpf-m756-hxjm"
+        ]
+      },
+      "timestamp": "2026-10-15T12:54:26Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00003"
         }
       ],
       "status": "fixed",
