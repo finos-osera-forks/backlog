@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.21.17",
-  "as_of": "2026-10-21T20:58:22Z",
+  "as_of": "2026-10-21T21:40:49Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 184,
+  "in_scope": 189,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -646,6 +646,10 @@
       "library": "org.eclipse.jetty:jetty-security"
     },
     {
+      "cve": "CVE-2026-19203",
+      "library": "org.eclipse.jetty:jetty-http"
+    },
+    {
       "cve": "CVE-2026-22732",
       "library": "org.springframework.security:spring-security-web"
     },
@@ -810,6 +814,10 @@
       "library": "org.springframework.security:spring-security-web"
     },
     {
+      "cve": "CVE-2026-47893",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
       "cve": "CVE-2026-48006",
       "library": "io.netty:netty-codec-redis"
     },
@@ -884,6 +892,18 @@
     {
       "cve": "CVE-2026-5795",
       "library": "org.eclipse.jetty:jetty-jaspi"
+    },
+    {
+      "cve": "CVE-2026-59286",
+      "library": "org.springframework.graphql:spring-graphql"
+    },
+    {
+      "cve": "CVE-2026-59288",
+      "library": "org.springframework.graphql:spring-graphql"
+    },
+    {
+      "cve": "CVE-2026-59313",
+      "library": "org.springframework:spring-webmvc"
     },
     {
       "cve": "CVE-2026-59889",
