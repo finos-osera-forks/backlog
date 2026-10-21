@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-21T23:24:50Z. Written by the line manager reconciler.
+Generated 2026-10-21T23:27:27Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -212,14 +212,14 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-22 component(s), 443 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+22 component(s), 444 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | ch.qos.logback:logback-parent | 1.2.13 | parent | patch-logback v1.2.13.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 | 1.2.13.1-osera-00002 | complete | OK | OK | OK | not applicable (no code: a pom-only component carries no vulnerability document) | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformats-text | 2.13.5 | parent | patch-jackson-dataformats-text v2.13.5.1-osera-00008 | the patched modules name it as their parent, a build needs it to resolve them | 2.13.5.1-osera-00008 | 2.13.5.1-osera-00008 | complete | OK | OK | OK | not applicable (no code: a pom-only component carries no vulnerability document) | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson:jackson-bom | 2.13.5 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 2.13.5.1-osera-00008 2.13.5.1-osera-00009 2.13.5.1-osera-00010 2.13.5.1-osera-00011 | 2.13.5.1-osera-00011 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.jackson:jackson-bom | 2.15.4 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2.13.5, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.15.4.1-osera-00001 2.15.4.1-osera-00002 2.15.4.1-osera-00003 2.15.4.1-osera-00004 2.15.4.1-osera-00005 2.15.4.1-osera-00006 | 2.15.4.1-osera-00006 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson:jackson-bom | 2.15.4 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2.13.5, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.15.4.1-osera-00001 2.15.4.1-osera-00002 2.15.4.1-osera-00003 2.15.4.1-osera-00004 2.15.4.1-osera-00005 2.15.4.1-osera-00006 2.15.4.1-osera-00007 | 2.15.4.1-osera-00007 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-bom | 2020.0.47 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38 | pins the patched modules (REL-009: a pinning BOM releases again) | 2020.0.47.1-osera-00001 2020.0.47.1-osera-00002 | 2020.0.47.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.httpcomponents.core5:httpcore5-parent | 5.3.6 | parent | patch-httpcomponents-core v5.3.6.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 5.3.6.1-osera-00001 | 5.3.6.1-osera-00001 | complete | OK | OK | OK | not applicable (no code: a pom-only component carries no vulnerability document) | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00004 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | complete | OK | OK | OK | not applicable (no code: a pom-only component carries no vulnerability document) | OK | OK | OK | OK | OK | OK |
