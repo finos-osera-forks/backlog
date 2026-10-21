@@ -1,7 +1,7 @@
 {
   "line": "httpcore5-5.3.x",
-  "book_version": "v2026.10.20.4",
-  "as_of": "2026-10-21T10:49:45Z",
+  "book_version": "v2026.10.21",
+  "as_of": "2026-10-21T10:50:54Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 2,
@@ -27,5 +27,5 @@
   "open": [],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-httpcore5-5.3.x@2026.10.20"
+  "consume": "org.finos.osera:osera-bom-httpcore5-5.3.x@2026.10.21"
 }
