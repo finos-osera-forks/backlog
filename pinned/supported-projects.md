@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-21T14:32:17Z. Written by the line manager reconciler.
+Generated 2026-10-21T14:35:33Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -55,7 +55,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | pulled in by a dependency (org.lz4:lz4-java@1.8.1) | fixed | 3 | 3 | 100% | 4 | 0 | 0 | 0 | 1.8.1.1-osera-00006 | 1.8.1.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | pulled in by a dependency (org.lz4:lz4-java@1.8.1) | fixed | 3 | 3 | 100% | 4 | 0 | 0 | 0 | 1.8.1.1-osera-00007 | 1.8.1.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ch.qos.logback:logback-classic | 1.2.12 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ch.qos.logback:logback-core | 1.2.12 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 3 | 0 | 0% | 5 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (com.fasterxml.jackson.core:jackson-databind@2.13.0) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
