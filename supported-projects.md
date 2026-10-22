@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T17:28:51Z. Written by the line manager reconciler.
+Generated 2026-10-22T17:31:13Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -144,7 +144,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-151 libraries, 2506 patched version(s).
+151 libraries, 2508 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -294,8 +294,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j-slf4j2-impl | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-spring-boot | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-spring-cloud-config-client | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.logging.log4j:log4j-taglib | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.logging.log4j:log4j-to-jul | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j-taglib | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j-to-jul | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-to-slf4j | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-web | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.31 | in the dependency graph of spring-boot-2.7.x at 1.33 and snakeyaml-1.9.x at 1.33 and snakeyaml-1.23.x at 1.33 and snakeyaml-1.19.x at 1.33 and snakeyaml-1.17.x at 1.33 and snakeyaml-1.16.x at 1.33 and snakeyaml-1.29.x at 1.33 and snakeyaml-1.28.x at 1.33 and snakeyaml-1.27.x at 1.33 and snakeyaml-1.26.x at 1.33 and snakeyaml-1.31.x at 1.33 and snakeyaml-1.33.x at 1.33, uploaded on 1.31 | spring-boot-2.7.x, snakeyaml-1.9.x, snakeyaml-1.23.x, snakeyaml-1.19.x, snakeyaml-1.17.x, snakeyaml-1.16.x, snakeyaml-1.29.x, snakeyaml-1.28.x, snakeyaml-1.27.x, snakeyaml-1.26.x, snakeyaml-1.31.x, snakeyaml-1.33.x |  | 1.31.1-osera-00001 1.31.1-osera-00002 1.31.1-osera-00003 | 1.31.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
