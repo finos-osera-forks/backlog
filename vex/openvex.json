@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T18:05:54Z",
-  "version": 76,
+  "last_updated": "2026-10-22T18:10:51Z",
+  "version": 77,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -8190,6 +8190,70 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2014-0114",
+        "aliases": [
+          "GHSA-p66x-2cv9-qq3v"
+        ]
+      },
+      "timestamp": "2026-10-22T18:04:48Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1181",
+        "aliases": [
+          "GHSA-7jw3-5q4w-89qg"
+        ]
+      },
+      "timestamp": "2026-10-22T18:04:48Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1182",
+        "aliases": [
+          "GHSA-5ggr-mpgw-3mgx"
+        ]
+      },
+      "timestamp": "2026-10-22T18:04:48Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34396",
+        "aliases": [
+          "GHSA-4g42-gqrg-4633"
+        ]
+      },
+      "timestamp": "2026-10-22T18:04:48Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2023-49735",
         "aliases": [
           "GHSA-qw4h-3xjj-84cc"
@@ -8247,6 +8311,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-49735",
+        "aliases": [
+          "GHSA-qw4h-3xjj-84cc"
+        ]
+      },
+      "timestamp": "2026-10-22T18:04:47Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00005"
         }
       ],
       "status": "fixed",

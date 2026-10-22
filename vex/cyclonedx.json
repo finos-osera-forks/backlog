@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 76,
+  "version": 77,
   "metadata": {
-    "timestamp": "2026-10-22T18:05:54Z",
+    "timestamp": "2026-10-22T18:10:51Z",
     "tools": {
       "components": [
         {
@@ -1399,6 +1399,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts",
+      "name": "struts-core",
+      "version": "1.3.10.1-osera-00005",
+      "purl": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -1440,6 +1451,17 @@
       "name": "struts-tiles",
       "version": "1.3.10.1-osera-00004",
       "purl": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00004"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00005",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts",
+      "name": "struts-tiles",
+      "version": "1.3.10.1-osera-00005",
+      "purl": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00005"
     },
     {
       "type": "library",
@@ -17646,6 +17668,110 @@
       ]
     },
     {
+      "bom-ref": "CVE-2014-0114 on pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005",
+      "id": "CVE-2014-0114",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-0114"
+      },
+      "references": [
+        {
+          "id": "GHSA-p66x-2cv9-qq3v",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-p66x-2cv9-qq3v"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T18:04:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2016-1181 on pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005",
+      "id": "CVE-2016-1181",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1181"
+      },
+      "references": [
+        {
+          "id": "GHSA-7jw3-5q4w-89qg",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7jw3-5q4w-89qg"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T18:04:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2016-1182 on pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005",
+      "id": "CVE-2016-1182",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1182"
+      },
+      "references": [
+        {
+          "id": "GHSA-5ggr-mpgw-3mgx",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5ggr-mpgw-3mgx"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T18:04:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34396 on pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005",
+      "id": "CVE-2023-34396",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34396"
+      },
+      "references": [
+        {
+          "id": "GHSA-4g42-gqrg-4633",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4g42-gqrg-4633"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T18:04:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00005"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2023-49735 on pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00001",
       "id": "CVE-2023-49735",
       "source": {
@@ -17746,6 +17872,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-49735 on pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00005",
+      "id": "CVE-2023-49735",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49735"
+      },
+      "references": [
+        {
+          "id": "GHSA-qw4h-3xjj-84cc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-qw4h-3xjj-84cc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T18:04:47Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00005"
         }
       ]
     },
