@@ -1,7 +1,7 @@
 {
   "line": "jetty-9.2.x",
-  "book_version": "v2026.10.22.86",
-  "as_of": "2026-10-22T21:35:22Z",
+  "book_version": "v2026.10.22.87",
+  "as_of": "2026-10-22T21:37:37Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 1,
@@ -9,10 +9,10 @@
     {
       "cve": "CVE-2021-28165",
       "library": "org.eclipse.jetty:jetty-server",
-      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00002",
-      "patch": "00002",
-      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00002",
-      "at": "2026-10-22T21:33:19Z"
+      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00003",
+      "patch": "00003",
+      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00003",
+      "at": "2026-10-22T21:37:37Z"
     }
   ],
   "in_progress": [],
@@ -20,10 +20,11 @@
   "not_remediable": [],
   "discrepancies": [
     "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00002",
+    "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00003",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428"
   ],
-  "consume": "org.finos.osera:osera-bom-jetty-9.2.x@2026.10.22.2"
+  "consume": "org.finos.osera:osera-bom-jetty-9.2.x@2026.10.22.3"
 }
