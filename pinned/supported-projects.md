@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T19:48:26Z. Written by the line manager reconciler.
+Generated 2026-10-22T19:50:15Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 189 | 56 | 30% | 176 | 0 | 133 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 189 | 57 | 30% | 176 | 0 | 132 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 23 | 21 | 91% | 24 | 0 | 2 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 31 | 0 | 0% | 45 | 0 | 31 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
@@ -59,16 +59,16 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | ch.qos.logback:logback-classic | 1.2.12 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ch.qos.logback:logback-core | 1.2.12 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 3 | 0 | 0% | 5 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (com.fasterxml.jackson.core:jackson-databind@2.13.0) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 2.13.5.1-osera-00011 | 2.13.5.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 2.13.5.1-osera-00012 | 2.13.5.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.14.2 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 2.15.4.1-osera-00018 | 2.15.4.1-osera-00018 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 2.19.4.1-osera-00020 | 2.19.4.1-osera-00020 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (org.jasig.cas.client:cas-client-core@3.6.4) | open | 10 | 0 | 0% | 5 | 0 | 10 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 6 | 5 | 83% | 5 | 0 | 1 | 0 | 2.13.5.1-osera-00011 | 2.13.5.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 6 | 6 | 100% | 5 | 0 | 0 | 0 | 2.13.5.1-osera-00012 | 2.13.5.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.14.2 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 6 | 0 | 0% | 5 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 5 | 0 | 0 | 0 | 2.15.4.1-osera-00018 | 2.15.4.1-osera-00018 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 5 | 0 | 0 | 0 | 2.19.4.1-osera-00020 | 2.19.4.1-osera-00020 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00011 | 2.13.5.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00012 | 2.13.5.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:mchange-commons-java | 0.2.19 | c3p0-0.9.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:mchange-commons-java | 0.2.20 | mchange-commons-0.2.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
