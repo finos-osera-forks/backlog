@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T12:51:24Z",
-  "version": 63,
+  "last_updated": "2026-10-22T15:50:50Z",
+  "version": 64,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -7687,22 +7687,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00002"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-34480",
-        "aliases": [
-          "GHSA-3pxv-7cmr-fjr4"
-        ]
-      },
-      "timestamp": "2026-09-24T06:09:26Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00001"
         }
       ],
       "status": "fixed",
