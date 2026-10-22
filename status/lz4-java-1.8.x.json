@@ -1,7 +1,7 @@
 {
   "line": "lz4-java-1.8.x",
   "book_version": "v2026.10.22.27",
-  "as_of": "2026-10-22T14:55:49Z",
+  "as_of": "2026-10-22T15:01:45Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -57,7 +57,10 @@
     "fixed, not in the backlog: CVE-2026-106452 on at.yawk.lz4:lz4-java@1.8.1.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-106452 on at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-106453 on at.yawk.lz4:lz4-java@1.8.1.1-osera-00006",
-    "fixed, not in the backlog: CVE-2026-106453 on at.yawk.lz4:lz4-java@1.8.1.1-osera-00007"
+    "fixed, not in the backlog: CVE-2026-106453 on at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
+    "issue #878 for CVE-2025-66566 is closed in backlog while the entry on org.lz4:lz4-java is open",
+    "issue #884 for CVE-2026-106451 is closed in backlog while the entry on org.lz4:lz4-java is open",
+    "issue #906 for CVE-2026-59949 is closed in backlog while the entry on org.lz4:lz4-java is open"
   ],
   "consume": "org.finos.osera:osera-bom-lz4-java-1.8.x@2026.10.21.5"
 }
