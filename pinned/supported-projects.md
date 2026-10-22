@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T16:30:15Z. Written by the line manager reconciler.
+Generated 2026-10-22T17:02:22Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -108,7 +108,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.apache.httpcomponents.core5:httpcore5-h2 | 5.3.6 | httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.6.1-osera-00002 | 5.3.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 2 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 2.24.3.1-osera-00002 | 2.24.3.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 2.24.3.1-osera-00003 | 2.24.3.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | open | 1 | 0 | 0% | 3 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
