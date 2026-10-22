@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T18:30:50Z",
-  "version": 80,
+  "last_updated": "2026-10-22T18:35:49Z",
+  "version": 81,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -8449,6 +8449,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.velocity/velocity@1.6.4.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-13936",
+        "aliases": [
+          "GHSA-59j4-wjwp-mw9m"
+        ]
+      },
+      "timestamp": "2026-10-22T18:31:18Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.velocity/velocity@1.7.1-osera-00001"
         }
       ],
       "status": "fixed",
