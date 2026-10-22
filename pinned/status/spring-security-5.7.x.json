@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.10.22.10",
-  "as_of": "2026-10-22T01:03:16Z",
+  "book_version": "v2026.10.22.11",
+  "as_of": "2026-10-22T01:04:58Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 31,
@@ -226,6 +226,7 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00001 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00002 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00003 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00004 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.0",
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00001 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00002 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
     "promoted org.springframework.data:spring-data-commons@2.7.18.1-osera-00003 is on base 2.7.18, the line has org.springframework.data:spring-data-commons at 2.7.14",
