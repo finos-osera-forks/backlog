@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T12:45:52Z",
-  "feed_version": 62,
+  "generated_at": "2026-10-22T12:51:24Z",
+  "feed_version": 63,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
@@ -868,14 +868,8 @@
         "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00011",
         "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00011"
       ],
-      "state": "held",
-      "held_since": "2026-10-19T10:54:22Z",
-      "reasons": [
-        {
-          "member": "com.fasterxml.jackson.dataformat:jackson-dataformats-text@2.13.5.1-osera-00011",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 12
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.15.4.1-osera-00001",
