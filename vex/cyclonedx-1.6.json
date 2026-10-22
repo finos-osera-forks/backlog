@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 46,
+  "version": 47,
   "metadata": {
-    "timestamp": "2026-10-22T00:51:24Z",
+    "timestamp": "2026-10-22T01:01:09Z",
     "tools": {
       "components": [
         {
@@ -414,6 +414,17 @@
       "name": "jackson-core",
       "version": "2.19.4.1-osera-00001",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.19.4.1-osera-00002",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4.1-osera-00002"
     },
     {
       "type": "library",
@@ -6275,6 +6286,58 @@
       "affects": [
         {
           "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-18401 on pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4.1-osera-00002",
+      "id": "CVE-2026-18401",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18401"
+      },
+      "references": [
+        {
+          "id": "GHSA-72hv-8253-57qq",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-72hv-8253-57qq"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T00:51:41Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-68494 on pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4.1-osera-00002",
+      "id": "CVE-2026-68494",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68494"
+      },
+      "references": [
+        {
+          "id": "GHSA-r7wm-3cxj-wff9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r7wm-3cxj-wff9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T00:51:41Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.19.4.1-osera-00002"
         }
       ]
     },
