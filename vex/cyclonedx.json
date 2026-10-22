@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 65,
+  "version": 66,
   "metadata": {
-    "timestamp": "2026-10-22T16:00:56Z",
+    "timestamp": "2026-10-22T16:05:51Z",
     "tools": {
       "components": [
         {
@@ -1220,17 +1220,6 @@
       "name": "log4j-core",
       "version": "2.17.2.1-osera-00001",
       "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00001"
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002",
-      "supplier": {
-        "name": "moderne"
-      },
-      "group": "org.apache.logging.log4j",
-      "name": "log4j-core",
-      "version": "2.17.2.1-osera-00002",
-      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002"
     },
     {
       "type": "library",
@@ -16708,58 +16697,6 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00001"
-        }
-      ]
-    },
-    {
-      "bom-ref": "CVE-2026-34479 on pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002",
-      "id": "CVE-2026-34479",
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34479"
-      },
-      "references": [
-        {
-          "id": "GHSA-h383-gmxw-35v2",
-          "source": {
-            "name": "GitHub Advisories",
-            "url": "https://github.com/advisories/GHSA-h383-gmxw-35v2"
-          }
-        }
-      ],
-      "analysis": {
-        "state": "resolved_with_pedigree",
-        "firstIssued": "2026-10-15T12:53:27Z"
-      },
-      "affects": [
-        {
-          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002"
-        }
-      ]
-    },
-    {
-      "bom-ref": "CVE-2026-34480 on pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002",
-      "id": "CVE-2026-34480",
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34480"
-      },
-      "references": [
-        {
-          "id": "GHSA-3pxv-7cmr-fjr4",
-          "source": {
-            "name": "GitHub Advisories",
-            "url": "https://github.com/advisories/GHSA-3pxv-7cmr-fjr4"
-          }
-        }
-      ],
-      "analysis": {
-        "state": "resolved_with_pedigree",
-        "firstIssued": "2026-10-15T12:53:27Z"
-      },
-      "affects": [
-        {
-          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002"
         }
       ]
     },
