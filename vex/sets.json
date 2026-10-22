@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T12:41:26Z",
+  "generated_at": "2026-10-22T12:45:52Z",
   "feed_version": 62,
   "sets": [
     {
@@ -792,12 +792,8 @@
         "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00010"
       ],
       "state": "held",
-      "held_since": "2026-10-19T10:54:22Z",
+      "held_since": "2026-10-22T12:45:52Z",
       "reasons": [
-        {
-          "member": "com.fasterxml.jackson.dataformat:jackson-dataformats-text@2.13.5.1-osera-00010",
-          "why": "not promoted"
-        },
         {
           "member": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010",
           "why": "evidence chain not complete: verdict: missing (no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01); upload: not checked (no verdict to read the upload account from); tagger: not checked (no verdict to read the tag pusher from)"
