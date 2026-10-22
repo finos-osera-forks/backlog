@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.22.54",
-  "as_of": "2026-10-22T19:48:26Z",
+  "book_version": "v2026.10.22.55",
+  "as_of": "2026-10-22T19:50:15Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 189,
@@ -33,10 +33,10 @@
     {
       "cve": "CVE-2023-3894",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml",
-      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2024-38807",
@@ -97,10 +97,10 @@
     {
       "cve": "CVE-2025-52999",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2026-22733",
@@ -401,58 +401,66 @@
     {
       "cve": "CVE-2026-50193",
       "library": "com.fasterxml.jackson.core:jackson-databind",
-      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2026-54512",
       "library": "com.fasterxml.jackson.core:jackson-databind",
-      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2026-54513",
       "library": "com.fasterxml.jackson.core:jackson-databind",
-      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
+    },
+    {
+      "cve": "CVE-2026-59889",
+      "library": "com.fasterxml.jackson.core:jackson-databind",
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2026-68494",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2026-89425",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2026-91776",
       "library": "com.fasterxml.jackson.core:jackson-databind",
-      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2026-91777",
       "library": "com.fasterxml.jackson.core:jackson-databind",
-      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "patch": "00011",
-      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "patch": "00012",
+      "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
+      "at": "2026-10-22T19:50:15Z"
     }
   ],
   "in_progress": [],
@@ -910,10 +918,6 @@
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
     {
-      "cve": "CVE-2026-59889",
-      "library": "com.fasterxml.jackson.core:jackson-databind"
-    },
-    {
       "cve": "CVE-2026-59898",
       "library": "io.netty:netty-codec-http"
     },
@@ -1009,11 +1013,13 @@
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00009",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
+    "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00008",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00009",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010",
     "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00011",
+    "fixed, not in the backlog: CVE-2026-54515 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
     "fixed, not in the backlog: CVE-2026-59278 on org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
     "fixed, not in the backlog: GHSA-h383-gmxw-35v2 on org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00004",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00002",
@@ -1026,6 +1032,7 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00009",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00010",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00012",
     "issue #10 for CVE-2022-25857 is closed in backlog while the entry on org.yaml:snakeyaml is open",
     "issue #11 for CVE-2022-38749 is closed in backlog while the entry on org.yaml:snakeyaml is open",
     "issue #116 for CVE-2026-42498 is closed in backlog while the entry on org.apache.tomcat.embed:tomcat-embed-core is open",
