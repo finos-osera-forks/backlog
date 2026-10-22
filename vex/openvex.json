@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T17:10:49Z",
-  "version": 70,
+  "last_updated": "2026-10-22T17:25:55Z",
+  "version": 71,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -7710,6 +7710,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-49844",
+        "aliases": [
+          "GHSA-qv9r-c865-cp47"
+        ]
+      },
+      "timestamp": "2026-10-22T17:07:19Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.3.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-34480",
         "aliases": [
           "GHSA-3pxv-7cmr-fjr4"
@@ -7783,6 +7799,54 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34479",
+        "aliases": [
+          "GHSA-h383-gmxw-35v2"
+        ]
+      },
+      "timestamp": "2026-10-15T13:14:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-10-15T13:14:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "GHSA-h383-gmxw-35v2",
+        "aliases": [
+          "CVE-2026-34479"
+        ]
+      },
+      "timestamp": "2026-10-15T13:14:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00004"
         }
       ],
       "status": "fixed",
@@ -7870,6 +7934,54 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-68161",
+        "aliases": [
+          "GHSA-vc5p-v9hr-52mj"
+        ]
+      },
+      "timestamp": "2026-10-22T17:07:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34478",
+        "aliases": [
+          "GHSA-445c-vh5m-36rj"
+        ]
+      },
+      "timestamp": "2026-10-22T17:07:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-10-22T17:07:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-34481",
         "aliases": [
           "GHSA-w35j-pv5h-q9q9"
@@ -7879,6 +7991,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34481",
+        "aliases": [
+          "GHSA-w35j-pv5h-q9q9"
+        ]
+      },
+      "timestamp": "2026-10-15T13:14:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00004"
         }
       ],
       "status": "fixed",
