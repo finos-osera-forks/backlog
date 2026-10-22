@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 82,
+  "version": 83,
   "metadata": {
-    "timestamp": "2026-10-22T18:45:50Z",
+    "timestamp": "2026-10-22T18:50:50Z",
     "tools": {
       "components": [
         {
@@ -4451,6 +4451,17 @@
       "name": "snakeyaml",
       "version": "1.9.1-osera-00001",
       "purl": "pkg:maven/org.yaml/snakeyaml@1.9.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.9.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.9.1-osera-00002",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.9.1-osera-00002"
     }
   ],
   "vulnerabilities": [
@@ -28407,6 +28418,58 @@
       "affects": [
         {
           "ref": "pkg:maven/org.yaml/snakeyaml@1.9.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2017-18640 on pkg:maven/org.yaml/snakeyaml@1.9.1-osera-00002",
+      "id": "CVE-2017-18640",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-18640"
+      },
+      "references": [
+        {
+          "id": "GHSA-rvwf-54qp-4r6v",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rvwf-54qp-4r6v"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T18:46:22Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.9.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-1471 on pkg:maven/org.yaml/snakeyaml@1.9.1-osera-00002",
+      "id": "CVE-2022-1471",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1471"
+      },
+      "references": [
+        {
+          "id": "GHSA-mjmj-j48q-9wg2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mjmj-j48q-9wg2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T18:46:22Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.9.1-osera-00002"
         }
       ]
     }
