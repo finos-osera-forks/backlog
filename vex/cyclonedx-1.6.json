@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 67,
+  "version": 68,
   "metadata": {
-    "timestamp": "2026-10-22T16:45:57Z",
+    "timestamp": "2026-10-22T16:50:51Z",
     "tools": {
       "components": [
         {
@@ -1231,17 +1231,6 @@
     },
     {
       "type": "library",
-      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003",
-      "supplier": {
-        "name": "moderne"
-      },
-      "group": "org.apache.logging.log4j",
-      "name": "log4j-core",
-      "version": "2.17.2.1-osera-00003",
-      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003"
-    },
-    {
-      "type": "library",
       "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00004",
       "supplier": {
         "name": "moderne"
@@ -1272,17 +1261,6 @@
       "name": "log4j-core",
       "version": "2.24.3.1-osera-00002",
       "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00002"
-    },
-    {
-      "type": "library",
-      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00003",
-      "supplier": {
-        "name": "moderne"
-      },
-      "group": "org.apache.logging.log4j",
-      "name": "log4j-layout-template-json",
-      "version": "2.17.2.1-osera-00003",
-      "purl": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00003"
     },
     {
       "type": "library",
@@ -16772,58 +16750,6 @@
       ]
     },
     {
-      "bom-ref": "CVE-2026-34479 on pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003",
-      "id": "CVE-2026-34479",
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34479"
-      },
-      "references": [
-        {
-          "id": "GHSA-h383-gmxw-35v2",
-          "source": {
-            "name": "GitHub Advisories",
-            "url": "https://github.com/advisories/GHSA-h383-gmxw-35v2"
-          }
-        }
-      ],
-      "analysis": {
-        "state": "resolved_with_pedigree",
-        "firstIssued": "2026-10-15T13:08:20Z"
-      },
-      "affects": [
-        {
-          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003"
-        }
-      ]
-    },
-    {
-      "bom-ref": "CVE-2026-34480 on pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003",
-      "id": "CVE-2026-34480",
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34480"
-      },
-      "references": [
-        {
-          "id": "GHSA-3pxv-7cmr-fjr4",
-          "source": {
-            "name": "GitHub Advisories",
-            "url": "https://github.com/advisories/GHSA-3pxv-7cmr-fjr4"
-          }
-        }
-      ],
-      "analysis": {
-        "state": "resolved_with_pedigree",
-        "firstIssued": "2026-10-15T13:08:20Z"
-      },
-      "affects": [
-        {
-          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003"
-        }
-      ]
-    },
-    {
       "bom-ref": "CVE-2026-34479 on pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00004",
       "id": "CVE-2026-34479",
       "source": {
@@ -16976,32 +16902,6 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00002"
-        }
-      ]
-    },
-    {
-      "bom-ref": "CVE-2026-34481 on pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00003",
-      "id": "CVE-2026-34481",
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34481"
-      },
-      "references": [
-        {
-          "id": "GHSA-w35j-pv5h-q9q9",
-          "source": {
-            "name": "GitHub Advisories",
-            "url": "https://github.com/advisories/GHSA-w35j-pv5h-q9q9"
-          }
-        }
-      ],
-      "analysis": {
-        "state": "resolved_with_pedigree",
-        "firstIssued": "2026-10-15T12:58:17Z"
-      },
-      "affects": [
-        {
-          "ref": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00003"
         }
       ]
     },
