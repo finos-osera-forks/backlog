@@ -1,7 +1,7 @@
 {
   "line": "jetty-9.2.x",
-  "book_version": "v2026.10.22.91",
-  "as_of": "2026-10-22T21:45:40Z",
+  "book_version": "v2026.10.22.92",
+  "as_of": "2026-10-22T21:49:31Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 1,
@@ -9,10 +9,10 @@
     {
       "cve": "CVE-2021-28165",
       "library": "org.eclipse.jetty:jetty-server",
-      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00004",
-      "patch": "00004",
-      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00004",
-      "at": "2026-10-22T21:43:38Z"
+      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00005",
+      "patch": "00005",
+      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00005",
+      "at": "2026-10-22T21:49:31Z"
     }
   ],
   "in_progress": [],
@@ -22,7 +22,9 @@
     "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00002",
     "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00003",
     "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00004",
+    "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00005",
     "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00004",
+    "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00005",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
