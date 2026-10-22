@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 98,
+  "version": 99,
   "metadata": {
-    "timestamp": "2026-10-22T20:16:07Z",
+    "timestamp": "2026-10-22T20:20:49Z",
     "tools": {
       "components": [
         {
@@ -4652,6 +4652,17 @@
       "name": "snakeyaml",
       "version": "1.17.1-osera-00007",
       "purl": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.19.1-osera-00001",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00001"
     },
     {
       "type": "library",
@@ -30555,6 +30566,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-1471 on pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00001",
+      "id": "CVE-2022-1471",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1471"
+      },
+      "references": [
+        {
+          "id": "GHSA-mjmj-j48q-9wg2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mjmj-j48q-9wg2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:16:47Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00001"
         }
       ]
     },
