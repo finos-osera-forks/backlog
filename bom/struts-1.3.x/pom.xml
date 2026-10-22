@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the struts-1.3.x line, built 2026-10-22T17:56:55Z by the line manager.
+  The OSERA BOM of the struts-1.3.x line, built 2026-10-22T18:01:03Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-struts-1.3.x</artifactId>
-  <version>2026.10.22.4</version>
+  <version>2026.10.22.5</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for struts-1.3.x</name>
   <dependencyManagement>
@@ -15,12 +15,12 @@
       <dependency>
         <groupId>org.apache.struts</groupId>
         <artifactId>struts-core</artifactId>
-        <version>1.3.10.1-osera-00003</version>
+        <version>1.3.10.1-osera-00004</version>
       </dependency>
       <dependency>
         <groupId>org.apache.struts</groupId>
         <artifactId>struts-tiles</artifactId>
-        <version>1.3.10.1-osera-00003</version>
+        <version>1.3.10.1-osera-00004</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
