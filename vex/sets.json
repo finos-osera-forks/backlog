@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T18:30:50Z",
-  "feed_version": 80,
+  "generated_at": "2026-10-22T18:35:49Z",
+  "feed_version": 81,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
@@ -11553,6 +11553,15 @@
       "members": 1,
       "coordinates": [
         "org.apache.velocity:velocity@1.6.4.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-velocity@v1.7.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "org.apache.velocity:velocity@1.7.1-osera-00001"
       ],
       "state": "in the feed",
       "statements": 1
