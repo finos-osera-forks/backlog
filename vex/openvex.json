@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T17:50:50Z",
-  "version": 73,
+  "last_updated": "2026-10-22T17:55:50Z",
+  "version": 74,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -8094,6 +8094,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2023-34396",
+        "aliases": [
+          "GHSA-4g42-gqrg-4633"
+        ]
+      },
+      "timestamp": "2026-10-22T17:51:32Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2023-49735",
         "aliases": [
           "GHSA-qw4h-3xjj-84cc"
@@ -8103,6 +8119,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-49735",
+        "aliases": [
+          "GHSA-qw4h-3xjj-84cc"
+        ]
+      },
+      "timestamp": "2026-10-22T17:51:30Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00002"
         }
       ],
       "status": "fixed",
