@@ -45,6 +45,11 @@
       "since": "2026-10-21T23:54:55Z",
       "editions": []
     },
+    "jackson-2.19.x": {
+      "remediated": true,
+      "since": "2026-10-22T01:59:43Z",
+      "editions": []
+    },
     "snakeyaml-1.31.x": {
       "remediated": true,
       "since": "2026-10-21T14:46:52Z",
