@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T16:05:51Z",
-  "version": 66,
+  "last_updated": "2026-10-22T16:45:57Z",
+  "version": 67,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -7715,6 +7715,38 @@
           "GHSA-h383-gmxw-35v2"
         ]
       },
+      "timestamp": "2026-10-15T12:53:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-10-15T12:53:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34479",
+        "aliases": [
+          "GHSA-h383-gmxw-35v2"
+        ]
+      },
       "timestamp": "2026-10-15T13:08:20Z",
       "products": [
         {
@@ -7799,6 +7831,38 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34478",
+        "aliases": [
+          "GHSA-445c-vh5m-36rj"
+        ]
+      },
+      "timestamp": "2026-10-22T16:29:19Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-10-22T16:29:19Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00002"
         }
       ],
       "status": "fixed",
