@@ -1,17 +1,22 @@
 {
   "line": "snakeyaml-1.28.x",
-  "book_version": "v2026.10.22.77",
-  "as_of": "2026-10-22T21:14:47Z",
-  "status": "not fixed",
-  "chain": "",
+  "book_version": "v2026.10.22.78",
+  "as_of": "2026-10-22T21:17:02Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 6,
-  "fixed": [],
-  "in_progress": [],
-  "open": [
+  "fixed": [
     {
       "cve": "CVE-2022-1471",
-      "library": "org.yaml:snakeyaml"
-    },
+      "library": "org.yaml:snakeyaml",
+      "coordinate": "org.yaml:snakeyaml@1.28.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.yaml:snakeyaml@1.28.1-osera-00001",
+      "at": "2026-10-22T21:17:02Z"
+    }
+  ],
+  "in_progress": [],
+  "open": [
     {
       "cve": "CVE-2022-25857",
       "library": "org.yaml:snakeyaml"
