@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The OSERA BOM of the log4j2-2.24.x line, built 2026-10-22T15:48:00Z by the line manager.
+  Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.finos.osera</groupId>
+  <artifactId>osera-bom-log4j2-2.24.x</artifactId>
+  <version>2026.10.22</version>
+  <packaging>pom</packaging>
+  <name>OSERA BOM for log4j2-2.24.x</name>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.24.3.1-osera-00001</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.24.3.1-osera-00001</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
