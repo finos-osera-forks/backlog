@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 72,
+  "version": 73,
   "metadata": {
-    "timestamp": "2026-10-22T17:35:55Z",
+    "timestamp": "2026-10-22T17:50:50Z",
     "tools": {
       "components": [
         {
@@ -1363,6 +1363,17 @@
       "name": "log4j-layout-template-json",
       "version": "2.17.2.1-osera-00004",
       "purl": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00004"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts",
+      "name": "struts-tiles",
+      "version": "1.3.10.1-osera-00001",
+      "purl": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00001"
     },
     {
       "type": "library",
@@ -17409,6 +17420,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-49735 on pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00001",
+      "id": "CVE-2023-49735",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49735"
+      },
+      "references": [
+        {
+          "id": "GHSA-qw4h-3xjj-84cc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-qw4h-3xjj-84cc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T17:47:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00001"
         }
       ]
     },
