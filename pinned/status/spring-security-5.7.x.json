@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.10.22.40",
-  "as_of": "2026-10-22T18:26:25Z",
+  "book_version": "v2026.10.22.41",
+  "as_of": "2026-10-22T18:33:20Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 31,
@@ -335,5 +335,5 @@
     "promoted org.springframework:spring-web@5.3.39.1-osera-00015 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00016 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.15.8"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.22"
 }
