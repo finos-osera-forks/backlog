@@ -1,7 +1,7 @@
 {
   "line": "jackson-2.15.x",
   "book_version": "v2026.10.22.4",
-  "as_of": "2026-10-22T00:21:27Z",
+  "as_of": "2026-10-22T00:30:49Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 10,
@@ -9,10 +9,10 @@
     {
       "cve": "CVE-2026-18401",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00016",
-      "patch": "00016",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00016",
-      "at": "2026-10-22T00:18:51Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00017",
+      "patch": "00017",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00017",
+      "at": "2026-10-22T00:30:49Z"
     },
     {
       "cve": "CVE-2026-54512",
@@ -49,10 +49,10 @@
     {
       "cve": "CVE-2026-68494",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00016",
-      "patch": "00016",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00016",
-      "at": "2026-10-22T00:18:51Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00017",
+      "patch": "00017",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00017",
+      "at": "2026-10-22T00:30:49Z"
     },
     {
       "cve": "CVE-2026-68497",
@@ -65,10 +65,10 @@
     {
       "cve": "CVE-2026-89425",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00016",
-      "patch": "00016",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00016",
-      "at": "2026-10-22T00:18:51Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00017",
+      "patch": "00017",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00017",
+      "at": "2026-10-22T00:30:49Z"
     },
     {
       "cve": "CVE-2026-91776",
