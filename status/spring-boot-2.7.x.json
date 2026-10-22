@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.22.48",
-  "as_of": "2026-10-22T19:18:04Z",
+  "as_of": "2026-10-22T19:19:46Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -750,6 +750,7 @@
     "promoted org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00005 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-layout-template-json at 2.17.2",
     "promoted org.yaml:snakeyaml@1.16.1-osera-00001 is on base 1.16, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.16.1-osera-00002 is on base 1.16, the line has org.yaml:snakeyaml at 1.33",
+    "promoted org.yaml:snakeyaml@1.16.1-osera-00003 is on base 1.16, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00001 is on base 1.31, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00002 is on base 1.31, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00003 is on base 1.31, the line has org.yaml:snakeyaml at 1.33",
