@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T19:45:54Z",
-  "feed_version": 92,
+  "generated_at": "2026-10-22T19:50:51Z",
+  "feed_version": 93,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
@@ -4518,6 +4518,15 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.17.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.17.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-snakeyaml@v1.31.1-osera-00001",
