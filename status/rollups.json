@@ -50,6 +50,11 @@
       "since": "2026-10-22T01:59:43Z",
       "editions": []
     },
+    "jetty-9.2.x": {
+      "remediated": true,
+      "since": "2026-10-22T21:27:21Z",
+      "editions": []
+    },
     "log4j2-2.24.x": {
       "remediated": true,
       "since": "2026-10-22T16:30:15Z",
