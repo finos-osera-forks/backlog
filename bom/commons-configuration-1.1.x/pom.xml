@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The OSERA BOM of the commons-configuration-1.1.x line, built 2026-10-22T18:18:53Z by the line manager.
+  Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.finos.osera</groupId>
+  <artifactId>osera-bom-commons-configuration-1.1.x</artifactId>
+  <version>2026.10.22</version>
+  <packaging>pom</packaging>
+  <name>OSERA BOM for commons-configuration-1.1.x</name>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>commons-collections</groupId>
+        <artifactId>commons-collections</artifactId>
+        <version>3.0.1-osera-00001</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>
