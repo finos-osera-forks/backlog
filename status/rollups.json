@@ -156,6 +156,11 @@
       "remediated": true,
       "since": "2026-10-22T18:24:44Z",
       "editions": []
+    },
+    "velocity-1.7.x": {
+      "remediated": true,
+      "since": "2026-10-22T18:31:30Z",
+      "editions": []
     }
   },
   "lists": {
