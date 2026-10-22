@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.22.21",
-  "as_of": "2026-10-22T02:06:29Z",
+  "as_of": "2026-10-22T02:11:16Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -651,6 +651,7 @@
     "promoted com.fasterxml.jackson.core:jackson-core@2.19.4.1-osera-00012 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-core@2.19.4.1-osera-00013 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-core@2.19.4.1-osera-00014 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.19.4.1-osera-00015 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00001 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00002 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00003 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
@@ -683,6 +684,7 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00012 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00013 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00014 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00015 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00001 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
     "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00002 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
     "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00003 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
@@ -715,6 +717,7 @@
     "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00012 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
     "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00013 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
     "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00014 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
+    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00015 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00001 is on base 1.31, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00002 is on base 1.31, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00003 is on base 1.31, the line has org.yaml:snakeyaml at 1.33"
