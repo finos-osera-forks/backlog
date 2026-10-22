@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T21:41:37Z. Written by the line manager reconciler.
+Generated 2026-10-22T21:43:38Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -127,7 +127,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.eclipse.jetty:jetty-http | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-jaspi | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-security | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 5 | 0 | 0 | 0 | 9.2.30.v20200428-osera-00003 | 9.2.30.v20200428-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 5 | 0 | 0 | 0 | 9.2.30.v20200428-osera-00004 | 9.2.30.v20200428-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-server | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 2 | 0 | 0% | 1 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-servlets | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | own project (the anchor's group) | open | 3 | 0 | 0% | 4 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
