@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T16:45:57Z",
-  "version": 67,
+  "last_updated": "2026-10-22T16:50:51Z",
+  "version": 68,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -7747,38 +7747,6 @@
           "GHSA-h383-gmxw-35v2"
         ]
       },
-      "timestamp": "2026-10-15T13:08:20Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-34480",
-        "aliases": [
-          "GHSA-3pxv-7cmr-fjr4"
-        ]
-      },
-      "timestamp": "2026-10-15T13:08:20Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2.1-osera-00003"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-34479",
-        "aliases": [
-          "GHSA-h383-gmxw-35v2"
-        ]
-      },
       "timestamp": "2026-10-15T13:14:01Z",
       "products": [
         {
@@ -7863,22 +7831,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00002"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-34481",
-        "aliases": [
-          "GHSA-w35j-pv5h-q9q9"
-        ]
-      },
-      "timestamp": "2026-10-15T12:58:17Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00003"
         }
       ],
       "status": "fixed",
