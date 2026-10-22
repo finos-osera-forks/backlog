@@ -1,12 +1,21 @@
 {
-  "generated_at": "2026-10-22T18:15:50Z",
-  "feed_version": 78,
+  "generated_at": "2026-10-22T18:20:51Z",
+  "feed_version": 79,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
       "members": 1,
       "coordinates": [
         "commons-beanutils:commons-beanutils@1.9.4.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-collections@v3.0.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "commons-collections:commons-collections@3.0.1-osera-00001"
       ],
       "state": "in the feed",
       "statements": 1
