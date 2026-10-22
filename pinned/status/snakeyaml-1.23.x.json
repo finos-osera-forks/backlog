@@ -1,7 +1,7 @@
 {
   "line": "snakeyaml-1.23.x",
   "book_version": "v2026.10.22.63",
-  "as_of": "2026-10-22T20:18:27Z",
+  "as_of": "2026-10-22T20:21:30Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 7,
@@ -54,6 +54,7 @@
     "promoted org.yaml:snakeyaml@1.17.1-osera-00006 is on base 1.17, the line has org.yaml:snakeyaml at 1.23",
     "promoted org.yaml:snakeyaml@1.17.1-osera-00007 is on base 1.17, the line has org.yaml:snakeyaml at 1.23",
     "promoted org.yaml:snakeyaml@1.19.1-osera-00001 is on base 1.19, the line has org.yaml:snakeyaml at 1.23",
+    "promoted org.yaml:snakeyaml@1.19.1-osera-00002 is on base 1.19, the line has org.yaml:snakeyaml at 1.23",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00001 is on base 1.31, the line has org.yaml:snakeyaml at 1.23",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00002 is on base 1.31, the line has org.yaml:snakeyaml at 1.23",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00003 is on base 1.31, the line has org.yaml:snakeyaml at 1.23",
