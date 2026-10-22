@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T02:56:58Z",
-  "feed_version": 60,
+  "generated_at": "2026-10-22T12:20:58Z",
+  "feed_version": 61,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
@@ -88,14 +88,8 @@
         "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00002",
         "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00002"
       ],
-      "state": "held",
-      "held_since": "2026-10-21T10:51:33Z",
-      "reasons": [
-        {
-          "member": "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00002",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.13.5.1-osera-00001",
