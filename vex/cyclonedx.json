@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 97,
+  "version": 98,
   "metadata": {
-    "timestamp": "2026-10-22T20:10:50Z",
+    "timestamp": "2026-10-22T20:16:07Z",
     "tools": {
       "components": [
         {
@@ -2466,6 +2466,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00075",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot-actuator-autoconfigure",
+      "version": "2.7.18.1-osera-00075",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00075"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00051",
       "supplier": {
         "name": "moderne"
@@ -2730,6 +2741,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00075",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot-devtools",
+      "version": "2.7.18.1-osera-00075",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00075"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00059",
       "supplier": {
         "name": "moderne"
@@ -2903,6 +2925,17 @@
       "name": "spring-boot-loader-tools",
       "version": "2.7.18.1-osera-00074",
       "purl": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00074"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00075",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot-loader-tools",
+      "version": "2.7.18.1-osera-00075",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00075"
     },
     {
       "type": "library",
@@ -3093,6 +3126,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00075",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot-loader",
+      "version": "2.7.18.1-osera-00075",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00075"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00052",
       "supplier": {
         "name": "moderne"
@@ -3134,6 +3178,17 @@
       "name": "spring-boot",
       "version": "2.7.18.1-osera-00074",
       "purl": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00074"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00075",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.boot",
+      "name": "spring-boot",
+      "version": "2.7.18.1-osera-00075",
+      "purl": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00075"
     },
     {
       "type": "library",
@@ -4586,6 +4641,17 @@
       "name": "snakeyaml",
       "version": "1.17.1-osera-00006",
       "purl": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00006"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.17.1-osera-00007",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
     },
     {
       "type": "library",
@@ -22276,6 +22342,49 @@
       ]
     },
     {
+      "bom-ref": "CVE-2025-22235 on pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00075",
+      "id": "CVE-2025-22235",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22235"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:08:17Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00075"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-22733 on pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00075",
+      "id": "CVE-2026-22733",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22733"
+      },
+      "references": [
+        {
+          "id": "GHSA-mgvc-8q2h-5pgc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mgvc-8q2h-5pgc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:08:17Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00075"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-40972 on pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00051",
       "id": "CVE-2026-40972",
       "source": {
@@ -22900,6 +23009,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-40972 on pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00075",
+      "id": "CVE-2026-40972",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40972"
+      },
+      "references": [
+        {
+          "id": "GHSA-56v8-86gj-66jp",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-56v8-86gj-66jp"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:08:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00075"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2024-38807 on pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00059",
       "id": "CVE-2024-38807",
       "source": {
@@ -23312,6 +23447,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00074"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-38807 on pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00075",
+      "id": "CVE-2024-38807",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38807"
+      },
+      "references": [
+        {
+          "id": "GHSA-7cj3-x93g-gj76",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7cj3-x93g-gj76"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:08:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00075"
         }
       ]
     },
@@ -23758,6 +23919,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2024-38807 on pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00075",
+      "id": "CVE-2024-38807",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38807"
+      },
+      "references": [
+        {
+          "id": "GHSA-7cj3-x93g-gj76",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7cj3-x93g-gj76"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:08:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00075"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-40973 on pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00052",
       "id": "CVE-2026-40973",
       "source": {
@@ -23858,6 +24045,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00074"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-40973 on pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00075",
+      "id": "CVE-2026-40973",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40973"
+      },
+      "references": [
+        {
+          "id": "GHSA-wwpq-f5c3-7hvx",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wwpq-f5c3-7hvx"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:09:51Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00075"
         }
       ]
     },
@@ -30160,6 +30373,188 @@
       "affects": [
         {
           "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2017-18640 on pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007",
+      "id": "CVE-2017-18640",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-18640"
+      },
+      "references": [
+        {
+          "id": "GHSA-rvwf-54qp-4r6v",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rvwf-54qp-4r6v"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:10:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-1471 on pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007",
+      "id": "CVE-2022-1471",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1471"
+      },
+      "references": [
+        {
+          "id": "GHSA-mjmj-j48q-9wg2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mjmj-j48q-9wg2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:10:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-25857 on pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007",
+      "id": "CVE-2022-25857",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25857"
+      },
+      "references": [
+        {
+          "id": "GHSA-3mc7-4q67-w48m",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3mc7-4q67-w48m"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:10:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-38749 on pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007",
+      "id": "CVE-2022-38749",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-38749"
+      },
+      "references": [
+        {
+          "id": "GHSA-c4r9-r8fh-9vj2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-c4r9-r8fh-9vj2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:10:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-38751 on pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007",
+      "id": "CVE-2022-38751",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-38751"
+      },
+      "references": [
+        {
+          "id": "GHSA-98wm-3w3q-mw94",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-98wm-3w3q-mw94"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:10:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-38752 on pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007",
+      "id": "CVE-2022-38752",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-38752"
+      },
+      "references": [
+        {
+          "id": "GHSA-9w3m-gqgf-c4p9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-9w3m-gqgf-c4p9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:10:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-41854 on pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007",
+      "id": "CVE-2022-41854",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-41854"
+      },
+      "references": [
+        {
+          "id": "GHSA-w37g-rhq8-7m4j",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-w37g-rhq8-7m4j"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:10:18Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00007"
         }
       ]
     },
