@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 60,
+  "version": 61,
   "metadata": {
-    "timestamp": "2026-10-22T02:56:58Z",
+    "timestamp": "2026-10-22T12:20:58Z",
     "tools": {
       "components": [
         {
@@ -1110,6 +1110,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3.6.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5-h2",
+      "version": "5.3.6.1-osera-00002",
+      "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3.6.1-osera-00002"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -1118,6 +1129,17 @@
       "name": "httpcore5",
       "version": "5.3.6.1-osera-00001",
       "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5",
+      "version": "5.3.6.1-osera-00002",
+      "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00002"
     },
     {
       "type": "library",
@@ -15934,6 +15956,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-54428 on pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3.6.1-osera-00002",
+      "id": "CVE-2026-54428",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54428"
+      },
+      "references": [
+        {
+          "id": "GHSA-v3jc-474w-2wm6",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-v3jc-474w-2wm6"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T10:49:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.3.6.1-osera-00002"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-54399 on pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001",
       "id": "CVE-2026-54399",
       "source": {
@@ -15956,6 +16004,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-54399 on pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00002",
+      "id": "CVE-2026-54399",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54399"
+      },
+      "references": [
+        {
+          "id": "GHSA-hf6x-8p5f-cgmf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-hf6x-8p5f-cgmf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-21T10:49:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6.1-osera-00002"
         }
       ]
     },
