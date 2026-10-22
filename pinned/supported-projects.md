@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T21:49:31Z. Written by the line manager reconciler.
+Generated 2026-10-22T21:51:45Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 189 | 57 | 30% | 176 | 0 | 132 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 189 | 57 | 30% | 177 | 0 | 132 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 23 | 21 | 91% | 24 | 0 | 2 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 31 | 0 | 0% | 45 | 0 | 31 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
@@ -28,7 +28,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 |
-| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | not fixed | 6 | 0 | 0% | 1 | 0 | 6 | 0 |
+| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 6 | 1 | 17% | 1 | 0 | 5 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
@@ -168,7 +168,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.yaml:snakeyaml | 1.19 | snakeyaml-1.19.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 | 1.19.1-osera-00007 | 1.19.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.23 | snakeyaml-1.23.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 | 1.23.1-osera-00007 | 1.23.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.26 | snakeyaml-1.26.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 | 1.26.1-osera-00006 | 1.26.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 1 | 17% | 1 | 0 | 5 | 0 | 1.27.1-osera-00001 | 1.27.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 | 1.28.1-osera-00006 | 1.28.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 | 1.29.1-osera-00006 | 1.29.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
