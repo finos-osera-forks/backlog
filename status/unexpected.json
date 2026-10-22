@@ -232,6 +232,17 @@
       "first_seen": "2026-10-22T00:58:15Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.19.4.1-osera-00004",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro",
+      "base": "2.19.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.19.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.19.4.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.19.4",
+      "first_seen": "2026-10-22T01:03:16Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor",
       "base": "2.15.4",
@@ -463,6 +474,17 @@
       "first_seen": "2026-10-22T00:58:15Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.19.4.1-osera-00004",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor",
+      "base": "2.19.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.19.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.19.4.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.19.4",
+      "first_seen": "2026-10-22T01:03:16Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
       "base": "2.15.4",
@@ -692,6 +714,17 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.19.4.1-osera-00003: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.19.4",
       "first_seen": "2026-10-22T00:58:15Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.19.4.1-osera-00004",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
+      "base": "2.19.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.19.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.19.4.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.19.4",
+      "first_seen": "2026-10-22T01:03:16Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.15.4.1-osera-00001",
