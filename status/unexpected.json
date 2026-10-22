@@ -27086,6 +27086,17 @@
       "first_seen": "2026-10-22T16:45:35Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-mongodb4@2.24.3.1-osera-00004",
+      "library": "org.apache.logging.log4j:log4j-mongodb4",
+      "base": "2.24.3",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-mongodb4@2.24.3.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
+      "first_seen": "2026-10-22T17:24:31Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-mongodb@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-mongodb",
       "base": "2.24.3",

@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T17:08:34Z. Written by the line manager reconciler.
+Generated 2026-10-22T17:24:31Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -144,7 +144,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-151 libraries, 2482 patched version(s).
+151 libraries, 2483 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -289,7 +289,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j-jul | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-mongodb | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.logging.log4j:log4j-mongodb4 | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 | 2.24.3.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j-mongodb4 | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-slf4j-impl | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-slf4j2-impl | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-spring-boot | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 | 2.24.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
