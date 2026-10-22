@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T18:31:30Z. Written by the line manager reconciler.
+Generated 2026-10-22T18:41:49Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -21,7 +21,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
-| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
+| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 8 | 2 | 25% | 1 | 0 | 6 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
@@ -129,7 +129,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework:spring-webflux | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 7 | 6 | 86% | 10 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-webmvc | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | open | 8 | 7 | 88% | 9 | 0 | 1 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework:spring-websocket | 5.3.39 | spring-boot-2.7.x, spring-framework-5.3.x | own project on spring-boot-2.7.x (declared org.springframework@5.3.39) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 5.3.39.1-osera-00016 | 5.3.39.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.yaml:snakeyaml | 1.9 | snakeyaml-1.9.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.yaml:snakeyaml | 1.9 | snakeyaml-1.9.x | own project (the anchor's group) | open | 7 | 1 | 14% | 1 | 0 | 6 | 0 | 1.9.1-osera-00001 | 1.9.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.16 | snakeyaml-1.16.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.17 | snakeyaml-1.17.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.19 | snakeyaml-1.19.x | own project (the anchor's group) | open | 7 | 0 | 0% | 1 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -144,7 +144,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-151 libraries, 2508 patched version(s).
+152 libraries, 2509 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -298,6 +298,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j-to-jul | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-to-slf4j | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-web | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.9 | in the dependency graph of spring-boot-2.7.x at 1.33 and snakeyaml-1.9.x at 1.33 and snakeyaml-1.23.x at 1.33 and snakeyaml-1.19.x at 1.33 and snakeyaml-1.17.x at 1.33 and snakeyaml-1.16.x at 1.33 and snakeyaml-1.29.x at 1.33 and snakeyaml-1.28.x at 1.33 and snakeyaml-1.27.x at 1.33 and snakeyaml-1.26.x at 1.33 and snakeyaml-1.31.x at 1.33 and snakeyaml-1.33.x at 1.33, uploaded on 1.9 | spring-boot-2.7.x, snakeyaml-1.9.x, snakeyaml-1.23.x, snakeyaml-1.19.x, snakeyaml-1.17.x, snakeyaml-1.16.x, snakeyaml-1.29.x, snakeyaml-1.28.x, snakeyaml-1.27.x, snakeyaml-1.26.x, snakeyaml-1.31.x, snakeyaml-1.33.x |  | 1.9.1-osera-00001 | 1.9.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.31 | in the dependency graph of spring-boot-2.7.x at 1.33 and snakeyaml-1.9.x at 1.33 and snakeyaml-1.23.x at 1.33 and snakeyaml-1.19.x at 1.33 and snakeyaml-1.17.x at 1.33 and snakeyaml-1.16.x at 1.33 and snakeyaml-1.29.x at 1.33 and snakeyaml-1.28.x at 1.33 and snakeyaml-1.27.x at 1.33 and snakeyaml-1.26.x at 1.33 and snakeyaml-1.31.x at 1.33 and snakeyaml-1.33.x at 1.33, uploaded on 1.31 | spring-boot-2.7.x, snakeyaml-1.9.x, snakeyaml-1.23.x, snakeyaml-1.19.x, snakeyaml-1.17.x, snakeyaml-1.16.x, snakeyaml-1.29.x, snakeyaml-1.28.x, snakeyaml-1.27.x, snakeyaml-1.26.x, snakeyaml-1.31.x, snakeyaml-1.33.x |  | 1.31.1-osera-00001 1.31.1-osera-00002 1.31.1-osera-00003 | 1.31.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 
 ## Released with the lines
