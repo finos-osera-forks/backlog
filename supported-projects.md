@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T16:00:16Z. Written by the line manager reconciler.
+Generated 2026-10-22T16:30:15Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -42,7 +42,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | not fixed | 7 | 0 | 0% | 6 | 0 | 7 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | not fixed | 4 | 0 | 0% | 4 | 0 | 4 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | in progress | 2 | 1 | 50% | 3 | 0 | 1 | 0 |
+| log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | fixed | 2 | 2 | 100% | 3 | 0 | 0 | 0 |
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | in progress | 6 | 3 | 50% | 8 | 0 | 3 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | not fixed | 4 | 0 | 0% | 2 | 0 | 4 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | not fixed | 4 | 0 | 0% | 3 | 0 | 4 | 0 |
@@ -85,7 +85,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.httpcomponents.core5:httpcore5-h2 | 5.3.6 | httpclient5-5.4.x, httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.6.1-osera-00002 | 5.3.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 2 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | open | 2 | 1 | 50% | 2 | 0 | 1 | 0 | 2.24.3.1-osera-00001 | 2.24.3.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 2.24.3.1-osera-00002 | 2.24.3.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | open | 1 | 0 | 0% | 3 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -144,7 +144,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-151 libraries, 2431 patched version(s).
+151 libraries, 2432 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -274,7 +274,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson.module:jackson-module-scala_3 | 2.15.4 | in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4 | spring-boot-2.7.x |  | 2.15.4.1-osera-00001 2.15.4.1-osera-00002 2.15.4.1-osera-00003 2.15.4.1-osera-00004 2.15.4.1-osera-00005 2.15.4.1-osera-00006 2.15.4.1-osera-00007 2.15.4.1-osera-00008 2.15.4.1-osera-00009 2.15.4.1-osera-00010 2.15.4.1-osera-00011 2.15.4.1-osera-00012 2.15.4.1-osera-00013 2.15.4.1-osera-00014 2.15.4.1-osera-00015 2.15.4.1-osera-00016 2.15.4.1-osera-00017 2.15.4.1-osera-00018 | 2.15.4.1-osera-00018 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.module:jackson-module-scala_3 | 2.19.4 | in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.19.4 | spring-boot-2.7.x |  | 2.19.4.1-osera-00001 2.19.4.1-osera-00002 2.19.4.1-osera-00003 2.19.4.1-osera-00004 2.19.4.1-osera-00005 2.19.4.1-osera-00006 2.19.4.1-osera-00007 2.19.4.1-osera-00008 2.19.4.1-osera-00009 2.19.4.1-osera-00010 2.19.4.1-osera-00011 2.19.4.1-osera-00012 2.19.4.1-osera-00013 2.19.4.1-osera-00014 2.19.4.1-osera-00015 2.19.4.1-osera-00016 2.19.4.1-osera-00017 2.19.4.1-osera-00018 2.19.4.1-osera-00019 2.19.4.1-osera-00020 | 2.19.4.1-osera-00020 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-1.2-api | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 | 2.24.3.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.logging.log4j:log4j-api-test | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 | 2.24.3.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j-api-test | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 | 2.24.3.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-appserver | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 | 2.24.3.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-cassandra | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 | 2.24.3.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-core-test | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 | 2.24.3.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
