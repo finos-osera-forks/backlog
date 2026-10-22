@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T18:15:50Z",
-  "version": 78,
+  "last_updated": "2026-10-22T18:20:51Z",
+  "version": 79,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -7536,6 +7536,19 @@
       "products": [
         {
           "@id": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2015-6420"
+      },
+      "timestamp": "2026-10-22T18:18:09Z",
+      "products": [
+        {
+          "@id": "pkg:maven/commons-collections/commons-collections@3.0.1-osera-00001"
         }
       ],
       "status": "fixed",
