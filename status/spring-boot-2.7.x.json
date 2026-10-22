@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.22.60",
-  "as_of": "2026-10-22T20:08:47Z",
+  "book_version": "v2026.10.22.61",
+  "as_of": "2026-10-22T20:11:53Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -105,10 +105,10 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00074",
-      "patch": "00074",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00074",
-      "at": "2026-10-15T17:21:15Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00075",
+      "patch": "00075",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00075",
+      "at": "2026-10-22T20:11:53Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -201,10 +201,10 @@
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00074",
-      "patch": "00074",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00074",
-      "at": "2026-10-15T17:21:15Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00075",
+      "patch": "00075",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00075",
+      "at": "2026-10-22T20:11:53Z"
     },
     {
       "cve": "CVE-2026-40987",
@@ -768,6 +768,7 @@
     "promoted org.yaml:snakeyaml@1.17.1-osera-00004 is on base 1.17, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.17.1-osera-00005 is on base 1.17, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.17.1-osera-00006 is on base 1.17, the line has org.yaml:snakeyaml at 1.33",
+    "promoted org.yaml:snakeyaml@1.17.1-osera-00007 is on base 1.17, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00001 is on base 1.31, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00002 is on base 1.31, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.31.1-osera-00003 is on base 1.31, the line has org.yaml:snakeyaml at 1.33",
@@ -778,5 +779,5 @@
     "promoted org.yaml:snakeyaml@1.9.1-osera-00005 is on base 1.9, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.33"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.22.5"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.22.6"
 }

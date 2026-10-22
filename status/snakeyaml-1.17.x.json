@@ -1,26 +1,26 @@
 {
   "line": "snakeyaml-1.17.x",
-  "book_version": "v2026.10.22.60",
-  "as_of": "2026-10-22T20:07:01Z",
-  "status": "in progress",
+  "book_version": "v2026.10.22.61",
+  "as_of": "2026-10-22T20:11:53Z",
+  "status": "fixed",
   "chain": "complete",
   "in_scope": 8,
   "fixed": [
     {
       "cve": "CVE-2017-18640",
       "library": "org.yaml:snakeyaml",
-      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "patch": "00006",
-      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "at": "2026-10-22T20:05:22Z"
+      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "patch": "00007",
+      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "at": "2026-10-22T20:11:53Z"
     },
     {
       "cve": "CVE-2022-1471",
       "library": "org.yaml:snakeyaml",
-      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "patch": "00006",
-      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "at": "2026-10-22T20:05:22Z"
+      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "patch": "00007",
+      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "at": "2026-10-22T20:11:53Z"
     },
     {
       "cve": "CVE-2022-1471",
@@ -33,43 +33,46 @@
     {
       "cve": "CVE-2022-25857",
       "library": "org.yaml:snakeyaml",
-      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "patch": "00006",
-      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "at": "2026-10-22T20:05:22Z"
+      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "patch": "00007",
+      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "at": "2026-10-22T20:11:53Z"
     },
     {
       "cve": "CVE-2022-38749",
       "library": "org.yaml:snakeyaml",
-      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "patch": "00006",
-      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "at": "2026-10-22T20:05:22Z"
+      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "patch": "00007",
+      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "at": "2026-10-22T20:11:53Z"
     },
     {
       "cve": "CVE-2022-38751",
       "library": "org.yaml:snakeyaml",
-      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "patch": "00006",
-      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "at": "2026-10-22T20:05:22Z"
+      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "patch": "00007",
+      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "at": "2026-10-22T20:11:53Z"
     },
     {
       "cve": "CVE-2022-38752",
       "library": "org.yaml:snakeyaml",
-      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "patch": "00006",
-      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00006",
-      "at": "2026-10-22T20:05:22Z"
+      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "patch": "00007",
+      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "at": "2026-10-22T20:11:53Z"
+    },
+    {
+      "cve": "CVE-2022-41854",
+      "library": "org.yaml:snakeyaml",
+      "coordinate": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "patch": "00007",
+      "named_by": "org.yaml:snakeyaml@1.17.1-osera-00007",
+      "at": "2026-10-22T20:11:53Z"
     }
   ],
   "in_progress": [],
-  "open": [
-    {
-      "cve": "CVE-2022-41854",
-      "library": "org.yaml:snakeyaml"
-    }
-  ],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [
     "promoted org.yaml:snakeyaml@1.16.1-osera-00001 is on base 1.16, the line has org.yaml:snakeyaml at 1.17, 1.33",
