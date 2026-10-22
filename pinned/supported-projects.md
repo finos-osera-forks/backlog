@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T22:00:31Z. Written by the line manager reconciler.
+Generated 2026-10-22T22:04:16Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -28,7 +28,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 |
-| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 6 | 2 | 33% | 1 | 0 | 4 | 0 |
+| snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 6 | 3 | 50% | 1 | 0 | 3 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
@@ -168,7 +168,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.yaml:snakeyaml | 1.19 | snakeyaml-1.19.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 | 1.19.1-osera-00007 | 1.19.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.23 | snakeyaml-1.23.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 | 1.23.1-osera-00007 | 1.23.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.26 | snakeyaml-1.26.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 | 1.26.1-osera-00006 | 1.26.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 2 | 33% | 1 | 0 | 4 | 0 | 1.27.1-osera-00002 | 1.27.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.27 | snakeyaml-1.27.x | own project (the anchor's group) | open | 6 | 3 | 50% | 1 | 0 | 3 | 0 | 1.27.1-osera-00003 | 1.27.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 | 1.28.1-osera-00006 | 1.28.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 | 1.29.1-osera-00006 | 1.29.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
