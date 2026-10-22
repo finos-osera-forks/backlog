@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
-  "book_version": "v2026.10.22.38",
-  "as_of": "2026-10-22T18:18:14Z",
+  "book_version": "v2026.10.22.39",
+  "as_of": "2026-10-22T18:21:52Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 7,
@@ -46,5 +46,5 @@
   "discrepancies": [
     "promoted commons-beanutils:commons-beanutils@1.9.4.1-osera-00001 is on base 1.9.4, the line has commons-beanutils:commons-beanutils at 1.6"
   ],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.10.22"
 }
