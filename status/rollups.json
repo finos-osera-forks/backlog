@@ -70,6 +70,11 @@
       "since": "2026-10-22T20:45:42Z",
       "editions": []
     },
+    "snakeyaml-1.23.x": {
+      "remediated": true,
+      "since": "2026-10-22T21:19:16Z",
+      "editions": []
+    },
     "snakeyaml-1.29.x": {
       "remediated": true,
       "since": "2026-10-22T21:09:11Z",
