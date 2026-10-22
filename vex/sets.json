@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T17:35:55Z",
-  "feed_version": 72,
+  "generated_at": "2026-10-22T17:50:50Z",
+  "feed_version": 73,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
@@ -11478,6 +11478,16 @@
       ],
       "state": "in the feed",
       "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-struts1@v1.3.10.1-osera-00001",
+      "members": 2,
+      "coordinates": [
+        "org.apache.struts:struts-core@1.3.10.1-osera-00001",
+        "org.apache.struts:struts-tiles@1.3.10.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
     }
   ]
 }
