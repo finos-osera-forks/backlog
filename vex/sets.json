@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T16:50:51Z",
-  "feed_version": 68,
+  "generated_at": "2026-10-22T17:05:57Z",
+  "feed_version": 69,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
@@ -4262,30 +4262,8 @@
         "org.apache.logging.log4j:log4j@2.17.2.1-osera-00003",
         "org.apache.logging.log4j:log4j@2.24.3.1-osera-00003"
       ],
-      "state": "held",
-      "held_since": "2026-10-22T16:50:51Z",
-      "reasons": [
-        {
-          "member": "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00003",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.logging.log4j:log4j-jpa@2.24.3.1-osera-00003",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.logging.log4j:log4j-jul@2.24.3.1-osera-00003",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.logging.log4j:log4j-mongodb@2.24.3.1-osera-00003",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.logging.log4j:log4j-spring-cloud-config-client@2.24.3.1-osera-00003",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 6
     },
     {
       "set": "finos-osera-forks/patch-lz4-java@v1.8.1.1-osera-00001",
