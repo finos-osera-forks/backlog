@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T18:04:26Z. Written by the line manager reconciler.
+Generated 2026-10-22T18:09:35Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -87,8 +87,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 2 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 3 | 0 | 0 | 0 | 1.3.10.1-osera-00005 | 1.3.10.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.3.10.1-osera-00005 | 1.3.10.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 3 | 0 | 0 | 0 | 1.3.10.1-osera-00006 | 1.3.10.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.3.10.1-osera-00006 | 1.3.10.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.velocity:velocity | 1.6.4 | velocity-1.6.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.velocity:velocity | 1.7 | velocity-1.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcpkix-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
