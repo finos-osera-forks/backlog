@@ -10904,6 +10904,17 @@
       "first_seen": "2026-10-22T00:21:27Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.15.4.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.15.4.1-osera-00017: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-22T00:35:03Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
       "base": "2.15.4",
@@ -11265,6 +11276,17 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-scala_3@2.15.4.1-osera-00016: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
       "first_seen": "2026-10-22T00:21:27Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.15.4.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_3",
+      "base": "2.15.4",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_3@2.15.4.1-osera-00017: in the dependency graph of spring-boot-2.7.x at 2.13.5, uploaded on 2.15.4",
+      "first_seen": "2026-10-22T00:35:03Z"
     },
     {
       "coordinate": "org.yaml:snakeyaml@1.31.1-osera-00001",
