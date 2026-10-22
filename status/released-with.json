@@ -667,6 +667,15 @@
       "first_seen": "2026-10-22T16:45:35Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j@2.24.3.1-osera-00004",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.24.3",
+      "kind": "parent",
+      "released_with": "patch-logging-log4j2 v2.24.3.1-osera-00004",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-22T17:08:34Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-bom@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-bom",
       "base": "9.4.58.v20250814",
