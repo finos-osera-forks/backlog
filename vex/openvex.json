@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T18:00:50Z",
-  "version": 75,
+  "last_updated": "2026-10-22T18:05:54Z",
+  "version": 76,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -8142,6 +8142,54 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2014-0114",
+        "aliases": [
+          "GHSA-p66x-2cv9-qq3v"
+        ]
+      },
+      "timestamp": "2026-10-22T18:00:22Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1181",
+        "aliases": [
+          "GHSA-7jw3-5q4w-89qg"
+        ]
+      },
+      "timestamp": "2026-10-22T18:00:22Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34396",
+        "aliases": [
+          "GHSA-4g42-gqrg-4633"
+        ]
+      },
+      "timestamp": "2026-10-22T18:00:22Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2023-49735",
         "aliases": [
           "GHSA-qw4h-3xjj-84cc"
@@ -8183,6 +8231,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-49735",
+        "aliases": [
+          "GHSA-qw4h-3xjj-84cc"
+        ]
+      },
+      "timestamp": "2026-10-22T18:00:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00004"
         }
       ],
       "status": "fixed",
