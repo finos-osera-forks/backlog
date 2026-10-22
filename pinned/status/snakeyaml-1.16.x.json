@@ -1,19 +1,24 @@
 {
   "line": "snakeyaml-1.16.x",
   "book_version": "v2026.10.22.46",
-  "as_of": "2026-10-22T19:01:04Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-10-22T19:13:39Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 7,
-  "fixed": [],
+  "fixed": [
+    {
+      "cve": "CVE-2022-1471",
+      "library": "org.yaml:snakeyaml",
+      "coordinate": "org.yaml:snakeyaml@1.16.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.yaml:snakeyaml@1.16.1-osera-00001",
+      "at": "2026-10-22T19:13:39Z"
+    }
+  ],
   "in_progress": [],
   "open": [
     {
       "cve": "CVE-2017-18640",
-      "library": "org.yaml:snakeyaml"
-    },
-    {
-      "cve": "CVE-2022-1471",
       "library": "org.yaml:snakeyaml"
     },
     {
@@ -47,7 +52,8 @@
     "promoted org.yaml:snakeyaml@1.9.1-osera-00002 is on base 1.9, the line has org.yaml:snakeyaml at 1.16",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00003 is on base 1.9, the line has org.yaml:snakeyaml at 1.16",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00004 is on base 1.9, the line has org.yaml:snakeyaml at 1.16",
-    "promoted org.yaml:snakeyaml@1.9.1-osera-00005 is on base 1.9, the line has org.yaml:snakeyaml at 1.16"
+    "promoted org.yaml:snakeyaml@1.9.1-osera-00005 is on base 1.9, the line has org.yaml:snakeyaml at 1.16",
+    "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.16"
   ],
   "consume": "org.finos.osera:osera-bom-snakeyaml-1.16.x@2026.10.15.4"
 }
