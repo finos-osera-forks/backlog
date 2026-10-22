@@ -1,17 +1,22 @@
 {
   "line": "log4j-1.2.x",
-  "book_version": "v2026.10.22.75",
-  "as_of": "2026-10-22T21:06:51Z",
-  "status": "not fixed",
-  "chain": "",
+  "book_version": "v2026.10.22.76",
+  "as_of": "2026-10-22T21:10:55Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 6,
-  "fixed": [],
-  "in_progress": [],
-  "open": [
+  "fixed": [
     {
       "cve": "CVE-2019-17571",
-      "library": "log4j:log4j"
-    },
+      "library": "log4j:log4j",
+      "coordinate": "log4j:log4j@1.2.17.1-osera-00001",
+      "patch": "00001",
+      "named_by": "log4j:log4j@1.2.17.1-osera-00001",
+      "at": "2026-10-22T21:10:55Z"
+    }
+  ],
+  "in_progress": [],
+  "open": [
     {
       "cve": "CVE-2021-4104",
       "library": "log4j:log4j"
