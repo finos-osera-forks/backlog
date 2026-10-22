@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-22T19:40:50Z",
-  "version": 91,
+  "last_updated": "2026-10-22T19:45:54Z",
+  "version": 92,
   "tooling": "osera-feed main-2a233d5d",
   "statements": [
     {
@@ -15517,6 +15517,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.yaml/snakeyaml@1.16.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2026-10-22T19:42:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.17.1-osera-00001"
         }
       ],
       "status": "fixed",
