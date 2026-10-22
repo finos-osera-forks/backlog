@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-22T18:24:44Z. Written by the line manager reconciler.
+Generated 2026-10-22T18:31:30Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -19,7 +19,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
-| velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
+| velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 8 | 1 | 13% | 1 | 0 | 7 | 0 |
@@ -90,7 +90,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 3 | 0 | 0 | 0 | 1.3.10.1-osera-00006 | 1.3.10.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.3.10.1-osera-00006 | 1.3.10.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.velocity:velocity | 1.6.4 | velocity-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.4.1-osera-00001 | 1.6.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.velocity:velocity | 1.7 | velocity-1.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.velocity:velocity | 1.7 | velocity-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 1.7.1-osera-00001 | 1.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcpkix-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcpkix-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |

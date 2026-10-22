@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The OSERA BOM of the velocity-1.7.x line, built 2026-10-22T18:32:17Z by the line manager.
+  Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.finos.osera</groupId>
+  <artifactId>osera-bom-velocity-1.7.x</artifactId>
+  <version>2026.10.22</version>
+  <packaging>pom</packaging>
+  <name>OSERA BOM for velocity-1.7.x</name>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.apache.velocity</groupId>
+        <artifactId>velocity</artifactId>
+        <version>1.7.1-osera-00001</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

@@ -1,21 +1,25 @@
 {
   "line": "velocity-1.7.x",
   "book_version": "v2026.10.22.40",
-  "as_of": "2026-10-22T18:26:25Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-10-22T18:31:30Z",
+  "status": "fixed",
+  "chain": "complete",
   "in_scope": 1,
-  "fixed": [],
-  "in_progress": [],
-  "open": [
+  "fixed": [
     {
       "cve": "CVE-2020-13936",
-      "library": "org.apache.velocity:velocity"
+      "library": "org.apache.velocity:velocity",
+      "coordinate": "org.apache.velocity:velocity@1.7.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.velocity:velocity@1.7.1-osera-00001",
+      "at": "2026-10-22T18:31:30Z"
     }
   ],
+  "in_progress": [],
+  "open": [],
   "not_remediable": [],
   "discrepancies": [
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00001 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7"
   ],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-velocity-1.7.x@2026.10.22"
 }
