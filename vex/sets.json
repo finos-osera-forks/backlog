@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T17:25:55Z",
-  "feed_version": 71,
+  "generated_at": "2026-10-22T17:35:55Z",
+  "feed_version": 72,
   "sets": [
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
@@ -4293,6 +4293,43 @@
       ],
       "state": "in the feed",
       "statements": 8
+    },
+    {
+      "set": "finos-osera-forks/patch-logging-log4j2@v2.24.3.1-osera-00005",
+      "members": 29,
+      "coordinates": [
+        "org.apache.logging.log4j:log4j-1.2-api@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-api-test@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-appserver@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-bom@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-cassandra@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-core-test@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-couchdb@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-docker@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-iostreams@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-jakarta-smtp@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-jakarta-web@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-jcl@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-jpa@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-jpl@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-jul@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-mongodb4@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-mongodb@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-slf4j-impl@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-slf4j2-impl@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-spring-boot@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-spring-cloud-config-client@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-taglib@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-to-jul@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-to-slf4j@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j-web@2.24.3.1-osera-00005",
+        "org.apache.logging.log4j:log4j@2.24.3.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
     },
     {
       "set": "finos-osera-forks/patch-lz4-java@v1.8.1.1-osera-00001",
