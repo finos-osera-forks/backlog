@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 102,
+  "version": 103,
   "metadata": {
-    "timestamp": "2026-10-22T20:35:50Z",
+    "timestamp": "2026-10-22T20:40:50Z",
     "tools": {
       "components": [
         {
@@ -4726,6 +4726,17 @@
       "name": "snakeyaml",
       "version": "1.19.1-osera-00004",
       "purl": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00004"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.19.1-osera-00005",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005"
     },
     {
       "type": "library",
@@ -31435,6 +31446,136 @@
       "affects": [
         {
           "ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2017-18640 on pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005",
+      "id": "CVE-2017-18640",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-18640"
+      },
+      "references": [
+        {
+          "id": "GHSA-rvwf-54qp-4r6v",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rvwf-54qp-4r6v"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:35:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-1471 on pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005",
+      "id": "CVE-2022-1471",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-1471"
+      },
+      "references": [
+        {
+          "id": "GHSA-mjmj-j48q-9wg2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mjmj-j48q-9wg2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:35:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-25857 on pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005",
+      "id": "CVE-2022-25857",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-25857"
+      },
+      "references": [
+        {
+          "id": "GHSA-3mc7-4q67-w48m",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3mc7-4q67-w48m"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:35:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-38749 on pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005",
+      "id": "CVE-2022-38749",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-38749"
+      },
+      "references": [
+        {
+          "id": "GHSA-c4r9-r8fh-9vj2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-c4r9-r8fh-9vj2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:35:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-38751 on pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005",
+      "id": "CVE-2022-38751",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-38751"
+      },
+      "references": [
+        {
+          "id": "GHSA-98wm-3w3q-mw94",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-98wm-3w3q-mw94"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-22T20:35:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.yaml/snakeyaml@1.19.1-osera-00005"
         }
       ]
     },
