@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-23T17:11:39Z. Written by the line manager reconciler.
+Generated 2026-10-23T17:13:24Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -91,7 +91,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.3.10.1-osera-00006 | 1.3.10.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.velocity:velocity | 1.6.4 | velocity-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.4.1-osera-00001 | 1.6.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.velocity:velocity | 1.7 | velocity-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 1.7.1-osera-00001 | 1.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.bouncycastle:bcpkix-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.69.1-osera-00028 | 1.69.1-osera-00028 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.bouncycastle:bcpkix-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.69.1-osera-00029 | 1.69.1-osera-00029 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 1.70.1-osera-00020 | 1.70.1-osera-00020 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 1 | 0 | 0% | 13 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
