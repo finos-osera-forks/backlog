@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.70.x",
   "book_version": "v2026.10.23.31",
-  "as_of": "2026-10-23T15:36:52Z",
+  "as_of": "2026-10-23T15:39:34Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 4,
@@ -83,6 +83,7 @@
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00013 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00014 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00015 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
+    "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00016 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00001 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00002 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00003 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
@@ -97,7 +98,8 @@
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00012 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00013 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00014 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
-    "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00015 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70"
+    "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00015 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
+    "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00016 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70"
   ],
   "consume": "org.finos.osera:osera-bom-bouncycastle-1.70.x@2026.10.23.10"
 }
