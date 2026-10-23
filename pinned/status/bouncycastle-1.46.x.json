@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.46.x",
-  "book_version": "v2026.10.23.92",
-  "as_of": "2026-10-23T18:47:13Z",
+  "book_version": "v2026.10.23.93",
+  "as_of": "2026-10-23T18:52:07Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 1,
@@ -9,10 +9,10 @@
     {
       "cve": "CVE-2016-1000338",
       "library": "org.bouncycastle:bcprov-jdk15",
-      "coordinate": "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00004",
-      "patch": "00004",
-      "named_by": "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00004",
-      "at": "2026-10-23T18:45:18Z"
+      "coordinate": "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00005",
+      "at": "2026-10-23T18:52:07Z"
     }
   ],
   "in_progress": [],
@@ -21,10 +21,14 @@
   "discrepancies": [
     "fixed, not in the backlog: CVE-2016-1000341 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000341 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00004",
+    "fixed, not in the backlog: CVE-2016-1000341 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00005",
     "fixed, not in the backlog: CVE-2016-1000342 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00002",
     "fixed, not in the backlog: CVE-2016-1000342 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00003",
     "fixed, not in the backlog: CVE-2016-1000342 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00004",
-    "fixed, not in the backlog: CVE-2026-12860 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00004"
+    "fixed, not in the backlog: CVE-2016-1000342 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00005",
+    "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-12860 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00004",
+    "fixed, not in the backlog: CVE-2026-12860 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00005"
   ],
   "consume": "org.finos.osera:osera-bom-bouncycastle-1.46.x@2026.10.23.4"
 }
