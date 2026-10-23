@@ -10,6 +10,11 @@
       "since": "2026-10-23T18:01:05Z",
       "editions": []
     },
+    "bouncycastle-1.70.x": {
+      "remediated": true,
+      "since": "2026-10-23T19:05:43Z",
+      "editions": []
+    },
     "c3p0-0.9.x": {
       "remediated": true,
       "since": "2026-10-23T18:12:30Z",
