@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-23T17:00:00Z. Written by the line manager reconciler.
+Generated 2026-10-23T17:03:38Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -120,14 +120,14 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.bouncycastle:bcpkix-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 1.70.1-osera-00020 | 1.70.1-osera-00020 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 1 | 0 | 0% | 13 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 1.69.1-osera-00027 | 1.69.1-osera-00027 | not ready, not fully checked: files | not fully checked | not checked (bcprov-jdk15on-1.69.1-osera-00027.pom.sha1 not there yet: the last file landed 1m41s ago and the gate copies the checksums after the jar and the pom) | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 1.69.1-osera-00027 | 1.69.1-osera-00027 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | open | 2 | 1 | 50% | 4 | 0 | 1 | 0 | 1.70.1-osera-00020 | 1.70.1-osera-00020 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty.http2:http2-common | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-http | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-jaspi | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-security | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 5 | 0 | 0 | 0 | 9.2.30.v20200428-osera-00008 | 9.2.30.v20200428-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 5 | 0 | 0 | 0 | 9.2.30.v20200428-osera-00009 | 9.2.30.v20200428-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-server | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 2 | 0 | 0% | 1 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-servlets | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | own project (the anchor's group) | open | 3 | 0 | 0% | 4 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
