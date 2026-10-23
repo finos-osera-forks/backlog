@@ -1,7 +1,7 @@
 {
   "line": "log4j-1.2.x",
   "book_version": "v2026.10.23.72",
-  "as_of": "2026-10-23T17:41:33Z",
+  "as_of": "2026-10-23T17:43:41Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -9,42 +9,42 @@
     {
       "cve": "CVE-2019-17571",
       "library": "log4j:log4j",
-      "coordinate": "log4j:log4j@1.2.17.1-osera-00005",
-      "patch": "00005",
-      "named_by": "log4j:log4j@1.2.17.1-osera-00005",
-      "at": "2026-10-23T17:37:26Z"
+      "coordinate": "log4j:log4j@1.2.17.1-osera-00006",
+      "patch": "00006",
+      "named_by": "log4j:log4j@1.2.17.1-osera-00006",
+      "at": "2026-10-23T17:43:41Z"
     },
     {
       "cve": "CVE-2021-4104",
       "library": "log4j:log4j",
-      "coordinate": "log4j:log4j@1.2.17.1-osera-00005",
-      "patch": "00005",
-      "named_by": "log4j:log4j@1.2.17.1-osera-00005",
-      "at": "2026-10-23T17:37:26Z"
+      "coordinate": "log4j:log4j@1.2.17.1-osera-00006",
+      "patch": "00006",
+      "named_by": "log4j:log4j@1.2.17.1-osera-00006",
+      "at": "2026-10-23T17:43:41Z"
     },
     {
       "cve": "CVE-2022-23305",
       "library": "log4j:log4j",
-      "coordinate": "log4j:log4j@1.2.17.1-osera-00005",
-      "patch": "00005",
-      "named_by": "log4j:log4j@1.2.17.1-osera-00005",
-      "at": "2026-10-23T17:37:26Z"
+      "coordinate": "log4j:log4j@1.2.17.1-osera-00006",
+      "patch": "00006",
+      "named_by": "log4j:log4j@1.2.17.1-osera-00006",
+      "at": "2026-10-23T17:43:41Z"
     },
     {
       "cve": "CVE-2022-23307",
       "library": "log4j:log4j",
-      "coordinate": "log4j:log4j@1.2.17.1-osera-00005",
-      "patch": "00005",
-      "named_by": "log4j:log4j@1.2.17.1-osera-00005",
-      "at": "2026-10-23T17:37:26Z"
+      "coordinate": "log4j:log4j@1.2.17.1-osera-00006",
+      "patch": "00006",
+      "named_by": "log4j:log4j@1.2.17.1-osera-00006",
+      "at": "2026-10-23T17:43:41Z"
     },
     {
       "cve": "CVE-2023-26464",
       "library": "log4j:log4j",
-      "coordinate": "log4j:log4j@1.2.17.1-osera-00005",
-      "patch": "00005",
-      "named_by": "log4j:log4j@1.2.17.1-osera-00005",
-      "at": "2026-10-23T17:37:26Z"
+      "coordinate": "log4j:log4j@1.2.17.1-osera-00006",
+      "patch": "00006",
+      "named_by": "log4j:log4j@1.2.17.1-osera-00006",
+      "at": "2026-10-23T17:43:41Z"
     }
   ],
   "in_progress": [],
@@ -55,6 +55,8 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-log4j-1.2.x@2026.10.23.2"
+  "discrepancies": [
+    "fixed, not in the backlog: CVE-2020-9488 on log4j:log4j@1.2.17.1-osera-00006"
+  ],
+  "consume": "org.finos.osera:osera-bom-log4j-1.2.x@2026.10.23.3"
 }
