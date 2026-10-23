@@ -1,7 +1,7 @@
 {
   "line": "log4j-1.2.x",
-  "book_version": "v2026.10.23.72",
-  "as_of": "2026-10-23T17:43:41Z",
+  "book_version": "v2026.10.23.73",
+  "as_of": "2026-10-23T17:45:32Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -58,5 +58,5 @@
   "discrepancies": [
     "fixed, not in the backlog: CVE-2020-9488 on log4j:log4j@1.2.17.1-osera-00006"
   ],
-  "consume": "org.finos.osera:osera-bom-log4j-1.2.x@2026.10.23.2"
+  "consume": "org.finos.osera:osera-bom-log4j-1.2.x@2026.10.23.3"
 }
