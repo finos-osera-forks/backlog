@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.9.x",
-  "book_version": "v2026.10.23.39",
-  "as_of": "2026-10-23T16:05:41Z",
+  "book_version": "v2026.10.23.40",
+  "as_of": "2026-10-23T16:07:19Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 1,
@@ -21,5 +21,5 @@
   "discrepancies": [
     "promoted commons-configuration:commons-configuration@1.1.1-osera-00001 is on base 1.1, the line has commons-configuration:commons-configuration at 1.9"
   ],
-  "consume": ""
+  "consume": "org.finos.osera:osera-bom-commons-configuration-1.9.x@2026.10.23"
 }
