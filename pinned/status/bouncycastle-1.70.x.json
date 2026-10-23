@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.70.x",
-  "book_version": "v2026.10.23.96",
-  "as_of": "2026-10-23T19:05:43Z",
+  "book_version": "v2026.10.23.97",
+  "as_of": "2026-10-23T19:07:44Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 4,
@@ -706,5 +706,5 @@
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00035 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00036 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70"
   ],
-  "consume": "org.finos.osera:osera-bom-bouncycastle-1.70.x@2026.10.23.37"
+  "consume": "org.finos.osera:osera-bom-bouncycastle-1.70.x@2026.10.23.38"
 }
