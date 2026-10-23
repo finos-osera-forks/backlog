@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
   "book_version": "v2026.10.23.44",
-  "as_of": "2026-10-23T16:17:21Z",
+  "as_of": "2026-10-23T16:19:00Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 7,
@@ -21,6 +21,14 @@
       "patch": "00002",
       "named_by": "commons-beanutils:commons-beanutils@1.6.1.1-osera-00002",
       "at": "2026-10-23T15:12:51Z"
+    },
+    {
+      "cve": "CVE-2020-10683",
+      "library": "dom4j:dom4j",
+      "coordinate": "dom4j:dom4j@1.4.1-osera-00001",
+      "patch": "00001",
+      "named_by": "dom4j:dom4j@1.4.1-osera-00001",
+      "at": "2026-10-23T16:19:00Z"
     },
     {
       "cve": "CVE-2022-23437",
@@ -52,10 +60,6 @@
     {
       "cve": "CVE-2018-1000632",
       "library": "dom4j:dom4j"
-    },
-    {
-      "cve": "CVE-2020-10683",
-      "library": "dom4j:dom4j"
     }
   ],
   "not_remediable": [],
@@ -71,5 +75,5 @@
     "promoted commons-beanutils:commons-beanutils@1.9.4.1-osera-00001 is on base 1.9.4, the line has commons-beanutils:commons-beanutils at 1.6.1",
     "promoted commons-configuration:commons-configuration@1.9.1-osera-00001 is on base 1.9, the line has commons-configuration:commons-configuration at 1.1"
   ],
-  "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.10.23.5"
+  "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.10.23.6"
 }

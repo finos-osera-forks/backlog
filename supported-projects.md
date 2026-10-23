@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-23T16:15:10Z. Written by the line manager reconciler.
+Generated 2026-10-23T16:19:00Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -39,7 +39,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | fixed | 1 | 1 | 100% | 8 | 0 | 0 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
-| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | in progress | 7 | 5 | 71% | 6 | 0 | 2 | 0 |
+| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | in progress | 7 | 6 | 86% | 6 | 0 | 1 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | fixed | 4 | 4 | 100% | 4 | 0 | 0 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | fixed | 2 | 2 | 100% | 3 | 0 | 0 | 0 |
@@ -72,7 +72,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-collections:commons-collections | 3.0 | commons-configuration-1.1.x | pulled in by a dependency (commons-beanutils:commons-beanutils-core@1.7.0) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 3.0.1-osera-00001 | 3.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-configuration:commons-configuration | 1.1 | commons-configuration-1.1.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.1.1-osera-00001 | 1.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-configuration:commons-configuration | 1.9 | commons-configuration-1.9.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.1-osera-00001 | 1.9.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 1.4.1-osera-00001 | 1.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.netty:reactor-netty | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00002 | 1.0.48.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00002 | 1.0.48.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | open | 6 | 3 | 50% | 0 | 0 | 3 | 0 | 1.2.17.1-osera-00003 | 1.2.17.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
