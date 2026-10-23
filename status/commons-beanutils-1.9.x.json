@@ -1,7 +1,7 @@
 {
   "line": "commons-beanutils-1.9.x",
-  "book_version": "v2026.10.23.21",
-  "as_of": "2026-10-23T15:03:53Z",
+  "book_version": "v2026.10.23.22",
+  "as_of": "2026-10-23T15:05:56Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 1,
@@ -18,6 +18,8 @@
   "in_progress": [],
   "open": [],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "promoted commons-beanutils:commons-beanutils@1.6.1.1-osera-00001 is on base 1.6.1, the line has commons-beanutils:commons-beanutils at 1.9.4"
+  ],
   "consume": "org.finos.osera:osera-bom-commons-beanutils-1.9.x@2026.10.21"
 }
