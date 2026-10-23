@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the bouncycastle-1.46.x line, built 2026-10-23T18:39:18Z by the line manager.
+  The OSERA BOM of the bouncycastle-1.46.x line, built 2026-10-23T18:46:02Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-bouncycastle-1.46.x</artifactId>
-  <version>2026.10.23.3</version>
+  <version>2026.10.23.4</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for bouncycastle-1.46.x</name>
   <dependencyManagement>
@@ -15,12 +15,12 @@
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcmail-jdk15</artifactId>
-        <version>1.46.1-osera-00003</version>
+        <version>1.46.1-osera-00004</version>
       </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcprov-jdk15</artifactId>
-        <version>1.46.1-osera-00003</version>
+        <version>1.46.1-osera-00004</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
