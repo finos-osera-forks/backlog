@@ -30038,6 +30038,23 @@
       "first_seen": "2026-10-23T17:27:40Z"
     },
     {
+      "coordinate": "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00023",
+      "library": "org.bouncycastle:bctls-jdk15on",
+      "base": "1.70",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x",
+        "bouncycastle-1.78.x",
+        "bouncycastle-1.46.x",
+        "bouncycastle-1.70.x",
+        "bouncycastle-1.69.x"
+      ],
+      "words": "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00023: not listed by any line; other artifacts of org.bouncycastle are in the dependency graph of spring-boot-2.7.x, spring-security-5.7.x, bouncycastle-1.78.x, bouncycastle-1.46.x, bouncycastle-1.70.x, bouncycastle-1.69.x, so the graph there may have a hole",
+      "first_seen": "2026-10-23T17:35:40Z"
+    },
+    {
       "coordinate": "org.yaml:snakeyaml@1.16.1-osera-00001",
       "library": "org.yaml:snakeyaml",
       "base": "1.16",
