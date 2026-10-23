@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.46.x",
-  "book_version": "v2026.10.23.86",
-  "as_of": "2026-10-23T18:27:52Z",
+  "book_version": "v2026.10.23.87",
+  "as_of": "2026-10-23T18:32:22Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 1,
@@ -9,15 +9,17 @@
     {
       "cve": "CVE-2016-1000338",
       "library": "org.bouncycastle:bcprov-jdk15",
-      "coordinate": "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00001",
-      "at": "2026-10-23T18:26:11Z"
+      "coordinate": "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00002",
+      "at": "2026-10-23T18:32:22Z"
     }
   ],
   "in_progress": [],
   "open": [],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "fixed, not in the backlog: CVE-2016-1000342 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00002"
+  ],
   "consume": "org.finos.osera:osera-bom-bouncycastle-1.46.x@2026.10.23"
 }
