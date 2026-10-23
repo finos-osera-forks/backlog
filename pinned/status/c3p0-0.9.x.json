@@ -1,20 +1,25 @@
 {
   "line": "c3p0-0.9.x",
-  "book_version": "v2026.10.23.12",
-  "as_of": "2026-10-23T14:35:21Z",
-  "status": "not fixed",
-  "chain": "",
+  "book_version": "v2026.10.23.13",
+  "as_of": "2026-10-23T14:37:22Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 4,
-  "fixed": [],
+  "fixed": [
+    {
+      "cve": "CVE-2026-27830",
+      "library": "com.mchange:c3p0",
+      "coordinate": "com.mchange:c3p0@0.9.5.5.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.mchange:c3p0@0.9.5.5.1-osera-00001",
+      "at": "2026-10-23T14:37:22Z"
+    }
+  ],
   "in_progress": [],
   "open": [
     {
       "cve": "CVE-2026-27727",
       "library": "com.mchange:mchange-commons-java"
-    },
-    {
-      "cve": "CVE-2026-27830",
-      "library": "com.mchange:c3p0"
     },
     {
       "cve": "CVE-2026-55153",
