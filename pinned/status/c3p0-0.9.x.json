@@ -1,7 +1,7 @@
 {
   "line": "c3p0-0.9.x",
-  "book_version": "v2026.10.23.81",
-  "as_of": "2026-10-23T18:06:16Z",
+  "book_version": "v2026.10.23.82",
+  "as_of": "2026-10-23T18:08:31Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 4,
@@ -39,5 +39,5 @@
     "fixed, not in the backlog: CVE-2026-55153 on com.mchange:c3p0@0.9.5.5.1-osera-00003",
     "promoted com.mchange:mchange-commons-java@0.2.20.1-osera-00001 is on base 0.2.20, the line has com.mchange:mchange-commons-java at 0.2.19"
   ],
-  "consume": "org.finos.osera:osera-bom-c3p0-0.9.x@2026.10.23.3"
+  "consume": "org.finos.osera:osera-bom-c3p0-0.9.x@2026.10.23.4"
 }
