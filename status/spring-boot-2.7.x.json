@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.23.56",
-  "as_of": "2026-10-23T16:50:26Z",
+  "as_of": "2026-10-23T16:52:14Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -767,12 +767,14 @@
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00004 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.58.v20250814",
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00005 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.58.v20250814",
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00006 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.58.v20250814",
+    "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00007 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.58.v20250814",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00001 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.58.v20250814",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00002 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.58.v20250814",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00003 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.58.v20250814",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00004 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.58.v20250814",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00005 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.58.v20250814",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00006 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.58.v20250814",
+    "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00007 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.58.v20250814",
     "promoted org.yaml:snakeyaml@1.16.1-osera-00001 is on base 1.16, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.16.1-osera-00002 is on base 1.16, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.16.1-osera-00003 is on base 1.16, the line has org.yaml:snakeyaml at 1.33",
@@ -835,5 +837,5 @@
     "promoted org.yaml:snakeyaml@1.9.1-osera-00005 is on base 1.9, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.33"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.23.20"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.23.21"
 }
