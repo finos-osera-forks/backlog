@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.10.23.53",
-  "as_of": "2026-10-23T16:41:56Z",
+  "book_version": "v2026.10.23.54",
+  "as_of": "2026-10-23T16:46:09Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 22,
@@ -299,5 +299,5 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00020 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00021 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.23.19"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.23.20"
 }
