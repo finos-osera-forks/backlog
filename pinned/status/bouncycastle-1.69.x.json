@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.69.x",
-  "book_version": "v2026.10.23.5",
-  "as_of": "2026-10-23T14:05:21Z",
+  "book_version": "v2026.10.23.6",
+  "as_of": "2026-10-23T14:07:00Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 4,
@@ -9,10 +9,10 @@
     {
       "cve": "CVE-2024-29857",
       "library": "org.bouncycastle:bcprov-jdk15on",
-      "coordinate": "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00004",
-      "patch": "00004",
-      "named_by": "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00004",
-      "at": "2026-10-23T13:59:59Z"
+      "coordinate": "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00005",
+      "at": "2026-10-23T14:07:00Z"
     },
     {
       "cve": "CVE-2025-8916",
@@ -41,8 +41,11 @@
   "not_remediable": [],
   "discrepancies": [
     "fixed, not in the backlog: CVE-2025-14813 on org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00004",
+    "fixed, not in the backlog: CVE-2025-14813 on org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00005",
     "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00003",
-    "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00004"
+    "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00004",
+    "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00005",
+    "fixed, not in the backlog: CVE-2026-58062 on org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00005"
   ],
-  "consume": "org.finos.osera:osera-bom-bouncycastle-1.69.x@2026.10.23.5"
+  "consume": "org.finos.osera:osera-bom-bouncycastle-1.69.x@2026.10.23.6"
 }
