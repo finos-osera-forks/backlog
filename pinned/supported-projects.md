@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-23T14:33:31Z. Written by the line manager reconciler.
+Generated 2026-10-23T14:35:21Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -13,7 +13,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | not fixed | 31 | 0 | 0% | 45 | 0 | 31 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | in progress | 6 | 3 | 50% | 0 | 0 | 3 | 0 |
-| axis-1.4.x | maven | `org.apache.axis:axis@1.4` | not fixed | 3 | 0 | 0% | 2 | 0 | 3 | 0 |
+| axis-1.4.x | maven | `org.apache.axis:axis@1.4` | in progress | 3 | 1 | 33% | 2 | 0 | 2 | 0 |
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
@@ -97,7 +97,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | io.projectreactor.netty:reactor-netty | 1.0.39 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.39 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | open | 6 | 3 | 50% | 0 | 0 | 3 | 0 | 1.2.17.1-osera-00003 | 1.2.17.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 0 | 0% | 2 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 1 | 33% | 2 | 0 | 2 | 0 | 1.4.1-osera-00001 | 1.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.6 | commons-text-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.1-osera-00001 | 1.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.7 | commons-text-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.7.1-osera-00001 | 1.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.8 | commons-text-1.8.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.8.1-osera-00001 | 1.8.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

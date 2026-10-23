@@ -1,11 +1,20 @@
 {
   "line": "axis-1.4.x",
-  "book_version": "v2026.10.23.11",
-  "as_of": "2026-10-23T14:29:43Z",
-  "status": "not fixed",
-  "chain": "",
+  "book_version": "v2026.10.23.12",
+  "as_of": "2026-10-23T14:35:21Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 3,
-  "fixed": [],
+  "fixed": [
+    {
+      "cve": "CVE-2023-40743",
+      "library": "org.apache.axis:axis",
+      "coordinate": "org.apache.axis:axis@1.4.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.axis:axis@1.4.1-osera-00001",
+      "at": "2026-10-23T14:35:21Z"
+    }
+  ],
   "in_progress": [],
   "open": [
     {
@@ -14,10 +23,6 @@
     },
     {
       "cve": "CVE-2019-0227",
-      "library": "org.apache.axis:axis"
-    },
-    {
-      "cve": "CVE-2023-40743",
       "library": "org.apache.axis:axis"
     }
   ],
