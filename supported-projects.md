@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-23T15:18:25Z. Written by the line manager reconciler.
+Generated 2026-10-23T15:24:17Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -140,7 +140,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 1 | 0 | 0 | 0 | 1.29.1-osera-00006 | 1.29.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 1.31.1-osera-00003 | 1.31.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.33 | snakeyaml-1.16.x, snakeyaml-1.17.x, snakeyaml-1.19.x, snakeyaml-1.23.x, snakeyaml-1.26.x, snakeyaml-1.27.x, snakeyaml-1.28.x, snakeyaml-1.29.x, snakeyaml-1.31.x, snakeyaml-1.33.x, snakeyaml-1.9.x, spring-boot-2.7.x | own project on snakeyaml-1.16.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 1 | 1 | 100% | 4 | 0 | 0 | 0 | 2.2.1.1-osera-00003 | 2.2.1.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 1 | 1 | 100% | 4 | 0 | 0 | 0 | 2.2.1.1-osera-00004 | 2.2.1.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 
 ## Libraries promoted, not in the backlog
 
