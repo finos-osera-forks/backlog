@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the log4j-1.2.x line, built 2026-10-23T17:44:32Z by the line manager.
+  The OSERA BOM of the log4j-1.2.x line, built 2026-10-23T17:51:50Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-log4j-1.2.x</artifactId>
-  <version>2026.10.23.3</version>
+  <version>2026.10.23.4</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for log4j-1.2.x</name>
   <dependencyManagement>
@@ -15,7 +15,7 @@
       <dependency>
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
-        <version>1.2.17.1-osera-00006</version>
+        <version>1.2.17.1-osera-00007</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

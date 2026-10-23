@@ -65,6 +65,11 @@
       "since": "2026-10-22T21:27:21Z",
       "editions": []
     },
+    "log4j-1.2.x": {
+      "remediated": true,
+      "since": "2026-10-23T17:51:06Z",
+      "editions": []
+    },
     "log4j2-2.24.x": {
       "remediated": true,
       "since": "2026-10-22T16:30:15Z",
