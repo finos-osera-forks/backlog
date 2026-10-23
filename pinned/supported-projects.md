@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-23T18:04:20Z. Written by the line manager reconciler.
+Generated 2026-10-23T18:06:16Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -41,7 +41,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | in progress | 7 | 5 | 71% | 6 | 0 | 2 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | in progress | 4 | 2 | 50% | 4 | 0 | 2 | 0 |
-| mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
+| mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | fixed | 2 | 2 | 100% | 3 | 0 | 0 | 0 |
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | in progress | 6 | 3 | 50% | 8 | 0 | 3 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | in progress | 4 | 3 | 75% | 2 | 0 | 1 | 0 |
@@ -71,7 +71,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00012 | 2.13.5.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00003 | 0.9.5.5.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.mchange:mchange-commons-java | 0.2.19 | c3p0-0.9.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.mchange:mchange-commons-java | 0.2.20 | mchange-commons-0.2.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.mchange:mchange-commons-java | 0.2.20 | mchange-commons-0.2.x | own project (the anchor's group) | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 0.2.20.1-osera-00001 | 0.2.20.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-beanutils:commons-beanutils | 1.6 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.8.0 | struts-1.3.x | pulled in by a dependency (commons-digester:commons-digester@1.8) | open | 2 | 0 | 0% | 1 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.9.4 | commons-beanutils-1.9.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 1.9.4.1-osera-00001 | 1.9.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -116,11 +116,11 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.apache.tomcat.embed:tomcat-embed-websocket | 9.0.83 | spring-boot-2.7.x | listed by the BOM at 9.0.83 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.velocity:velocity | 1.6.4 | velocity-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.4.1-osera-00001 | 1.6.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.velocity:velocity | 1.7 | velocity-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 1.7.1-osera-00001 | 1.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.bouncycastle:bcpkix-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.69.1-osera-00034 | 1.69.1-osera-00034 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.bouncycastle:bcpkix-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.69.1-osera-00035 | 1.69.1-osera-00035 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 1.70.1-osera-00027 | 1.70.1-osera-00027 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 1 | 0 | 0% | 13 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 3 | 0 | 0 | 0 | 1.69.1-osera-00034 | 1.69.1-osera-00034 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 3 | 0 | 0 | 0 | 1.69.1-osera-00035 | 1.69.1-osera-00035 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | open | 2 | 1 | 50% | 4 | 0 | 1 | 0 | 1.70.1-osera-00027 | 1.70.1-osera-00027 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty.http2:http2-common | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
