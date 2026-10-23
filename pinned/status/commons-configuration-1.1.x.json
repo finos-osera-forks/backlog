@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
-  "book_version": "v2026.10.23.34",
-  "as_of": "2026-10-23T15:48:04Z",
+  "book_version": "v2026.10.23.35",
+  "as_of": "2026-10-23T15:50:16Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 7,
@@ -21,6 +21,14 @@
       "patch": "00004",
       "named_by": "xerces:xercesImpl@2.2.1.1-osera-00004",
       "at": "2026-10-23T15:24:17Z"
+    },
+    {
+      "cve": "CVE-2025-46392",
+      "library": "commons-configuration:commons-configuration",
+      "coordinate": "commons-configuration:commons-configuration@1.1.1-osera-00001",
+      "patch": "00001",
+      "named_by": "commons-configuration:commons-configuration@1.1.1-osera-00001",
+      "at": "2026-10-23T15:50:16Z"
     }
   ],
   "in_progress": [],
@@ -36,10 +44,6 @@
     {
       "cve": "CVE-2020-10683",
       "library": "dom4j:dom4j"
-    },
-    {
-      "cve": "CVE-2025-46392",
-      "library": "commons-configuration:commons-configuration"
     },
     {
       "cve": "CVE-2025-48734",

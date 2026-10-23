@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.9.x",
-  "book_version": "v2026.10.23.34",
-  "as_of": "2026-10-23T15:48:04Z",
+  "book_version": "v2026.10.23.35",
+  "as_of": "2026-10-23T15:50:16Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 1,
@@ -14,6 +14,8 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "promoted commons-configuration:commons-configuration@1.1.1-osera-00001 is on base 1.1, the line has commons-configuration:commons-configuration at 1.9"
+  ],
   "consume": ""
 }
