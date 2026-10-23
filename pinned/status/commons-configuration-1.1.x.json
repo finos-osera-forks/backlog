@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
-  "book_version": "v2026.10.23.21",
-  "as_of": "2026-10-23T15:03:53Z",
+  "book_version": "v2026.10.23.22",
+  "as_of": "2026-10-23T15:05:56Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 7,
@@ -13,6 +13,14 @@
       "patch": "00001",
       "named_by": "commons-collections:commons-collections@3.0.1-osera-00001",
       "at": "2026-10-22T18:18:14Z"
+    },
+    {
+      "cve": "CVE-2022-23437",
+      "library": "xerces:xercesImpl",
+      "coordinate": "xerces:xercesImpl@2.2.1.1-osera-00001",
+      "patch": "00001",
+      "named_by": "xerces:xercesImpl@2.2.1.1-osera-00001",
+      "at": "2026-10-23T15:05:56Z"
     }
   ],
   "in_progress": [],
@@ -30,10 +38,6 @@
       "library": "dom4j:dom4j"
     },
     {
-      "cve": "CVE-2022-23437",
-      "library": "xerces:xercesImpl"
-    },
-    {
       "cve": "CVE-2025-46392",
       "library": "commons-configuration:commons-configuration"
     },
@@ -44,6 +48,7 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "promoted commons-beanutils:commons-beanutils@1.6.1.1-osera-00001 is on base 1.6.1, the line has commons-beanutils:commons-beanutils at 1.6",
     "promoted commons-beanutils:commons-beanutils@1.9.4.1-osera-00001 is on base 1.9.4, the line has commons-beanutils:commons-beanutils at 1.6"
   ],
   "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.10.22"

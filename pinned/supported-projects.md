@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-23T15:03:53Z. Written by the line manager reconciler.
+Generated 2026-10-23T15:05:56Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -39,7 +39,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | fixed | 1 | 1 | 100% | 8 | 0 | 0 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | not fixed | 1 | 0 | 0% | 1 | 0 | 1 | 0 |
-| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | in progress | 7 | 1 | 14% | 6 | 0 | 6 | 0 |
+| commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | in progress | 7 | 2 | 29% | 6 | 0 | 5 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | in progress | 4 | 2 | 50% | 4 | 0 | 2 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | fixed | 2 | 2 | 100% | 3 | 0 | 0 | 0 |
@@ -120,7 +120,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.bouncycastle:bcpkix-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 2 | 0 | 0 | 0 | 1.70.1-osera-00006 | 1.70.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 1 | 0 | 0% | 13 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 1.69.1-osera-00011 | 1.69.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 1.69.1-osera-00012 | 1.69.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | open | 2 | 1 | 50% | 4 | 0 | 1 | 0 | 1.70.1-osera-00006 | 1.70.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty.http2:http2-common | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -174,4 +174,4 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 6 | 0 | 0% | 1 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 1.31.1-osera-00003 | 1.31.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.33 | snakeyaml-1.33.x, spring-boot-2.7.x | own project on snakeyaml-1.33.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00001 | 1.33.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 1 | 0 | 0% | 4 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 1 | 1 | 100% | 4 | 0 | 0 | 0 | 2.2.1.1-osera-00001 | 2.2.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
