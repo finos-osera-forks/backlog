@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.23.79",
-  "as_of": "2026-10-23T18:01:05Z",
+  "book_version": "v2026.10.23.80",
+  "as_of": "2026-10-23T18:04:20Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -843,5 +843,5 @@
     "promoted org.yaml:snakeyaml@1.9.1-osera-00005 is on base 1.9, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.33"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.23.29"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.23.30"
 }
