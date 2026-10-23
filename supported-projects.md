@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-23T14:48:26Z. Written by the line manager reconciler.
+Generated 2026-10-23T14:50:05Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -64,7 +64,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 5 | 0 | 0 | 0 | 2.15.4.1-osera-00019 | 2.15.4.1-osera-00019 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 5 | 0 | 0 | 0 | 2.19.4.1-osera-00021 | 2.19.4.1-osera-00021 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00012 | 2.13.5.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00002 | 0.9.5.5.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00003 | 0.9.5.5.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.mchange:mchange-commons-java | 0.2.20 | c3p0-0.9.x, mchange-commons-0.2.x | own project (the anchor's group) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.6.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.8.3 | struts-1.3.x | pulled in by a dependency (commons-digester:commons-digester@1.8.1) | open | 2 | 0 | 0% | 1 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -76,7 +76,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.projectreactor.netty:reactor-netty | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00002 | 1.0.48.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00002 | 1.0.48.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | open | 6 | 3 | 50% | 0 | 0 | 3 | 0 | 1.2.17.1-osera-00003 | 1.2.17.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 2 | 67% | 2 | 0 | 1 | 0 | 1.4.1-osera-00002 | 1.4.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 2 | 67% | 2 | 0 | 1 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.6 | commons-text-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.1-osera-00001 | 1.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.7 | commons-text-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.7.1-osera-00001 | 1.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.8 | commons-text-1.8.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.8.1-osera-00001 | 1.8.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

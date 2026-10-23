@@ -1,7 +1,7 @@
 {
   "line": "axis-1.4.x",
-  "book_version": "v2026.10.23.16",
-  "as_of": "2026-10-23T14:44:56Z",
+  "book_version": "v2026.10.23.17",
+  "as_of": "2026-10-23T14:50:05Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 3,
@@ -9,18 +9,18 @@
     {
       "cve": "CVE-2018-8032",
       "library": "org.apache.axis:axis",
-      "coordinate": "org.apache.axis:axis@1.4.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.apache.axis:axis@1.4.1-osera-00002",
-      "at": "2026-10-23T14:43:09Z"
+      "coordinate": "org.apache.axis:axis@1.4.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.apache.axis:axis@1.4.1-osera-00003",
+      "at": "2026-10-23T14:50:05Z"
     },
     {
       "cve": "CVE-2023-40743",
       "library": "org.apache.axis:axis",
-      "coordinate": "org.apache.axis:axis@1.4.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.apache.axis:axis@1.4.1-osera-00002",
-      "at": "2026-10-23T14:43:09Z"
+      "coordinate": "org.apache.axis:axis@1.4.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.apache.axis:axis@1.4.1-osera-00003",
+      "at": "2026-10-23T14:50:05Z"
     }
   ],
   "in_progress": [],
@@ -31,6 +31,9 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-axis-1.4.x@2026.10.23.2"
+  "discrepancies": [
+    "fixed, not in the backlog: CVE-2012-5784 on org.apache.axis:axis@1.4.1-osera-00003",
+    "fixed, not in the backlog: CVE-2014-3596 on org.apache.axis:axis@1.4.1-osera-00003"
+  ],
+  "consume": "org.finos.osera:osera-bom-axis-1.4.x@2026.10.23.3"
 }
