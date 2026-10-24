@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.78.x",
   "book_version": "v2026.10.24.10",
-  "as_of": "2026-10-24T01:25:30Z",
+  "as_of": "2026-10-24T01:30:39Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -9,42 +9,42 @@
     {
       "cve": "CVE-2025-14813",
       "library": "org.bouncycastle:bcprov-jdk18on",
-      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
-      "at": "2026-10-24T01:23:49Z"
+      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+      "at": "2026-10-24T01:30:39Z"
     },
     {
       "cve": "CVE-2025-8916",
       "library": "org.bouncycastle:bcpkix-jdk18on",
-      "coordinate": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00007",
-      "at": "2026-10-24T01:23:49Z"
+      "coordinate": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00008",
+      "at": "2026-10-24T01:30:39Z"
     },
     {
       "cve": "CVE-2026-0636",
       "library": "org.bouncycastle:bcprov-jdk18on",
-      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
-      "at": "2026-10-24T01:23:49Z"
+      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+      "at": "2026-10-24T01:30:39Z"
     },
     {
       "cve": "CVE-2026-13506",
       "library": "org.bouncycastle:bcprov-jdk18on",
-      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
-      "at": "2026-10-24T01:23:49Z"
+      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+      "at": "2026-10-24T01:30:39Z"
     },
     {
       "cve": "CVE-2026-5588",
       "library": "org.bouncycastle:bcpkix-jdk18on",
-      "coordinate": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00007",
-      "at": "2026-10-24T01:23:49Z"
+      "coordinate": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00008",
+      "at": "2026-10-24T01:30:39Z"
     }
   ],
   "in_progress": [],
@@ -60,9 +60,13 @@
     "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00005",
     "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00006",
     "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
+    "fixed, not in the backlog: CVE-2025-8916 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+    "fixed, not in the backlog: CVE-2026-12860 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
     "fixed, not in the backlog: CVE-2026-58062 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-58062 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
-    "fixed, not in the backlog: CVE-2026-59650 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007"
+    "fixed, not in the backlog: CVE-2026-58062 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+    "fixed, not in the backlog: CVE-2026-59650 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
+    "fixed, not in the backlog: CVE-2026-59650 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008"
   ],
-  "consume": "org.finos.osera:osera-bom-bouncycastle-1.78.x@2026.10.24.11"
+  "consume": "org.finos.osera:osera-bom-bouncycastle-1.78.x@2026.10.24.12"
 }
