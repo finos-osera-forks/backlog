@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.78.x",
-  "book_version": "v2026.10.24.2",
-  "as_of": "2026-10-24T00:57:49Z",
+  "book_version": "v2026.10.24.3",
+  "as_of": "2026-10-24T00:59:10Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -9,18 +9,18 @@
     {
       "cve": "CVE-2025-14813",
       "library": "org.bouncycastle:bcprov-jdk18on",
-      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00002",
-      "at": "2026-10-24T00:42:49Z"
+      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00003",
+      "at": "2026-10-24T00:59:10Z"
     },
     {
       "cve": "CVE-2026-0636",
       "library": "org.bouncycastle:bcprov-jdk18on",
-      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00002",
-      "at": "2026-10-24T00:42:49Z"
+      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00003",
+      "at": "2026-10-24T00:59:10Z"
     },
     {
       "cve": "CVE-2026-5588",
@@ -48,5 +48,5 @@
   ],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-bouncycastle-1.78.x@2026.10.24.3"
+  "consume": "org.finos.osera:osera-bom-bouncycastle-1.78.x@2026.10.24.4"
 }
