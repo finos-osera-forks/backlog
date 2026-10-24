@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.78.x",
   "book_version": "v2026.10.24.26",
-  "as_of": "2026-10-24T02:53:20Z",
+  "as_of": "2026-10-24T02:58:08Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -17,10 +17,10 @@
     {
       "cve": "CVE-2025-8916",
       "library": "org.bouncycastle:bcpkix-jdk18on",
-      "coordinate": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
-      "patch": "00019",
-      "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
-      "at": "2026-10-24T02:51:36Z"
+      "coordinate": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
+      "patch": "00020",
+      "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
+      "at": "2026-10-24T02:58:08Z"
     },
     {
       "cve": "CVE-2026-0636",
@@ -41,10 +41,10 @@
     {
       "cve": "CVE-2026-5588",
       "library": "org.bouncycastle:bcpkix-jdk18on",
-      "coordinate": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
-      "patch": "00019",
-      "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
-      "at": "2026-10-24T02:51:36Z"
+      "coordinate": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
+      "patch": "00020",
+      "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
+      "at": "2026-10-24T02:58:08Z"
     }
   ],
   "in_progress": [],
@@ -135,6 +135,7 @@
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
+    "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
     "fixed, not in the backlog: CVE-2026-59642 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00010",
     "fixed, not in the backlog: CVE-2026-59642 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00011",
     "fixed, not in the backlog: CVE-2026-59642 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00012",
@@ -145,6 +146,7 @@
     "fixed, not in the backlog: CVE-2026-59642 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-59642 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-59642 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
+    "fixed, not in the backlog: CVE-2026-59642 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
     "fixed, not in the backlog: CVE-2026-59650 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-59650 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
     "fixed, not in the backlog: CVE-2026-59650 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00009",
@@ -167,6 +169,7 @@
     "fixed, not in the backlog: CVE-2026-71888 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-71888 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-71888 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
+    "fixed, not in the backlog: CVE-2026-71888 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00012",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00013",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00014",
@@ -175,6 +178,7 @@
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
+    "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00012",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00013",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00014",
@@ -184,7 +188,8 @@
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-71889 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00019",
     "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00018",
-    "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019"
+    "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
+    "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020"
   ],
   "consume": "org.finos.osera:osera-bom-bouncycastle-1.78.x@2026.10.24.27"
 }
