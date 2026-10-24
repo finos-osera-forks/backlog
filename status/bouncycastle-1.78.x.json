@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.78.x",
   "book_version": "v2026.10.24.2",
-  "as_of": "2026-10-24T00:44:31Z",
+  "as_of": "2026-10-24T00:51:43Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -44,5 +44,5 @@
   ],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-bouncycastle-1.78.x@2026.10.24.2"
+  "consume": "org.finos.osera:osera-bom-bouncycastle-1.78.x@2026.10.24.3"
 }
