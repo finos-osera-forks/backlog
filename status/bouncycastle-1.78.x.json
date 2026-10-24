@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.78.x",
   "book_version": "v2026.10.24.33",
-  "as_of": "2026-10-24T03:26:21Z",
+  "as_of": "2026-10-24T03:30:49Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -281,7 +281,8 @@
     "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00021",
     "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00022",
     "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00023",
-    "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00024"
+    "fixed, not in the backlog: CVE-2026-71892 on org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00024",
+    "promoted org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00025 has no evidence file next to it, it fixes nothing"
   ],
   "consume": "org.finos.osera:osera-bom-bouncycastle-1.78.x@2026.10.24.34"
 }
