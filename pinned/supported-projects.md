@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-24T01:10:51Z. Written by the line manager reconciler.
+Generated 2026-10-24T01:12:29Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -18,7 +18,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
-| bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | in progress | 6 | 4 | 67% | 0 | 0 | 2 | 0 |
+| bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | in progress | 6 | 5 | 83% | 0 | 0 | 1 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | in progress | 2 | 1 | 50% | 2 | 0 | 1 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | in progress | 2 | 1 | 50% | 2 | 0 | 1 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 |
@@ -122,7 +122,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 13 | 0 | 0 | 0 | 1.46.1-osera-00028 | 1.46.1-osera-00028 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 3 | 0 | 0 | 0 | 1.69.1-osera-00036 | 1.69.1-osera-00036 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 4 | 0 | 0 | 0 | 1.70.1-osera-00037 | 1.70.1-osera-00037 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 4 | 2 | 50% | 0 | 0 | 2 | 0 | 1.78.1.1-osera-00004 | 1.78.1.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | open | 4 | 3 | 75% | 0 | 0 | 1 | 0 | 1.78.1.1-osera-00005 | 1.78.1.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty.http2:http2-common | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-http | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.eclipse.jetty:jetty-jaspi | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
