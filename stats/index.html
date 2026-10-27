@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<title>OSERA metrics</title>
+<style>
+  /* The palette and the layout of the standards site (remediation-standards/docs/style.css). */
+  :root {
+    --navy: #00253f; --blue: #0086bf; --cyan: #00b5e2; --teal: #3fb6a8; --amber: #b98314;
+    --ink: #16222e; --muted: #5b6770; --line: #dce6ee; --soft: #f4f8fb; --mist: #e9f6fb; --white: #ffffff;
+    --bg: #f4f8fb; --card: #ffffff; --head: rgba(255, 255, 255, 0.92);
+    --bar: #0086bf; --bar-hover: #00253f; --link: #0086bf; --head: rgba(255, 255, 255, 0.92);
+    --radius: 8px; --shadow: 0 16px 40px rgba(16, 34, 46, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e6eef4; --muted: #9fb0bd; --line: #25384a; --soft: #0f1d2a; --mist: #12283a;
+      --bg: #0b1721; --card: #112231;
+      --bar: #00b5e2; --bar-hover: #8fdcf3; --link: #4fc3ea;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); line-height: 1.6;
+         font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  h1, h2 { font-family: Montserrat, Inter, system-ui, sans-serif; line-height: 1.15; letter-spacing: 0; margin: 0; }
+  h1 { font-size: 28px; color: var(--ink); }
+  h2 { font-size: 16px; margin-bottom: 12px; color: var(--ink); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  /* The header stays light in dark mode too, as the logos are drawn for a light ground. */
+  .site-header { position: sticky; top: 0; z-index: 20; background: var(--head); color: #16222e; border-bottom: 1px solid #dce6ee; backdrop-filter: blur(14px); }
+  .nav { min-height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { width: 96px; height: auto; display: block; }
+  .brand .tag { color: #5b6770; font-size: 13px; border-left: 1px solid #dce6ee; padding-left: 12px; }
+  .nav a.out { display: flex; align-items: center; }
+  .nav img.finos-h { height: 40px; width: auto; display: block; }
+  .hero { padding: 28px 0 8px; }
+  .sub { color: var(--muted); margin: 6px 0 0; font-size: 14px; }
+  main { padding-bottom: 40px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 20px 0 12px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); }
+  .tile { border-top: 3px solid var(--cyan); }
+  .tile .n { font-family: Montserrat, Inter, system-ui, sans-serif; font-size: 34px; font-weight: 800; color: var(--blue); line-height: 1.1; }
+  .tile .l { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .grid2 { display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 12px; }
+  .stack > * { margin-bottom: 12px; }
+  .eco { display: flex; gap: 8px; flex-wrap: wrap; }
+  .pill { border: 1px solid var(--blue); color: var(--blue); border-radius: 999px; padding: 2px 14px; font-size: 13px; font-weight: 600; background: var(--mist); }
+  .chart { width: 100%; height: auto; display: block; }
+  .chart text { fill: var(--muted); font-size: 11px; }
+  .chart .grid { stroke: var(--line); stroke-width: 1; }
+  .chart rect.bar { fill: var(--bar); }
+  .chart rect.bar:hover { fill: var(--bar-hover); }
+  .scroll { max-height: 340px; overflow: auto; border: 1px solid var(--line); border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { position: sticky; top: 0; background: var(--soft); color: var(--ink); z-index: 1; font-weight: 700; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  input.search { width: 100%; margin-bottom: 8px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); font: inherit; }
+  input.search:focus { outline: 2px solid var(--cyan); outline-offset: 1px; }
+  .site-footer { background: var(--navy); color: #d7e6f0; padding: 28px 0; }
+  .foot { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+  .foot .logos { display: flex; align-items: center; gap: 24px; }
+  .foot img.osera { width: 110px; height: auto; display: block; }
+  .foot img.finos { height: 52px; width: auto; display: block; }
+  .foot a { color: #8fdcf3; }
+  .foot p { margin: 0; font-size: 13px; }
+  .tip { position: fixed; pointer-events: none; background: var(--navy); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; display: none; }
+  @media (min-width: 800px) { .grid2.two { grid-template-columns: 1fr 1fr; } .wrap { padding: 0 28px; } }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="https://osera.finos.org" aria-label="OSERA">
+      <img src="assets/osera-horizontal-color.svg" alt="OSERA">
+      <span class="tag">Exchange metrics</span>
+    </a>
+    <a class="out" href="https://www.finos.org" aria-label="FINOS"><img class="finos-h" src="assets/finos-logo.png" alt="FINOS"></a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1>OSERA metrics</h1>
+    <p class="sub" id="sub">Loading…</p>
+  </section>
+
+  <section class="tiles" id="tiles"></section>
+
+  <section class="card" style="margin-bottom:12px">
+    <h2>Supported ecosystems</h2>
+    <div class="eco" id="eco"></div>
+  </section>
+
+  <section class="grid2 two">
+    <div class="card"><h2>Releases per day, past week</h2><div id="week"></div></div>
+    <div class="card"><h2>Releases per day, past month</h2><div id="month"></div></div>
+  </section>
+
+  <section class="card" style="margin-bottom:12px">
+    <h2>Top 20 CVEs fixed</h2>
+    <div class="scroll"><table id="cves"></table></div>
+  </section>
+
+  <section class="card">
+    <h2>Libraries</h2>
+    <input class="search" id="q" type="search" placeholder="Filter libraries" aria-label="Filter libraries">
+    <div class="scroll"><table id="libs"></table></div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div class="logos">
+      <img class="osera" src="assets/osera-horizontal-white.svg" alt="OSERA">
+      <img class="finos" src="assets/finos-logo-white.png" alt="FINOS">
+    </div>
+    <p>OSERA is part of <a href="https://www.finos.org">FINOS</a>, the Fintech Open Source Foundation.<br><a href="https://osera.finos.org">osera.finos.org</a></p>
+  </div>
+</footer>
+<div class="tip" id="tip"></div>
+<script>
+(function () {
+  "use strict";
+
+  function el(tag, attrs, text) {
+    var e = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) { e.setAttribute(k, attrs[k]); });
+    if (text !== undefined) { e.textContent = text; }
+    return e;
+  }
+
+  function dayList(endIso, days) {
+    var out = [];
+    var end = new Date(endIso.slice(0, 10) + "T00:00:00Z");
+    for (var i = days - 1; i >= 0; i--) {
+      var d = new Date(end.getTime() - i * 86400000);
+      out.push(d.toISOString().slice(0, 10));
+    }
+    return out;
+  }
+
+  function barChart(host, data) {
+    var W = 480, H = 220, L = 34, B = 30, T = 10, R = 6;
+    var max = Math.max(1, Math.max.apply(null, data.map(function (d) { return d.count; })));
+    var top = Math.max(4, Math.ceil(max / 4) * 4);
+    var ns = "http://www.w3.org/2000/svg";
+    var svg = document.createElementNS(ns, "svg");
+    svg.setAttribute("viewBox", "0 0 " + W + " " + H);
+    svg.setAttribute("class", "chart");
+    svg.setAttribute("role", "img");
+    svg.setAttribute("aria-label", "Bar chart of releases per day");
+    function add(name, attrs, text) {
+      var n = document.createElementNS(ns, name);
+      Object.keys(attrs).forEach(function (k) { n.setAttribute(k, attrs[k]); });
+      if (text !== undefined) { n.textContent = text; }
+      svg.appendChild(n);
+      return n;
+    }
+    for (var g = 0; g <= 4; g++) {
+      var v = top * g / 4;
+      var y = T + (H - T - B) * (1 - g / 4);
+      add("line", { "class": "grid", x1: L, x2: W - R, y1: y, y2: y });
+      add("text", { x: L - 6, y: y + 4, "text-anchor": "end" }, String(v));
+    }
+    var slot = (W - L - R) / data.length;
+    var bw = Math.max(2, slot * 0.7);
+    var every = Math.ceil(data.length / 7);
+    data.forEach(function (d, i) {
+      var h = (H - T - B) * d.count / top;
+      var x = L + i * slot + (slot - bw) / 2;
+      var r = add("rect", { "class": "bar", x: x, y: H - B - h, width: bw, height: Math.max(h, d.count ? 1 : 0), rx: 1 });
+      r.addEventListener("mousemove", function (ev) {
+        var t = document.getElementById("tip");
+        t.style.display = "block";
+        t.style.left = (ev.clientX + 12) + "px";
+        t.style.top = (ev.clientY + 12) + "px";
+        t.textContent = d.date + ": " + d.count + (d.count === 1 ? " release" : " releases");
+      });
+      r.addEventListener("mouseleave", function () { document.getElementById("tip").style.display = "none"; });
+      if (i % every === 0) {
+        add("text", { x: x + bw / 2, y: H - B + 16, "text-anchor": "middle" }, d.date.slice(5));
+      }
+    });
+    host.appendChild(svg);
+  }
+
+  function table(host, cols, rows) {
+    var thead = el("thead");
+    var hr = el("tr");
+    cols.forEach(function (c) { hr.appendChild(el("th", c.num ? { "class": "num" } : {}, c.label)); });
+    thead.appendChild(hr);
+    var tbody = el("tbody");
+    rows.forEach(function (r) {
+      var tr = el("tr");
+      cols.forEach(function (c) { tr.appendChild(el("td", c.num ? { "class": "num" } : {}, String(r[c.key]))); });
+      tbody.appendChild(tr);
+    });
+    host.innerHTML = "";
+    host.appendChild(thead);
+    host.appendChild(tbody);
+  }
+
+  fetch("metrics.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (m) {
+    document.getElementById("sub").textContent = "Data as of " + m.as_of.replace("T", " ").replace("Z", " UTC");
+
+    var tiles = [
+      [m.totals.releases, "Releases (release sets promoted whole)"],
+      [m.totals.libraries, "Libraries in those releases"],
+      [m.totals.libraries_with_a_fixed_cve, "Libraries with a fixed CVE"],
+      [m.totals.fixed_entries, "Fixed entries (CVE on one artifact)"]
+    ];
+    var host = document.getElementById("tiles");
+    tiles.forEach(function (t) {
+      var c = el("div", { "class": "card tile" });
+      c.appendChild(el("div", { "class": "n" }, String(t[0])));
+      c.appendChild(el("div", { "class": "l" }, t[1]));
+      host.appendChild(c);
+    });
+
+    m.ecosystems.forEach(function (name) {
+      document.getElementById("eco").appendChild(el("span", { "class": "pill live" }, name));
+    });
+
+    var counts = {};
+    m.releases_per_day.forEach(function (d) { counts[d.date] = d.count; });
+    function series(days) {
+      return dayList(new Date().toISOString(), days).map(function (d) { return { date: d, count: counts[d] || 0 }; });
+    }
+    barChart(document.getElementById("week"), series(7));
+    barChart(document.getElementById("month"), series(30));
+
+    var cveRows = m.top_cves.map(function (c) {
+      return { id: c.id, cvss: c.cvss === null ? "\u2014" : c.cvss.toFixed(1), fixed_entries: c.fixed_entries, libraries: c.libraries };
+    });
+    table(document.getElementById("cves"), [
+      { key: "id", label: "CVE" },
+      { key: "cvss", label: "CVSS", num: true },
+      { key: "fixed_entries", label: "Fixed entries", num: true },
+      { key: "libraries", label: "Libraries", num: true }
+    ], cveRows);
+
+    var cols = [
+      { key: "library", label: "Library" },
+      { key: "ecosystem", label: "Ecosystem" },
+      { key: "latest", label: "Latest version" },
+      { key: "releases", label: "Releases", num: true },
+      { key: "fixed_entries", label: "Fixed entries", num: true }
+    ];
+    table(document.getElementById("libs"), cols, m.libraries);
+    document.getElementById("q").addEventListener("input", function (ev) {
+      var q = ev.target.value.toLowerCase();
+      table(document.getElementById("libs"), cols, m.libraries.filter(function (r) { return r.library.toLowerCase().indexOf(q) !== -1; }));
+    });
+
+  }).catch(function (e) {
+    document.getElementById("sub").textContent = "Could not load metrics.json: " + e;
+  });
+})();
+</script>
+</body>
+</html>
