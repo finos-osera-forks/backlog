@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.27.7",
-  "as_of": "2026-10-27T13:46:42Z",
+  "as_of": "2026-10-27T17:26:52Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 74,
@@ -41,10 +41,10 @@
     {
       "cve": "CVE-2024-38807",
       "library": "org.springframework.boot:spring-boot-loader",
-      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00077",
-      "patch": "00077",
-      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00077",
-      "at": "2026-10-27T13:41:06Z"
+      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00078",
+      "patch": "00078",
+      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00078",
+      "at": "2026-10-27T17:26:52Z"
     },
     {
       "cve": "CVE-2024-38816",
@@ -193,10 +193,10 @@
     {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools",
-      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00077",
-      "patch": "00077",
-      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00077",
-      "at": "2026-10-27T13:41:06Z"
+      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00078",
+      "patch": "00078",
+      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00078",
+      "at": "2026-10-27T17:26:52Z"
     },
     {
       "cve": "CVE-2026-40973",
@@ -853,5 +853,5 @@
     "promoted org.yaml:snakeyaml@1.9.1-osera-00005 is on base 1.9, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.33"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.27.6"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.27.7"
 }
