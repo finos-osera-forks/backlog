@@ -1,7 +1,7 @@
 {
   "line": "jetty-9.2.x",
   "book_version": "v2026.10.26",
-  "as_of": "2026-10-26T22:56:31Z",
+  "as_of": "2026-10-27T13:00:52Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 1,
@@ -9,10 +9,10 @@
     {
       "cve": "CVE-2021-28165",
       "library": "org.eclipse.jetty:jetty-server",
-      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010",
-      "patch": "00010",
-      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010",
-      "at": "2026-10-23T17:11:39Z"
+      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
+      "patch": "00011",
+      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
+      "at": "2026-10-27T13:00:52Z"
     }
   ],
   "in_progress": [],
@@ -28,11 +28,13 @@
     "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00008",
     "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00009",
     "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010",
+    "fixed, not in the backlog: CVE-2021-34428 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
     "fixed, not in the backlog: CVE-2023-26048 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00006",
     "fixed, not in the backlog: CVE-2023-26048 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00007",
     "fixed, not in the backlog: CVE-2023-26048 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00008",
     "fixed, not in the backlog: CVE-2023-26048 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00009",
     "fixed, not in the backlog: CVE-2023-26048 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010",
+    "fixed, not in the backlog: CVE-2023-26048 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
     "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00004",
     "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00005",
     "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00006",
@@ -40,11 +42,13 @@
     "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00008",
     "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00009",
     "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010",
+    "fixed, not in the backlog: CVE-2023-26049 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
     "fixed, not in the backlog: CVE-2024-6763 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010",
+    "fixed, not in the backlog: CVE-2024-6763 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428"
   ],
-  "consume": "org.finos.osera:osera-bom-jetty-9.2.x@2026.10.23.5"
+  "consume": "org.finos.osera:osera-bom-jetty-9.2.x@2026.10.27"
 }
