@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.26",
-  "as_of": "2026-10-27T13:00:52Z",
+  "book_version": "v2026.10.27",
+  "as_of": "2026-10-27T13:06:14Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 189,
@@ -209,10 +209,10 @@
     {
       "cve": "CVE-2026-41700",
       "library": "org.springframework.graphql:spring-graphql",
-      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
-      "at": "2026-09-24T20:47:39Z"
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00003",
+      "at": "2026-10-27T13:06:14Z"
     },
     {
       "cve": "CVE-2026-41716",
@@ -377,10 +377,10 @@
     {
       "cve": "CVE-2026-41856",
       "library": "org.springframework.graphql:spring-graphql",
-      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00002",
-      "at": "2026-09-24T20:47:39Z"
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00003",
+      "at": "2026-10-27T13:06:14Z"
     },
     {
       "cve": "CVE-2026-47884",
@@ -421,6 +421,14 @@
       "patch": "00012",
       "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00012",
       "at": "2026-10-22T19:50:15Z"
+    },
+    {
+      "cve": "CVE-2026-59286",
+      "library": "org.springframework.graphql:spring-graphql",
+      "coordinate": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00003",
+      "at": "2026-10-27T13:06:14Z"
     },
     {
       "cve": "CVE-2026-59889",
@@ -900,10 +908,6 @@
     {
       "cve": "CVE-2026-5795",
       "library": "org.eclipse.jetty:jetty-jaspi"
-    },
-    {
-      "cve": "CVE-2026-59286",
-      "library": "org.springframework.graphql:spring-graphql"
     },
     {
       "cve": "CVE-2026-59288",
