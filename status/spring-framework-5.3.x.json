@@ -1,10 +1,10 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.10.27.16",
-  "as_of": "2026-10-27T23:13:53Z",
+  "as_of": "2026-10-27T23:35:00Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 23,
+  "in_scope": 47,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -177,6 +177,102 @@
   ],
   "in_progress": [],
   "open": [
+    {
+      "cve": "CVE-2024-38820",
+      "library": "org.springframework:spring-context"
+    },
+    {
+      "cve": "CVE-2024-38820",
+      "library": "org.springframework:spring-web"
+    },
+    {
+      "cve": "CVE-2024-38828",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2025-22233",
+      "library": "org.springframework:spring-context"
+    },
+    {
+      "cve": "CVE-2025-41242",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2025-41254",
+      "library": "org.springframework:spring-websocket"
+    },
+    {
+      "cve": "CVE-2026-22735",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-22735",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-22737",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-22737",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-22741",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-22741",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-22745",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-22745",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-41839",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41840",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41841",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41841",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-41843",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41843",
+      "library": "org.springframework:spring-webmvc"
+    },
+    {
+      "cve": "CVE-2026-41847",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41852",
+      "library": "org.springframework:spring-expression"
+    },
+    {
+      "cve": "CVE-2026-41853",
+      "library": "org.springframework:spring-webflux"
+    },
+    {
+      "cve": "CVE-2026-41853",
+      "library": "org.springframework:spring-webmvc"
+    },
     {
       "cve": "CVE-2026-47893",
       "library": "org.springframework:spring-webflux"
