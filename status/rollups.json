@@ -96,7 +96,7 @@
       "editions": []
     },
     "log4j2-2.24.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-22T16:30:15Z",
       "editions": []
     },
