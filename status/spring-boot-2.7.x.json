@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.27.13",
-  "as_of": "2026-10-27T17:53:47Z",
+  "as_of": "2026-10-27T17:57:58Z",
   "status": "in progress",
-  "chain": "complete",
+  "chain": "broken: 1 artifact",
   "in_scope": 74,
   "fixed": [
     {
@@ -41,10 +41,10 @@
     {
       "cve": "CVE-2024-38807",
       "library": "org.springframework.boot:spring-boot-loader",
-      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00080",
-      "patch": "00080",
-      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00080",
-      "at": "2026-10-27T17:48:01Z"
+      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00081",
+      "patch": "00081",
+      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00081",
+      "at": "2026-10-27T17:57:58Z"
     },
     {
       "cve": "CVE-2024-38816",
@@ -145,10 +145,10 @@
     {
       "cve": "CVE-2026-22733",
       "library": "org.springframework.boot:spring-boot-starter-actuator",
-      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00080",
-      "patch": "00080",
-      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00080",
-      "at": "2026-10-27T17:48:01Z"
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00081",
+      "patch": "00081",
+      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00081",
+      "at": "2026-10-27T17:57:58Z"
     },
     {
       "cve": "CVE-2026-22740",
@@ -193,10 +193,10 @@
     {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools",
-      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00080",
-      "patch": "00080",
-      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00080",
-      "at": "2026-10-27T17:48:01Z"
+      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00081",
+      "patch": "00081",
+      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00081",
+      "at": "2026-10-27T17:57:58Z"
     },
     {
       "cve": "CVE-2026-40973",
@@ -851,7 +851,8 @@
     "promoted org.yaml:snakeyaml@1.9.1-osera-00003 is on base 1.9, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00004 is on base 1.9, the line has org.yaml:snakeyaml at 1.33",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00005 is on base 1.9, the line has org.yaml:snakeyaml at 1.33",
-    "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.33"
+    "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.33",
+    "CVE-2026-22733 on spring-boot-starter-actuator 2.7.18 is patched, the evidence chain is broken: no signature next to the jar (spring-boot-starter-actuator-2.7.18.1-osera-00081.jar.asc)"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.27.12"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.27.13"
 }
