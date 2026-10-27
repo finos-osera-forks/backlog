@@ -1,10 +1,10 @@
 {
  "bomFormat": "CycloneDX",
  "specVersion": "1.6",
- "serialNumber": "urn:uuid:c541d04b-3418-498a-8458-eca9a9e622b3",
+ "serialNumber": "urn:uuid:312df70f-2ff9-43a9-8600-e33cd6eccc79",
  "version": 1,
  "metadata": {
-  "timestamp": "2026-10-13T11:57:38Z",
+  "timestamp": "2026-10-27T23:29:02Z",
   "tools": {
    "components": [
     {
@@ -67,10 +67,6 @@
     {
      "name": "osera:gradle",
      "value": "8.14.5"
-    },
-    {
-     "name": "osera:listing",
-     "value": "curated list sha256:69795bfe352a19f7, pins.json sha256:574b2b48d85ecf94"
     }
    ]
   }
@@ -101,20 +97,6 @@
     {
      "name": "osera:resolved_by",
      "value": "gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/ch.qos.logback/logback-access@1.2.12",
-   "group": "ch.qos.logback",
-   "name": "logback-access",
-   "version": "1.2.12",
-   "purl": "pkg:maven/ch.qos.logback/logback-access@1.2.12",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -428,20 +410,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-avro@2.13.5",
-   "group": "com.fasterxml.jackson.dataformat",
-   "name": "jackson-dataformat-avro",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-avro@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.13.5",
    "group": "com.fasterxml.jackson.dataformat",
    "name": "jackson-dataformat-cbor",
@@ -465,62 +433,6 @@
     {
      "name": "osera:resolved_by",
      "value": "gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.13.5",
-   "group": "com.fasterxml.jackson.dataformat",
-   "name": "jackson-dataformat-csv",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-ion@2.13.5",
-   "group": "com.fasterxml.jackson.dataformat",
-   "name": "jackson-dataformat-ion",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-ion@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-properties@2.13.5",
-   "group": "com.fasterxml.jackson.dataformat",
-   "name": "jackson-dataformat-properties",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-properties@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf@2.13.5",
-   "group": "com.fasterxml.jackson.dataformat",
-   "name": "jackson-dataformat-protobuf",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
     }
    ]
   },
@@ -554,34 +466,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.13.5",
-   "group": "com.fasterxml.jackson.dataformat",
-   "name": "jackson-dataformat-toml",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml@2.13.5",
-   "group": "com.fasterxml.jackson.dataformat",
-   "name": "jackson-dataformat-xml",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.13.5",
    "group": "com.fasterxml.jackson.dataformat",
    "name": "jackson-dataformat-yaml",
@@ -605,118 +489,6 @@
     {
      "name": "osera:resolved_by",
      "value": "gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-eclipse-collections@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-eclipse-collections",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-eclipse-collections@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-guava",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate4@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-hibernate4",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate4@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate5-jakarta@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-hibernate5-jakarta",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate5-jakarta@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate5@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-hibernate5",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate5@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hppc@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-hppc",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hppc@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-jakarta-jsonp",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jaxrs@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-jaxrs",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jaxrs@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
     }
    ]
   },
@@ -750,48 +522,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda-money@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-joda-money",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda-money@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-joda",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-json-org@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-json-org",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-json-org@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.5",
    "group": "com.fasterxml.jackson.datatype",
    "name": "jackson-datatype-jsr310",
@@ -815,328 +545,6 @@
     {
      "name": "osera:resolved_by",
      "value": "gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr353@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-jsr353",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr353@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-pcollections@2.13.5",
-   "group": "com.fasterxml.jackson.datatype",
-   "name": "jackson-datatype-pcollections",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-pcollections@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-base@2.13.5",
-   "group": "com.fasterxml.jackson.jakarta.rs",
-   "name": "jackson-jakarta-rs-base",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-base@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-cbor-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jakarta.rs",
-   "name": "jackson-jakarta-rs-cbor-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-cbor-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-json-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jakarta.rs",
-   "name": "jackson-jakarta-rs-json-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-json-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-smile-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jakarta.rs",
-   "name": "jackson-jakarta-rs-smile-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-smile-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-xml-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jakarta.rs",
-   "name": "jackson-jakarta-rs-xml-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-xml-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-yaml-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jakarta.rs",
-   "name": "jackson-jakarta-rs-yaml-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-yaml-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.13.5",
-   "group": "com.fasterxml.jackson.jaxrs",
-   "name": "jackson-jaxrs-base",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-cbor-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jaxrs",
-   "name": "jackson-jaxrs-cbor-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-cbor-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jaxrs",
-   "name": "jackson-jaxrs-json-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-smile-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jaxrs",
-   "name": "jackson-jaxrs-smile-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-smile-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-xml-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jaxrs",
-   "name": "jackson-jaxrs-xml-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-xml-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-yaml-provider@2.13.5",
-   "group": "com.fasterxml.jackson.jaxrs",
-   "name": "jackson-jaxrs-yaml-provider",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-yaml-provider@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-all@2.13.5",
-   "group": "com.fasterxml.jackson.jr",
-   "name": "jackson-jr-all",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-all@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-annotation-support@2.13.5",
-   "group": "com.fasterxml.jackson.jr",
-   "name": "jackson-jr-annotation-support",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-annotation-support@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-objects@2.13.5",
-   "group": "com.fasterxml.jackson.jr",
-   "name": "jackson-jr-objects",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-objects@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-retrofit2@2.13.5",
-   "group": "com.fasterxml.jackson.jr",
-   "name": "jackson-jr-retrofit2",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-retrofit2@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-stree@2.13.5",
-   "group": "com.fasterxml.jackson.jr",
-   "name": "jackson-jr-stree",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-stree@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-afterburner@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-afterburner",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-afterburner@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-blackbird@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-blackbird",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-blackbird@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-guice@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-guice",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-guice@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jakarta-xmlbind-annotations@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-jakarta-xmlbind-annotations",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jakarta-xmlbind-annotations@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
     }
    ]
   },
@@ -1170,76 +578,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jsonSchema@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-jsonSchema",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jsonSchema@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-kotlin@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-kotlin",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-kotlin@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-mrbean@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-mrbean",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-mrbean@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-no-ctor-deser@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-no-ctor-deser",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-no-ctor-deser@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-osgi@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-osgi",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-osgi@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.13.5",
    "group": "com.fasterxml.jackson.module",
    "name": "jackson-module-parameter-names",
@@ -1263,76 +601,6 @@
     {
      "name": "osera:resolved_by",
      "value": "gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-paranamer@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-paranamer",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-paranamer@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.11@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-scala_2.11",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.11@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.12@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-scala_2.12",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.12@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.13@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-scala_2.13",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.13@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_3@2.13.5",
-   "group": "com.fasterxml.jackson.module",
-   "name": "jackson-module-scala_3",
-   "version": "2.13.5",
-   "purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_3@2.13.5",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "com.fasterxml.jackson:jackson-bom@2.13.5"
     }
    ]
   },
@@ -1912,20 +1180,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-all@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-all",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-all@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.101.Final",
    "group": "io.netty",
    "name": "netty-buffer",
@@ -1949,20 +1203,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-codec-haproxy@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-codec-haproxy",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-codec-haproxy@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
     }
    ]
   },
@@ -1996,62 +1236,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-codec-memcache@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-codec-memcache",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-codec-memcache@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-codec-mqtt@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-codec-mqtt",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-codec-mqtt@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-codec-redis@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-codec-redis",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-codec-redis@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-codec-smtp@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-codec-smtp",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-codec-smtp@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/io.netty/netty-codec-socks@4.1.101.Final",
    "group": "io.netty",
    "name": "netty-codec-socks",
@@ -2061,34 +1245,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-codec-stomp@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-codec-stomp",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-codec-stomp@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-codec-xml@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-codec-xml",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-codec-xml@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
     }
    ]
   },
@@ -2122,34 +1278,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-dev-tools@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-dev-tools",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-dev-tools@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-example@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-example",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-example@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.101.Final",
    "group": "io.netty",
    "name": "netty-handler-proxy",
@@ -2159,20 +1287,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-handler-ssl-ocsp@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-handler-ssl-ocsp",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-handler-ssl-ocsp@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
     }
    ]
   },
@@ -2248,34 +1362,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-tcnative-boringssl-static@2.0.61.Final",
-   "group": "io.netty",
-   "name": "netty-tcnative-boringssl-static",
-   "version": "2.0.61.Final",
-   "purl": "pkg:maven/io.netty/netty-tcnative-boringssl-static@2.0.61.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-tcnative-classes@2.0.61.Final",
-   "group": "io.netty",
-   "name": "netty-tcnative-classes",
-   "version": "2.0.61.Final",
-   "purl": "pkg:maven/io.netty/netty-tcnative-classes@2.0.61.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.101.Final",
    "group": "io.netty",
    "name": "netty-transport-classes-epoll",
@@ -2346,48 +1432,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-transport-rxtx@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-transport-rxtx",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-transport-rxtx@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-transport-sctp@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-transport-sctp",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-transport-sctp@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.netty/netty-transport-udt@4.1.101.Final",
-   "group": "io.netty",
-   "name": "netty-transport-udt",
-   "version": "4.1.101.Final",
-   "purl": "pkg:maven/io.netty/netty-transport-udt@4.1.101.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.netty:netty-bom@4.1.101.Final"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/io.netty/netty-transport@4.1.101.Final",
    "group": "io.netty",
    "name": "netty-transport",
@@ -2397,34 +1441,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor.addons/reactor-adapter@3.4.10",
-   "group": "io.projectreactor.addons",
-   "name": "reactor-adapter",
-   "version": "3.4.10",
-   "purl": "pkg:maven/io.projectreactor.addons/reactor-adapter@3.4.10",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor.addons/reactor-extra@3.4.10",
-   "group": "io.projectreactor.addons",
-   "name": "reactor-extra",
-   "version": "3.4.10",
-   "purl": "pkg:maven/io.projectreactor.addons/reactor-extra@3.4.10",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
     }
    ]
   },
@@ -2444,34 +1460,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor.kafka/reactor-kafka@1.3.22",
-   "group": "io.projectreactor.kafka",
-   "name": "reactor-kafka",
-   "version": "1.3.22",
-   "purl": "pkg:maven/io.projectreactor.kafka/reactor-kafka@1.3.22",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor.kotlin/reactor-kotlin-extensions@1.1.10",
-   "group": "io.projectreactor.kotlin",
-   "name": "reactor-kotlin-extensions",
-   "version": "1.1.10",
-   "purl": "pkg:maven/io.projectreactor.kotlin/reactor-kotlin-extensions@1.1.10",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/io.projectreactor.netty/reactor-netty-core@1.0.39",
    "group": "io.projectreactor.netty",
    "name": "reactor-netty-core",
@@ -2486,20 +1474,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor.netty/reactor-netty-http-brave@1.0.39",
-   "group": "io.projectreactor.netty",
-   "name": "reactor-netty-http-brave",
-   "version": "1.0.39",
-   "purl": "pkg:maven/io.projectreactor.netty/reactor-netty-http-brave@1.0.39",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.39",
    "group": "io.projectreactor.netty",
    "name": "reactor-netty-http",
@@ -2509,34 +1483,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor.netty/reactor-netty@1.0.39",
-   "group": "io.projectreactor.netty",
-   "name": "reactor-netty",
-   "version": "1.0.39",
-   "purl": "pkg:maven/io.projectreactor.netty/reactor-netty@1.0.39",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor.rabbitmq/reactor-rabbitmq@1.5.6",
-   "group": "io.projectreactor.rabbitmq",
-   "name": "reactor-rabbitmq",
-   "version": "1.5.6",
-   "purl": "pkg:maven/io.projectreactor.rabbitmq/reactor-rabbitmq@1.5.6",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
     }
    ]
   },
@@ -2565,34 +1511,6 @@
     {
      "name": "osera:resolved_by",
      "value": "gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor/reactor-test@3.4.34",
-   "group": "io.projectreactor",
-   "name": "reactor-test",
-   "version": "3.4.34",
-   "purl": "pkg:maven/io.projectreactor/reactor-test@3.4.34",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/io.projectreactor/reactor-tools@3.4.34",
-   "group": "io.projectreactor",
-   "name": "reactor-tools",
-   "version": "3.4.34",
-   "purl": "pkg:maven/io.projectreactor/reactor-tools@3.4.34",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "io.projectreactor:reactor-bom@2020.0.38"
     }
    ]
   },
@@ -3382,20 +2300,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-1.2-api",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.2",
    "group": "org.apache.logging.log4j",
    "name": "log4j-api",
@@ -3405,34 +2309,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-appserver@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-appserver",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-appserver@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-cassandra@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-cassandra",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-cassandra@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
     }
    ]
   },
@@ -3452,118 +2328,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-couchdb@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-couchdb",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-couchdb@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-docker@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-docker",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-docker@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-flume-ng@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-flume-ng",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-flume-ng@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-iostreams@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-iostreams",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-iostreams@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-jcl@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-jcl",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-jcl@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-jmx-gui@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-jmx-gui",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-jmx-gui@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-jpa@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-jpa",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-jpa@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-jpl@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-jpl",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-jpl@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-jul@2.17.2",
    "group": "org.apache.logging.log4j",
    "name": "log4j-jul",
@@ -3573,76 +2337,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-kubernetes@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-kubernetes",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-kubernetes@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-layout-template-json",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-liquibase@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-liquibase",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-liquibase@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-mongodb3@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-mongodb3",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-mongodb3@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-mongodb4@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-mongodb4",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-mongodb4@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
     }
    ]
   },
@@ -3662,62 +2356,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-slf4j18-impl@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-slf4j18-impl",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-slf4j18-impl@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-spring-boot@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-spring-boot",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-spring-boot@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-spring-cloud-config-client@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-spring-cloud-config-client",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-spring-cloud-config-client@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-taglib@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-taglib",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-taglib@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.2",
    "group": "org.apache.logging.log4j",
    "name": "log4j-to-slf4j",
@@ -3727,20 +2365,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-web@2.17.2",
-   "group": "org.apache.logging.log4j",
-   "name": "log4j-web",
-   "version": "2.17.2",
-   "purl": "pkg:maven/org.apache.logging.log4j/log4j-web@2.17.2",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.apache.logging.log4j:log4j-bom@2.17.2"
     }
    ]
   },
@@ -3970,20 +2594,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.83",
-   "group": "org.apache.tomcat.embed",
-   "name": "tomcat-embed-jasper",
-   "version": "9.0.83",
-   "purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.83",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.83",
    "group": "org.apache.tomcat.embed",
    "name": "tomcat-embed-websocket",
@@ -3993,48 +2603,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.83",
-   "group": "org.apache.tomcat",
-   "name": "tomcat-annotations-api",
-   "version": "9.0.83",
-   "purl": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.83",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.83",
-   "group": "org.apache.tomcat",
-   "name": "tomcat-jdbc",
-   "version": "9.0.83",
-   "purl": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.83",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.83",
-   "group": "org.apache.tomcat",
-   "name": "tomcat-jsp-api",
-   "version": "9.0.83",
-   "purl": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.83",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -4278,202 +2846,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.fcgi/fcgi-client@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.fcgi",
-   "name": "fcgi-client",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.fcgi/fcgi-client@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.fcgi/fcgi-server@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.fcgi",
-   "name": "fcgi-server",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.fcgi/fcgi-server@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.gcloud/jetty-gcloud-session-manager@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.gcloud",
-   "name": "jetty-gcloud-session-manager",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.gcloud/jetty-gcloud-session-manager@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.http2/http2-client@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.http2",
-   "name": "http2-client",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.http2/http2-client@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.http2/http2-common@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.http2",
-   "name": "http2-common",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.http2/http2-common@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.http2/http2-hpack@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.http2",
-   "name": "http2-hpack",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.http2/http2-hpack@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.http2/http2-http-client-transport@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.http2",
-   "name": "http2-http-client-transport",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.http2/http2-http-client-transport@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.http2/http2-server@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.http2",
-   "name": "http2-server",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.http2/http2-server@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.memcached/jetty-memcached-sessions@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.memcached",
-   "name": "jetty-memcached-sessions",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.memcached/jetty-memcached-sessions@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158",
-   "group": "org.eclipse.jetty.orbit",
-   "name": "javax.servlet.jsp",
-   "version": "2.2.0.v201112011158",
-   "purl": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.osgi/jetty-httpservice@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.osgi",
-   "name": "jetty-httpservice",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-httpservice@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-jsp@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.osgi",
-   "name": "jetty-osgi-boot-jsp",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-jsp@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-warurl@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.osgi",
-   "name": "jetty-osgi-boot-warurl",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-warurl@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot@9.4.53.v20231009",
-   "group": "org.eclipse.jetty.osgi",
-   "name": "jetty-osgi-boot",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.53.v20231009",
    "group": "org.eclipse.jetty.websocket",
    "name": "javax-websocket-client-impl",
@@ -4572,188 +2944,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "apache-jsp",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/apache-jstl@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "apache-jstl",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/apache-jstl@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/infinispan-common@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "infinispan-common",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/infinispan-common@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/infinispan-embedded-query@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "infinispan-embedded-query",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/infinispan-embedded-query@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/infinispan-remote-query@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "infinispan-remote-query",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/infinispan-remote-query@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-client@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-alpn-client",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-client@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-conscrypt-client@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-alpn-conscrypt-client",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-conscrypt-client@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-conscrypt-server@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-alpn-conscrypt-server",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-conscrypt-server@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-client@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-alpn-java-client",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-client@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-server@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-alpn-java-server",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-server@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-openjdk8-client@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-alpn-openjdk8-client",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-openjdk8-client@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-openjdk8-server@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-alpn-openjdk8-server",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-openjdk8-server@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-server@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-alpn-server",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-alpn-server@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.53.v20231009",
    "group": "org.eclipse.jetty",
    "name": "jetty-annotations",
@@ -4763,20 +2953,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-ant@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-ant",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-ant@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
     }
    ]
   },
@@ -4810,48 +2986,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-deploy@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-deploy",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-deploy@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-hazelcast@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-hazelcast",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-hazelcast@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http-spi@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-http-spi",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-http-spi@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.53.v20231009",
    "group": "org.eclipse.jetty",
    "name": "jetty-http",
@@ -4880,90 +3014,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jaas@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-jaas",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-jaas@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-jaspi",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-jmx",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-jndi",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-nosql@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-nosql",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-nosql@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-openid@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-openid",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-openid@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.53.v20231009",
    "group": "org.eclipse.jetty",
    "name": "jetty-plus",
@@ -4973,62 +3023,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-proxy@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-proxy",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-proxy@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-quickstart@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-quickstart",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-quickstart@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-reactive-httpclient@1.1.15",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-reactive-httpclient",
-   "version": "1.1.15",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-reactive-httpclient@1.1.15",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-rewrite@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-rewrite",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-rewrite@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
     }
    ]
   },
@@ -5085,34 +3079,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-spring@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-spring",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-spring@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-unixsocket@9.4.53.v20231009",
-   "group": "org.eclipse.jetty",
-   "name": "jetty-unixsocket",
-   "version": "9.4.53.v20231009",
-   "purl": "pkg:maven/org.eclipse.jetty/jetty-unixsocket@9.4.53.v20231009",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.eclipse.jetty:jetty-bom@9.4.53.v20231009"
     }
    ]
   },
@@ -5790,20 +3756,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.5.Final",
-   "group": "org.hibernate.validator",
-   "name": "hibernate-validator-annotation-processor",
-   "version": "6.2.5.Final",
-   "purl": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.5.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.hibernate.validator/hibernate-validator@6.2.5.Final",
    "group": "org.hibernate.validator",
    "name": "hibernate-validator",
@@ -5818,20 +3770,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-c3p0@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-c3p0",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-c3p0@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final",
    "group": "org.hibernate",
    "name": "hibernate-core",
@@ -5841,174 +3779,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-ehcache@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-ehcache",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-ehcache@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-entitymanager@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-entitymanager",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-entitymanager@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-envers@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-envers",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-envers@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-hikaricp@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-hikaricp",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-hikaricp@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-java8@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-java8",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-java8@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-jcache@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-jcache",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-jcache@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-jpamodelgen@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-jpamodelgen",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-jpamodelgen@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-micrometer@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-micrometer",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-micrometer@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-proxool@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-proxool",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-proxool@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-spatial@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-spatial",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-spatial@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-testing@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-testing",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-testing@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.hibernate/hibernate-vibur@5.6.15.Final",
-   "group": "org.hibernate",
-   "name": "hibernate-vibur",
-   "version": "5.6.15.Final",
-   "purl": "pkg:maven/org.hibernate/hibernate-vibur@5.6.15.Final",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -6756,20 +4526,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
-   "group": "org.slf4j",
-   "name": "jcl-over-slf4j",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36",
    "group": "org.slf4j",
    "name": "jul-to-slf4j",
@@ -6784,20 +4540,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.36",
-   "group": "org.slf4j",
-   "name": "log4j-over-slf4j",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.36",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
    "group": "org.slf4j",
    "name": "slf4j-api",
@@ -6807,90 +4549,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/slf4j-ext@1.7.36",
-   "group": "org.slf4j",
-   "name": "slf4j-ext",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-ext@1.7.36",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/slf4j-jcl@1.7.36",
-   "group": "org.slf4j",
-   "name": "slf4j-jcl",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-jcl@1.7.36",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/slf4j-jdk14@1.7.36",
-   "group": "org.slf4j",
-   "name": "slf4j-jdk14",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-jdk14@1.7.36",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.36",
-   "group": "org.slf4j",
-   "name": "slf4j-log4j12",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.36",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/slf4j-nop@1.7.36",
-   "group": "org.slf4j",
-   "name": "slf4j-nop",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-nop@1.7.36",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.slf4j/slf4j-simple@1.7.36",
-   "group": "org.slf4j",
-   "name": "slf4j-simple",
-   "version": "1.7.36",
-   "purl": "pkg:maven/org.slf4j/slf4j-simple@1.7.36",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -6919,48 +4577,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.amqp/spring-rabbit-junit@2.4.17",
-   "group": "org.springframework.amqp",
-   "name": "spring-rabbit-junit",
-   "version": "2.4.17",
-   "purl": "pkg:maven/org.springframework.amqp/spring-rabbit-junit@2.4.17",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.amqp/spring-rabbit-stream@2.4.17",
-   "group": "org.springframework.amqp",
-   "name": "spring-rabbit-stream",
-   "version": "2.4.17",
-   "purl": "pkg:maven/org.springframework.amqp/spring-rabbit-stream@2.4.17",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.amqp/spring-rabbit-test@2.4.17",
-   "group": "org.springframework.amqp",
-   "name": "spring-rabbit-test",
-   "version": "2.4.17",
-   "purl": "pkg:maven/org.springframework.amqp/spring-rabbit-test@2.4.17",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -7003,34 +4619,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.batch/spring-batch-integration@4.3.10",
-   "group": "org.springframework.batch",
-   "name": "spring-batch-integration",
-   "version": "4.3.10",
-   "purl": "pkg:maven/org.springframework.batch/spring-batch-integration@4.3.10",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.batch/spring-batch-test@4.3.10",
-   "group": "org.springframework.batch",
-   "name": "spring-batch-test",
-   "version": "4.3.10",
-   "purl": "pkg:maven/org.springframework.batch/spring-batch-test@4.3.10",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -8044,34 +5632,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.data/spring-data-envers@2.7.18",
-   "group": "org.springframework.data",
-   "name": "spring-data-envers",
-   "version": "2.7.18",
-   "purl": "pkg:maven/org.springframework.data/spring-data-envers@2.7.18",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.data:spring-data-bom@2021.2.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.data/spring-data-geode@2.7.18",
-   "group": "org.springframework.data",
-   "name": "spring-data-geode",
-   "version": "2.7.18",
-   "purl": "pkg:maven/org.springframework.data/spring-data-geode@2.7.18",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.data:spring-data-bom@2021.2.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.springframework.data/spring-data-jdbc@2.4.18",
    "group": "org.springframework.data",
    "name": "spring-data-jdbc",
@@ -8212,20 +5772,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.data/spring-data-rest-hal-explorer@3.7.18",
-   "group": "org.springframework.data",
-   "name": "spring-data-rest-hal-explorer",
-   "version": "3.7.18",
-   "purl": "pkg:maven/org.springframework.data/spring-data-rest-hal-explorer@3.7.18",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.data:spring-data-bom@2021.2.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18",
    "group": "org.springframework.data",
    "name": "spring-data-rest-webmvc",
@@ -8235,20 +5781,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.graphql/spring-graphql-test@1.0.6",
-   "group": "org.springframework.graphql",
-   "name": "spring-graphql-test",
-   "version": "1.0.6",
-   "purl": "pkg:maven/org.springframework.graphql/spring-graphql-test@1.0.6",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -8282,20 +5814,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-amqp@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-amqp",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-amqp@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-core@5.5.20",
    "group": "org.springframework.integration",
    "name": "spring-integration-core",
@@ -8305,538 +5823,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-event@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-event",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-event@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-feed@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-feed",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-feed@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-file",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-ftp@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-ftp",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-ftp@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-gemfire@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-gemfire",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-gemfire@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-groovy@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-groovy",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-groovy@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-http",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-ip@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-ip",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-ip@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-jdbc@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-jdbc",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-jdbc@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-jms@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-jms",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-jms@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-jmx@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-jmx",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-jmx@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-jpa@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-jpa",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-jpa@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-kafka@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-kafka",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-kafka@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-mail@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-mail",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-mail@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-mongodb@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-mongodb",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-mongodb@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-mqtt@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-mqtt",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-mqtt@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-r2dbc@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-r2dbc",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-r2dbc@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-redis@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-redis",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-redis@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-rmi@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-rmi",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-rmi@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-rsocket@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-rsocket",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-rsocket@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-scripting@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-scripting",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-scripting@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-security@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-security",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-security@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-sftp@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-sftp",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-sftp@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-stomp@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-stomp",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-stomp@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-stream@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-stream",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-stream@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-syslog@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-syslog",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-syslog@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-test-support@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-test-support",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-test-support@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-test@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-test",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-test@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-webflux@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-webflux",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-webflux@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-websocket@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-websocket",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-websocket@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-ws@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-ws",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-ws@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-xml@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-xml",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-xml@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-xmpp@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-xmpp",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-xmpp@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-zeromq@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-zeromq",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-zeromq@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-zookeeper@5.5.20",
-   "group": "org.springframework.integration",
-   "name": "spring-integration-zookeeper",
-   "version": "5.5.20",
-   "purl": "pkg:maven/org.springframework.integration/spring-integration-zookeeper@5.5.20",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.integration:spring-integration-bom@5.5.20"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.kafka/spring-kafka-test@2.8.11",
-   "group": "org.springframework.kafka",
-   "name": "spring-kafka-test",
-   "version": "2.8.11",
-   "purl": "pkg:maven/org.springframework.kafka/spring-kafka-test@2.8.11",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11",
-   "group": "org.springframework.kafka",
-   "name": "spring-kafka",
-   "version": "2.8.11",
-   "purl": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-core-tiger@2.4.1",
-   "group": "org.springframework.ldap",
-   "name": "spring-ldap-core-tiger",
-   "version": "2.4.1",
-   "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core-tiger@2.4.1",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -8856,48 +5842,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-ldif-core@2.4.1",
-   "group": "org.springframework.ldap",
-   "name": "spring-ldap-ldif-core",
-   "version": "2.4.1",
-   "purl": "pkg:maven/org.springframework.ldap/spring-ldap-ldif-core@2.4.1",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-odm@2.4.1",
-   "group": "org.springframework.ldap",
-   "name": "spring-ldap-odm",
-   "version": "2.4.1",
-   "purl": "pkg:maven/org.springframework.ldap/spring-ldap-odm@2.4.1",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-test@2.4.1",
-   "group": "org.springframework.ldap",
-   "name": "spring-ldap-test",
-   "version": "2.4.1",
-   "purl": "pkg:maven/org.springframework.ldap/spring-ldap-test@2.4.1",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.springframework.plugin/spring-plugin-core@2.0.0.RELEASE",
    "group": "org.springframework.plugin",
    "name": "spring-plugin-core",
@@ -8907,76 +5851,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-asciidoctor@2.0.8.RELEASE",
-   "group": "org.springframework.restdocs",
-   "name": "spring-restdocs-asciidoctor",
-   "version": "2.0.8.RELEASE",
-   "purl": "pkg:maven/org.springframework.restdocs/spring-restdocs-asciidoctor@2.0.8.RELEASE",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-core@2.0.8.RELEASE",
-   "group": "org.springframework.restdocs",
-   "name": "spring-restdocs-core",
-   "version": "2.0.8.RELEASE",
-   "purl": "pkg:maven/org.springframework.restdocs/spring-restdocs-core@2.0.8.RELEASE",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-mockmvc@2.0.8.RELEASE",
-   "group": "org.springframework.restdocs",
-   "name": "spring-restdocs-mockmvc",
-   "version": "2.0.8.RELEASE",
-   "purl": "pkg:maven/org.springframework.restdocs/spring-restdocs-mockmvc@2.0.8.RELEASE",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-restassured@2.0.8.RELEASE",
-   "group": "org.springframework.restdocs",
-   "name": "spring-restdocs-restassured",
-   "version": "2.0.8.RELEASE",
-   "purl": "pkg:maven/org.springframework.restdocs/spring-restdocs-restassured@2.0.8.RELEASE",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-webtestclient@2.0.8.RELEASE",
-   "group": "org.springframework.restdocs",
-   "name": "spring-restdocs-webtestclient",
-   "version": "2.0.8.RELEASE",
-   "purl": "pkg:maven/org.springframework.restdocs/spring-restdocs-webtestclient@2.0.8.RELEASE",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -9276,90 +6150,6 @@
   },
   {
    "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.session/spring-session-core@2.7.4",
-   "group": "org.springframework.session",
-   "name": "spring-session-core",
-   "version": "2.7.4",
-   "purl": "pkg:maven/org.springframework.session/spring-session-core@2.7.4",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.session:spring-session-bom@2021.2.3"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.session/spring-session-data-geode@2.7.1",
-   "group": "org.springframework.session",
-   "name": "spring-session-data-geode",
-   "version": "2.7.1",
-   "purl": "pkg:maven/org.springframework.session/spring-session-data-geode@2.7.1",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.session:spring-session-bom@2021.2.3"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.session/spring-session-data-mongodb@2.7.4",
-   "group": "org.springframework.session",
-   "name": "spring-session-data-mongodb",
-   "version": "2.7.4",
-   "purl": "pkg:maven/org.springframework.session/spring-session-data-mongodb@2.7.4",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.session:spring-session-bom@2021.2.3"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.session/spring-session-data-redis@2.7.4",
-   "group": "org.springframework.session",
-   "name": "spring-session-data-redis",
-   "version": "2.7.4",
-   "purl": "pkg:maven/org.springframework.session/spring-session-data-redis@2.7.4",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.session:spring-session-bom@2021.2.3"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.session/spring-session-hazelcast@2.7.4",
-   "group": "org.springframework.session",
-   "name": "spring-session-hazelcast",
-   "version": "2.7.4",
-   "purl": "pkg:maven/org.springframework.session/spring-session-hazelcast@2.7.4",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.session:spring-session-bom@2021.2.3"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.session/spring-session-jdbc@2.7.4",
-   "group": "org.springframework.session",
-   "name": "spring-session-jdbc",
-   "version": "2.7.4",
-   "purl": "pkg:maven/org.springframework.session/spring-session-jdbc@2.7.4",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.session:spring-session-bom@2021.2.3"
-    }
-   ]
-  },
-  {
-   "type": "library",
    "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-core@3.1.8",
    "group": "org.springframework.ws",
    "name": "spring-ws-core",
@@ -9369,48 +6159,6 @@
     {
      "name": "osera:resolved_by",
      "value": "maven,gradle"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8",
-   "group": "org.springframework.ws",
-   "name": "spring-ws-security",
-   "version": "3.1.8",
-   "purl": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-support@3.1.8",
-   "group": "org.springframework.ws",
-   "name": "spring-ws-support",
-   "version": "3.1.8",
-   "purl": "pkg:maven/org.springframework.ws/spring-ws-support@3.1.8",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
-    }
-   ]
-  },
-  {
-   "type": "library",
-   "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-test@3.1.8",
-   "group": "org.springframework.ws",
-   "name": "spring-ws-test",
-   "version": "3.1.8",
-   "purl": "pkg:maven/org.springframework.ws/spring-ws-test@3.1.8",
-   "properties": [
-    {
-     "name": "osera:listed",
-     "value": "org.springframework.boot:spring-boot-dependencies@2.7.18"
     }
    ]
   },
@@ -10030,10 +6778,6 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/ch.qos.logback/logback-access@1.2.12",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/ch.qos.logback/logback-classic@1.2.12",
    "dependsOn": [
     "pkg:maven/ch.qos.logback/logback-core@1.2.12",
@@ -10173,10 +6917,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-avro@2.13.5",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor@2.13.5",
    "dependsOn": []
   },
@@ -10188,22 +6928,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-csv@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-ion@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-properties@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf@2.13.5",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-smile@2.13.5",
    "dependsOn": []
   },
@@ -10212,51 +6936,11 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-xml@2.13.5",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.13.5",
    "dependsOn": []
   },
   {
    "ref": "pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml@2.14.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-eclipse-collections@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate4@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate5-jakarta@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hibernate5@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-hppc@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jaxrs@2.13.5",
    "dependsOn": []
   },
   {
@@ -10271,18 +6955,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda-money@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-joda@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-json-org@2.13.5",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.5",
    "dependsOn": []
   },
@@ -10293,98 +6965,6 @@
     "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
     "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2"
    ]
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr353@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-pcollections@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-base@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-cbor-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-json-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-smile-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-xml-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jakarta.rs/jackson-jakarta-rs-yaml-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-base@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-cbor-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-smile-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-xml-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jaxrs/jackson-jaxrs-yaml-provider@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-all@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-annotation-support@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-objects@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-retrofit2@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-stree@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-afterburner@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-blackbird@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-guice@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jakarta-xmlbind-annotations@2.13.5",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jaxb-annotations@2.13.5",
@@ -10401,26 +6981,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-jsonSchema@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-kotlin@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-mrbean@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-no-ctor-deser@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-osgi@2.13.5",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.13.5",
    "dependsOn": []
   },
@@ -10430,26 +6990,6 @@
     "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.2",
     "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.2"
    ]
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-paranamer@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.11@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.12@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_2.13@2.13.5",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/com.fasterxml.jackson.module/jackson-module-scala_3@2.13.5",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3",
@@ -10675,10 +7215,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/io.netty/netty-all@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/io.netty/netty-buffer@4.1.101.Final",
    "dependsOn": [
     "pkg:maven/io.netty/netty-common@4.1.101.Final"
@@ -10692,10 +7228,6 @@
     "pkg:maven/io.netty/netty-common@4.1.101.Final",
     "pkg:maven/io.netty/netty-transport@4.1.101.Final"
    ]
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-codec-haproxy@4.1.101.Final",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/io.netty/netty-codec-http2@4.1.101.Final",
@@ -10719,22 +7251,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/io.netty/netty-codec-memcache@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-codec-mqtt@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-codec-redis@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-codec-smtp@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/io.netty/netty-codec-socks@4.1.101.Final",
    "dependsOn": [
     "pkg:maven/io.netty/netty-buffer@4.1.101.Final",
@@ -10742,14 +7258,6 @@
     "pkg:maven/io.netty/netty-common@4.1.101.Final",
     "pkg:maven/io.netty/netty-transport@4.1.101.Final"
    ]
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-codec-stomp@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-codec-xml@4.1.101.Final",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/io.netty/netty-codec@4.1.101.Final",
@@ -10764,14 +7272,6 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/io.netty/netty-dev-tools@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-example@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.101.Final",
    "dependsOn": [
     "pkg:maven/io.netty/netty-buffer@4.1.101.Final",
@@ -10781,10 +7281,6 @@
     "pkg:maven/io.netty/netty-common@4.1.101.Final",
     "pkg:maven/io.netty/netty-transport@4.1.101.Final"
    ]
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-handler-ssl-ocsp@4.1.101.Final",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/io.netty/netty-handler@4.1.101.Final",
@@ -10828,14 +7324,6 @@
    "dependsOn": [
     "pkg:maven/io.netty/netty-common@4.1.101.Final"
    ]
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-tcnative-boringssl-static@2.0.61.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-tcnative-classes@2.0.61.Final",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.101.Final",
@@ -10884,18 +7372,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/io.netty/netty-transport-rxtx@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-transport-sctp@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.netty/netty-transport-udt@4.1.101.Final",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/io.netty/netty-transport@4.1.101.Final",
    "dependsOn": [
     "pkg:maven/io.netty/netty-buffer@4.1.101.Final",
@@ -10904,26 +7380,10 @@
    ]
   },
   {
-   "ref": "pkg:maven/io.projectreactor.addons/reactor-adapter@3.4.10",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.projectreactor.addons/reactor-extra@3.4.10",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/io.projectreactor.addons/reactor-pool@0.2.12",
    "dependsOn": [
     "pkg:maven/io.projectreactor/reactor-core@3.4.41"
    ]
-  },
-  {
-   "ref": "pkg:maven/io.projectreactor.kafka/reactor-kafka@1.3.22",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.projectreactor.kotlin/reactor-kotlin-extensions@1.1.10",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/io.projectreactor.netty/reactor-netty-core@1.0.39",
@@ -10935,10 +7395,6 @@
     "pkg:maven/io.netty/netty-transport-native-epoll@4.1.101.Final?classifier=linux-x86_64",
     "pkg:maven/io.projectreactor/reactor-core@3.4.41"
    ]
-  },
-  {
-   "ref": "pkg:maven/io.projectreactor.netty/reactor-netty-http-brave@1.0.39",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.39",
@@ -10953,14 +7409,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/io.projectreactor.netty/reactor-netty@1.0.39",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.projectreactor.rabbitmq/reactor-rabbitmq@1.5.6",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/io.projectreactor/reactor-core@3.4.34",
    "dependsOn": [
     "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
@@ -10971,14 +7419,6 @@
    "dependsOn": [
     "pkg:maven/org.reactivestreams/reactive-streams@1.0.4"
    ]
-  },
-  {
-   "ref": "pkg:maven/io.projectreactor/reactor-test@3.4.34",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/io.projectreactor/reactor-tools@3.4.34",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/io.r2dbc/r2dbc-pool@0.9.2.RELEASE",
@@ -11300,19 +7740,7 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.17.2",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-appserver@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-cassandra@2.17.2",
    "dependsOn": []
   },
   {
@@ -11322,62 +7750,10 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-couchdb@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-docker@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-flume-ng@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-iostreams@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-jcl@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-jmx-gui@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-jpa@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-jpl@2.17.2",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.apache.logging.log4j/log4j-jul@2.17.2",
    "dependsOn": [
     "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.2"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-kubernetes@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-liquibase@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-mongodb3@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-mongodb4@2.17.2",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.17.2",
@@ -11388,31 +7764,11 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-slf4j18-impl@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-spring-boot@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-spring-cloud-config-client@2.17.2",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-taglib@2.17.2",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.2",
    "dependsOn": [
     "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.2",
     "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.apache.logging.log4j/log4j-web@2.17.2",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.11.1",
@@ -11483,26 +7839,10 @@
    "dependsOn": []
   },
   {
-   "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.83",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.83",
    "dependsOn": [
     "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.83"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.83",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.tomcat/tomcat-jdbc@9.0.83",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.apache.tomcat/tomcat-jsp-api@9.0.83",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.apache.velocity/velocity@1.7",
@@ -11589,62 +7929,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.eclipse.jetty.fcgi/fcgi-client@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.fcgi/fcgi-server@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.gcloud/jetty-gcloud-session-manager@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.http2/http2-client@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.http2/http2-common@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.http2/http2-hpack@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.http2/http2-http-client-transport@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.http2/http2-server@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.memcached/jetty-memcached-sessions@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.orbit/javax.servlet.jsp@2.2.0.v201112011158",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.osgi/jetty-httpservice@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-jsp@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot-warurl@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty.osgi/jetty-osgi-boot@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.eclipse.jetty.websocket/javax-websocket-client-impl@9.4.53.v20231009",
    "dependsOn": [
     "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.53.v20231009"
@@ -11696,58 +7980,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.eclipse.jetty/apache-jsp@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/apache-jstl@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/infinispan-common@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/infinispan-embedded-query@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/infinispan-remote-query@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-client@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-conscrypt-client@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-conscrypt-server@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-client@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-java-server@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-openjdk8-client@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-openjdk8-server@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-alpn-server@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.eclipse.jetty/jetty-annotations@9.4.53.v20231009",
    "dependsOn": [
     "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.53.v20231009",
@@ -11755,10 +7987,6 @@
     "pkg:maven/org.ow2.asm/asm-commons@9.6",
     "pkg:maven/org.ow2.asm/asm@9.6"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-ant@9.4.53.v20231009",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.53.v20231009",
@@ -11769,18 +7997,6 @@
   },
   {
    "ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-deploy@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-hazelcast@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-http-spi@9.4.53.v20231009",
    "dependsOn": []
   },
   {
@@ -11797,50 +8013,10 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-jaas@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-jmx@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-jndi@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-nosql@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-openid@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.eclipse.jetty/jetty-plus@9.4.53.v20231009",
    "dependsOn": [
     "pkg:maven/org.eclipse.jetty/jetty-webapp@9.4.53.v20231009"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-proxy@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-quickstart@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-reactive-httpclient@1.1.15",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-rewrite@9.4.53.v20231009",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.53.v20231009",
@@ -11870,14 +8046,6 @@
     "pkg:maven/org.eclipse.jetty/jetty-io@9.4.53.v20231009",
     "pkg:maven/org.eclipse.jetty/jetty-util@9.4.53.v20231009"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-spring@9.4.53.v20231009",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.eclipse.jetty/jetty-unixsocket@9.4.53.v20231009",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.eclipse.jetty/jetty-util-ajax@9.4.53.v20231009",
@@ -12244,20 +8412,12 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.hibernate.validator/hibernate-validator-annotation-processor@6.2.5.Final",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.hibernate.validator/hibernate-validator@6.2.5.Final",
    "dependsOn": [
     "pkg:maven/com.fasterxml/classmate@1.5.1",
     "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2",
     "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-c3p0@5.6.15.Final",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final",
@@ -12270,54 +8430,6 @@
     "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final",
     "pkg:maven/org.jboss/jandex@2.4.2.Final"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-ehcache@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-entitymanager@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-envers@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-hikaricp@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-java8@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-jcache@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-jpamodelgen@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-micrometer@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-proxool@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-spatial@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-testing@5.6.15.Final",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.hibernate/hibernate-vibur@5.6.15.Final",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.jasig.cas.client/cas-client-core@3.6.4",
@@ -12698,45 +8810,13 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36",
    "dependsOn": [
     "pkg:maven/org.slf4j/slf4j-api@1.7.36"
    ]
   },
   {
-   "ref": "pkg:maven/org.slf4j/log4j-over-slf4j@1.7.36",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.slf4j/slf4j-ext@1.7.36",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.slf4j/slf4j-jcl@1.7.36",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.slf4j/slf4j-jdk14@1.7.36",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.36",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.slf4j/slf4j-nop@1.7.36",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.slf4j/slf4j-simple@1.7.36",
    "dependsOn": []
   },
   {
@@ -12751,18 +8831,6 @@
     "pkg:maven/org.springframework.retry/spring-retry@1.3.4",
     "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.springframework.amqp/spring-rabbit-junit@2.4.17",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.amqp/spring-rabbit-stream@2.4.17",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.amqp/spring-rabbit-test@2.4.17",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.springframework.amqp/spring-rabbit@2.4.17",
@@ -12794,14 +8862,6 @@
     "pkg:maven/org.springframework.retry/spring-retry@1.3.4",
     "pkg:maven/org.springframework/spring-core@5.3.39"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.springframework.batch/spring-batch-integration@4.3.10",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.batch/spring-batch-test@4.3.10",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18",
@@ -13433,14 +9493,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.data/spring-data-envers@2.7.18",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.data/spring-data-geode@2.7.18",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.springframework.data/spring-data-jdbc@2.4.18",
    "dependsOn": [
     "pkg:maven/org.slf4j/slf4j-api@1.7.36",
@@ -13563,10 +9615,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.data/spring-data-rest-hal-explorer@3.7.18",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18",
    "dependsOn": [
     "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.2",
@@ -13575,10 +9623,6 @@
     "pkg:maven/org.springframework.data/spring-data-rest-core@3.7.18",
     "pkg:maven/org.springframework/spring-webmvc@5.3.39"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.springframework.graphql/spring-graphql-test@1.0.6",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.springframework.graphql/spring-graphql@1.0.6",
@@ -13602,10 +9646,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-amqp@5.5.20",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.springframework.integration/spring-integration-core@5.5.20",
    "dependsOn": [
     "pkg:maven/io.projectreactor/reactor-core@3.4.41",
@@ -13617,158 +9657,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-event@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-feed@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-ftp@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-gemfire@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-groovy@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-ip@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-jdbc@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-jms@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-jmx@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-jpa@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-kafka@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-mail@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-mongodb@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-mqtt@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-r2dbc@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-redis@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-rmi@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-rsocket@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-scripting@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-security@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-sftp@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-stomp@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-stream@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-syslog@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-test-support@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-test@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-webflux@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-websocket@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-ws@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-xml@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-xmpp@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-zeromq@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.integration/spring-integration-zookeeper@5.5.20",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.kafka/spring-kafka-test@2.8.11",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.ldap/spring-ldap-core-tiger@2.4.1",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.1",
    "dependsOn": [
     "pkg:maven/org.slf4j/slf4j-api@1.7.36",
@@ -13778,18 +9666,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.ldap/spring-ldap-ldif-core@2.4.1",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.ldap/spring-ldap-odm@2.4.1",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.ldap/spring-ldap-test@2.4.1",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.springframework.plugin/spring-plugin-core@2.0.0.RELEASE",
    "dependsOn": [
     "pkg:maven/org.slf4j/slf4j-api@1.7.36",
@@ -13797,26 +9673,6 @@
     "pkg:maven/org.springframework/spring-beans@5.3.39",
     "pkg:maven/org.springframework/spring-context@5.3.39"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-asciidoctor@2.0.8.RELEASE",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-core@2.0.8.RELEASE",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-mockmvc@2.0.8.RELEASE",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-restassured@2.0.8.RELEASE",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.restdocs/spring-restdocs-webtestclient@2.0.8.RELEASE",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.springframework.retry/spring-retry@1.3.4",
@@ -14027,30 +9883,6 @@
    ]
   },
   {
-   "ref": "pkg:maven/org.springframework.session/spring-session-core@2.7.4",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.session/spring-session-data-geode@2.7.1",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.session/spring-session-data-mongodb@2.7.4",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.session/spring-session-data-redis@2.7.4",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.session/spring-session-hazelcast@2.7.4",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.session/spring-session-jdbc@2.7.4",
-   "dependsOn": []
-  },
-  {
    "ref": "pkg:maven/org.springframework.ws/spring-ws-core@3.1.8",
    "dependsOn": [
     "pkg:maven/org.springframework.ws/spring-xml@3.1.8",
@@ -14061,18 +9893,6 @@
     "pkg:maven/org.springframework/spring-web@5.3.39",
     "pkg:maven/org.springframework/spring-webmvc@5.3.39"
    ]
-  },
-  {
-   "ref": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.ws/spring-ws-support@3.1.8",
-   "dependsOn": []
-  },
-  {
-   "ref": "pkg:maven/org.springframework.ws/spring-ws-test@3.1.8",
-   "dependsOn": []
   },
   {
    "ref": "pkg:maven/org.springframework.ws/spring-xml@3.1.8",
