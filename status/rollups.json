@@ -41,12 +41,12 @@
       "editions": []
     },
     "commons-text-1.6.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-21T13:31:52Z",
       "editions": []
     },
     "commons-text-1.7.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-21T13:37:06Z",
       "editions": []
     },

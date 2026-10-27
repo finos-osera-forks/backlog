@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-27T23:53:00Z. Written by the line manager reconciler.
+Generated 2026-10-27T23:59:00Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -16,8 +16,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | in progress | 3 | 2 | 67% | 2 | 0 | 1 | 0 |
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
-| commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
-| commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
+| commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
+| commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 |
@@ -51,7 +51,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-114 libraries across 40 line(s).
+115 libraries across 40 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -90,7 +90,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.activemq:activemq-client | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 2 | 67% | 2 | 0 | 1 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-compress | 1.21 | spring-boot-2.7.x | pulled in by a dependency (org.springframework.boot:spring-boot-buildpack-platform@2.7.18) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.commons:commons-lang3 | 3.9 | commons-text-1.8.x | own project (the anchor's group) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.commons:commons-lang3 | 3.8.1 | commons-text-1.6.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.commons:commons-lang3 | 3.9 | commons-text-1.7.x, commons-text-1.8.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-lang3 | 3.11 | commons-text-1.9.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-text | 1.6 | commons-text-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.1-osera-00001 | 1.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.7 | commons-text-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.7.1-osera-00001 | 1.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
