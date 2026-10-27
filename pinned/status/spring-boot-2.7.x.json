@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.27.13",
-  "as_of": "2026-10-27T17:57:58Z",
+  "book_version": "v2026.10.27.14",
+  "as_of": "2026-10-27T18:00:07Z",
   "status": "in progress",
-  "chain": "broken: 1 artifact",
+  "chain": "complete",
   "in_scope": 189,
   "fixed": [
     {
@@ -81,10 +81,10 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00080",
-      "patch": "00080",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00080",
-      "at": "2026-10-27T17:51:04Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
+      "patch": "00081",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
+      "at": "2026-10-27T18:00:07Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -153,10 +153,10 @@
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00080",
-      "patch": "00080",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00080",
-      "at": "2026-10-27T17:51:04Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
+      "patch": "00081",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
+      "at": "2026-10-27T18:00:07Z"
     },
     {
       "cve": "CVE-2026-40987",
@@ -1013,6 +1013,7 @@
     "fixed, not in the backlog: CVE-2026-34479 on org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-34479 on org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-34479 on org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00004",
+    "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
     "fixed, not in the backlog: CVE-2026-41696 on org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00006",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-54514 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00006",
@@ -1416,8 +1417,7 @@
     "promoted org.yaml:snakeyaml@1.9.1-osera-00003 is on base 1.9, the line has org.yaml:snakeyaml at 1.30, 1.33",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00004 is on base 1.9, the line has org.yaml:snakeyaml at 1.30, 1.33",
     "promoted org.yaml:snakeyaml@1.9.1-osera-00005 is on base 1.9, the line has org.yaml:snakeyaml at 1.30, 1.33",
-    "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.30, 1.33",
-    "CVE-2026-22733 on spring-boot-starter-actuator 2.7.18 is patched, the evidence chain is broken: no signature next to the jar (spring-boot-starter-actuator-2.7.18.1-osera-00081.jar.asc)"
+    "promoted org.yaml:snakeyaml@1.9.1-osera-00006 is on base 1.9, the line has org.yaml:snakeyaml at 1.30, 1.33"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.27.12"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.27.13"
 }
