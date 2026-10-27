@@ -1,7 +1,1616 @@
 {
-  "generated_at": "2026-10-22T21:20:51Z",
-  "feed_version": 110,
+  "generated_at": "2026-10-27T16:49:14Z",
+  "feed_version": 111,
   "sets": [
+    {
+      "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "org.apache.axis:axis@1.4.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "org.apache.axis:axis@1.4.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "org.apache.axis:axis@1.4.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00001",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00001",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00002",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00002",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00003",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00003",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00004",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00004",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00005",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00005",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00006",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00006",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00007",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00007",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00008",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00008",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00008"
+      ],
+      "state": "in the feed",
+      "statements": 8
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00009",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00009",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00009"
+      ],
+      "state": "in the feed",
+      "statements": 9
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00010",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00010",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00010"
+      ],
+      "state": "in the feed",
+      "statements": 10
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00011",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00011",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00011"
+      ],
+      "state": "in the feed",
+      "statements": 11
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00012",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00012",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00012"
+      ],
+      "state": "in the feed",
+      "statements": 12
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00013",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00013",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00013"
+      ],
+      "state": "in the feed",
+      "statements": 13
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00014",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00014",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00014"
+      ],
+      "state": "in the feed",
+      "statements": 14
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00015",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00015",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00015"
+      ],
+      "state": "in the feed",
+      "statements": 15
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00016",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00016",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00016"
+      ],
+      "state": "in the feed",
+      "statements": 16
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00017",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00017",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00017"
+      ],
+      "state": "in the feed",
+      "statements": 17
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00018",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00018",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00018"
+      ],
+      "state": "in the feed",
+      "statements": 18
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00019",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00019",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00019"
+      ],
+      "state": "in the feed",
+      "statements": 19
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00020",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00020",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00020"
+      ],
+      "state": "in the feed",
+      "statements": 20
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00021",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00021",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00021"
+      ],
+      "state": "in the feed",
+      "statements": 21
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00022",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00022",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00022"
+      ],
+      "state": "in the feed",
+      "statements": 22
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00023",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00023",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00023"
+      ],
+      "state": "in the feed",
+      "statements": 23
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00024",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00024",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00024"
+      ],
+      "state": "in the feed",
+      "statements": 24
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00025",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00025",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00025"
+      ],
+      "state": "in the feed",
+      "statements": 25
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00026",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00026",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00026"
+      ],
+      "state": "in the feed",
+      "statements": 26
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00027",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00027",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00027"
+      ],
+      "state": "in the feed",
+      "statements": 27
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00028",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00028",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00028"
+      ],
+      "state": "in the feed",
+      "statements": 28
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00001",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00001",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00001",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00001",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00002",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00002",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00002",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00002",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00003",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00003",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00003",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00003",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00004",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00004",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00004",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00004",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00005",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00005",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00005",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00005",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00006",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00006",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00006",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00006",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00007",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00007",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00007",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00007",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00008",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00008",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00008",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00008",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00008"
+      ],
+      "state": "in the feed",
+      "statements": 8
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00009",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00009",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00009",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00009",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00009"
+      ],
+      "state": "in the feed",
+      "statements": 9
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00010",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00010",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00010",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00010",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00010"
+      ],
+      "state": "in the feed",
+      "statements": 10
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00011",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00011",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00011",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00011",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00011"
+      ],
+      "state": "in the feed",
+      "statements": 11
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00012",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00012",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00012",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00012",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00012"
+      ],
+      "state": "in the feed",
+      "statements": 12
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00013",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00013",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00013",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00013",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00013"
+      ],
+      "state": "in the feed",
+      "statements": 13
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00014",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00014",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00014",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00014",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00014"
+      ],
+      "state": "in the feed",
+      "statements": 15
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00015",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00015",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00015",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00015",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00015"
+      ],
+      "state": "in the feed",
+      "statements": 16
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00016",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00016",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00016",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00016",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00016"
+      ],
+      "state": "in the feed",
+      "statements": 17
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00017",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00017",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00017",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00017",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00017"
+      ],
+      "state": "in the feed",
+      "statements": 18
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00018",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00018",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00018",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00018",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00018"
+      ],
+      "state": "in the feed",
+      "statements": 19
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00019",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00019",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00019",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00019",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00019"
+      ],
+      "state": "in the feed",
+      "statements": 20
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00020",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00020",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00020",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00020",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00020"
+      ],
+      "state": "in the feed",
+      "statements": 22
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00021",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00021",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00021",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00021",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00021"
+      ],
+      "state": "in the feed",
+      "statements": 24
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00022",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00022",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00022",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00022",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00022"
+      ],
+      "state": "in the feed",
+      "statements": 26
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00023",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00023",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00023",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00023",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00023"
+      ],
+      "state": "in the feed",
+      "statements": 27
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00024",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00024",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00024",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00024",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00024"
+      ],
+      "state": "in the feed",
+      "statements": 28
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00025",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00025",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00025",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00025",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00025"
+      ],
+      "state": "in the feed",
+      "statements": 29
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00026",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00026",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00026",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00026",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00026"
+      ],
+      "state": "in the feed",
+      "statements": 30
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00027",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00027",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00027",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00027",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00027"
+      ],
+      "state": "in the feed",
+      "statements": 31
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00028",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00028",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00028",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00028",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00028"
+      ],
+      "state": "in the feed",
+      "statements": 32
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00029",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00029",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00029",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00029",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00029"
+      ],
+      "state": "in the feed",
+      "statements": 33
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00030",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00030",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00030",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00030",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00030"
+      ],
+      "state": "in the feed",
+      "statements": 34
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00031",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00031",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00031",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00031",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00031"
+      ],
+      "state": "in the feed",
+      "statements": 35
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00032",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00032",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00032",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00032",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00032"
+      ],
+      "state": "in the feed",
+      "statements": 36
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00033",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00033",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00033",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00033",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00033"
+      ],
+      "state": "in the feed",
+      "statements": 37
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00034",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00034",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00034",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00034",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00034"
+      ],
+      "state": "in the feed",
+      "statements": 38
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00035",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00035",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00035",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00035",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00035"
+      ],
+      "state": "in the feed",
+      "statements": 39
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00036",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00036",
+        "org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00036",
+        "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00036",
+        "org.bouncycastle:bcutil-jdk15on@1.69.1-osera-00036"
+      ],
+      "state": "in the feed",
+      "statements": 40
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00001",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00001",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00001",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00001",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00002",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00002",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00002",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00002",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00003",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00003",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00003",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00003",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00004",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00004",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00004",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00004",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00005",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00005",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00005",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00005",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00006",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00006",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00006",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00006",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00007",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00007",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00007",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00007",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00008",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00008",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00008",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00008",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00008"
+      ],
+      "state": "in the feed",
+      "statements": 8
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00009",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00009",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00009",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00009",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00009"
+      ],
+      "state": "in the feed",
+      "statements": 9
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00010",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00010",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00010",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00010",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00010"
+      ],
+      "state": "in the feed",
+      "statements": 10
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00011",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00011",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00011",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00011",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00011"
+      ],
+      "state": "in the feed",
+      "statements": 11
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00012",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00012",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00012",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00012",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00012"
+      ],
+      "state": "in the feed",
+      "statements": 12
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00013",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00013",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00013",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00013",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00013"
+      ],
+      "state": "in the feed",
+      "statements": 13
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00014",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00014",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00014",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00014",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00014"
+      ],
+      "state": "in the feed",
+      "statements": 15
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00015",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00015",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00015",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00015",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00015"
+      ],
+      "state": "in the feed",
+      "statements": 16
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00016",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00016",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00016",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00016",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00016"
+      ],
+      "state": "in the feed",
+      "statements": 17
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00017",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00017",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00017",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00017",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00017"
+      ],
+      "state": "in the feed",
+      "statements": 18
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00018",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00018",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00018",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00018",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00018"
+      ],
+      "state": "in the feed",
+      "statements": 19
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00019",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00019",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00019",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00019",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00019"
+      ],
+      "state": "in the feed",
+      "statements": 20
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00020",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00020",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00020",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00020",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00020"
+      ],
+      "state": "in the feed",
+      "statements": 21
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00021",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00021",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00021",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00021",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00021"
+      ],
+      "state": "in the feed",
+      "statements": 22
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00022",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00022",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00022",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00022",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00022"
+      ],
+      "state": "in the feed",
+      "statements": 23
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00023",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00023",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00023",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00023",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00023"
+      ],
+      "state": "in the feed",
+      "statements": 25
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00024",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00024",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00024",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00024",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00024"
+      ],
+      "state": "in the feed",
+      "statements": 27
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00025",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00025",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00025",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00025",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00025"
+      ],
+      "state": "in the feed",
+      "statements": 29
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00026",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00026",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00026",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00026",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00026"
+      ],
+      "state": "in the feed",
+      "statements": 30
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00027",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00027",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00027",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00027",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00027"
+      ],
+      "state": "in the feed",
+      "statements": 31
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00028",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00028",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00028",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00028",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00028"
+      ],
+      "state": "in the feed",
+      "statements": 32
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00029",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00029",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00029",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00029",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00029"
+      ],
+      "state": "in the feed",
+      "statements": 33
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00030",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00030",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00030",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00030",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00030"
+      ],
+      "state": "in the feed",
+      "statements": 34
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00031",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00031",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00031",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00031",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00031"
+      ],
+      "state": "in the feed",
+      "statements": 35
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00032",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00032",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00032",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00032",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00032"
+      ],
+      "state": "in the feed",
+      "statements": 36
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00033",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00033",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00033",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00033",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00033"
+      ],
+      "state": "in the feed",
+      "statements": 37
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00034",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00034",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00034",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00034",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00034"
+      ],
+      "state": "in the feed",
+      "statements": 38
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00035",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00035",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00035",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00035",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00035"
+      ],
+      "state": "in the feed",
+      "statements": 39
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00036",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00036",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00036",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00036",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00036"
+      ],
+      "state": "in the feed",
+      "statements": 40
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00037",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00037",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00037",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00037"
+      ],
+      "state": "in the feed",
+      "statements": 41
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00001",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00001",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00001",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00002",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00002",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00002",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00003",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00003",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00003",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00004",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00004",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00004",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00005",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00005",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00005",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00006",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00006",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00006",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00007",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00007",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00007",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 8
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00008",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00008",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00008",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00008"
+      ],
+      "state": "in the feed",
+      "statements": 9
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00009",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00009",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00009",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00009"
+      ],
+      "state": "in the feed",
+      "statements": 10
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00010",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00010",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00010",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00010"
+      ],
+      "state": "in the feed",
+      "statements": 11
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00011",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00011",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00011",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00011"
+      ],
+      "state": "in the feed",
+      "statements": 13
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00012",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00012",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00012",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00012"
+      ],
+      "state": "in the feed",
+      "statements": 15
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00013",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00013",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00013",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00013"
+      ],
+      "state": "in the feed",
+      "statements": 16
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00014",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00014",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00014",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00014"
+      ],
+      "state": "in the feed",
+      "statements": 17
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00015",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00015",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00015",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00015"
+      ],
+      "state": "in the feed",
+      "statements": 18
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00016",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00016",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00016",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00016"
+      ],
+      "state": "in the feed",
+      "statements": 19
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00017",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00017",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00017",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00017"
+      ],
+      "state": "in the feed",
+      "statements": 20
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00018",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00018",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00018",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00018"
+      ],
+      "state": "in the feed",
+      "statements": 21
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00019",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00019",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00019",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00019"
+      ],
+      "state": "in the feed",
+      "statements": 22
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00020",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00020",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00020",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00020"
+      ],
+      "state": "in the feed",
+      "statements": 23
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00021",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00021",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00021",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00021"
+      ],
+      "state": "in the feed",
+      "statements": 24
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00022",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00022",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00022",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00022"
+      ],
+      "state": "in the feed",
+      "statements": 26
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00023",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00023",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00023",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00023"
+      ],
+      "state": "in the feed",
+      "statements": 28
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00024",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00024",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00024",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00024"
+      ],
+      "state": "in the feed",
+      "statements": 30
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00025",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00025",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00025",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00025"
+      ],
+      "state": "in the feed",
+      "statements": 31
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00026",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00026",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00026",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00026"
+      ],
+      "state": "in the feed",
+      "statements": 32
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00027",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00027",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00027",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00027"
+      ],
+      "state": "in the feed",
+      "statements": 33
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00028",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00028",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00028",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00028"
+      ],
+      "state": "in the feed",
+      "statements": 34
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00029",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00029",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00029",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00029"
+      ],
+      "state": "in the feed",
+      "statements": 35
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00030",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00030",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00030",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00030"
+      ],
+      "state": "in the feed",
+      "statements": 36
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00031",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00031",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00031",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00031"
+      ],
+      "state": "in the feed",
+      "statements": 38
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00032",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00032",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00032",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00032"
+      ],
+      "state": "in the feed",
+      "statements": 40
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00033",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00033",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00033",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00033"
+      ],
+      "state": "in the feed",
+      "statements": 41
+    },
+    {
+      "set": "finos-osera-forks/patch-c3p0@v0.9.5.5.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.mchange:c3p0@0.9.5.5.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-c3p0@v0.9.5.5.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "com.mchange:c3p0@0.9.5.5.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-c3p0@v0.9.5.5.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "com.mchange:c3p0@0.9.5.5.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-beanutils@v1.6.1.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "commons-beanutils:commons-beanutils@1.6.1.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-beanutils@v1.6.1.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "commons-beanutils:commons-beanutils@1.6.1.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-beanutils@v1.8.3.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "commons-beanutils:commons-beanutils@1.8.3.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-beanutils@v1.8.3.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "commons-beanutils:commons-beanutils@1.8.3.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
     {
       "set": "finos-osera-forks/patch-commons-beanutils@v1.9.4.1-osera-00001",
       "members": 1,
@@ -16,6 +1625,24 @@
       "members": 1,
       "coordinates": [
         "commons-collections:commons-collections@3.0.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-configuration@v1.1.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "commons-configuration:commons-configuration@1.1.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-configuration@v1.9.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "commons-configuration:commons-configuration@1.9.1-osera-00001"
       ],
       "state": "in the feed",
       "statements": 1
@@ -55,6 +1682,24 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-dom4j@v1.4.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "dom4j:dom4j@1.4.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-dom4j@v1.4.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "dom4j:dom4j@1.4.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-hibernate-orm@v5.6.15.Final-osera-00001",
@@ -3952,6 +5597,149 @@
       ]
     },
     {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00001",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00001",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00001",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00001",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00001",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00002",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00002",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00002",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00002",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00002",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00003",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00003",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00003",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00003",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00003",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00004",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00004",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00004",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00004",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00004",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00005",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00005",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00005",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00005",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00005",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00006",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00006",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00006",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00006",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00006",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00007",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00007",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00007",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00007",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00007",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 8
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00008",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00008",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00008",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00008",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00008",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00008"
+      ],
+      "state": "in the feed",
+      "statements": 9
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00009",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00009",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00009",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00009",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00009",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00009"
+      ],
+      "state": "in the feed",
+      "statements": 10
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00010",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00010",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00010",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00010",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00010"
+      ],
+      "state": "in the feed",
+      "statements": 12
+    },
+    {
+      "set": "finos-osera-forks/patch-jetty.project@v9.2.30.v20200428-osera-00011",
+      "members": 5,
+      "coordinates": [
+        "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
+        "org.eclipse.jetty:jetty-io@9.2.30.v20200428-osera-00011",
+        "org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00011",
+        "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
+        "org.eclipse.jetty:jetty-util@9.2.30.v20200428-osera-00011"
+      ],
+      "state": "in the feed",
+      "statements": 13
+    },
+    {
       "set": "finos-osera-forks/patch-jetty.project@v9.4.58.v20250814-osera-00001",
       "members": 64,
       "coordinates": [
@@ -4256,6 +6044,51 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-log4j@v1.2.17.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "log4j:log4j@1.2.17.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-log4j@v1.2.17.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "log4j:log4j@1.2.17.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-log4j@v1.2.17.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "log4j:log4j@1.2.17.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-log4j@v1.2.17.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "log4j:log4j@1.2.17.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
+      "set": "finos-osera-forks/patch-log4j@v1.2.17.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "log4j:log4j@1.2.17.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 7
     },
     {
       "set": "finos-osera-forks/patch-logback@v1.2.13.1-osera-00001",
@@ -4642,6 +6475,24 @@
       "statements": 7
     },
     {
+      "set": "finos-osera-forks/patch-mchange-commons-java@v0.2.20.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.mchange:mchange-commons-java@0.2.20.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-mchange-commons-java@v0.2.20.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "com.mchange:mchange-commons-java@0.2.20.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
       "set": "finos-osera-forks/patch-reactor@v2020.0.47.1-osera-00001",
       "members": 14,
       "coordinates": [
@@ -4929,6 +6780,123 @@
       "statements": 6
     },
     {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.23.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.23.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.26.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.26.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.26.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.26.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.26.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.26.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.26.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.26.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.26.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.26.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.26.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.26.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.27.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.27.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.27.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.27.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.27.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.27.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.27.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.27.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.27.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.27.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.27.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.27.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
       "set": "finos-osera-forks/patch-snakeyaml@v1.28.1-osera-00001",
       "members": 1,
       "coordinates": [
@@ -4936,6 +6904,51 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.28.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.28.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.28.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.28.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.28.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.28.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.28.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.28.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.28.1-osera-00006",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.28.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 6
     },
     {
       "set": "finos-osera-forks/patch-snakeyaml@v1.29.1-osera-00001",
@@ -11157,6 +13170,168 @@
       "statements": 6
     },
     {
+      "set": "finos-osera-forks/patch-spring-boot@v2.7.18.1-osera-00076",
+      "members": 73,
+      "coordinates": [
+        "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-actuator-autoconfigure@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-actuator@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-autoconfigure-processor@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-buildpack-platform@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-configuration-metadata@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-configuration-processor@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-jarmode-layertools@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-loader-tools@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-properties-migrator@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-activemq@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-amqp@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-aop@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-artemis@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-batch@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-cache@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-cassandra-reactive@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-cassandra@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-couchbase-reactive@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-couchbase@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-elasticsearch@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-jdbc@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-jpa@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-ldap@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-mongodb-reactive@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-mongodb@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-neo4j@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-r2dbc@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-redis-reactive@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-redis@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-data-rest@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-freemarker@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-graphql@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-groovy-templates@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-hateoas@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-integration@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-jdbc@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-jersey@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-jetty@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-jooq@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-json@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-jta-atomikos@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-log4j2@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-logging@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-mail@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-mustache@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-oauth2-client@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-oauth2-resource-server@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-quartz@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-reactor-netty@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-rsocket@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-security@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-test@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-thymeleaf@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-tomcat@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-undertow@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-validation@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-web-services@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-web@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-webflux@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter-websocket@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-starter@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-test-autoconfigure@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00076",
+        "org.springframework.boot:spring-boot@2.7.18.1-osera-00076"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-boot@v2.7.18.1-osera-00077",
+      "members": 73,
+      "coordinates": [
+        "org.springframework.boot:org.springframework.boot.gradle.plugin@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-actuator-autoconfigure@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-actuator@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-autoconfigure-processor@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-buildpack-platform@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-configuration-metadata@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-configuration-processor@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-jarmode-layertools@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-loader-tools@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-properties-migrator@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-activemq@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-amqp@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-aop@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-artemis@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-batch@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-cache@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-cassandra-reactive@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-cassandra@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-couchbase-reactive@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-couchbase@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-elasticsearch@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-jdbc@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-jpa@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-ldap@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-mongodb-reactive@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-mongodb@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-neo4j@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-r2dbc@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-redis-reactive@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-redis@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-data-rest@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-freemarker@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-graphql@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-groovy-templates@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-hateoas@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-integration@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-jdbc@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-jersey@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-jetty@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-jooq@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-json@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-jta-atomikos@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-log4j2@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-logging@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-mail@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-mustache@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-oauth2-client@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-oauth2-resource-server@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-quartz@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-reactor-netty@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-rsocket@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-security@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-test@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-thymeleaf@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-tomcat@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-undertow@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-validation@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-web-services@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-web@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-webflux@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter-websocket@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-starter@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-test-autoconfigure@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00077",
+        "org.springframework.boot:spring-boot@2.7.18.1-osera-00077"
+      ],
+      "state": "in the feed",
+      "statements": 6
+    },
+    {
       "set": "finos-osera-forks/patch-spring-data-bom@v2021.2.18.1-osera-00001",
       "members": 19,
       "coordinates": [
@@ -11854,6 +14029,26 @@
       "statements": 2
     },
     {
+      "set": "finos-osera-forks/patch-spring-graphql@v1.0.6.1-osera-00003",
+      "members": 2,
+      "coordinates": [
+        "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00003",
+        "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-graphql@v1.0.6.1-osera-00004",
+      "members": 2,
+      "coordinates": [
+        "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00004",
+        "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
       "set": "finos-osera-forks/patch-spring-hateoas@v1.5.6.1-osera-00001",
       "members": 1,
       "coordinates": [
@@ -12244,6 +14439,42 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-xercesImpl@v2.2.1.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "xerces:xercesImpl@2.2.1.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-xercesImpl@v2.2.1.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "xerces:xercesImpl@2.2.1.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-xercesImpl@v2.2.1.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "xerces:xercesImpl@2.2.1.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-xercesImpl@v2.2.1.1-osera-00004",
+      "members": 1,
+      "coordinates": [
+        "xerces:xercesImpl@2.2.1.1-osera-00004"
+      ],
+      "state": "in the feed",
+      "statements": 4
     }
   ]
 }
