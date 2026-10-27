@@ -11,13 +11,16 @@
 # Safe to run again: it reads the book at the tag and the issues that already exist, and only
 # does what is missing. It never closes, reopens, assigns or deletes an issue: closing the issue
 # of a CVE that left the book, with the reason, is the line manager's (trust backlog T58, 22 Sept 2026).
+#
+# Switched off (Francesco, 27 Oct 2026: "We dont open issue anymore"): no trigger on tags, so
+# no run and no new issue; the issues already open stay as they are. What replaces an issue in
+# a patch repository as the "in progress" signal is open. To switch it back on, put the tag
+# trigger back under "on:" (push: tags: ["v*"]).
 name: OSERA backlog issue orchestration
 run-name: OSERA backlog issue orchestration ${{ github.ref_name }}
 
 on:
-  push:
-    tags:
-      - "v*"
+  workflow_dispatch: {} # switched off: no tag trigger (see the header)
 
 permissions: {}
 
