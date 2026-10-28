@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-28T21:58:33Z",
-  "version": 121,
+  "last_updated": "2026-10-28T23:08:11Z",
+  "version": 122,
   "tooling": "osera-feed main-d2c96d7d",
   "statements": [
     {
@@ -47307,6 +47307,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-11143",
+        "aliases": [
+          "GHSA-wjpw-4j6x-6rwh"
+        ]
+      },
+      "timestamp": "2026-10-28T22:59:17Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2023-40167",
         "aliases": [
           "GHSA-hmr7-m48g-48f6"
@@ -47883,6 +47899,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-11143",
+        "aliases": [
+          "GHSA-wjpw-4j6x-6rwh"
+        ]
+      },
+      "timestamp": "2026-10-28T22:59:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2021-28165",
         "aliases": [
           "GHSA-26vr-8j45-3r4w"
@@ -48075,6 +48107,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-5795",
+        "aliases": [
+          "GHSA-r7p8-xq5m-436c"
+        ]
+      },
+      "timestamp": "2026-10-28T22:59:23Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.58.v20250814-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-10050",
         "aliases": [
           "GHSA-2fvj-hgj9-j2gr"
@@ -48132,6 +48180,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-10050",
+        "aliases": [
+          "GHSA-2fvj-hgj9-j2gr"
+        ]
+      },
+      "timestamp": "2026-10-28T22:59:36Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00005"
         }
       ],
       "status": "fixed",
@@ -48644,6 +48708,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.eclipse.jetty/jetty-util@9.2.30.v20200428-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11143",
+        "aliases": [
+          "GHSA-wjpw-4j6x-6rwh"
+        ]
+      },
+      "timestamp": "2026-10-28T22:59:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814-osera-00005"
         }
       ],
       "status": "fixed",
