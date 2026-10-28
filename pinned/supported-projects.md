@@ -2,6 +2,8 @@
 
 Generated 2026-10-28T14:33:10Z. Written by the line manager reconciler.
 
+Availability last confirmed 2026-10-28T15:37:45Z. It has not been confirmed since 2026-10-28T16:28:24Z.
+
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
 ## Lines
