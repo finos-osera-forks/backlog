@@ -1,10 +1,10 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.28.17",
-  "as_of": "2026-10-28T11:42:51Z",
+  "as_of": "2026-10-28T11:46:45Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 55,
+  "in_scope": 56,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -316,6 +316,10 @@
     {
       "cve": "CVE-2025-53864",
       "library": "com.nimbusds:nimbus-jose-jwt"
+    },
+    {
+      "cve": "CVE-2026-102554",
+      "library": "com.google.guava:guava"
     },
     {
       "cve": "CVE-2026-19032",
