@@ -4537,6 +4537,15 @@
       "first_seen": "2026-10-15T14:16:42Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-bom@5.5.20.1-osera-00002",
+      "library": "org.springframework.integration:spring-integration-bom",
+      "base": "5.5.20",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-28T10:11:38Z"
+    },
+    {
       "coordinate": "org.springframework.security:spring-security-bom@5.7.14.1-osera-00001",
       "library": "org.springframework.security:spring-security-bom",
       "base": "5.7.14",
