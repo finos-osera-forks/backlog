@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-28T02:32:15Z. Written by the line manager reconciler.
+Generated 2026-10-28T02:39:21Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -32,7 +32,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 7 | 6 | 86% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
-| jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | fixed | 11 | 11 | 100% | 5 | 0 | 0 | 0 |
+| jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | fixed | 16 | 16 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | fixed | 10 | 10 | 100% | 5 | 0 | 0 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | in progress | 4 | 2 | 50% | 0 | 0 | 2 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | fixed | 1 | 1 | 100% | 13 | 0 | 0 | 0 |
@@ -67,7 +67,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | com.fasterxml.jackson.core:jackson-databind | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 11 | 8 | 73% | 0 | 0 | 3 | 0 | 2.13.5.1-osera-00012 | 2.13.5.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.14.2 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 5 | 0 | 0 | 0 | 2.15.4.1-osera-00019 | 2.15.4.1-osera-00019 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 5 | 0 | 0 | 0 | 2.19.4.1-osera-00021 | 2.19.4.1-osera-00021 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | fixed | 12 | 12 | 100% | 0 | 0 | 0 | 0 | 2.19.4.1-osera-00021 | 2.19.4.1-osera-00021 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformat-toml | 2.13.5 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.13.5.1-osera-00012 | 2.13.5.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.woodstox:woodstox-core | 5.0.3 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.apache.santuario:xmlsec@2.0.10) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.google.guava:guava | 20.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.shibboleth.utilities:java-support@7.5.2) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
