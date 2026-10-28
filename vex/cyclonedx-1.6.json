@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 120,
+  "version": 121,
   "metadata": {
-    "timestamp": "2026-10-28T15:37:58Z",
+    "timestamp": "2026-10-28T21:58:33Z",
     "tools": {
       "components": [
         {
@@ -8227,6 +8227,28 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14.1-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.security",
+      "name": "spring-security-crypto",
+      "version": "5.7.14.1-osera-00006",
+      "purl": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14.1-osera-00006"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14.1-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.security",
+      "name": "spring-security-ldap",
+      "version": "5.7.14.1-osera-00006",
+      "purl": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14.1-osera-00006"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00003",
       "supplier": {
         "name": "moderne"
@@ -8257,6 +8279,17 @@
       "name": "spring-security-saml2-service-provider",
       "version": "5.7.14.1-osera-00005",
       "purl": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00005"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.security",
+      "name": "spring-security-saml2-service-provider",
+      "version": "5.7.14.1-osera-00006",
+      "purl": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00006"
     },
     {
       "type": "library",
@@ -8312,6 +8345,17 @@
       "name": "spring-security-web",
       "version": "5.7.14.1-osera-00005",
       "purl": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00005"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.security",
+      "name": "spring-security-web",
+      "version": "5.7.14.1-osera-00006",
+      "purl": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00006"
     },
     {
       "type": "library",
@@ -89217,6 +89261,40 @@
       ]
     },
     {
+      "bom-ref": "CVE-2025-22228 on pkg:maven/org.springframework.security/spring-security-crypto@5.7.14.1-osera-00006",
+      "id": "CVE-2025-22228",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22228"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T21:52:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59270 on pkg:maven/org.springframework.security/spring-security-ldap@5.7.14.1-osera-00006",
+      "id": "CVE-2026-59270",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59270"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T21:52:32Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14.1-osera-00006"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-40988 on pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00003",
       "id": "CVE-2026-40988",
       "source": {
@@ -89291,6 +89369,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-40988 on pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00006",
+      "id": "CVE-2026-40988",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40988"
+      },
+      "references": [
+        {
+          "id": "GHSA-m69x-pw9p-7j3q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-m69x-pw9p-7j3q"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T21:52:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00006"
         }
       ]
     },
@@ -89551,6 +89655,84 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-22732 on pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00006",
+      "id": "CVE-2026-22732",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22732"
+      },
+      "references": [
+        {
+          "id": "GHSA-mf92-479x-3373",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mf92-479x-3373"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T21:52:58Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41706 on pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00006",
+      "id": "CVE-2026-41706",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41706"
+      },
+      "references": [
+        {
+          "id": "GHSA-x2r2-rvhq-2mqv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-x2r2-rvhq-2mqv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T21:52:58Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47838 on pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00006",
+      "id": "CVE-2026-47838",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47838"
+      },
+      "references": [
+        {
+          "id": "GHSA-293q-567p-wmwq",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-293q-567p-wmwq"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T21:52:58Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00006"
         }
       ]
     },

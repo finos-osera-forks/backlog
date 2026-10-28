@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T15:37:58Z",
-  "feed_version": 120,
+  "generated_at": "2026-10-28T21:58:33Z",
+  "feed_version": 121,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -14889,6 +14889,35 @@
       ],
       "state": "in the feed",
       "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-security@v5.7.14.1-osera-00006",
+      "members": 21,
+      "coordinates": [
+        "org.springframework.security:spring-security-acl@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-aspects@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-bom@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-cas@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-config@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-core@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-data@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-ldap@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-messaging@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-oauth2-client@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-oauth2-core@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-oauth2-jose@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-oauth2-resource-server@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-openid@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-remoting@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-rsocket@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-taglibs@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-test@5.7.14.1-osera-00006",
+        "org.springframework.security:spring-security-web@5.7.14.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 6
     },
     {
       "set": "finos-osera-forks/patch-spring-ws@v3.1.8.1-osera-00001",
