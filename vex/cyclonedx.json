@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 122,
+  "version": 123,
   "metadata": {
-    "timestamp": "2026-10-28T23:08:11Z",
+    "timestamp": "2026-10-28T23:13:08Z",
     "tools": {
       "components": [
         {
@@ -5447,6 +5447,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.eclipse.jetty",
+      "name": "jetty-client",
+      "version": "9.4.58.v20250814-osera-00006",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814-osera-00006"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.30.v20200428-osera-00003",
       "supplier": {
         "name": "moderne"
@@ -5601,6 +5612,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.eclipse.jetty",
+      "name": "jetty-http",
+      "version": "9.4.58.v20250814-osera-00006",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00006"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.2.30.v20200428-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -5744,6 +5766,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.58.v20250814-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.eclipse.jetty",
+      "name": "jetty-jaspi",
+      "version": "9.4.58.v20250814-osera-00006",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.58.v20250814-osera-00006"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.2.30.v20200428-osera-00011",
       "supplier": {
         "name": "moderne"
@@ -5796,6 +5829,17 @@
       "name": "jetty-security",
       "version": "9.4.58.v20250814-osera-00005",
       "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00005"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.eclipse.jetty",
+      "name": "jetty-security",
+      "version": "9.4.58.v20250814-osera-00006",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00006"
     },
     {
       "type": "library",
@@ -5983,6 +6027,17 @@
       "name": "jetty-util",
       "version": "9.4.58.v20250814-osera-00005",
       "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814-osera-00005"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.eclipse.jetty",
+      "name": "jetty-util",
+      "version": "9.4.58.v20250814-osera-00006",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814-osera-00006"
     },
     {
       "type": "library",
@@ -79902,6 +79957,58 @@
       ]
     },
     {
+      "bom-ref": "CVE-2025-11143 on pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814-osera-00006",
+      "id": "CVE-2025-11143",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11143"
+      },
+      "references": [
+        {
+          "id": "GHSA-wjpw-4j6x-6rwh",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wjpw-4j6x-6rwh"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T23:08:05Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-2332 on pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814-osera-00006",
+      "id": "CVE-2026-2332",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2332"
+      },
+      "references": [
+        {
+          "id": "GHSA-355h-qmc2-wpwf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-355h-qmc2-wpwf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T23:08:05Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.58.v20250814-osera-00006"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2023-40167 on pkg:maven/org.eclipse.jetty/jetty-http@9.2.30.v20200428-osera-00003",
       "id": "CVE-2023-40167",
       "source": {
@@ -80864,6 +80971,58 @@
       ]
     },
     {
+      "bom-ref": "CVE-2025-11143 on pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00006",
+      "id": "CVE-2025-11143",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11143"
+      },
+      "references": [
+        {
+          "id": "GHSA-wjpw-4j6x-6rwh",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wjpw-4j6x-6rwh"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T23:08:16Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-2332 on pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00006",
+      "id": "CVE-2026-2332",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-2332"
+      },
+      "references": [
+        {
+          "id": "GHSA-355h-qmc2-wpwf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-355h-qmc2-wpwf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T23:08:16Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.58.v20250814-osera-00006"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2021-28165 on pkg:maven/org.eclipse.jetty/jetty-io@9.2.30.v20200428-osera-00001",
       "id": "CVE-2021-28165",
       "source": {
@@ -81202,6 +81361,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-5795 on pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.58.v20250814-osera-00006",
+      "id": "CVE-2026-5795",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5795"
+      },
+      "references": [
+        {
+          "id": "GHSA-r7p8-xq5m-436c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r7p8-xq5m-436c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T23:08:10Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.eclipse.jetty/jetty-jaspi@9.4.58.v20250814-osera-00006"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-10050 on pkg:maven/org.eclipse.jetty/jetty-security@9.2.30.v20200428-osera-00011",
       "id": "CVE-2026-10050",
       "source": {
@@ -81328,6 +81513,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-10050 on pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00006",
+      "id": "CVE-2026-10050",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10050"
+      },
+      "references": [
+        {
+          "id": "GHSA-2fvj-hgj9-j2gr",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2fvj-hgj9-j2gr"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T23:08:23Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.4.58.v20250814-osera-00006"
         }
       ]
     },
@@ -82186,6 +82397,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-11143 on pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814-osera-00006",
+      "id": "CVE-2025-11143",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11143"
+      },
+      "references": [
+        {
+          "id": "GHSA-wjpw-4j6x-6rwh",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wjpw-4j6x-6rwh"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T23:08:47Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.58.v20250814-osera-00006"
         }
       ]
     },
