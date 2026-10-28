@@ -19,6 +19,15 @@
       "first_seen": "2026-09-24T15:03:57Z"
     },
     {
+      "coordinate": "ch.qos.logback:logback-parent@1.2.13.1-osera-00003",
+      "library": "ch.qos.logback:logback-parent",
+      "base": "1.2.13",
+      "kind": "parent",
+      "released_with": "patch-logback v1.2.13.1-osera-00003",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-28T15:31:33Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformats-text@2.13.5.1-osera-00008",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformats-text",
       "base": "2.13.5",
