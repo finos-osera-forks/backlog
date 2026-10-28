@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-28T23:01:46Z. Written by the line manager reconciler.
+Generated 2026-10-28T23:07:05Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -172,7 +172,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-347 libraries, 3954 patched version(s).
+347 libraries, 3955 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -424,7 +424,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.eclipse.jetty.osgi:jetty-osgi-boot-jsp | 9.4.58.v20250814 | listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph | spring-boot-2.7.x |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 | 9.4.58.v20250814-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty.osgi:jetty-osgi-boot-warurl | 9.4.58.v20250814 | listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph | spring-boot-2.7.x |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 | 9.4.58.v20250814-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:apache-jsp | 9.4.58.v20250814 | listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph | spring-boot-2.7.x |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 | 9.4.58.v20250814-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.eclipse.jetty:apache-jstl | 9.4.58.v20250814 | listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph | spring-boot-2.7.x |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 | 9.4.58.v20250814-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.eclipse.jetty:apache-jstl | 9.4.58.v20250814 | listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph | spring-boot-2.7.x |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 9.4.58.v20250814-osera-00006 | 9.4.58.v20250814-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:infinispan-common | 9.4.58.v20250814 | listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph | spring-boot-2.7.x |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 | 9.4.58.v20250814-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:infinispan-embedded-query | 9.4.58.v20250814 | listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph | spring-boot-2.7.x |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 | 9.4.58.v20250814-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:infinispan-remote-query | 9.4.58.v20250814 | listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph | spring-boot-2.7.x |  | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 | 9.4.58.v20250814-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
