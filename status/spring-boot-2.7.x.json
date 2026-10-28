@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.28.41",
-  "as_of": "2026-10-28T21:51:45Z",
+  "as_of": "2026-10-28T21:53:54Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 190,
@@ -129,10 +129,10 @@
     {
       "cve": "CVE-2025-22228",
       "library": "org.springframework.security:spring-security-crypto",
-      "coordinate": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00005",
-      "at": "2026-10-13T13:23:35Z"
+      "coordinate": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00006",
+      "patch": "00006",
+      "named_by": "org.springframework.security:spring-security-crypto@5.7.14.1-osera-00006",
+      "at": "2026-10-28T21:53:54Z"
     },
     {
       "cve": "CVE-2025-22235",
@@ -233,10 +233,10 @@
     {
       "cve": "CVE-2026-22732",
       "library": "org.springframework.security:spring-security-web",
-      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
-      "at": "2026-10-13T13:23:35Z"
+      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00006",
+      "patch": "00006",
+      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00006",
+      "at": "2026-10-28T21:53:54Z"
     },
     {
       "cve": "CVE-2026-22733",
@@ -305,10 +305,10 @@
     {
       "cve": "CVE-2026-40988",
       "library": "org.springframework.security:spring-security-saml2-service-provider",
-      "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00005",
-      "at": "2026-10-13T13:23:35Z"
+      "coordinate": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00006",
+      "patch": "00006",
+      "named_by": "org.springframework.security:spring-security-saml2-service-provider@5.7.14.1-osera-00006",
+      "at": "2026-10-28T21:53:54Z"
     },
     {
       "cve": "CVE-2026-40998",
@@ -361,10 +361,10 @@
     {
       "cve": "CVE-2026-41706",
       "library": "org.springframework.security:spring-security-web",
-      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
-      "at": "2026-10-13T13:23:35Z"
+      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00006",
+      "patch": "00006",
+      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00006",
+      "at": "2026-10-28T21:53:54Z"
     },
     {
       "cve": "CVE-2026-41716",
@@ -521,10 +521,10 @@
     {
       "cve": "CVE-2026-47838",
       "library": "org.springframework.security:spring-security-web",
-      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00005",
-      "at": "2026-10-13T13:23:35Z"
+      "coordinate": "org.springframework.security:spring-security-web@5.7.14.1-osera-00006",
+      "patch": "00006",
+      "named_by": "org.springframework.security:spring-security-web@5.7.14.1-osera-00006",
+      "at": "2026-10-28T21:53:54Z"
     },
     {
       "cve": "CVE-2026-47884",
@@ -2049,5 +2049,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.28.7"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.28.8"
 }
