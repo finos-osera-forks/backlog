@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-28T12:20:55Z",
-  "version": 116,
+  "last_updated": "2026-10-28T12:25:51Z",
+  "version": 117,
   "tooling": "osera-feed main-61f6fa72",
   "statements": [
     {
@@ -52331,6 +52331,19 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-59324"
+      },
+      "timestamp": "2026-10-28T12:20:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.integration/spring-integration-core@5.5.20.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-40987",
         "aliases": [
           "GHSA-792x-6vq6-j8r9"
@@ -52363,12 +52376,41 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-40987",
+        "aliases": [
+          "GHSA-792x-6vq6-j8r9"
+        ]
+      },
+      "timestamp": "2026-10-28T12:20:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-47864"
       },
       "timestamp": "2026-10-28T12:12:15Z",
       "products": [
         {
           "@id": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47864"
+      },
+      "timestamp": "2026-10-28T12:20:32Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20.1-osera-00003"
         }
       ],
       "status": "fixed",
