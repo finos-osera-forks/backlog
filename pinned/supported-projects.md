@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-28T03:08:04Z. Written by the line manager reconciler.
+Generated 2026-10-28T03:09:36Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -45,7 +45,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | in progress | 6 | 5 | 83% | 0 | 0 | 1 | 0 |
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | in progress | 14 | 7 | 50% | 0 | 0 | 7 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
-| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | fixed | 4 | 4 | 100% | 3 | 0 | 0 | 0 |
+| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | fixed | 2 | 2 | 100% | 1 | 0 | 0 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | not fixed | 2 | 0 | 0% | 1 | 0 | 2 | 0 |
 
@@ -149,7 +149,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.bouncycastle:bcpkix-jdk15on | 1.70 | bouncycastle-1.70.x, spring-boot-2.7.x, spring-security-5.7.x | own project on bouncycastle-1.70.x (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.70.1-osera-00037 | 1.70.1-osera-00037 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.78.1.1-osera-00033 | 1.78.1.1-osera-00033 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 4 | 2 | 50% | 10 | 0 | 2 | 0 | 1.46.1-osera-00028 | 1.46.1-osera-00028 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 3 | 0 | 0 | 0 | 1.69.1-osera-00036 | 1.69.1-osera-00036 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 5 | 5 | 100% | 0 | 0 | 0 | 0 | 1.69.1-osera-00036 | 1.69.1-osera-00036 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x, spring-boot-2.7.x, spring-security-5.7.x | own project on bouncycastle-1.70.x (the anchor's group) | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 1.70.1-osera-00037 | 1.70.1-osera-00037 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 1.78.1.1-osera-00033 | 1.78.1.1-osera-00033 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty.http2:http2-common | 9.4.53.v20231009 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
