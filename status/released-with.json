@@ -64,6 +64,15 @@
       "first_seen": "2026-10-22T19:50:15Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformats-text@2.13.5.1-osera-00013",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformats-text",
+      "base": "2.13.5",
+      "kind": "parent",
+      "released_with": "patch-jackson-dataformats-text v2.13.5.1-osera-00013",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-28T14:23:13Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson:jackson-bom",
       "base": "2.13.5",
@@ -170,6 +179,15 @@
       "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2",
       "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
       "first_seen": "2026-10-22T19:50:15Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00013",
+      "library": "com.fasterxml.jackson:jackson-bom",
+      "base": "2.13.5",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-10-28T14:23:13Z"
     },
     {
       "coordinate": "com.fasterxml.jackson:jackson-bom@2.15.4.1-osera-00001",
