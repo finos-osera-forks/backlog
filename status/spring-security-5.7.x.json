@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.28.37",
-  "as_of": "2026-10-28T14:27:08Z",
+  "as_of": "2026-10-28T14:29:06Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 56,
@@ -73,10 +73,10 @@
     {
       "cve": "CVE-2025-52999",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00013",
-      "patch": "00013",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00013",
-      "at": "2026-10-28T14:23:13Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
+      "patch": "00014",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
+      "at": "2026-10-28T14:29:06Z"
     },
     {
       "cve": "CVE-2025-8916",
@@ -225,18 +225,18 @@
     {
       "cve": "CVE-2026-68494",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00013",
-      "patch": "00013",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00013",
-      "at": "2026-10-28T14:23:13Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
+      "patch": "00014",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
+      "at": "2026-10-28T14:29:06Z"
     },
     {
       "cve": "CVE-2026-89425",
       "library": "com.fasterxml.jackson.core:jackson-core",
-      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00013",
-      "patch": "00013",
-      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00013",
-      "at": "2026-10-28T14:23:13Z"
+      "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
+      "patch": "00014",
+      "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
+      "at": "2026-10-28T14:29:06Z"
     },
     {
       "cve": "CVE-2026-91776",
@@ -706,6 +706,7 @@
     "fixed, not in the backlog: CVE-2026-17508 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00035",
     "fixed, not in the backlog: CVE-2026-17508 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00036",
     "fixed, not in the backlog: CVE-2026-17508 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
+    "fixed, not in the backlog: CVE-2026-18401 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-58059 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00019",
@@ -1029,6 +1030,7 @@
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00011",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00012",
     "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00013",
+    "fixed, not in the backlog: GHSA-r7wm-3cxj-wff9 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
     "promoted com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00001 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00002 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00003 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5",
@@ -1187,5 +1189,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.28"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.28.2"
 }
