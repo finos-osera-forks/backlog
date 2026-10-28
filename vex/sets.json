@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T14:40:59Z",
-  "feed_version": 119,
+  "generated_at": "2026-10-28T15:37:58Z",
+  "feed_version": 120,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -6255,6 +6255,18 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-logback@v1.2.13.1-osera-00003",
+      "members": 4,
+      "coordinates": [
+        "ch.qos.logback:logback-access@1.2.13.1-osera-00003",
+        "ch.qos.logback:logback-classic@1.2.13.1-osera-00003",
+        "ch.qos.logback:logback-core@1.2.13.1-osera-00003",
+        "ch.qos.logback:logback-parent@1.2.13.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
     },
     {
       "set": "finos-osera-forks/patch-logging-log4j2@v2.24.3.1-osera-00001",
