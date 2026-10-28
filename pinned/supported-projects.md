@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-28T02:55:26Z. Written by the line manager reconciler.
+Generated 2026-10-28T03:03:19Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -42,7 +42,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | in progress | 9 | 5 | 56% | 4 | 0 | 4 | 0 |
 | struts-1.3.x | maven | `org.apache.struts:struts-tiles@1.3.10` | in progress | 4 | 2 | 50% | 4 | 0 | 2 | 0 |
 | mchange-commons-0.2.x | maven | `com.mchange:mchange-commons-java@0.2.20` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
-| log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | in progress | 3 | 2 | 67% | 3 | 0 | 1 | 0 |
+| log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | in progress | 6 | 5 | 83% | 0 | 0 | 1 | 0 |
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | in progress | 6 | 3 | 50% | 8 | 0 | 3 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | fixed | 4 | 4 | 100% | 2 | 0 | 0 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | fixed | 4 | 4 | 100% | 3 | 0 | 0 | 0 |
@@ -51,7 +51,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 ## Libraries
 
-164 libraries across 40 line(s).
+165 libraries across 40 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -133,8 +133,9 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.apache.httpcomponents.core5:httpcore5-h2 | 5.3.4 | httpclient5-5.4.x | listed by the BOM at 5.3.4 (org.apache.httpcomponents.client5:httpclient5-parent@5.4.4) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.httpcomponents.core5:httpcore5-h2 | 5.3.6 | httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.6.1-osera-00002 | 5.3.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-api | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.logging.log4j:log4j-api | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 4 | 2 | 50% | 0 | 0 | 2 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | open | 3 | 2 | 67% | 2 | 0 | 1 | 0 | 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | open | 5 | 4 | 80% | 0 | 0 | 1 | 0 | 2.24.3.1-osera-00005 | 2.24.3.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-layout-template-json | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.17.2.1-osera-00004 | 2.17.2.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.santuario:xmlsec | 2.0.10 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.opensaml:opensaml-security-api@3.4.6) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 3 | 0 | 0 | 0 | 1.3.10.1-osera-00006 | 1.3.10.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
