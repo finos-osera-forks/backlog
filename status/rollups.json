@@ -1,7 +1,7 @@
 {
   "lines": {
     "bouncycastle-1.46.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-23T18:26:11Z",
       "editions": []
     },
