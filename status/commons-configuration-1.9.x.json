@@ -1,10 +1,10 @@
 {
   "line": "commons-configuration-1.9.x",
   "book_version": "v2026.10.28.11",
-  "as_of": "2026-10-28T01:00:32Z",
-  "status": "fixed",
+  "as_of": "2026-10-28T01:05:00Z",
+  "status": "in progress",
   "chain": "complete",
-  "in_scope": 1,
+  "in_scope": 2,
   "fixed": [
     {
       "cve": "CVE-2025-46392",
@@ -16,7 +16,12 @@
     }
   ],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2025-48924",
+      "library": "commons-lang:commons-lang"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [
     "promoted commons-configuration:commons-configuration@1.1.1-osera-00001 is on base 1.1, the line has commons-configuration:commons-configuration at 1.9"
