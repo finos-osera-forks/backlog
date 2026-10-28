@@ -23,6 +23,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "ch.qos.logback:logback-access@1.2.13.1-osera-00003",
+      "library": "ch.qos.logback:logback-access",
+      "base": "1.2.13",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.2.12, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "ch.qos.logback:logback-access@1.2.13.1-osera-00003: listed by the BOM of spring-boot-2.7.x at 1.2.12, not in its dependency graph",
+      "first_seen": "2026-10-28T15:31:33Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro",
       "base": "2.13.5",
