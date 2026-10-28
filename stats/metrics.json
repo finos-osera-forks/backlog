@@ -1,14 +1,14 @@
 {
- "as_of": "2026-10-28T10:15:44Z",
+ "as_of": "2026-10-28T12:25:51Z",
  "environment": "production",
  "ecosystems": [
   "Java"
  ],
  "totals": {
-  "releases": 448,
+  "releases": 450,
   "libraries": 420,
-  "libraries_with_a_fixed_cve": 69,
-  "fixed_entries": 4043,
+  "libraries_with_a_fixed_cve": 71,
+  "fixed_entries": 4048,
   "undated_releases": 0
  },
  "releases_per_day": [
@@ -51,6 +51,10 @@
   {
    "date": "2026-10-27",
    "count": 9
+  },
+  {
+   "date": "2026-10-28",
+   "count": 2
   }
  ],
  "top_cves": [
@@ -2446,267 +2450,267 @@
   {
    "library": "org.springframework.integration:spring-integration-amqp",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-bom",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-core",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
-   "fixed_entries": 0
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
+   "fixed_entries": 1
   },
   {
    "library": "org.springframework.integration:spring-integration-event",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-feed",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-file",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
+   "fixed_entries": 3
   },
   {
    "library": "org.springframework.integration:spring-integration-ftp",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-gemfire",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-groovy",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-http",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
-   "fixed_entries": 0
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
+   "fixed_entries": 2
   },
   {
    "library": "org.springframework.integration:spring-integration-ip",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-jdbc",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-jms",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-jmx",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-jpa",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-kafka",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-mail",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-mongodb",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-mqtt",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-r2dbc",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-redis",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-rmi",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-rsocket",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-scripting",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-security",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-sftp",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-stomp",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-stream",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-syslog",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-test",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-test-support",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-webflux",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-websocket",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-ws",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-xml",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-xmpp",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-zeromq",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.integration:spring-integration-zookeeper",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "5.5.20.1-osera-00001",
+   "releases": 3,
+   "latest": "5.5.20.1-osera-00003",
    "fixed_entries": 0
   },
   {
