@@ -48421,6 +48421,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:apache-jsp",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jsp@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:apache-jstl",
       "base": "9.4.58.v20250814",
@@ -48463,6 +48474,17 @@
       ],
       "words": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:apache-jstl",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00001",
@@ -48509,6 +48531,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:infinispan-common",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:infinispan-embedded-query",
       "base": "9.4.58.v20250814",
@@ -48551,6 +48584,17 @@
       ],
       "words": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:infinispan-embedded-query",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-embedded-query@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00001",
@@ -48597,6 +48641,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:infinispan-remote-query",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:infinispan-remote-query@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-client",
       "base": "9.4.58.v20250814",
@@ -48639,6 +48694,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-alpn-client",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-client@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00001",
@@ -48685,6 +48751,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-alpn-conscrypt-client",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-conscrypt-client@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-conscrypt-server",
       "base": "9.4.58.v20250814",
@@ -48727,6 +48804,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-alpn-conscrypt-server",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-conscrypt-server@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00001",
@@ -48773,6 +48861,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-alpn-java-client",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-java-client@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-java-server",
       "base": "9.4.58.v20250814",
@@ -48815,6 +48914,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-alpn-java-server",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-java-server@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-client@9.4.58.v20250814-osera-00001",
@@ -48861,6 +48971,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-client@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-alpn-openjdk8-client",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-openjdk8-client@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-server@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-alpn-openjdk8-server",
       "base": "9.4.58.v20250814",
@@ -48903,6 +49024,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-alpn-openjdk8-server@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-openjdk8-server@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-alpn-openjdk8-server",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-openjdk8-server@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-alpn-server@9.4.58.v20250814-osera-00001",
@@ -48949,6 +49081,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-alpn-server@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-alpn-server",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-alpn-server@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-ant@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-ant",
       "base": "9.4.58.v20250814",
@@ -48991,6 +49134,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-ant@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-ant@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-ant",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-ant@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-deploy@9.4.58.v20250814-osera-00001",
@@ -49037,6 +49191,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-deploy@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-deploy",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-deploy@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-hazelcast",
       "base": "9.4.58.v20250814",
@@ -49079,6 +49244,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-hazelcast",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-hazelcast@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-http-spi@9.4.58.v20250814-osera-00001",
@@ -49125,6 +49301,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-http-spi@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-http-spi",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-http-spi@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-jaas@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-jaas",
       "base": "9.4.58.v20250814",
@@ -49167,6 +49354,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-jaas@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-jaas@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-jaas",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-jaas@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001",
@@ -49213,6 +49411,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-jaspi",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-jmx@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-jmx",
       "base": "9.4.58.v20250814",
@@ -49255,6 +49464,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-jmx@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-jmx@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-jmx",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-jmx@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-jndi@9.4.58.v20250814-osera-00001",
@@ -49301,6 +49521,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-jndi@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-jndi",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-jndi@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-nosql@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-nosql",
       "base": "9.4.58.v20250814",
@@ -49343,6 +49574,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-nosql@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-nosql@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-nosql",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-nosql@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-openid@9.4.58.v20250814-osera-00001",
@@ -49389,6 +49631,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-openid@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-openid",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-openid@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-proxy@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-proxy",
       "base": "9.4.58.v20250814",
@@ -49431,6 +49684,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-proxy@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-proxy@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-proxy",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-proxy@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-quickstart@9.4.58.v20250814-osera-00001",
@@ -49477,6 +49741,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-quickstart@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-quickstart",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-quickstart@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-rewrite@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-rewrite",
       "base": "9.4.58.v20250814",
@@ -49521,6 +49796,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:jetty-rewrite@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-rewrite",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-rewrite@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-spring",
       "base": "9.4.58.v20250814",
@@ -49563,6 +49849,17 @@
       ],
       "words": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00004: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00005",
+      "library": "org.eclipse.jetty:jetty-spring",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:jetty-spring@9.4.58.v20250814-osera-00005: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T22:58:58Z"
     },
     {
       "coordinate": "org.eclipse.jetty:jetty-unixsocket@9.4.58.v20250814-osera-00001",
