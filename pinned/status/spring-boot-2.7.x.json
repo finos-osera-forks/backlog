@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.28.36",
-  "as_of": "2026-10-28T13:36:37Z",
+  "as_of": "2026-10-28T13:41:00Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 353,
+  "in_scope": 324,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -37,22 +37,6 @@
       "patch": "00037",
       "named_by": "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
       "at": "2026-10-28T01:34:37Z"
-    },
-    {
-      "cve": "CVE-2023-34040",
-      "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
-      "at": "2026-10-15T14:10:05Z"
-    },
-    {
-      "cve": "CVE-2023-3894",
-      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml",
-      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00012",
-      "patch": "00012",
-      "named_by": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00012",
-      "at": "2026-10-22T19:50:15Z"
     },
     {
       "cve": "CVE-2024-29857",
@@ -191,14 +175,6 @@
       "at": "2026-10-15T13:38:21Z"
     },
     {
-      "cve": "CVE-2026-34481",
-      "library": "org.apache.logging.log4j:log4j-layout-template-json",
-      "coordinate": "org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00004",
-      "patch": "00004",
-      "named_by": "org.apache.logging.log4j:log4j-layout-template-json@2.17.2.1-osera-00004",
-      "at": "2026-10-15T13:38:21Z"
-    },
-    {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools",
       "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00081",
@@ -213,22 +189,6 @@
       "patch": "00081",
       "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
       "at": "2026-10-27T18:00:07Z"
-    },
-    {
-      "cve": "CVE-2026-40987",
-      "library": "org.springframework.integration:spring-integration-file",
-      "coordinate": "org.springframework.integration:spring-integration-file@5.5.20.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.springframework.integration:spring-integration-file@5.5.20.1-osera-00003",
-      "at": "2026-10-28T12:21:51Z"
-    },
-    {
-      "cve": "CVE-2026-40994",
-      "library": "org.springframework.ws:spring-ws-security",
-      "coordinate": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00003",
-      "at": "2026-10-15T13:38:21Z"
     },
     {
       "cve": "CVE-2026-40998",
@@ -303,22 +263,6 @@
       "at": "2026-09-24T19:31:29Z"
     },
     {
-      "cve": "CVE-2026-41726",
-      "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
-      "at": "2026-10-15T14:10:05Z"
-    },
-    {
-      "cve": "CVE-2026-41727",
-      "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
-      "at": "2026-10-15T14:10:05Z"
-    },
-    {
       "cve": "CVE-2026-41728",
       "library": "org.springframework.data:spring-data-rest-core",
       "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00006",
@@ -333,14 +277,6 @@
       "patch": "00006",
       "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00006",
       "at": "2026-09-24T19:31:29Z"
-    },
-    {
-      "cve": "CVE-2026-41731",
-      "library": "org.springframework.kafka:spring-kafka",
-      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
-      "patch": "00005",
-      "named_by": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
-      "at": "2026-10-15T14:10:05Z"
     },
     {
       "cve": "CVE-2026-41838",
@@ -922,10 +858,6 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
-      "cve": "CVE-2025-5115",
-      "library": "org.eclipse.jetty.http2:http2-common"
-    },
-    {
       "cve": "CVE-2025-52434",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -1000,6 +932,10 @@
     {
       "cve": "CVE-2026-10050",
       "library": "org.eclipse.jetty:jetty-security"
+    },
+    {
+      "cve": "CVE-2026-102554",
+      "library": "com.google.guava:guava"
     },
     {
       "cve": "CVE-2026-10532",
@@ -1250,10 +1186,6 @@
       "library": "org.springframework.amqp:spring-amqp"
     },
     {
-      "cve": "CVE-2026-41715",
-      "library": "io.projectreactor.netty:reactor-netty"
-    },
-    {
       "cve": "CVE-2026-41720",
       "library": "org.springframework.ldap:spring-ldap-core"
     },
@@ -1350,10 +1282,6 @@
       "library": "io.netty:netty-codec-http"
     },
     {
-      "cve": "CVE-2026-42586",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
       "cve": "CVE-2026-42587",
       "library": "io.netty:netty-codec-http"
     },
@@ -1382,28 +1310,8 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
-      "cve": "CVE-2026-44248",
-      "library": "io.netty:netty-codec-mqtt"
-    },
-    {
       "cve": "CVE-2026-44249",
       "library": "io.netty:netty-handler"
-    },
-    {
-      "cve": "CVE-2026-44250",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
-      "cve": "CVE-2026-44890",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
-      "cve": "CVE-2026-44891",
-      "library": "io.netty:netty-codec-stomp"
-    },
-    {
-      "cve": "CVE-2026-44893",
-      "library": "io.netty:netty-codec-haproxy"
     },
     {
       "cve": "CVE-2026-45416",
@@ -1430,10 +1338,6 @@
       "library": "io.netty:netty-resolver-dns"
     },
     {
-      "cve": "CVE-2026-46340",
-      "library": "io.netty:netty-transport-sctp"
-    },
-    {
       "cve": "CVE-2026-47244",
       "library": "io.netty:netty-codec-http2"
     },
@@ -1450,16 +1354,8 @@
       "library": "org.springframework:spring-webflux"
     },
     {
-      "cve": "CVE-2026-48006",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
       "cve": "CVE-2026-48043",
       "library": "io.netty:netty-codec-http2"
-    },
-    {
-      "cve": "CVE-2026-48059",
-      "library": "io.netty:netty-codec-haproxy"
     },
     {
       "cve": "CVE-2026-49270",
@@ -1472,10 +1368,6 @@
     {
       "cve": "CVE-2026-50010",
       "library": "io.netty:netty-handler"
-    },
-    {
-      "cve": "CVE-2026-50011",
-      "library": "io.netty:netty-codec-redis"
     },
     {
       "cve": "CVE-2026-50020",
@@ -1514,10 +1406,6 @@
       "library": "io.netty:netty-codec-http"
     },
     {
-      "cve": "CVE-2026-55851",
-      "library": "io.netty:netty-codec-haproxy"
-    },
-    {
       "cve": "CVE-2026-56745",
       "library": "io.netty:netty-codec-http"
     },
@@ -1526,32 +1414,8 @@
       "library": "io.netty:netty-codec-http"
     },
     {
-      "cve": "CVE-2026-56817",
-      "library": "io.netty:netty-codec-xml"
-    },
-    {
-      "cve": "CVE-2026-56818",
-      "library": "io.netty:netty-codec-redis"
-    },
-    {
       "cve": "CVE-2026-56819",
       "library": "io.netty:netty-codec-http2"
-    },
-    {
-      "cve": "CVE-2026-56820",
-      "library": "io.netty:netty-handler-ssl-ocsp"
-    },
-    {
-      "cve": "CVE-2026-56821",
-      "library": "io.netty:netty-handler-ssl-ocsp"
-    },
-    {
-      "cve": "CVE-2026-56822",
-      "library": "io.netty:netty-handler-ssl-ocsp"
-    },
-    {
-      "cve": "CVE-2026-5795",
-      "library": "org.eclipse.jetty:jetty-jaspi"
     },
     {
       "cve": "CVE-2026-59313",
@@ -1578,16 +1442,8 @@
       "library": "io.netty:netty-codec"
     },
     {
-      "cve": "CVE-2026-59902",
-      "library": "io.netty:netty-transport-sctp"
-    },
-    {
       "cve": "CVE-2026-59903",
       "library": "io.netty:netty-codec-http"
-    },
-    {
-      "cve": "CVE-2026-59920",
-      "library": "io.netty:netty-codec-stomp"
     },
     {
       "cve": "CVE-2026-59921",
@@ -1644,10 +1500,6 @@
     {
       "cve": "CVE-2026-69220",
       "library": "com.rabbitmq:amqp-client"
-    },
-    {
-      "cve": "CVE-2026-73507",
-      "library": "io.netty:netty-codec-xml"
     },
     {
       "cve": "CVE-2026-73508",
@@ -2170,7 +2022,6 @@
     "fixed, not in the backlog: CVE-2026-58063 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00035",
     "fixed, not in the backlog: CVE-2026-58063 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00036",
     "fixed, not in the backlog: CVE-2026-58063 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
-    "fixed, not in the backlog: CVE-2026-59278 on org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00012",
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00013",
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00014",
@@ -2554,46 +2405,6 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00019 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5, 2.14.2",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00020 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5, 2.14.2",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00021 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5, 2.14.2",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00001 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00002 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00003 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00004 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00005 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00006 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00007 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00008 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00009 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00010 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00011 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00012 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00013 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00014 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00015 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00016 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00017 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00018 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00019 is on base 2.15.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00001 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00002 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00003 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00004 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00005 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00006 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00007 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00008 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00009 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00010 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00011 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00012 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00013 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00014 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00015 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00016 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00017 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00018 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00019 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00020 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
-    "promoted com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.19.4.1-osera-00021 is on base 2.19.4, the line has com.fasterxml.jackson.dataformat:jackson-dataformat-toml at 2.13.5",
     "promoted com.mchange:mchange-commons-java@0.2.20.1-osera-00001 is on base 0.2.20, the line has com.mchange:mchange-commons-java at 0.2.15",
     "promoted com.mchange:mchange-commons-java@0.2.20.1-osera-00002 is on base 0.2.20, the line has com.mchange:mchange-commons-java at 0.2.15",
     "promoted commons-beanutils:commons-beanutils@1.6.1.1-osera-00001 is on base 1.6.1, the line has commons-beanutils:commons-beanutils at 1.9.4",
@@ -2603,8 +2414,6 @@
     "promoted commons-collections:commons-collections@3.0.1-osera-00001 is on base 3.0, the line has commons-collections:commons-collections at 3.2.1",
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00002 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
-    "promoted io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00001 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty at 1.0.39",
-    "promoted io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00002 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty at 1.0.39",
     "promoted org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00001 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-api at 2.17.2",
     "promoted org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00002 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-api at 2.17.2",
     "promoted org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00003 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-api at 2.17.2",
@@ -2615,11 +2424,6 @@
     "promoted org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00003 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-core at 2.17.2",
     "promoted org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00004 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-core at 2.17.2",
     "promoted org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-core at 2.17.2",
-    "promoted org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00001 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-layout-template-json at 2.17.2",
-    "promoted org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00002 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-layout-template-json at 2.17.2",
-    "promoted org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00003 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-layout-template-json at 2.17.2",
-    "promoted org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00004 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-layout-template-json at 2.17.2",
-    "promoted org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00005 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-layout-template-json at 2.17.2",
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00001 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00001 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00002 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
@@ -2693,10 +2497,6 @@
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00034 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00035 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
     "promoted org.bouncycastle:bcprov-jdk15on@1.69.1-osera-00036 is on base 1.69, the line has org.bouncycastle:bcprov-jdk15on at 1.70",
-    "promoted org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty.http2:http2-common at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty.http2:http2-common at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty.http2:http2-common at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty.http2:http2-common at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00001 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00002 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00003 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
@@ -2712,10 +2512,6 @@
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-jaspi at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-jaspi at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-jaspi at 9.4.53.v20231009",
-    "promoted org.eclipse.jetty:jetty-jaspi@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-jaspi at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00001 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00002 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00003 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
