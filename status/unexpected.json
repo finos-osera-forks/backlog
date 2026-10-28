@@ -205,6 +205,20 @@
       "first_seen": "2026-10-28T14:23:13Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00014",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.13.5.1-osera-00014: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-10-28T14:29:06Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro",
       "base": "2.15.4",
@@ -1387,6 +1401,20 @@
       "first_seen": "2026-10-28T14:23:13Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.13.5.1-osera-00014",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.13.5.1-osera-00014: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-10-28T14:29:06Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
       "base": "2.15.4",
@@ -2127,6 +2155,20 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00013: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
       "first_seen": "2026-10-28T14:23:13Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00014",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.13.5.1-osera-00014: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-10-28T14:29:06Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.15.4.1-osera-00001",
@@ -2871,6 +2913,20 @@
       "first_seen": "2026-10-28T14:23:13Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.13.5.1-osera-00014",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.13.5.1-osera-00014: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-10-28T14:29:06Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties",
       "base": "2.15.4",
@@ -3611,6 +3667,20 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00013: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
       "first_seen": "2026-10-28T14:23:13Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00014",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.13.5.1-osera-00014: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-10-28T14:29:06Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.15.4.1-osera-00001",
@@ -4793,6 +4863,20 @@
       ],
       "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00013: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
       "first_seen": "2026-10-28T14:23:13Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00014",
+      "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.13.5.1-osera-00014: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-10-28T14:29:06Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.dataformat:jackson-dataformat-toml@2.15.4.1-osera-00001",
