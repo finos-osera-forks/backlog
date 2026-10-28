@@ -1,11 +1,27 @@
 {
   "line": "log4j2-2.24.x",
   "book_version": "v2026.10.28.13",
-  "as_of": "2026-10-28T01:15:01Z",
+  "as_of": "2026-10-28T01:16:53Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 3,
+  "in_scope": 6,
   "fixed": [
+    {
+      "cve": "CVE-2025-68161",
+      "library": "org.apache.logging.log4j:log4j-core",
+      "coordinate": "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005",
+      "at": "2026-10-28T01:16:53Z"
+    },
+    {
+      "cve": "CVE-2026-34477",
+      "library": "org.apache.logging.log4j:log4j-core",
+      "coordinate": "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005",
+      "at": "2026-10-28T01:16:53Z"
+    },
     {
       "cve": "CVE-2026-34478",
       "library": "org.apache.logging.log4j:log4j-core",
@@ -21,6 +37,14 @@
       "patch": "00005",
       "named_by": "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005",
       "at": "2026-10-22T17:28:51Z"
+    },
+    {
+      "cve": "CVE-2026-49844",
+      "library": "org.apache.logging.log4j:log4j-api",
+      "coordinate": "org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00005",
+      "patch": "00005",
+      "named_by": "org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00005",
+      "at": "2026-10-28T01:16:53Z"
     }
   ],
   "in_progress": [],
@@ -32,9 +56,10 @@
   ],
   "not_remediable": [],
   "discrepancies": [
-    "fixed, not in the backlog: CVE-2025-68161 on org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00004",
-    "fixed, not in the backlog: CVE-2025-68161 on org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005",
-    "fixed, not in the backlog: CVE-2026-34477 on org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00005",
+    "promoted org.apache.logging.log4j:log4j-api@2.17.2.1-osera-00001 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-api at 2.24.3",
+    "promoted org.apache.logging.log4j:log4j-api@2.17.2.1-osera-00002 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-api at 2.24.3",
+    "promoted org.apache.logging.log4j:log4j-api@2.17.2.1-osera-00003 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-api at 2.24.3",
+    "promoted org.apache.logging.log4j:log4j-api@2.17.2.1-osera-00004 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-api at 2.24.3",
     "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00001 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3",
     "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00002 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3",
     "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00003 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3",
