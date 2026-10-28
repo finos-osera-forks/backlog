@@ -136,12 +136,12 @@
       "editions": []
     },
     "snakeyaml-1.28.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-22T21:39:40Z",
       "editions": []
     },
     "snakeyaml-1.29.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-22T21:09:11Z",
       "editions": []
     },
