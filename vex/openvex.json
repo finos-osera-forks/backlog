@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-28T14:40:59Z",
-  "version": 119,
-  "tooling": "osera-feed main-61f6fa72",
+  "last_updated": "2026-10-28T15:37:58Z",
+  "version": 120,
+  "tooling": "osera-feed main-d2c96d7d",
   "statements": [
     {
       "vulnerability": {
@@ -496,6 +496,48 @@
       "products": [
         {
           "@id": "pkg:maven/ch.qos.logback/logback-core@1.2.13.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-12801",
+        "aliases": [
+          "GHSA-6v67-2wr5-gvf4"
+        ]
+      },
+      "timestamp": "2026-10-28T15:32:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/ch.qos.logback/logback-core@1.2.13.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11226"
+      },
+      "timestamp": "2026-10-28T15:32:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/ch.qos.logback/logback-core@1.2.13.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-13006"
+      },
+      "timestamp": "2026-10-28T15:32:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/ch.qos.logback/logback-core@1.2.13.1-osera-00003"
         }
       ],
       "status": "fixed",
