@@ -1,10 +1,10 @@
 {
   "line": "httpclient5-5.4.x",
   "book_version": "v2026.10.28.16",
-  "as_of": "2026-10-28T01:30:32Z",
+  "as_of": "2026-10-28T03:15:21Z",
   "status": "not fixed",
   "chain": "",
-  "in_scope": 2,
+  "in_scope": 3,
   "fixed": [],
   "in_progress": [],
   "open": [
@@ -15,6 +15,10 @@
     {
       "cve": "CVE-2026-54428",
       "library": "org.apache.httpcomponents.core5:httpcore5-h2"
+    },
+    {
+      "cve": "CVE-2026-64607",
+      "library": "org.apache.httpcomponents.client5:httpclient5"
     }
   ],
   "not_remediable": [],

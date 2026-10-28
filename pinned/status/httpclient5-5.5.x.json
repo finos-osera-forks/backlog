@@ -1,10 +1,10 @@
 {
   "line": "httpclient5-5.5.x",
   "book_version": "v2026.10.28.16",
-  "as_of": "2026-10-28T01:30:32Z",
-  "status": "fixed",
+  "as_of": "2026-10-28T03:15:21Z",
+  "status": "in progress",
   "chain": "complete",
-  "in_scope": 2,
+  "in_scope": 3,
   "fixed": [
     {
       "cve": "CVE-2026-54399",
@@ -24,7 +24,12 @@
     }
   ],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2026-64607",
+      "library": "org.apache.httpcomponents.client5:httpclient5"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [],
   "consume": "org.finos.osera:osera-bom-httpclient5-5.5.x@2026.10.21"
