@@ -1,10 +1,10 @@
 {
   "line": "commons-text-1.6.x",
   "book_version": "v2026.10.28.16",
-  "as_of": "2026-10-28T01:30:32Z",
-  "status": "fixed",
+  "as_of": "2026-10-28T01:58:00Z",
+  "status": "in progress",
   "chain": "complete",
-  "in_scope": 1,
+  "in_scope": 2,
   "fixed": [
     {
       "cve": "CVE-2022-42889",
@@ -16,7 +16,12 @@
     }
   ],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2025-48924",
+      "library": "org.apache.commons:commons-lang3"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [
     "promoted org.apache.commons:commons-text@1.7.1-osera-00001 is on base 1.7, the line has org.apache.commons:commons-text at 1.6",
