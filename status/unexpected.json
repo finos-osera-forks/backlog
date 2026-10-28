@@ -48630,6 +48630,17 @@
       "first_seen": "2026-10-28T22:58:58Z"
     },
     {
+      "coordinate": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00006",
+      "library": "org.eclipse.jetty:apache-jstl",
+      "base": "9.4.58.v20250814",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.eclipse.jetty:apache-jstl@9.4.58.v20250814-osera-00006: listed by the BOM of spring-boot-2.7.x at 9.4.53.v20231009, not in its dependency graph",
+      "first_seen": "2026-10-28T23:07:05Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:infinispan-common@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:infinispan-common",
       "base": "9.4.58.v20250814",
