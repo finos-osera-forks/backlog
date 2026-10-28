@@ -258,7 +258,7 @@
       "editions": []
     },
     "velocity-1.7.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-22T18:31:30Z",
       "editions": []
     }
