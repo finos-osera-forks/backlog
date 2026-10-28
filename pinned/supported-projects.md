@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-28T02:04:00Z. Written by the line manager reconciler.
+Generated 2026-10-28T02:10:00Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -20,8 +20,8 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | in progress | 3 | 1 | 33% | 1 | 0 | 2 | 0 |
-| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | in progress | 2 | 1 | 50% | 2 | 0 | 1 | 0 |
-| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 |
+| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | in progress | 3 | 1 | 33% | 1 | 0 | 2 | 0 |
+| snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 |
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 |
@@ -87,7 +87,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-collections:commons-collections | 3.2.1 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.6.x, velocity-1.7.x | pulled in by a dependency on spring-boot-2.7.x (org.apache.velocity:velocity@1.7) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-configuration:commons-configuration | 1.1 | commons-configuration-1.1.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.1.1-osera-00001 | 1.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-configuration:commons-configuration | 1.9 | commons-configuration-1.9.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.1-osera-00001 | 1.9.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| commons-lang:commons-lang | 2.4 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.7.x | pulled in by a dependency (org.apache.velocity:velocity@1.7) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| commons-lang:commons-lang | 2.4 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.6.x, velocity-1.7.x | pulled in by a dependency on spring-boot-2.7.x (org.apache.velocity:velocity@1.7) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.4.1-osera-00002 | 1.4.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.netty:netty-codec | 4.1.101.Final | spring-boot-2.7.x | listed by the BOM at 4.1.101.Final (io.netty:netty-bom@4.1.101.Final) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -202,7 +202,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.thymeleaf:thymeleaf | 3.0.15.RELEASE | spring-boot-2.7.x | listed by the BOM at 3.0.15.RELEASE | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.thymeleaf:thymeleaf-spring5 | 3.0.15.RELEASE | spring-boot-2.7.x | listed by the BOM at 3.0.15.RELEASE | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.xmlunit:xmlunit-core | 2.9.1 | spring-boot-2.7.x | listed by the BOM at 2.9.1 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.9 | snakeyaml-1.9.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 | 1.9.1-osera-00006 | 1.9.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.9 | snakeyaml-1.9.x | own project (the anchor's group) | open | 8 | 7 | 88% | 0 | 0 | 1 | 0 | 1.9.1-osera-00006 | 1.9.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.16 | snakeyaml-1.16.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 | 1.16.1-osera-00007 | 1.16.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.17 | snakeyaml-1.17.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 | 1.17.1-osera-00007 | 1.17.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.19 | snakeyaml-1.19.x | own project (the anchor's group) | fixed | 7 | 7 | 100% | 1 | 0 | 0 | 0 | 1.19.1-osera-00007 | 1.19.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

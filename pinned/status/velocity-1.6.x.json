@@ -1,10 +1,10 @@
 {
   "line": "velocity-1.6.x",
   "book_version": "v2026.10.28.16",
-  "as_of": "2026-10-28T01:30:32Z",
+  "as_of": "2026-10-28T02:10:00Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 2,
+  "in_scope": 3,
   "fixed": [
     {
       "cve": "CVE-2020-13936",
@@ -20,6 +20,10 @@
     {
       "cve": "CVE-2015-6420",
       "library": "commons-collections:commons-collections"
+    },
+    {
+      "cve": "CVE-2025-48924",
+      "library": "commons-lang:commons-lang"
     }
   ],
   "not_remediable": [],
