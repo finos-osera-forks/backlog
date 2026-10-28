@@ -61,12 +61,12 @@
       "editions": []
     },
     "httpclient5-5.4.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-21T10:49:45Z",
       "editions": []
     },
     "httpclient5-5.5.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-21T10:49:45Z",
       "editions": []
     },
