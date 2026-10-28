@@ -1,10 +1,10 @@
 {
   "line": "velocity-1.7.x",
   "book_version": "v2026.10.28",
-  "as_of": "2026-10-28T00:00:22Z",
-  "status": "fixed",
+  "as_of": "2026-10-28T00:05:00Z",
+  "status": "in progress",
   "chain": "complete",
-  "in_scope": 1,
+  "in_scope": 2,
   "fixed": [
     {
       "cve": "CVE-2020-13936",
@@ -16,7 +16,12 @@
     }
   ],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2025-48924",
+      "library": "commons-lang:commons-lang"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00001 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7"
