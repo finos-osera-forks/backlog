@@ -1,14 +1,14 @@
 {
- "as_of": "2026-10-28T14:40:59Z",
+ "as_of": "2026-10-28T15:37:58Z",
  "environment": "production",
  "ecosystems": [
   "Java"
  ],
  "totals": {
-  "releases": 452,
+  "releases": 453,
   "libraries": 420,
   "libraries_with_a_fixed_cve": 71,
-  "fixed_entries": 4086,
+  "fixed_entries": 4089,
   "undated_releases": 0
  },
  "releases_per_day": [
@@ -54,7 +54,7 @@
   },
   {
    "date": "2026-10-28",
-   "count": 4
+   "count": 5
   }
  ],
  "top_cves": [
@@ -196,29 +196,29 @@
   {
    "library": "ch.qos.logback:logback-access",
    "ecosystem": "Java",
-   "releases": 2,
-   "latest": "1.2.13.1-osera-00002",
+   "releases": 3,
+   "latest": "1.2.13.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "ch.qos.logback:logback-classic",
    "ecosystem": "Java",
-   "releases": 2,
-   "latest": "1.2.13.1-osera-00002",
+   "releases": 3,
+   "latest": "1.2.13.1-osera-00003",
    "fixed_entries": 0
   },
   {
    "library": "ch.qos.logback:logback-core",
    "ecosystem": "Java",
-   "releases": 2,
-   "latest": "1.2.13.1-osera-00002",
-   "fixed_entries": 3
+   "releases": 3,
+   "latest": "1.2.13.1-osera-00003",
+   "fixed_entries": 6
   },
   {
    "library": "ch.qos.logback:logback-parent",
    "ecosystem": "Java",
-   "releases": 2,
-   "latest": "1.2.13.1-osera-00002",
+   "releases": 3,
+   "latest": "1.2.13.1-osera-00003",
    "fixed_entries": 0
   },
   {
