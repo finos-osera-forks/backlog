@@ -86,7 +86,7 @@
       "editions": []
     },
     "jetty-9.2.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-22T21:27:21Z",
       "editions": []
     },
