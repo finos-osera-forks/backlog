@@ -1,10 +1,10 @@
 {
   "line": "commons-configuration-1.1.x",
   "book_version": "v2026.10.28.11",
-  "as_of": "2026-10-28T01:00:32Z",
-  "status": "fixed",
+  "as_of": "2026-10-28T01:05:00Z",
+  "status": "in progress",
   "chain": "complete",
-  "in_scope": 7,
+  "in_scope": 9,
   "fixed": [
     {
       "cve": "CVE-2015-6420",
@@ -64,7 +64,16 @@
     }
   ],
   "in_progress": [],
-  "open": [],
+  "open": [
+    {
+      "cve": "CVE-2020-14338",
+      "library": "xerces:xercesImpl"
+    },
+    {
+      "cve": "CVE-2025-48924",
+      "library": "commons-lang:commons-lang"
+    }
+  ],
   "not_remediable": [],
   "discrepancies": [
     "fixed, not in the backlog: CVE-2009-2625 on xerces:xercesImpl@2.2.1.1-osera-00002",

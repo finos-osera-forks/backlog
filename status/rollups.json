@@ -31,12 +31,12 @@
       "editions": []
     },
     "commons-configuration-1.1.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-23T16:25:12Z",
       "editions": []
     },
     "commons-configuration-1.9.x": {
-      "remediated": true,
+      "remediated": false,
       "since": "2026-10-23T16:05:41Z",
       "editions": []
     },
