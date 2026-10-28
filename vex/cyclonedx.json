@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 115,
+  "version": 116,
   "metadata": {
-    "timestamp": "2026-10-27T18:05:16Z",
+    "timestamp": "2026-10-28T12:20:55Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "main-a0799050"
+          "version": "main-61f6fa72"
         }
       ]
     },
@@ -7985,6 +7985,28 @@
       "name": "spring-integration-file",
       "version": "5.5.20.1-osera-00001",
       "purl": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.integration",
+      "name": "spring-integration-file",
+      "version": "5.5.20.1-osera-00002",
+      "purl": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.integration",
+      "name": "spring-integration-http",
+      "version": "5.5.20.1-osera-00002",
+      "purl": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20.1-osera-00002"
     },
     {
       "type": "library",
@@ -87479,6 +87501,49 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-40987 on pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00002",
+      "id": "CVE-2026-40987",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40987"
+      },
+      "references": [
+        {
+          "id": "GHSA-792x-6vq6-j8r9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-792x-6vq6-j8r9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T12:12:06Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47864 on pkg:maven/org.springframework.integration/spring-integration-http@5.5.20.1-osera-00002",
+      "id": "CVE-2026-47864",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47864"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-28T12:12:15Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20.1-osera-00002"
         }
       ]
     },

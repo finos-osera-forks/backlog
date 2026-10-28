@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-27T18:05:16Z",
-  "version": 115,
-  "tooling": "osera-feed main-a0799050",
+  "last_updated": "2026-10-28T12:20:55Z",
+  "version": 116,
+  "tooling": "osera-feed main-61f6fa72",
   "statements": [
     {
       "vulnerability": {
@@ -52340,6 +52340,35 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40987",
+        "aliases": [
+          "GHSA-792x-6vq6-j8r9"
+        ]
+      },
+      "timestamp": "2026-10-28T12:12:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.integration/spring-integration-file@5.5.20.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47864"
+      },
+      "timestamp": "2026-10-28T12:12:15Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.integration/spring-integration-http@5.5.20.1-osera-00002"
         }
       ],
       "status": "fixed",
