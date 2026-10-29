@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-29T09:48:14Z. Written by the line manager reconciler.
+Generated 2026-10-29T09:51:21Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -157,7 +157,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.lz4:lz4-java | 1.8.0 | spring-boot-2.7.x | pulled in by a dependency (org.elasticsearch:elasticsearch-lz4@7.17.15) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | own project (the anchor's group) | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.amqp:spring-amqp | 2.4.17 | spring-boot-2.7.x | listed by the BOM at 2.4.17 | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00092 | 2.7.18.1-osera-00092 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00093 | 2.7.18.1-osera-00093 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-autoconfigure | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00093 | 2.7.18.1-osera-00093 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00093 | 2.7.18.1-osera-00093 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
