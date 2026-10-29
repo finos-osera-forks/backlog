@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T02:27:58Z",
+  "generated_at": "2026-10-29T02:37:59Z",
   "feed_version": 131,
   "sets": [
     {
@@ -14121,108 +14121,32 @@
       "members": 21,
       "coordinates": [
         "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00007",
-        "org.springframework.data:spring-data-cassandra@3.4.18",
-        "org.springframework.data:spring-data-commons@2.7.18",
+        "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00007",
+        "org.springframework.data:spring-data-commons@2.7.18.1-osera-00007",
         "org.springframework.data:spring-data-couchbase@4.4.18",
-        "org.springframework.data:spring-data-elasticsearch@4.4.18",
-        "org.springframework.data:spring-data-envers@2.7.18",
-        "org.springframework.data:spring-data-geode@2.7.18",
-        "org.springframework.data:spring-data-jdbc@2.4.18",
-        "org.springframework.data:spring-data-jpa@2.7.18",
-        "org.springframework.data:spring-data-keyvalue@2.7.18",
-        "org.springframework.data:spring-data-ldap@2.7.18",
-        "org.springframework.data:spring-data-mongodb-parent@3.4.18",
-        "org.springframework.data:spring-data-mongodb@3.4.18",
-        "org.springframework.data:spring-data-neo4j@6.3.18",
-        "org.springframework.data:spring-data-r2dbc@1.5.18",
-        "org.springframework.data:spring-data-redis@2.7.18",
-        "org.springframework.data:spring-data-relational@2.4.18",
-        "org.springframework.data:spring-data-rest-core@3.7.18",
-        "org.springframework.data:spring-data-rest-hal-explorer@3.7.18",
-        "org.springframework.data:spring-data-rest-parent@3.7.18",
-        "org.springframework.data:spring-data-rest-webmvc@3.7.18"
+        "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00007",
+        "org.springframework.data:spring-data-envers@2.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-geode@2.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-jdbc@2.4.18.1-osera-00007",
+        "org.springframework.data:spring-data-jpa@2.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-ldap@2.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00007",
+        "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00007",
+        "org.springframework.data:spring-data-neo4j@6.3.18.1-osera-00007",
+        "org.springframework.data:spring-data-r2dbc@1.5.18.1-osera-00007",
+        "org.springframework.data:spring-data-redis@2.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-relational@2.4.18.1-osera-00007",
+        "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-rest-parent@3.7.18.1-osera-00007",
+        "org.springframework.data:spring-data-rest-webmvc@3.7.18.1-osera-00007"
       ],
       "state": "held",
-      "held_since": "2026-10-29T02:27:58Z",
+      "held_since": "2026-10-29T02:37:59Z",
       "reasons": [
         {
-          "member": "org.springframework.data:spring-data-cassandra@3.4.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-commons@2.7.18",
-          "why": "not promoted"
-        },
-        {
           "member": "org.springframework.data:spring-data-couchbase@4.4.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-elasticsearch@4.4.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-envers@2.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-geode@2.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-jdbc@2.4.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-jpa@2.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-keyvalue@2.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-ldap@2.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-mongodb-parent@3.4.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-mongodb@3.4.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-neo4j@6.3.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-r2dbc@1.5.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-redis@2.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-relational@2.4.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-rest-core@3.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-rest-parent@3.7.18",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.data:spring-data-rest-webmvc@3.7.18",
           "why": "not promoted"
         }
       ]
@@ -14241,6 +14165,15 @@
       "members": 1,
       "coordinates": [
         "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 0
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-data-mongodb@v3.4.18.1-osera-00007",
+      "members": 1,
+      "coordinates": [
+        "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00007"
       ],
       "state": "in the feed",
       "statements": 0
