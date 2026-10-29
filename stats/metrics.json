@@ -1,14 +1,14 @@
 {
- "as_of": "2026-10-28T23:13:08Z",
+ "as_of": "2026-10-29T00:23:03Z",
  "environment": "production",
  "ecosystems": [
   "Java"
  ],
  "totals": {
-  "releases": 456,
+  "releases": 457,
   "libraries": 420,
   "libraries_with_a_fixed_cve": 73,
-  "fixed_entries": 4107,
+  "fixed_entries": 4133,
   "undated_releases": 0
  },
  "releases_per_day": [
@@ -55,6 +55,10 @@
   {
    "date": "2026-10-28",
    "count": 8
+  },
+  {
+   "date": "2026-10-29",
+   "count": 1
   }
  ],
  "top_cves": [
@@ -2954,163 +2958,163 @@
   {
    "library": "org.springframework:spring-aop",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-aspects",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-beans",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-context",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-context-indexer",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-context-support",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-core",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
-   "fixed_entries": 20
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
+   "fixed_entries": 22
   },
   {
    "library": "org.springframework:spring-expression",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
-   "fixed_entries": 27
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
+   "fixed_entries": 30
   },
   {
    "library": "org.springframework:spring-framework-bom",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-instrument",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-jcl",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-jdbc",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-jms",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
-   "fixed_entries": 2
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
+   "fixed_entries": 3
   },
   {
    "library": "org.springframework:spring-messaging",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-orm",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-oxm",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-r2dbc",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-test",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-tx",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-web",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
-   "fixed_entries": 19
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
+   "fixed_entries": 24
   },
   {
    "library": "org.springframework:spring-webflux",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
-   "fixed_entries": 25
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
+   "fixed_entries": 31
   },
   {
    "library": "org.springframework:spring-webmvc",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
-   "fixed_entries": 58
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
+   "fixed_entries": 66
   },
   {
    "library": "org.springframework:spring-websocket",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "5.3.39.1-osera-00016",
-   "fixed_entries": 12
+   "releases": 17,
+   "latest": "5.3.39.1-osera-00017",
+   "fixed_entries": 13
   },
   {
    "library": "org.yaml:snakeyaml",
