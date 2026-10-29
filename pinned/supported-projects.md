@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-10-29T08:35:40Z. Written by the line manager reconciler.
+Generated 2026-10-29T08:44:33Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -159,9 +159,9 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.springframework.amqp:spring-amqp | 2.4.17 | spring-boot-2.7.x | listed by the BOM at 2.4.17 | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00086 | 2.7.18.1-osera-00086 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-autoconfigure | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00086 | 2.7.18.1-osera-00086 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00086 | 2.7.18.1-osera-00086 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00086 | 2.7.18.1-osera-00086 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00087 | 2.7.18.1-osera-00087 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00087 | 2.7.18.1-osera-00087 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot-starter-actuator | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00087 | 2.7.18.1-osera-00087 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-commons | 2.7.14 | spring-security-5.7.x | pulled in by a dependency (org.springframework.security:spring-security-data@5.7.11) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.data:spring-data-commons | 2.7.18 | spring-boot-2.7.x | listed by the BOM at 2.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | open | 3 | 1 | 33% | 0 | 0 | 2 | 0 | 2.7.18.1-osera-00007 | 2.7.18.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-keyvalue | 2.7.18 | spring-boot-2.7.x | listed by the BOM at 2.7.18 (org.springframework.data:spring-data-bom@2021.2.18) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00007 | 2.7.18.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
