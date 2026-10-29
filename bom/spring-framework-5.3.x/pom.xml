@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-framework-5.3.x line, built 2026-10-29T00:29:39Z by the line manager.
+  The OSERA BOM of the spring-framework-5.3.x line, built 2026-10-29T00:32:14Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-framework-5.3.x</artifactId>
-  <version>2026.10.29.3</version>
+  <version>2026.10.29.4</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-framework-5.3.x</name>
   <dependencyManagement>
@@ -100,7 +100,7 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-test</artifactId>
-        <version>5.3.39.1-osera-00017</version>
+        <version>5.3.39.1-osera-00018</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
@@ -110,22 +110,22 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-web</artifactId>
-        <version>5.3.39.1-osera-00017</version>
+        <version>5.3.39.1-osera-00018</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webflux</artifactId>
-        <version>5.3.39.1-osera-00017</version>
+        <version>5.3.39.1-osera-00018</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webmvc</artifactId>
-        <version>5.3.39.1-osera-00017</version>
+        <version>5.3.39.1-osera-00018</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-websocket</artifactId>
-        <version>5.3.39.1-osera-00017</version>
+        <version>5.3.39.1-osera-00018</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
