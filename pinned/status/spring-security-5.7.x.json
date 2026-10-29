@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.29",
-  "as_of": "2026-10-29T00:02:51Z",
+  "as_of": "2026-10-29T00:20:09Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 73,
@@ -1234,6 +1234,7 @@
     "promoted org.springframework:spring-context@5.3.39.1-osera-00014 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
     "promoted org.springframework:spring-context@5.3.39.1-osera-00015 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
     "promoted org.springframework:spring-context@5.3.39.1-osera-00016 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
+    "promoted org.springframework:spring-context@5.3.39.1-osera-00017 is on base 5.3.39, the line has org.springframework:spring-context at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
@@ -1250,6 +1251,7 @@
     "promoted org.springframework:spring-core@5.3.39.1-osera-00014 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00015 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-core@5.3.39.1-osera-00016 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
+    "promoted org.springframework:spring-core@5.3.39.1-osera-00017 is on base 5.3.39, the line has org.springframework:spring-core at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
@@ -1266,6 +1268,7 @@
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00014 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00015 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-expression@5.3.39.1-osera-00016 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
+    "promoted org.springframework:spring-expression@5.3.39.1-osera-00017 is on base 5.3.39, the line has org.springframework:spring-expression at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00001 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00002 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00003 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
@@ -1282,10 +1285,11 @@
     "promoted org.springframework:spring-web@5.3.39.1-osera-00014 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00015 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted org.springframework:spring-web@5.3.39.1-osera-00016 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
+    "promoted org.springframework:spring-web@5.3.39.1-osera-00017 is on base 5.3.39, the line has org.springframework:spring-web at 5.3.29",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00001 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00002 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.28.5"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.29"
 }
