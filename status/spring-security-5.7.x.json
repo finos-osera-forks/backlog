@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.10.29.2",
-  "as_of": "2026-10-29T00:26:28Z",
+  "book_version": "v2026.10.29.3",
+  "as_of": "2026-10-29T00:30:41Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 56,
@@ -9,10 +9,10 @@
     {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web",
-      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00017",
-      "patch": "00017",
-      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00017",
-      "at": "2026-10-29T00:20:09Z"
+      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00018",
+      "patch": "00018",
+      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00018",
+      "at": "2026-10-29T00:30:41Z"
     },
     {
       "cve": "CVE-2020-13936",
@@ -418,6 +418,7 @@
     "fixed, not in the backlog: CVE-2025-14813 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
     "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-web@5.3.39.1-osera-00017",
+    "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-web@5.3.39.1-osera-00018",
     "fixed, not in the backlog: CVE-2025-8885 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00021",
     "fixed, not in the backlog: CVE-2025-8885 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00022",
     "fixed, not in the backlog: CVE-2025-8885 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00023",
@@ -709,10 +710,13 @@
     "fixed, not in the backlog: CVE-2026-17508 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
     "fixed, not in the backlog: CVE-2026-18401 on com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00014",
     "fixed, not in the backlog: CVE-2026-22735 on org.springframework:spring-web@5.3.39.1-osera-00017",
+    "fixed, not in the backlog: CVE-2026-22735 on org.springframework:spring-web@5.3.39.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00017",
+    "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00017",
+    "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-58059 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00019",
     "fixed, not in the backlog: CVE-2026-58059 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00020",
     "fixed, not in the backlog: CVE-2026-58059 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00021",
@@ -828,6 +832,7 @@
     "fixed, not in the backlog: CVE-2026-58063 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00035",
     "fixed, not in the backlog: CVE-2026-58063 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00036",
     "fixed, not in the backlog: CVE-2026-58063 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
+    "fixed, not in the backlog: CVE-2026-59313 on org.springframework:spring-web@5.3.39.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00012",
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00013",
     "fixed, not in the backlog: CVE-2026-59639 on org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00014",
@@ -1194,5 +1199,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.29.3"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.29.4"
 }
