@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T00:48:02Z",
+  "generated_at": "2026-10-29T00:52:59Z",
   "feed_version": 127,
   "sets": [
     {
@@ -14753,6 +14753,111 @@
       ],
       "state": "in the feed",
       "statements": 30
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00021",
+      "members": 23,
+      "coordinates": [
+        "org.springframework:spring-aop@5.3.39.1-osera-00021",
+        "org.springframework:spring-aspects@5.3.39.1-osera-00021",
+        "org.springframework:spring-beans@5.3.39.1-osera-00021",
+        "org.springframework:spring-context-indexer@5.3.39.1-osera-00021",
+        "org.springframework:spring-context-support@5.3.39.1-osera-00021",
+        "org.springframework:spring-context@5.3.39.1-osera-00021",
+        "org.springframework:spring-core@5.3.39.1-osera-00021",
+        "org.springframework:spring-expression@5.3.39.1-osera-00021",
+        "org.springframework:spring-framework-bom@5.3.39.1-osera-00021",
+        "org.springframework:spring-instrument@5.3.39.1-osera-00021",
+        "org.springframework:spring-jcl@5.3.39.1-osera-00021",
+        "org.springframework:spring-jdbc@5.3.39.1-osera-00021",
+        "org.springframework:spring-jms@5.3.39.1-osera-00021",
+        "org.springframework:spring-messaging@5.3.39.1-osera-00021",
+        "org.springframework:spring-orm@5.3.39.1-osera-00021",
+        "org.springframework:spring-oxm@5.3.39.1-osera-00021",
+        "org.springframework:spring-r2dbc@5.3.39.1-osera-00021",
+        "org.springframework:spring-test@5.3.39.1-osera-00021",
+        "org.springframework:spring-tx@5.3.39.1-osera-00021",
+        "org.springframework:spring-web@5.3.39.1-osera-00021",
+        "org.springframework:spring-webflux@5.3.39.1-osera-00021",
+        "org.springframework:spring-webmvc@5.3.39.1-osera-00021",
+        "org.springframework:spring-websocket@5.3.39.1-osera-00021"
+      ],
+      "state": "held",
+      "held_since": "2026-10-29T00:52:59Z",
+      "reasons": [
+        {
+          "member": "org.springframework:spring-context@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-core@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-expression@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-jcl@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-jdbc@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-jms@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-messaging@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-orm@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-oxm@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-r2dbc@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-test@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-tx@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-web@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-webflux@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-webmvc@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-websocket@5.3.39.1-osera-00021",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.springframework:spring-beans@5.3.39.1-osera-00021",
+          "why": "evidence chain not complete: files: not checked (spring-beans-5.3.39.1-osera-00021.jar.sha1, spring-beans-5.3.39.1-osera-00021.pom.sha1 not there yet: the last file landed 13s ago and the gate copies the checksums after the jar and the pom); signatures: failed (no signature next to the jar (spring-beans-5.3.39.1-osera-00021.jar.asc))"
+        },
+        {
+          "member": "org.springframework:spring-instrument@5.3.39.1-osera-00021",
+          "why": "evidence chain not complete: files: not checked (spring-instrument-5.3.39.1-osera-00021.jar.sha1, spring-instrument-5.3.39.1-osera-00021.pom.sha1 not there yet: the last file landed 13s ago and the gate copies the checksums after the jar and the pom); evidence: not checked (no evidence file yet: the last file landed 13s ago and the gate writes it just before the verdict); signatures: failed (no signature next to the jar (spring-instrument-5.3.39.1-osera-00021.jar.asc)); document: failed (the vulnerability document's signature: no registry entry to take the signing key from); producer: not checked (no producer yet: the last file landed 13s ago and it is read from the evidence file, which the gate writes just before the verdict); upload: not checked (no registry entry to compare the upload account with); tagger: not checked (no registry entry to compare the tag pusher with)"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-spring-graphql@v1.0.6.1-osera-00001",
