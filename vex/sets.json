@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T22:08:13Z",
-  "feed_version": 153,
+  "generated_at": "2026-10-29T22:13:07Z",
+  "feed_version": 154,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -6670,106 +6670,8 @@
         "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00011",
         "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00011"
       ],
-      "state": "held",
-      "held_since": "2026-10-29T22:08:13Z",
-      "reasons": [
-        {
-          "member": "org.eclipse.jetty.fcgi:fcgi-client@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.fcgi:fcgi-server@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.gcloud:jetty-gcloud-session-manager@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.http2:http2-client@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.http2:http2-common@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.http2:http2-hpack@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.http2:http2-http-client-transport@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.http2:http2-server@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.memcached:jetty-memcached-sessions@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.osgi:jetty-httpservice@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.osgi:jetty-osgi-boot-jsp@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.osgi:jetty-osgi-boot-warurl@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.osgi:jetty-osgi-boot@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:javax-websocket-client-impl@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:javax-websocket-server-impl@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-api@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-client@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-common@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-server@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-servlet@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty:jetty-util@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00011",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 13
     },
     {
       "set": "finos-osera-forks/patch-log4j@v1.2.17.1-osera-00001",
