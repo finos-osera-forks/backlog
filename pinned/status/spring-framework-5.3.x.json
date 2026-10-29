@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
-  "book_version": "v2026.10.29.9",
-  "as_of": "2026-10-29T01:01:05Z",
+  "book_version": "v2026.10.29.10",
+  "as_of": "2026-10-29T01:03:18Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 47,
@@ -336,5 +336,5 @@
     "fixed, not in the backlog: CVE-2026-59313 on org.springframework:spring-web@5.3.39.1-osera-00021",
     "fixed, not in the backlog: CVE-2026-59313 on org.springframework:spring-web@5.3.39.1-osera-00022"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.10.29.10"
+  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.10.29.11"
 }
