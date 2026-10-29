@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.10.29.68",
-  "as_of": "2026-10-29T21:29:43Z",
+  "book_version": "v2026.10.29.69",
+  "as_of": "2026-10-29T21:32:36Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 324,
@@ -2652,12 +2652,14 @@
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00005 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00006 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00007 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00004 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00005 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00006 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-servlets@9.4.58.v20250814-osera-00007 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-servlets at 9.4.53.v20231009",
     "promoted org.springframework.ldap:spring-ldap-core@2.4.4.1-osera-00001 is on base 2.4.4, the line has org.springframework.ldap:spring-ldap-core at 2.4.1",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00001 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
     "promoted org.springframework.security:spring-security-core@5.7.14.1-osera-00002 is on base 5.7.14, the line has org.springframework.security:spring-security-core at 5.7.11",
@@ -2749,5 +2751,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.29.47"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.29.48"
 }
