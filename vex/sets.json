@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T00:58:03Z",
-  "feed_version": 128,
+  "generated_at": "2026-10-29T01:08:32Z",
+  "feed_version": 129,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -14784,6 +14784,37 @@
       ],
       "state": "in the feed",
       "statements": 31
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-framework@v5.3.39.1-osera-00022",
+      "members": 23,
+      "coordinates": [
+        "org.springframework:spring-aop@5.3.39.1-osera-00022",
+        "org.springframework:spring-aspects@5.3.39.1-osera-00022",
+        "org.springframework:spring-beans@5.3.39.1-osera-00022",
+        "org.springframework:spring-context-indexer@5.3.39.1-osera-00022",
+        "org.springframework:spring-context-support@5.3.39.1-osera-00022",
+        "org.springframework:spring-context@5.3.39.1-osera-00022",
+        "org.springframework:spring-core@5.3.39.1-osera-00022",
+        "org.springframework:spring-expression@5.3.39.1-osera-00022",
+        "org.springframework:spring-framework-bom@5.3.39.1-osera-00022",
+        "org.springframework:spring-instrument@5.3.39.1-osera-00022",
+        "org.springframework:spring-jcl@5.3.39.1-osera-00022",
+        "org.springframework:spring-jdbc@5.3.39.1-osera-00022",
+        "org.springframework:spring-jms@5.3.39.1-osera-00022",
+        "org.springframework:spring-messaging@5.3.39.1-osera-00022",
+        "org.springframework:spring-orm@5.3.39.1-osera-00022",
+        "org.springframework:spring-oxm@5.3.39.1-osera-00022",
+        "org.springframework:spring-r2dbc@5.3.39.1-osera-00022",
+        "org.springframework:spring-test@5.3.39.1-osera-00022",
+        "org.springframework:spring-tx@5.3.39.1-osera-00022",
+        "org.springframework:spring-web@5.3.39.1-osera-00022",
+        "org.springframework:spring-webflux@5.3.39.1-osera-00022",
+        "org.springframework:spring-webmvc@5.3.39.1-osera-00022",
+        "org.springframework:spring-websocket@5.3.39.1-osera-00022"
+      ],
+      "state": "in the feed",
+      "statements": 32
     },
     {
       "set": "finos-osera-forks/patch-spring-graphql@v1.0.6.1-osera-00001",
