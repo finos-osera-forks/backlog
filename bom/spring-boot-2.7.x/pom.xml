@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-10-29T09:40:09Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-10-29T09:42:28Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.10.29.37</version>
+  <version>2026.10.29.38</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -375,7 +375,7 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -440,7 +440,7 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -640,77 +640,77 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-quartz</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-reactor-netty</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-rsocket</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-security</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-test</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-tomcat</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-undertow</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-validation</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web-services</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-webflux</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-websocket</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-test</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-test-autoconfigure</artifactId>
-        <version>2.7.18.1-osera-00091</version>
+        <version>2.7.18.1-osera-00092</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
