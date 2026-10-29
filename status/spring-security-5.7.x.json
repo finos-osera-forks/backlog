@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.10.29.2",
-  "as_of": "2026-10-29T00:22:27Z",
+  "as_of": "2026-10-29T00:26:28Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 56,
@@ -65,10 +65,10 @@
     {
       "cve": "CVE-2025-41249",
       "library": "org.springframework:spring-core",
-      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00017",
-      "patch": "00017",
-      "named_by": "org.springframework:spring-core@5.3.39.1-osera-00017",
-      "at": "2026-10-29T00:20:09Z"
+      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00018",
+      "patch": "00018",
+      "named_by": "org.springframework:spring-core@5.3.39.1-osera-00018",
+      "at": "2026-10-29T00:26:28Z"
     },
     {
       "cve": "CVE-2025-52999",
@@ -129,34 +129,34 @@
     {
       "cve": "CVE-2026-41848",
       "library": "org.springframework:spring-core",
-      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00017",
-      "patch": "00017",
-      "named_by": "org.springframework:spring-core@5.3.39.1-osera-00017",
-      "at": "2026-10-29T00:20:09Z"
+      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00018",
+      "patch": "00018",
+      "named_by": "org.springframework:spring-core@5.3.39.1-osera-00018",
+      "at": "2026-10-29T00:26:28Z"
     },
     {
       "cve": "CVE-2026-41849",
       "library": "org.springframework:spring-expression",
-      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00017",
-      "patch": "00017",
-      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00017",
-      "at": "2026-10-29T00:20:09Z"
+      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00018",
+      "patch": "00018",
+      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00018",
+      "at": "2026-10-29T00:26:28Z"
     },
     {
       "cve": "CVE-2026-41850",
       "library": "org.springframework:spring-expression",
-      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00017",
-      "patch": "00017",
-      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00017",
-      "at": "2026-10-29T00:20:09Z"
+      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00018",
+      "patch": "00018",
+      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00018",
+      "at": "2026-10-29T00:26:28Z"
     },
     {
       "cve": "CVE-2026-41851",
       "library": "org.springframework:spring-expression",
-      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00017",
-      "patch": "00017",
-      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00017",
-      "at": "2026-10-29T00:20:09Z"
+      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00018",
+      "patch": "00018",
+      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00018",
+      "at": "2026-10-29T00:26:28Z"
     },
     {
       "cve": "CVE-2026-47838",
@@ -1194,5 +1194,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.29.2"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.10.29.3"
 }
