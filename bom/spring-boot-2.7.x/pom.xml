@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-10-29T22:08:33Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-10-29T22:15:45Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.10.29.55</version>
+  <version>2026.10.29.57</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -155,107 +155,107 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-annotations</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-client</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-continuation</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-http</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-io</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-plus</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-security</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-server</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-servlet</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-servlets</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-util</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-util-ajax</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-webapp</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-xml</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>javax-websocket-client-impl</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>javax-websocket-server-impl</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-api</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-client</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-common</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-server</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.websocket</groupId>
         <artifactId>websocket-servlet</artifactId>
-        <version>9.4.58.v20250814-osera-00011</version>
+        <version>9.4.58.v20250814-osera-00012</version>
       </dependency>
       <dependency>
         <groupId>org.hibernate</groupId>
