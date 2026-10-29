@@ -1,7 +1,7 @@
 {
   "line": "spring-framework-5.3.x",
   "book_version": "v2026.10.29",
-  "as_of": "2026-10-29T00:02:51Z",
+  "as_of": "2026-10-29T00:20:09Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 47,
@@ -9,170 +9,186 @@
     {
       "cve": "CVE-2016-1000027",
       "library": "org.springframework:spring-web",
-      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-web@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-web@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2024-38816",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2024-38816",
       "library": "org.springframework:spring-webmvc",
-      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2024-38819",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2024-38819",
       "library": "org.springframework:spring-webmvc",
-      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2025-41249",
       "library": "org.springframework:spring-core",
-      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-core@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-core@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
+    },
+    {
+      "cve": "CVE-2026-22735",
+      "library": "org.springframework:spring-webflux",
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
+    },
+    {
+      "cve": "CVE-2026-22735",
+      "library": "org.springframework:spring-webmvc",
+      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-22740",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41838",
       "library": "org.springframework:spring-websocket",
-      "coordinate": "org.springframework:spring-websocket@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-websocket@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-websocket@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-websocket@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41842",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41842",
       "library": "org.springframework:spring-webmvc",
-      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41844",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41844",
       "library": "org.springframework:spring-webmvc",
-      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41845",
       "library": "org.springframework:spring-webmvc",
-      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41846",
       "library": "org.springframework:spring-webmvc",
-      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41848",
       "library": "org.springframework:spring-core",
-      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-core@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-core@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-core@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41849",
       "library": "org.springframework:spring-expression",
-      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41850",
       "library": "org.springframework:spring-expression",
-      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41851",
       "library": "org.springframework:spring-expression",
-      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-expression@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-expression@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-41855",
       "library": "org.springframework:spring-jms",
-      "coordinate": "org.springframework:spring-jms@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-jms@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-jms@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-jms@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-47884",
       "library": "org.springframework:spring-webmvc",
-      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     },
     {
       "cve": "CVE-2026-47892",
       "library": "org.springframework:spring-webflux",
-      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "patch": "00016",
-      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00016",
-      "at": "2026-10-15T13:45:40Z"
+      "coordinate": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "patch": "00017",
+      "named_by": "org.springframework:spring-webflux@5.3.39.1-osera-00017",
+      "at": "2026-10-29T00:20:09Z"
     }
   ],
   "in_progress": [],
@@ -200,14 +216,6 @@
     {
       "cve": "CVE-2025-41254",
       "library": "org.springframework:spring-websocket"
-    },
-    {
-      "cve": "CVE-2026-22735",
-      "library": "org.springframework:spring-webflux"
-    },
-    {
-      "cve": "CVE-2026-22735",
-      "library": "org.springframework:spring-webmvc"
     },
     {
       "cve": "CVE-2026-22737",
@@ -285,8 +293,12 @@
   "not_remediable": [],
   "discrepancies": [
     "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-web@5.3.39.1-osera-00016",
+    "fixed, not in the backlog: CVE-2025-41249 on org.springframework:spring-web@5.3.39.1-osera-00017",
+    "fixed, not in the backlog: CVE-2026-22735 on org.springframework:spring-web@5.3.39.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00016",
-    "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016"
+    "fixed, not in the backlog: CVE-2026-22740 on org.springframework:spring-web@5.3.39.1-osera-00017",
+    "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
+    "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00017"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.10.15.3"
+  "consume": "org.finos.osera:osera-bom-spring-framework-5.3.x@2026.10.29"
 }
