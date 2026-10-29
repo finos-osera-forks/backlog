@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T21:42:57Z",
-  "feed_version": 150,
+  "generated_at": "2026-10-29T21:48:08Z",
+  "feed_version": 151,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -6454,46 +6454,8 @@
         "org.eclipse.jetty:jetty-webapp@9.4.58.v20250814-osera-00008",
         "org.eclipse.jetty:jetty-xml@9.4.58.v20250814-osera-00008"
       ],
-      "state": "held",
-      "held_since": "2026-10-29T21:42:57Z",
-      "reasons": [
-        {
-          "member": "org.eclipse.jetty.osgi:jetty-osgi-boot@9.4.58.v20250814-osera-00008",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:javax-websocket-client-impl@9.4.58.v20250814-osera-00008",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:javax-websocket-server-impl@9.4.58.v20250814-osera-00008",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-api@9.4.58.v20250814-osera-00008",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-client@9.4.58.v20250814-osera-00008",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-common@9.4.58.v20250814-osera-00008",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-server@9.4.58.v20250814-osera-00008",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.websocket:websocket-servlet@9.4.58.v20250814-osera-00008",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.eclipse.jetty.osgi:jetty-osgi-boot-warurl@9.4.58.v20250814-osera-00008",
-          "why": "evidence chain not complete: files: not checked (jetty-osgi-boot-warurl-9.4.58.v20250814-osera-00008.jar.sha1, jetty-osgi-boot-warurl-9.4.58.v20250814-osera-00008.pom.sha1 not there yet: the last file landed 1m28s ago and the gate copies the checksums after the jar and the pom); signatures: failed (no signature next to the jar (jetty-osgi-boot-warurl-9.4.58.v20250814-osera-00008.jar.asc))"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 10
     },
     {
       "set": "finos-osera-forks/patch-log4j@v1.2.17.1-osera-00001",
