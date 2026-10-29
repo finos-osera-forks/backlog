@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.29.43",
-  "as_of": "2026-10-29T10:26:20Z",
+  "as_of": "2026-10-29T10:32:26Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 324,
@@ -65,10 +65,10 @@
     {
       "cve": "CVE-2024-38807",
       "library": "org.springframework.boot:spring-boot-loader",
-      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00096",
-      "patch": "00096",
-      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00096",
-      "at": "2026-10-29T10:22:43Z"
+      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00097",
+      "patch": "00097",
+      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00097",
+      "at": "2026-10-29T10:32:26Z"
     },
     {
       "cve": "CVE-2024-38816",
@@ -193,10 +193,10 @@
     {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools",
-      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00096",
-      "patch": "00096",
-      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00096",
-      "at": "2026-10-29T10:22:43Z"
+      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00097",
+      "patch": "00097",
+      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00097",
+      "at": "2026-10-29T10:32:26Z"
     },
     {
       "cve": "CVE-2026-40973",
@@ -1961,6 +1961,7 @@
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00094",
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00095",
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00096",
+    "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00097",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00082",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00083",
