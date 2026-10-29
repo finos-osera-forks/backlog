@@ -4609,6 +4609,15 @@
       "first_seen": "2026-09-24T19:31:29Z"
     },
     {
+      "coordinate": "org.springframework.data:spring-data-mongodb-parent@3.4.18.1-osera-00007",
+      "library": "org.springframework.data:spring-data-mongodb-parent",
+      "base": "3.4.18",
+      "kind": "parent",
+      "released_with": "patch-spring-data-mongodb v3.4.18.1-osera-00007",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-29T02:27:13Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-rest-parent@3.7.18.1-osera-00002",
       "library": "org.springframework.data:spring-data-rest-parent",
       "base": "3.7.18",
@@ -4616,6 +4625,15 @@
       "released_with": "patch-spring-data-rest v3.7.18.1-osera-00002",
       "why": "the patched modules name it as their parent, a build needs it to resolve them",
       "first_seen": "2026-09-24T19:04:37Z"
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-rest-parent@3.7.18.1-osera-00007",
+      "library": "org.springframework.data:spring-data-rest-parent",
+      "base": "3.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-data-rest v3.7.18.1-osera-00007",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-10-29T02:27:13Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-bom@5.5.20.1-osera-00001",
