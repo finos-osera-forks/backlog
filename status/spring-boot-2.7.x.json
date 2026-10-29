@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.10.29.32",
-  "as_of": "2026-10-29T09:11:49Z",
+  "as_of": "2026-10-29T09:16:40Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 190,
@@ -73,10 +73,10 @@
     {
       "cve": "CVE-2024-38807",
       "library": "org.springframework.boot:spring-boot-loader",
-      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00089",
-      "patch": "00089",
-      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00089",
-      "at": "2026-10-29T09:05:53Z"
+      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00090",
+      "patch": "00090",
+      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00090",
+      "at": "2026-10-29T09:16:40Z"
     },
     {
       "cve": "CVE-2024-38816",
@@ -137,10 +137,10 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00089",
-      "patch": "00089",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00089",
-      "at": "2026-10-29T09:09:27Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00090",
+      "patch": "00090",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00090",
+      "at": "2026-10-29T09:16:40Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -241,10 +241,10 @@
     {
       "cve": "CVE-2026-22733",
       "library": "org.springframework.boot:spring-boot-starter-actuator",
-      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00089",
-      "patch": "00089",
-      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00089",
-      "at": "2026-10-29T09:05:53Z"
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00090",
+      "patch": "00090",
+      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00090",
+      "at": "2026-10-29T09:16:40Z"
     },
     {
       "cve": "CVE-2026-22735",
@@ -305,18 +305,18 @@
     {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools",
-      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00089",
-      "patch": "00089",
-      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00089",
-      "at": "2026-10-29T09:05:53Z"
+      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00090",
+      "patch": "00090",
+      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00090",
+      "at": "2026-10-29T09:16:40Z"
     },
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00089",
-      "patch": "00089",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00089",
-      "at": "2026-10-29T09:09:27Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00090",
+      "patch": "00090",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00090",
+      "at": "2026-10-29T09:16:40Z"
     },
     {
       "cve": "CVE-2026-40988",
@@ -1503,6 +1503,7 @@
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00087",
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00088",
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00089",
+    "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00090",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00082",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00083",
@@ -1512,6 +1513,7 @@
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00087",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00088",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00089",
+    "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00090",
     "fixed, not in the backlog: CVE-2026-41715 on io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00002",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00017",
@@ -2130,5 +2132,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.29.33"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.10.29.34"
 }
