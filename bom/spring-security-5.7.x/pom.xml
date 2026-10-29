@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-security-5.7.x line, built 2026-10-29T00:53:23Z by the line manager.
+  The OSERA BOM of the spring-security-5.7.x line, built 2026-10-29T01:00:05Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-security-5.7.x</artifactId>
-  <version>2026.10.29.9</version>
+  <version>2026.10.29.10</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-security-5.7.x</name>
   <dependencyManagement>
@@ -55,42 +55,42 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-aop</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-beans</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-context</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-core</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-expression</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jcl</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-jdbc</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-messaging</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
@@ -100,7 +100,7 @@
       <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-tx</artifactId>
-        <version>5.3.39.1-osera-00021</version>
+        <version>5.3.39.1-osera-00022</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
