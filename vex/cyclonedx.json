@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 131,
+  "version": 132,
   "metadata": {
-    "timestamp": "2026-10-29T01:23:02Z",
+    "timestamp": "2026-10-29T02:48:02Z",
     "tools": {
       "components": [
         {
@@ -7977,6 +7977,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18.1-osera-00007",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.data",
+      "name": "spring-data-commons",
+      "version": "2.7.18.1-osera-00007",
+      "purl": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18.1-osera-00007"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00005",
       "supplier": {
         "name": "moderne"
@@ -7996,6 +8007,17 @@
       "name": "spring-data-keyvalue",
       "version": "2.7.18.1-osera-00006",
       "purl": "pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00006"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00007",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.data",
+      "name": "spring-data-keyvalue",
+      "version": "2.7.18.1-osera-00007",
+      "purl": "pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00007"
     },
     {
       "type": "library",
@@ -8065,6 +8087,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00007",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.data",
+      "name": "spring-data-mongodb",
+      "version": "3.4.18.1-osera-00007",
+      "purl": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00007"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00002",
       "supplier": {
         "name": "moderne"
@@ -8117,6 +8150,17 @@
       "name": "spring-data-rest-webmvc",
       "version": "3.7.18.1-osera-00006",
       "purl": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00006"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.data",
+      "name": "spring-data-rest-webmvc",
+      "version": "3.7.18.1-osera-00007",
+      "purl": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007"
     },
     {
       "type": "library",
@@ -89065,6 +89109,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-41716 on pkg:maven/org.springframework.data/spring-data-commons@2.7.18.1-osera-00007",
+      "id": "CVE-2026-41716",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41716"
+      },
+      "references": [
+        {
+          "id": "GHSA-9fw2-h3hf-293r",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-9fw2-h3hf-293r"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-29T02:26:28Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18.1-osera-00007"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-41719 on pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00005",
       "id": "CVE-2026-41719",
       "source": {
@@ -89113,6 +89183,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41719 on pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00007",
+      "id": "CVE-2026-41719",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41719"
+      },
+      "references": [
+        {
+          "id": "GHSA-xg2j-3hj6-pc24",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xg2j-3hj6-pc24"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-29T02:26:36Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00007"
         }
       ]
     },
@@ -89295,6 +89391,58 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41696 on pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00007",
+      "id": "CVE-2026-41696",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41696"
+      },
+      "references": [
+        {
+          "id": "GHSA-hc43-m36c-8v33",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-hc43-m36c-8v33"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-29T02:26:53Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41717 on pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00007",
+      "id": "CVE-2026-41717",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41717"
+      },
+      "references": [
+        {
+          "id": "GHSA-5whc-4q84-fj73",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5whc-4q84-fj73"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-29T02:26:53Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00007"
         }
       ]
     },
@@ -89503,6 +89651,75 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41728 on pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007",
+      "id": "CVE-2026-41728",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41728"
+      },
+      "references": [
+        {
+          "id": "GHSA-cv39-x4c6-hhp2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-cv39-x4c6-hhp2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-29T02:26:58Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41729 on pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007",
+      "id": "CVE-2026-41729",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41729"
+      },
+      "references": [
+        {
+          "id": "GHSA-j388-8rm5-p97f",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-j388-8rm5-p97f"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-29T02:26:58Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47849 on pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007",
+      "id": "CVE-2026-47849",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47849"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-10-29T02:26:58Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007"
         }
       ]
     },

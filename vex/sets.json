@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T02:37:59Z",
-  "feed_version": 131,
+  "generated_at": "2026-10-29T02:48:02Z",
+  "feed_version": 132,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -14123,7 +14123,7 @@
         "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00007",
         "org.springframework.data:spring-data-cassandra@3.4.18.1-osera-00007",
         "org.springframework.data:spring-data-commons@2.7.18.1-osera-00007",
-        "org.springframework.data:spring-data-couchbase@4.4.18",
+        "org.springframework.data:spring-data-couchbase@4.4.18.1-osera-00007",
         "org.springframework.data:spring-data-elasticsearch@4.4.18.1-osera-00007",
         "org.springframework.data:spring-data-envers@2.7.18.1-osera-00007",
         "org.springframework.data:spring-data-geode@2.7.18.1-osera-00007",
@@ -14142,14 +14142,8 @@
         "org.springframework.data:spring-data-rest-parent@3.7.18.1-osera-00007",
         "org.springframework.data:spring-data-rest-webmvc@3.7.18.1-osera-00007"
       ],
-      "state": "held",
-      "held_since": "2026-10-29T02:37:59Z",
-      "reasons": [
-        {
-          "member": "org.springframework.data:spring-data-couchbase@4.4.18",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 7
     },
     {
       "set": "finos-osera-forks/patch-spring-data-mongodb@v3.4.18.1-osera-00001",
