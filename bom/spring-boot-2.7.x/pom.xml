@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-10-30T08:13:05Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-10-30T08:15:19Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.10.30.10</version>
+  <version>2026.10.30.11</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -375,7 +375,7 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot</artifactId>
-        <version>2.7.18.1-osera-00103</version>
+        <version>2.7.18.1-osera-00104</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -710,7 +710,7 @@
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-test-autoconfigure</artifactId>
-        <version>2.7.18.1-osera-00103</version>
+        <version>2.7.18.1-osera-00104</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
