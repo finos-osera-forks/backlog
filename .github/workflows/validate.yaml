@@ -22,6 +22,7 @@ jobs:
     env:
       BOOK: cve-backlog.json
       LINES: supported-lines.csv
+      PRIORITISED: prioritised-lines.json
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -66,7 +67,9 @@ jobs:
           echo "$COUNT entries validated"
 
 
-      # 3. Every line an entry names is in supported-lines.csv.
+      # 3. Every line an entry names is a published line: in supported-lines.csv (the legacy
+      #    list, written by people) or in prioritised-lines.json (written by the line manager,
+      #    lines from the secure intake included, 29 Oct 2026).
       - name: Every line is a supported line
         run: |
           set -euo pipefail
@@ -75,12 +78,17 @@ jobs:
             echo "no $BOOK in this pull request yet (the line comes first, the book by its own pull request), nothing to validate"
             exit 0
           fi
-          KNOWN="$(tail -n +2 "$LINES" | cut -d, -f1 | sort -u)"
+          KNOWN="$(tail -n +2 "$LINES" | cut -d, -f1)"
+          if [ -f "$PRIORITISED" ]
+          then
+            KNOWN="$(printf '%s\n%s\n' "$KNOWN" "$(jq -r '.[].line_id' "$PRIORITISED")")"
+          fi
+          KNOWN="$(echo "$KNOWN" | sed '/^$/d' | sort -u)"
           USED="$(jq -r '[.entries[].lines[]] | unique | .[]' "$BOOK")"
           UNKNOWN="$(comm -13 <(echo "$KNOWN") <(echo "$USED"))"
           if [ -n "$UNKNOWN" ]
           then
-            echo "lines named in the book but not in $LINES: $UNKNOWN"
+            echo "lines named in the book but not in $LINES nor $PRIORITISED: $UNKNOWN"
             exit 1
           fi
           echo "every line is supported"
