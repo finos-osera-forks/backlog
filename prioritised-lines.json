@@ -1,0 +1,322 @@
+[
+  {
+    "rank": 1,
+    "line_id": "axis-1.4.x",
+    "ecosystem": "maven",
+    "project": "org.apache.axis:axis",
+    "version_line": "1.4.x",
+    "anchor": "1.4"
+  },
+  {
+    "rank": 2,
+    "line_id": "bouncycastle-1.46.x",
+    "ecosystem": "maven",
+    "project": "org.bouncycastle:bcmail-jdk15",
+    "version_line": "1.46.x",
+    "anchor": "1.46"
+  },
+  {
+    "rank": 3,
+    "line_id": "bouncycastle-1.69.x",
+    "ecosystem": "maven",
+    "project": "org.bouncycastle:bcpkix-jdk15on",
+    "version_line": "1.69.x",
+    "anchor": "1.69"
+  },
+  {
+    "rank": 4,
+    "line_id": "bouncycastle-1.70.x",
+    "ecosystem": "maven",
+    "project": "org.bouncycastle:bcpkix-jdk15on",
+    "version_line": "1.70.x",
+    "anchor": "1.70"
+  },
+  {
+    "rank": 5,
+    "line_id": "bouncycastle-1.78.x",
+    "ecosystem": "maven",
+    "project": "org.bouncycastle:bcpkix-jdk18on",
+    "version_line": "1.78.x",
+    "anchor": "1.78.1"
+  },
+  {
+    "rank": 6,
+    "line_id": "c3p0-0.9.x",
+    "ecosystem": "maven",
+    "project": "com.mchange:c3p0",
+    "version_line": "0.9.x",
+    "anchor": "0.9.5.5"
+  },
+  {
+    "rank": 7,
+    "line_id": "commons-beanutils-1.9.x",
+    "ecosystem": "maven",
+    "project": "commons-beanutils:commons-beanutils",
+    "version_line": "1.9.x",
+    "anchor": "1.9.4"
+  },
+  {
+    "rank": 8,
+    "line_id": "commons-configuration-1.1.x",
+    "ecosystem": "maven",
+    "project": "commons-configuration:commons-configuration",
+    "version_line": "1.1.x",
+    "anchor": "1.1"
+  },
+  {
+    "rank": 9,
+    "line_id": "commons-configuration-1.9.x",
+    "ecosystem": "maven",
+    "project": "commons-configuration:commons-configuration",
+    "version_line": "1.9.x",
+    "anchor": "1.9"
+  },
+  {
+    "rank": 10,
+    "line_id": "commons-text-1.6.x",
+    "ecosystem": "maven",
+    "project": "org.apache.commons:commons-text",
+    "version_line": "1.6.x",
+    "anchor": "1.6"
+  },
+  {
+    "rank": 11,
+    "line_id": "commons-text-1.7.x",
+    "ecosystem": "maven",
+    "project": "org.apache.commons:commons-text",
+    "version_line": "1.7.x",
+    "anchor": "1.7"
+  },
+  {
+    "rank": 12,
+    "line_id": "commons-text-1.8.x",
+    "ecosystem": "maven",
+    "project": "org.apache.commons:commons-text",
+    "version_line": "1.8.x",
+    "anchor": "1.8"
+  },
+  {
+    "rank": 13,
+    "line_id": "commons-text-1.9.x",
+    "ecosystem": "maven",
+    "project": "org.apache.commons:commons-text",
+    "version_line": "1.9.x",
+    "anchor": "1.9"
+  },
+  {
+    "rank": 14,
+    "line_id": "httpclient5-5.4.x",
+    "ecosystem": "maven",
+    "project": "org.apache.httpcomponents.client5:httpclient5",
+    "version_line": "5.4.x",
+    "anchor": "5.4.4"
+  },
+  {
+    "rank": 15,
+    "line_id": "httpclient5-5.5.x",
+    "ecosystem": "maven",
+    "project": "org.apache.httpcomponents.client5:httpclient5",
+    "version_line": "5.5.x",
+    "anchor": "5.5.2"
+  },
+  {
+    "rank": 16,
+    "line_id": "httpcore5-5.3.x",
+    "ecosystem": "maven",
+    "project": "org.apache.httpcomponents.core5:httpcore5-h2",
+    "version_line": "5.3.x",
+    "anchor": "5.3.6"
+  },
+  {
+    "rank": 17,
+    "line_id": "jackson-2.15.x",
+    "ecosystem": "maven",
+    "project": "com.fasterxml.jackson.core:jackson-databind",
+    "version_line": "2.15.x",
+    "anchor": "2.15.4"
+  },
+  {
+    "rank": 18,
+    "line_id": "jackson-2.19.x",
+    "ecosystem": "maven",
+    "project": "com.fasterxml.jackson.core:jackson-databind",
+    "version_line": "2.19.x",
+    "anchor": "2.19.4"
+  },
+  {
+    "rank": 19,
+    "line_id": "jetty-9.2.x",
+    "ecosystem": "maven",
+    "project": "org.eclipse.jetty:jetty-security",
+    "version_line": "9.2.x",
+    "anchor": "9.2.30.v20200428"
+  },
+  {
+    "rank": 20,
+    "line_id": "log4j-1.2.x",
+    "ecosystem": "maven",
+    "project": "log4j:log4j",
+    "version_line": "1.2.x",
+    "anchor": "1.2.17"
+  },
+  {
+    "rank": 21,
+    "line_id": "log4j2-2.24.x",
+    "ecosystem": "maven",
+    "project": "org.apache.logging.log4j:log4j-core",
+    "version_line": "2.24.x",
+    "anchor": "2.24.3"
+  },
+  {
+    "rank": 22,
+    "line_id": "lz4-java-1.8.x",
+    "ecosystem": "maven",
+    "project": "org.lz4:lz4-java",
+    "version_line": "1.8.x",
+    "anchor": "1.8.1"
+  },
+  {
+    "rank": 23,
+    "line_id": "mchange-commons-0.2.x",
+    "ecosystem": "maven",
+    "project": "com.mchange:mchange-commons-java",
+    "version_line": "0.2.x",
+    "anchor": "0.2.20"
+  },
+  {
+    "rank": 24,
+    "line_id": "snakeyaml-1.16.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.16.x",
+    "anchor": "1.16"
+  },
+  {
+    "rank": 25,
+    "line_id": "snakeyaml-1.17.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.17.x",
+    "anchor": "1.17"
+  },
+  {
+    "rank": 26,
+    "line_id": "snakeyaml-1.19.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.19.x",
+    "anchor": "1.19"
+  },
+  {
+    "rank": 27,
+    "line_id": "snakeyaml-1.23.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.23.x",
+    "anchor": "1.23"
+  },
+  {
+    "rank": 28,
+    "line_id": "snakeyaml-1.26.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.26.x",
+    "anchor": "1.26"
+  },
+  {
+    "rank": 29,
+    "line_id": "snakeyaml-1.27.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.27.x",
+    "anchor": "1.27"
+  },
+  {
+    "rank": 30,
+    "line_id": "snakeyaml-1.28.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.28.x",
+    "anchor": "1.28"
+  },
+  {
+    "rank": 31,
+    "line_id": "snakeyaml-1.29.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.29.x",
+    "anchor": "1.29"
+  },
+  {
+    "rank": 32,
+    "line_id": "snakeyaml-1.31.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.31.x",
+    "anchor": "1.31"
+  },
+  {
+    "rank": 33,
+    "line_id": "snakeyaml-1.33.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.33.x",
+    "anchor": "1.33"
+  },
+  {
+    "rank": 34,
+    "line_id": "snakeyaml-1.9.x",
+    "ecosystem": "maven",
+    "project": "org.yaml:snakeyaml",
+    "version_line": "1.9.x",
+    "anchor": "1.9"
+  },
+  {
+    "rank": 35,
+    "line_id": "spring-boot-2.7.x",
+    "ecosystem": "maven",
+    "project": "org.springframework.boot:spring-boot-dependencies",
+    "version_line": "2.7.x",
+    "anchor": "2.7.18"
+  },
+  {
+    "rank": 36,
+    "line_id": "spring-framework-5.3.x",
+    "ecosystem": "maven",
+    "project": "org.springframework:spring-framework-bom",
+    "version_line": "5.3.x",
+    "anchor": "5.3.39"
+  },
+  {
+    "rank": 37,
+    "line_id": "spring-security-5.7.x",
+    "ecosystem": "maven",
+    "project": "org.springframework.security:spring-security-bom",
+    "version_line": "5.7.x",
+    "anchor": "5.7.11"
+  },
+  {
+    "rank": 38,
+    "line_id": "struts-1.3.x",
+    "ecosystem": "maven",
+    "project": "org.apache.struts:struts-tiles",
+    "version_line": "1.3.x",
+    "anchor": "1.3.10"
+  },
+  {
+    "rank": 39,
+    "line_id": "velocity-1.6.x",
+    "ecosystem": "maven",
+    "project": "org.apache.velocity:velocity",
+    "version_line": "1.6.x",
+    "anchor": "1.6.4"
+  },
+  {
+    "rank": 40,
+    "line_id": "velocity-1.7.x",
+    "ecosystem": "maven",
+    "project": "org.apache.velocity:velocity",
+    "version_line": "1.7.x",
+    "anchor": "1.7"
+  }
+]
