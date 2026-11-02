@@ -39,3 +39,4 @@ bouncycastle-1.70.x,maven,org.bouncycastle:bcpkix-jdk15on@1.70,,wave-2,Board 23 
 bouncycastle-1.69.x,maven,org.bouncycastle:bcpkix-jdk15on@1.69,,wave-2,Board 23 Sept 2026 option B,fixed,v2026.11.02.29,2026-11-02T16:22:00Z,org.finos.osera:osera-bom-bouncycastle-1.69.x@2026.10.23.47
 httpclient5-5.5.x,maven,org.apache.httpcomponents.client5:httpclient5@5.5.2,,wave-2,Board 23 Sept 2026 option B,in progress,v2026.11.02.29,2026-11-02T16:22:00Z,org.finos.osera:osera-bom-httpclient5-5.5.x@2026.10.21
 httpclient5-5.4.x,maven,org.apache.httpcomponents.client5:httpclient5@5.4.4,,wave-2,Board 23 Sept 2026 option B,in progress,v2026.11.02.29,2026-11-02T16:22:00Z,org.finos.osera:osera-bom-httpclient5-5.4.x@2026.10.21
+crypto-js-4.1.x,npm,crypto-js@4.1.1,,wave-2,Moderne JavaScript pilot,,,,
