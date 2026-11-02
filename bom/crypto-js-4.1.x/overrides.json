@@ -1,0 +1,5 @@
+{
+  "overrides": {
+    "crypto-js": "4.1.2-osera-00001"
+  }
+}
