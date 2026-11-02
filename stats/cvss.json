@@ -1,0 +1,158 @@
+{
+ "scores": {
+  "CVE-2025-8885": {
+   "value": 6.3,
+   "version": "4.0"
+  },
+  "CVE-2026-12185": {
+   "value": 8.6,
+   "version": "3.1"
+  },
+  "CVE-2026-12802": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-12803": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-12816": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-12860": {
+   "value": 5.3,
+   "version": "3.1"
+  },
+  "CVE-2026-13586": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-14682": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-15055": {
+   "value": 8.2,
+   "version": "3.1"
+  },
+  "CVE-2026-17508": {
+   "value": 5.3,
+   "version": "4.0"
+  },
+  "CVE-2026-40974": {
+   "value": 9.8,
+   "version": "3.1"
+  },
+  "CVE-2026-40975": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-54518": {
+   "value": 6.5,
+   "version": "3.1"
+  },
+  "CVE-2026-58059": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-58060": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-58061": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-58062": {
+   "value": 9.1,
+   "version": "3.1"
+  },
+  "CVE-2026-58063": {
+   "value": 5.3,
+   "version": "3.1"
+  },
+  "CVE-2026-59639": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-59642": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-59647": {
+   "value": 5.3,
+   "version": "3.1"
+  },
+  "CVE-2026-59650": {
+   "value": 9.1,
+   "version": "3.1"
+  },
+  "CVE-2026-71888": {
+   "value": 8.7,
+   "version": "4.0"
+  },
+  "CVE-2026-71889": {
+   "value": 8.7,
+   "version": "4.0"
+  },
+  "CVE-2026-97873": {
+   "value": 5.3,
+   "version": "4.0"
+  }
+ },
+ "summaries": {
+  "CVE-2025-8885": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc.",
+  "CVE-2026-12185": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
+  "CVE-2026-12802": "In Bouncy Castle for Java before 1.85, CMS AuthEnvelopedData fails to enforce tag-length on decryption.",
+  "CVE-2026-12803": "In Bouncy Castle for Java before 1.85, KCCMBlockCipher MAC does not bind nonce when AAD is absent (cross-nonce AEAD forgery).",
+  "CVE-2026-12816": "In Bouncy Castle for Java before 1.85, IESEngine stream-mode MAC forgery via length-dependent KDF split.",
+  "CVE-2026-12860": "In Bouncy Castle for Java before 1.85, RSA PKCS#1 verification skips last two hash bytes in NULL-omitted path.",
+  "CVE-2026-13586": "In Bouncy Castle for Java before 1.85, PKCS#12 MAC and bag-decryption KDF iteration-count bound (DoS).",
+  "CVE-2026-14682": "In Bouncy Castle for Java before 1.85, Possible OOM from unbounded up-front allocation on a definite-length read.",
+  "CVE-2026-15055": "In Bouncy Castle for Java before 1.85, PKCS#8 / PBES2 decryptors honour unbounded KDF cost from input.",
+  "CVE-2026-17508": "In Bouncy Castle for Java before 1.86, several password-based key derivation entry points ran the KDF with cost parameters taken from the untrusted input being processed, without bounding them, so a small input could dictate an arbitrary a…",
+  "CVE-2026-40974": "Spring Boot's Cassandra auto-configuration does not perform hostname verification when establishing an SSL connection to Cassandra.",
+  "CVE-2026-40975": "Values produced by ${random.value} are not suitable for use as secrets.",
+  "CVE-2026-54518": "jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor.",
+  "CVE-2026-58059": "In Bouncy Castle for Java before 1.85, Quadratic-time escaping when stringifying X.500 distinguished names.",
+  "CVE-2026-58060": "In Bouncy Castle for Java before 1.85, HSS public-key level count unbounded, enabling huge allocation on verify.",
+  "CVE-2026-58061": "In Bouncy Castle for Java before 1.85, CCM-family modes write plaintext to caller buffer before tag check.",
+  "CVE-2026-58062": "In Bouncy Castle for Java before 1.85, Stapled OCSP response accepted without binding to the checked certificate.",
+  "CVE-2026-58063": "In Bouncy Castle for Java before 1.85, BCFKS keystore load honours unbounded KDF cost from untrusted file.",
+  "CVE-2026-59639": "In Bouncy Castle for Java before 1.85, CMS verifySignatures returns true for SignedData with zero signers.",
+  "CVE-2026-59642": "In Bouncy Castle for Java before 1.85, CMS AuthenticatedData content not bound to MAC when authAttrs present.",
+  "CVE-2026-59647": "In Bouncy Castle for Java before 1.85, CRMF/CMP password-MAC honours unbounded iteration count.",
+  "CVE-2026-59650": "In Bouncy Castle for Java before 1.85, MTI/A0 DH agreement exponentiates unvalidated peer value.",
+  "CVE-2026-71888": "In Bouncy Castle for Java before 1.86, the streaming CMS AuthenticatedData parser accepted a message whose digestAlgorithm and authAttrs fields disagreed about whether authenticated attributes were present.",
+  "CVE-2026-71889": "In Bouncy Castle for Java before 1.86, neither copy of PKIXCertPathReviewer - org.bouncycastle.pkix.jcajce.PKIXCertPathReviewer nor the legacy org.bouncycastle.x509.PKIXCertPathReviewer - applied X.509 name constraints to the end-entity ce…",
+  "CVE-2026-97873": "In Bouncy Castle for Java before 1.86, the raw JCA provider's legacy PBES1 (PKCS#5 scheme 1) and PKCS#12 PBE families ran their password-based key derivation with an iteration count taken from untrusted input without bounding it, so a smal…"
+ },
+ "checked": [
+  "CVE-2025-8885",
+  "CVE-2026-12185",
+  "CVE-2026-12802",
+  "CVE-2026-12803",
+  "CVE-2026-12816",
+  "CVE-2026-12860",
+  "CVE-2026-13586",
+  "CVE-2026-14682",
+  "CVE-2026-15055",
+  "CVE-2026-17508",
+  "CVE-2026-40974",
+  "CVE-2026-40975",
+  "CVE-2026-54518",
+  "CVE-2026-58059",
+  "CVE-2026-58060",
+  "CVE-2026-58061",
+  "CVE-2026-58062",
+  "CVE-2026-58063",
+  "CVE-2026-59639",
+  "CVE-2026-59642",
+  "CVE-2026-59647",
+  "CVE-2026-59650",
+  "CVE-2026-71888",
+  "CVE-2026-71889",
+  "CVE-2026-97873"
+ ]
+}
