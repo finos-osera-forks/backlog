@@ -1,14 +1,14 @@
 {
- "as_of": "2026-10-30T08:18:11Z",
+ "as_of": "2026-11-02T15:22:11Z",
  "environment": "production",
  "ecosystems": [
   "Java"
  ],
  "totals": {
-  "releases": 495,
-  "libraries": 420,
-  "libraries_with_a_fixed_cve": 78,
-  "fixed_entries": 4610,
+  "releases": 496,
+  "libraries": 421,
+  "libraries_with_a_fixed_cve": 79,
+  "fixed_entries": 4611,
   "undated_releases": 0
  },
  "releases_per_day": [
@@ -63,6 +63,10 @@
   {
    "date": "2026-10-30",
    "count": 6
+  },
+  {
+   "date": "2026-11-02",
+   "count": 1
   }
  ],
  "top_cves": [
@@ -754,6 +758,13 @@
    "releases": 2,
    "latest": "1.9.1-osera-00001",
    "fixed_entries": 2
+  },
+  {
+   "library": "crypto-js",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "4.1.2-osera-00001",
+   "fixed_entries": 1
   },
   {
    "library": "dom4j:dom4j",
