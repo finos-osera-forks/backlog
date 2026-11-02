@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-10-30T08:18:11Z",
-  "version": 160,
-  "tooling": "osera-feed main-d2c96d7d",
+  "last_updated": "2026-11-02T15:22:11Z",
+  "version": 161,
+  "tooling": "osera-feed main-5d630e88",
   "statements": [
     {
       "vulnerability": {
@@ -67484,6 +67484,22 @@
       "products": [
         {
           "@id": "pkg:maven/xerces/xercesImpl@2.2.1.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-46233",
+        "aliases": [
+          "GHSA-xwcq-pm8m-c4vf"
+        ]
+      },
+      "timestamp": "2026-11-02T15:18:32Z",
+      "products": [
+        {
+          "@id": "pkg:npm/crypto-js@4.1.2-osera-00001"
         }
       ],
       "status": "fixed",
