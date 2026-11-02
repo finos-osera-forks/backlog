@@ -40,6 +40,10 @@
    "value": 5.3,
    "version": "3.1"
   },
+  "CVE-2026-13006": {
+   "value": 7,
+   "version": "4.0"
+  },
   "CVE-2026-13586": {
    "value": 7.5,
    "version": "3.1"
@@ -78,6 +82,10 @@
   },
   "CVE-2026-40975": {
    "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-47849": {
+   "value": 7.1,
    "version": "3.1"
   },
   "CVE-2026-47864": {
@@ -132,8 +140,24 @@
    "value": 5.3,
    "version": "3.1"
   },
+  "CVE-2026-59270": {
+   "value": 9.1,
+   "version": "3.1"
+  },
+  "CVE-2026-59278": {
+   "value": 6.5,
+   "version": "3.1"
+  },
   "CVE-2026-59282": {
    "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-59283": {
+   "value": 9.1,
+   "version": "3.1"
+  },
+  "CVE-2026-59324": {
+   "value": 8.2,
    "version": "3.1"
   },
   "CVE-2026-59638": {
@@ -209,6 +233,7 @@
   "CVE-2026-12803": "In Bouncy Castle for Java before 1.85, KCCMBlockCipher MAC does not bind nonce when AAD is absent (cross-nonce AEAD forgery).",
   "CVE-2026-12816": "In Bouncy Castle for Java before 1.85, IESEngine stream-mode MAC forgery via length-dependent KDF split.",
   "CVE-2026-12860": "In Bouncy Castle for Java before 1.85, RSA PKCS#1 verification skips last two hash bytes in NULL-omitted path.",
+  "CVE-2026-13006": "ACE vulnerability in conditional configuration file processing by QOS.CH logback-core up to and including version 1.5.36 in Java applications, allows an attacker to execute arbitrary code circumventing existing protections against CVE-2025…",
   "CVE-2026-13586": "In Bouncy Castle for Java before 1.85, PKCS#12 MAC and bag-decryption KDF iteration-count bound (DoS).",
   "CVE-2026-14682": "In Bouncy Castle for Java before 1.85, Possible OOM from unbounded up-front allocation on a definite-length read.",
   "CVE-2026-15055": "In Bouncy Castle for Java before 1.85, PKCS#8 / PBES2 decryptors honour unbounded KDF cost from input.",
@@ -219,6 +244,7 @@
   "CVE-2026-18661": "In Eclipse Jetty, across various versions of `jetty-annotations`, and `jetty-eeN-annotations`, the Jakarta Spec authoritative url-pattern rules for mixed `@ServletSecurity` annotation, and `web.xml` defined `security-constraint` on the sam…",
   "CVE-2026-40974": "Spring Boot's Cassandra auto-configuration does not perform hostname verification when establishing an SSL connection to Cassandra.",
   "CVE-2026-40975": "Values produced by ${random.value} are not suitable for use as secrets.",
+  "CVE-2026-47849": "Spring Data REST does not guard identifier (@Id) and version (@Version) properties against mutation via RFC 6902 JSON Patch (application/json-patch+json) requests.",
   "CVE-2026-47864": "SerializingHttpMessageConverter deserializes the body of incoming HTTP requests with a raw java.io.ObjectInputStream and no class filtering.",
   "CVE-2026-47886": "Applications that evaluate user-supplied Spring Expression Language (SpEL) expressions may be vulnerable to a Denial of Service (DoS) attack when the power operator (^) is used with a BigDecimal or BigInteger operand and a large exponent v…",
   "CVE-2026-47888": "A Spring RSocket application is exposed to a memory leak via a malformed SETUP frame.",
@@ -232,7 +258,11 @@
   "CVE-2026-58061": "In Bouncy Castle for Java before 1.85, CCM-family modes write plaintext to caller buffer before tag check.",
   "CVE-2026-58062": "In Bouncy Castle for Java before 1.85, Stapled OCSP response accepted without binding to the checked certificate.",
   "CVE-2026-58063": "In Bouncy Castle for Java before 1.85, BCFKS keystore load honours unbounded KDF cost from untrusted file.",
+  "CVE-2026-59270": "Spring Security's embedded UnboundID LDAP server (UnboundIdContainer) unconditionally registers an administrative credential and binds its listener to all available network interfaces.",
+  "CVE-2026-59278": "JsonKafkaHeaderMapper and DefaultKafkaHeaderMapper include java.net in their default trusted packages list.",
   "CVE-2026-59282": "Spring Framework applications that use Spring's data binding infrastructure to apply user-supplied property paths onto a target object may be vulnerable to a Denial of Service (DoS) attack.",
+  "CVE-2026-59283": "Applications that evaluate Spring Expression Language (SpEL) expressions using SimpleEvaluationContext may be vulnerable to a safety guard bypass when the SpEL expression compiler is active.",
+  "CVE-2026-59324": "When an IntegrationFlow uses .fluxTransform() with an asynchronous/reordering fluxFunction that emits raw payloads, concurrent requests on the same FluxMessageChannel subscription have their reply headers (replyChannel, errorChannel, corre…",
   "CVE-2026-59638": "In Bouncy Castle for Java before 1.85, JSSE hostname verifier CN-fallback enabled by default despite documented opt-in.",
   "CVE-2026-59639": "In Bouncy Castle for Java before 1.85, CMS verifySignatures returns true for SignedData with zero signers.",
   "CVE-2026-59642": "In Bouncy Castle for Java before 1.85, CMS AuthenticatedData content not bound to MAC when authAttrs present.",
@@ -261,6 +291,7 @@
   "CVE-2026-12803",
   "CVE-2026-12816",
   "CVE-2026-12860",
+  "CVE-2026-13006",
   "CVE-2026-13586",
   "CVE-2026-14682",
   "CVE-2026-15055",
@@ -271,6 +302,7 @@
   "CVE-2026-18661",
   "CVE-2026-40974",
   "CVE-2026-40975",
+  "CVE-2026-47849",
   "CVE-2026-47864",
   "CVE-2026-47886",
   "CVE-2026-47888",
@@ -284,7 +316,11 @@
   "CVE-2026-58061",
   "CVE-2026-58062",
   "CVE-2026-58063",
+  "CVE-2026-59270",
+  "CVE-2026-59278",
   "CVE-2026-59282",
+  "CVE-2026-59283",
+  "CVE-2026-59324",
   "CVE-2026-59638",
   "CVE-2026-59639",
   "CVE-2026-59642",
