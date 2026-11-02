@@ -2,10 +2,11 @@
  "as_of": "2026-11-02T15:22:11Z",
  "environment": "production",
  "ecosystems": [
-  "Java"
+  "Java",
+  "JavaScript"
  ],
  "totals": {
-  "supported_lines": 40,
+  "supported_lines": 41,
   "libraries": 421,
   "library_versions": 595,
   "releases": 1577,
