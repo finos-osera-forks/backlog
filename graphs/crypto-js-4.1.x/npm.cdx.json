@@ -1,0 +1,100 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.6",
+ "serialNumber": "urn:uuid:83681cf4-562e-41cb-98cf-f0a64b9d947f",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-11-02T22:27:39Z",
+  "tools": {
+   "components": [
+    {
+     "type": "application",
+     "bom-ref": "osera-line-manager",
+     "name": "osera-line-manager",
+     "version": "dev",
+     "purl": "pkg:github/finos-osera/osera-platform"
+    }
+   ]
+  },
+  "component": {
+   "type": "library",
+   "bom-ref": "anchor:pkg:npm/crypto-js@4.1.1",
+   "name": "crypto-js",
+   "version": "4.1.1",
+   "purl": "pkg:npm/crypto-js@4.1.1",
+   "properties": [
+    {
+     "name": "osera:line",
+     "value": "crypto-js-4.1.x"
+    },
+    {
+     "name": "osera:roots",
+     "value": "managed"
+    },
+    {
+     "name": "osera:components",
+     "value": ""
+    },
+    {
+     "name": "osera:pins",
+     "value": ""
+    },
+    {
+     "name": "osera:view",
+     "value": "latest_patch"
+    },
+    {
+     "name": "osera:latest",
+     "value": ""
+    },
+    {
+     "name": "osera:lines",
+     "value": ""
+    },
+    {
+     "name": "osera:baseline",
+     "value": ""
+    },
+    {
+     "name": "osera:line_release",
+     "value": ""
+    },
+    {
+     "name": "osera:method",
+     "value": "npm 10.9.9: npm install --package-lock-only, npm sbom"
+    },
+    {
+     "name": "osera:gradle",
+     "value": ""
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "bom-ref": "pkg:npm/crypto-js@4.1.1",
+   "name": "crypto-js",
+   "version": "4.1.1",
+   "purl": "pkg:npm/crypto-js@4.1.1",
+   "properties": [
+    {
+     "name": "osera:resolved_by",
+     "value": "npm"
+    }
+   ]
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "anchor:pkg:npm/crypto-js@4.1.1",
+   "dependsOn": [
+    "pkg:npm/crypto-js@4.1.1"
+   ]
+  },
+  {
+   "ref": "pkg:npm/crypto-js@4.1.1",
+   "dependsOn": []
+  }
+ ]
+}

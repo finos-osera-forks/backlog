@@ -43928,15 +43928,6 @@
       "first_seen": "2026-10-22T20:39:43Z"
     },
     {
-      "coordinate": "crypto-js@4.1.2-osera-00001",
-      "library": "crypto-js",
-      "base": "4.1.1",
-      "reason": "not listed by any line",
-      "lines": [],
-      "words": "crypto-js@4.1.2-osera-00001: not listed by any line",
-      "first_seen": "2026-11-02T15:19:11Z"
-    },
-    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-adapter",
       "base": "3.4.11",
