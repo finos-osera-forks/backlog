@@ -1,5 +1,17 @@
 {
  "scores": {
+  "CVE-2018-5382": {
+   "value": 4.4,
+   "version": "3.1"
+  },
+  "CVE-2020-9488": {
+   "value": 3.7,
+   "version": "3.1"
+  },
+  "CVE-2023-46233": {
+   "value": 9.1,
+   "version": "3.1"
+  },
   "CVE-2025-8885": {
    "value": 6.3,
    "version": "4.0"
@@ -7,6 +19,10 @@
   "CVE-2026-12185": {
    "value": 8.6,
    "version": "3.1"
+  },
+  "CVE-2026-12611": {
+   "value": 8.7,
+   "version": "4.0"
   },
   "CVE-2026-12802": {
    "value": 7.5,
@@ -40,6 +56,22 @@
    "value": 5.3,
    "version": "4.0"
   },
+  "CVE-2026-18036": {
+   "value": 8.2,
+   "version": "4.0"
+  },
+  "CVE-2026-18040": {
+   "value": 5.9,
+   "version": "4.0"
+  },
+  "CVE-2026-18660": {
+   "value": 8.8,
+   "version": "4.0"
+  },
+  "CVE-2026-18661": {
+   "value": 8.8,
+   "version": "4.0"
+  },
   "CVE-2026-40974": {
    "value": 9.8,
    "version": "3.1"
@@ -48,8 +80,36 @@
    "value": 7.5,
    "version": "3.1"
   },
+  "CVE-2026-47864": {
+   "value": 9.8,
+   "version": "3.1"
+  },
+  "CVE-2026-47886": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-47888": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-47891": {
+   "value": 9.8,
+   "version": "3.1"
+  },
+  "CVE-2026-54516": {
+   "value": 5.3,
+   "version": "3.1"
+  },
+  "CVE-2026-54517": {
+   "value": 5.3,
+   "version": "3.1"
+  },
   "CVE-2026-54518": {
    "value": 6.5,
+   "version": "3.1"
+  },
+  "CVE-2026-5598": {
+   "value": 7.5,
    "version": "3.1"
   },
   "CVE-2026-58059": {
@@ -72,11 +132,27 @@
    "value": 5.3,
    "version": "3.1"
   },
+  "CVE-2026-59282": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-59638": {
+   "value": 6.5,
+   "version": "3.1"
+  },
   "CVE-2026-59639": {
    "value": 7.5,
    "version": "3.1"
   },
   "CVE-2026-59642": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-59645": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-59646": {
    "value": 7.5,
    "version": "3.1"
   },
@@ -88,6 +164,14 @@
    "value": 9.1,
    "version": "3.1"
   },
+  "CVE-2026-59651": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2026-68498": {
+   "value": 7.5,
+   "version": "3.1"
+  },
   "CVE-2026-71888": {
    "value": 8.7,
    "version": "4.0"
@@ -96,14 +180,31 @@
    "value": 8.7,
    "version": "4.0"
   },
+  "CVE-2026-71892": {
+   "value": 6.9,
+   "version": "4.0"
+  },
+  "CVE-2026-76184": {
+   "value": 8.2,
+   "version": "4.0"
+  },
+  "CVE-2026-77711": {
+   "value": 8.2,
+   "version": "4.0"
+  },
   "CVE-2026-97873": {
    "value": 5.3,
    "version": "4.0"
   }
  },
  "summaries": {
+  "CVE-2013-1624": "The TLS implementation in the Bouncy Castle Java library before 1.48 and C# library before 1.8 does not properly consider timing side-channel attacks on a noncompliant MAC check operation during the processing of malformed CBC padding, whi…",
+  "CVE-2018-5382": "The default BKS keystore use an HMAC that is only 16 bits long, which can allow an attacker to compromise the integrity of a BKS keystore.",
+  "CVE-2020-9488": "Improper validation of certificate with host mismatch in Apache Log4j SMTP appender.",
+  "CVE-2023-46233": "crypto-js is a JavaScript library of crypto standards.",
   "CVE-2025-8885": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc.",
   "CVE-2026-12185": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
+  "CVE-2026-12611": "A client may issue HTTP/2 requests to a Jetty server that result in blocking writes that are never unblocked, eventually causing all threads to be blocked and the whole server to become unresponsive.",
   "CVE-2026-12802": "In Bouncy Castle for Java before 1.85, CMS AuthEnvelopedData fails to enforce tag-length on decryption.",
   "CVE-2026-12803": "In Bouncy Castle for Java before 1.85, KCCMBlockCipher MAC does not bind nonce when AAD is absent (cross-nonce AEAD forgery).",
   "CVE-2026-12816": "In Bouncy Castle for Java before 1.85, IESEngine stream-mode MAC forgery via length-dependent KDF split.",
@@ -112,25 +213,50 @@
   "CVE-2026-14682": "In Bouncy Castle for Java before 1.85, Possible OOM from unbounded up-front allocation on a definite-length read.",
   "CVE-2026-15055": "In Bouncy Castle for Java before 1.85, PKCS#8 / PBES2 decryptors honour unbounded KDF cost from input.",
   "CVE-2026-17508": "In Bouncy Castle for Java before 1.86, several password-based key derivation entry points ran the KDF with cost parameters taken from the untrusted input being processed, without bounding them, so a small input could dictate an arbitrary a…",
+  "CVE-2026-18036": "In Bouncy Castle for Java before 1.86, NTRU reduced secret values with the % operator in three helpers whose reference implementations are deliberately division-free, so each reduction was carried out by an integer division whose latency d…",
+  "CVE-2026-18040": "In Bouncy Castle for Java before 1.86, HQC leaked secret-derived data through two side channels: its GF(2^8) arithmetic used lookup tables indexed by field elements, making the cache line touched a function of the operand, and its fixed-we…",
+  "CVE-2026-18660": "In Eclipse Jetty, across various versions of `jetty-server`, and `jetty-proxy`, the host whitelist/blacklist is case-sensitive, and would allow hosts through that only differ by case.",
+  "CVE-2026-18661": "In Eclipse Jetty, across various versions of `jetty-annotations`, and `jetty-eeN-annotations`, the Jakarta Spec authoritative url-pattern rules for mixed `@ServletSecurity` annotation, and `web.xml` defined `security-constraint` on the sam…",
   "CVE-2026-40974": "Spring Boot's Cassandra auto-configuration does not perform hostname verification when establishing an SSL connection to Cassandra.",
   "CVE-2026-40975": "Values produced by ${random.value} are not suitable for use as secrets.",
+  "CVE-2026-47864": "SerializingHttpMessageConverter deserializes the body of incoming HTTP requests with a raw java.io.ObjectInputStream and no class filtering.",
+  "CVE-2026-47886": "Applications that evaluate user-supplied Spring Expression Language (SpEL) expressions may be vulnerable to a Denial of Service (DoS) attack when the power operator (^) is used with a BigDecimal or BigInteger operand and a large exponent v…",
+  "CVE-2026-47888": "A Spring RSocket application is exposed to a memory leak via a malformed SETUP frame.",
+  "CVE-2026-47891": "A Spring WebFlux application that relies on the Aalto XML processor to parse XML input does not correctly enforce the maxInMemorySize limit.",
+  "CVE-2026-54516": "jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor.",
+  "CVE-2026-54517": "jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor.",
   "CVE-2026-54518": "jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor.",
+  "CVE-2026-5598": "Covert timing channel vulnerability in Legion of the Bouncy Castle Inc.",
   "CVE-2026-58059": "In Bouncy Castle for Java before 1.85, Quadratic-time escaping when stringifying X.500 distinguished names.",
   "CVE-2026-58060": "In Bouncy Castle for Java before 1.85, HSS public-key level count unbounded, enabling huge allocation on verify.",
   "CVE-2026-58061": "In Bouncy Castle for Java before 1.85, CCM-family modes write plaintext to caller buffer before tag check.",
   "CVE-2026-58062": "In Bouncy Castle for Java before 1.85, Stapled OCSP response accepted without binding to the checked certificate.",
   "CVE-2026-58063": "In Bouncy Castle for Java before 1.85, BCFKS keystore load honours unbounded KDF cost from untrusted file.",
+  "CVE-2026-59282": "Spring Framework applications that use Spring's data binding infrastructure to apply user-supplied property paths onto a target object may be vulnerable to a Denial of Service (DoS) attack.",
+  "CVE-2026-59638": "In Bouncy Castle for Java before 1.85, JSSE hostname verifier CN-fallback enabled by default despite documented opt-in.",
   "CVE-2026-59639": "In Bouncy Castle for Java before 1.85, CMS verifySignatures returns true for SignedData with zero signers.",
   "CVE-2026-59642": "In Bouncy Castle for Java before 1.85, CMS AuthenticatedData content not bound to MAC when authAttrs present.",
+  "CVE-2026-59645": "In Bouncy Castle for Java before 1.85, OER parser recurses without depth limit on self-referential IEEE 1609.2 schema.",
+  "CVE-2026-59646": "In Bouncy Castle for Java before 1.85, DTLS handshake reassembler allocates buffer from unchecked 24-bit length.",
   "CVE-2026-59647": "In Bouncy Castle for Java before 1.85, CRMF/CMP password-MAC honours unbounded iteration count.",
   "CVE-2026-59650": "In Bouncy Castle for Java before 1.85, MTI/A0 DH agreement exponentiates unvalidated peer value.",
+  "CVE-2026-59651": "In Bouncy Castle for Java before 1.85, BKS keystore accepts legacy version with 16-bit integrity MAC key.",
+  "CVE-2026-68498": "StreamReadConstraints.maxNameLength (default 50,000 characters) is intended to bound how much memory a single JSON Object property name can consume while being parsed, independently of the much larger maxStringLength (default 100,000,000 c…",
   "CVE-2026-71888": "In Bouncy Castle for Java before 1.86, the streaming CMS AuthenticatedData parser accepted a message whose digestAlgorithm and authAttrs fields disagreed about whether authenticated attributes were present.",
   "CVE-2026-71889": "In Bouncy Castle for Java before 1.86, neither copy of PKIXCertPathReviewer - org.bouncycastle.pkix.jcajce.PKIXCertPathReviewer nor the legacy org.bouncycastle.x509.PKIXCertPathReviewer - applied X.509 name constraints to the end-entity ce…",
+  "CVE-2026-71892": "In Bouncy Castle for Java before 1.86, the opt-in key-size validation on CMS key-transport recipients, org.bouncycastle.cms.jcajce.JceKeyTransRecipient.setKeySizeValidation(true), never ran for a message using RFC 9709 content-encryption k…",
+  "CVE-2026-76184": "In Eclipse Jetty, HttpClient may receive a redirect of the form: ``` /secure/../evil ``` If an attacker is able to control the redirects, then HttpClient matches authentication credentials against `/secure` rather than normalizing the path…",
+  "CVE-2026-77711": "When Jetty's `HttpClient` make a request to a server through a forward proxy, the server may reply with a 407 (Proxy Authentication Required).",
   "CVE-2026-97873": "In Bouncy Castle for Java before 1.86, the raw JCA provider's legacy PBES1 (PKCS#5 scheme 1) and PKCS#12 PBE families ran their password-based key derivation with an iteration count taken from untrusted input without bounding it, so a smal…"
  },
  "checked": [
+  "CVE-2013-1624",
+  "CVE-2018-5382",
+  "CVE-2020-9488",
+  "CVE-2023-46233",
   "CVE-2025-8885",
   "CVE-2026-12185",
+  "CVE-2026-12611",
   "CVE-2026-12802",
   "CVE-2026-12803",
   "CVE-2026-12816",
@@ -139,20 +265,40 @@
   "CVE-2026-14682",
   "CVE-2026-15055",
   "CVE-2026-17508",
+  "CVE-2026-18036",
+  "CVE-2026-18040",
+  "CVE-2026-18660",
+  "CVE-2026-18661",
   "CVE-2026-40974",
   "CVE-2026-40975",
+  "CVE-2026-47864",
+  "CVE-2026-47886",
+  "CVE-2026-47888",
+  "CVE-2026-47891",
+  "CVE-2026-54516",
+  "CVE-2026-54517",
   "CVE-2026-54518",
+  "CVE-2026-5598",
   "CVE-2026-58059",
   "CVE-2026-58060",
   "CVE-2026-58061",
   "CVE-2026-58062",
   "CVE-2026-58063",
+  "CVE-2026-59282",
+  "CVE-2026-59638",
   "CVE-2026-59639",
   "CVE-2026-59642",
+  "CVE-2026-59645",
+  "CVE-2026-59646",
   "CVE-2026-59647",
   "CVE-2026-59650",
+  "CVE-2026-59651",
+  "CVE-2026-68498",
   "CVE-2026-71888",
   "CVE-2026-71889",
+  "CVE-2026-71892",
+  "CVE-2026-76184",
+  "CVE-2026-77711",
   "CVE-2026-97873"
  ]
 }
