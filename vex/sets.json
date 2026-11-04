@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T16:23:14Z",
-  "feed_version": 166,
+  "generated_at": "2026-11-04T16:36:12Z",
+  "feed_version": 167,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -1208,6 +1208,18 @@
       "statements": 41
     },
     {
+      "set": "finos-osera-forks/patch-bc-java@v1.70.1-osera-00038",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00038",
+        "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00038",
+        "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00038",
+        "org.bouncycastle:bcutil-jdk15on@1.70.1-osera-00038"
+      ],
+      "state": "in the feed",
+      "statements": 41
+    },
+    {
       "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00001",
       "members": 3,
       "coordinates": [
@@ -1719,6 +1731,15 @@
       "members": 1,
       "coordinates": [
         "org.apache.commons:commons-text@1.8.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-text@v1.8.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "org.apache.commons:commons-text@1.8.1-osera-00002"
       ],
       "state": "in the feed",
       "statements": 1
@@ -7527,6 +7548,15 @@
       "members": 1,
       "coordinates": [
         "org.yaml:snakeyaml@1.19.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.19.1-osera-00008",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.19.1-osera-00008"
       ],
       "state": "in the feed",
       "statements": 7
