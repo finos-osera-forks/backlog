@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-04T15:28:59Z. Written by the line manager reconciler.
+Generated 2026-11-04T15:41:55Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -96,7 +96,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.commons:commons-lang3 | 3.9 | commons-text-1.7.x, commons-text-1.8.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-lang3 | 3.11 | commons-text-1.9.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-text | 1.6 | commons-text-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.1-osera-00002 | 1.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.commons:commons-text | 1.7 | commons-text-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.7.1-osera-00001 | 1.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.commons:commons-text | 1.7 | commons-text-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.7.1-osera-00002 | 1.7.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.8 | commons-text-1.8.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.8.1-osera-00001 | 1.8.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.9 | commons-text-1.9.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.1-osera-00001 | 1.9.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.httpcomponents.client5:httpclient5 | 5.4.4 | httpclient5-5.4.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
