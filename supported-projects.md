@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-04T16:35:35Z. Written by the line manager reconciler.
+Generated 2026-11-04T16:45:43Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -72,7 +72,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.mchange:mchange-commons-java | 0.2.20 | c3p0-0.9.x, mchange-commons-0.2.x, spring-boot-2.7.x | own project on c3p0-0.9.x (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.2.20.1-osera-00002 | 0.2.20.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.nimbusds:nimbus-jose-jwt | 9.22 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (com.nimbusds:oauth2-oidc-sdk@9.35) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.rabbitmq:amqp-client | 5.14.3 | spring-boot-2.7.x | listed by the BOM at 5.14.3 | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| commons-beanutils:commons-beanutils | 1.6.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.6.1.1-osera-00002 | 1.6.1.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| commons-beanutils:commons-beanutils | 1.6.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.6.1.1-osera-00003 | 1.6.1.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-beanutils:commons-beanutils | 1.8.3 | struts-1.3.x | pulled in by a dependency (commons-digester:commons-digester@1.8.1) | fixed | 2 | 2 | 100% | 1 | 0 | 0 | 0 | 1.8.3.1-osera-00002 | 1.8.3.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-beanutils:commons-beanutils | 1.9.4 | commons-beanutils-1.9.x, spring-boot-2.7.x | own project on commons-beanutils-1.9.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.4.1-osera-00001 | 1.9.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-collections:commons-collections | 3.0 | commons-configuration-1.1.x | pulled in by a dependency (commons-beanutils:commons-beanutils-core@1.7.0) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 3.0.1-osera-00001 | 3.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
