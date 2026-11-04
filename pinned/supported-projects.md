@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-02T22:25:23Z. Written by the line manager reconciler.
+Generated 2026-11-04T15:09:44Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -73,7 +73,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | com.google.guava:guava | 20.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.shibboleth.utilities:java-support@7.5.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.graphql-java:graphql-java | 18.5 | spring-boot-2.7.x | listed by the BOM at 18.5 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.jayway.jsonpath:json-path | 2.7.0 | spring-boot-2.7.x | listed by the BOM at 2.7.0 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00003 | 0.9.5.5.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00004 | 0.9.5.5.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.mchange:mchange-commons-java | 0.2.15 | spring-boot-2.7.x | pulled in by a dependency (org.quartz-scheduler:quartz@2.3.2) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:mchange-commons-java | 0.2.19 | c3p0-0.9.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:mchange-commons-java | 0.2.20 | mchange-commons-0.2.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.2.20.1-osera-00002 | 0.2.20.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

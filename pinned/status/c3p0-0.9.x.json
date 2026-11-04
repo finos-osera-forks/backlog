@@ -1,7 +1,7 @@
 {
   "line": "c3p0-0.9.x",
-  "book_version": "v2026.11.04.25",
-  "as_of": "2026-11-04T14:55:03Z",
+  "book_version": "v2026.11.04.26",
+  "as_of": "2026-11-04T15:09:44Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 4,
@@ -9,18 +9,18 @@
     {
       "cve": "CVE-2026-27830",
       "library": "com.mchange:c3p0",
-      "coordinate": "com.mchange:c3p0@0.9.5.5.1-osera-00003",
-      "patch": "00003",
-      "named_by": "com.mchange:c3p0@0.9.5.5.1-osera-00003",
-      "at": "2026-10-23T14:50:05Z"
+      "coordinate": "com.mchange:c3p0@0.9.5.5.1-osera-00004",
+      "patch": "00004",
+      "named_by": "com.mchange:c3p0@0.9.5.5.1-osera-00004",
+      "at": "2026-11-04T15:09:44Z"
     },
     {
       "cve": "CVE-2026-55223",
       "library": "com.mchange:c3p0",
-      "coordinate": "com.mchange:c3p0@0.9.5.5.1-osera-00003",
-      "patch": "00003",
-      "named_by": "com.mchange:c3p0@0.9.5.5.1-osera-00003",
-      "at": "2026-10-23T14:50:05Z"
+      "coordinate": "com.mchange:c3p0@0.9.5.5.1-osera-00004",
+      "patch": "00004",
+      "named_by": "com.mchange:c3p0@0.9.5.5.1-osera-00004",
+      "at": "2026-11-04T15:09:44Z"
     }
   ],
   "in_progress": [],
@@ -37,6 +37,7 @@
   "not_remediable": [],
   "discrepancies": [
     "fixed, not in the backlog: CVE-2026-55153 on com.mchange:c3p0@0.9.5.5.1-osera-00003",
+    "fixed, not in the backlog: CVE-2026-55153 on com.mchange:c3p0@0.9.5.5.1-osera-00004",
     "promoted com.mchange:mchange-commons-java@0.2.20.1-osera-00001 is on base 0.2.20, the line has com.mchange:mchange-commons-java at 0.2.19",
     "promoted com.mchange:mchange-commons-java@0.2.20.1-osera-00002 is on base 0.2.20, the line has com.mchange:mchange-commons-java at 0.2.19"
   ],
