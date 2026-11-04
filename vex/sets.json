@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T15:31:24Z",
-  "feed_version": 163,
+  "generated_at": "2026-11-04T15:35:59Z",
+  "feed_version": 164,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -305,6 +305,16 @@
       "coordinates": [
         "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00028",
         "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00028"
+      ],
+      "state": "in the feed",
+      "statements": 28
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.46.1-osera-00029",
+      "members": 2,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15@1.46.1-osera-00029",
+        "org.bouncycastle:bcprov-jdk15@1.46.1-osera-00029"
       ],
       "state": "in the feed",
       "statements": 28
