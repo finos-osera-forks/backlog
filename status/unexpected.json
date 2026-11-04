@@ -47822,6 +47822,23 @@
       "first_seen": "2026-10-23T19:16:25Z"
     },
     {
+      "coordinate": "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00038",
+      "library": "org.bouncycastle:bctls-jdk15on",
+      "base": "1.70",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x",
+        "bouncycastle-1.78.x",
+        "bouncycastle-1.46.x",
+        "bouncycastle-1.70.x",
+        "bouncycastle-1.69.x"
+      ],
+      "words": "org.bouncycastle:bctls-jdk15on@1.70.1-osera-00038: not listed by any line; other artifacts of org.bouncycastle are in the dependency graph of spring-boot-2.7.x, spring-security-5.7.x, bouncycastle-1.78.x, bouncycastle-1.46.x, bouncycastle-1.70.x, bouncycastle-1.69.x, so the graph there may have a hole",
+      "first_seen": "2026-11-04T16:29:35Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty.fcgi:fcgi-client@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty.fcgi:fcgi-client",
       "base": "9.4.58.v20250814",
@@ -55597,6 +55614,28 @@
       ],
       "words": "org.yaml:snakeyaml@1.19.1-osera-00007: in the dependency graph of spring-boot-2.7.x at 1.33 and snakeyaml-1.9.x at 1.33 and snakeyaml-1.23.x at 1.33 and snakeyaml-1.19.x at 1.33 and snakeyaml-1.17.x at 1.33 and snakeyaml-1.16.x at 1.33 and snakeyaml-1.29.x at 1.33 and snakeyaml-1.28.x at 1.33 and snakeyaml-1.27.x at 1.33 and snakeyaml-1.26.x at 1.33 and snakeyaml-1.31.x at 1.33 and snakeyaml-1.33.x at 1.33, uploaded on 1.19",
       "first_seen": "2026-10-22T20:45:42Z"
+    },
+    {
+      "coordinate": "org.yaml:snakeyaml@1.19.1-osera-00008",
+      "library": "org.yaml:snakeyaml",
+      "base": "1.19",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 1.33 and snakeyaml-1.9.x at 1.33 and snakeyaml-1.23.x at 1.33 and snakeyaml-1.19.x at 1.33 and snakeyaml-1.17.x at 1.33 and snakeyaml-1.16.x at 1.33 and snakeyaml-1.29.x at 1.33 and snakeyaml-1.28.x at 1.33 and snakeyaml-1.27.x at 1.33 and snakeyaml-1.26.x at 1.33 and snakeyaml-1.31.x at 1.33 and snakeyaml-1.33.x at 1.33, uploaded on 1.19",
+      "lines": [
+        "spring-boot-2.7.x",
+        "snakeyaml-1.9.x",
+        "snakeyaml-1.23.x",
+        "snakeyaml-1.19.x",
+        "snakeyaml-1.17.x",
+        "snakeyaml-1.16.x",
+        "snakeyaml-1.29.x",
+        "snakeyaml-1.28.x",
+        "snakeyaml-1.27.x",
+        "snakeyaml-1.26.x",
+        "snakeyaml-1.31.x",
+        "snakeyaml-1.33.x"
+      ],
+      "words": "org.yaml:snakeyaml@1.19.1-osera-00008: in the dependency graph of spring-boot-2.7.x at 1.33 and snakeyaml-1.9.x at 1.33 and snakeyaml-1.23.x at 1.33 and snakeyaml-1.19.x at 1.33 and snakeyaml-1.17.x at 1.33 and snakeyaml-1.16.x at 1.33 and snakeyaml-1.29.x at 1.33 and snakeyaml-1.28.x at 1.33 and snakeyaml-1.27.x at 1.33 and snakeyaml-1.26.x at 1.33 and snakeyaml-1.31.x at 1.33 and snakeyaml-1.33.x at 1.33, uploaded on 1.19",
+      "first_seen": "2026-11-04T16:29:35Z"
     },
     {
       "coordinate": "org.yaml:snakeyaml@1.23.1-osera-00001",
