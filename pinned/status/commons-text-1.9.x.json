@@ -1,7 +1,7 @@
 {
   "line": "commons-text-1.9.x",
   "book_version": "v2026.11.04.29",
-  "as_of": "2026-11-04T15:23:09Z",
+  "as_of": "2026-11-04T15:26:41Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 2,
@@ -25,6 +25,7 @@
   "not_remediable": [],
   "discrepancies": [
     "promoted org.apache.commons:commons-text@1.6.1-osera-00001 is on base 1.6, the line has org.apache.commons:commons-text at 1.9",
+    "promoted org.apache.commons:commons-text@1.6.1-osera-00002 is on base 1.6, the line has org.apache.commons:commons-text at 1.9",
     "promoted org.apache.commons:commons-text@1.7.1-osera-00001 is on base 1.7, the line has org.apache.commons:commons-text at 1.9",
     "promoted org.apache.commons:commons-text@1.8.1-osera-00001 is on base 1.8, the line has org.apache.commons:commons-text at 1.9"
   ],
