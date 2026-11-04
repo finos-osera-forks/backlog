@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T16:41:00Z",
-  "feed_version": 168,
+  "generated_at": "2026-11-04T16:51:00Z",
+  "feed_version": 169,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -1583,6 +1583,17 @@
       "statements": 41
     },
     {
+      "set": "finos-osera-forks/patch-bc-java@v1.78.1.1-osera-00034",
+      "members": 3,
+      "coordinates": [
+        "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00034",
+        "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00034",
+        "org.bouncycastle:bcutil-jdk18on@1.78.1.1-osera-00034"
+      ],
+      "state": "in the feed",
+      "statements": 41
+    },
+    {
       "set": "finos-osera-forks/patch-c3p0@v0.9.5.5.1-osera-00001",
       "members": 1,
       "coordinates": [
@@ -1632,6 +1643,15 @@
       "members": 1,
       "coordinates": [
         "commons-beanutils:commons-beanutils@1.6.1.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-beanutils@v1.6.1.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "commons-beanutils:commons-beanutils@1.6.1.1-osera-00003"
       ],
       "state": "in the feed",
       "statements": 2
