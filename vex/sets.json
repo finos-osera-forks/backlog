@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T15:16:38Z",
-  "feed_version": 162,
+  "generated_at": "2026-11-04T15:31:24Z",
+  "feed_version": 163,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -1661,6 +1661,15 @@
       "members": 1,
       "coordinates": [
         "org.apache.commons:commons-text@1.6.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-text@v1.6.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "org.apache.commons:commons-text@1.6.1-osera-00002"
       ],
       "state": "in the feed",
       "statements": 1
@@ -7343,6 +7352,15 @@
       "members": 1,
       "coordinates": [
         "org.yaml:snakeyaml@1.16.1-osera-00007"
+      ],
+      "state": "in the feed",
+      "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.16.1-osera-00008",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.16.1-osera-00008"
       ],
       "state": "in the feed",
       "statements": 7
