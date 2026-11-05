@@ -1,7 +1,7 @@
 {
   "line": "httpclient5-5.4.x",
-  "book_version": "v2026.11.05.36",
-  "as_of": "2026-11-05T11:18:33Z",
+  "book_version": "v2026.11.05.37",
+  "as_of": "2026-11-05T11:22:38Z",
   "status": "not fixed",
   "chain": "",
   "in_scope": 3,
@@ -30,5 +30,5 @@
     "promoted org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00002 is on base 5.3.6, the line has org.apache.httpcomponents.core5:httpcore5 at 5.3.4",
     "promoted org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00003 is on base 5.3.6, the line has org.apache.httpcomponents.core5:httpcore5 at 5.3.4"
   ],
-  "consume": "org.finos.osera:osera-bom-httpclient5-5.4.x@2026.10.21"
+  "consume": "org.finos.osera:osera-bom-httpclient5-5.4.x@2026.11.05"
 }
