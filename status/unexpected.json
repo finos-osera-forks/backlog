@@ -53713,6 +53713,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-c3p0",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-c3p0@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-ehcache@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-ehcache",
       "base": "5.6.15.Final",
@@ -53722,6 +53733,17 @@
       ],
       "words": "org.hibernate:hibernate-ehcache@5.6.15.Final-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.hibernate:hibernate-ehcache@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-ehcache",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-ehcache@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
     },
     {
       "coordinate": "org.hibernate:hibernate-entitymanager@5.6.15.Final-osera-00001",
@@ -53735,6 +53757,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.hibernate:hibernate-entitymanager@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-entitymanager",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-entitymanager@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-envers@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-envers",
       "base": "5.6.15.Final",
@@ -53744,6 +53777,17 @@
       ],
       "words": "org.hibernate:hibernate-envers@5.6.15.Final-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.hibernate:hibernate-envers@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-envers",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-envers@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
     },
     {
       "coordinate": "org.hibernate:hibernate-hikaricp@5.6.15.Final-osera-00001",
@@ -53757,6 +53801,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.hibernate:hibernate-hikaricp@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-hikaricp",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-hikaricp@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-java8@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-java8",
       "base": "5.6.15.Final",
@@ -53766,6 +53821,17 @@
       ],
       "words": "org.hibernate:hibernate-java8@5.6.15.Final-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.hibernate:hibernate-java8@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-java8",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-java8@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
     },
     {
       "coordinate": "org.hibernate:hibernate-jcache@5.6.15.Final-osera-00001",
@@ -53779,6 +53845,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.hibernate:hibernate-jcache@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-jcache",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-jcache@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-jpamodelgen@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-jpamodelgen",
       "base": "5.6.15.Final",
@@ -53788,6 +53865,17 @@
       ],
       "words": "org.hibernate:hibernate-jpamodelgen@5.6.15.Final-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.hibernate:hibernate-jpamodelgen@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-jpamodelgen",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-jpamodelgen@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
     },
     {
       "coordinate": "org.hibernate:hibernate-micrometer@5.6.15.Final-osera-00001",
@@ -53801,6 +53889,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.hibernate:hibernate-micrometer@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-micrometer",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-micrometer@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-proxool@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-proxool",
       "base": "5.6.15.Final",
@@ -53810,6 +53909,17 @@
       ],
       "words": "org.hibernate:hibernate-proxool@5.6.15.Final-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.hibernate:hibernate-proxool@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-proxool",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-proxool@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
     },
     {
       "coordinate": "org.hibernate:hibernate-spatial@5.6.15.Final-osera-00001",
@@ -53823,6 +53933,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.hibernate:hibernate-spatial@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-spatial",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-spatial@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-testing@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-testing",
       "base": "5.6.15.Final",
@@ -53834,6 +53955,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.hibernate:hibernate-testing@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-testing",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-testing@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
+    },
+    {
       "coordinate": "org.hibernate:hibernate-vibur@5.6.15.Final-osera-00001",
       "library": "org.hibernate:hibernate-vibur",
       "base": "5.6.15.Final",
@@ -53843,6 +53975,17 @@
       ],
       "words": "org.hibernate:hibernate-vibur@5.6.15.Final-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.hibernate:hibernate-vibur@5.6.15.Final-osera-00002",
+      "library": "org.hibernate:hibernate-vibur",
+      "base": "5.6.15.Final",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.hibernate:hibernate-vibur@5.6.15.Final-osera-00002: listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph",
+      "first_seen": "2026-11-05T07:33:38Z"
     },
     {
       "coordinate": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00001",
