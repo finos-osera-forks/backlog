@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 175,
+  "version": 176,
   "metadata": {
-    "timestamp": "2026-11-05T08:11:03Z",
+    "timestamp": "2026-11-05T08:21:02Z",
     "tools": {
       "components": [
         {
@@ -1569,6 +1569,17 @@
       "name": "reactor-netty-http",
       "version": "1.0.48.1-osera-00002",
       "purl": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "io.projectreactor.netty",
+      "name": "reactor-netty-http",
+      "version": "1.0.48.1-osera-00003",
+      "purl": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00003"
     },
     {
       "type": "library",
@@ -10677,6 +10688,17 @@
       "name": "spring-kafka",
       "version": "2.8.11.1-osera-00005",
       "purl": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00005"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.kafka",
+      "name": "spring-kafka",
+      "version": "2.8.11.1-osera-00006",
+      "purl": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
     },
     {
       "type": "library",
@@ -29549,6 +29571,40 @@
       "affects": [
         {
           "ref": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-22227 on pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00003",
+      "id": "CVE-2025-22227",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-22227"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:16:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41715 on pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00003",
+      "id": "CVE-2026-41715",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41715"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:16:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00003"
         }
       ]
     },
@@ -103898,6 +103954,127 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34040 on pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006",
+      "id": "CVE-2023-34040",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34040"
+      },
+      "references": [
+        {
+          "id": "GHSA-crqf-q9fp-hwjw",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-crqf-q9fp-hwjw"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:14:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41726 on pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006",
+      "id": "CVE-2026-41726",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41726"
+      },
+      "references": [
+        {
+          "id": "GHSA-xvfq-4q6q-gxx7",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xvfq-4q6q-gxx7"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:14:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41727 on pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006",
+      "id": "CVE-2026-41727",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41727"
+      },
+      "references": [
+        {
+          "id": "GHSA-53w6-v7cv-fc9h",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-53w6-v7cv-fc9h"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:14:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41731 on pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006",
+      "id": "CVE-2026-41731",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41731"
+      },
+      "references": [
+        {
+          "id": "GHSA-xq69-5h5v-x9x4",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xq69-5h5v-x9x4"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:14:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59278 on pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006",
+      "id": "CVE-2026-59278",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59278"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:14:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
         }
       ]
     },

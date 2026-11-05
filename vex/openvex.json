@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T08:11:03Z",
-  "version": 175,
+  "last_updated": "2026-11-05T08:21:02Z",
+  "version": 176,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -10008,6 +10008,32 @@
       "products": [
         {
           "@id": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-22227"
+      },
+      "timestamp": "2026-11-05T08:16:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41715"
+      },
+      "timestamp": "2026-11-05T08:16:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/io.projectreactor.netty/reactor-netty-http@1.0.48.1-osera-00003"
         }
       ],
       "status": "fixed",
@@ -60597,6 +60623,83 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34040",
+        "aliases": [
+          "GHSA-crqf-q9fp-hwjw"
+        ]
+      },
+      "timestamp": "2026-11-05T08:14:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41726",
+        "aliases": [
+          "GHSA-xvfq-4q6q-gxx7"
+        ]
+      },
+      "timestamp": "2026-11-05T08:14:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41727",
+        "aliases": [
+          "GHSA-53w6-v7cv-fc9h"
+        ]
+      },
+      "timestamp": "2026-11-05T08:14:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41731",
+        "aliases": [
+          "GHSA-xq69-5h5v-x9x4"
+        ]
+      },
+      "timestamp": "2026-11-05T08:14:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59278"
+      },
+      "timestamp": "2026-11-05T08:14:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.kafka/spring-kafka@2.8.11.1-osera-00006"
         }
       ],
       "status": "fixed",
