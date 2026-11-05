@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T10:08:58Z. Written by the line manager reconciler.
+Generated 2026-11-05T10:12:59Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -86,7 +86,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | commons-collections:commons-collections | 3.0 | commons-configuration-1.1.x | pulled in by a dependency (commons-beanutils:commons-beanutils-core@1.7.0) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 3.0.1-osera-00001 | 3.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-collections:commons-collections | 3.2.1 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.6.x, velocity-1.7.x | pulled in by a dependency on spring-boot-2.7.x (org.apache.velocity:velocity@1.7) | open | 1 | 0 | 0% | 1 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-configuration:commons-configuration | 1.1 | commons-configuration-1.1.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.1.1-osera-00002 | 1.1.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| commons-configuration:commons-configuration | 1.9 | commons-configuration-1.9.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.1-osera-00001 | 1.9.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| commons-configuration:commons-configuration | 1.9 | commons-configuration-1.9.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.1-osera-00002 | 1.9.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-lang:commons-lang | 2.0 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-lang:commons-lang | 2.4 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.6.x, velocity-1.7.x | pulled in by a dependency on spring-boot-2.7.x (org.apache.velocity:velocity@1.7) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-lang:commons-lang | 2.6 | commons-configuration-1.9.x | pulled in by a dependency (commons-configuration:commons-configuration@1.9) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -204,7 +204,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.yaml:snakeyaml | 1.28 | snakeyaml-1.28.x | own project (the anchor's group) | open | 7 | 6 | 86% | 0 | 0 | 1 | 0 | 1.28.1-osera-00007 | 1.28.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | open | 7 | 6 | 86% | 0 | 0 | 1 | 0 | 1.29.1-osera-00007 | 1.29.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.30 | spring-boot-2.7.x | listed by the BOM at 1.30 | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 1.31.1-osera-00003 | 1.31.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 1.31.1-osera-00004 | 1.31.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.33 | snakeyaml-1.33.x, spring-boot-2.7.x | own project on snakeyaml-1.33.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00002 | 1.33.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 2.2.1.1-osera-00004 | 2.2.1.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
