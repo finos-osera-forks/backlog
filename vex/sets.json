@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T11:51:00Z",
-  "feed_version": 200,
+  "generated_at": "2026-11-05T11:56:15Z",
+  "feed_version": 201,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -17909,106 +17909,8 @@
         "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00118",
         "org.springframework.boot:spring-boot@2.7.18.1-osera-00118"
       ],
-      "state": "held",
-      "held_since": "2026-11-05T11:51:00Z",
-      "reasons": [
-        {
-          "member": "org.springframework.boot:spring-boot-starter-log4j2@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-logging@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-mail@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-mustache@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-oauth2-client@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-oauth2-resource-server@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-quartz@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-reactor-netty@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-rsocket@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-security@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-test@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-thymeleaf@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-tomcat@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-undertow@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-validation@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-web-services@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-web@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-webflux@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter-websocket@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-starter@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-test-autoconfigure@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot@2.7.18.1-osera-00118",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 8
     },
     {
       "set": "finos-osera-forks/patch-spring-data-bom@v2021.2.18.1-osera-00001",
