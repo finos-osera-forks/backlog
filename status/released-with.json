@@ -676,6 +676,15 @@
       "first_seen": "2026-10-15T13:13:44Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00005",
+      "library": "org.apache.logging.log4j:log4j-bom",
+      "base": "2.17.2",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-11-05T07:53:43Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-bom@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-bom",
       "base": "2.24.3",
@@ -755,6 +764,15 @@
       "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00004",
       "why": "the patched modules name it as their parent, a build needs it to resolve them",
       "first_seen": "2026-10-15T13:20:26Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j@2.17.2.1-osera-00005",
+      "library": "org.apache.logging.log4j:log4j",
+      "base": "2.17.2",
+      "kind": "parent",
+      "released_with": "patch-logging-log4j2 v2.17.2.1-osera-00005",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-05T07:53:43Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j@2.24.3.1-osera-00001",
