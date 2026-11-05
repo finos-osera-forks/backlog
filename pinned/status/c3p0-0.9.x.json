@@ -1,7 +1,7 @@
 {
   "line": "c3p0-0.9.x",
-  "book_version": "v2026.11.05.61",
-  "as_of": "2026-11-05T14:18:16Z",
+  "book_version": "v2026.11.05.62",
+  "as_of": "2026-11-05T14:22:41Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 4,
@@ -42,5 +42,5 @@
     "promoted com.mchange:mchange-commons-java@0.2.20.1-osera-00002 is on base 0.2.20, the line has com.mchange:mchange-commons-java at 0.2.19",
     "promoted com.mchange:mchange-commons-java@0.2.20.1-osera-00003 is on base 0.2.20, the line has com.mchange:mchange-commons-java at 0.2.19"
   ],
-  "consume": "org.finos.osera:osera-bom-c3p0-0.9.x@2026.11.04"
+  "consume": "org.finos.osera:osera-bom-c3p0-0.9.x@2026.11.05"
 }
