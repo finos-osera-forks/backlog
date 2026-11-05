@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T07:26:31Z",
-  "version": 171,
+  "last_updated": "2026-11-05T07:41:02Z",
+  "version": 172,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -52424,6 +52424,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-0603",
+        "aliases": [
+          "GHSA-2p5w-cvg5-gc5c"
+        ]
+      },
+      "timestamp": "2026-11-05T07:33:55Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00002"
         }
       ],
       "status": "fixed",
