@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.05.26",
-  "as_of": "2026-11-05T10:26:25Z",
+  "book_version": "v2026.11.05.27",
+  "as_of": "2026-11-05T10:28:37Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 324,
@@ -65,10 +65,10 @@
     {
       "cve": "CVE-2024-38807",
       "library": "org.springframework.boot:spring-boot-loader",
-      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00109",
-      "patch": "00109",
-      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00109",
-      "at": "2026-11-05T10:18:44Z"
+      "coordinate": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00110",
+      "patch": "00110",
+      "named_by": "org.springframework.boot:spring-boot-loader@2.7.18.1-osera-00110",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2024-38816",
@@ -105,10 +105,10 @@
     {
       "cve": "CVE-2025-22235",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00109",
-      "patch": "00109",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00109",
-      "at": "2026-11-05T10:18:44Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00110",
+      "patch": "00110",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00110",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2025-41249",
@@ -145,10 +145,10 @@
     {
       "cve": "CVE-2026-22733",
       "library": "org.springframework.boot:spring-boot-starter-actuator",
-      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00109",
-      "patch": "00109",
-      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00109",
-      "at": "2026-11-05T10:18:44Z"
+      "coordinate": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00110",
+      "patch": "00110",
+      "named_by": "org.springframework.boot:spring-boot-starter-actuator@2.7.18.1-osera-00110",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2026-22735",
@@ -193,18 +193,18 @@
     {
       "cve": "CVE-2026-40972",
       "library": "org.springframework.boot:spring-boot-devtools",
-      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00109",
-      "patch": "00109",
-      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00109",
-      "at": "2026-11-05T10:18:44Z"
+      "coordinate": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00110",
+      "patch": "00110",
+      "named_by": "org.springframework.boot:spring-boot-devtools@2.7.18.1-osera-00110",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2026-40973",
       "library": "org.springframework.boot:spring-boot",
-      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00109",
-      "patch": "00109",
-      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00109",
-      "at": "2026-11-05T10:18:44Z"
+      "coordinate": "org.springframework.boot:spring-boot@2.7.18.1-osera-00110",
+      "patch": "00110",
+      "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00110",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2026-40998",
@@ -1995,6 +1995,7 @@
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00107",
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00108",
     "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00109",
+    "fixed, not in the backlog: CVE-2026-40974 on org.springframework.boot:spring-boot-autoconfigure@2.7.18.1-osera-00110",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00081",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00082",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00083",
@@ -2024,6 +2025,7 @@
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00107",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00108",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00109",
+    "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00110",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00018",
@@ -2682,6 +2684,7 @@
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00009 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00010 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.4.53.v20231009",
@@ -2706,6 +2709,7 @@
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00009 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00010 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00011 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-security@9.2.30.v20200428-osera-00012 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-security at 9.4.53.v20231009",
@@ -2730,6 +2734,7 @@
     "promoted org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00009 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
+    "promoted org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012 is on base 9.2.30.v20200428, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.4.53.v20231009",

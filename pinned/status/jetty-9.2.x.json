@@ -1,7 +1,7 @@
 {
   "line": "jetty-9.2.x",
-  "book_version": "v2026.11.05.26",
-  "as_of": "2026-11-05T10:22:46Z",
+  "book_version": "v2026.11.05.27",
+  "as_of": "2026-11-05T10:28:37Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 8,
@@ -9,58 +9,58 @@
     {
       "cve": "CVE-2021-28165",
       "library": "org.eclipse.jetty:jetty-server",
-      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
-      "patch": "00011",
-      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
-      "at": "2026-10-27T13:00:52Z"
+      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
+      "patch": "00012",
+      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2021-34428",
       "library": "org.eclipse.jetty:jetty-server",
-      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
-      "patch": "00011",
-      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
-      "at": "2026-10-28T02:49:10Z"
+      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
+      "patch": "00012",
+      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2022-2047",
       "library": "org.eclipse.jetty:jetty-http",
-      "coordinate": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
-      "patch": "00011",
-      "named_by": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
-      "at": "2026-10-28T02:49:10Z"
+      "coordinate": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
+      "patch": "00012",
+      "named_by": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2023-26048",
       "library": "org.eclipse.jetty:jetty-server",
-      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
-      "patch": "00011",
-      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
-      "at": "2026-10-28T02:49:10Z"
+      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
+      "patch": "00012",
+      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2023-26049",
       "library": "org.eclipse.jetty:jetty-server",
-      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
-      "patch": "00011",
-      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
-      "at": "2026-10-28T02:49:10Z"
+      "coordinate": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
+      "patch": "00012",
+      "named_by": "org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2023-40167",
       "library": "org.eclipse.jetty:jetty-http",
-      "coordinate": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
-      "patch": "00011",
-      "named_by": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
-      "at": "2026-10-28T02:49:10Z"
+      "coordinate": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
+      "patch": "00012",
+      "named_by": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
+      "at": "2026-11-05T10:28:37Z"
     },
     {
       "cve": "CVE-2024-6763",
       "library": "org.eclipse.jetty:jetty-http",
-      "coordinate": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
-      "patch": "00011",
-      "named_by": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
-      "at": "2026-10-28T02:49:10Z"
+      "coordinate": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
+      "patch": "00012",
+      "named_by": "org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
+      "at": "2026-11-05T10:28:37Z"
     }
   ],
   "in_progress": [],
@@ -74,10 +74,12 @@
   "discrepancies": [
     "fixed, not in the backlog: CVE-2024-6763 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00010",
     "fixed, not in the backlog: CVE-2024-6763 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00011",
+    "fixed, not in the backlog: CVE-2024-6763 on org.eclipse.jetty:jetty-server@9.2.30.v20200428-osera-00012",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00008",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00009",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00010",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
     "fixed, not in the backlog: CVE-2026-19203 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00005",
     "fixed, not in the backlog: CVE-2026-19203 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00006",
     "fixed, not in the backlog: CVE-2026-19203 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00007",
@@ -85,9 +87,11 @@
     "fixed, not in the backlog: CVE-2026-19203 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00009",
     "fixed, not in the backlog: CVE-2026-19203 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00010",
     "fixed, not in the backlog: CVE-2026-19203 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
+    "fixed, not in the backlog: CVE-2026-19203 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00009",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00010",
     "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00011",
+    "fixed, not in the backlog: CVE-2026-2332 on org.eclipse.jetty:jetty-http@9.2.30.v20200428-osera-00012",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.2.30.v20200428",
