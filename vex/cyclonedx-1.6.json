@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 171,
+  "version": 172,
   "metadata": {
-    "timestamp": "2026-11-05T07:26:31Z",
+    "timestamp": "2026-11-05T07:41:02Z",
     "tools": {
       "components": [
         {
@@ -6728,6 +6728,17 @@
       "name": "hibernate-core",
       "version": "5.6.15.Final-osera-00001",
       "purl": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.hibernate",
+      "name": "hibernate-core",
+      "version": "5.6.15.Final-osera-00002",
+      "purl": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00002"
     },
     {
       "type": "library",
@@ -90852,6 +90863,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-0603 on pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00002",
+      "id": "CVE-2026-0603",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0603"
+      },
+      "references": [
+        {
+          "id": "GHSA-2p5w-cvg5-gc5c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2p5w-cvg5-gc5c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T07:33:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00002"
         }
       ]
     },
