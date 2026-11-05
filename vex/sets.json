@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T11:11:02Z",
-  "feed_version": 196,
+  "generated_at": "2026-11-05T11:16:17Z",
+  "feed_version": 197,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -17574,22 +17574,8 @@
         "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00114",
         "org.springframework.boot:spring-boot@2.7.18.1-osera-00114"
       ],
-      "state": "held",
-      "held_since": "2026-11-05T11:11:02Z",
-      "reasons": [
-        {
-          "member": "org.springframework.boot:spring-boot-starter@2.7.18.1-osera-00114",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00114",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework.boot:spring-boot@2.7.18.1-osera-00114",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 8
     },
     {
       "set": "finos-osera-forks/patch-spring-data-bom@v2021.2.18.1-osera-00001",
