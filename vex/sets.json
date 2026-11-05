@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T08:50:59Z",
-  "feed_version": 180,
+  "generated_at": "2026-11-05T09:05:57Z",
+  "feed_version": 181,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -17724,6 +17724,15 @@
       "members": 1,
       "coordinates": [
         "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-hateoas@v1.5.6.1-osera-00003",
+      "members": 1,
+      "coordinates": [
+        "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00003"
       ],
       "state": "in the feed",
       "statements": 2
