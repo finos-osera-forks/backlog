@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-05T08:26:06Z",
+ "as_of": "2026-11-05T08:50:59Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 421,
   "library_versions": 595,
-  "releases": 1644,
+  "releases": 1648,
   "forks": 74,
-  "artifacts": 14042,
+  "artifacts": 14076,
   "cves": 219,
-  "cve_statements": 4898,
-  "release_sets": 521,
+  "cve_statements": 4912,
+  "release_sets": 525,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -80,7 +80,7 @@
   },
   {
    "date": "2026-11-05",
-   "count": 272
+   "count": 306
   }
  ],
  "top_cves": [
@@ -2496,15 +2496,15 @@
   {
    "library": "org.springframework.graphql:spring-graphql",
    "ecosystem": "Java",
-   "releases": 4,
-   "latest": "1.0.6.1-osera-00004",
-   "fixed_entries": 10
+   "releases": 5,
+   "latest": "1.0.6.1-osera-00005",
+   "fixed_entries": 14
   },
   {
    "library": "org.springframework.graphql:spring-graphql-test",
    "ecosystem": "Java",
-   "releases": 4,
-   "latest": "1.0.6.1-osera-00004",
+   "releases": 5,
+   "latest": "1.0.6.1-osera-00005",
    "fixed_entries": 0
   },
   {
@@ -2797,226 +2797,226 @@
   {
    "library": "org.springframework.ldap:spring-ldap-core",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "2.4.4.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 2,
+   "latest": "2.4.4.1-osera-00002",
+   "fixed_entries": 2
   },
   {
    "library": "org.springframework.ldap:spring-ldap-core-tiger",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "2.4.4.1-osera-00001",
+   "releases": 2,
+   "latest": "2.4.4.1-osera-00002",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ldap:spring-ldap-ldif-core",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "2.4.4.1-osera-00001",
+   "releases": 2,
+   "latest": "2.4.4.1-osera-00002",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ldap:spring-ldap-odm",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "2.4.4.1-osera-00001",
+   "releases": 2,
+   "latest": "2.4.4.1-osera-00002",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ldap:spring-ldap-test",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "2.4.4.1-osera-00001",
+   "releases": 2,
+   "latest": "2.4.4.1-osera-00002",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-acl",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-aspects",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-bom",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-cas",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-config",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-core",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-crypto",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
-   "fixed_entries": 3
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
+   "fixed_entries": 4
   },
   {
    "library": "org.springframework.security:spring-security-data",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-ldap",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
-   "fixed_entries": 1
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
+   "fixed_entries": 2
   },
   {
    "library": "org.springframework.security:spring-security-messaging",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-oauth2-client",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-oauth2-core",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-oauth2-jose",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-oauth2-resource-server",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-openid",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-remoting",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-rsocket",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-saml2-service-provider",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
-   "fixed_entries": 4
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
+   "fixed_entries": 5
   },
   {
    "library": "org.springframework.security:spring-security-taglibs",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-test",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.security:spring-security-web",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "5.7.14.1-osera-00006",
-   "fixed_entries": 13
+   "releases": 7,
+   "latest": "5.7.14.1-osera-00007",
+   "fixed_entries": 16
   },
   {
    "library": "org.springframework.ws:spring-ws",
    "ecosystem": "Java",
-   "releases": 3,
-   "latest": "3.1.8.1-osera-00003",
+   "releases": 4,
+   "latest": "3.1.8.1-osera-00004",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ws:spring-ws-core",
    "ecosystem": "Java",
-   "releases": 3,
-   "latest": "3.1.8.1-osera-00003",
-   "fixed_entries": 3
+   "releases": 4,
+   "latest": "3.1.8.1-osera-00004",
+   "fixed_entries": 4
   },
   {
    "library": "org.springframework.ws:spring-ws-security",
    "ecosystem": "Java",
-   "releases": 3,
-   "latest": "3.1.8.1-osera-00003",
-   "fixed_entries": 1
+   "releases": 4,
+   "latest": "3.1.8.1-osera-00004",
+   "fixed_entries": 2
   },
   {
    "library": "org.springframework.ws:spring-ws-support",
    "ecosystem": "Java",
-   "releases": 3,
-   "latest": "3.1.8.1-osera-00003",
+   "releases": 4,
+   "latest": "3.1.8.1-osera-00004",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ws:spring-ws-test",
    "ecosystem": "Java",
-   "releases": 3,
-   "latest": "3.1.8.1-osera-00003",
+   "releases": 4,
+   "latest": "3.1.8.1-osera-00004",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ws:spring-xml",
    "ecosystem": "Java",
-   "releases": 3,
-   "latest": "3.1.8.1-osera-00003",
-   "fixed_entries": 2
+   "releases": 4,
+   "latest": "3.1.8.1-osera-00004",
+   "fixed_entries": 3
   },
   {
    "library": "org.springframework:spring-aop",
