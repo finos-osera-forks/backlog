@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 179,
+  "version": 180,
   "metadata": {
-    "timestamp": "2026-11-05T08:41:02Z",
+    "timestamp": "2026-11-05T08:50:59Z",
     "tools": {
       "components": [
         {
@@ -10757,6 +10757,17 @@
       "name": "spring-ldap-core",
       "version": "2.4.4.1-osera-00001",
       "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.ldap",
+      "name": "spring-ldap-core",
+      "version": "2.4.4.1-osera-00002",
+      "purl": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4.1-osera-00002"
     },
     {
       "type": "library",
@@ -104362,6 +104373,23 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41720 on pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4.1-osera-00002",
+      "id": "CVE-2026-41720",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41720"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:47:17Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4.1-osera-00002"
         }
       ]
     },
