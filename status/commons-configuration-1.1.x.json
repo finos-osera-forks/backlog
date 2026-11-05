@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
   "book_version": "v2026.11.05.17",
-  "as_of": "2026-11-05T09:23:13Z",
+  "as_of": "2026-11-05T09:37:33Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 9,
@@ -86,6 +86,7 @@
     "promoted commons-beanutils:commons-beanutils@1.8.3.1-osera-00002 is on base 1.8.3, the line has commons-beanutils:commons-beanutils at 1.6.1",
     "promoted commons-beanutils:commons-beanutils@1.8.3.1-osera-00003 is on base 1.8.3, the line has commons-beanutils:commons-beanutils at 1.6.1",
     "promoted commons-beanutils:commons-beanutils@1.9.4.1-osera-00001 is on base 1.9.4, the line has commons-beanutils:commons-beanutils at 1.6.1",
+    "promoted commons-beanutils:commons-beanutils@1.9.4.1-osera-00002 is on base 1.9.4, the line has commons-beanutils:commons-beanutils at 1.6.1",
     "promoted commons-configuration:commons-configuration@1.9.1-osera-00001 is on base 1.9, the line has commons-configuration:commons-configuration at 1.1"
   ],
   "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.11.04"
