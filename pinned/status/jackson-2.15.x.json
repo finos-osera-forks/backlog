@@ -1,7 +1,7 @@
 {
   "line": "jackson-2.15.x",
-  "book_version": "v2026.11.05.78",
-  "as_of": "2026-11-05T16:14:59Z",
+  "book_version": "v2026.11.05.79",
+  "as_of": "2026-11-05T16:17:14Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 15,
@@ -238,5 +238,5 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00021 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00022 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4"
   ],
-  "consume": "org.finos.osera:osera-bom-jackson-2.15.x@2026.11.05"
+  "consume": "org.finos.osera:osera-bom-jackson-2.15.x@2026.11.05.8"
 }
