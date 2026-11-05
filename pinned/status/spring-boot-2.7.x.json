@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.05.63",
-  "as_of": "2026-11-05T14:25:17Z",
+  "book_version": "v2026.11.05.64",
+  "as_of": "2026-11-05T14:29:43Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 324,
@@ -2910,5 +2910,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.47"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.48"
 }
