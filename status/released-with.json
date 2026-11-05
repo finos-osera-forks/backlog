@@ -622,6 +622,15 @@
       "first_seen": "2026-10-15T12:54:13Z"
     },
     {
+      "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00003",
+      "library": "io.projectreactor:reactor-bom",
+      "base": "2020.0.47",
+      "kind": "BOM",
+      "released_with": "imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-11-05T08:16:36Z"
+    },
+    {
       "coordinate": "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00001",
       "library": "org.apache.httpcomponents.core5:httpcore5-parent",
       "base": "5.3.6",
