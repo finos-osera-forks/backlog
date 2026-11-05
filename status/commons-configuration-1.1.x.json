@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
-  "book_version": "v2026.11.05.20",
-  "as_of": "2026-11-05T09:46:41Z",
+  "book_version": "v2026.11.05.21",
+  "as_of": "2026-11-05T09:54:40Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 9,
@@ -49,10 +49,10 @@
     {
       "cve": "CVE-2025-46392",
       "library": "commons-configuration:commons-configuration",
-      "coordinate": "commons-configuration:commons-configuration@1.1.1-osera-00001",
-      "patch": "00001",
-      "named_by": "commons-configuration:commons-configuration@1.1.1-osera-00001",
-      "at": "2026-10-23T15:50:16Z"
+      "coordinate": "commons-configuration:commons-configuration@1.1.1-osera-00002",
+      "patch": "00002",
+      "named_by": "commons-configuration:commons-configuration@1.1.1-osera-00002",
+      "at": "2026-11-05T09:54:40Z"
     },
     {
       "cve": "CVE-2025-48734",
@@ -89,5 +89,5 @@
     "promoted commons-beanutils:commons-beanutils@1.9.4.1-osera-00002 is on base 1.9.4, the line has commons-beanutils:commons-beanutils at 1.6.1",
     "promoted commons-configuration:commons-configuration@1.9.1-osera-00001 is on base 1.9, the line has commons-configuration:commons-configuration at 1.1"
   ],
-  "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.11.04"
+  "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.11.05"
 }
