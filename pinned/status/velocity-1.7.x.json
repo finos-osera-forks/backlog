@@ -1,7 +1,7 @@
 {
   "line": "velocity-1.7.x",
-  "book_version": "v2026.11.05.49",
-  "as_of": "2026-11-05T13:02:43Z",
+  "book_version": "v2026.11.05.50",
+  "as_of": "2026-11-05T13:05:48Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 3,
@@ -33,5 +33,5 @@
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00001 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7",
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00002 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7"
   ],
-  "consume": "org.finos.osera:osera-bom-velocity-1.7.x@2026.10.22"
+  "consume": "org.finos.osera:osera-bom-velocity-1.7.x@2026.11.05"
 }
