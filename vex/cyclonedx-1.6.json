@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 177,
+  "version": 178,
   "metadata": {
-    "timestamp": "2026-11-05T08:26:06Z",
+    "timestamp": "2026-11-05T08:35:59Z",
     "tools": {
       "components": [
         {
@@ -10548,6 +10548,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.graphql",
+      "name": "spring-graphql",
+      "version": "1.0.6.1-osera-00005",
+      "purl": "pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -10933,6 +10944,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-core@3.1.8.1-osera-00004",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.ws",
+      "name": "spring-ws-core",
+      "version": "3.1.8.1-osera-00004",
+      "purl": "pkg:maven/org.springframework.ws/spring-ws-core@3.1.8.1-osera-00004"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00003",
       "supplier": {
         "name": "moderne"
@@ -10941,6 +10963,17 @@
       "name": "spring-ws-security",
       "version": "3.1.8.1-osera-00003",
       "purl": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00003"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00004",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.ws",
+      "name": "spring-ws-security",
+      "version": "3.1.8.1-osera-00004",
+      "purl": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00004"
     },
     {
       "type": "library",
@@ -10963,6 +10996,17 @@
       "name": "spring-xml",
       "version": "3.1.8.1-osera-00003",
       "purl": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00003"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00004",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.ws",
+      "name": "spring-xml",
+      "version": "3.1.8.1-osera-00004",
+      "purl": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00004"
     },
     {
       "type": "library",
@@ -103403,6 +103447,92 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-41700 on pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005",
+      "id": "CVE-2026-41700",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41700"
+      },
+      "references": [
+        {
+          "id": "GHSA-m39w-hqxx-3r48",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-m39w-hqxx-3r48"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:32:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41856 on pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005",
+      "id": "CVE-2026-41856",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41856"
+      },
+      "references": [
+        {
+          "id": "GHSA-phxq-526m-79px",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-phxq-526m-79px"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:32:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59286 on pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005",
+      "id": "CVE-2026-59286",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59286"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:32:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59288 on pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005",
+      "id": "CVE-2026-59288",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59288"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:32:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.graphql/spring-graphql@1.0.6.1-osera-00005"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-41006 on pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00001",
       "id": "CVE-2026-41006",
       "source": {
@@ -104777,6 +104907,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-40999 on pkg:maven/org.springframework.ws/spring-ws-core@3.1.8.1-osera-00004",
+      "id": "CVE-2026-40999",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40999"
+      },
+      "references": [
+        {
+          "id": "GHSA-whpp-xv3h-rwxf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-whpp-xv3h-rwxf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:30:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.ws/spring-ws-core@3.1.8.1-osera-00004"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-40994 on pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00003",
       "id": "CVE-2026-40994",
       "source": {
@@ -104799,6 +104955,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-40994 on pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00004",
+      "id": "CVE-2026-40994",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40994"
+      },
+      "references": [
+        {
+          "id": "GHSA-gg9r-wr4p-w63h",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-gg9r-wr4p-w63h"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:30:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00004"
         }
       ]
     },
@@ -104851,6 +105033,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-40998 on pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00004",
+      "id": "CVE-2026-40998",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40998"
+      },
+      "references": [
+        {
+          "id": "GHSA-2mpf-m756-hxjm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2mpf-m756-hxjm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T08:30:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00004"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T08:26:06Z",
-  "feed_version": 177,
+  "generated_at": "2026-11-05T08:35:59Z",
+  "feed_version": 178,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -17701,6 +17701,16 @@
       "statements": 4
     },
     {
+      "set": "finos-osera-forks/patch-spring-graphql@v1.0.6.1-osera-00005",
+      "members": 2,
+      "coordinates": [
+        "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00005",
+        "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 4
+    },
+    {
       "set": "finos-osera-forks/patch-spring-hateoas@v1.5.6.1-osera-00001",
       "members": 1,
       "coordinates": [
@@ -18187,6 +18197,20 @@
         "org.springframework.ws:spring-ws-test@3.1.8.1-osera-00003",
         "org.springframework.ws:spring-ws@3.1.8.1-osera-00003",
         "org.springframework.ws:spring-xml@3.1.8.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-ws@v3.1.8.1-osera-00004",
+      "members": 6,
+      "coordinates": [
+        "org.springframework.ws:spring-ws-core@3.1.8.1-osera-00004",
+        "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00004",
+        "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00004",
+        "org.springframework.ws:spring-ws-test@3.1.8.1-osera-00004",
+        "org.springframework.ws:spring-ws@3.1.8.1-osera-00004",
+        "org.springframework.ws:spring-xml@3.1.8.1-osera-00004"
       ],
       "state": "in the feed",
       "statements": 3
