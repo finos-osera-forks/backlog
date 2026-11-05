@@ -1,7 +1,7 @@
 {
   "line": "httpclient5-5.4.x",
   "book_version": "v2026.11.05.53",
-  "as_of": "2026-11-05T13:33:57Z",
+  "as_of": "2026-11-05T13:39:03Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 3,
@@ -9,18 +9,18 @@
     {
       "cve": "CVE-2026-54399",
       "library": "org.apache.httpcomponents.core5:httpcore5",
-      "coordinate": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00003",
-      "at": "2026-11-05T11:18:33Z"
+      "coordinate": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00004",
+      "at": "2026-11-05T13:39:03Z"
     },
     {
       "cve": "CVE-2026-54428",
       "library": "org.apache.httpcomponents.core5:httpcore5-h2",
-      "coordinate": "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00003",
-      "patch": "00003",
-      "named_by": "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00003",
-      "at": "2026-11-05T11:18:33Z"
+      "coordinate": "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00004",
+      "patch": "00004",
+      "named_by": "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00004",
+      "at": "2026-11-05T13:39:03Z"
     }
   ],
   "in_progress": [],
@@ -32,5 +32,5 @@
   ],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-httpclient5-5.4.x@2026.11.05"
+  "consume": "org.finos.osera:osera-bom-httpclient5-5.4.x@2026.11.05.2"
 }
