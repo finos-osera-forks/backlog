@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T13:31:14Z",
-  "feed_version": 208,
+  "generated_at": "2026-11-05T13:46:20Z",
+  "feed_version": 209,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -1936,6 +1936,17 @@
         "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00003",
         "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00003",
         "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-httpcomponents-core@v5.3.6.1-osera-00004",
+      "members": 3,
+      "coordinates": [
+        "org.apache.httpcomponents.core5:httpcore5-h2@5.3.6.1-osera-00004",
+        "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00004",
+        "org.apache.httpcomponents.core5:httpcore5@5.3.6.1-osera-00004"
       ],
       "state": "in the feed",
       "statements": 2
