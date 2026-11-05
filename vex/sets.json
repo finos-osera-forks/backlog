@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T08:11:03Z",
-  "feed_version": 175,
+  "generated_at": "2026-11-05T08:21:02Z",
+  "feed_version": 176,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -7575,6 +7575,28 @@
         "io.projectreactor:reactor-core@3.4.41.1-osera-00002",
         "io.projectreactor:reactor-test@3.4.41.1-osera-00002",
         "io.projectreactor:reactor-tools@3.4.41.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-reactor@v2020.0.47.1-osera-00003",
+      "members": 14,
+      "coordinates": [
+        "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00003",
+        "io.projectreactor.addons:reactor-extra@3.4.11.1-osera-00003",
+        "io.projectreactor.addons:reactor-pool@0.2.13.1-osera-00003",
+        "io.projectreactor.kafka:reactor-kafka@1.3.23.1-osera-00003",
+        "io.projectreactor.kotlin:reactor-kotlin-extensions@1.1.11.1-osera-00003",
+        "io.projectreactor.netty:reactor-netty-core@1.0.48.1-osera-00003",
+        "io.projectreactor.netty:reactor-netty-http-brave@1.0.48.1-osera-00003",
+        "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00003",
+        "io.projectreactor.netty:reactor-netty@1.0.48.1-osera-00003",
+        "io.projectreactor.rabbitmq:reactor-rabbitmq@1.5.6.1-osera-00003",
+        "io.projectreactor:reactor-bom@2020.0.47.1-osera-00003",
+        "io.projectreactor:reactor-core@3.4.41.1-osera-00003",
+        "io.projectreactor:reactor-test@3.4.41.1-osera-00003",
+        "io.projectreactor:reactor-tools@3.4.41.1-osera-00003"
       ],
       "state": "in the feed",
       "statements": 2
@@ -17880,6 +17902,16 @@
       "coordinates": [
         "org.springframework.kafka:spring-kafka-test@2.8.11.1-osera-00005",
         "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-kafka@v2.8.11.1-osera-00006",
+      "members": 2,
+      "coordinates": [
+        "org.springframework.kafka:spring-kafka-test@2.8.11.1-osera-00006",
+        "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00006"
       ],
       "state": "in the feed",
       "statements": 5
