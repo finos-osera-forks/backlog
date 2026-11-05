@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T13:46:20Z",
-  "version": 209,
+  "last_updated": "2026-11-05T14:06:02Z",
+  "version": 210,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -11230,6 +11230,38 @@
       "products": [
         {
           "@id": "pkg:maven/dom4j/dom4j@1.4.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-1000632",
+        "aliases": [
+          "GHSA-6pcc-3rfx-4gpm"
+        ]
+      },
+      "timestamp": "2026-11-05T14:00:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/dom4j/dom4j@1.4.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-10683",
+        "aliases": [
+          "GHSA-hwj3-m3p6-hj38"
+        ]
+      },
+      "timestamp": "2026-11-05T14:00:20Z",
+      "products": [
+        {
+          "@id": "pkg:maven/dom4j/dom4j@1.4.1-osera-00003"
         }
       ],
       "status": "fixed",
