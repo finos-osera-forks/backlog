@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T16:55:58Z",
+  "generated_at": "2026-11-05T07:20:57Z",
   "feed_version": 170,
   "sets": [
     {
@@ -7922,6 +7922,21 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-snakeyaml@v1.33.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "org.yaml:snakeyaml@1.33.1-osera-00002"
+      ],
+      "state": "held",
+      "held_since": "2026-11-05T07:20:57Z",
+      "reasons": [
+        {
+          "member": "org.yaml:snakeyaml@1.33.1-osera-00002",
+          "why": "evidence chain not complete: files: not checked (snakeyaml-1.33.1-osera-00002.pom.sha1 not there yet: the last file landed 7s ago and the gate copies the checksums after the jar and the pom); signatures: failed (no signature next to the pom (snakeyaml-1.33.1-osera-00002.pom.asc))"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-snakeyaml@v1.9.1-osera-00001",
