@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-05T10:26:17Z",
+ "as_of": "2026-11-05T10:56:13Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 421,
   "library_versions": 595,
-  "releases": 1662,
+  "releases": 1669,
   "forks": 74,
-  "artifacts": 14450,
+  "artifacts": 14677,
   "cves": 219,
-  "cve_statements": 4980,
-  "release_sets": 539,
+  "cve_statements": 5029,
+  "release_sets": 546,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -80,7 +80,7 @@
   },
   {
    "date": "2026-11-05",
-   "count": 680
+   "count": 907
   }
  ],
  "top_cves": [
@@ -127,7 +127,7 @@
   {
    "id": "CVE-2026-22733",
    "summary": "Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints",
-   "fixed_entries": 108,
+   "fixed_entries": 111,
    "libraries": 1,
    "cvss": 8.1,
    "cvss_version": "3.1"
@@ -135,9 +135,17 @@
   {
    "id": "CVE-2025-22235",
    "summary": "Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed",
-   "fixed_entries": 107,
+   "fixed_entries": 110,
    "libraries": 1,
    "cvss": 7.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2024-38807",
+   "summary": "Signature forgery in Spring Boot's Loader",
+   "fixed_entries": 109,
+   "libraries": 2,
+   "cvss": 6.3,
    "cvss_version": "3.1"
   },
   {
@@ -146,14 +154,6 @@
    "fixed_entries": 105,
    "libraries": 2,
    "cvss": 7.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2024-38807",
-   "summary": "Signature forgery in Spring Boot's Loader",
-   "fixed_entries": 103,
-   "libraries": 2,
-   "cvss": 6.3,
    "cvss_version": "3.1"
   },
   {
@@ -795,9 +795,9 @@
   {
    "library": "commons-collections:commons-collections",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "3.0.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 2,
+   "latest": "3.0.1-osera-00002",
+   "fixed_entries": 2
   },
   {
    "library": "commons-configuration:commons-configuration",
@@ -928,9 +928,9 @@
   {
    "library": "org.apache.axis:axis",
    "ecosystem": "Java",
-   "releases": 3,
-   "latest": "1.4.1-osera-00003",
-   "fixed_entries": 7
+   "releases": 4,
+   "latest": "1.4.1-osera-00004",
+   "fixed_entries": 11
   },
   {
    "library": "org.apache.commons:commons-text",
@@ -1572,9 +1572,9 @@
   {
    "library": "org.eclipse.jetty:jetty-http",
    "ecosystem": "Java",
-   "releases": 24,
-   "latest": "9.4.58.v20250814-osera-00013",
-   "fixed_entries": 60
+   "releases": 25,
+   "latest": "9.2.30.v20200428-osera-00012",
+   "fixed_entries": 66
   },
   {
    "library": "org.eclipse.jetty:jetty-http-spi",
@@ -1586,9 +1586,9 @@
   {
    "library": "org.eclipse.jetty:jetty-io",
    "ecosystem": "Java",
-   "releases": 24,
-   "latest": "9.4.58.v20250814-osera-00013",
-   "fixed_entries": 11
+   "releases": 25,
+   "latest": "9.2.30.v20200428-osera-00012",
+   "fixed_entries": 12
   },
   {
    "library": "org.eclipse.jetty:jetty-jaas",
@@ -1670,16 +1670,16 @@
   {
    "library": "org.eclipse.jetty:jetty-security",
    "ecosystem": "Java",
-   "releases": 24,
-   "latest": "9.4.58.v20250814-osera-00013",
-   "fixed_entries": 13
+   "releases": 25,
+   "latest": "9.2.30.v20200428-osera-00012",
+   "fixed_entries": 14
   },
   {
    "library": "org.eclipse.jetty:jetty-server",
    "ecosystem": "Java",
-   "releases": 24,
-   "latest": "9.4.58.v20250814-osera-00013",
-   "fixed_entries": 26
+   "releases": 25,
+   "latest": "9.2.30.v20200428-osera-00012",
+   "fixed_entries": 30
   },
   {
    "library": "org.eclipse.jetty:jetty-servlet",
@@ -1712,9 +1712,9 @@
   {
    "library": "org.eclipse.jetty:jetty-util",
    "ecosystem": "Java",
-   "releases": 24,
-   "latest": "9.4.58.v20250814-osera-00013",
-   "fixed_entries": 15
+   "releases": 25,
+   "latest": "9.2.30.v20200428-osera-00012",
+   "fixed_entries": 16
   },
   {
    "library": "org.eclipse.jetty:jetty-util-ajax",
@@ -1838,512 +1838,512 @@
   {
    "library": "org.springframework.boot:org.springframework.boot.gradle.plugin",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
-   "fixed_entries": 68
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
+   "fixed_entries": 74
   },
   {
    "library": "org.springframework.boot:spring-boot-actuator",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-actuator-autoconfigure",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
-   "fixed_entries": 215
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
+   "fixed_entries": 221
   },
   {
    "library": "org.springframework.boot:spring-boot-autoconfigure",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
-   "fixed_entries": 30
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
+   "fixed_entries": 33
   },
   {
    "library": "org.springframework.boot:spring-boot-autoconfigure-processor",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-buildpack-platform",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-configuration-metadata",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-configuration-processor",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-dependencies",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-devtools",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
-   "fixed_entries": 59
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
+   "fixed_entries": 62
   },
   {
    "library": "org.springframework.boot:spring-boot-gradle-plugin",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-jarmode-layertools",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-loader",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
-   "fixed_entries": 52
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
+   "fixed_entries": 55
   },
   {
    "library": "org.springframework.boot:spring-boot-loader-tools",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
-   "fixed_entries": 51
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
+   "fixed_entries": 54
   },
   {
    "library": "org.springframework.boot:spring-boot-maven-plugin",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-properties-migrator",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-activemq",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-actuator",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-amqp",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-aop",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-artemis",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-batch",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-cache",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-cassandra",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-cassandra-reactive",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-couchbase",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-couchbase-reactive",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-elasticsearch",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-jdbc",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-jpa",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-ldap",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-mongodb",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-mongodb-reactive",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-neo4j",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-r2dbc",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-redis",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-redis-reactive",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-data-rest",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-freemarker",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-graphql",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-groovy-templates",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-hateoas",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-integration",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-jdbc",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-jersey",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-jetty",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-jooq",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-json",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-jta-atomikos",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-log4j2",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-logging",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-mail",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-mustache",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-oauth2-client",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-oauth2-resource-server",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-parent",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-quartz",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-reactor-netty",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-rsocket",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-security",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-test",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-thymeleaf",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-tomcat",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-undertow",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-validation",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-web",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-web-services",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-webflux",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-starter-websocket",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-test",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.boot:spring-boot-test-autoconfigure",
    "ecosystem": "Java",
-   "releases": 109,
-   "latest": "2.7.18.1-osera-00109",
+   "releases": 112,
+   "latest": "2.7.18.1-osera-00112",
    "fixed_entries": 0
   },
   {
@@ -3182,9 +3182,9 @@
   {
    "library": "org.yaml:snakeyaml",
    "ecosystem": "Java",
-   "releases": 72,
-   "latest": "1.31.1-osera-00004",
-   "fixed_entries": 284
+   "releases": 73,
+   "latest": "1.9.1-osera-00007",
+   "fixed_entries": 291
   },
   {
    "library": "xerces:xercesImpl",
