@@ -47488,6 +47488,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-1.2-api@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-1.2-api",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-1.2-api@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-api-test@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-api-test",
       "base": "2.24.3",
@@ -47541,6 +47553,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-api-test@2.24.3.1-osera-00005: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-api-test@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-api-test",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-api-test@2.24.3.1-osera-00006: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-appserver@2.17.2.1-osera-00001",
@@ -47675,6 +47698,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-appserver@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-appserver",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-appserver@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-cassandra@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-cassandra",
       "base": "2.17.2",
@@ -47807,6 +47842,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-cassandra@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-cassandra",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-cassandra@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-core-test@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-core-test",
       "base": "2.24.3",
@@ -47860,6 +47907,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-core-test@2.24.3.1-osera-00005: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-core-test@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-core-test",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-core-test@2.24.3.1-osera-00006: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-couchdb@2.17.2.1-osera-00001",
@@ -47994,6 +48052,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-couchdb@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-couchdb",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-couchdb@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-docker@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-docker",
       "base": "2.17.2",
@@ -48124,6 +48194,18 @@
       ],
       "words": "org.apache.logging.log4j:log4j-docker@2.24.3.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-docker@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-docker",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-docker@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-flume-ng@2.17.2.1-osera-00001",
@@ -48330,6 +48412,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-iostreams@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-iostreams",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-iostreams@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-jakarta-smtp@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-jakarta-smtp",
       "base": "2.24.3",
@@ -48385,6 +48479,17 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-jakarta-smtp@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-jakarta-smtp",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-jakarta-smtp@2.24.3.1-osera-00006: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-jakarta-web@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-jakarta-web",
       "base": "2.24.3",
@@ -48438,6 +48543,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-jakarta-web@2.24.3.1-osera-00005: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-jakarta-web@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-jakarta-web",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-jakarta-web@2.24.3.1-osera-00006: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-jcl@2.17.2.1-osera-00001",
@@ -48570,6 +48686,18 @@
       ],
       "words": "org.apache.logging.log4j:log4j-jcl@2.24.3.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-jcl@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-jcl",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-jcl@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-jmx-gui@2.17.2.1-osera-00001",
@@ -48770,6 +48898,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-jpa@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-jpa",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-jpa@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-jpl@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-jpl",
       "base": "2.17.2",
@@ -48902,6 +49042,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-jpl@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-jpl",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-jpl@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-jul@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-jul",
       "base": "2.24.3",
@@ -48955,6 +49107,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-jul@2.24.3.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-jul@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-jul",
+      "base": "2.24.3",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-jul@2.24.3.1-osera-00006: in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-kubernetes@2.17.2.1-osera-00001",
@@ -49153,6 +49316,18 @@
       ],
       "words": "org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-layout-template-json",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-layout-template-json@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-liquibase@2.17.2.1-osera-00001",
@@ -49419,6 +49594,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-mongodb4@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-mongodb4",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-mongodb4@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-mongodb@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-mongodb",
       "base": "2.24.3",
@@ -49474,6 +49661,17 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-mongodb@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-mongodb",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-mongodb@2.24.3.1-osera-00006: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-slf4j-impl@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-slf4j-impl",
       "base": "2.24.3",
@@ -49527,6 +49725,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-slf4j-impl@2.24.3.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-slf4j-impl@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-slf4j-impl",
+      "base": "2.24.3",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-slf4j-impl@2.24.3.1-osera-00006: in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-slf4j18-impl@2.17.2.1-osera-00001",
@@ -49648,6 +49857,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-slf4j2-impl@2.24.3.1-osera-00005: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-slf4j2-impl@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-slf4j2-impl",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-slf4j2-impl@2.24.3.1-osera-00006: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-spring-boot@2.17.2.1-osera-00001",
@@ -49782,6 +50002,18 @@
       "first_seen": "2026-10-22T17:28:51Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-spring-boot@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-spring-boot",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-spring-boot@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-spring-cloud-config-client@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-spring-cloud-config-client",
       "base": "2.17.2",
@@ -49912,6 +50144,18 @@
       ],
       "words": "org.apache.logging.log4j:log4j-spring-cloud-config-client@2.24.3.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-spring-cloud-config-client@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-spring-cloud-config-client",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-spring-cloud-config-client@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-taglib@2.17.2.1-osera-00001",
@@ -50046,6 +50290,18 @@
       "first_seen": "2026-10-22T17:31:13Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-taglib@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-taglib",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-taglib@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-to-jul@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-to-jul",
       "base": "2.24.3",
@@ -50101,6 +50357,17 @@
       "first_seen": "2026-10-22T17:31:13Z"
     },
     {
+      "coordinate": "org.apache.logging.log4j:log4j-to-jul@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-to-jul",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-to-jul@2.24.3.1-osera-00006: listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph",
+      "first_seen": "2026-11-05T13:24:03Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-to-slf4j@2.24.3.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-to-slf4j",
       "base": "2.24.3",
@@ -50154,6 +50421,17 @@
       ],
       "words": "org.apache.logging.log4j:log4j-to-slf4j@2.24.3.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-to-slf4j@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-to-slf4j",
+      "base": "2.24.3",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-to-slf4j@2.24.3.1-osera-00006: in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-web@2.17.2.1-osera-00001",
@@ -50286,6 +50564,18 @@
       ],
       "words": "org.apache.logging.log4j:log4j-web@2.24.3.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
       "first_seen": "2026-10-22T17:28:51Z"
+    },
+    {
+      "coordinate": "org.apache.logging.log4j:log4j-web@2.24.3.1-osera-00006",
+      "library": "org.apache.logging.log4j:log4j-web",
+      "base": "2.24.3",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "org.apache.logging.log4j:log4j-web@2.24.3.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs",
+      "first_seen": "2026-11-05T13:24:03Z"
     },
     {
       "coordinate": "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00001",
