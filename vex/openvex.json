@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T08:06:10Z",
-  "version": 174,
+  "last_updated": "2026-11-05T08:11:03Z",
+  "version": 175,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -59607,6 +59607,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-41716",
+        "aliases": [
+          "GHSA-9fw2-h3hf-293r"
+        ]
+      },
+      "timestamp": "2026-11-05T08:02:46Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-commons@2.7.18.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-41719",
         "aliases": [
           "GHSA-xg2j-3hj6-pc24"
@@ -59648,6 +59664,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41719",
+        "aliases": [
+          "GHSA-xg2j-3hj6-pc24"
+        ]
+      },
+      "timestamp": "2026-11-05T08:02:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-keyvalue@2.7.18.1-osera-00008"
         }
       ],
       "status": "fixed",
@@ -59792,6 +59824,38 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41696",
+        "aliases": [
+          "GHSA-hc43-m36c-8v33"
+        ]
+      },
+      "timestamp": "2026-11-05T08:03:03Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41717",
+        "aliases": [
+          "GHSA-5whc-4q84-fj73"
+        ]
+      },
+      "timestamp": "2026-11-05T08:03:03Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-mongodb@3.4.18.1-osera-00008"
         }
       ],
       "status": "fixed",
@@ -59965,6 +60029,51 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41728",
+        "aliases": [
+          "GHSA-cv39-x4c6-hhp2"
+        ]
+      },
+      "timestamp": "2026-11-05T08:03:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41729",
+        "aliases": [
+          "GHSA-j388-8rm5-p97f"
+        ]
+      },
+      "timestamp": "2026-11-05T08:03:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47849"
+      },
+      "timestamp": "2026-11-05T08:03:01Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.data/spring-data-rest-webmvc@3.7.18.1-osera-00008"
         }
       ],
       "status": "fixed",
