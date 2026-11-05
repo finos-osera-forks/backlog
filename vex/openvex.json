@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T13:26:18Z",
-  "version": 207,
+  "last_updated": "2026-11-05T13:31:14Z",
+  "version": 208,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -12294,6 +12294,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-49844",
+        "aliases": [
+          "GHSA-qv9r-c865-cp47"
+        ]
+      },
+      "timestamp": "2026-11-05T13:22:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-api@2.24.3.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-34480",
         "aliases": [
           "GHSA-3pxv-7cmr-fjr4"
@@ -12703,6 +12719,70 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-68161",
+        "aliases": [
+          "GHSA-vc5p-v9hr-52mj"
+        ]
+      },
+      "timestamp": "2026-11-05T13:22:12Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34477",
+        "aliases": [
+          "GHSA-6hg6-v5c8-fphq"
+        ]
+      },
+      "timestamp": "2026-11-05T13:22:12Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34478",
+        "aliases": [
+          "GHSA-445c-vh5m-36rj"
+        ]
+      },
+      "timestamp": "2026-11-05T13:22:12Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-34480",
+        "aliases": [
+          "GHSA-3pxv-7cmr-fjr4"
+        ]
+      },
+      "timestamp": "2026-11-05T13:22:12Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.logging.log4j/log4j-core@2.24.3.1-osera-00006"
         }
       ],
       "status": "fixed",
