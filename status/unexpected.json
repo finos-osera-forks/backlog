@@ -55367,6 +55367,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00005",
+      "library": "org.springframework.graphql:spring-graphql-test",
+      "base": "1.0.6",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.0.6, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 1.0.6, not in its dependency graph",
+      "first_seen": "2026-11-05T08:33:00Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-amqp@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-amqp",
       "base": "5.5.20",
