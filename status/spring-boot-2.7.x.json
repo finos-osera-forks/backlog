@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.05.13",
-  "as_of": "2026-11-05T08:50:25Z",
+  "as_of": "2026-11-05T09:01:57Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 190,
@@ -353,18 +353,18 @@
     {
       "cve": "CVE-2026-41006",
       "library": "org.springframework.hateoas:spring-hateoas",
-      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-      "at": "2026-09-24T15:17:30Z"
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00003",
+      "at": "2026-11-05T09:01:57Z"
     },
     {
       "cve": "CVE-2026-41007",
       "library": "org.springframework.hateoas:spring-hateoas",
-      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00002",
-      "at": "2026-09-24T15:17:30Z"
+      "coordinate": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.springframework.hateoas:spring-hateoas@1.5.6.1-osera-00003",
+      "at": "2026-11-05T09:01:57Z"
     },
     {
       "cve": "CVE-2026-41696",
@@ -2225,5 +2225,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.14"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.15"
 }
