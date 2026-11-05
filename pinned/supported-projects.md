@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T10:57:02Z. Written by the line manager reconciler.
+Generated 2026-11-05T11:00:58Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -56,7 +56,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | pulled in by a dependency (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00007 | 1.8.1.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | pulled in by a dependency (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00008 | 1.8.1.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ch.qos.logback:logback-classic | 1.2.12 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ch.qos.logback:logback-core | 1.2.12 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-core | 2.13.0 | spring-security-5.7.x | pulled in by a dependency (com.fasterxml.jackson.core:jackson-databind@2.13.0) | open | 3 | 0 | 0% | 1 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -105,7 +105,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | io.netty:netty-transport-native-kqueue | 4.1.101.Final | spring-boot-2.7.x | listed by the BOM at 4.1.101.Final (io.netty:netty-bom@4.1.101.Final) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.39 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.undertow:undertow-core | 2.2.28.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 13 | 0 | 0% | 0 | 0 | 13 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00007 | 1.2.17.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00008 | 1.2.17.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | net.minidev:json-smart | 2.4.8 | spring-security-5.7.x | pulled in by a dependency (com.nimbusds:oauth2-oidc-sdk@9.35) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ognl:ognl | 3.1.26 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-broker | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 9 | 0 | 0% | 0 | 0 | 9 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |

@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T10:57:02Z. Written by the line manager reconciler.
+Generated 2026-11-05T11:00:58Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -56,7 +56,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | pulled in by a dependency on lz4-java-1.8.x (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00007 | 1.8.1.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | pulled in by a dependency on lz4-java-1.8.x (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00008 | 1.8.1.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 6 | 2 | 33% | 0 | 0 | 4 | 0 | 1.2.13.1-osera-00004 | 1.2.13.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 2.13.5.1-osera-00015 | 2.13.5.1-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 2.15.4.1-osera-00019 | 2.15.4.1-osera-00019 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -86,7 +86,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00003 | 1.0.48.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.undertow:undertow-core | 2.2.41.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00007 | 1.2.17.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00008 | 1.2.17.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ognl:ognl | 3.1.29 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-broker | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-client | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |

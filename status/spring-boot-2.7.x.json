@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.05.32",
-  "as_of": "2026-11-05T10:57:02Z",
+  "book_version": "v2026.11.05.33",
+  "as_of": "2026-11-05T11:00:58Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 194,
@@ -169,10 +169,10 @@
     {
       "cve": "CVE-2025-66566",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-27T23:35:00Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2025-8916",
@@ -193,42 +193,42 @@
     {
       "cve": "CVE-2026-106449",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-27T23:35:00Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106450",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-27T23:35:00Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106451",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-27T23:35:00Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106452",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-27T23:35:00Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106453",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-27T23:35:00Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-19203",
@@ -665,10 +665,10 @@
     {
       "cve": "CVE-2026-59949",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-27T23:35:00Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-68494",
@@ -2268,5 +2268,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.27"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.28"
 }
