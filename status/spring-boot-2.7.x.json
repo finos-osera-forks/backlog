@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.05.8",
-  "as_of": "2026-11-05T08:06:13Z",
+  "as_of": "2026-11-05T08:16:36Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 190,
@@ -121,10 +121,10 @@
     {
       "cve": "CVE-2025-22227",
       "library": "io.projectreactor.netty:reactor-netty-http",
-      "coordinate": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00002",
-      "patch": "00002",
-      "named_by": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00002",
-      "at": "2026-10-15T13:38:21Z"
+      "coordinate": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00003",
+      "patch": "00003",
+      "named_by": "io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00003",
+      "at": "2026-11-05T08:16:36Z"
     },
     {
       "cve": "CVE-2025-22228",
@@ -1576,6 +1576,7 @@
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00103",
     "fixed, not in the backlog: CVE-2026-40975 on org.springframework.boot:spring-boot@2.7.18.1-osera-00104",
     "fixed, not in the backlog: CVE-2026-41715 on io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00002",
+    "fixed, not in the backlog: CVE-2026-41715 on io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00016",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-41845 on org.springframework:spring-web@5.3.39.1-osera-00018",
@@ -2224,5 +2225,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.8"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.9"
 }
