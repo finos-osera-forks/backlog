@@ -1,10 +1,10 @@
 {
   "line": "bouncycastle-1.78.x",
   "book_version": "v2026.11.05.57",
-  "as_of": "2026-11-05T13:57:44Z",
+  "as_of": "2026-11-05T14:00:09Z",
   "status": "fixed",
   "chain": "complete",
-  "in_scope": 6,
+  "in_scope": 7,
   "fixed": [
     {
       "cve": "CVE-2025-14813",
@@ -45,6 +45,14 @@
       "patch": "00034",
       "named_by": "org.bouncycastle:bcpkix-jdk18on@1.78.1.1-osera-00034",
       "at": "2026-11-04T16:48:00Z"
+    },
+    {
+      "cve": "CVE-2026-5598",
+      "library": "org.bouncycastle:bcprov-jdk18on",
+      "coordinate": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00034",
+      "patch": "00034",
+      "named_by": "org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00034",
+      "at": "2026-11-05T14:00:09Z"
     },
     {
       "cve": "CVE-2026-8763",
@@ -272,13 +280,6 @@
     "fixed, not in the backlog: CVE-2026-18040 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00032",
     "fixed, not in the backlog: CVE-2026-18040 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00033",
     "fixed, not in the backlog: CVE-2026-18040 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00034",
-    "fixed, not in the backlog: CVE-2026-5598 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00028",
-    "fixed, not in the backlog: CVE-2026-5598 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00029",
-    "fixed, not in the backlog: CVE-2026-5598 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00030",
-    "fixed, not in the backlog: CVE-2026-5598 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00031",
-    "fixed, not in the backlog: CVE-2026-5598 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00032",
-    "fixed, not in the backlog: CVE-2026-5598 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00033",
-    "fixed, not in the backlog: CVE-2026-5598 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00034",
     "fixed, not in the backlog: CVE-2026-58059 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00025",
     "fixed, not in the backlog: CVE-2026-58059 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00026",
     "fixed, not in the backlog: CVE-2026-58059 on org.bouncycastle:bcprov-jdk18on@1.78.1.1-osera-00027",

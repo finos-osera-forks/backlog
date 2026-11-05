@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T13:39:03Z. Written by the line manager reconciler.
+Generated 2026-11-05T14:00:09Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -18,7 +18,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
-| bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
+| bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
@@ -82,7 +82,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-lang:commons-lang | 2.4 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.6.x, velocity-1.7.x | pulled in by a dependency on spring-boot-2.7.x (org.apache.velocity:velocity@1.7) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-lang:commons-lang | 2.6 | commons-configuration-1.9.x | pulled in by a dependency (commons-configuration:commons-configuration@1.9) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | crypto-js | 4.1.1 | crypto-js-4.1.x | pulled in by a dependency (crypto-js@4.1.1) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 4.1.2-osera-00001 | 4.1.2-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.4.1-osera-00002 | 1.4.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00003 | 1.0.48.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.undertow:undertow-core | 2.2.41.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -119,7 +119,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.bouncycastle:bcprov-jdk15 | 1.46 | bouncycastle-1.46.x | own project (the anchor's group) | open | 4 | 2 | 50% | 10 | 0 | 2 | 0 | 1.46.1-osera-00029 | 1.46.1-osera-00029 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 5 | 5 | 100% | 0 | 0 | 0 | 0 | 1.69.1-osera-00037 | 1.69.1-osera-00037 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcprov-jdk15on | 1.70 | bouncycastle-1.70.x, spring-boot-2.7.x, spring-security-5.7.x | own project on bouncycastle-1.70.x (the anchor's group) | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 1.70.1-osera-00038 | 1.70.1-osera-00038 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 1.78.1.1-osera-00034 | 1.78.1.1-osera-00034 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.bouncycastle:bcprov-jdk18on | 1.78.1 | bouncycastle-1.78.x | own project (the anchor's group) | fixed | 5 | 5 | 100% | 0 | 0 | 0 | 0 | 1.78.1.1-osera-00034 | 1.78.1.1-osera-00034 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-http | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 9.2.30.v20200428-osera-00012 | 9.2.30.v20200428-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-http | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 3 | 2 | 67% | 0 | 0 | 1 | 0 | 9.4.58.v20250814-osera-00014 | 9.4.58.v20250814-osera-00014 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-security | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 9.4.58.v20250814-osera-00014 | 9.4.58.v20250814-osera-00014 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
