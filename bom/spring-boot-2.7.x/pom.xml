@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-05T08:17:55Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-05T08:20:33Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.11.05.9</version>
+  <version>2026.11.05.10</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -800,7 +800,7 @@
       <dependency>
         <groupId>org.springframework.integration</groupId>
         <artifactId>spring-integration-core</artifactId>
-        <version>5.5.20.1-osera-00003</version>
+        <version>5.5.20.1-osera-00004</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.ldap</groupId>
