@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.05.3",
-  "as_of": "2026-11-05T07:35:56Z",
+  "book_version": "v2026.11.05.4",
+  "as_of": "2026-11-05T07:38:45Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 324,
@@ -2470,9 +2470,11 @@
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00003 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
+    "promoted ch.qos.logback:logback-classic@1.2.13.1-osera-00004 is on base 1.2.13, the line has ch.qos.logback:logback-classic at 1.2.12",
     "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00001 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
     "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00002 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
     "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00003 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
+    "promoted ch.qos.logback:logback-core@1.2.13.1-osera-00004 is on base 1.2.13, the line has ch.qos.logback:logback-core at 1.2.12",
     "promoted com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00001 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5, 2.14.2",
     "promoted com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00002 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5, 2.14.2",
     "promoted com.fasterxml.jackson.core:jackson-core@2.15.4.1-osera-00003 is on base 2.15.4, the line has com.fasterxml.jackson.core:jackson-core at 2.13.5, 2.14.2",
@@ -2829,5 +2831,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.3"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05.4"
 }
