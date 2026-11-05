@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T10:37:41Z. Written by the line manager reconciler.
+Generated 2026-11-05T10:43:59Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -75,7 +75,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-beanutils:commons-beanutils | 1.6.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.6.1.1-osera-00003 | 1.6.1.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-beanutils:commons-beanutils | 1.8.3 | struts-1.3.x | pulled in by a dependency (commons-digester:commons-digester@1.8.1) | fixed | 2 | 2 | 100% | 1 | 0 | 0 | 0 | 1.8.3.1-osera-00003 | 1.8.3.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-beanutils:commons-beanutils | 1.9.4 | commons-beanutils-1.9.x, spring-boot-2.7.x | own project on commons-beanutils-1.9.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.4.1-osera-00002 | 1.9.4.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| commons-collections:commons-collections | 3.0 | commons-configuration-1.1.x | pulled in by a dependency (commons-beanutils:commons-beanutils-core@1.7.0) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 3.0.1-osera-00001 | 3.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| commons-collections:commons-collections | 3.0 | commons-configuration-1.1.x | pulled in by a dependency (commons-beanutils:commons-beanutils-core@1.7.0) | fixed | 1 | 1 | 100% | 1 | 0 | 0 | 0 | 3.0.1-osera-00002 | 3.0.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-configuration:commons-configuration | 1.1 | commons-configuration-1.1.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.1.1-osera-00002 | 1.1.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-configuration:commons-configuration | 1.9 | commons-configuration-1.9.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.1-osera-00002 | 1.9.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-lang:commons-lang | 2.0 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -90,7 +90,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | ognl:ognl | 3.1.29 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-broker | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-client | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 2 | 67% | 2 | 0 | 1 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 2 | 67% | 2 | 0 | 1 | 0 | 1.4.1-osera-00004 | 1.4.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-compress | 1.21 | spring-boot-2.7.x | pulled in by a dependency (org.springframework.boot:spring-boot-buildpack-platform@2.7.18) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-lang3 | 3.8.1 | commons-text-1.6.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-lang3 | 3.9 | commons-text-1.7.x, commons-text-1.8.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
