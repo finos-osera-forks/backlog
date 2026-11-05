@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T08:03:35Z. Written by the line manager reconciler.
+Generated 2026-11-05T08:14:35Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-347 libraries, 4381 patched version(s).
+347 libraries, 4383 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -506,8 +506,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.integration:spring-integration-xmpp | 5.5.20 | listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph | spring-boot-2.7.x |  | 5.5.20.1-osera-00001 5.5.20.1-osera-00002 5.5.20.1-osera-00003 | 5.5.20.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.integration:spring-integration-zeromq | 5.5.20 | listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph | spring-boot-2.7.x |  | 5.5.20.1-osera-00001 5.5.20.1-osera-00002 5.5.20.1-osera-00003 | 5.5.20.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.integration:spring-integration-zookeeper | 5.5.20 | listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph | spring-boot-2.7.x |  | 5.5.20.1-osera-00001 5.5.20.1-osera-00002 5.5.20.1-osera-00003 | 5.5.20.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.kafka:spring-kafka | 2.8.11 | listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph | spring-boot-2.7.x |  | 2.8.11.1-osera-00001 2.8.11.1-osera-00002 2.8.11.1-osera-00003 2.8.11.1-osera-00004 2.8.11.1-osera-00005 | 2.8.11.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.kafka:spring-kafka-test | 2.8.11 | listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph | spring-boot-2.7.x |  | 2.8.11.1-osera-00001 2.8.11.1-osera-00002 2.8.11.1-osera-00003 2.8.11.1-osera-00004 2.8.11.1-osera-00005 | 2.8.11.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.kafka:spring-kafka | 2.8.11 | listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph | spring-boot-2.7.x |  | 2.8.11.1-osera-00001 2.8.11.1-osera-00002 2.8.11.1-osera-00003 2.8.11.1-osera-00004 2.8.11.1-osera-00005 2.8.11.1-osera-00006 | 2.8.11.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.kafka:spring-kafka-test | 2.8.11 | listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph | spring-boot-2.7.x |  | 2.8.11.1-osera-00001 2.8.11.1-osera-00002 2.8.11.1-osera-00003 2.8.11.1-osera-00004 2.8.11.1-osera-00005 2.8.11.1-osera-00006 | 2.8.11.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ldap:spring-ldap-core-tiger | 2.4.4 | listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph | spring-boot-2.7.x |  | 2.4.4.1-osera-00001 | 2.4.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ldap:spring-ldap-ldif-core | 2.4.4 | listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph | spring-boot-2.7.x |  | 2.4.4.1-osera-00001 | 2.4.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.ldap:spring-ldap-odm | 2.4.4 | listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph | spring-boot-2.7.x |  | 2.4.4.1-osera-00001 | 2.4.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

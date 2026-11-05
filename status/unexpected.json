@@ -56511,6 +56511,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.springframework.kafka:spring-kafka-test@2.8.11.1-osera-00006",
+      "library": "org.springframework.kafka:spring-kafka-test",
+      "base": "2.8.11",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.kafka:spring-kafka-test@2.8.11.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph",
+      "first_seen": "2026-11-05T08:14:35Z"
+    },
+    {
       "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00001",
       "library": "org.springframework.kafka:spring-kafka",
       "base": "2.8.11",
@@ -56564,6 +56575,17 @@
       ],
       "words": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00006",
+      "library": "org.springframework.kafka:spring-kafka",
+      "base": "2.8.11",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.kafka:spring-kafka@2.8.11.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 2.8.11, not in its dependency graph",
+      "first_seen": "2026-11-05T08:14:35Z"
     },
     {
       "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00001",
