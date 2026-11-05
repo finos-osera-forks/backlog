@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T12:29:06Z. Written by the line manager reconciler.
+Generated 2026-11-05T12:46:50Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -135,7 +135,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.3.10.1-osera-00006 | 1.3.10.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tomcat.embed:tomcat-embed-core | 9.0.83 | spring-boot-2.7.x | listed by the BOM at 9.0.83 | open | 36 | 0 | 0% | 0 | 0 | 36 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.tomcat.embed:tomcat-embed-websocket | 9.0.83 | spring-boot-2.7.x | listed by the BOM at 9.0.83 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.velocity:velocity | 1.6.4 | velocity-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.4.1-osera-00001 | 1.6.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.velocity:velocity | 1.6.4 | velocity-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.4.1-osera-00002 | 1.6.4.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.velocity:velocity | 1.7 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.7.x | own project on velocity-1.7.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.7.1-osera-00001 | 1.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.assertj:assertj-core | 3.22.0 | spring-boot-2.7.x | listed by the BOM at 3.22.0 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.bouncycastle:bcpkix-jdk15on | 1.69 | bouncycastle-1.69.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.69.1-osera-00037 | 1.69.1-osera-00037 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
