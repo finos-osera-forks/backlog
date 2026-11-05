@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T14:14:25Z. Written by the line manager reconciler.
+Generated 2026-11-05T14:18:16Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -76,7 +76,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00004 | 0.9.5.5.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.mchange:mchange-commons-java | 0.2.15 | spring-boot-2.7.x | pulled in by a dependency (org.quartz-scheduler:quartz@2.3.2) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:mchange-commons-java | 0.2.19 | c3p0-0.9.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.mchange:mchange-commons-java | 0.2.20 | mchange-commons-0.2.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.2.20.1-osera-00002 | 0.2.20.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.mchange:mchange-commons-java | 0.2.20 | mchange-commons-0.2.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.2.20.1-osera-00003 | 0.2.20.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.nimbusds:nimbus-jose-jwt | 9.22 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (com.nimbusds:oauth2-oidc-sdk@9.35) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.rabbitmq:amqp-client | 5.14.3 | spring-boot-2.7.x | listed by the BOM at 5.14.3 | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.sun.mail:jakarta.mail | 1.6.7 | spring-boot-2.7.x | listed by the BOM at 1.6.7 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -158,7 +158,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.lz4:lz4-java | 1.8.0 | spring-boot-2.7.x | pulled in by a dependency (org.elasticsearch:elasticsearch-lz4@7.17.15) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x | own project (the anchor's group) | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.amqp:spring-amqp | 2.4.17 | spring-boot-2.7.x | listed by the BOM at 2.4.17 | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00121 | 2.7.18.1-osera-00121 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00122 | 2.7.18.1-osera-00122 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-autoconfigure | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00122 | 2.7.18.1-osera-00122 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00122 | 2.7.18.1-osera-00122 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

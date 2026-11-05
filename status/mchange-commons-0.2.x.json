@@ -1,7 +1,7 @@
 {
   "line": "mchange-commons-0.2.x",
-  "book_version": "v2026.11.05.60",
-  "as_of": "2026-11-05T14:09:31Z",
+  "book_version": "v2026.11.05.61",
+  "as_of": "2026-11-05T14:18:16Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 2,
@@ -9,23 +9,23 @@
     {
       "cve": "CVE-2026-27727",
       "library": "com.mchange:mchange-commons-java",
-      "coordinate": "com.mchange:mchange-commons-java@0.2.20.1-osera-00002",
-      "patch": "00002",
-      "named_by": "com.mchange:mchange-commons-java@0.2.20.1-osera-00002",
-      "at": "2026-10-23T18:12:30Z"
+      "coordinate": "com.mchange:mchange-commons-java@0.2.20.1-osera-00003",
+      "patch": "00003",
+      "named_by": "com.mchange:mchange-commons-java@0.2.20.1-osera-00003",
+      "at": "2026-11-05T14:18:16Z"
     },
     {
       "cve": "CVE-2026-55153",
       "library": "com.mchange:mchange-commons-java",
-      "coordinate": "com.mchange:mchange-commons-java@0.2.20.1-osera-00002",
-      "patch": "00002",
-      "named_by": "com.mchange:mchange-commons-java@0.2.20.1-osera-00002",
-      "at": "2026-10-23T18:12:30Z"
+      "coordinate": "com.mchange:mchange-commons-java@0.2.20.1-osera-00003",
+      "patch": "00003",
+      "named_by": "com.mchange:mchange-commons-java@0.2.20.1-osera-00003",
+      "at": "2026-11-05T14:18:16Z"
     }
   ],
   "in_progress": [],
   "open": [],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-mchange-commons-0.2.x@2026.10.23.2"
+  "consume": "org.finos.osera:osera-bom-mchange-commons-0.2.x@2026.11.05"
 }

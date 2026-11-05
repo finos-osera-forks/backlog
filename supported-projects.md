@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-05T14:14:25Z. Written by the line manager reconciler.
+Generated 2026-11-05T14:18:16Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -69,7 +69,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.graphql-java:graphql-java | 18.5 | spring-boot-2.7.x | listed by the BOM at 18.5 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.jayway.jsonpath:json-path | 2.7.0 | spring-boot-2.7.x | listed by the BOM at 2.7.0 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00004 | 0.9.5.5.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.mchange:mchange-commons-java | 0.2.20 | c3p0-0.9.x, mchange-commons-0.2.x, spring-boot-2.7.x | own project on c3p0-0.9.x (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.2.20.1-osera-00002 | 0.2.20.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.mchange:mchange-commons-java | 0.2.20 | c3p0-0.9.x, mchange-commons-0.2.x, spring-boot-2.7.x | own project on c3p0-0.9.x (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.2.20.1-osera-00003 | 0.2.20.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.nimbusds:nimbus-jose-jwt | 9.22 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (com.nimbusds:oauth2-oidc-sdk@9.35) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.rabbitmq:amqp-client | 5.14.3 | spring-boot-2.7.x | listed by the BOM at 5.14.3 | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.6.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.6.1.1-osera-00003 | 1.6.1.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -127,7 +127,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.eclipse.jetty:jetty-server | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | own project on lz4-java-1.8.x (the anchor's group) | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.amqp:spring-amqp | 2.4.17 | spring-boot-2.7.x | listed by the BOM at 2.4.17 | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00121 | 2.7.18.1-osera-00121 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00122 | 2.7.18.1-osera-00122 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-autoconfigure | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00122 | 2.7.18.1-osera-00122 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-loader | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00122 | 2.7.18.1-osera-00122 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
