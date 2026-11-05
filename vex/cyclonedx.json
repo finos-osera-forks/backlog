@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 180,
+  "version": 181,
   "metadata": {
-    "timestamp": "2026-11-05T08:50:59Z",
+    "timestamp": "2026-11-05T09:05:57Z",
     "tools": {
       "components": [
         {
@@ -10581,6 +10581,17 @@
       "name": "spring-hateoas",
       "version": "1.5.6.1-osera-00002",
       "purl": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.hateoas",
+      "name": "spring-hateoas",
+      "version": "1.5.6.1-osera-00003",
+      "purl": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00003"
     },
     {
       "type": "library",
@@ -103665,6 +103676,58 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41006 on pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00003",
+      "id": "CVE-2026-41006",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41006"
+      },
+      "references": [
+        {
+          "id": "GHSA-7fxc-486f-32q9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7fxc-486f-32q9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T09:01:40Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41007 on pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00003",
+      "id": "CVE-2026-41007",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41007"
+      },
+      "references": [
+        {
+          "id": "GHSA-439x-6767-44cv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-439x-6767-44cv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T09:01:40Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00003"
         }
       ]
     },

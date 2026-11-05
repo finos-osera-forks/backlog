@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T08:50:59Z",
-  "version": 180,
+  "last_updated": "2026-11-05T09:05:57Z",
+  "version": 181,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -60357,6 +60357,38 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41006",
+        "aliases": [
+          "GHSA-7fxc-486f-32q9"
+        ]
+      },
+      "timestamp": "2026-11-05T09:01:40Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41007",
+        "aliases": [
+          "GHSA-439x-6767-44cv"
+        ]
+      },
+      "timestamp": "2026-11-05T09:01:40Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.hateoas/spring-hateoas@1.5.6.1-osera-00003"
         }
       ],
       "status": "fixed",
