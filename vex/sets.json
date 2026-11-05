@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T07:41:02Z",
-  "feed_version": 172,
+  "generated_at": "2026-11-05T07:46:12Z",
+  "feed_version": 173,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -2936,154 +2936,8 @@
         "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00015",
         "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00015"
       ],
-      "state": "held",
-      "held_since": "2026-11-05T07:41:02Z",
-      "reasons": [
-        {
-          "member": "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-all@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-annotation-support@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-objects@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-stree@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-afterburner@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-blackbird@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-guice@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-osgi@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-parameter-names@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-paranamer@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00015",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 20
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.15.4.1-osera-00001",
@@ -7259,6 +7113,18 @@
         "ch.qos.logback:logback-classic@1.2.13.1-osera-00003",
         "ch.qos.logback:logback-core@1.2.13.1-osera-00003",
         "ch.qos.logback:logback-parent@1.2.13.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-logback@v1.2.13.1-osera-00004",
+      "members": 4,
+      "coordinates": [
+        "ch.qos.logback:logback-access@1.2.13.1-osera-00004",
+        "ch.qos.logback:logback-classic@1.2.13.1-osera-00004",
+        "ch.qos.logback:logback-core@1.2.13.1-osera-00004",
+        "ch.qos.logback:logback-parent@1.2.13.1-osera-00004"
       ],
       "state": "in the feed",
       "statements": 3
