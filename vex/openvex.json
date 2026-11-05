@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T09:05:57Z",
-  "version": 181,
+  "last_updated": "2026-11-05T09:21:00Z",
+  "version": 182,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -9860,6 +9860,38 @@
       "products": [
         {
           "@id": "pkg:maven/commons-beanutils/commons-beanutils@1.8.3.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-10086",
+        "aliases": [
+          "GHSA-6phf-73q6-gh87"
+        ]
+      },
+      "timestamp": "2026-11-05T09:14:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/commons-beanutils/commons-beanutils@1.8.3.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48734",
+        "aliases": [
+          "GHSA-wxr5-93ph-8wr9"
+        ]
+      },
+      "timestamp": "2026-11-05T09:14:37Z",
+      "products": [
+        {
+          "@id": "pkg:maven/commons-beanutils/commons-beanutils@1.8.3.1-osera-00003"
         }
       ],
       "status": "fixed",
@@ -70561,6 +70593,102 @@
       "products": [
         {
           "@id": "pkg:maven/org.yaml/snakeyaml@1.27.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-1471",
+        "aliases": [
+          "GHSA-mjmj-j48q-9wg2"
+        ]
+      },
+      "timestamp": "2026-11-05T09:14:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.27.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-25857",
+        "aliases": [
+          "GHSA-3mc7-4q67-w48m"
+        ]
+      },
+      "timestamp": "2026-11-05T09:14:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.27.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38749",
+        "aliases": [
+          "GHSA-c4r9-r8fh-9vj2"
+        ]
+      },
+      "timestamp": "2026-11-05T09:14:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.27.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38751",
+        "aliases": [
+          "GHSA-98wm-3w3q-mw94"
+        ]
+      },
+      "timestamp": "2026-11-05T09:14:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.27.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-38752",
+        "aliases": [
+          "GHSA-9w3m-gqgf-c4p9"
+        ]
+      },
+      "timestamp": "2026-11-05T09:14:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.27.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2022-41854",
+        "aliases": [
+          "GHSA-w37g-rhq8-7m4j"
+        ]
+      },
+      "timestamp": "2026-11-05T09:14:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.yaml/snakeyaml@1.27.1-osera-00007"
         }
       ],
       "status": "fixed",
