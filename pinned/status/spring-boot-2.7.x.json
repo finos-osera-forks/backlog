@@ -1,9 +1,9 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.05",
-  "as_of": "2026-11-05T07:17:00Z",
+  "book_version": "v2026.11.05.2",
+  "as_of": "2026-11-05T07:19:17Z",
   "status": "in progress",
-  "chain": "broken: 1 artifact",
+  "chain": "complete",
   "in_scope": 324,
   "fixed": [
     {
@@ -2821,8 +2821,7 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00001 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00002 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
-    "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
-    "CVE-2022-1471 on snakeyaml 1.33 is patched, the evidence chain is broken: no signature next to the pom (snakeyaml-1.33.1-osera-00002.pom.asc)"
+    "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.04"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.05"
 }
