@@ -57105,6 +57105,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00002",
+      "library": "org.springframework.ldap:spring-ldap-core-tiger",
+      "base": "2.4.4",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-core-tiger@2.4.4.1-osera-00002: listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "first_seen": "2026-11-05T08:46:28Z"
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001",
       "library": "org.springframework.ldap:spring-ldap-ldif-core",
       "base": "2.4.4",
@@ -57114,6 +57125,17 @@
       ],
       "words": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00002",
+      "library": "org.springframework.ldap:spring-ldap-ldif-core",
+      "base": "2.4.4",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-ldif-core@2.4.4.1-osera-00002: listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "first_seen": "2026-11-05T08:46:28Z"
     },
     {
       "coordinate": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00001",
@@ -57127,6 +57149,17 @@
       "first_seen": "2026-10-27T23:29:00Z"
     },
     {
+      "coordinate": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00002",
+      "library": "org.springframework.ldap:spring-ldap-odm",
+      "base": "2.4.4",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-odm@2.4.4.1-osera-00002: listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "first_seen": "2026-11-05T08:46:28Z"
+    },
+    {
       "coordinate": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001",
       "library": "org.springframework.ldap:spring-ldap-test",
       "base": "2.4.4",
@@ -57136,6 +57169,17 @@
       ],
       "words": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
       "first_seen": "2026-10-27T23:29:00Z"
+    },
+    {
+      "coordinate": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00002",
+      "library": "org.springframework.ldap:spring-ldap-test",
+      "base": "2.4.4",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ldap:spring-ldap-test@2.4.4.1-osera-00002: listed by the BOM of spring-boot-2.7.x at 2.4.1, not in its dependency graph",
+      "first_seen": "2026-11-05T08:46:28Z"
     },
     {
       "coordinate": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
