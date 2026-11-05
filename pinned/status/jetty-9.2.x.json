@@ -1,7 +1,7 @@
 {
   "line": "jetty-9.2.x",
-  "book_version": "v2026.11.05.27",
-  "as_of": "2026-11-05T10:28:37Z",
+  "book_version": "v2026.11.05.28",
+  "as_of": "2026-11-05T10:35:24Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 8,
@@ -119,5 +119,5 @@
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00012 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00013 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428"
   ],
-  "consume": "org.finos.osera:osera-bom-jetty-9.2.x@2026.10.27"
+  "consume": "org.finos.osera:osera-bom-jetty-9.2.x@2026.11.05"
 }
