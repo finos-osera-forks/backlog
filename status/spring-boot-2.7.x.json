@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.05.15",
-  "as_of": "2026-11-05T09:16:38Z",
+  "book_version": "v2026.11.05.16",
+  "as_of": "2026-11-05T09:20:51Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 190,
+  "in_scope": 194,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -1066,8 +1066,24 @@
       "library": "org.apache.activemq:activemq-broker"
     },
     {
+      "cve": "CVE-2026-49434",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
       "cve": "CVE-2026-49844",
       "library": "org.apache.logging.log4j:log4j-api"
+    },
+    {
+      "cve": "CVE-2026-50734",
+      "library": "org.apache.activemq:activemq-client"
+    },
+    {
+      "cve": "CVE-2026-53917",
+      "library": "org.apache.activemq:activemq-broker"
+    },
+    {
+      "cve": "CVE-2026-53917",
+      "library": "org.apache.activemq:activemq-client"
     },
     {
       "cve": "CVE-2026-59949",
