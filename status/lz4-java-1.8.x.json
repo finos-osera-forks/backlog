@@ -1,7 +1,7 @@
 {
   "line": "lz4-java-1.8.x",
-  "book_version": "v2026.11.05.32",
-  "as_of": "2026-11-05T10:54:54Z",
+  "book_version": "v2026.11.05.33",
+  "as_of": "2026-11-05T11:00:58Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 14,
@@ -9,58 +9,58 @@
     {
       "cve": "CVE-2025-66566",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-21T14:35:33Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106449",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-28T01:16:53Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106450",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-28T01:16:53Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106451",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-21T14:35:33Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106452",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-28T01:16:53Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-106453",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-28T01:16:53Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     },
     {
       "cve": "CVE-2026-59949",
       "library": "at.yawk.lz4:lz4-java",
-      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "patch": "00007",
-      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00007",
-      "at": "2026-10-21T14:35:33Z"
+      "coordinate": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "patch": "00008",
+      "named_by": "at.yawk.lz4:lz4-java@1.8.1.1-osera-00008",
+      "at": "2026-11-05T11:00:58Z"
     }
   ],
   "in_progress": [],
@@ -100,5 +100,5 @@
     "issue #884 for CVE-2026-106451 is closed in backlog while the entry on org.lz4:lz4-java is open",
     "issue #906 for CVE-2026-59949 is closed in backlog while the entry on org.lz4:lz4-java is open"
   ],
-  "consume": "org.finos.osera:osera-bom-lz4-java-1.8.x@2026.10.21.5"
+  "consume": "org.finos.osera:osera-bom-lz4-java-1.8.x@2026.11.05"
 }
