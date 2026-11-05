@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 193,
+  "version": 194,
   "metadata": {
-    "timestamp": "2026-11-05T10:46:14Z",
+    "timestamp": "2026-11-05T10:51:00Z",
     "tools": {
       "components": [
         {
@@ -1528,6 +1528,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/commons-collections/commons-collections@3.0.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "commons-collections",
+      "name": "commons-collections",
+      "version": "3.0.1-osera-00002",
+      "purl": "pkg:maven/commons-collections/commons-collections@3.0.1-osera-00002"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/commons-configuration/commons-configuration@1.1.1-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -1734,6 +1745,17 @@
       "name": "axis",
       "version": "1.4.1-osera-00003",
       "purl": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00003"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.axis",
+      "name": "axis",
+      "version": "1.4.1-osera-00004",
+      "purl": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
     },
     {
       "type": "library",
@@ -30231,6 +30253,23 @@
       ]
     },
     {
+      "bom-ref": "CVE-2015-6420 on pkg:maven/commons-collections/commons-collections@3.0.1-osera-00002",
+      "id": "CVE-2015-6420",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-6420"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T10:44:13Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/commons-collections/commons-collections@3.0.1-osera-00002"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2025-46392 on pkg:maven/commons-configuration/commons-configuration@1.1.1-osera-00001",
       "id": "CVE-2025-46392",
       "source": {
@@ -31404,6 +31443,110 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2012-5784 on pkg:maven/org.apache.axis/axis@1.4.1-osera-00004",
+      "id": "CVE-2012-5784",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-5784"
+      },
+      "references": [
+        {
+          "id": "GHSA-55w9-c3g2-4rrh",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-55w9-c3g2-4rrh"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T10:43:36Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2014-3596 on pkg:maven/org.apache.axis/axis@1.4.1-osera-00004",
+      "id": "CVE-2014-3596",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-3596"
+      },
+      "references": [
+        {
+          "id": "GHSA-r53v-vm87-f72c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r53v-vm87-f72c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T10:43:36Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2018-8032 on pkg:maven/org.apache.axis/axis@1.4.1-osera-00004",
+      "id": "CVE-2018-8032",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-8032"
+      },
+      "references": [
+        {
+          "id": "GHSA-96jq-75wh-2658",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-96jq-75wh-2658"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T10:43:36Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-40743 on pkg:maven/org.apache.axis/axis@1.4.1-osera-00004",
+      "id": "CVE-2023-40743",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-40743"
+      },
+      "references": [
+        {
+          "id": "GHSA-rmqp-9w4c-gc7w",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rmqp-9w4c-gc7w"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T10:43:36Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
         }
       ]
     },

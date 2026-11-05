@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T10:46:14Z",
-  "version": 193,
+  "last_updated": "2026-11-05T10:51:00Z",
+  "version": 194,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -9944,6 +9944,19 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2015-6420"
+      },
+      "timestamp": "2026-11-05T10:44:13Z",
+      "products": [
+        {
+          "@id": "pkg:maven/commons-collections/commons-collections@3.0.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-46392",
         "aliases": [
           "GHSA-pvp8-3xj6-8c6x"
@@ -10674,6 +10687,70 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2012-5784",
+        "aliases": [
+          "GHSA-55w9-c3g2-4rrh"
+        ]
+      },
+      "timestamp": "2026-11-05T10:43:36Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2014-3596",
+        "aliases": [
+          "GHSA-r53v-vm87-f72c"
+        ]
+      },
+      "timestamp": "2026-11-05T10:43:36Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-8032",
+        "aliases": [
+          "GHSA-96jq-75wh-2658"
+        ]
+      },
+      "timestamp": "2026-11-05T10:43:36Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-40743",
+        "aliases": [
+          "GHSA-rmqp-9w4c-gc7w"
+        ]
+      },
+      "timestamp": "2026-11-05T10:43:36Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.axis/axis@1.4.1-osera-00004"
         }
       ],
       "status": "fixed",
