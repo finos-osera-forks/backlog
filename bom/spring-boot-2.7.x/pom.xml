@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-05T13:18:34Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-05T13:22:54Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.11.05.43</version>
+  <version>2026.11.05.44</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -35,12 +35,12 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-core</artifactId>
-        <version>2.13.5.1-osera-00015</version>
+        <version>2.13.5.1-osera-00016</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
-        <version>2.13.5.1-osera-00015</version>
+        <version>2.13.5.1-osera-00016</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
@@ -55,27 +55,27 @@
       <dependency>
         <groupId>com.fasterxml.jackson.dataformat</groupId>
         <artifactId>jackson-dataformat-yaml</artifactId>
-        <version>2.13.5.1-osera-00015</version>
+        <version>2.13.5.1-osera-00016</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-jdk8</artifactId>
-        <version>2.13.5.1-osera-00015</version>
+        <version>2.13.5.1-osera-00016</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.datatype</groupId>
         <artifactId>jackson-datatype-jsr310</artifactId>
-        <version>2.13.5.1-osera-00015</version>
+        <version>2.13.5.1-osera-00016</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-jaxb-annotations</artifactId>
-        <version>2.13.5.1-osera-00015</version>
+        <version>2.13.5.1-osera-00016</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.module</groupId>
         <artifactId>jackson-module-parameter-names</artifactId>
-        <version>2.13.5.1-osera-00015</version>
+        <version>2.13.5.1-osera-00016</version>
       </dependency>
       <dependency>
         <groupId>com.mchange</groupId>
@@ -110,27 +110,27 @@
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-api</artifactId>
-        <version>2.17.2.1-osera-00005</version>
+        <version>2.17.2.1-osera-00006</version>
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-core</artifactId>
-        <version>2.17.2.1-osera-00005</version>
+        <version>2.17.2.1-osera-00006</version>
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-jul</artifactId>
-        <version>2.17.2.1-osera-00005</version>
+        <version>2.17.2.1-osera-00006</version>
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-slf4j-impl</artifactId>
-        <version>2.17.2.1-osera-00005</version>
+        <version>2.17.2.1-osera-00006</version>
       </dependency>
       <dependency>
         <groupId>org.apache.logging.log4j</groupId>
         <artifactId>log4j-to-slf4j</artifactId>
-        <version>2.17.2.1-osera-00005</version>
+        <version>2.17.2.1-osera-00006</version>
       </dependency>
       <dependency>
         <groupId>org.apache.velocity</groupId>
