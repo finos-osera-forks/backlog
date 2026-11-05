@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 209,
+  "version": 210,
   "metadata": {
-    "timestamp": "2026-11-05T13:46:20Z",
+    "timestamp": "2026-11-05T14:06:02Z",
     "tools": {
       "components": [
         {
@@ -1723,6 +1723,17 @@
       "name": "dom4j",
       "version": "1.4.1-osera-00002",
       "purl": "pkg:maven/dom4j/dom4j@1.4.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/dom4j/dom4j@1.4.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "dom4j",
+      "name": "dom4j",
+      "version": "1.4.1-osera-00003",
+      "purl": "pkg:maven/dom4j/dom4j@1.4.1-osera-00003"
     },
     {
       "type": "library",
@@ -33281,6 +33292,58 @@
       "affects": [
         {
           "ref": "pkg:maven/dom4j/dom4j@1.4.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2018-1000632 on pkg:maven/dom4j/dom4j@1.4.1-osera-00003",
+      "id": "CVE-2018-1000632",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-1000632"
+      },
+      "references": [
+        {
+          "id": "GHSA-6pcc-3rfx-4gpm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-6pcc-3rfx-4gpm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T14:00:20Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/dom4j/dom4j@1.4.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-10683 on pkg:maven/dom4j/dom4j@1.4.1-osera-00003",
+      "id": "CVE-2020-10683",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-10683"
+      },
+      "references": [
+        {
+          "id": "GHSA-hwj3-m3p6-hj38",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-hwj3-m3p6-hj38"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-05T14:00:20Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/dom4j/dom4j@1.4.1-osera-00003"
         }
       ]
     },
