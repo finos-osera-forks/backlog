@@ -1,7 +1,7 @@
 {
   "line": "log4j2-2.24.x",
-  "book_version": "v2026.11.05.51",
-  "as_of": "2026-11-05T13:24:03Z",
+  "book_version": "v2026.11.05.52",
+  "as_of": "2026-11-05T13:27:34Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 6,
@@ -69,5 +69,5 @@
     "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00005 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3",
     "promoted org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00006 is on base 2.17.2, the line has org.apache.logging.log4j:log4j-core at 2.24.3"
   ],
-  "consume": "org.finos.osera:osera-bom-log4j2-2.24.x@2026.10.22.7"
+  "consume": "org.finos.osera:osera-bom-log4j2-2.24.x@2026.11.05"
 }
