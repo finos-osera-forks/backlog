@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T08:41:02Z",
-  "version": 179,
+  "last_updated": "2026-11-05T08:50:59Z",
+  "version": 180,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -60813,6 +60813,19 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41720"
+      },
+      "timestamp": "2026-11-05T08:47:17Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ldap/spring-ldap-core@2.4.4.1-osera-00002"
         }
       ],
       "status": "fixed",
