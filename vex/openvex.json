@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T10:31:22Z",
-  "version": 191,
+  "last_updated": "2026-11-05T10:36:15Z",
+  "version": 192,
   "tooling": "osera-feed main-46b0465c",
   "statements": [
     {
@@ -51203,6 +51203,102 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2022-2047",
+        "aliases": [
+          "GHSA-cj7v-27pg-wf7q"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-40167",
+        "aliases": [
+          "GHSA-hmr7-m48g-48f6"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-6763",
+        "aliases": [
+          "GHSA-qh8g-58pp-2wxh"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-11143",
+        "aliases": [
+          "GHSA-wjpw-4j6x-6rwh"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-19203",
+        "aliases": [
+          "GHSA-xc35-c22g-239h"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-2332",
+        "aliases": [
+          "GHSA-355h-qmc2-wpwf"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:44Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-http@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-2332",
         "aliases": [
           "GHSA-355h-qmc2-wpwf"
@@ -51859,6 +51955,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2021-28165",
+        "aliases": [
+          "GHSA-26vr-8j45-3r4w"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-io@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-5795",
         "aliases": [
           "GHSA-r7p8-xq5m-436c"
@@ -52092,6 +52204,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.eclipse.jetty/jetty-security@9.2.30.v20200428-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-10050",
+        "aliases": [
+          "GHSA-2fvj-hgj9-j2gr"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-security@9.2.30.v20200428-osera-00012"
         }
       ],
       "status": "fixed",
@@ -52707,6 +52835,70 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2021-34428",
+        "aliases": [
+          "GHSA-m6cp-vxjx-65j6"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-server@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-26048",
+        "aliases": [
+          "GHSA-qw69-rqj8-6qw8"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-server@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-26049",
+        "aliases": [
+          "GHSA-p26g-97m4-6q7c"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-server@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-6763",
+        "aliases": [
+          "GHSA-qh8g-58pp-2wxh"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-server@9.2.30.v20200428-osera-00012"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2023-26048",
         "aliases": [
           "GHSA-qw69-rqj8-6qw8"
@@ -52796,6 +52988,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.eclipse.jetty/jetty-util@9.2.30.v20200428-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-26048",
+        "aliases": [
+          "GHSA-qw69-rqj8-6qw8"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.eclipse.jetty/jetty-util@9.2.30.v20200428-osera-00012"
         }
       ],
       "status": "fixed",
@@ -56098,6 +56306,35 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-22235"
+      },
+      "timestamp": "2026-11-05T10:27:24Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00110"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22733",
+        "aliases": [
+          "GHSA-mgvc-8q2h-5pgc"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:24Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00110"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-40974",
         "aliases": [
           "GHSA-mqvw-jfmh-93qq"
@@ -56571,6 +56808,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.7.18.1-osera-00109"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40974",
+        "aliases": [
+          "GHSA-mqvw-jfmh-93qq"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:24Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.7.18.1-osera-00110"
         }
       ],
       "status": "fixed",
@@ -57522,6 +57775,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-40972",
+        "aliases": [
+          "GHSA-56v8-86gj-66jp"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:32Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00110"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2024-38807",
         "aliases": [
           "GHSA-7cj3-x93g-gj76"
@@ -58331,6 +58600,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00109"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38807",
+        "aliases": [
+          "GHSA-7cj3-x93g-gj76"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:32Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00110"
         }
       ],
       "status": "fixed",
@@ -59163,6 +59448,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00109"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-38807",
+        "aliases": [
+          "GHSA-7cj3-x93g-gj76"
+        ]
+      },
+      "timestamp": "2026-11-05T10:27:32Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00110"
         }
       ],
       "status": "fixed",
@@ -60251,6 +60552,38 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00109"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40973",
+        "aliases": [
+          "GHSA-wwpq-f5c3-7hvx"
+        ]
+      },
+      "timestamp": "2026-11-05T10:28:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00110"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40975",
+        "aliases": [
+          "GHSA-m4x9-hx6x-2c43"
+        ]
+      },
+      "timestamp": "2026-11-05T10:28:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00110"
         }
       ],
       "status": "fixed",
