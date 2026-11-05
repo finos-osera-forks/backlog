@@ -649,6 +649,15 @@
       "first_seen": "2026-10-22T12:17:05Z"
     },
     {
+      "coordinate": "org.apache.httpcomponents.core5:httpcore5-parent@5.3.6.1-osera-00003",
+      "library": "org.apache.httpcomponents.core5:httpcore5-parent",
+      "base": "5.3.6",
+      "kind": "parent",
+      "released_with": "patch-httpcomponents-core v5.3.6.1-osera-00003",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-05T11:18:33Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-bom@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-bom",
       "base": "2.17.2",
@@ -3124,6 +3133,15 @@
       "first_seen": "2026-11-05T11:06:06Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-dependencies@2.7.18.1-osera-00115",
+      "library": "org.springframework.boot:spring-boot-dependencies",
+      "base": "2.7.18",
+      "kind": "BOM",
+      "released_with": "the anchor of spring-boot-2.7.x",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-11-05T11:18:33Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-gradle-plugin",
       "base": "2.7.18",
@@ -4148,6 +4166,15 @@
       "released_with": "patch-spring-boot v2.7.18.1-osera-00114",
       "why": "the build plugin at the patched version",
       "first_seen": "2026-11-05T11:06:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-gradle-plugin@2.7.18.1-osera-00115",
+      "library": "org.springframework.boot:spring-boot-gradle-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00115",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-11-05T11:18:33Z"
     },
     {
       "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00001",
@@ -5176,6 +5203,15 @@
       "first_seen": "2026-11-05T11:06:06Z"
     },
     {
+      "coordinate": "org.springframework.boot:spring-boot-maven-plugin@2.7.18.1-osera-00115",
+      "library": "org.springframework.boot:spring-boot-maven-plugin",
+      "base": "2.7.18",
+      "kind": "build plugin",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00115",
+      "why": "the build plugin at the patched version",
+      "first_seen": "2026-11-05T11:18:33Z"
+    },
+    {
       "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00001",
       "library": "org.springframework.boot:spring-boot-starter-parent",
       "base": "2.7.18",
@@ -6200,6 +6236,15 @@
       "released_with": "patch-spring-boot v2.7.18.1-osera-00114",
       "why": "the patched modules name it as their parent, a build needs it to resolve them",
       "first_seen": "2026-11-05T11:06:06Z"
+    },
+    {
+      "coordinate": "org.springframework.boot:spring-boot-starter-parent@2.7.18.1-osera-00115",
+      "library": "org.springframework.boot:spring-boot-starter-parent",
+      "base": "2.7.18",
+      "kind": "parent",
+      "released_with": "patch-spring-boot v2.7.18.1-osera-00115",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-05T11:18:33Z"
     },
     {
       "coordinate": "org.springframework.data:spring-data-bom@2021.2.18.1-osera-00001",
