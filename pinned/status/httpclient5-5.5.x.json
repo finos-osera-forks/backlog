@@ -1,7 +1,7 @@
 {
   "line": "httpclient5-5.5.x",
-  "book_version": "v2026.11.05.53",
-  "as_of": "2026-11-05T13:39:03Z",
+  "book_version": "v2026.11.05.54",
+  "as_of": "2026-11-05T13:41:29Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 3,
@@ -32,5 +32,5 @@
   ],
   "not_remediable": [],
   "discrepancies": [],
-  "consume": "org.finos.osera:osera-bom-httpclient5-5.5.x@2026.11.05"
+  "consume": "org.finos.osera:osera-bom-httpclient5-5.5.x@2026.11.05.2"
 }
