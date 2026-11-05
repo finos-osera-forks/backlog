@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.1.x",
   "book_version": "v2026.11.05.36",
-  "as_of": "2026-11-05T11:12:49Z",
+  "as_of": "2026-11-05T11:18:33Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 9,
@@ -41,10 +41,10 @@
     {
       "cve": "CVE-2022-23437",
       "library": "xerces:xercesImpl",
-      "coordinate": "xerces:xercesImpl@2.2.1.1-osera-00004",
-      "patch": "00004",
-      "named_by": "xerces:xercesImpl@2.2.1.1-osera-00004",
-      "at": "2026-10-23T15:24:17Z"
+      "coordinate": "xerces:xercesImpl@2.2.1.1-osera-00005",
+      "patch": "00005",
+      "named_by": "xerces:xercesImpl@2.2.1.1-osera-00005",
+      "at": "2026-11-05T11:18:33Z"
     },
     {
       "cve": "CVE-2025-46392",
@@ -79,9 +79,12 @@
     "fixed, not in the backlog: CVE-2009-2625 on xerces:xercesImpl@2.2.1.1-osera-00002",
     "fixed, not in the backlog: CVE-2009-2625 on xerces:xercesImpl@2.2.1.1-osera-00003",
     "fixed, not in the backlog: CVE-2009-2625 on xerces:xercesImpl@2.2.1.1-osera-00004",
+    "fixed, not in the backlog: CVE-2009-2625 on xerces:xercesImpl@2.2.1.1-osera-00005",
     "fixed, not in the backlog: CVE-2012-0881 on xerces:xercesImpl@2.2.1.1-osera-00004",
+    "fixed, not in the backlog: CVE-2012-0881 on xerces:xercesImpl@2.2.1.1-osera-00005",
     "fixed, not in the backlog: CVE-2013-4002 on xerces:xercesImpl@2.2.1.1-osera-00003",
     "fixed, not in the backlog: CVE-2013-4002 on xerces:xercesImpl@2.2.1.1-osera-00004",
+    "fixed, not in the backlog: CVE-2013-4002 on xerces:xercesImpl@2.2.1.1-osera-00005",
     "promoted commons-beanutils:commons-beanutils@1.8.3.1-osera-00001 is on base 1.8.3, the line has commons-beanutils:commons-beanutils at 1.6.1",
     "promoted commons-beanutils:commons-beanutils@1.8.3.1-osera-00002 is on base 1.8.3, the line has commons-beanutils:commons-beanutils at 1.6.1",
     "promoted commons-beanutils:commons-beanutils@1.8.3.1-osera-00003 is on base 1.8.3, the line has commons-beanutils:commons-beanutils at 1.6.1",
@@ -90,5 +93,5 @@
     "promoted commons-configuration:commons-configuration@1.9.1-osera-00001 is on base 1.9, the line has commons-configuration:commons-configuration at 1.1",
     "promoted commons-configuration:commons-configuration@1.9.1-osera-00002 is on base 1.9, the line has commons-configuration:commons-configuration at 1.1"
   ],
-  "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.11.05.2"
+  "consume": "org.finos.osera:osera-bom-commons-configuration-1.1.x@2026.11.05.3"
 }
