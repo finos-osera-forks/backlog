@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-09T15:17:28Z. Written by the line manager reconciler.
+Generated 2026-11-09T15:19:45Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -20,7 +20,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
-| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-347 libraries, 4829 patched version(s).
+348 libraries, 4830 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -355,6 +355,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson.module:jackson-module-scala_3 | 2.13.5 | listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs | spring-boot-2.7.x, jackson-2.19.x, jackson-2.15.x, log4j2-2.24.x |  | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 2.13.5.1-osera-00008 2.13.5.1-osera-00009 2.13.5.1-osera-00010 2.13.5.1-osera-00011 2.13.5.1-osera-00012 2.13.5.1-osera-00013 2.13.5.1-osera-00014 2.13.5.1-osera-00015 2.13.5.1-osera-00016 | 2.13.5.1-osera-00016 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.module:jackson-module-scala_3 | 2.15.4 | listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs | spring-boot-2.7.x, jackson-2.19.x, jackson-2.15.x, log4j2-2.24.x |  | 2.15.4.1-osera-00001 2.15.4.1-osera-00002 2.15.4.1-osera-00003 2.15.4.1-osera-00004 2.15.4.1-osera-00005 2.15.4.1-osera-00006 2.15.4.1-osera-00007 2.15.4.1-osera-00008 2.15.4.1-osera-00009 2.15.4.1-osera-00010 2.15.4.1-osera-00011 2.15.4.1-osera-00012 2.15.4.1-osera-00013 2.15.4.1-osera-00014 2.15.4.1-osera-00015 2.15.4.1-osera-00016 2.15.4.1-osera-00017 2.15.4.1-osera-00018 2.15.4.1-osera-00019 2.15.4.1-osera-00020 2.15.4.1-osera-00021 | 2.15.4.1-osera-00021 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.module:jackson-module-scala_3 | 2.19.4 | listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs | spring-boot-2.7.x, jackson-2.19.x, jackson-2.15.x, log4j2-2.24.x |  | 2.19.4.1-osera-00001 2.19.4.1-osera-00002 2.19.4.1-osera-00003 2.19.4.1-osera-00004 2.19.4.1-osera-00005 2.19.4.1-osera-00006 2.19.4.1-osera-00007 2.19.4.1-osera-00008 2.19.4.1-osera-00009 2.19.4.1-osera-00010 2.19.4.1-osera-00011 2.19.4.1-osera-00012 2.19.4.1-osera-00013 2.19.4.1-osera-00014 2.19.4.1-osera-00015 2.19.4.1-osera-00016 2.19.4.1-osera-00017 2.19.4.1-osera-00018 2.19.4.1-osera-00019 2.19.4.1-osera-00020 2.19.4.1-osera-00021 2.19.4.1-osera-00022 2.19.4.1-osera-00023 | 2.19.4.1-osera-00023 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.addons:reactor-adapter | 3.4.11 | listed by the BOM of spring-boot-2.7.x at 3.4.10, not in its dependency graph | spring-boot-2.7.x |  | 3.4.11.1-osera-00001 3.4.11.1-osera-00002 3.4.11.1-osera-00003 | 3.4.11.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.addons:reactor-extra | 3.4.11 | listed by the BOM of spring-boot-2.7.x at 3.4.10, not in its dependency graph | spring-boot-2.7.x |  | 3.4.11.1-osera-00001 3.4.11.1-osera-00002 3.4.11.1-osera-00003 | 3.4.11.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.kafka:reactor-kafka | 1.3.23 | listed by the BOM of spring-boot-2.7.x at 1.3.22, not in its dependency graph | spring-boot-2.7.x |  | 1.3.23.1-osera-00001 1.3.23.1-osera-00002 1.3.23.1-osera-00003 | 1.3.23.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

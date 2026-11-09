@@ -48751,6 +48751,18 @@
       "first_seen": "2026-11-05T16:46:50Z"
     },
     {
+      "coordinate": "glob-parent@3.1.1-osera-00001",
+      "library": "glob-parent",
+      "base": "3.1.0",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "crypto-js-4.1.x"
+      ],
+      "words": "glob-parent@3.1.1-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, so the graph there may have a hole",
+      "first_seen": "2026-11-09T15:19:45Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-adapter",
       "base": "3.4.11",
