@@ -2,15 +2,15 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 216,
+  "version": 217,
   "metadata": {
-    "timestamp": "2026-11-05T16:51:15Z",
+    "timestamp": "2026-11-09T15:25:01Z",
     "tools": {
       "components": [
         {
           "type": "application",
           "name": "osera-feed",
-          "version": "main-46b0465c"
+          "version": "b2047d35f3d4bcec7a00e9bdb93261cf1772b53b"
         }
       ]
     },
@@ -15377,6 +15377,17 @@
       "name": "crypto-js",
       "version": "4.1.2-osera-00001",
       "purl": "pkg:npm/crypto-js@4.1.2-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/glob-parent@3.1.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "",
+      "name": "glob-parent",
+      "version": "3.1.1-osera-00001",
+      "purl": "pkg:npm/glob-parent@3.1.1-osera-00001"
     }
   ],
   "vulnerabilities": [
@@ -132527,6 +132538,32 @@
       "affects": [
         {
           "ref": "pkg:npm/crypto-js@4.1.2-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-28469 on pkg:npm/glob-parent@3.1.1-osera-00001",
+      "id": "CVE-2020-28469",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-28469"
+      },
+      "references": [
+        {
+          "id": "GHSA-ww39-953v-wcq6",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-ww39-953v-wcq6"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-09T15:19:53Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:npm/glob-parent@3.1.1-osera-00001"
         }
       ]
     }

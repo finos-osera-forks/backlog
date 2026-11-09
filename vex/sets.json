@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T16:51:15Z",
-  "feed_version": 216,
+  "generated_at": "2026-11-09T15:25:01Z",
+  "feed_version": 217,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -1871,6 +1871,15 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-glob-parent@v3.1.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "glob-parent@3.1.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-hibernate-orm@v5.6.15.Final-osera-00001",
