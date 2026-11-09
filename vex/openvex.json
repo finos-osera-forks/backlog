@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-05T16:51:15Z",
-  "version": 216,
-  "tooling": "osera-feed main-46b0465c",
+  "last_updated": "2026-11-09T15:25:01Z",
+  "version": 217,
+  "tooling": "osera-feed b2047d35f3d4bcec7a00e9bdb93261cf1772b53b",
   "statements": [
     {
       "vulnerability": {
@@ -77817,6 +77817,22 @@
       "products": [
         {
           "@id": "pkg:npm/crypto-js@4.1.2-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-28469",
+        "aliases": [
+          "GHSA-ww39-953v-wcq6"
+        ]
+      },
+      "timestamp": "2026-11-09T15:19:53Z",
+      "products": [
+        {
+          "@id": "pkg:npm/glob-parent@3.1.1-osera-00001"
         }
       ],
       "status": "fixed",
