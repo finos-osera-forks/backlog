@@ -4,6 +4,10 @@
    "value": 4.4,
    "version": "3.1"
   },
+  "CVE-2020-28469": {
+   "value": 7.5,
+   "version": "3.1"
+  },
   "CVE-2020-9488": {
    "value": 3.7,
    "version": "3.1"
@@ -224,6 +228,7 @@
  "summaries": {
   "CVE-2013-1624": "The TLS implementation in the Bouncy Castle Java library before 1.48 and C# library before 1.8 does not properly consider timing side-channel attacks on a noncompliant MAC check operation during the processing of malformed CBC padding, whi…",
   "CVE-2018-5382": "The default BKS keystore use an HMAC that is only 16 bits long, which can allow an attacker to compromise the integrity of a BKS keystore.",
+  "CVE-2020-28469": "This affects the package glob-parent before 5.1.2.",
   "CVE-2020-9488": "Improper validation of certificate with host mismatch in Apache Log4j SMTP appender.",
   "CVE-2023-46233": "crypto-js is a JavaScript library of crypto standards.",
   "CVE-2025-8885": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc.",
@@ -282,6 +287,7 @@
  "checked": [
   "CVE-2013-1624",
   "CVE-2018-5382",
+  "CVE-2020-28469",
   "CVE-2020-9488",
   "CVE-2023-46233",
   "CVE-2025-8885",
