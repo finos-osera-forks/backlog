@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-05T16:51:15Z",
+ "as_of": "2026-11-09T15:25:01Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 421,
-  "library_versions": 595,
-  "releases": 1788,
-  "forks": 74,
-  "artifacts": 15945,
-  "cves": 219,
-  "cve_statements": 5286,
-  "release_sets": 574,
+  "libraries": 422,
+  "library_versions": 596,
+  "releases": 1789,
+  "forks": 75,
+  "artifacts": 15946,
+  "cves": 220,
+  "cve_statements": 5287,
+  "release_sets": 575,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -81,6 +81,10 @@
   {
    "date": "2026-11-05",
    "count": 2175
+  },
+  {
+   "date": "2026-11-09",
+   "count": 1
   }
  ],
  "top_cves": [
@@ -819,6 +823,13 @@
    "releases": 3,
    "latest": "1.4.1-osera-00003",
    "fixed_entries": 5
+  },
+  {
+   "library": "glob-parent",
+   "ecosystem": "JavaScript",
+   "releases": 1,
+   "latest": "3.1.1-osera-00001",
+   "fixed_entries": 1
   },
   {
    "library": "io.projectreactor.addons:reactor-adapter",
