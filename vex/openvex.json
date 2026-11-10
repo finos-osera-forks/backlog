@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-09T15:25:01Z",
-  "version": 217,
+  "last_updated": "2026-11-10T02:34:59Z",
+  "version": 218,
   "tooling": "osera-feed b2047d35f3d4bcec7a00e9bdb93261cf1772b53b",
   "statements": [
     {
@@ -67429,7 +67429,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-09-24T15:25:59Z",
       "products": [
@@ -67468,7 +67471,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-09-24T15:31:28Z",
       "products": [
@@ -67507,7 +67513,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-09-24T15:36:48Z",
       "products": [
@@ -67546,7 +67555,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-09-24T15:42:10Z",
       "products": [
@@ -67585,7 +67597,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-09-24T16:03:22Z",
       "products": [
@@ -67624,7 +67639,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-15T13:29:14Z",
       "products": [
@@ -67663,7 +67681,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-15T13:34:27Z",
       "products": [
@@ -67702,7 +67723,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-15T13:39:47Z",
       "products": [
@@ -67741,7 +67765,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-15T13:44:29Z",
       "products": [
@@ -67780,7 +67807,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-29T00:18:56Z",
       "products": [
@@ -67819,7 +67849,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-29T00:26:46Z",
       "products": [
@@ -67858,7 +67891,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-29T00:34:53Z",
       "products": [
@@ -67897,7 +67933,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-29T00:42:47Z",
       "products": [
@@ -67936,7 +67975,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-29T00:50:58Z",
       "products": [
@@ -67975,7 +68017,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-29T00:59:03Z",
       "products": [
@@ -68014,7 +68059,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-29T01:07:09Z",
       "products": [
@@ -68066,7 +68114,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-10-29T01:15:08Z",
       "products": [
@@ -68131,7 +68182,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41850"
+        "name": "CVE-2026-41850",
+        "aliases": [
+          "GHSA-r5w3-xv2f-j59q"
+        ]
       },
       "timestamp": "2026-11-05T07:58:57Z",
       "products": [
@@ -68183,7 +68237,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-15T13:39:55Z",
       "products": [
@@ -68196,7 +68253,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-15T13:44:39Z",
       "products": [
@@ -68209,7 +68269,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-29T00:19:09Z",
       "products": [
@@ -68222,7 +68285,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-29T00:26:55Z",
       "products": [
@@ -68235,7 +68301,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-29T00:35:05Z",
       "products": [
@@ -68248,7 +68317,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-29T00:42:58Z",
       "products": [
@@ -68261,7 +68333,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-29T00:51:07Z",
       "products": [
@@ -68274,7 +68349,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-29T00:59:15Z",
       "products": [
@@ -68287,7 +68365,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-29T01:07:14Z",
       "products": [
@@ -68300,7 +68381,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-10-29T01:15:15Z",
       "products": [
@@ -68313,7 +68397,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41855"
+        "name": "CVE-2026-41855",
+        "aliases": [
+          "GHSA-x863-p983-p4f7"
+        ]
       },
       "timestamp": "2026-11-05T07:58:57Z",
       "products": [
@@ -68650,7 +68737,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-15T13:45:14Z",
       "products": [
@@ -68663,7 +68753,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-15T13:45:14Z",
       "products": [
@@ -68721,7 +68814,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:19:36Z",
       "products": [
@@ -68734,7 +68830,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:19:36Z",
       "products": [
@@ -68792,7 +68891,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:27:27Z",
       "products": [
@@ -68805,7 +68907,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:27:27Z",
       "products": [
@@ -68876,7 +68981,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:35:28Z",
       "products": [
@@ -68889,7 +68997,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:35:28Z",
       "products": [
@@ -68960,7 +69071,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:43:26Z",
       "products": [
@@ -68973,7 +69087,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:43:26Z",
       "products": [
@@ -69057,7 +69174,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:51:33Z",
       "products": [
@@ -69070,7 +69190,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:51:33Z",
       "products": [
@@ -69154,7 +69277,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:59:40Z",
       "products": [
@@ -69167,7 +69293,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:59:40Z",
       "products": [
@@ -69251,7 +69380,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T01:07:36Z",
       "products": [
@@ -69264,7 +69396,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T01:07:36Z",
       "products": [
@@ -69348,7 +69483,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T01:15:44Z",
       "products": [
@@ -69361,7 +69499,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T01:15:44Z",
       "products": [
@@ -69445,7 +69586,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-11-05T07:59:08Z",
       "products": [
@@ -69458,7 +69602,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-11-05T07:59:08Z",
       "products": [
@@ -69497,7 +69644,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-09-24T15:31:50Z",
       "products": [
@@ -69510,7 +69660,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-09-24T15:37:13Z",
       "products": [
@@ -69523,7 +69676,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-09-24T15:42:31Z",
       "products": [
@@ -69536,7 +69692,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-09-24T16:03:46Z",
       "products": [
@@ -69794,7 +69953,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-15T13:45:05Z",
       "products": [
@@ -69878,7 +70040,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:19:28Z",
       "products": [
@@ -69962,7 +70127,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:27:14Z",
       "products": [
@@ -70046,7 +70214,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:35:26Z",
       "products": [
@@ -70143,7 +70314,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:43:16Z",
       "products": [
@@ -70240,7 +70414,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:51:28Z",
       "products": [
@@ -70337,7 +70514,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T00:59:33Z",
       "products": [
@@ -70434,7 +70614,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T01:07:34Z",
       "products": [
@@ -70531,7 +70714,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-10-29T01:15:31Z",
       "products": [
@@ -70628,7 +70814,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-22740"
+        "name": "CVE-2026-22740",
+        "aliases": [
+          "GHSA-5843-p793-ghmm"
+        ]
       },
       "timestamp": "2026-11-05T07:59:08Z",
       "products": [
@@ -71101,7 +71290,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-09-24T15:42:33Z",
       "products": [
@@ -71172,7 +71364,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-09-24T16:03:47Z",
       "products": [
@@ -71185,7 +71380,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-09-24T16:03:47Z",
       "products": [
@@ -71256,7 +71454,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-15T13:30:03Z",
       "products": [
@@ -71327,22 +71528,9 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
-      },
-      "timestamp": "2026-10-15T13:35:19Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00014"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-47884",
+        "name": "CVE-2026-41846",
         "aliases": [
-          "GHSA-pc63-qcmh-9cmg"
+          "GHSA-957g-f97v-vppc"
         ]
       },
       "timestamp": "2026-10-15T13:35:19Z",
@@ -71356,6 +71544,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-47884",
+        "aliases": [
+          "GHSA-pc63-qcmh-9cmg"
+        ]
+      },
+      "timestamp": "2026-10-15T13:35:19Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00014"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2024-38816",
         "aliases": [
           "GHSA-cx7f-g6mp-7hqm"
@@ -71414,7 +71618,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-15T13:40:15Z",
       "products": [
@@ -71501,7 +71708,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-15T13:45:20Z",
       "products": [
@@ -71514,7 +71724,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-15T13:45:20Z",
       "products": [
@@ -71614,7 +71827,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:19:33Z",
       "products": [
@@ -71627,7 +71843,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-29T00:19:33Z",
       "products": [
@@ -71727,7 +71946,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:27:22Z",
       "products": [
@@ -71740,7 +71962,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-29T00:27:22Z",
       "products": [
@@ -71853,35 +72078,9 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
-      },
-      "timestamp": "2026-10-29T00:35:28Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00019"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-41846"
-      },
-      "timestamp": "2026-10-29T00:35:28Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00019"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-47884",
+        "name": "CVE-2026-41845",
         "aliases": [
-          "GHSA-pc63-qcmh-9cmg"
+          "GHSA-3chg-m5w7-qfv5"
         ]
       },
       "timestamp": "2026-10-29T00:35:28Z",
@@ -71895,6 +72094,38 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
+      },
+      "timestamp": "2026-10-29T00:35:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00019"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47884",
+        "aliases": [
+          "GHSA-pc63-qcmh-9cmg"
+        ]
+      },
+      "timestamp": "2026-10-29T00:35:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00019"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-59313"
       },
       "timestamp": "2026-10-29T00:35:28Z",
@@ -71979,7 +72210,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:43:18Z",
       "products": [
@@ -71992,7 +72226,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-29T00:43:18Z",
       "products": [
@@ -72105,7 +72342,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:51:30Z",
       "products": [
@@ -72118,7 +72358,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-29T00:51:30Z",
       "products": [
@@ -72231,7 +72474,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T00:59:40Z",
       "products": [
@@ -72244,7 +72490,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-29T00:59:40Z",
       "products": [
@@ -72357,7 +72606,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T01:07:38Z",
       "products": [
@@ -72370,7 +72622,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-29T01:07:38Z",
       "products": [
@@ -72483,7 +72738,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-10-29T01:15:41Z",
       "products": [
@@ -72496,7 +72754,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-10-29T01:15:41Z",
       "products": [
@@ -72609,7 +72870,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41845"
+        "name": "CVE-2026-41845",
+        "aliases": [
+          "GHSA-3chg-m5w7-qfv5"
+        ]
       },
       "timestamp": "2026-11-05T07:59:07Z",
       "products": [
@@ -72622,7 +72886,10 @@
     },
     {
       "vulnerability": {
-        "name": "CVE-2026-41846"
+        "name": "CVE-2026-41846",
+        "aliases": [
+          "GHSA-957g-f97v-vppc"
+        ]
       },
       "timestamp": "2026-11-05T07:59:07Z",
       "products": [
