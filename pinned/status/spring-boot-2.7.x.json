@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.10.25",
-  "as_of": "2026-11-10T17:18:24Z",
+  "book_version": "v2026.11.10.26",
+  "as_of": "2026-11-10T17:22:51Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 336,
+  "in_scope": 353,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -766,12 +766,20 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2024-52316",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2024-52979",
       "library": "org.elasticsearch:elasticsearch"
     },
     {
       "cve": "CVE-2024-52981",
       "library": "org.elasticsearch:elasticsearch"
+    },
+    {
+      "cve": "CVE-2024-54677",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2024-56337",
@@ -1066,6 +1074,10 @@
       "library": "org.assertj:assertj-core"
     },
     {
+      "cve": "CVE-2026-24733",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-24734",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -1094,8 +1106,20 @@
       "library": "io.undertow:undertow-core"
     },
     {
+      "cve": "CVE-2026-29145",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-29146",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-3260",
       "library": "io.undertow:undertow-core"
+    },
+    {
+      "cve": "CVE-2026-32990",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-33227",
@@ -1290,6 +1314,10 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2026-42498",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
+    },
+    {
       "cve": "CVE-2026-42578",
       "library": "io.netty:netty-handler-proxy"
     },
@@ -1410,6 +1438,10 @@
       "library": "io.netty:netty-codec-http"
     },
     {
+      "cve": "CVE-2026-50229",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-50560",
       "library": "io.netty:netty-codec-http2"
     },
@@ -1419,6 +1451,10 @@
     },
     {
       "cve": "CVE-2026-53404",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-53434",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
@@ -1464,6 +1500,10 @@
     {
       "cve": "CVE-2026-55833",
       "library": "io.netty:netty-codec-http"
+    },
+    {
+      "cve": "CVE-2026-55955",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-55956",
@@ -1538,7 +1578,19 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2026-65183",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-65905",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-65927",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-66422",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
@@ -1558,6 +1610,14 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2026-68569",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-68763",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-69219",
       "library": "com.rabbitmq:amqp-client"
     },
@@ -1566,8 +1626,16 @@
       "library": "com.rabbitmq:amqp-client"
     },
     {
+      "cve": "CVE-2026-73180",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-73508",
       "library": "io.netty:netty-codec-dns"
+    },
+    {
+      "cve": "CVE-2026-73581",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-75516",
