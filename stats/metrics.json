@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-12T13:07:52Z",
+ "as_of": "2026-11-12T17:17:57Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 422,
   "library_versions": 596,
-  "releases": 1793,
+  "releases": 1794,
   "forks": 75,
-  "artifacts": 15959,
+  "artifacts": 15982,
   "cves": 220,
-  "cve_statements": 5437,
-  "release_sets": 579,
+  "cve_statements": 5471,
+  "release_sets": 580,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -88,7 +88,7 @@
   },
   {
    "date": "2026-11-12",
-   "count": 13
+   "count": 36
   }
  ],
  "top_cves": [
@@ -3036,163 +3036,163 @@
   {
    "library": "org.springframework:spring-aop",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-aspects",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-beans",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 5
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 6
   },
   {
    "library": "org.springframework:spring-context",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-context-indexer",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-context-support",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-core",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 38
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 40
   },
   {
    "library": "org.springframework:spring-expression",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 59
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 64
   },
   {
    "library": "org.springframework:spring-framework-bom",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-instrument",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-jcl",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-jdbc",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-jms",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 11
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 12
   },
   {
    "library": "org.springframework:spring-messaging",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 4
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 5
   },
   {
    "library": "org.springframework:spring-orm",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-oxm",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-r2dbc",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-test",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-tx",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework:spring-web",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 78
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 85
   },
   {
    "library": "org.springframework:spring-webflux",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 86
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 93
   },
   {
    "library": "org.springframework:spring-webmvc",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 138
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 147
   },
   {
    "library": "org.springframework:spring-websocket",
    "ecosystem": "Java",
-   "releases": 25,
-   "latest": "5.3.39.1-osera-00025",
-   "fixed_entries": 21
+   "releases": 26,
+   "latest": "5.3.39.1-osera-00026",
+   "fixed_entries": 22
   },
   {
    "library": "org.yaml:snakeyaml",
