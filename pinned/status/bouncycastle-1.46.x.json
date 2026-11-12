@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.46.x",
-  "book_version": "v2026.11.12.3",
-  "as_of": "2026-11-12T11:46:22Z",
+  "book_version": "v2026.11.12.4",
+  "as_of": "2026-11-12T11:49:56Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 4,
@@ -460,5 +460,5 @@
     "fixed, not in the backlog: CVE-2026-97873 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00029",
     "fixed, not in the backlog: CVE-2026-97873 on org.bouncycastle:bcprov-jdk15@1.46.1-osera-00030"
   ],
-  "consume": "org.finos.osera:osera-bom-bouncycastle-1.46.x@2026.11.04"
+  "consume": "org.finos.osera:osera-bom-bouncycastle-1.46.x@2026.11.12"
 }
