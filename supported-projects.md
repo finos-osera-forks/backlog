@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-12T17:11:54Z. Written by the line manager reconciler.
+Generated 2026-11-12T17:15:20Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -29,7 +29,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
-| snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | fixed | 16 | 16 | 100% | 0 | 0 | 0 | 0 |
