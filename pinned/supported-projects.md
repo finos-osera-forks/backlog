@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-12T08:16:14Z. Written by the line manager reconciler.
+Generated 2026-11-12T08:18:38Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -36,7 +36,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | fixed | 15 | 15 | 100% | 0 | 0 | 0 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | in progress | 4 | 2 | 50% | 0 | 0 | 2 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | in progress | 4 | 2 | 50% | 10 | 0 | 2 | 0 |
-| jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | - | 0 | 0 | - | 1 | 0 | 0 | 0 |
+| jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | in progress | 8 | 7 | 88% | 1 | 0 | 1 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-configuration-1.1.x | maven | `commons-configuration:commons-configuration@1.1` | in progress | 9 | 5 | 56% | 4 | 0 | 4 | 0 |
