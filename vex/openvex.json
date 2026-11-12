@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-12T12:17:52Z",
-  "version": 221,
+  "last_updated": "2026-11-12T12:42:52Z",
+  "version": 222,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -18915,6 +18915,113 @@
       "products": [
         {
           "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00038"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-12802"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-13586"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-15055"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-5588",
+        "aliases": [
+          "GHSA-wg6q-6289-32hp"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59639"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59642"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59647"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71888"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.70.1-osera-00039"
         }
       ],
       "status": "fixed",
@@ -45587,6 +45694,384 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2023-33201",
+        "aliases": [
+          "GHSA-hr8g-6v94-x4m9"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-33202",
+        "aliases": [
+          "GHSA-wjxj-5m7g-mg7q"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-29857",
+        "aliases": [
+          "GHSA-8xfc-gm6g-vgpv"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-14813",
+        "aliases": [
+          "GHSA-574f-3g2m-x479"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-8885",
+        "aliases": [
+          "GHSA-67mf-3cr5-8w23"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-8916",
+        "aliases": [
+          "GHSA-4cx2-fc23-5wg6"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-0636",
+        "aliases": [
+          "GHSA-c3fc-8qff-9hwx"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-12185"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-12803"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-12816"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-12860"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-13506",
+        "aliases": [
+          "GHSA-qp49-qgx5-5m26"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-13586"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-14682"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-15055"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-17508"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-58059"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-58060"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-58061"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-58062"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-58063"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59647"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59650"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59651"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71889"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-8763",
+        "aliases": [
+          "GHSA-9pwp-9qqc-pr26"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-97873"
+      },
+      "timestamp": "2026-11-12T12:37:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2025-14813",
         "aliases": [
           "GHSA-574f-3g2m-x479"
@@ -52309,6 +52794,64 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2024-30171",
+        "aliases": [
+          "GHSA-v435-xc8x-wvr9"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bctls-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-34447",
+        "aliases": [
+          "GHSA-4h8f-2wvx-gg5w"
+        ]
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bctls-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59638"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bctls-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59646"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bctls-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-71888"
       },
       "timestamp": "2026-10-23T15:26:27Z",
@@ -53043,6 +53586,32 @@
       "products": [
         {
           "@id": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70.1-osera-00038"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59645"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70.1-osera-00039"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-71888"
+      },
+      "timestamp": "2026-11-12T12:37:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcutil-jdk15on@1.70.1-osera-00039"
         }
       ],
       "status": "fixed",
