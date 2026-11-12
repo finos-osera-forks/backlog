@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-10T02:49:59Z",
+ "as_of": "2026-11-12T11:52:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 422,
   "library_versions": 596,
-  "releases": 1789,
+  "releases": 1790,
   "forks": 75,
-  "artifacts": 15946,
+  "artifacts": 15948,
   "cves": 220,
-  "cve_statements": 5287,
-  "release_sets": 575,
+  "cve_statements": 5315,
+  "release_sets": 576,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -85,13 +85,17 @@
   {
    "date": "2026-11-09",
    "count": 1
+  },
+  {
+   "date": "2026-11-12",
+   "count": 2
   }
  ],
  "top_cves": [
   {
    "id": "CVE-2025-8916",
    "summary": "Bouncy Castle for Java bcpkix, bcprov, bcpkix-fips on All (API modules) allows Excessive Allocation",
-   "fixed_entries": 158,
+   "fixed_entries": 159,
    "libraries": 4,
    "cvss": 6.3,
    "cvss_version": "4.0"
@@ -131,7 +135,7 @@
   {
    "id": "CVE-2026-59650",
    "summary": "In Bouncy Castle for Java before 1.85, MTI/A0 DH agreement exponentiates unvalidated peer value.",
-   "fixed_entries": 117,
+   "fixed_entries": 118,
    "libraries": 3,
    "cvss": 9.1,
    "cvss_version": "3.1"
@@ -139,7 +143,7 @@
   {
    "id": "CVE-2026-12860",
    "summary": "In Bouncy Castle for Java before 1.85, RSA PKCS#1 verification skips last two hash bytes in NULL-omitted path.",
-   "fixed_entries": 116,
+   "fixed_entries": 117,
    "libraries": 3,
    "cvss": 5.3,
    "cvss_version": "3.1"
@@ -147,7 +151,7 @@
   {
    "id": "CVE-2026-71889",
    "summary": "In Bouncy Castle for Java before 1.86, neither copy of PKIXCertPathReviewer - org.bouncycastle.pkix.jcajce.PKIXCertPathReviewer nor the legacy org.bouncycastle.x509.PKIXCertPathReviewer - applied X.509 name constraints to the end-entity ce…",
-   "fixed_entries": 115,
+   "fixed_entries": 116,
    "libraries": 4,
    "cvss": 8.7,
    "cvss_version": "4.0"
@@ -171,7 +175,7 @@
   {
    "id": "CVE-2026-15055",
    "summary": "In Bouncy Castle for Java before 1.85, PKCS#8 / PBES2 decryptors honour unbounded KDF cost from input.",
-   "fixed_entries": 100,
+   "fixed_entries": 101,
    "libraries": 5,
    "cvss": 8.2,
    "cvss_version": "3.1"
@@ -179,9 +183,17 @@
   {
    "id": "CVE-2026-12185",
    "summary": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
-   "fixed_entries": 97,
+   "fixed_entries": 98,
    "libraries": 3,
    "cvss": 8.6,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-13586",
+   "summary": "In Bouncy Castle for Java before 1.85, PKCS#12 MAC and bag-decryption KDF iteration-count bound (DoS).",
+   "fixed_entries": 96,
+   "libraries": 5,
+   "cvss": 7.5,
    "cvss_version": "3.1"
   },
   {
@@ -193,10 +205,10 @@
    "cvss_version": "3.1"
   },
   {
-   "id": "CVE-2026-13586",
-   "summary": "In Bouncy Castle for Java before 1.85, PKCS#12 MAC and bag-decryption KDF iteration-count bound (DoS).",
+   "id": "CVE-2024-29857",
+   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
    "fixed_entries": 95,
-   "libraries": 5,
+   "libraries": 2,
    "cvss": 7.5,
    "cvss_version": "3.1"
   },
@@ -209,17 +221,9 @@
    "cvss_version": "3.1"
   },
   {
-   "id": "CVE-2024-29857",
-   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
-   "fixed_entries": 94,
-   "libraries": 2,
-   "cvss": 7.5,
-   "cvss_version": "3.1"
-  },
-  {
    "id": "CVE-2026-12816",
    "summary": "In Bouncy Castle for Java before 1.85, IESEngine stream-mode MAC forgery via length-dependent KDF split.",
-   "fixed_entries": 80,
+   "fixed_entries": 81,
    "libraries": 3,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -1240,8 +1244,8 @@
   {
    "library": "org.bouncycastle:bcmail-jdk15",
    "ecosystem": "Java",
-   "releases": 29,
-   "latest": "1.46.1-osera-00029",
+   "releases": 30,
+   "latest": "1.46.1-osera-00030",
    "fixed_entries": 0
   },
   {
@@ -1261,9 +1265,9 @@
   {
    "library": "org.bouncycastle:bcprov-jdk15",
    "ecosystem": "Java",
-   "releases": 29,
-   "latest": "1.46.1-osera-00029",
-   "fixed_entries": 434
+   "releases": 30,
+   "latest": "1.46.1-osera-00030",
+   "fixed_entries": 462
   },
   {
    "library": "org.bouncycastle:bcprov-jdk15on",
