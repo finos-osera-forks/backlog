@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-12T17:17:56Z",
-  "version": 224,
+  "last_updated": "2026-11-12T17:43:04Z",
+  "version": 225,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -68394,6 +68394,19 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2025-22228"
+      },
+      "timestamp": "2026-11-12T17:34:50Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-crypto@5.7.14.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-59270"
       },
       "timestamp": "2026-10-28T21:52:32Z",
@@ -68413,6 +68426,19 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-59270"
+      },
+      "timestamp": "2026-11-12T17:34:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-ldap@5.7.14.1-osera-00008"
         }
       ],
       "status": "fixed",
@@ -68493,6 +68519,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40988",
+        "aliases": [
+          "GHSA-m69x-pw9p-7j3q"
+        ]
+      },
+      "timestamp": "2026-11-12T17:35:12Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-saml2-service-provider@5.7.14.1-osera-00008"
         }
       ],
       "status": "fixed",
@@ -68749,6 +68791,54 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00007"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-22732",
+        "aliases": [
+          "GHSA-mf92-479x-3373"
+        ]
+      },
+      "timestamp": "2026-11-12T17:35:23Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41706",
+        "aliases": [
+          "GHSA-x2r2-rvhq-2mqv"
+        ]
+      },
+      "timestamp": "2026-11-12T17:35:23Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-47838",
+        "aliases": [
+          "GHSA-293q-567p-wmwq"
+        ]
+      },
+      "timestamp": "2026-11-12T17:35:23Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.security/spring-security-web@5.7.14.1-osera-00008"
         }
       ],
       "status": "fixed",
