@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 223,
+  "version": 224,
   "metadata": {
-    "timestamp": "2026-11-12T13:07:52Z",
+    "timestamp": "2026-11-12T17:17:57Z",
     "tools": {
       "components": [
         {
@@ -13081,6 +13081,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-beans@5.3.39.1-osera-00026"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00004",
       "supplier": {
         "name": "moderne"
@@ -13323,6 +13334,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00026"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00008",
       "supplier": {
         "name": "moderne"
@@ -13521,6 +13543,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework/spring-jms@5.3.39.1-osera-00015",
       "supplier": {
         "name": "moderne"
@@ -13642,6 +13675,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-jms@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-jms",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-jms@5.3.39.1-osera-00026"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework/spring-messaging@5.3.39.1-osera-00022",
       "supplier": {
         "name": "moderne"
@@ -13683,6 +13727,17 @@
       "name": "spring-messaging",
       "version": "5.3.39.1-osera-00025",
       "purl": "pkg:maven/org.springframework/spring-messaging@5.3.39.1-osera-00025"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-messaging@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-messaging",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-messaging@5.3.39.1-osera-00026"
     },
     {
       "type": "library",
@@ -13961,6 +14016,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-web",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00009",
       "supplier": {
         "name": "moderne"
@@ -14145,6 +14211,17 @@
       "name": "spring-webflux",
       "version": "5.3.39.1-osera-00025",
       "purl": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00025"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-webflux",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026"
     },
     {
       "type": "library",
@@ -14412,6 +14489,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-webmvc",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00005",
       "supplier": {
         "name": "moderne"
@@ -14640,6 +14728,17 @@
       "name": "spring-websocket",
       "version": "5.3.39.1-osera-00025",
       "purl": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00025"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00026",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework",
+      "name": "spring-websocket",
+      "version": "5.3.39.1-osera-00026",
+      "purl": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00026"
     },
     {
       "type": "library",
@@ -119099,6 +119198,23 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-59282 on pkg:maven/org.springframework/spring-beans@5.3.39.1-osera-00026",
+      "id": "CVE-2026-59282",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59282"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:11Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-beans@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2025-41249 on pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00004",
       "id": "CVE-2025-41249",
       "source": {
@@ -120083,6 +120199,58 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00025"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-41249 on pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00026",
+      "id": "CVE-2025-41249",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41249"
+      },
+      "references": [
+        {
+          "id": "GHSA-jmp9-x22r-554x",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jmp9-x22r-554x"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:24Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41848 on pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41848",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41848"
+      },
+      "references": [
+        {
+          "id": "GHSA-659m-px2c-25wj",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-659m-px2c-25wj"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:24Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-core@5.3.39.1-osera-00026"
         }
       ]
     },
@@ -121414,6 +121582,109 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-41849 on pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41849",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41849"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:20Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41850 on pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41850",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41850"
+      },
+      "references": [
+        {
+          "id": "GHSA-r5w3-xv2f-j59q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-r5w3-xv2f-j59q"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:20Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41851 on pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41851",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41851"
+      },
+      "references": [
+        {
+          "id": "GHSA-wxpp-56q6-5pcg",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wxpp-56q6-5pcg"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:20Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47886 on pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026",
+      "id": "CVE-2026-47886",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47886"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:20Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59283 on pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026",
+      "id": "CVE-2026-59283",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59283"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:20Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-expression@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-41855 on pkg:maven/org.springframework/spring-jms@5.3.39.1-osera-00015",
       "id": "CVE-2026-41855",
       "source": {
@@ -121700,6 +121971,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-41855 on pkg:maven/org.springframework/spring-jms@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41855",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41855"
+      },
+      "references": [
+        {
+          "id": "GHSA-x863-p983-p4f7",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-x863-p983-p4f7"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:26Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-jms@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-47888 on pkg:maven/org.springframework/spring-messaging@5.3.39.1-osera-00022",
       "id": "CVE-2026-47888",
       "source": {
@@ -121764,6 +122061,23 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework/spring-messaging@5.3.39.1-osera-00025"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47888 on pkg:maven/org.springframework/spring-messaging@5.3.39.1-osera-00026",
+      "id": "CVE-2026-47888",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47888"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:31Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-messaging@5.3.39.1-osera-00026"
         }
       ]
     },
@@ -123666,6 +123980,170 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00025"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2016-1000027 on pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026",
+      "id": "CVE-2016-1000027",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-1000027"
+      },
+      "references": [
+        {
+          "id": "GHSA-4wrc-f8pq-fpqp",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4wrc-f8pq-fpqp"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-41249 on pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026",
+      "id": "CVE-2025-41249",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41249"
+      },
+      "references": [
+        {
+          "id": "GHSA-jmp9-x22r-554x",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jmp9-x22r-554x"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-22735 on pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026",
+      "id": "CVE-2026-22735",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22735"
+      },
+      "references": [
+        {
+          "id": "GHSA-6hcq-hmm3-jj3c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-6hcq-hmm3-jj3c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-22740 on pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026",
+      "id": "CVE-2026-22740",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
+      },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41845 on pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41845",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
+      },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47891 on pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026",
+      "id": "CVE-2026-47891",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47891"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59313 on pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026",
+      "id": "CVE-2026-59313",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59313"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-web@5.3.39.1-osera-00026"
         }
       ]
     },
@@ -125722,6 +126200,170 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00025"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-38816 on pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026",
+      "id": "CVE-2024-38816",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38816"
+      },
+      "references": [
+        {
+          "id": "GHSA-cx7f-g6mp-7hqm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-cx7f-g6mp-7hqm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:43Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-38819 on pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026",
+      "id": "CVE-2024-38819",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38819"
+      },
+      "references": [
+        {
+          "id": "GHSA-g5vr-rgqm-vf78",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-g5vr-rgqm-vf78"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:43Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-22740 on pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026",
+      "id": "CVE-2026-22740",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22740"
+      },
+      "references": [
+        {
+          "id": "GHSA-5843-p793-ghmm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5843-p793-ghmm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:43Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41842 on pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41842",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41842"
+      },
+      "references": [
+        {
+          "id": "GHSA-x23c-287f-qqv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-x23c-287f-qqv5"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:43Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41844 on pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41844",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41844"
+      },
+      "references": [
+        {
+          "id": "GHSA-h3qp-gqrc-q736",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-h3qp-gqrc-q736"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:43Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47892 on pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026",
+      "id": "CVE-2026-47892",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47892"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:43Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47893 on pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026",
+      "id": "CVE-2026-47893",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47893"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:43Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webflux@5.3.39.1-osera-00026"
         }
       ]
     },
@@ -129242,6 +129884,231 @@
       ]
     },
     {
+      "bom-ref": "CVE-2024-38816 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2024-38816",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38816"
+      },
+      "references": [
+        {
+          "id": "GHSA-cx7f-g6mp-7hqm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-cx7f-g6mp-7hqm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-38819 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2024-38819",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-38819"
+      },
+      "references": [
+        {
+          "id": "GHSA-g5vr-rgqm-vf78",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-g5vr-rgqm-vf78"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-22735 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2026-22735",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-22735"
+      },
+      "references": [
+        {
+          "id": "GHSA-6hcq-hmm3-jj3c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-6hcq-hmm3-jj3c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41842 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41842",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41842"
+      },
+      "references": [
+        {
+          "id": "GHSA-x23c-287f-qqv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-x23c-287f-qqv5"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41844 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41844",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41844"
+      },
+      "references": [
+        {
+          "id": "GHSA-h3qp-gqrc-q736",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-h3qp-gqrc-q736"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41845 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41845",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41845"
+      },
+      "references": [
+        {
+          "id": "GHSA-3chg-m5w7-qfv5",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-3chg-m5w7-qfv5"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41846 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41846",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41846"
+      },
+      "references": [
+        {
+          "id": "GHSA-957g-f97v-vppc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-957g-f97v-vppc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-47884 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2026-47884",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-47884"
+      },
+      "references": [
+        {
+          "id": "GHSA-pc63-qcmh-9cmg",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-pc63-qcmh-9cmg"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59313 on pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026",
+      "id": "CVE-2026-59313",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59313"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:49Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-webmvc@5.3.39.1-osera-00026"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-41838 on pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00005",
       "id": "CVE-2026-41838",
       "source": {
@@ -129784,6 +130651,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00025"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-41838 on pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00026",
+      "id": "CVE-2026-41838",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41838"
+      },
+      "references": [
+        {
+          "id": "GHSA-q723-847q-5g8g",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-q723-847q-5g8g"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T17:11:45Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework/spring-websocket@5.3.39.1-osera-00026"
         }
       ]
     },
