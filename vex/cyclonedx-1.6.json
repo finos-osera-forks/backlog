@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 222,
+  "version": 223,
   "metadata": {
-    "timestamp": "2026-11-12T12:42:52Z",
+    "timestamp": "2026-11-12T13:07:52Z",
     "tools": {
       "components": [
         {
@@ -3728,6 +3728,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.bouncycastle",
+      "name": "bcpkix-jdk18on",
+      "version": "1.78.1.1-osera-00035",
+      "purl": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk15@1.46.1-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -5279,6 +5290,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk18on",
+      "version": "1.78.1.1-osera-00035",
+      "purl": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.bouncycastle/bctls-jdk15on@1.69.1-osera-00033",
       "supplier": {
         "name": "moderne"
@@ -6233,6 +6255,17 @@
       "name": "bcutil-jdk18on",
       "version": "1.78.1.1-osera-00034",
       "purl": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1.1-osera-00034"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1.1-osera-00035",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.bouncycastle",
+      "name": "bcutil-jdk18on",
+      "version": "1.78.1.1-osera-00035",
+      "purl": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1.1-osera-00035"
     },
     {
       "type": "library",
@@ -49626,6 +49659,254 @@
       "affects": [
         {
           "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00034"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-8916 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2025-8916",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8916"
+      },
+      "references": [
+        {
+          "id": "GHSA-4cx2-fc23-5wg6",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4cx2-fc23-5wg6"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-12802 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-12802",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12802"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-13586 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-13586",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13586"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-15055 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-15055",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15055"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-17508 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-17508",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17508"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-5588 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-5588",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5588"
+      },
+      "references": [
+        {
+          "id": "GHSA-wg6q-6289-32hp",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wg6q-6289-32hp"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59639 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-59639",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59639"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59642 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-59642",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59642"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59647 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-59647",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59647"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-71888 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-71888",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71888"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-71889 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-71889",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71889"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-71892 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-71892",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71892"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-8763 on pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-8763",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8763"
+      },
+      "references": [
+        {
+          "id": "GHSA-9pwp-9qqc-pr26",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-9pwp-9qqc-pr26"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcpkix-jdk18on@1.78.1.1-osera-00035"
         }
       ]
     },
@@ -93266,6 +93547,502 @@
       ]
     },
     {
+      "bom-ref": "CVE-2025-14813 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2025-14813",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14813"
+      },
+      "references": [
+        {
+          "id": "GHSA-574f-3g2m-x479",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-574f-3g2m-x479"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-8916 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2025-8916",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-8916"
+      },
+      "references": [
+        {
+          "id": "GHSA-4cx2-fc23-5wg6",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4cx2-fc23-5wg6"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-0636 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-0636",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0636"
+      },
+      "references": [
+        {
+          "id": "GHSA-c3fc-8qff-9hwx",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-c3fc-8qff-9hwx"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-12185 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-12185",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12185"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-12803 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-12803",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12803"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-12816 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-12816",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12816"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-12860 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-12860",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-12860"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-13506 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-13506",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13506"
+      },
+      "references": [
+        {
+          "id": "GHSA-qp49-qgx5-5m26",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-qp49-qgx5-5m26"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-13586 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-13586",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-13586"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-14682 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-14682",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14682"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-15055 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-15055",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15055"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-17508 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-17508",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17508"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-18036 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-18036",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18036"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-18040 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-18040",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18040"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-5598 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-5598",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5598"
+      },
+      "references": [
+        {
+          "id": "GHSA-p93r-85wp-75v3",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-p93r-85wp-75v3"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-58059 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-58059",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58059"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-58060 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-58060",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58060"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-58061 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-58061",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58061"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-58062 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-58062",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58062"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-58063 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-58063",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58063"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59647 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-59647",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59647"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59650 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-59650",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59650"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59651 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-59651",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59651"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-71889 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-71889",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71889"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-8763 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-8763",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8763"
+      },
+      "references": [
+        {
+          "id": "GHSA-9pwp-9qqc-pr26",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-9pwp-9qqc-pr26"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-97873 on pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-97873",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97873"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-59638 on pkg:maven/org.bouncycastle/bctls-jdk15on@1.69.1-osera-00033",
       "id": "CVE-2026-59638",
       "source": {
@@ -95667,6 +96444,40 @@
       "affects": [
         {
           "ref": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1.1-osera-00034"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-59645 on pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-59645",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59645"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1.1-osera-00035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-71888 on pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1.1-osera-00035",
+      "id": "CVE-2026-71888",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71888"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-12T13:01:27Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcutil-jdk18on@1.78.1.1-osera-00035"
         }
       ]
     },
