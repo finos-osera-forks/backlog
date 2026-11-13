@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-13T13:57:51Z",
+ "as_of": "2026-11-13T15:42:52Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 426,
-  "library_versions": 600,
-  "releases": 1805,
-  "forks": 79,
-  "artifacts": 16157,
-  "cves": 228,
-  "cve_statements": 5511,
-  "release_sets": 591,
+  "libraries": 431,
+  "library_versions": 605,
+  "releases": 1806,
+  "forks": 80,
+  "artifacts": 16162,
+  "cves": 229,
+  "cve_statements": 5513,
+  "release_sets": 592,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -92,7 +92,7 @@
   },
   {
    "date": "2026-11-13",
-   "count": 8
+   "count": 13
   }
  ],
  "top_cves": [
@@ -781,6 +781,41 @@
    "ecosystem": "Java",
    "releases": 59,
    "latest": "2.19.4.1-osera-00023",
+   "fixed_entries": 0
+  },
+  {
+   "library": "com.google.protobuf:protobuf-bom",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "3.19.6.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "com.google.protobuf:protobuf-java",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "3.19.6.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "com.google.protobuf:protobuf-java-util",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "3.19.6.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "com.google.protobuf:protobuf-javalite",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "3.19.6.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "com.google.protobuf:protobuf-parent",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "3.19.6.1-osera-00001",
    "fixed_entries": 0
   },
   {
