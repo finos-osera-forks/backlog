@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-13T15:35:38Z. Written by the line manager reconciler.
+Generated 2026-11-13T15:58:33Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -14,7 +14,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | in progress | 3 | 2 | 67% | 2 | 0 | 1 | 0 |
-| commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
+| commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
