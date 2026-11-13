@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T10:27:51Z",
-  "feed_version": 232,
+  "generated_at": "2026-11-13T10:43:19Z",
+  "feed_version": 233,
   "sets": [
     {
       "set": "finos-osera-forks/patch-axis@v1.4.1-osera-00001",
@@ -1808,6 +1808,15 @@
       ],
       "state": "in the feed",
       "statements": 4
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-compress@v1.20.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "org.apache.commons:commons-compress@1.20.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 5
     },
     {
       "set": "finos-osera-forks/patch-commons-configuration@v1.1.1-osera-00001",
