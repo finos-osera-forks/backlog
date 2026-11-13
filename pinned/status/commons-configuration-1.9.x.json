@@ -1,7 +1,7 @@
 {
   "line": "commons-configuration-1.9.x",
-  "book_version": "v2026.11.13.4",
-  "as_of": "2026-11-13T13:37:38Z",
+  "book_version": "v2026.11.13.5",
+  "as_of": "2026-11-13T13:40:14Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 2,
@@ -30,5 +30,5 @@
     "promoted commons-configuration:commons-configuration@1.1.1-osera-00001 is on base 1.1, the line has commons-configuration:commons-configuration at 1.9",
     "promoted commons-configuration:commons-configuration@1.1.1-osera-00002 is on base 1.1, the line has commons-configuration:commons-configuration at 1.9"
   ],
-  "consume": "org.finos.osera:osera-bom-commons-configuration-1.9.x@2026.11.05"
+  "consume": "org.finos.osera:osera-bom-commons-configuration-1.9.x@2026.11.13"
 }
