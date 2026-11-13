@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-13T07:52:51Z",
+ "as_of": "2026-11-13T08:22:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 423,
-  "library_versions": 597,
-  "releases": 1798,
-  "forks": 76,
-  "artifacts": 16150,
-  "cves": 221,
-  "cve_statements": 5494,
-  "release_sets": 584,
+  "libraries": 424,
+  "library_versions": 598,
+  "releases": 1799,
+  "forks": 77,
+  "artifacts": 16151,
+  "cves": 222,
+  "cve_statements": 5495,
+  "release_sets": 585,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -92,7 +92,7 @@
   },
   {
    "date": "2026-11-13",
-   "count": 1
+   "count": 2
   }
  ],
  "top_cves": [
@@ -950,6 +950,13 @@
    "releases": 4,
    "latest": "1.4.1-osera-00004",
    "fixed_entries": 11
+  },
+  {
+   "library": "org.apache.commons:commons-compress",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.20.1-osera-00001",
+   "fixed_entries": 1
   },
   {
    "library": "org.apache.commons:commons-text",
