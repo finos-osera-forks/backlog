@@ -49093,6 +49093,17 @@
       "first_seen": "2026-11-13T10:13:32Z"
     },
     {
+      "coordinate": "org.apache.commons:commons-compress@1.20.1-osera-00004",
+      "library": "org.apache.commons:commons-compress",
+      "base": "1.20",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 1.21, uploaded on 1.20",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.commons:commons-compress@1.20.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 1.21, uploaded on 1.20",
+      "first_seen": "2026-11-13T10:25:14Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-1.2-api",
       "base": "2.17.2",
