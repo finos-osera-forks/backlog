@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 229,
+  "version": 230,
   "metadata": {
-    "timestamp": "2026-11-13T08:22:51Z",
+    "timestamp": "2026-11-13T08:37:51Z",
     "tools": {
       "components": [
         {
@@ -1987,6 +1987,17 @@
       "name": "commons-compress",
       "version": "1.20.1-osera-00001",
       "purl": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.20.1-osera-00002",
+      "purl": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00002"
     },
     {
       "type": "library",
@@ -36636,6 +36647,58 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-35515 on pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00002",
+      "id": "CVE-2021-35515",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-35515"
+      },
+      "references": [
+        {
+          "id": "GHSA-7hfm-57qf-j43q",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7hfm-57qf-j43q"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-13T08:25:14Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-35516 on pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00002",
+      "id": "CVE-2021-35516",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-35516"
+      },
+      "references": [
+        {
+          "id": "GHSA-crv7-7245-f45f",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-crv7-7245-f45f"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-13T08:25:14Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00002"
         }
       ]
     },
