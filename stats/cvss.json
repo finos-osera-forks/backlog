@@ -16,6 +16,10 @@
    "value": 7.5,
    "version": "3.1"
   },
+  "CVE-2021-35516": {
+   "value": 7.5,
+   "version": "3.1"
+  },
   "CVE-2023-46233": {
    "value": 9.1,
    "version": "3.1"
@@ -235,6 +239,7 @@
   "CVE-2020-28469": "This affects the package glob-parent before 5.1.2.",
   "CVE-2020-9488": "Improper validation of certificate with host mismatch in Apache Log4j SMTP appender.",
   "CVE-2021-35515": "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop.",
+  "CVE-2021-35516": "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
   "CVE-2023-46233": "crypto-js is a JavaScript library of crypto standards.",
   "CVE-2025-8885": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc.",
   "CVE-2026-12185": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
@@ -295,6 +300,7 @@
   "CVE-2020-28469",
   "CVE-2020-9488",
   "CVE-2021-35515",
+  "CVE-2021-35516",
   "CVE-2023-46233",
   "CVE-2025-8885",
   "CVE-2026-12185",
