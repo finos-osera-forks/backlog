@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the commons-configuration-1.9.x line, built 2026-11-05T10:15:14Z by the line manager.
+  The OSERA BOM of the commons-configuration-1.9.x line, built 2026-11-13T13:38:53Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-commons-configuration-1.9.x</artifactId>
-  <version>2026.11.05</version>
+  <version>2026.11.13</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for commons-configuration-1.9.x</name>
   <dependencyManagement>
@@ -16,6 +16,11 @@
         <groupId>commons-configuration</groupId>
         <artifactId>commons-configuration</artifactId>
         <version>1.9.1-osera-00002</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-lang</groupId>
+        <artifactId>commons-lang</artifactId>
+        <version>2.6.1-osera-00001</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

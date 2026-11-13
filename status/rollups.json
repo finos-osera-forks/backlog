@@ -36,8 +36,8 @@
       "editions": []
     },
     "commons-configuration-1.9.x": {
-      "remediated": false,
-      "since": "2026-10-23T16:05:41Z",
+      "remediated": true,
+      "since": "2026-11-13T13:37:38Z",
       "editions": []
     },
     "commons-text-1.6.x": {
