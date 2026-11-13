@@ -1,7 +1,7 @@
 {
   "line": "velocity-1.7.x",
   "book_version": "v2026.11.13.4",
-  "as_of": "2026-11-13T13:17:22Z",
+  "as_of": "2026-11-13T13:37:38Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 2,
@@ -24,6 +24,7 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "promoted commons-lang:commons-lang@2.6.1-osera-00001 is on base 2.6, the line has commons-lang:commons-lang at 2.4",
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00001 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7",
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00002 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7"
   ],

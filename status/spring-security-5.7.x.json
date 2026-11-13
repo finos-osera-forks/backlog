@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.11.13.4",
-  "as_of": "2026-11-13T13:17:22Z",
+  "as_of": "2026-11-13T13:37:38Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 56,
@@ -1253,6 +1253,7 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00021 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00022 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023 is on base 2.19.4, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
+    "promoted commons-lang:commons-lang@2.6.1-osera-00001 is on base 2.6, the line has commons-lang:commons-lang at 2.4",
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00001 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7",
     "promoted org.apache.velocity:velocity@1.6.4.1-osera-00002 is on base 1.6.4, the line has org.apache.velocity:velocity at 1.7",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00001 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
