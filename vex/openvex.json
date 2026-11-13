@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-13T13:42:51Z",
-  "version": 234,
+  "last_updated": "2026-11-13T13:57:51Z",
+  "version": 235,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -14441,6 +14441,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.velocity/velocity@1.7.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-24400",
+        "aliases": [
+          "GHSA-rqfh-9r24-8c9r"
+        ]
+      },
+      "timestamp": "2026-11-13T13:54:07Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.assertj/assertj-core@3.22.0.1-osera-00001"
         }
       ],
       "status": "fixed",
