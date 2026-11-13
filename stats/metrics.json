@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-13T10:43:19Z",
+ "as_of": "2026-11-13T13:57:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 424,
-  "library_versions": 598,
-  "releases": 1803,
-  "forks": 77,
-  "artifacts": 16155,
-  "cves": 226,
-  "cve_statements": 5509,
-  "release_sets": 589,
+  "libraries": 426,
+  "library_versions": 600,
+  "releases": 1805,
+  "forks": 79,
+  "artifacts": 16157,
+  "cves": 228,
+  "cve_statements": 5511,
+  "release_sets": 591,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -92,7 +92,7 @@
   },
   {
    "date": "2026-11-13",
-   "count": 6
+   "count": 8
   }
  ],
  "top_cves": [
@@ -819,6 +819,13 @@
    "fixed_entries": 4
   },
   {
+   "library": "commons-lang:commons-lang",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "2.6.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
    "library": "crypto-js",
    "ecosystem": "JavaScript",
    "releases": 1,
@@ -1258,6 +1265,13 @@
    "releases": 4,
    "latest": "1.7.1-osera-00002",
    "fixed_entries": 4
+  },
+  {
+   "library": "org.assertj:assertj-core",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "3.22.0.1-osera-00001",
+   "fixed_entries": 1
   },
   {
    "library": "org.bouncycastle:bcmail-jdk15",
