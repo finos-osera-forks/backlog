@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-13T10:43:19Z",
-  "version": 233,
+  "last_updated": "2026-11-13T13:42:51Z",
+  "version": 234,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -11950,6 +11950,22 @@
       "products": [
         {
           "@id": "pkg:maven/commons-configuration/commons-configuration@1.9.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-48924",
+        "aliases": [
+          "GHSA-j288-q9x7-2f5v"
+        ]
+      },
+      "timestamp": "2026-11-13T13:37:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/commons-lang/commons-lang@2.6.1-osera-00001"
         }
       ],
       "status": "fixed",
