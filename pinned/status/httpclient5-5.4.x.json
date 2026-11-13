@@ -1,11 +1,20 @@
 {
   "line": "httpclient5-5.4.x",
   "book_version": "v2026.11.12.35",
-  "as_of": "2026-11-12T19:00:49Z",
-  "status": "not fixed",
-  "chain": "",
+  "as_of": "2026-11-13T07:48:45Z",
+  "status": "in progress",
+  "chain": "complete",
   "in_scope": 3,
-  "fixed": [],
+  "fixed": [
+    {
+      "cve": "CVE-2026-64607",
+      "library": "org.apache.httpcomponents.client5:httpclient5",
+      "coordinate": "org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00001",
+      "at": "2026-11-13T07:48:45Z"
+    }
+  ],
   "in_progress": [],
   "open": [
     {
@@ -15,10 +24,6 @@
     {
       "cve": "CVE-2026-54428",
       "library": "org.apache.httpcomponents.core5:httpcore5-h2"
-    },
-    {
-      "cve": "CVE-2026-64607",
-      "library": "org.apache.httpcomponents.client5:httpclient5"
     }
   ],
   "not_remediable": [],
