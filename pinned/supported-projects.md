@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-13T07:37:18Z. Written by the line manager reconciler.
+Generated 2026-11-13T07:48:45Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -47,7 +47,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | in progress | 3 | 2 | 67% | 0 | 0 | 1 | 0 |
-| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
+| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
@@ -120,7 +120,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.apache.commons:commons-text | 1.7 | commons-text-1.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.7.1-osera-00002 | 1.7.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.8 | commons-text-1.8.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.8.1-osera-00002 | 1.8.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-text | 1.9 | commons-text-1.9.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.1-osera-00002 | 1.9.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.httpcomponents.client5:httpclient5 | 5.4.4 | httpclient5-5.4.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.httpcomponents.client5:httpclient5 | 5.4.4 | httpclient5-5.4.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.4.4.1-osera-00001 | 5.4.4.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.httpcomponents.client5:httpclient5 | 5.5.2 | httpclient5-5.5.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.httpcomponents.core5:httpcore5 | 5.3.4 | httpclient5-5.4.x | listed by the BOM at 5.3.4 (org.apache.httpcomponents.client5:httpclient5-parent@5.4.4) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.httpcomponents.core5:httpcore5 | 5.3.6 | httpclient5-5.5.x, httpcore5-5.3.x | own project on httpcore5-5.3.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.3.6.1-osera-00004 | 5.3.6.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

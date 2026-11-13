@@ -1,7 +1,7 @@
 {
   "line": "httpclient5-5.5.x",
   "book_version": "v2026.11.12.35",
-  "as_of": "2026-11-12T19:00:49Z",
+  "as_of": "2026-11-13T07:48:45Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 3,
@@ -31,6 +31,8 @@
     }
   ],
   "not_remediable": [],
-  "discrepancies": [],
+  "discrepancies": [
+    "promoted org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00001 is on base 5.4.4, the line has org.apache.httpcomponents.client5:httpclient5 at 5.5.2"
+  ],
   "consume": "org.finos.osera:osera-bom-httpclient5-5.5.x@2026.11.05.2"
 }
