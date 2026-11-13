@@ -32,6 +32,10 @@
    "value": 9.1,
    "version": "3.1"
   },
+  "CVE-2024-7254": {
+   "value": 7.5,
+   "version": "3.1"
+  },
   "CVE-2025-8885": {
    "value": 6.3,
    "version": "4.0"
@@ -251,6 +255,7 @@
   "CVE-2021-35517": "When reading a specially crafted TAR archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
   "CVE-2021-36090": "When reading a specially crafted ZIP archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
   "CVE-2023-46233": "crypto-js is a JavaScript library of crypto standards.",
+  "CVE-2024-7254": "Any project that parses untrusted Protocol Buffers data containing an arbitrary number of nested groups / series of SGROUP tags can corrupted by exceeding the stack limit i.e.",
   "CVE-2025-8885": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc.",
   "CVE-2026-12185": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
   "CVE-2026-12611": "A client may issue HTTP/2 requests to a Jetty server that result in blocking writes that are never unblocked, eventually causing all threads to be blocked and the whole server to become unresponsive.",
@@ -314,6 +319,7 @@
   "CVE-2021-35517",
   "CVE-2021-36090",
   "CVE-2023-46233",
+  "CVE-2024-7254",
   "CVE-2025-8885",
   "CVE-2026-12185",
   "CVE-2026-12611",
