@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T15:37:52Z",
-  "feed_version": 235,
+  "generated_at": "2026-11-13T15:42:52Z",
+  "feed_version": 236,
   "sets": [
     {
       "set": "finos-osera-forks/patch-assertj-core@v3.22.0.1-osera-00001",
@@ -8302,14 +8302,8 @@
         "com.google.protobuf:protobuf-javalite@3.19.6.1-osera-00001",
         "com.google.protobuf:protobuf-parent@3.19.6.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-11-13T15:37:52Z",
-      "reasons": [
-        {
-          "member": "com.google.protobuf:protobuf-java@3.19.6.1-osera-00001",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-reactor@v2020.0.47.1-osera-00001",
