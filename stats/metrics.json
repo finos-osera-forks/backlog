@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-12T18:43:26Z",
+ "as_of": "2026-11-13T07:52:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 422,
-  "library_versions": 596,
-  "releases": 1797,
-  "forks": 75,
-  "artifacts": 16149,
-  "cves": 220,
-  "cve_statements": 5493,
-  "release_sets": 583,
+  "libraries": 423,
+  "library_versions": 597,
+  "releases": 1798,
+  "forks": 76,
+  "artifacts": 16150,
+  "cves": 221,
+  "cve_statements": 5494,
+  "release_sets": 584,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -89,6 +89,10 @@
   {
    "date": "2026-11-12",
    "count": 203
+  },
+  {
+   "date": "2026-11-13",
+   "count": 1
   }
  ],
  "top_cves": [
@@ -953,6 +957,13 @@
    "releases": 8,
    "latest": "1.9.1-osera-00002",
    "fixed_entries": 8
+  },
+  {
+   "library": "org.apache.httpcomponents.client5:httpclient5",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "5.4.4.1-osera-00001",
+   "fixed_entries": 1
   },
   {
    "library": "org.apache.httpcomponents.core5:httpcore5",
