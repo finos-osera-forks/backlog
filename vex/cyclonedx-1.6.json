@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 234,
+  "version": 235,
   "metadata": {
-    "timestamp": "2026-11-13T13:42:51Z",
+    "timestamp": "2026-11-13T13:57:51Z",
     "tools": {
       "components": [
         {
@@ -2625,6 +2625,17 @@
       "name": "velocity",
       "version": "1.7.1-osera-00002",
       "purl": "pkg:maven/org.apache.velocity/velocity@1.7.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.assertj/assertj-core@3.22.0.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.assertj",
+      "name": "assertj-core",
+      "version": "3.22.0.1-osera-00001",
+      "purl": "pkg:maven/org.assertj/assertj-core@3.22.0.1-osera-00001"
     },
     {
       "type": "library",
@@ -39273,6 +39284,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.velocity/velocity@1.7.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-24400 on pkg:maven/org.assertj/assertj-core@3.22.0.1-osera-00001",
+      "id": "CVE-2026-24400",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-24400"
+      },
+      "references": [
+        {
+          "id": "GHSA-rqfh-9r24-8c9r",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rqfh-9r24-8c9r"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-13T13:54:07Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.assertj/assertj-core@3.22.0.1-osera-00001"
         }
       ]
     },
