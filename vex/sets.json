@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T13:57:51Z",
+  "generated_at": "2026-11-13T15:37:52Z",
   "feed_version": 235,
   "sets": [
     {
@@ -8291,6 +8291,25 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-protobuf@v3.19.6.1-osera-00001",
+      "members": 5,
+      "coordinates": [
+        "com.google.protobuf:protobuf-bom@3.19.6.1-osera-00001",
+        "com.google.protobuf:protobuf-java-util@3.19.6.1-osera-00001",
+        "com.google.protobuf:protobuf-java@3.19.6.1-osera-00001",
+        "com.google.protobuf:protobuf-javalite@3.19.6.1-osera-00001",
+        "com.google.protobuf:protobuf-parent@3.19.6.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-13T15:37:52Z",
+      "reasons": [
+        {
+          "member": "com.google.protobuf:protobuf-java@3.19.6.1-osera-00001",
+          "why": "not promoted"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-reactor@v2020.0.47.1-osera-00001",
