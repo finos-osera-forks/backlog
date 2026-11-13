@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 235,
+  "version": 236,
   "metadata": {
-    "timestamp": "2026-11-13T13:57:51Z",
+    "timestamp": "2026-11-13T15:42:52Z",
     "tools": {
       "components": [
         {
@@ -1550,6 +1550,28 @@
       "name": "jackson-jr-all",
       "version": "2.19.4.1-osera-00023",
       "purl": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-all@2.19.4.1-osera-00023"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.protobuf/protobuf-java@3.19.6.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.google.protobuf",
+      "name": "protobuf-java",
+      "version": "3.19.6.1-osera-00001",
+      "purl": "pkg:maven/com.google.protobuf/protobuf-java@3.19.6.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.protobuf/protobuf-javalite@3.19.6.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.google.protobuf",
+      "name": "protobuf-javalite",
+      "version": "3.19.6.1-osera-00001",
+      "purl": "pkg:maven/com.google.protobuf/protobuf-javalite@3.19.6.1-osera-00001"
     },
     {
       "type": "library",
@@ -34454,6 +34476,58 @@
       "affects": [
         {
           "ref": "pkg:maven/com.fasterxml.jackson.jr/jackson-jr-all@2.19.4.1-osera-00023"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-7254 on pkg:maven/com.google.protobuf/protobuf-java@3.19.6.1-osera-00001",
+      "id": "CVE-2024-7254",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7254"
+      },
+      "references": [
+        {
+          "id": "GHSA-735f-pc8j-v9w8",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-735f-pc8j-v9w8"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-13T15:34:09Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.google.protobuf/protobuf-java@3.19.6.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-7254 on pkg:maven/com.google.protobuf/protobuf-javalite@3.19.6.1-osera-00001",
+      "id": "CVE-2024-7254",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7254"
+      },
+      "references": [
+        {
+          "id": "GHSA-735f-pc8j-v9w8",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-735f-pc8j-v9w8"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-13T15:33:51Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.google.protobuf/protobuf-javalite@3.19.6.1-osera-00001"
         }
       ]
     },
