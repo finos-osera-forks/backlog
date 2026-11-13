@@ -658,6 +658,24 @@
       "first_seen": "2026-11-05T16:43:43Z"
     },
     {
+      "coordinate": "com.google.protobuf:protobuf-bom@3.19.6.1-osera-00001",
+      "library": "com.google.protobuf:protobuf-bom",
+      "base": "3.19.6",
+      "kind": "BOM",
+      "released_with": "patch-protobuf v3.19.6.1-osera-00001",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-11-13T15:33:09Z"
+    },
+    {
+      "coordinate": "com.google.protobuf:protobuf-parent@3.19.6.1-osera-00001",
+      "library": "com.google.protobuf:protobuf-parent",
+      "base": "3.19.6",
+      "kind": "parent",
+      "released_with": "patch-protobuf v3.19.6.1-osera-00001",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-13T15:33:09Z"
+    },
+    {
       "coordinate": "io.projectreactor:reactor-bom@2020.0.47.1-osera-00001",
       "library": "io.projectreactor:reactor-bom",
       "base": "2020.0.47",
