@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-13T10:27:51Z",
-  "version": 232,
+  "last_updated": "2026-11-13T10:43:19Z",
+  "version": 233,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -12991,6 +12991,86 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-35515",
+        "aliases": [
+          "GHSA-7hfm-57qf-j43q"
+        ]
+      },
+      "timestamp": "2026-11-13T10:38:52Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-35516",
+        "aliases": [
+          "GHSA-crv7-7245-f45f"
+        ]
+      },
+      "timestamp": "2026-11-13T10:38:52Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-35517",
+        "aliases": [
+          "GHSA-xqfj-vm6h-2x34"
+        ]
+      },
+      "timestamp": "2026-11-13T10:38:52Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-36090",
+        "aliases": [
+          "GHSA-mc84-pj99-q6hh"
+        ]
+      },
+      "timestamp": "2026-11-13T10:38:52Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-25710",
+        "aliases": [
+          "GHSA-4g9r-vxhx-9pgx"
+        ]
+      },
+      "timestamp": "2026-11-13T10:38:52Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.commons/commons-compress@1.20.1-osera-00005"
         }
       ],
       "status": "fixed",
