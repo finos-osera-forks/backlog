@@ -48760,6 +48760,15 @@
       "first_seen": "2026-11-13T15:33:09Z"
     },
     {
+      "coordinate": "com.google.protobuf:protobuf-java@3.19.6.1-osera-00001",
+      "library": "com.google.protobuf:protobuf-java",
+      "base": "3.19.6",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "com.google.protobuf:protobuf-java@3.19.6.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-13T15:35:38Z"
+    },
+    {
       "coordinate": "com.google.protobuf:protobuf-javalite@3.19.6.1-osera-00001",
       "library": "com.google.protobuf:protobuf-javalite",
       "base": "3.19.6",
