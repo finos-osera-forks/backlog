@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.13",
-  "as_of": "2026-11-13T08:25:55Z",
+  "as_of": "2026-11-13T10:13:32Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 361,
@@ -2821,6 +2821,7 @@
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00003 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted org.apache.commons:commons-compress@1.20.1-osera-00001 is on base 1.20, the line has org.apache.commons:commons-compress at 1.21",
     "promoted org.apache.commons:commons-compress@1.20.1-osera-00002 is on base 1.20, the line has org.apache.commons:commons-compress at 1.21",
+    "promoted org.apache.commons:commons-compress@1.20.1-osera-00003 is on base 1.20, the line has org.apache.commons:commons-compress at 1.21",
     "promoted org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00001 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-api at 2.17.2",
     "promoted org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00002 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-api at 2.17.2",
     "promoted org.apache.logging.log4j:log4j-api@2.24.3.1-osera-00003 is on base 2.24.3, the line has org.apache.logging.log4j:log4j-api at 2.17.2",
