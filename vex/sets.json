@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T23:07:52Z",
+  "generated_at": "2026-11-14T23:17:51Z",
   "feed_version": 249,
   "sets": [
     {
@@ -418,6 +418,24 @@
       ],
       "state": "in the feed",
       "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.47.1-osera-00007",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15on@1.47.1-osera-00007",
+        "org.bouncycastle:bcpg-jdk15on@1.47.1-osera-00007",
+        "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00007",
+        "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00007"
+      ],
+      "state": "held",
+      "held_since": "2026-11-14T23:17:51Z",
+      "reasons": [
+        {
+          "member": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00007",
+          "why": "not promoted"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00001",
