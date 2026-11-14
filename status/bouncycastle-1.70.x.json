@@ -1,7 +1,7 @@
 {
   "line": "bouncycastle-1.70.x",
   "book_version": "v2026.11.14.36",
-  "as_of": "2026-11-14T22:23:53Z",
+  "as_of": "2026-11-14T22:35:05Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 6,
@@ -773,6 +773,7 @@
     "promoted org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00001 is on base 1.47, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00002 is on base 1.47, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00003 is on base 1.47, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
+    "promoted org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00004 is on base 1.47, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00001 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00002 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
     "promoted org.bouncycastle:bcpkix-jdk15on@1.69.1-osera-00003 is on base 1.69, the line has org.bouncycastle:bcpkix-jdk15on at 1.70",
