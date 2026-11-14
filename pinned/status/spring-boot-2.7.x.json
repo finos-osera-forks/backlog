@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.14.36",
-  "as_of": "2026-11-14T20:03:04Z",
+  "as_of": "2026-11-14T20:33:51Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -3053,6 +3053,8 @@
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00006 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00007 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
     "promoted org.springframework.security:spring-security-web@5.7.14.1-osera-00008 is on base 5.7.14, the line has org.springframework.security:spring-security-web at 5.7.11",
+    "promoted org.springframework.ws:spring-ws-core@4.0.17.1-osera-00001 is on base 4.0.17, the line has org.springframework.ws:spring-ws-core at 3.1.8",
+    "promoted org.springframework.ws:spring-xml@4.0.17.1-osera-00001 is on base 4.0.17, the line has org.springframework.ws:spring-xml at 3.1.8",
     "promoted org.yaml:snakeyaml@1.16.1-osera-00001 is on base 1.16, the line has org.yaml:snakeyaml at 1.30, 1.33",
     "promoted org.yaml:snakeyaml@1.16.1-osera-00002 is on base 1.16, the line has org.yaml:snakeyaml at 1.30, 1.33",
     "promoted org.yaml:snakeyaml@1.16.1-osera-00003 is on base 1.16, the line has org.yaml:snakeyaml at 1.30, 1.33",
