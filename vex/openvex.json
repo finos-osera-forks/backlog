@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-14T21:07:52Z",
-  "version": 239,
+  "last_updated": "2026-11-14T21:17:59Z",
+  "version": 240,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -69581,6 +69581,70 @@
           "GHSA-gg9r-wr4p-w63h"
         ]
       },
+      "timestamp": "2026-11-14T21:09:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40995",
+        "aliases": [
+          "GHSA-6mfm-98wv-32wm"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40996",
+        "aliases": [
+          "GHSA-p7qj-2q5w-f9r7"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40998",
+        "aliases": [
+          "GHSA-2mpf-m756-hxjm"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40994",
+        "aliases": [
+          "GHSA-gg9r-wr4p-w63h"
+        ]
+      },
       "timestamp": "2026-10-15T12:54:31Z",
       "products": [
         {
@@ -69697,6 +69761,70 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40994",
+        "aliases": [
+          "GHSA-gg9r-wr4p-w63h"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40995",
+        "aliases": [
+          "GHSA-6mfm-98wv-32wm"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40996",
+        "aliases": [
+          "GHSA-p7qj-2q5w-f9r7"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40998",
+        "aliases": [
+          "GHSA-2mpf-m756-hxjm"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00004"
         }
       ],
       "status": "fixed",
@@ -69841,6 +69969,70 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40994",
+        "aliases": [
+          "GHSA-gg9r-wr4p-w63h"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40995",
+        "aliases": [
+          "GHSA-6mfm-98wv-32wm"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40996",
+        "aliases": [
+          "GHSA-p7qj-2q5w-f9r7"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40998",
+        "aliases": [
+          "GHSA-2mpf-m756-hxjm"
+        ]
+      },
+      "timestamp": "2026-11-14T21:09:28Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00004"
         }
       ],
       "status": "fixed",
