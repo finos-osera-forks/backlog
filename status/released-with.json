@@ -7111,6 +7111,15 @@
       "first_seen": "2026-11-14T21:10:14Z"
     },
     {
+      "coordinate": "org.springframework.ws:spring-ws-bom@4.0.17.1-osera-00005",
+      "library": "org.springframework.ws:spring-ws-bom",
+      "base": "4.0.17",
+      "kind": "BOM",
+      "released_with": "patch-spring-ws v4.0.17.1-osera-00005",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-11-14T21:22:50Z"
+    },
+    {
       "coordinate": "org.springframework.ws:spring-ws@3.1.8.1-osera-00001",
       "library": "org.springframework.ws:spring-ws",
       "base": "3.1.8",
