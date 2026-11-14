@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T22:17:51Z",
-  "feed_version": 245,
+  "generated_at": "2026-11-14T22:27:51Z",
+  "feed_version": 246,
   "sets": [
     {
       "set": "finos-osera-forks/patch-assertj-core@v3.22.0.1-osera-00001",
@@ -370,6 +370,18 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.47.1-osera-00003",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15on@1.47.1-osera-00003",
+        "org.bouncycastle:bcpg-jdk15on@1.47.1-osera-00003",
+        "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00003",
+        "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 4
     },
     {
       "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00001",
