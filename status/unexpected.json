@@ -52449,6 +52449,23 @@
       "first_seen": "2026-11-14T22:47:30Z"
     },
     {
+      "coordinate": "org.bouncycastle:bcmail-jdk15on@1.47.1-osera-00006",
+      "library": "org.bouncycastle:bcmail-jdk15on",
+      "base": "1.47",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x",
+        "bouncycastle-1.78.x",
+        "bouncycastle-1.46.x",
+        "bouncycastle-1.70.x",
+        "bouncycastle-1.69.x"
+      ],
+      "words": "org.bouncycastle:bcmail-jdk15on@1.47.1-osera-00006: not listed by any line; other artifacts of org.bouncycastle are in the dependency graph of spring-boot-2.7.x, spring-security-5.7.x, bouncycastle-1.78.x, bouncycastle-1.46.x, bouncycastle-1.70.x, bouncycastle-1.69.x, so the graph there may have a hole",
+      "first_seen": "2026-11-14T23:01:30Z"
+    },
+    {
       "coordinate": "org.bouncycastle:bcpg-jdk15on@1.47.1-osera-00001",
       "library": "org.bouncycastle:bcpg-jdk15on",
       "base": "1.47",
@@ -52534,6 +52551,23 @@
       "first_seen": "2026-11-14T22:47:30Z"
     },
     {
+      "coordinate": "org.bouncycastle:bcpg-jdk15on@1.47.1-osera-00006",
+      "library": "org.bouncycastle:bcpg-jdk15on",
+      "base": "1.47",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x",
+        "bouncycastle-1.78.x",
+        "bouncycastle-1.46.x",
+        "bouncycastle-1.70.x",
+        "bouncycastle-1.69.x"
+      ],
+      "words": "org.bouncycastle:bcpg-jdk15on@1.47.1-osera-00006: not listed by any line; other artifacts of org.bouncycastle are in the dependency graph of spring-boot-2.7.x, spring-security-5.7.x, bouncycastle-1.78.x, bouncycastle-1.46.x, bouncycastle-1.70.x, bouncycastle-1.69.x, so the graph there may have a hole",
+      "first_seen": "2026-11-14T23:01:30Z"
+    },
+    {
       "coordinate": "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00001",
       "library": "org.bouncycastle:bcpkix-jdk15on",
       "base": "1.47",
@@ -52604,6 +52638,20 @@
       "first_seen": "2026-11-14T22:47:30Z"
     },
     {
+      "coordinate": "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00006",
+      "library": "org.bouncycastle:bcpkix-jdk15on",
+      "base": "1.47",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 1.70 and spring-security-5.7.x at 1.70 and bouncycastle-1.70.x at 1.70 and bouncycastle-1.69.x at 1.69, uploaded on 1.47",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x",
+        "bouncycastle-1.70.x",
+        "bouncycastle-1.69.x"
+      ],
+      "words": "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00006: in the dependency graph of spring-boot-2.7.x at 1.70 and spring-security-5.7.x at 1.70 and bouncycastle-1.70.x at 1.70 and bouncycastle-1.69.x at 1.69, uploaded on 1.47",
+      "first_seen": "2026-11-14T23:01:30Z"
+    },
+    {
       "coordinate": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00001",
       "library": "org.bouncycastle:bcprov-jdk15on",
       "base": "1.47",
@@ -52672,6 +52720,20 @@
       ],
       "words": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 1.70 and spring-security-5.7.x at 1.70 and bouncycastle-1.70.x at 1.70 and bouncycastle-1.69.x at 1.69, uploaded on 1.47",
       "first_seen": "2026-11-14T22:50:32Z"
+    },
+    {
+      "coordinate": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00006",
+      "library": "org.bouncycastle:bcprov-jdk15on",
+      "base": "1.47",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 1.70 and spring-security-5.7.x at 1.70 and bouncycastle-1.70.x at 1.70 and bouncycastle-1.69.x at 1.69, uploaded on 1.47",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x",
+        "bouncycastle-1.70.x",
+        "bouncycastle-1.69.x"
+      ],
+      "words": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00006: in the dependency graph of spring-boot-2.7.x at 1.70 and spring-security-5.7.x at 1.70 and bouncycastle-1.70.x at 1.70 and bouncycastle-1.69.x at 1.69, uploaded on 1.47",
+      "first_seen": "2026-11-14T23:01:30Z"
     },
     {
       "coordinate": "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00001",
