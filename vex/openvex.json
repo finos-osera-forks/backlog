@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-13T15:42:52Z",
-  "version": 236,
+  "last_updated": "2026-11-14T20:37:51Z",
+  "version": 237,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -69480,6 +69480,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2026-40998",
+        "aliases": [
+          "GHSA-2mpf-m756-hxjm"
+        ]
+      },
+      "timestamp": "2026-11-14T20:34:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-40994",
         "aliases": [
           "GHSA-gg9r-wr4p-w63h"
@@ -69505,6 +69521,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40998",
+        "aliases": [
+          "GHSA-2mpf-m756-hxjm"
+        ]
+      },
+      "timestamp": "2026-11-14T20:34:29Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00001"
         }
       ],
       "status": "fixed",
@@ -69553,6 +69585,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-40998",
+        "aliases": [
+          "GHSA-2mpf-m756-hxjm"
+        ]
+      },
+      "timestamp": "2026-11-14T20:34:29Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00001"
         }
       ],
       "status": "fixed",
