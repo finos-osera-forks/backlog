@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-14T20:57:52Z",
+ "as_of": "2026-11-14T21:27:53Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 432,
   "library_versions": 611,
-  "releases": 1808,
+  "releases": 1811,
   "forks": 80,
-  "artifacts": 16174,
-  "cves": 229,
-  "cve_statements": 5522,
-  "release_sets": 594,
+  "artifacts": 16192,
+  "cves": 232,
+  "cve_statements": 5558,
+  "release_sets": 597,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -96,7 +96,7 @@
   },
   {
    "date": "2026-11-14",
-   "count": 12
+   "count": 30
   }
  ],
  "top_cves": [
@@ -3072,44 +3072,44 @@
   {
    "library": "org.springframework.ws:spring-ws-bom",
    "ecosystem": "Java",
-   "releases": 2,
-   "latest": "4.0.17.1-osera-00002",
+   "releases": 5,
+   "latest": "4.0.17.1-osera-00005",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ws:spring-ws-core",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "4.0.17.1-osera-00002",
-   "fixed_entries": 7
+   "releases": 9,
+   "latest": "4.0.17.1-osera-00005",
+   "fixed_entries": 19
   },
   {
    "library": "org.springframework.ws:spring-ws-security",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "4.0.17.1-osera-00002",
-   "fixed_entries": 5
+   "releases": 9,
+   "latest": "4.0.17.1-osera-00005",
+   "fixed_entries": 17
   },
   {
    "library": "org.springframework.ws:spring-ws-support",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "4.0.17.1-osera-00002",
+   "releases": 9,
+   "latest": "4.0.17.1-osera-00005",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ws:spring-ws-test",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "4.0.17.1-osera-00002",
+   "releases": 9,
+   "latest": "4.0.17.1-osera-00005",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.ws:spring-xml",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "4.0.17.1-osera-00002",
-   "fixed_entries": 6
+   "releases": 9,
+   "latest": "4.0.17.1-osera-00005",
+   "fixed_entries": 18
   },
   {
    "library": "org.springframework:spring-aop",
