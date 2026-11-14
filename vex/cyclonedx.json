@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 244,
+  "version": 245,
   "metadata": {
-    "timestamp": "2026-11-14T22:07:51Z",
+    "timestamp": "2026-11-14T22:17:51Z",
     "tools": {
       "components": [
         {
@@ -4190,6 +4190,17 @@
       "name": "bcprov-jdk15on",
       "version": "1.47.1-osera-00001",
       "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk15on",
+      "version": "1.47.1-osera-00002",
+      "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00002"
     },
     {
       "type": "library",
@@ -61484,6 +61495,58 @@
       "affects": [
         {
           "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2013-1624 on pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00002",
+      "id": "CVE-2013-1624",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-1624"
+      },
+      "references": [
+        {
+          "id": "GHSA-8353-fgcr-xfhx",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-8353-fgcr-xfhx"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-14T22:12:09Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2015-7940 on pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00002",
+      "id": "CVE-2015-7940",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-7940"
+      },
+      "references": [
+        {
+          "id": "GHSA-4mv7-cq75-3qjm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4mv7-cq75-3qjm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-14T22:12:09Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00002"
         }
       ]
     },
