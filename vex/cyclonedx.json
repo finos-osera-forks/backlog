@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 236,
+  "version": 237,
   "metadata": {
-    "timestamp": "2026-11-13T15:42:52Z",
+    "timestamp": "2026-11-14T20:37:51Z",
     "tools": {
       "components": [
         {
@@ -13257,6 +13257,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.ws",
+      "name": "spring-ws-core",
+      "version": "4.0.17.1-osera-00001",
+      "purl": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00001"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00003",
       "supplier": {
         "name": "moderne"
@@ -13276,6 +13287,17 @@
       "name": "spring-ws-security",
       "version": "3.1.8.1-osera-00004",
       "purl": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00004"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.ws",
+      "name": "spring-ws-security",
+      "version": "4.0.17.1-osera-00001",
+      "purl": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00001"
     },
     {
       "type": "library",
@@ -13309,6 +13331,17 @@
       "name": "spring-xml",
       "version": "3.1.8.1-osera-00004",
       "purl": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00004"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.ws",
+      "name": "spring-xml",
+      "version": "4.0.17.1-osera-00001",
+      "purl": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00001"
     },
     {
       "type": "library",
@@ -120325,6 +120358,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2026-40998 on pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00001",
+      "id": "CVE-2026-40998",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40998"
+      },
+      "references": [
+        {
+          "id": "GHSA-2mpf-m756-hxjm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2mpf-m756-hxjm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-14T20:34:34Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.ws/spring-ws-core@4.0.17.1-osera-00001"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-40994 on pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00003",
       "id": "CVE-2026-40994",
       "source": {
@@ -120373,6 +120432,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.ws/spring-ws-security@3.1.8.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-40998 on pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00001",
+      "id": "CVE-2026-40998",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40998"
+      },
+      "references": [
+        {
+          "id": "GHSA-2mpf-m756-hxjm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2mpf-m756-hxjm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-14T20:34:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.ws/spring-ws-security@4.0.17.1-osera-00001"
         }
       ]
     },
@@ -120451,6 +120536,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.ws/spring-xml@3.1.8.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-40998 on pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00001",
+      "id": "CVE-2026-40998",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40998"
+      },
+      "references": [
+        {
+          "id": "GHSA-2mpf-m756-hxjm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2mpf-m756-hxjm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-14T20:34:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.ws/spring-xml@4.0.17.1-osera-00001"
         }
       ]
     },
