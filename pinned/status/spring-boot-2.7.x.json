@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.14.30",
-  "as_of": "2026-11-14T18:48:46Z",
+  "as_of": "2026-11-14T18:56:32Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 361,
+  "in_scope": 363,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -1690,6 +1690,10 @@
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
+      "cve": "CVE-2026-79677",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
+    },
+    {
       "cve": "CVE-2026-80353",
       "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
@@ -1704,6 +1708,10 @@
     {
       "cve": "CVE-2026-84939",
       "library": "org.freemarker:freemarker"
+    },
+    {
+      "cve": "CVE-2026-87022",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
     },
     {
       "cve": "CVE-2026-89425",
