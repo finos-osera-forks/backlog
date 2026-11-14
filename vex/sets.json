@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T20:37:51Z",
-  "feed_version": 237,
+  "generated_at": "2026-11-14T20:57:52Z",
+  "feed_version": 238,
   "sets": [
     {
       "set": "finos-osera-forks/patch-assertj-core@v3.22.0.1-osera-00001",
@@ -20855,6 +20855,20 @@
       ],
       "state": "in the feed",
       "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-ws@v4.0.17.1-osera-00002",
+      "members": 6,
+      "coordinates": [
+        "org.springframework.ws:spring-ws-bom@4.0.17.1-osera-00002",
+        "org.springframework.ws:spring-ws-core@4.0.17.1-osera-00002",
+        "org.springframework.ws:spring-ws-security@4.0.17.1-osera-00002",
+        "org.springframework.ws:spring-ws-support@4.0.17.1-osera-00002",
+        "org.springframework.ws:spring-ws-test@4.0.17.1-osera-00002",
+        "org.springframework.ws:spring-xml@4.0.17.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 6
     },
     {
       "set": "finos-osera-forks/patch-struts1@v1.3.10.1-osera-00001",
