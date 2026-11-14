@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 243,
+  "version": 244,
   "metadata": {
-    "timestamp": "2026-11-14T21:47:53Z",
+    "timestamp": "2026-11-14T22:07:51Z",
     "tools": {
       "components": [
         {
@@ -4176,6 +4176,17 @@
       "name": "bcprov-jdk15",
       "version": "1.46.1-osera-00030",
       "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15@1.46.1-osera-00030"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk15on",
+      "version": "1.47.1-osera-00001",
+      "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00001"
     },
     {
       "type": "library",
@@ -61444,6 +61455,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15@1.46.1-osera-00030"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2013-1624 on pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00001",
+      "id": "CVE-2013-1624",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2013-1624"
+      },
+      "references": [
+        {
+          "id": "GHSA-8353-fgcr-xfhx",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-8353-fgcr-xfhx"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-14T21:59:30Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00001"
         }
       ]
     },
