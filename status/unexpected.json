@@ -52598,6 +52598,20 @@
       "first_seen": "2026-11-14T22:23:53Z"
     },
     {
+      "coordinate": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00004",
+      "library": "org.bouncycastle:bcprov-jdk15on",
+      "base": "1.47",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 1.70 and spring-security-5.7.x at 1.70 and bouncycastle-1.70.x at 1.70 and bouncycastle-1.69.x at 1.69, uploaded on 1.47",
+      "lines": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x",
+        "bouncycastle-1.70.x",
+        "bouncycastle-1.69.x"
+      ],
+      "words": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00004: in the dependency graph of spring-boot-2.7.x at 1.70 and spring-security-5.7.x at 1.70 and bouncycastle-1.70.x at 1.70 and bouncycastle-1.69.x at 1.69, uploaded on 1.47",
+      "first_seen": "2026-11-14T22:37:36Z"
+    },
+    {
       "coordinate": "org.bouncycastle:bctls-jdk15on@1.69.1-osera-00001",
       "library": "org.bouncycastle:bctls-jdk15on",
       "base": "1.69",
