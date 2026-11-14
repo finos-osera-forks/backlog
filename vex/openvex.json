@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-14T22:27:51Z",
-  "version": 246,
+  "last_updated": "2026-11-14T22:47:51Z",
+  "version": 247,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -29636,6 +29636,86 @@
       "products": [
         {
           "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2013-1624",
+        "aliases": [
+          "GHSA-8353-fgcr-xfhx"
+        ]
+      },
+      "timestamp": "2026-11-14T22:36:13Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2015-7940",
+        "aliases": [
+          "GHSA-4mv7-cq75-3qjm"
+        ]
+      },
+      "timestamp": "2026-11-14T22:36:13Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000338",
+        "aliases": [
+          "GHSA-4vhj-98r6-424h"
+        ]
+      },
+      "timestamp": "2026-11-14T22:36:13Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000339",
+        "aliases": [
+          "GHSA-c8xf-m4ff-jcxj"
+        ]
+      },
+      "timestamp": "2026-11-14T22:36:13Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00004"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2016-1000342",
+        "aliases": [
+          "GHSA-qcj7-g2j5-g7r3"
+        ]
+      },
+      "timestamp": "2026-11-14T22:36:13Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.bouncycastle/bcprov-jdk15on@1.47.1-osera-00004"
         }
       ],
       "status": "fixed",
