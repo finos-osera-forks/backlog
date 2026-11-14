@@ -62451,6 +62451,17 @@
       "first_seen": "2026-11-14T21:22:50Z"
     },
     {
+      "coordinate": "org.springframework.ws:spring-ws-core@4.0.17.1-osera-00006",
+      "library": "org.springframework.ws:spring-ws-core",
+      "base": "4.0.17",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 3.1.8, uploaded on 4.0.17",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-core@4.0.17.1-osera-00006: in the dependency graph of spring-boot-2.7.x at 3.1.8, uploaded on 4.0.17",
+      "first_seen": "2026-11-14T21:32:12Z"
+    },
+    {
       "coordinate": "org.springframework.ws:spring-ws-security@3.1.8.1-osera-00001",
       "library": "org.springframework.ws:spring-ws-security",
       "base": "3.1.8",
@@ -62548,6 +62559,17 @@
       ],
       "words": "org.springframework.ws:spring-ws-security@4.0.17.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
       "first_seen": "2026-11-14T21:22:50Z"
+    },
+    {
+      "coordinate": "org.springframework.ws:spring-ws-security@4.0.17.1-osera-00006",
+      "library": "org.springframework.ws:spring-ws-security",
+      "base": "4.0.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-security@4.0.17.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "first_seen": "2026-11-14T21:32:12Z"
     },
     {
       "coordinate": "org.springframework.ws:spring-ws-support@3.1.8.1-osera-00001",
@@ -62649,6 +62671,17 @@
       "first_seen": "2026-11-14T21:22:50Z"
     },
     {
+      "coordinate": "org.springframework.ws:spring-ws-support@4.0.17.1-osera-00006",
+      "library": "org.springframework.ws:spring-ws-support",
+      "base": "4.0.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-support@4.0.17.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "first_seen": "2026-11-14T21:32:12Z"
+    },
+    {
       "coordinate": "org.springframework.ws:spring-ws-test@3.1.8.1-osera-00001",
       "library": "org.springframework.ws:spring-ws-test",
       "base": "3.1.8",
@@ -62748,6 +62781,17 @@
       "first_seen": "2026-11-14T21:22:50Z"
     },
     {
+      "coordinate": "org.springframework.ws:spring-ws-test@4.0.17.1-osera-00006",
+      "library": "org.springframework.ws:spring-ws-test",
+      "base": "4.0.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-ws-test@4.0.17.1-osera-00006: listed by the BOM of spring-boot-2.7.x at 3.1.8, not in its dependency graph",
+      "first_seen": "2026-11-14T21:32:12Z"
+    },
+    {
       "coordinate": "org.springframework.ws:spring-xml@4.0.17.1-osera-00001",
       "library": "org.springframework.ws:spring-xml",
       "base": "4.0.17",
@@ -62801,6 +62845,17 @@
       ],
       "words": "org.springframework.ws:spring-xml@4.0.17.1-osera-00005: in the dependency graph of spring-boot-2.7.x at 3.1.8, uploaded on 4.0.17",
       "first_seen": "2026-11-14T21:22:50Z"
+    },
+    {
+      "coordinate": "org.springframework.ws:spring-xml@4.0.17.1-osera-00006",
+      "library": "org.springframework.ws:spring-xml",
+      "base": "4.0.17",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 3.1.8, uploaded on 4.0.17",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.ws:spring-xml@4.0.17.1-osera-00006: in the dependency graph of spring-boot-2.7.x at 3.1.8, uploaded on 4.0.17",
+      "first_seen": "2026-11-14T21:32:12Z"
     },
     {
       "coordinate": "org.yaml:snakeyaml@1.16.1-osera-00001",
