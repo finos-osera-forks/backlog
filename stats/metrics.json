@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-14T22:57:51Z",
+ "as_of": "2026-11-14T23:27:53Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 434,
   "library_versions": 615,
-  "releases": 1818,
+  "releases": 1820,
   "forks": 80,
-  "artifacts": 16224,
-  "cves": 233,
-  "cve_statements": 5615,
-  "release_sets": 604,
+  "artifacts": 16232,
+  "cves": 234,
+  "cve_statements": 5630,
+  "release_sets": 606,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -96,7 +96,7 @@
   },
   {
    "date": "2026-11-14",
-   "count": 62
+   "count": 70
   }
  ],
  "top_cves": [
@@ -1322,22 +1322,22 @@
   {
    "library": "org.bouncycastle:bcmail-jdk15on",
    "ecosystem": "Java",
-   "releases": 5,
-   "latest": "1.47.1-osera-00005",
+   "releases": 7,
+   "latest": "1.47.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpg-jdk15on",
    "ecosystem": "Java",
-   "releases": 5,
-   "latest": "1.47.1-osera-00005",
+   "releases": 7,
+   "latest": "1.47.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "ecosystem": "Java",
-   "releases": 82,
-   "latest": "1.47.1-osera-00005",
+   "releases": 84,
+   "latest": "1.47.1-osera-00007",
    "fixed_entries": 356
   },
   {
@@ -1357,9 +1357,9 @@
   {
    "library": "org.bouncycastle:bcprov-jdk15on",
    "ecosystem": "Java",
-   "releases": 82,
-   "latest": "1.47.1-osera-00005",
-   "fixed_entries": 1235
+   "releases": 84,
+   "latest": "1.47.1-osera-00007",
+   "fixed_entries": 1250
   },
   {
    "library": "org.bouncycastle:bcprov-jdk18on",
