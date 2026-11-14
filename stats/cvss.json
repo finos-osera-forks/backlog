@@ -112,6 +112,10 @@
    "value": 5.4,
    "version": "3.1"
   },
+  "CVE-2026-40997": {
+   "value": 5.3,
+   "version": "3.1"
+  },
   "CVE-2026-41000": {
    "value": 3.7,
    "version": "3.1"
@@ -283,6 +287,7 @@
   "CVE-2026-40974": "Spring Boot's Cassandra auto-configuration does not perform hostname verification when establishing an SSL connection to Cassandra.",
   "CVE-2026-40975": "Values produced by ${random.value} are not suitable for use as secrets.",
   "CVE-2026-40995": "X509AuthenticationProvider could issue a fully authenticated X509AuthenticationToken when a presented certificate mapped to UserDetails, without applying Spring Security's standard account lifecycle checks (disabled, locked, expired, or cr…",
+  "CVE-2026-40997": "Several Spring WS integration paths with Spring Security could surface detailed account state (for example locked or disabled user semantics) to remote SOAP clients through exception messages or callback outcomes, instead of failing with g…",
   "CVE-2026-41000": "Wss4jSecurityInterceptor did not consistently wire Apache WSS4J ReplayCache instances into RequestData for validation-time checks.",
   "CVE-2026-47849": "Spring Data REST does not guard identifier (@Id) and version (@Version) properties against mutation via RFC 6902 JSON Patch (application/json-patch+json) requests.",
   "CVE-2026-47864": "SerializingHttpMessageConverter deserializes the body of incoming HTTP requests with a raw java.io.ObjectInputStream and no class filtering.",
@@ -349,6 +354,7 @@
   "CVE-2026-40974",
   "CVE-2026-40975",
   "CVE-2026-40995",
+  "CVE-2026-40997",
   "CVE-2026-41000",
   "CVE-2026-47849",
   "CVE-2026-47864",
