@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-15T09:57:54Z",
-  "version": 257,
+  "last_updated": "2026-11-15T10:18:13Z",
+  "version": 258,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -14022,6 +14022,38 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2019-0230",
+        "aliases": [
+          "GHSA-wp4h-pvgw-5727"
+        ]
+      },
+      "timestamp": "2026-11-15T10:06:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0233",
+        "aliases": [
+          "GHSA-ccp5-gg58-pxfm"
+        ]
+      },
+      "timestamp": "2026-11-15T10:06:06Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2023-34396",
         "aliases": [
           "GHSA-4g42-gqrg-4633"
@@ -14457,6 +14489,38 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0230",
+        "aliases": [
+          "GHSA-wp4h-pvgw-5727"
+        ]
+      },
+      "timestamp": "2026-11-15T10:06:04Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0233",
+        "aliases": [
+          "GHSA-ccp5-gg58-pxfm"
+        ]
+      },
+      "timestamp": "2026-11-15T10:06:04Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00002"
         }
       ],
       "status": "fixed",
