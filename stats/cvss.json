@@ -60,12 +60,20 @@
    "value": 9.8,
    "version": "3.1"
   },
+  "CVE-2024-53677": {
+   "value": 9.8,
+   "version": "3.1"
+  },
   "CVE-2024-7254": {
    "value": 7.5,
    "version": "3.1"
   },
   "CVE-2025-64775": {
    "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2025-66675": {
+   "value": 8.2,
    "version": "3.1"
   },
   "CVE-2025-8885": {
@@ -310,8 +318,10 @@
   "CVE-2023-41835": "When a Multipart request is performed but some of the fields exceed the maxStringLength limit, the upload files will remain in struts.multipart.saveDir even if the request has been denied.",
   "CVE-2023-46233": "crypto-js is a JavaScript library of crypto standards.",
   "CVE-2023-50164": "An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.",
+  "CVE-2024-53677": "File upload logic in Apache Struts is flawed.",
   "CVE-2024-7254": "Any project that parses untrusted Protocol Buffers data containing an arbitrary number of nested groups / series of SGROUP tags can corrupted by exceeding the stack limit i.e.",
   "CVE-2025-64775": "Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes disk exhaustion.",
+  "CVE-2025-66675": "Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes disk exhaustion.",
   "CVE-2025-8885": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc.",
   "CVE-2026-12185": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
   "CVE-2026-12611": "A client may issue HTTP/2 requests to a Jetty server that result in blocking writes that are never unblocked, eventually causing all threads to be blocked and the whole server to become unresponsive.",
@@ -386,8 +396,10 @@
   "CVE-2023-41835",
   "CVE-2023-46233",
   "CVE-2023-50164",
+  "CVE-2024-53677",
   "CVE-2024-7254",
   "CVE-2025-64775",
+  "CVE-2025-66675",
   "CVE-2025-8885",
   "CVE-2026-12185",
   "CVE-2026-12611",
