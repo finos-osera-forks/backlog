@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-11-15T00:27:54Z",
-  "feed_version": 255,
+  "generated_at": "2026-11-15T09:37:51Z",
+  "feed_version": 256,
   "sets": [
+    {
+      "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
+      "members": 2,
+      "coordinates": [
+        "com.jayway.jsonpath:json-path-assert@2.7.0.1-osera-00001",
+        "com.jayway.jsonpath:json-path@2.7.0.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
     {
       "set": "finos-osera-forks/patch-assertj-core@v3.22.0.1-osera-00001",
       "members": 1,

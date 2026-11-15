@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-15T00:27:54Z",
-  "version": 255,
+  "last_updated": "2026-11-15T09:37:51Z",
+  "version": 256,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -11476,6 +11476,22 @@
       "products": [
         {
           "@id": "pkg:maven/com.google.protobuf/protobuf-javalite@3.19.6.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-51074",
+        "aliases": [
+          "GHSA-pfh2-hfmq-phg5"
+        ]
+      },
+      "timestamp": "2026-11-15T09:25:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.jayway.jsonpath/json-path@2.7.0.1-osera-00001"
         }
       ],
       "status": "fixed",
