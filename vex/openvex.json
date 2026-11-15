@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-15T10:47:51Z",
-  "version": 261,
+  "last_updated": "2026-11-15T10:57:50Z",
+  "version": 262,
   "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
   "statements": [
     {
@@ -14246,6 +14246,102 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2019-0230",
+        "aliases": [
+          "GHSA-wp4h-pvgw-5727"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:35Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0233",
+        "aliases": [
+          "GHSA-ccp5-gg58-pxfm"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:35Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-17530",
+        "aliases": [
+          "GHSA-jc35-q369-45pv"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:35Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-31805",
+        "aliases": [
+          "GHSA-v8j6-6c2r-r27c"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:35Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34149",
+        "aliases": [
+          "GHSA-8f6x-v685-g2xc"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:35Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34396",
+        "aliases": [
+          "GHSA-4g42-gqrg-4633"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:35Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2023-34396",
         "aliases": [
           "GHSA-4g42-gqrg-4633"
@@ -14905,6 +15001,102 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0230",
+        "aliases": [
+          "GHSA-wp4h-pvgw-5727"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:42Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2019-0233",
+        "aliases": [
+          "GHSA-ccp5-gg58-pxfm"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:42Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-17530",
+        "aliases": [
+          "GHSA-jc35-q369-45pv"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:42Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-31805",
+        "aliases": [
+          "GHSA-v8j6-6c2r-r27c"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:42Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34149",
+        "aliases": [
+          "GHSA-8f6x-v685-g2xc"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:42Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00006"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-34396",
+        "aliases": [
+          "GHSA-4g42-gqrg-4633"
+        ]
+      },
+      "timestamp": "2026-11-15T10:53:42Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00006"
         }
       ],
       "status": "fixed",
