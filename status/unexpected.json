@@ -52375,6 +52375,15 @@
       "first_seen": "2026-11-05T13:24:03Z"
     },
     {
+      "coordinate": "org.apache.struts.xwork:xwork-core@2.3.37.1-osera-00001",
+      "library": "org.apache.struts.xwork:xwork-core",
+      "base": "2.3.37",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.struts.xwork:xwork-core@2.3.37.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-15T09:54:22Z"
+    },
+    {
       "coordinate": "org.apache.struts:struts2-core@2.3.37.1-osera-00001",
       "library": "org.apache.struts:struts2-core",
       "base": "2.3.37",
