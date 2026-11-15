@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 258,
+  "version": 259,
   "metadata": {
-    "timestamp": "2026-11-15T10:18:13Z",
+    "timestamp": "2026-11-15T10:27:51Z",
     "tools": {
       "components": [
         {
@@ -2496,6 +2496,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts.xwork",
+      "name": "xwork-core",
+      "version": "2.3.37.1-osera-00003",
+      "purl": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00003"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00002",
       "supplier": {
         "name": "moderne"
@@ -2658,6 +2669,17 @@
       "name": "struts2-core",
       "version": "2.3.37.1-osera-00002",
       "purl": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts",
+      "name": "struts2-core",
+      "version": "2.3.37.1-osera-00003",
+      "purl": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00003"
     },
     {
       "type": "library",
@@ -39096,6 +39118,84 @@
       ]
     },
     {
+      "bom-ref": "CVE-2019-0230 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00003",
+      "id": "CVE-2019-0230",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0230"
+      },
+      "references": [
+        {
+          "id": "GHSA-wp4h-pvgw-5727",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wp4h-pvgw-5727"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T10:17:34Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0233 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00003",
+      "id": "CVE-2019-0233",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0233"
+      },
+      "references": [
+        {
+          "id": "GHSA-ccp5-gg58-pxfm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-ccp5-gg58-pxfm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T10:17:34Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-17530 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00003",
+      "id": "CVE-2020-17530",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17530"
+      },
+      "references": [
+        {
+          "id": "GHSA-jc35-q369-45pv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jc35-q369-45pv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T10:17:34Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00003"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2023-34396 on pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00002",
       "id": "CVE-2023-34396",
       "source": {
@@ -39854,6 +39954,84 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0230 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00003",
+      "id": "CVE-2019-0230",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0230"
+      },
+      "references": [
+        {
+          "id": "GHSA-wp4h-pvgw-5727",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wp4h-pvgw-5727"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T10:17:46Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0233 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00003",
+      "id": "CVE-2019-0233",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0233"
+      },
+      "references": [
+        {
+          "id": "GHSA-ccp5-gg58-pxfm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-ccp5-gg58-pxfm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T10:17:46Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-17530 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00003",
+      "id": "CVE-2020-17530",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17530"
+      },
+      "references": [
+        {
+          "id": "GHSA-jc35-q369-45pv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jc35-q369-45pv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T10:17:46Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00003"
         }
       ]
     },
