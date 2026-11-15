@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T10:47:51Z",
-  "feed_version": 261,
+  "generated_at": "2026-11-15T10:57:50Z",
+  "feed_version": 262,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -21218,6 +21218,17 @@
       ],
       "state": "in the feed",
       "statements": 10
+    },
+    {
+      "set": "finos-osera-forks/patch-struts@v2.3.37.1-osera-00006",
+      "members": 3,
+      "coordinates": [
+        "org.apache.struts.xwork:xwork-core@2.3.37.1-osera-00006",
+        "org.apache.struts:struts2-core@2.3.37.1-osera-00006",
+        "org.apache.struts:struts2-parent@2.3.37.1-osera-00006"
+      ],
+      "state": "in the feed",
+      "statements": 12
     },
     {
       "set": "finos-osera-forks/patch-velocity@v1.6.4.1-osera-00001",
