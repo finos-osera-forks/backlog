@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T00:07:50Z",
-  "feed_version": 253,
+  "generated_at": "2026-11-15T00:17:52Z",
+  "feed_version": 254,
   "sets": [
     {
       "set": "finos-osera-forks/patch-assertj-core@v3.22.0.1-osera-00001",
@@ -476,18 +476,8 @@
         "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00011",
         "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00011"
       ],
-      "state": "held",
-      "held_since": "2026-11-15T00:07:50Z",
-      "reasons": [
-        {
-          "member": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00011",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00011",
-          "why": "evidence chain not complete: files: not checked (bcpkix-jdk15on-1.47.1-osera-00011.jar.sha1, bcpkix-jdk15on-1.47.1-osera-00011.pom.sha1 not there yet: the last file landed 13s ago and the gate copies the checksums after the jar and the pom); signatures: failed (no signature next to the jar (bcpkix-jdk15on-1.47.1-osera-00011.jar.asc))"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 12
     },
     {
       "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00001",
