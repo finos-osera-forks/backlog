@@ -44,8 +44,20 @@
    "value": 7.5,
    "version": "3.1"
   },
+  "CVE-2023-34149": {
+   "value": 6.5,
+   "version": "3.1"
+  },
+  "CVE-2023-41835": {
+   "value": 7.5,
+   "version": "3.1"
+  },
   "CVE-2023-46233": {
    "value": 9.1,
+   "version": "3.1"
+  },
+  "CVE-2023-50164": {
+   "value": 9.8,
    "version": "3.1"
   },
   "CVE-2024-7254": {
@@ -290,7 +302,10 @@
   "CVE-2021-35516": "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
   "CVE-2021-35517": "When reading a specially crafted TAR archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
   "CVE-2021-36090": "When reading a specially crafted ZIP archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
+  "CVE-2023-34149": "Allocation of Resources Without Limits or Throttling vulnerability in Apache Software Foundation Apache Struts.This issue affects Apache Struts: through 2.5.30, through 6.1.2.",
+  "CVE-2023-41835": "When a Multipart request is performed but some of the fields exceed the maxStringLength limit, the upload files will remain in struts.multipart.saveDir even if the request has been denied.",
   "CVE-2023-46233": "crypto-js is a JavaScript library of crypto standards.",
+  "CVE-2023-50164": "An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.",
   "CVE-2024-7254": "Any project that parses untrusted Protocol Buffers data containing an arbitrary number of nested groups / series of SGROUP tags can corrupted by exceeding the stack limit i.e.",
   "CVE-2025-8885": "Allocation of Resources Without Limits or Throttling vulnerability in Legion of the Bouncy Castle Inc.",
   "CVE-2026-12185": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
@@ -362,7 +377,10 @@
   "CVE-2021-35516",
   "CVE-2021-35517",
   "CVE-2021-36090",
+  "CVE-2023-34149",
+  "CVE-2023-41835",
   "CVE-2023-46233",
+  "CVE-2023-50164",
   "CVE-2024-7254",
   "CVE-2025-8885",
   "CVE-2026-12185",
