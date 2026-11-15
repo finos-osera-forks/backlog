@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-14T23:57:52Z",
+ "as_of": "2026-11-15T00:27:54Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 434,
   "library_versions": 615,
-  "releases": 1823,
+  "releases": 1825,
   "forks": 80,
-  "artifacts": 16244,
+  "artifacts": 16252,
   "cves": 234,
-  "cve_statements": 5660,
-  "release_sets": 609,
+  "cve_statements": 5685,
+  "release_sets": 611,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -97,6 +97,10 @@
   {
    "date": "2026-11-14",
    "count": 82
+  },
+  {
+   "date": "2026-11-15",
+   "count": 8
   }
  ],
  "top_cves": [
@@ -213,19 +217,19 @@
    "cvss_version": "3.1"
   },
   {
+   "id": "CVE-2024-29857",
+   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+   "fixed_entries": 99,
+   "libraries": 2,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
    "id": "CVE-2026-58062",
    "summary": "In Bouncy Castle for Java before 1.85, Stapled OCSP response accepted without binding to the checked certificate.",
    "fixed_entries": 99,
    "libraries": 2,
    "cvss": 9.1,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2024-29857",
-   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
-   "fixed_entries": 97,
-   "libraries": 2,
-   "cvss": 7.5,
    "cvss_version": "3.1"
   },
   {
@@ -1322,22 +1326,22 @@
   {
    "library": "org.bouncycastle:bcmail-jdk15on",
    "ecosystem": "Java",
-   "releases": 10,
-   "latest": "1.47.1-osera-00010",
+   "releases": 12,
+   "latest": "1.47.1-osera-00012",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpg-jdk15on",
    "ecosystem": "Java",
-   "releases": 10,
-   "latest": "1.47.1-osera-00010",
+   "releases": 12,
+   "latest": "1.47.1-osera-00012",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "ecosystem": "Java",
-   "releases": 87,
-   "latest": "1.47.1-osera-00010",
+   "releases": 89,
+   "latest": "1.47.1-osera-00012",
    "fixed_entries": 356
   },
   {
@@ -1357,9 +1361,9 @@
   {
    "library": "org.bouncycastle:bcprov-jdk15on",
    "ecosystem": "Java",
-   "releases": 87,
-   "latest": "1.47.1-osera-00010",
-   "fixed_entries": 1280
+   "releases": 89,
+   "latest": "1.47.1-osera-00012",
+   "fixed_entries": 1305
   },
   {
    "library": "org.bouncycastle:bcprov-jdk18on",
