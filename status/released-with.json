@@ -1009,6 +1009,15 @@
       "first_seen": "2026-11-15T10:52:58Z"
     },
     {
+      "coordinate": "org.apache.struts:struts2-parent@2.3.37.1-osera-00007",
+      "library": "org.apache.struts:struts2-parent",
+      "base": "2.3.37",
+      "kind": "parent",
+      "released_with": "patch-struts v2.3.37.1-osera-00007",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-15T11:05:26Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-bom@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-bom",
       "base": "9.4.58.v20250814",

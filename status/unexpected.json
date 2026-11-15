@@ -52429,6 +52429,15 @@
       "first_seen": "2026-11-15T10:52:58Z"
     },
     {
+      "coordinate": "org.apache.struts.xwork:xwork-core@2.3.37.1-osera-00007",
+      "library": "org.apache.struts.xwork:xwork-core",
+      "base": "2.3.37",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.struts.xwork:xwork-core@2.3.37.1-osera-00007: not listed by any line",
+      "first_seen": "2026-11-15T11:05:26Z"
+    },
+    {
       "coordinate": "org.apache.struts:struts2-core@2.3.37.1-osera-00001",
       "library": "org.apache.struts:struts2-core",
       "base": "2.3.37",
@@ -52499,6 +52508,18 @@
       ],
       "words": "org.apache.struts:struts2-core@2.3.37.1-osera-00006: not listed by any line; other artifacts of org.apache.struts are in the dependency graph of struts-1.3.x, so the graph there may have a hole",
       "first_seen": "2026-11-15T10:52:58Z"
+    },
+    {
+      "coordinate": "org.apache.struts:struts2-core@2.3.37.1-osera-00007",
+      "library": "org.apache.struts:struts2-core",
+      "base": "2.3.37",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "struts-1.3.x"
+      ],
+      "words": "org.apache.struts:struts2-core@2.3.37.1-osera-00007: not listed by any line; other artifacts of org.apache.struts are in the dependency graph of struts-1.3.x, so the graph there may have a hole",
+      "first_seen": "2026-11-15T11:05:26Z"
     },
     {
       "coordinate": "org.bouncycastle:bcmail-jdk15on@1.47.1-osera-00001",
