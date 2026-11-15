@@ -8,6 +8,14 @@
    "value": 9.8,
    "version": "3.1"
   },
+  "CVE-2019-0233": {
+   "value": 7.5,
+   "version": "3.1"
+  },
+  "CVE-2020-17530": {
+   "value": 9.8,
+   "version": "3.1"
+  },
   "CVE-2020-28469": {
    "value": 7.5,
    "version": "3.1"
@@ -269,6 +277,8 @@
   "CVE-2013-1624": "The TLS implementation in the Bouncy Castle Java library before 1.48 and C# library before 1.8 does not properly consider timing side-channel attacks on a noncompliant MAC check operation during the processing of malformed CBC padding, whi…",
   "CVE-2018-5382": "The default BKS keystore use an HMAC that is only 16 bits long, which can allow an attacker to compromise the integrity of a BKS keystore.",
   "CVE-2019-0230": "Apache Struts 2.0.0 to 2.5.20 forced double OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution.",
+  "CVE-2019-0233": "An access permission override in Apache Struts 2.0.0 to 2.5.20 may cause a Denial of Service when performing a file upload.",
+  "CVE-2020-17530": "Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution.",
   "CVE-2020-28469": "This affects the package glob-parent before 5.1.2.",
   "CVE-2020-9488": "Improper validation of certificate with host mismatch in Apache Log4j SMTP appender.",
   "CVE-2021-35515": "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop.",
@@ -338,6 +348,8 @@
   "CVE-2013-1624",
   "CVE-2018-5382",
   "CVE-2019-0230",
+  "CVE-2019-0233",
+  "CVE-2020-17530",
   "CVE-2020-28469",
   "CVE-2020-9488",
   "CVE-2021-35515",
