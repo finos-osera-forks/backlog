@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 256,
+  "version": 257,
   "metadata": {
-    "timestamp": "2026-11-15T09:37:51Z",
+    "timestamp": "2026-11-15T09:57:54Z",
     "tools": {
       "components": [
         {
@@ -2474,6 +2474,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts.xwork",
+      "name": "xwork-core",
+      "version": "2.3.37.1-osera-00001",
+      "purl": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00001"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00002",
       "supplier": {
         "name": "moderne"
@@ -2614,6 +2625,17 @@
       "name": "struts-tiles",
       "version": "1.3.10.1-osera-00007",
       "purl": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00007"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts",
+      "name": "struts2-core",
+      "version": "2.3.37.1-osera-00001",
+      "purl": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00001"
     },
     {
       "type": "library",
@@ -38974,6 +38996,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2019-0230 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00001",
+      "id": "CVE-2019-0230",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0230"
+      },
+      "references": [
+        {
+          "id": "GHSA-wp4h-pvgw-5727",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wp4h-pvgw-5727"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T09:54:09Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00001"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2023-34396 on pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00002",
       "id": "CVE-2023-34396",
       "source": {
@@ -39654,6 +39702,32 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.struts/struts-tiles@1.3.10.1-osera-00007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0230 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00001",
+      "id": "CVE-2019-0230",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0230"
+      },
+      "references": [
+        {
+          "id": "GHSA-wp4h-pvgw-5727",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wp4h-pvgw-5727"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T09:45:13Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00001"
         }
       ]
     },
