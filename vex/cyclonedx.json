@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 265,
+  "version": 266,
   "metadata": {
-    "timestamp": "2026-11-15T11:37:52Z",
+    "timestamp": "2026-11-15T11:57:52Z",
     "tools": {
       "components": [
         {
@@ -2576,6 +2576,28 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts.xwork",
+      "name": "xwork-core",
+      "version": "2.3.37.1-osera-00010",
+      "purl": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts.xwork",
+      "name": "xwork-core",
+      "version": "2.3.37.1-osera-00011",
+      "purl": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00002",
       "supplier": {
         "name": "moderne"
@@ -2815,6 +2837,28 @@
       "name": "struts2-core",
       "version": "2.3.37.1-osera-00009",
       "purl": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00009"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts",
+      "name": "struts2-core",
+      "version": "2.3.37.1-osera-00010",
+      "purl": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.struts",
+      "name": "struts2-core",
+      "version": "2.3.37.1-osera-00011",
+      "purl": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
     },
     {
       "type": "library",
@@ -40345,6 +40389,604 @@
       ]
     },
     {
+      "bom-ref": "CVE-2019-0230 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2019-0230",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0230"
+      },
+      "references": [
+        {
+          "id": "GHSA-wp4h-pvgw-5727",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wp4h-pvgw-5727"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0233 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2019-0233",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0233"
+      },
+      "references": [
+        {
+          "id": "GHSA-ccp5-gg58-pxfm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-ccp5-gg58-pxfm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-17530 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2020-17530",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17530"
+      },
+      "references": [
+        {
+          "id": "GHSA-jc35-q369-45pv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jc35-q369-45pv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-31805 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2021-31805",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-31805"
+      },
+      "references": [
+        {
+          "id": "GHSA-v8j6-6c2r-r27c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-v8j6-6c2r-r27c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34149 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2023-34149",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34149"
+      },
+      "references": [
+        {
+          "id": "GHSA-8f6x-v685-g2xc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-8f6x-v685-g2xc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34396 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2023-34396",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34396"
+      },
+      "references": [
+        {
+          "id": "GHSA-4g42-gqrg-4633",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4g42-gqrg-4633"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-41835 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2023-41835",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41835"
+      },
+      "references": [
+        {
+          "id": "GHSA-729q-fcgp-r5xh",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-729q-fcgp-r5xh"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-50164 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2023-50164",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50164"
+      },
+      "references": [
+        {
+          "id": "GHSA-2j39-qcjm-428w",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2j39-qcjm-428w"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-53677 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2024-53677",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53677"
+      },
+      "references": [
+        {
+          "id": "GHSA-43mq-6xmg-29vm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-43mq-6xmg-29vm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-64775 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2025-64775",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64775"
+      },
+      "references": [
+        {
+          "id": "GHSA-xx7v-hqxh-cjr9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xx7v-hqxh-cjr9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-66675 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010",
+      "id": "CVE-2025-66675",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66675"
+      },
+      "references": [
+        {
+          "id": "GHSA-rg58-xhh7-mqjw",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rg58-xhh7-mqjw"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:48Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0230 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2019-0230",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0230"
+      },
+      "references": [
+        {
+          "id": "GHSA-wp4h-pvgw-5727",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wp4h-pvgw-5727"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0233 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2019-0233",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0233"
+      },
+      "references": [
+        {
+          "id": "GHSA-ccp5-gg58-pxfm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-ccp5-gg58-pxfm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-17530 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2020-17530",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17530"
+      },
+      "references": [
+        {
+          "id": "GHSA-jc35-q369-45pv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jc35-q369-45pv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-31805 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2021-31805",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-31805"
+      },
+      "references": [
+        {
+          "id": "GHSA-v8j6-6c2r-r27c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-v8j6-6c2r-r27c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34149 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2023-34149",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34149"
+      },
+      "references": [
+        {
+          "id": "GHSA-8f6x-v685-g2xc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-8f6x-v685-g2xc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34396 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2023-34396",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34396"
+      },
+      "references": [
+        {
+          "id": "GHSA-4g42-gqrg-4633",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4g42-gqrg-4633"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-41835 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2023-41835",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41835"
+      },
+      "references": [
+        {
+          "id": "GHSA-729q-fcgp-r5xh",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-729q-fcgp-r5xh"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-50164 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2023-50164",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50164"
+      },
+      "references": [
+        {
+          "id": "GHSA-2j39-qcjm-428w",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2j39-qcjm-428w"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-53677 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2024-53677",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53677"
+      },
+      "references": [
+        {
+          "id": "GHSA-43mq-6xmg-29vm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-43mq-6xmg-29vm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-64775 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2025-64775",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64775"
+      },
+      "references": [
+        {
+          "id": "GHSA-xx7v-hqxh-cjr9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xx7v-hqxh-cjr9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-66675 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2025-66675",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66675"
+      },
+      "references": [
+        {
+          "id": "GHSA-rg58-xhh7-mqjw",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rg58-xhh7-mqjw"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-68493 on pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011",
+      "id": "CVE-2025-68493",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68493"
+      },
+      "references": [
+        {
+          "id": "GHSA-qcfc-hmrc-59x7",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-qcfc-hmrc-59x7"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:54Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts.xwork/xwork-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2023-34396 on pkg:maven/org.apache.struts/struts-core@1.3.10.1-osera-00002",
       "id": "CVE-2023-34396",
       "source": {
@@ -42195,6 +42837,604 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00009"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0230 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2019-0230",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0230"
+      },
+      "references": [
+        {
+          "id": "GHSA-wp4h-pvgw-5727",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wp4h-pvgw-5727"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0233 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2019-0233",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0233"
+      },
+      "references": [
+        {
+          "id": "GHSA-ccp5-gg58-pxfm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-ccp5-gg58-pxfm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-17530 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2020-17530",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17530"
+      },
+      "references": [
+        {
+          "id": "GHSA-jc35-q369-45pv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jc35-q369-45pv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-31805 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2021-31805",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-31805"
+      },
+      "references": [
+        {
+          "id": "GHSA-v8j6-6c2r-r27c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-v8j6-6c2r-r27c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34149 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2023-34149",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34149"
+      },
+      "references": [
+        {
+          "id": "GHSA-8f6x-v685-g2xc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-8f6x-v685-g2xc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34396 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2023-34396",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34396"
+      },
+      "references": [
+        {
+          "id": "GHSA-4g42-gqrg-4633",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4g42-gqrg-4633"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-41835 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2023-41835",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41835"
+      },
+      "references": [
+        {
+          "id": "GHSA-729q-fcgp-r5xh",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-729q-fcgp-r5xh"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-50164 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2023-50164",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50164"
+      },
+      "references": [
+        {
+          "id": "GHSA-2j39-qcjm-428w",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2j39-qcjm-428w"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-53677 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2024-53677",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53677"
+      },
+      "references": [
+        {
+          "id": "GHSA-43mq-6xmg-29vm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-43mq-6xmg-29vm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-64775 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2025-64775",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64775"
+      },
+      "references": [
+        {
+          "id": "GHSA-xx7v-hqxh-cjr9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xx7v-hqxh-cjr9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-66675 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010",
+      "id": "CVE-2025-66675",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66675"
+      },
+      "references": [
+        {
+          "id": "GHSA-rg58-xhh7-mqjw",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rg58-xhh7-mqjw"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:42:50Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00010"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0230 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2019-0230",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0230"
+      },
+      "references": [
+        {
+          "id": "GHSA-wp4h-pvgw-5727",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wp4h-pvgw-5727"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-0233 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2019-0233",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-0233"
+      },
+      "references": [
+        {
+          "id": "GHSA-ccp5-gg58-pxfm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-ccp5-gg58-pxfm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-17530 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2020-17530",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17530"
+      },
+      "references": [
+        {
+          "id": "GHSA-jc35-q369-45pv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jc35-q369-45pv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-31805 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2021-31805",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-31805"
+      },
+      "references": [
+        {
+          "id": "GHSA-v8j6-6c2r-r27c",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-v8j6-6c2r-r27c"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34149 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2023-34149",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34149"
+      },
+      "references": [
+        {
+          "id": "GHSA-8f6x-v685-g2xc",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-8f6x-v685-g2xc"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-34396 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2023-34396",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34396"
+      },
+      "references": [
+        {
+          "id": "GHSA-4g42-gqrg-4633",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4g42-gqrg-4633"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-41835 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2023-41835",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41835"
+      },
+      "references": [
+        {
+          "id": "GHSA-729q-fcgp-r5xh",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-729q-fcgp-r5xh"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-50164 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2023-50164",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-50164"
+      },
+      "references": [
+        {
+          "id": "GHSA-2j39-qcjm-428w",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-2j39-qcjm-428w"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-53677 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2024-53677",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53677"
+      },
+      "references": [
+        {
+          "id": "GHSA-43mq-6xmg-29vm",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-43mq-6xmg-29vm"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-64775 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2025-64775",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64775"
+      },
+      "references": [
+        {
+          "id": "GHSA-xx7v-hqxh-cjr9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xx7v-hqxh-cjr9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-66675 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2025-66675",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66675"
+      },
+      "references": [
+        {
+          "id": "GHSA-rg58-xhh7-mqjw",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rg58-xhh7-mqjw"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-68493 on pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011",
+      "id": "CVE-2025-68493",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68493"
+      },
+      "references": [
+        {
+          "id": "GHSA-qcfc-hmrc-59x7",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-qcfc-hmrc-59x7"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-15T11:54:55Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
         }
       ]
     },
