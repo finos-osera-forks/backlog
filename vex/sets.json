@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T09:37:51Z",
+  "generated_at": "2026-11-15T09:47:50Z",
   "feed_version": 256,
   "sets": [
     {
@@ -21163,6 +21163,23 @@
       ],
       "state": "in the feed",
       "statements": 6
+    },
+    {
+      "set": "finos-osera-forks/patch-struts@v2.3.37.1-osera-00001",
+      "members": 3,
+      "coordinates": [
+        "org.apache.struts.xwork:xwork-core@2.3.37.1-osera-00001",
+        "org.apache.struts:struts2-core@2.3.37.1-osera-00001",
+        "org.apache.struts:struts2-parent@2.3.37.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-15T09:47:50Z",
+      "reasons": [
+        {
+          "member": "org.apache.struts.xwork:xwork-core@2.3.37.1-osera-00001",
+          "why": "not promoted"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-velocity@v1.6.4.1-osera-00001",
