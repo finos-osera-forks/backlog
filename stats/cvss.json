@@ -24,6 +24,10 @@
    "value": 3.7,
    "version": "3.1"
   },
+  "CVE-2021-31805": {
+   "value": 9.8,
+   "version": "3.1"
+  },
   "CVE-2021-35515": {
    "value": 7.5,
    "version": "3.1"
@@ -281,6 +285,7 @@
   "CVE-2020-17530": "Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution.",
   "CVE-2020-28469": "This affects the package glob-parent before 5.1.2.",
   "CVE-2020-9488": "Improper validation of certificate with host mismatch in Apache Log4j SMTP appender.",
+  "CVE-2021-31805": "The fix issued for CVE-2020-17530 was incomplete.",
   "CVE-2021-35515": "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop.",
   "CVE-2021-35516": "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
   "CVE-2021-35517": "When reading a specially crafted TAR archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
@@ -352,6 +357,7 @@
   "CVE-2020-17530",
   "CVE-2020-28469",
   "CVE-2020-9488",
+  "CVE-2021-31805",
   "CVE-2021-35515",
   "CVE-2021-35516",
   "CVE-2021-35517",
