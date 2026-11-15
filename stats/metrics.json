@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-15T09:57:54Z",
+ "as_of": "2026-11-15T10:27:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 439,
   "library_versions": 620,
-  "releases": 1827,
+  "releases": 1829,
   "forks": 82,
-  "artifacts": 16257,
-  "cves": 236,
-  "cve_statements": 5688,
-  "release_sets": 613,
+  "artifacts": 16263,
+  "cves": 238,
+  "cve_statements": 5698,
+  "release_sets": 615,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -100,7 +100,7 @@
   },
   {
    "date": "2026-11-15",
-   "count": 13
+   "count": 19
   }
  ],
  "top_cves": [
@@ -1305,9 +1305,9 @@
   {
    "library": "org.apache.struts.xwork:xwork-core",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "2.3.37.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 3,
+   "latest": "2.3.37.1-osera-00003",
+   "fixed_entries": 6
   },
   {
    "library": "org.apache.struts:struts-core",
@@ -1326,15 +1326,15 @@
   {
    "library": "org.apache.struts:struts2-core",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "2.3.37.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 3,
+   "latest": "2.3.37.1-osera-00003",
+   "fixed_entries": 6
   },
   {
    "library": "org.apache.struts:struts2-parent",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "2.3.37.1-osera-00001",
+   "releases": 3,
+   "latest": "2.3.37.1-osera-00003",
    "fixed_entries": 0
   },
   {
