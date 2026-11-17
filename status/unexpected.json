@@ -37901,6 +37901,20 @@
       "first_seen": "2026-11-05T13:19:38Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-guice@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-guice",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-guice@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-guice@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-guice",
       "base": "2.15.4",
@@ -40651,6 +40665,20 @@
       "first_seen": "2026-11-05T13:19:38Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-jsonSchema",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-jsonSchema",
       "base": "2.15.4",
@@ -41489,6 +41517,20 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00016: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
       "first_seen": "2026-11-05T13:19:38Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-kotlin",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-kotlin@2.15.4.1-osera-00001",
@@ -42331,6 +42373,20 @@
       "first_seen": "2026-11-05T13:19:38Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-mrbean",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-mrbean@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-mrbean",
       "base": "2.15.4",
@@ -43171,6 +43227,20 @@
       "first_seen": "2026-11-05T13:19:38Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser",
       "base": "2.15.4",
@@ -44009,6 +44079,20 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-osgi@2.13.5.1-osera-00016: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
       "first_seen": "2026-11-05T13:19:38Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-osgi@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-osgi",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-osgi@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-osgi@2.15.4.1-osera-00001",
@@ -45335,6 +45419,20 @@
       "first_seen": "2026-11-05T13:19:38Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-paranamer@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-paranamer",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-paranamer@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-paranamer@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-paranamer",
       "base": "2.15.4",
@@ -46173,6 +46271,20 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00016: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
       "first_seen": "2026-11-05T13:19:38Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.11",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.15.4.1-osera-00001",
@@ -47015,6 +47127,20 @@
       "first_seen": "2026-11-05T13:19:38Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
       "base": "2.15.4",
@@ -47855,6 +47981,20 @@
       "first_seen": "2026-11-05T13:19:38Z"
     },
     {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
+    },
+    {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.15.4.1-osera-00001",
       "library": "com.fasterxml.jackson.module:jackson-module-scala_2.13",
       "base": "2.15.4",
@@ -48693,6 +48833,20 @@
       ],
       "words": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00016: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
       "first_seen": "2026-11-05T13:19:38Z"
+    },
+    {
+      "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00017",
+      "library": "com.fasterxml.jackson.module:jackson-module-scala_3",
+      "base": "2.13.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "lines": [
+        "spring-boot-2.7.x",
+        "jackson-2.19.x",
+        "jackson-2.15.x",
+        "log4j2-2.24.x"
+      ],
+      "words": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00017: listed by the BOM of spring-boot-2.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4 and log4j2-2.24.x at 2.17.2, not in their dependency graphs",
+      "first_seen": "2026-11-17T15:13:08Z"
     },
     {
       "coordinate": "com.fasterxml.jackson.module:jackson-module-scala_3@2.15.4.1-osera-00001",
