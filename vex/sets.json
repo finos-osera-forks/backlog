@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T16:34:54Z",
-  "feed_version": 270,
+  "generated_at": "2026-11-17T16:50:44Z",
+  "feed_version": 271,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -15386,8 +15386,13 @@
         "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00074",
         "org.springframework.boot:spring-boot@2.7.18.1-osera-00074"
       ],
-      "state": "in the feed",
-      "statements": 6
+      "state": "held",
+      "held_since": "2026-11-17T16:50:44Z",
+      "reasons": [
+        {
+          "why": "line declaration not read: reading .osera/line.yaml of finos-osera-forks/patch-spring-boot at v2.7.18.1-osera-00074: GET https://raw.githubusercontent.com/finos-osera-forks/patch-spring-boot/v2.7.18.1-osera-00074/.osera/line.yaml: HTTP 500"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-spring-boot@v2.7.18.1-osera-00075",
