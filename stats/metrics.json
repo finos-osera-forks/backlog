@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-17T19:24:52Z",
+ "as_of": "2026-11-17T19:55:25Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 446,
   "library_versions": 672,
-  "releases": 1972,
+  "releases": 2029,
   "forks": 85,
-  "artifacts": 16698,
+  "artifacts": 16839,
   "cves": 250,
-  "cve_statements": 5907,
-  "release_sets": 634,
+  "cve_statements": 5925,
+  "release_sets": 637,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -104,7 +104,7 @@
   },
   {
    "date": "2026-11-17",
-   "count": 411
+   "count": 552
   }
  ],
  "top_cves": [
@@ -308,71 +308,71 @@
   {
    "library": "com.fasterxml.jackson.core:jackson-annotations",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.core:jackson-core",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 226
   },
   {
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.8.1-osera-00004",
-   "fixed_entries": 449
+   "releases": 69,
+   "latest": "2.9.10.8.1-osera-00007",
+   "fixed_entries": 467
   },
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-avro",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-csv",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-ion",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-properties",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -385,15 +385,15 @@
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -413,29 +413,29 @@
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-guava",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate3",
    "ecosystem": "Java",
-   "releases": 5,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 8,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate4",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -455,8 +455,8 @@
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-hppc",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -476,22 +476,22 @@
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-joda",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -504,22 +504,22 @@
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-json-org",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-jsr353",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -532,8 +532,8 @@
   {
    "library": "com.fasterxml.jackson.datatype:jackson-datatype-pcollections",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -581,50 +581,50 @@
   {
    "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.jr:jackson-jr-all",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 62
   },
   {
@@ -644,29 +644,29 @@
   {
    "library": "com.fasterxml.jackson.jr:jackson-jr-objects",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.jr:jackson-jr-retrofit2",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.jr:jackson-jr-stree",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.module:jackson-module-afterburner",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -686,8 +686,8 @@
   {
    "library": "com.fasterxml.jackson.module:jackson-module-guice",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -707,15 +707,15 @@
   {
    "library": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.module:jackson-module-jsonSchema",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -728,15 +728,15 @@
   {
    "library": "com.fasterxml.jackson.module:jackson-module-kotlin",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.module:jackson-module-mrbean",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -749,43 +749,43 @@
   {
    "library": "com.fasterxml.jackson.module:jackson-module-osgi",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.module:jackson-module-parameter-names",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.module:jackson-module-paranamer",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.module:jackson-module-scala_2.10",
    "ecosystem": "Java",
-   "releases": 5,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 8,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.module:jackson-module-scala_2.11",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "com.fasterxml.jackson.module:jackson-module-scala_2.12",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -805,8 +805,8 @@
   {
    "library": "com.fasterxml.jackson:jackson-bom",
    "ecosystem": "Java",
-   "releases": 66,
-   "latest": "2.9.10.20210106.1-osera-00004",
+   "releases": 69,
+   "latest": "2.9.10.20210106.1-osera-00007",
    "fixed_entries": 0
   },
   {
