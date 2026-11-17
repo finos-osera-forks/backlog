@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-15T11:57:52Z",
-  "version": 266,
-  "tooling": "osera-feed 9f05ff67e6fbb914ed8a84469441b4b5dac6bf6c",
+  "last_updated": "2026-11-17T07:54:52Z",
+  "version": 267,
+  "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
       "vulnerability": {
@@ -16601,6 +16601,54 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.struts/struts2-core@2.3.37.1-osera-00011"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-66516",
+        "aliases": [
+          "GHSA-f58c-gq56-vjjf"
+        ]
+      },
+      "timestamp": "2026-11-17T07:20:08Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.tika/tika-app@1.28.5.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-66516",
+        "aliases": [
+          "GHSA-f58c-gq56-vjjf"
+        ]
+      },
+      "timestamp": "2026-11-17T07:13:42Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-66516",
+        "aliases": [
+          "GHSA-f58c-gq56-vjjf"
+        ]
+      },
+      "timestamp": "2026-11-17T07:50:42Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00001"
         }
       ],
       "status": "fixed",

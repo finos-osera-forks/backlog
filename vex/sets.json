@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T07:25:10Z",
-  "feed_version": 266,
+  "generated_at": "2026-11-17T07:54:52Z",
+  "feed_version": 267,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -21295,14 +21295,8 @@
         "org.apache.tika:tika-parent@1.28.5.1-osera-00001",
         "org.apache.tika:tika-translate@1.28.5.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-11-17T07:25:10Z",
-      "reasons": [
-        {
-          "member": "org.apache.tika:tika-eval@1.28.5.1-osera-00001",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 3
     },
     {
       "set": "finos-osera-forks/patch-velocity@v1.6.4.1-osera-00001",
