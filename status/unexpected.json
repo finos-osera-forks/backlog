@@ -52606,6 +52606,15 @@
       "first_seen": "2026-11-15T11:54:14Z"
     },
     {
+      "coordinate": "org.apache.tika:tika-app@1.28.5.1-osera-00001",
+      "library": "org.apache.tika:tika-app",
+      "base": "1.28.5",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.tika:tika-app@1.28.5.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-17T07:19:45Z"
+    },
+    {
       "coordinate": "org.apache.tika:tika-core@1.28.5.1-osera-00001",
       "library": "org.apache.tika:tika-core",
       "base": "1.28.5",

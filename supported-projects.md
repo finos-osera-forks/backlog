@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-17T07:13:54Z. Written by the line manager reconciler.
+Generated 2026-11-17T07:19:45Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-366 libraries, 4948 patched version(s).
+367 libraries, 4949 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -418,6 +418,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j-web | 2.24.3 | listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs | spring-boot-2.7.x, log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 2.24.3.1-osera-00006 | 2.24.3.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.struts.xwork:xwork-core | 2.3.37 | not listed by any line |  |  | 2.3.37.1-osera-00001 2.3.37.1-osera-00002 2.3.37.1-osera-00003 2.3.37.1-osera-00004 2.3.37.1-osera-00005 2.3.37.1-osera-00006 2.3.37.1-osera-00007 2.3.37.1-osera-00008 2.3.37.1-osera-00009 2.3.37.1-osera-00010 2.3.37.1-osera-00011 | 2.3.37.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.struts:struts2-core | 2.3.37 | not listed by any line |  | struts-1.3.x | 2.3.37.1-osera-00001 2.3.37.1-osera-00002 2.3.37.1-osera-00003 2.3.37.1-osera-00004 2.3.37.1-osera-00005 2.3.37.1-osera-00006 2.3.37.1-osera-00007 2.3.37.1-osera-00008 2.3.37.1-osera-00009 2.3.37.1-osera-00010 2.3.37.1-osera-00011 | 2.3.37.1-osera-00011 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.tika:tika-app | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 | 1.28.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tika:tika-core | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 | 1.28.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tika:tika-translate | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 | 1.28.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcmail-jdk15on | 1.47 | not listed by any line |  | spring-boot-2.7.x, spring-security-5.7.x, bouncycastle-1.78.x, bouncycastle-1.46.x, bouncycastle-1.70.x, bouncycastle-1.69.x | 1.47.1-osera-00001 1.47.1-osera-00002 1.47.1-osera-00003 1.47.1-osera-00004 1.47.1-osera-00005 1.47.1-osera-00006 1.47.1-osera-00007 1.47.1-osera-00008 1.47.1-osera-00009 1.47.1-osera-00010 1.47.1-osera-00011 1.47.1-osera-00012 | 1.47.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
