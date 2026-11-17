@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T15:14:58Z",
-  "feed_version": 267,
+  "generated_at": "2026-11-17T15:20:06Z",
+  "feed_version": 268,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -3443,58 +3443,8 @@
         "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00017",
         "com.fasterxml.jackson:jackson-bom@2.13.5.1-osera-00017"
       ],
-      "state": "held",
-      "held_since": "2026-11-17T15:14:58Z",
-      "reasons": [
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-guice@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-mrbean@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-no-ctor-deser@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-osgi@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-parameter-names@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-paranamer@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.13@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_3@2.13.5.1-osera-00017",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 21
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.15.4.1-osera-00001",
