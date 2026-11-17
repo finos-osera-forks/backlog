@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 276,
+  "version": 277,
   "metadata": {
-    "timestamp": "2026-11-17T19:10:03Z",
+    "timestamp": "2026-11-17T19:20:02Z",
     "tools": {
       "components": [
         {
@@ -1440,6 +1440,17 @@
       "name": "jackson-databind",
       "version": "2.9.10.8.1-osera-00003",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00003"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.9.10.8.1-osera-00004",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004"
     },
     {
       "type": "library",
@@ -35286,6 +35297,110 @@
       "affects": [
         {
           "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-36518 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004",
+      "id": "CVE-2020-36518",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36518"
+      },
+      "references": [
+        {
+          "id": "GHSA-57j2-w4cx-62h2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-57j2-w4cx-62h2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-17T19:11:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-42003 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004",
+      "id": "CVE-2022-42003",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42003"
+      },
+      "references": [
+        {
+          "id": "GHSA-jjjh-jjxp-wpff",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-jjjh-jjxp-wpff"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-17T19:11:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2022-42004 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004",
+      "id": "CVE-2022-42004",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42004"
+      },
+      "references": [
+        {
+          "id": "GHSA-rgv9-q543-rqg4",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-rgv9-q543-rqg4"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-17T19:11:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-19032 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004",
+      "id": "CVE-2026-19032",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19032"
+      },
+      "references": [
+        {
+          "id": "GHSA-wjgm-6hv5-3cvf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-wjgm-6hv5-3cvf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-17T19:11:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00004"
         }
       ]
     },
