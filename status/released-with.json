@@ -1054,6 +1054,15 @@
       "first_seen": "2026-11-15T11:54:14Z"
     },
     {
+      "coordinate": "org.apache.tika:tika-parent@1.28.5.1-osera-00001",
+      "library": "org.apache.tika:tika-parent",
+      "base": "1.28.5",
+      "kind": "parent",
+      "released_with": "patch-tika v1.28.5.1-osera-00001",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-17T07:13:54Z"
+    },
+    {
       "coordinate": "org.eclipse.jetty:jetty-bom@9.4.58.v20250814-osera-00001",
       "library": "org.eclipse.jetty:jetty-bom",
       "base": "9.4.58.v20250814",
