@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-17T07:25:10Z",
+ "as_of": "2026-11-17T07:54:52Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 439,
-  "library_versions": 620,
-  "releases": 1837,
-  "forks": 82,
-  "artifacts": 16287,
-  "cves": 246,
-  "cve_statements": 5822,
-  "release_sets": 623,
+  "libraries": 444,
+  "library_versions": 625,
+  "releases": 1838,
+  "forks": 83,
+  "artifacts": 16292,
+  "cves": 247,
+  "cve_statements": 5825,
+  "release_sets": 624,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -101,6 +101,10 @@
   {
    "date": "2026-11-15",
    "count": 43
+  },
+  {
+   "date": "2026-11-17",
+   "count": 5
   }
  ],
  "top_cves": [
@@ -1335,6 +1339,41 @@
    "ecosystem": "Java",
    "releases": 11,
    "latest": "2.3.37.1-osera-00011",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.tika:tika-app",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.28.5.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "org.apache.tika:tika-core",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.28.5.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "org.apache.tika:tika-eval",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.28.5.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "org.apache.tika:tika-parent",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.28.5.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.tika:tika-translate",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.28.5.1-osera-00001",
    "fixed_entries": 0
   },
   {
