@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T11:57:52Z",
+  "generated_at": "2026-11-17T07:19:55Z",
   "feed_version": 266,
   "sets": [
     {
@@ -21284,6 +21284,29 @@
       ],
       "state": "in the feed",
       "statements": 24
+    },
+    {
+      "set": "finos-osera-forks/patch-tika@v1.28.5.1-osera-00001",
+      "members": 5,
+      "coordinates": [
+        "org.apache.tika:tika-app@1.28.5.1-osera-00001",
+        "org.apache.tika:tika-core@1.28.5.1-osera-00001",
+        "org.apache.tika:tika-eval@1.28.5.1-osera-00001",
+        "org.apache.tika:tika-parent@1.28.5.1-osera-00001",
+        "org.apache.tika:tika-translate@1.28.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-17T07:19:55Z",
+      "reasons": [
+        {
+          "member": "org.apache.tika:tika-app@1.28.5.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.apache.tika:tika-eval@1.28.5.1-osera-00001",
+          "why": "not promoted"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-velocity@v1.6.4.1-osera-00001",
