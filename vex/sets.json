@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T20:15:07Z",
-  "feed_version": 282,
+  "generated_at": "2026-11-17T20:25:04Z",
+  "feed_version": 283,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -7392,6 +7392,64 @@
       ]
     },
     {
+      "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.1-osera-00010",
+      "members": 45,
+      "coordinates": [
+        "com.fasterxml.jackson.core:jackson-annotations@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.core:jackson-core@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hibernate3@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hibernate4@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jr:jackson-jr-all@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jr:jackson-jr-objects@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jr:jackson-jr-stree@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-afterburner@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-guice@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-mrbean@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-osgi@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-paranamer@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.10@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00010"
+      ],
+      "state": "held",
+      "held_since": "2026-11-17T20:25:04Z",
+      "reasons": [
+        {
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00010, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+        }
+      ]
+    },
+    {
       "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.20210106.1-osera-00001",
       "members": 47,
       "coordinates": [
@@ -7887,6 +7945,61 @@
       "statements": 9
     },
     {
+      "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.20210106.1-osera-00010",
+      "members": 47,
+      "coordinates": [
+        "com.fasterxml.jackson.core:jackson-annotations@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.core:jackson-core@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.core:jackson-databind@2.9.10.8.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-avro@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-csv@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-ion@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-properties@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-guava@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hibernate3@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hibernate4@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hibernate5@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-hppc@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jr:jackson-jr-all@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jr:jackson-jr-objects@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.jr:jackson-jr-stree@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-afterburner@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-guice@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-mrbean@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-osgi@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-paranamer@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.10@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00010",
+        "com.fasterxml.jackson:jackson-bom@2.9.10.20210106.1-osera-00010"
+      ],
+      "state": "in the feed",
+      "statements": 10
+    },
+    {
       "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.8.1-osera-00001",
       "members": 1,
       "coordinates": [
@@ -8009,6 +8122,20 @@
       "reasons": [
         {
           "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.8.1-osera-00009, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+        }
+      ]
+    },
+    {
+      "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.8.1-osera-00010",
+      "members": 1,
+      "coordinates": [
+        "com.fasterxml.jackson.core:jackson-databind@2.9.10.8.1-osera-00010"
+      ],
+      "state": "held",
+      "held_since": "2026-11-17T20:25:04Z",
+      "reasons": [
+        {
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.8.1-osera-00010, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
