@@ -96,8 +96,8 @@
       "editions": []
     },
     "log4j2-2.24.x": {
-      "remediated": false,
-      "since": "2026-10-22T16:30:15Z",
+      "remediated": true,
+      "since": "2026-11-17T16:58:27Z",
       "editions": []
     },
     "mchange-commons-0.2.x": {
