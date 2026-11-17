@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-17T16:54:52Z",
+ "as_of": "2026-11-17T17:04:59Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 444,
   "library_versions": 625,
-  "releases": 1895,
+  "releases": 1896,
   "forks": 83,
-  "artifacts": 16481,
+  "artifacts": 16510,
   "cves": 247,
-  "cve_statements": 5891,
-  "release_sets": 627,
+  "cve_statements": 5897,
+  "release_sets": 628,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -104,7 +104,7 @@
   },
   {
    "date": "2026-11-17",
-   "count": 194
+   "count": 223
   }
  ],
  "top_cves": [
@@ -1064,78 +1064,78 @@
   {
    "library": "org.apache.logging.log4j:log4j",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-1.2-api",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-api",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
-   "fixed_entries": 4
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
+   "fixed_entries": 5
   },
   {
    "library": "org.apache.logging.log4j:log4j-api-test",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 7,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-appserver",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-bom",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-cassandra",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-core",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
-   "fixed_entries": 30
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
+   "fixed_entries": 35
   },
   {
    "library": "org.apache.logging.log4j:log4j-core-test",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 7,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-couchdb",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-docker",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -1148,29 +1148,29 @@
   {
    "library": "org.apache.logging.log4j:log4j-iostreams",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-jakarta-smtp",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 7,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-jakarta-web",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 7,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-jcl",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -1183,22 +1183,22 @@
   {
    "library": "org.apache.logging.log4j:log4j-jpa",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-jpl",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-jul",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -1211,8 +1211,8 @@
   {
    "library": "org.apache.logging.log4j:log4j-layout-template-json",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 4
   },
   {
@@ -1225,8 +1225,8 @@
   {
    "library": "org.apache.logging.log4j:log4j-mongodb",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 7,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -1239,15 +1239,15 @@
   {
    "library": "org.apache.logging.log4j:log4j-mongodb4",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-slf4j-impl",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
@@ -1260,50 +1260,50 @@
   {
    "library": "org.apache.logging.log4j:log4j-slf4j2-impl",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 7,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-spring-boot",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-spring-cloud-config-client",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-taglib",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-to-jul",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 7,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-to-slf4j",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.logging.log4j:log4j-web",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "2.24.3.1-osera-00006",
+   "releases": 13,
+   "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
   },
   {
