@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T20:09:55Z",
-  "feed_version": 281,
+  "generated_at": "2026-11-17T20:15:07Z",
+  "feed_version": 282,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -7094,10 +7094,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00004"
       ],
       "state": "held",
-      "held_since": "2026-11-17T19:30:03Z",
+      "held_since": "2026-11-17T20:15:07Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00004, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00004, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7335,7 +7335,7 @@
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.1-osera-00009",
-      "members": 33,
+      "members": 45,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.core:jackson-core@2.9.10.1-osera-00009",
@@ -7366,10 +7366,22 @@
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.jr:jackson-jr-all@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jr:jackson-jr-objects@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jr:jackson-jr-stree@2.9.10.1-osera-00009",
-        "com.fasterxml.jackson.module:jackson-module-afterburner@2.9.10.1-osera-00009"
+        "com.fasterxml.jackson.module:jackson-module-afterburner@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-guice@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-mrbean@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-osgi@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-paranamer@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.10@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00009"
       ],
       "state": "held",
       "held_since": "2026-11-17T20:09:55Z",
@@ -7853,80 +7865,26 @@
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider@2.9.10.1-osera-00009",
-        "com.fasterxml.jackson.jr:jackson-jr-all@2.9.10",
+        "com.fasterxml.jackson.jr:jackson-jr-all@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jr:jackson-jr-objects@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jr:jackson-jr-retrofit2@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.jr:jackson-jr-stree@2.9.10.1-osera-00009",
         "com.fasterxml.jackson.module:jackson-module-afterburner@2.9.10.1-osera-00009",
-        "com.fasterxml.jackson.module:jackson-module-guice@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-kotlin@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-mrbean@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-osgi@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-parameter-names@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-paranamer@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.10@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.9.10",
-        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10",
+        "com.fasterxml.jackson.module:jackson-module-guice@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-kotlin@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-mrbean@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-osgi@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-paranamer@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.10@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.9.10.1-osera-00009",
+        "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00009",
         "com.fasterxml.jackson:jackson-bom@2.9.10.20210106.1-osera-00009"
       ],
-      "state": "held",
-      "held_since": "2026-11-17T20:09:55Z",
-      "reasons": [
-        {
-          "member": "com.fasterxml.jackson.jr:jackson-jr-all@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-guice@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-jaxb-annotations@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-jsonSchema@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-kotlin@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-mrbean@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-osgi@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-parameter-names@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-paranamer@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.10@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.11@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.module:jackson-module-afterburner@2.9.10.1-osera-00009",
-          "why": "evidence chain not complete: files: not checked (jackson-module-afterburner-2.9.10.1-osera-00009.pom.sha1 not there yet: the last file landed 1m33s ago and the gate copies the checksums after the jar and the pom); signatures: failed (no signature next to the pom (jackson-module-afterburner-2.9.10.1-osera-00009.pom.asc))"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 9
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.8.1-osera-00001",
