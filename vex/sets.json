@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:19:55Z",
+  "generated_at": "2026-11-17T07:25:10Z",
   "feed_version": 266,
   "sets": [
     {
@@ -21296,12 +21296,8 @@
         "org.apache.tika:tika-translate@1.28.5.1-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-11-17T07:19:55Z",
+      "held_since": "2026-11-17T07:25:10Z",
       "reasons": [
-        {
-          "member": "org.apache.tika:tika-app@1.28.5.1-osera-00001",
-          "why": "not promoted"
-        },
         {
           "member": "org.apache.tika:tika-eval@1.28.5.1-osera-00001",
           "why": "not promoted"
