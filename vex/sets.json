@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T18:39:55Z",
-  "feed_version": 273,
+  "generated_at": "2026-11-17T18:50:12Z",
+  "feed_version": 274,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -6873,7 +6873,7 @@
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.1-osera-00001",
-      "members": 41,
+      "members": 43,
       "coordinates": [
         "com.fasterxml.jackson.core:jackson-annotations@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.core:jackson-core@2.9.10.1-osera-00001",
@@ -6893,7 +6893,9 @@
         "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.9.10.1-osera-00001",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.10.1-osera-00001",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider@2.9.10.1-osera-00001",
@@ -6949,9 +6951,9 @@
         "com.fasterxml.jackson.datatype:jackson-datatype-jaxrs@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.datatype:jackson-datatype-jdk8@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.datatype:jackson-datatype-joda@2.9.10.1-osera-00001",
-        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.9.10",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.datatype:jackson-datatype-jsr310@2.9.10.1-osera-00001",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.9.10",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.datatype:jackson-datatype-pcollections@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base@2.9.10.1-osera-00001",
         "com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider@2.9.10.1-osera-00001",
@@ -6977,18 +6979,8 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00001",
         "com.fasterxml.jackson:jackson-bom@2.9.10.20210106.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-11-17T18:39:55Z",
-      "reasons": [
-        {
-          "member": "com.fasterxml.jackson.datatype:jackson-datatype-json-org@2.9.10",
-          "why": "not promoted"
-        },
-        {
-          "member": "com.fasterxml.jackson.datatype:jackson-datatype-jsr353@2.9.10",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-jackson-bom@v2.9.10.8.1-osera-00001",

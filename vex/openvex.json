@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-17T17:04:58Z",
-  "version": 273,
+  "last_updated": "2026-11-17T18:50:11Z",
+  "version": 274,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -11332,6 +11332,22 @@
       "products": [
         {
           "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4.1-osera-00023"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-36518",
+        "aliases": [
+          "GHSA-57j2-w4cx-62h2"
+        ]
+      },
+      "timestamp": "2026-11-17T18:30:57Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00001"
         }
       ],
       "status": "fixed",

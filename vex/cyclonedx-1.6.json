@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 273,
+  "version": 274,
   "metadata": {
-    "timestamp": "2026-11-17T17:04:58Z",
+    "timestamp": "2026-11-17T18:50:11Z",
     "tools": {
       "components": [
         {
@@ -1404,6 +1404,17 @@
       "name": "jackson-databind",
       "version": "2.19.4.1-osera-00023",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4.1-osera-00023"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.9.10.8.1-osera-00001",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00001"
     },
     {
       "type": "library",
@@ -35094,6 +35105,32 @@
       "affects": [
         {
           "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.19.4.1-osera-00023"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-36518 on pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00001",
+      "id": "CVE-2020-36518",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36518"
+      },
+      "references": [
+        {
+          "id": "GHSA-57j2-w4cx-62h2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-57j2-w4cx-62h2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-17T18:30:57Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10.8.1-osera-00001"
         }
       ]
     },
