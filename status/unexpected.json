@@ -52624,6 +52624,15 @@
       "first_seen": "2026-11-17T07:13:54Z"
     },
     {
+      "coordinate": "org.apache.tika:tika-eval@1.28.5.1-osera-00001",
+      "library": "org.apache.tika:tika-eval",
+      "base": "1.28.5",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.tika:tika-eval@1.28.5.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-17T07:50:30Z"
+    },
+    {
       "coordinate": "org.apache.tika:tika-translate@1.28.5.1-osera-00001",
       "library": "org.apache.tika:tika-translate",
       "base": "1.28.5",
