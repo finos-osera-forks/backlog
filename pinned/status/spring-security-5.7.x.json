@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.11.18.41",
-  "as_of": "2026-11-18T20:01:26Z",
+  "as_of": "2026-11-18T20:06:47Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 73,
@@ -13,6 +13,14 @@
       "patch": "00002",
       "named_by": "org.apache.velocity:velocity@1.7.1-osera-00002",
       "at": "2026-11-05T13:02:43Z"
+    },
+    {
+      "cve": "CVE-2022-40152",
+      "library": "com.fasterxml.woodstox:woodstox-core",
+      "coordinate": "com.fasterxml.woodstox:woodstox-core@5.0.3.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.fasterxml.woodstox:woodstox-core@5.0.3.1-osera-00001",
+      "at": "2026-11-18T20:06:47Z"
     },
     {
       "cve": "CVE-2023-33201",
@@ -104,10 +112,6 @@
     {
       "cve": "CVE-2022-23437",
       "library": "xerces:xercesImpl"
-    },
-    {
-      "cve": "CVE-2022-40152",
-      "library": "com.fasterxml.woodstox:woodstox-core"
     },
     {
       "cve": "CVE-2022-42003",

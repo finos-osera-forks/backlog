@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.18.41",
-  "as_of": "2026-11-18T20:01:26Z",
+  "as_of": "2026-11-18T20:06:47Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -29,6 +29,14 @@
       "patch": "00002",
       "named_by": "org.yaml:snakeyaml@1.33.1-osera-00002",
       "at": "2026-11-05T07:17:00Z"
+    },
+    {
+      "cve": "CVE-2022-40152",
+      "library": "com.fasterxml.woodstox:woodstox-core",
+      "coordinate": "com.fasterxml.woodstox:woodstox-core@5.0.3.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.fasterxml.woodstox:woodstox-core@5.0.3.1-osera-00001",
+      "at": "2026-11-18T20:06:47Z"
     },
     {
       "cve": "CVE-2023-33201",
@@ -968,10 +976,6 @@
     {
       "cve": "CVE-2022-23437",
       "library": "xerces:xercesImpl"
-    },
-    {
-      "cve": "CVE-2022-40152",
-      "library": "com.fasterxml.woodstox:woodstox-core"
     },
     {
       "cve": "CVE-2023-2976",
@@ -2606,5 +2610,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.21"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.22"
 }

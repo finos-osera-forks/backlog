@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T19:53:49Z. Written by the line manager reconciler.
+Generated 2026-11-18T20:06:47Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,9 +8,9 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 363 | 95 | 26% | 36 | 0 | 268 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 363 | 96 | 26% | 36 | 0 | 267 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 36 | 77% | 0 | 0 | 11 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 73 | 7 | 10% | 4 | 0 | 66 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 73 | 8 | 11% | 4 | 0 | 65 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | in progress | 3 | 2 | 67% | 2 | 0 | 1 | 0 |
@@ -69,7 +69,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | com.fasterxml.jackson.core:jackson-databind | 2.14.2 | spring-boot-2.7.x | listed by the BOM at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | fixed | 12 | 12 | 100% | 0 | 0 | 0 | 0 | 2.15.4.1-osera-00021 | 2.15.4.1-osera-00021 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | fixed | 12 | 12 | 100% | 0 | 0 | 0 | 0 | 2.19.4.1-osera-00023 | 2.19.4.1-osera-00023 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.fasterxml.woodstox:woodstox-core | 5.0.3 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.apache.santuario:xmlsec@2.0.10) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.fasterxml.woodstox:woodstox-core | 5.0.3 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.apache.santuario:xmlsec@2.0.10) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.0.3.1-osera-00001 | 5.0.3.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.google.guava:guava | 20.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.shibboleth.utilities:java-support@7.5.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.graphql-java:graphql-java | 18.5 | spring-boot-2.7.x | listed by the BOM at 18.5 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.jayway.jsonpath:json-path | 2.7.0 | spring-boot-2.7.x | listed by the BOM at 2.7.0 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.0.1-osera-00001 | 2.7.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
