@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.11.18.17",
-  "as_of": "2026-11-18T09:16:22Z",
+  "as_of": "2026-11-18T09:46:01Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 56,
@@ -143,12 +143,20 @@
       "at": "2026-11-12T17:37:26Z"
     },
     {
+      "cve": "CVE-2026-41711",
+      "library": "org.springframework.data:spring-data-commons",
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00009",
+      "patch": "00009",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00009",
+      "at": "2026-11-18T09:46:01Z"
+    },
+    {
       "cve": "CVE-2026-41716",
       "library": "org.springframework.data:spring-data-commons",
-      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00008",
-      "patch": "00008",
-      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00008",
-      "at": "2026-11-05T08:03:35Z"
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00009",
+      "patch": "00009",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00009",
+      "at": "2026-11-18T09:46:01Z"
     },
     {
       "cve": "CVE-2026-41720",
@@ -376,10 +384,6 @@
     {
       "cve": "CVE-2026-41694",
       "library": "org.springframework.security:spring-security-saml2-service-provider"
-    },
-    {
-      "cve": "CVE-2026-41711",
-      "library": "org.springframework.data:spring-data-commons"
     },
     {
       "cve": "CVE-2026-41721",
@@ -1473,5 +1477,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.11.18.7"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.11.18.8"
 }
