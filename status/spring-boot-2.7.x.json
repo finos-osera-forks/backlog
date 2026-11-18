@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.18.19",
-  "as_of": "2026-11-18T10:02:52Z",
+  "as_of": "2026-11-18T12:24:22Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -217,10 +217,10 @@
     {
       "cve": "CVE-2026-10050",
       "library": "org.eclipse.jetty:jetty-security",
-      "coordinate": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00014",
-      "patch": "00014",
-      "named_by": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00014",
-      "at": "2026-11-05T12:59:15Z"
+      "coordinate": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00015",
+      "patch": "00015",
+      "named_by": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00015",
+      "at": "2026-11-18T12:24:22Z"
     },
     {
       "cve": "CVE-2026-106449",
@@ -273,10 +273,10 @@
     {
       "cve": "CVE-2026-19203",
       "library": "org.eclipse.jetty:jetty-http",
-      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00014",
-      "patch": "00014",
-      "named_by": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00014",
-      "at": "2026-11-05T12:59:15Z"
+      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00015",
+      "patch": "00015",
+      "named_by": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00015",
+      "at": "2026-11-18T12:24:22Z"
     },
     {
       "cve": "CVE-2026-22732",
@@ -353,10 +353,10 @@
     {
       "cve": "CVE-2026-2332",
       "library": "org.eclipse.jetty:jetty-http",
-      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00014",
-      "patch": "00014",
-      "named_by": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00014",
-      "at": "2026-11-05T12:59:15Z"
+      "coordinate": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00015",
+      "patch": "00015",
+      "named_by": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00015",
+      "at": "2026-11-18T12:24:22Z"
     },
     {
       "cve": "CVE-2026-24400",
@@ -791,6 +791,14 @@
       "at": "2026-11-05T11:00:58Z"
     },
     {
+      "cve": "CVE-2026-6790",
+      "library": "org.eclipse.jetty:jetty-server",
+      "coordinate": "org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00015",
+      "patch": "00015",
+      "named_by": "org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00015",
+      "at": "2026-11-18T12:24:22Z"
+    },
+    {
       "cve": "CVE-2026-68494",
       "library": "com.fasterxml.jackson.core:jackson-core",
       "coordinate": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00019",
@@ -1186,10 +1194,6 @@
       "library": "com.rabbitmq:amqp-client"
     },
     {
-      "cve": "CVE-2026-6790",
-      "library": "org.eclipse.jetty:jetty-server"
-    },
-    {
       "cve": "CVE-2026-69219",
       "library": "com.rabbitmq:amqp-client"
     },
@@ -1245,6 +1249,7 @@
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00012",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00013",
     "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00014",
+    "fixed, not in the backlog: CVE-2025-11143 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00015",
     "fixed, not in the backlog: CVE-2025-14813 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00004",
     "fixed, not in the backlog: CVE-2025-14813 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00005",
     "fixed, not in the backlog: CVE-2025-14813 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00006",
@@ -2075,6 +2080,7 @@
     "fixed, not in the backlog: CVE-2026-59651 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
     "fixed, not in the backlog: CVE-2026-59651 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00038",
     "fixed, not in the backlog: CVE-2026-59651 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00039",
+    "fixed, not in the backlog: CVE-2026-6790 on org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00015",
     "fixed, not in the backlog: CVE-2026-68497 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00013",
     "fixed, not in the backlog: CVE-2026-68497 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00014",
     "fixed, not in the backlog: CVE-2026-68497 on com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00015",
@@ -2552,5 +2558,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.8"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.9"
 }
