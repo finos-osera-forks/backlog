@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T12:24:22Z. Written by the line manager reconciler.
+Generated 2026-11-18T12:36:44Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 195 | 105 | 54% | 100 | 0 | 90 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 195 | 106 | 54% | 100 | 0 | 89 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 36 | 77% | 0 | 0 | 11 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 39 | 70% | 12 | 0 | 17 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
@@ -83,7 +83,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-lang:commons-lang | 2.6 | commons-configuration-1.9.x | pulled in by a dependency (commons-configuration:commons-configuration@1.9) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.6.1-osera-00001 | 2.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | crypto-js | 4.1.1 | crypto-js-4.1.x | pulled in by a dependency (crypto-js@4.1.1) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 4.1.2-osera-00001 | 4.1.2-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00003 | 1.0.48.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.undertow:undertow-core | 2.2.41.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00008 | 1.2.17.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-414 libraries, 5632 patched version(s).
+438 libraries, 5656 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -406,6 +406,30 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.google.protobuf:protobuf-javalite | 3.19.6 | not listed by any line |  |  | 3.19.6.1-osera-00001 | 3.19.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.jayway.jsonpath:json-path-assert | 2.7.0 | listed by the BOM of spring-boot-2.7.x at 2.7.0, not in its dependency graph | spring-boot-2.7.x |  | 2.7.0.1-osera-00001 | 2.7.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-appoptics | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-atlas | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-azure-monitor | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-cloudwatch | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-cloudwatch2 | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-datadog | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-dynatrace | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-elastic | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-ganglia | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-graphite | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-health | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-humio | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-influx | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-jmx | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-kairos | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-new-relic | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-opentsdb | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-otlp | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-prometheus | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-signalfx | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-stackdriver | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-statsd | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-registry-wavefront | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-test | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.addons:reactor-adapter | 3.4.11 | listed by the BOM of spring-boot-2.7.x at 3.4.10, not in its dependency graph | spring-boot-2.7.x |  | 3.4.11.1-osera-00001 3.4.11.1-osera-00002 3.4.11.1-osera-00003 | 3.4.11.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.addons:reactor-extra | 3.4.11 | listed by the BOM of spring-boot-2.7.x at 3.4.10, not in its dependency graph | spring-boot-2.7.x |  | 3.4.11.1-osera-00001 3.4.11.1-osera-00002 3.4.11.1-osera-00003 | 3.4.11.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.kafka:reactor-kafka | 1.3.23 | listed by the BOM of spring-boot-2.7.x at 1.3.22, not in its dependency graph | spring-boot-2.7.x |  | 1.3.23.1-osera-00001 1.3.23.1-osera-00002 1.3.23.1-osera-00003 | 1.3.23.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -595,7 +619,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-31 component(s), 864 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+32 component(s), 865 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -607,6 +631,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson:jackson-bom | 2.19.4 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2.13.5, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.19.4.1-osera-00001 2.19.4.1-osera-00002 2.19.4.1-osera-00003 2.19.4.1-osera-00004 2.19.4.1-osera-00005 2.19.4.1-osera-00006 2.19.4.1-osera-00007 2.19.4.1-osera-00008 2.19.4.1-osera-00009 2.19.4.1-osera-00010 2.19.4.1-osera-00011 2.19.4.1-osera-00012 2.19.4.1-osera-00013 2.19.4.1-osera-00014 2.19.4.1-osera-00015 2.19.4.1-osera-00016 2.19.4.1-osera-00017 2.19.4.1-osera-00018 2.19.4.1-osera-00019 2.19.4.1-osera-00020 2.19.4.1-osera-00021 2.19.4.1-osera-00022 2.19.4.1-osera-00023 | 2.19.4.1-osera-00023 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.google.protobuf:protobuf-bom | 3.19.6 | BOM | patch-protobuf v3.19.6.1-osera-00001 | pins the patched modules (REL-009: a pinning BOM releases again) | 3.19.6.1-osera-00001 | 3.19.6.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.google.protobuf:protobuf-parent | 3.19.6 | parent | patch-protobuf v3.19.6.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.19.6.1-osera-00001 | 3.19.6.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.micrometer:micrometer-bom | 1.9.17 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-bom | 2020.0.47 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38 | pins the patched modules (REL-009: a pinning BOM releases again) | 2020.0.47.1-osera-00001 2020.0.47.1-osera-00002 2020.0.47.1-osera-00003 | 2020.0.47.1-osera-00003 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.httpcomponents.core5:httpcore5-parent | 5.3.6 | parent | patch-httpcomponents-core v5.3.6.1-osera-00004 | the patched modules name it as their parent, a build needs it to resolve them | 5.3.6.1-osera-00001 5.3.6.1-osera-00002 5.3.6.1-osera-00003 5.3.6.1-osera-00004 | 5.3.6.1-osera-00004 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00006 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 2.17.2.1-osera-00005 2.17.2.1-osera-00006 | 2.17.2.1-osera-00006 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
