@@ -70731,6 +70731,15 @@
       "first_seen": "2026-11-18T13:16:06Z"
     },
     {
+      "coordinate": "org.springframework.cloud:spring-cloud-gateway-server@3.0.8.1-osera-00001",
+      "library": "org.springframework.cloud:spring-cloud-gateway-server",
+      "base": "3.0.8",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.springframework.cloud:spring-cloud-gateway-server@3.0.8.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-18T21:13:38Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-envers",
       "base": "2.7.18",
