@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-18T18:44:53Z",
+ "as_of": "2026-11-18T19:54:53Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 478,
-  "library_versions": 705,
-  "releases": 2116,
-  "forks": 88,
-  "artifacts": 17242,
-  "cves": 264,
-  "cve_statements": 6218,
-  "release_sets": 654,
+  "libraries": 479,
+  "library_versions": 706,
+  "releases": 2124,
+  "forks": 89,
+  "artifacts": 17250,
+  "cves": 272,
+  "cve_statements": 6254,
+  "release_sets": 662,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -108,7 +108,7 @@
   },
   {
    "date": "2026-11-18",
-   "count": 262
+   "count": 270
   }
  ],
  "top_cves": [
@@ -875,6 +875,13 @@
    "releases": 3,
    "latest": "0.2.20.1-osera-00003",
    "fixed_entries": 5
+  },
+  {
+   "library": "com.rabbitmq:amqp-client",
+   "ecosystem": "Java",
+   "releases": 8,
+   "latest": "5.14.3.1-osera-00008",
+   "fixed_entries": 36
   },
   {
    "library": "commons-beanutils:commons-beanutils",
