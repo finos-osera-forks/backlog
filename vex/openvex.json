@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-18T13:14:55Z",
-  "version": 294,
+  "last_updated": "2026-11-18T13:19:54Z",
+  "version": 295,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -64311,6 +64311,38 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.amqp/spring-rabbit@2.4.17.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41701",
+        "aliases": [
+          "GHSA-p5f7-rjhp-pxvc"
+        ]
+      },
+      "timestamp": "2026-11-18T13:15:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.amqp/spring-rabbit@2.4.17.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41714",
+        "aliases": [
+          "GHSA-p8qj-fj6r-w7q9"
+        ]
+      },
+      "timestamp": "2026-11-18T13:15:34Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.amqp/spring-rabbit@2.4.17.1-osera-00002"
         }
       ],
       "status": "fixed",
