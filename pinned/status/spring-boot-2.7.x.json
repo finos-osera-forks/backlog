@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.18.20",
-  "as_of": "2026-11-18T12:28:43Z",
+  "as_of": "2026-11-18T12:36:44Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -285,6 +285,14 @@
       "patch": "00125",
       "named_by": "org.springframework.boot:spring-boot@2.7.18.1-osera-00125",
       "at": "2026-11-12T18:35:22Z"
+    },
+    {
+      "cve": "CVE-2026-40984",
+      "library": "io.micrometer:micrometer-core",
+      "coordinate": "io.micrometer:micrometer-core@1.9.17.1-osera-00001",
+      "patch": "00001",
+      "named_by": "io.micrometer:micrometer-core@1.9.17.1-osera-00001",
+      "at": "2026-11-18T12:36:44Z"
     },
     {
       "cve": "CVE-2026-40998",
@@ -1280,10 +1288,6 @@
     {
       "cve": "CVE-2026-40478",
       "library": "org.thymeleaf:thymeleaf-spring5"
-    },
-    {
-      "cve": "CVE-2026-40984",
-      "library": "io.micrometer:micrometer-core"
     },
     {
       "cve": "CVE-2026-40988",

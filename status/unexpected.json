@@ -57133,6 +57133,270 @@
       "first_seen": "2026-11-09T15:19:45Z"
     },
     {
+      "coordinate": "io.micrometer:micrometer-registry-appoptics@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-appoptics",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-appoptics@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-atlas@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-atlas",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-atlas@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-azure-monitor@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-azure-monitor",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-azure-monitor@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-cloudwatch2@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-cloudwatch2",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-cloudwatch2@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-cloudwatch@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-cloudwatch",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-cloudwatch@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-datadog@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-datadog",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-datadog@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-dynatrace@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-dynatrace",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-dynatrace@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-elastic@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-elastic",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-elastic@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-ganglia@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-ganglia",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-ganglia@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-graphite@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-graphite",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-graphite@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-health@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-health",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-health@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-humio@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-humio",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-humio@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-influx@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-influx",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-influx@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-jmx@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-jmx",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-jmx@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-kairos@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-kairos",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-kairos@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-new-relic@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-new-relic",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-new-relic@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-opentsdb@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-opentsdb",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-opentsdb@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-otlp@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-otlp",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-otlp@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-prometheus@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-prometheus",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-prometheus@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-signalfx@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-signalfx",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-signalfx@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-stackdriver@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-stackdriver",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-stackdriver@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-statsd@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-statsd",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-statsd@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-registry-wavefront@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-registry-wavefront",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-registry-wavefront@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
+      "coordinate": "io.micrometer:micrometer-test@1.9.17.1-osera-00001",
+      "library": "io.micrometer:micrometer-test",
+      "base": "1.9.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.micrometer:micrometer-test@1.9.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph",
+      "first_seen": "2026-11-18T12:36:44Z"
+    },
+    {
       "coordinate": "io.projectreactor.addons:reactor-adapter@3.4.11.1-osera-00001",
       "library": "io.projectreactor.addons:reactor-adapter",
       "base": "3.4.11",
