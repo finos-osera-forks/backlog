@@ -24,6 +24,10 @@
    "value": 3.7,
    "version": "3.1"
   },
+  "CVE-2021-29425": {
+   "value": 4.8,
+   "version": "3.1"
+  },
   "CVE-2021-31805": {
    "value": 9.8,
    "version": "3.1"
@@ -58,6 +62,10 @@
   },
   "CVE-2023-50164": {
    "value": 9.8,
+   "version": "3.1"
+  },
+  "CVE-2024-47554": {
+   "value": 4.3,
    "version": "3.1"
   },
   "CVE-2024-53677": {
@@ -317,6 +325,7 @@
   "CVE-2020-17530": "Forced OGNL evaluation, when evaluated on raw user input in tag attributes, may lead to remote code execution.",
   "CVE-2020-28469": "This affects the package glob-parent before 5.1.2.",
   "CVE-2020-9488": "Improper validation of certificate with host mismatch in Apache Log4j SMTP appender.",
+  "CVE-2021-29425": "In Apache Commons IO before 2.7, When invoking the method FileNameUtils.normalize with an improper input string, like \"//../foo\", or \"\\\\..\\foo\", the result would be the same value, thus possibly providing access to files in the parent dire…",
   "CVE-2021-31805": "The fix issued for CVE-2020-17530 was incomplete.",
   "CVE-2021-35515": "When reading a specially crafted 7Z archive, the construction of the list of codecs that decompress an entry can result in an infinite loop.",
   "CVE-2021-35516": "When reading a specially crafted 7Z archive, Compress can be made to allocate large amounts of memory that finally leads to an out of memory error even for very small inputs.",
@@ -326,6 +335,7 @@
   "CVE-2023-41835": "When a Multipart request is performed but some of the fields exceed the maxStringLength limit, the upload files will remain in struts.multipart.saveDir even if the request has been denied.",
   "CVE-2023-46233": "crypto-js is a JavaScript library of crypto standards.",
   "CVE-2023-50164": "An attacker can manipulate file upload params to enable paths traversal and under some circumstances this can lead to uploading a malicious file which can be used to perform Remote Code Execution.",
+  "CVE-2024-47554": "Uncontrolled Resource Consumption vulnerability in Apache Commons IO.",
   "CVE-2024-53677": "File upload logic in Apache Struts is flawed.",
   "CVE-2024-7254": "Any project that parses untrusted Protocol Buffers data containing an arbitrary number of nested groups / series of SGROUP tags can corrupted by exceeding the stack limit i.e.",
   "CVE-2025-64775": "Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes disk exhaustion.",
@@ -397,6 +407,7 @@
   "CVE-2020-17530",
   "CVE-2020-28469",
   "CVE-2020-9488",
+  "CVE-2021-29425",
   "CVE-2021-31805",
   "CVE-2021-35515",
   "CVE-2021-35516",
@@ -406,6 +417,7 @@
   "CVE-2023-41835",
   "CVE-2023-46233",
   "CVE-2023-50164",
+  "CVE-2024-47554",
   "CVE-2024-53677",
   "CVE-2024-7254",
   "CVE-2025-64775",
