@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.18.29",
-  "as_of": "2026-11-18T18:46:56Z",
+  "book_version": "v2026.11.18.30",
+  "as_of": "2026-11-18T18:55:44Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -815,6 +815,14 @@
       "at": "2026-11-05T11:00:58Z"
     },
     {
+      "cve": "CVE-2026-63335",
+      "library": "com.rabbitmq:amqp-client",
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00001",
+      "at": "2026-11-18T18:55:44Z"
+    },
+    {
       "cve": "CVE-2026-6790",
       "library": "org.eclipse.jetty:jetty-server",
       "coordinate": "org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00015",
@@ -1191,10 +1199,6 @@
     },
     {
       "cve": "CVE-2026-61634",
-      "library": "com.rabbitmq:amqp-client"
-    },
-    {
-      "cve": "CVE-2026-63335",
       "library": "com.rabbitmq:amqp-client"
     },
     {
@@ -2570,5 +2574,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.12"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.13"
 }
