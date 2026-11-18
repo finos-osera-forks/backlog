@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-18T20:15:22Z",
-  "version": 307,
+  "last_updated": "2026-11-18T20:59:53Z",
+  "version": 308,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -13428,6 +13428,22 @@
       "products": [
         {
           "@id": "pkg:maven/com.google.protobuf/protobuf-javalite@3.19.6.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-40094",
+        "aliases": [
+          "GHSA-h9mq-f6q5-6c8m"
+        ]
+      },
+      "timestamp": "2026-11-18T20:51:45Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.graphql-java/graphql-java@18.5.1-osera-00001"
         }
       ],
       "status": "fixed",
