@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-18T18:59:54Z",
-  "version": 298,
+  "last_updated": "2026-11-18T19:10:25Z",
+  "version": 299,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -13668,6 +13668,38 @@
       "products": [
         {
           "@id": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-63335",
+        "aliases": [
+          "GHSA-qx7j-jv8m-fppr"
+        ]
+      },
+      "timestamp": "2026-11-18T19:00:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-63337",
+        "aliases": [
+          "GHSA-6g32-pxv4-2wfj"
+        ]
+      },
+      "timestamp": "2026-11-18T19:00:39Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00002"
         }
       ],
       "status": "fixed",

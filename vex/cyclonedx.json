@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 298,
+  "version": 299,
   "metadata": {
-    "timestamp": "2026-11-18T18:59:54Z",
+    "timestamp": "2026-11-18T19:10:25Z",
     "tools": {
       "components": [
         {
@@ -1913,6 +1913,17 @@
       "name": "amqp-client",
       "version": "5.14.3.1-osera-00001",
       "purl": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.rabbitmq",
+      "name": "amqp-client",
+      "version": "5.14.3.1-osera-00002",
+      "purl": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00002"
     },
     {
       "type": "library",
@@ -39828,6 +39839,58 @@
       "affects": [
         {
           "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-63335 on pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00002",
+      "id": "CVE-2026-63335",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63335"
+      },
+      "references": [
+        {
+          "id": "GHSA-qx7j-jv8m-fppr",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-qx7j-jv8m-fppr"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T19:00:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-63337 on pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00002",
+      "id": "CVE-2026-63337",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63337"
+      },
+      "references": [
+        {
+          "id": "GHSA-6g32-pxv4-2wfj",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-6g32-pxv4-2wfj"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T19:00:39Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00002"
         }
       ]
     },
