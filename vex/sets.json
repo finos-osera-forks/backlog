@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T12:39:53Z",
-  "feed_version": 292,
+  "generated_at": "2026-11-18T12:45:22Z",
+  "feed_version": 293,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -10062,6 +10062,40 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-micrometer@v1.9.17.1-osera-00001",
+      "members": 26,
+      "coordinates": [
+        "io.micrometer:micrometer-bom@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-core@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-appoptics@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-atlas@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-azure-monitor@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-cloudwatch2@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-cloudwatch@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-datadog@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-dynatrace@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-elastic@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-ganglia@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-graphite@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-health@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-humio@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-influx@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-jmx@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-kairos@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-new-relic@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-opentsdb@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-otlp@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-prometheus@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-signalfx@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-stackdriver@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-statsd@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-registry-wavefront@1.9.17.1-osera-00001",
+        "io.micrometer:micrometer-test@1.9.17.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-protobuf@v3.19.6.1-osera-00001",
