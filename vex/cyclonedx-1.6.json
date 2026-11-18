@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 307,
+  "version": 308,
   "metadata": {
-    "timestamp": "2026-11-18T20:15:22Z",
+    "timestamp": "2026-11-18T20:59:53Z",
     "tools": {
       "components": [
         {
@@ -1822,6 +1822,17 @@
       "name": "protobuf-javalite",
       "version": "3.19.6.1-osera-00001",
       "purl": "pkg:maven/com.google.protobuf/protobuf-javalite@3.19.6.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.graphql-java/graphql-java@18.5.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.graphql-java",
+      "name": "graphql-java",
+      "version": "18.5.1-osera-00001",
+      "purl": "pkg:maven/com.graphql-java/graphql-java@18.5.1-osera-00001"
     },
     {
       "type": "library",
@@ -39534,6 +39545,32 @@
       "affects": [
         {
           "ref": "pkg:maven/com.google.protobuf/protobuf-javalite@3.19.6.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-40094 on pkg:maven/com.graphql-java/graphql-java@18.5.1-osera-00001",
+      "id": "CVE-2024-40094",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-40094"
+      },
+      "references": [
+        {
+          "id": "GHSA-h9mq-f6q5-6c8m",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-h9mq-f6q5-6c8m"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T20:51:45Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.graphql-java/graphql-java@18.5.1-osera-00001"
         }
       ]
     },
