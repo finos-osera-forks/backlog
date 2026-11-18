@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T21:04:54Z",
-  "feed_version": 308,
+  "generated_at": "2026-11-18T21:09:53Z",
+  "feed_version": 309,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -2166,6 +2166,15 @@
       "members": 1,
       "coordinates": [
         "com.graphql-java:graphql-java@18.5.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-graphql-java@v18.7.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.graphql-java:graphql-java@18.7.1-osera-00001"
       ],
       "state": "in the feed",
       "statements": 1
