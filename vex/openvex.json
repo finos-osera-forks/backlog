@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-17T20:25:04Z",
-  "version": 283,
+  "last_updated": "2026-11-18T06:35:08Z",
+  "version": 284,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -15215,6 +15215,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.4.4.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-64607",
+        "aliases": [
+          "GHSA-hjcp-jmpx-g3qm"
+        ]
+      },
+      "timestamp": "2026-11-18T06:29:05Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.5.2.1-osera-00001"
         }
       ],
       "status": "fixed",
