@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 295,
+  "version": 296,
   "metadata": {
-    "timestamp": "2026-11-18T13:19:54Z",
+    "timestamp": "2026-11-18T16:09:54Z",
     "tools": {
       "components": [
         {
@@ -2053,6 +2053,17 @@
       "name": "commons-configuration",
       "version": "1.9.1-osera-00002",
       "purl": "pkg:maven/commons-configuration/commons-configuration@1.9.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.6.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.6.1-osera-00001",
+      "purl": "pkg:maven/commons-io/commons-io@2.6.1-osera-00001"
     },
     {
       "type": "library",
@@ -40216,6 +40227,32 @@
       "affects": [
         {
           "ref": "pkg:maven/commons-configuration/commons-configuration@1.9.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-29425 on pkg:maven/commons-io/commons-io@2.6.1-osera-00001",
+      "id": "CVE-2021-29425",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-29425"
+      },
+      "references": [
+        {
+          "id": "GHSA-gwrp-pvrq-jmwv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-gwrp-pvrq-jmwv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T16:02:23Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/commons-io/commons-io@2.6.1-osera-00001"
         }
       ]
     },
