@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-18T09:24:53Z",
+ "as_of": "2026-11-18T10:24:53Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 446,
   "library_versions": 673,
-  "releases": 2093,
+  "releases": 2110,
   "forks": 85,
-  "artifacts": 17119,
-  "cves": 257,
-  "cve_statements": 6186,
-  "release_sets": 647,
+  "artifacts": 17140,
+  "cves": 258,
+  "cve_statements": 6194,
+  "release_sets": 648,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -108,7 +108,7 @@
   },
   {
    "date": "2026-11-18",
-   "count": 139
+   "count": 160
   }
  ],
  "top_cves": [
@@ -2545,149 +2545,149 @@
   {
    "library": "org.springframework.data:spring-data-bom",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2021.2.18.1-osera-00008",
+   "releases": 9,
+   "latest": "2021.2.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-cassandra",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "3.4.18.1-osera-00008",
+   "releases": 9,
+   "latest": "3.4.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-commons",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.7.18.1-osera-00008",
-   "fixed_entries": 6
+   "releases": 9,
+   "latest": "2.7.18.1-osera-00009",
+   "fixed_entries": 8
   },
   {
    "library": "org.springframework.data:spring-data-couchbase",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "4.4.18.1-osera-00008",
+   "releases": 9,
+   "latest": "4.4.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-elasticsearch",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "4.4.18.1-osera-00008",
+   "releases": 9,
+   "latest": "4.4.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-envers",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.7.18.1-osera-00008",
+   "releases": 9,
+   "latest": "2.7.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-geode",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.7.18.1-osera-00008",
+   "releases": 9,
+   "latest": "2.7.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-jdbc",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.4.18.1-osera-00008",
+   "releases": 9,
+   "latest": "2.4.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-jpa",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.7.18.1-osera-00008",
+   "releases": 9,
+   "latest": "2.7.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-keyvalue",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.7.18.1-osera-00008",
-   "fixed_entries": 4
+   "releases": 9,
+   "latest": "2.7.18.1-osera-00009",
+   "fixed_entries": 5
   },
   {
    "library": "org.springframework.data:spring-data-ldap",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.7.18.1-osera-00008",
+   "releases": 9,
+   "latest": "2.7.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-mongodb",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "3.4.18.1-osera-00008",
-   "fixed_entries": 11
+   "releases": 9,
+   "latest": "3.4.18.1-osera-00009",
+   "fixed_entries": 13
   },
   {
    "library": "org.springframework.data:spring-data-mongodb-parent",
    "ecosystem": "Java",
-   "releases": 5,
-   "latest": "3.4.18.1-osera-00008",
+   "releases": 6,
+   "latest": "3.4.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-neo4j",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "6.3.18.1-osera-00008",
+   "releases": 9,
+   "latest": "6.3.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-r2dbc",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "1.5.18.1-osera-00008",
+   "releases": 9,
+   "latest": "1.5.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-redis",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.7.18.1-osera-00008",
+   "releases": 9,
+   "latest": "2.7.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-relational",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "2.4.18.1-osera-00008",
+   "releases": 9,
+   "latest": "2.4.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-rest-core",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "3.7.18.1-osera-00008",
+   "releases": 9,
+   "latest": "3.7.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-rest-hal-explorer",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "3.7.18.1-osera-00008",
+   "releases": 9,
+   "latest": "3.7.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-rest-parent",
    "ecosystem": "Java",
-   "releases": 3,
-   "latest": "3.7.18.1-osera-00008",
+   "releases": 4,
+   "latest": "3.7.18.1-osera-00009",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-rest-webmvc",
    "ecosystem": "Java",
-   "releases": 8,
-   "latest": "3.7.18.1-osera-00008",
-   "fixed_entries": 14
+   "releases": 9,
+   "latest": "3.7.18.1-osera-00009",
+   "fixed_entries": 17
   },
   {
    "library": "org.springframework.graphql:spring-graphql",
