@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T21:16:14Z. Written by the line manager reconciler.
+Generated 2026-11-18T21:22:21Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-444 libraries, 5666 patched version(s).
+444 libraries, 5667 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -557,7 +557,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.amqp:spring-rabbit-junit | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 2.4.17.1-osera-00002 | 2.4.17.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.amqp:spring-rabbit-stream | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 2.4.17.1-osera-00002 | 2.4.17.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.amqp:spring-rabbit-test | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 2.4.17.1-osera-00002 | 2.4.17.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.springframework.cloud:spring-cloud-gateway-server | 3.0.8 | not listed by any line |  |  | 3.0.8.1-osera-00001 | 3.0.8.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.cloud:spring-cloud-gateway-server | 3.0.8 | not listed by any line |  |  | 3.0.8.1-osera-00001 3.0.8.1-osera-00002 | 3.0.8.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-envers | 2.7.18 | listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph | spring-boot-2.7.x |  | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 2.7.18.1-osera-00007 2.7.18.1-osera-00008 2.7.18.1-osera-00009 | 2.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-geode | 2.7.18 | listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph | spring-boot-2.7.x |  | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 2.7.18.1-osera-00007 2.7.18.1-osera-00008 2.7.18.1-osera-00009 | 2.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-rest-hal-explorer | 3.7.18 | listed by the BOM of spring-boot-2.7.x at 3.7.18, not in its dependency graph | spring-boot-2.7.x |  | 3.7.18.1-osera-00001 3.7.18.1-osera-00002 3.7.18.1-osera-00003 3.7.18.1-osera-00004 3.7.18.1-osera-00005 3.7.18.1-osera-00006 3.7.18.1-osera-00007 3.7.18.1-osera-00008 3.7.18.1-osera-00009 | 3.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
