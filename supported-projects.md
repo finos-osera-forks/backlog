@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T21:02:38Z. Written by the line manager reconciler.
+Generated 2026-11-18T21:13:38Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -35,7 +35,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | fixed | 16 | 16 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | fixed | 15 | 15 | 100% | 0 | 0 | 0 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 |
-| bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | in progress | 4 | 2 | 50% | 10 | 0 | 2 | 0 |
+| bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | - | 0 | 0 | - | 10 | 0 | 0 | 0 |
 | jetty-9.2.x | maven | `org.eclipse.jetty:jetty-security@9.2.30.v20200428` | in progress | 8 | 7 | 88% | 1 | 0 | 1 | 0 |
 | httpcore5-5.3.x | maven | `org.apache.httpcomponents.core5:httpcore5-h2@5.3.6` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
 | commons-configuration-1.9.x | maven | `commons-configuration:commons-configuration@1.9` | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 |
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-443 libraries, 5665 patched version(s).
+444 libraries, 5666 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -557,6 +557,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.springframework.amqp:spring-rabbit-junit | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 2.4.17.1-osera-00002 | 2.4.17.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.amqp:spring-rabbit-stream | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 2.4.17.1-osera-00002 | 2.4.17.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.amqp:spring-rabbit-test | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 2.4.17.1-osera-00002 | 2.4.17.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.cloud:spring-cloud-gateway-server | 3.0.8 | not listed by any line |  |  | 3.0.8.1-osera-00001 | 3.0.8.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-envers | 2.7.18 | listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph | spring-boot-2.7.x |  | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 2.7.18.1-osera-00007 2.7.18.1-osera-00008 2.7.18.1-osera-00009 | 2.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-geode | 2.7.18 | listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph | spring-boot-2.7.x |  | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 2.7.18.1-osera-00007 2.7.18.1-osera-00008 2.7.18.1-osera-00009 | 2.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-rest-hal-explorer | 3.7.18 | listed by the BOM of spring-boot-2.7.x at 3.7.18, not in its dependency graph | spring-boot-2.7.x |  | 3.7.18.1-osera-00001 3.7.18.1-osera-00002 3.7.18.1-osera-00003 3.7.18.1-osera-00004 3.7.18.1-osera-00005 3.7.18.1-osera-00006 3.7.18.1-osera-00007 3.7.18.1-osera-00008 3.7.18.1-osera-00009 | 3.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
