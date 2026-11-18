@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 310,
+  "version": 311,
   "metadata": {
-    "timestamp": "2026-11-18T21:19:53Z",
+    "timestamp": "2026-11-18T21:29:53Z",
     "tools": {
       "components": [
         {
@@ -13408,6 +13408,17 @@
       "name": "spring-cloud-gateway-server",
       "version": "3.0.8.1-osera-00001",
       "purl": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.cloud",
+      "name": "spring-cloud-gateway-server",
+      "version": "3.0.8.1-osera-00002",
+      "purl": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00002"
     },
     {
       "type": "library",
@@ -130371,6 +130382,40 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-41235 on pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00002",
+      "id": "CVE-2025-41235",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41235"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T21:21:12Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-41253 on pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00002",
+      "id": "CVE-2025-41253",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41253"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T21:21:12Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00002"
         }
       ]
     },
