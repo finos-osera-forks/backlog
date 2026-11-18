@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.18.29",
-  "as_of": "2026-11-18T18:46:56Z",
+  "book_version": "v2026.11.18.30",
+  "as_of": "2026-11-18T18:55:44Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -645,6 +645,14 @@
       "patch": "00019",
       "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00019",
       "at": "2026-11-17T16:22:32Z"
+    },
+    {
+      "cve": "CVE-2026-63335",
+      "library": "com.rabbitmq:amqp-client",
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00001",
+      "at": "2026-11-18T18:55:44Z"
     },
     {
       "cve": "CVE-2026-68494",
@@ -1651,10 +1659,6 @@
     },
     {
       "cve": "CVE-2026-61634",
-      "library": "com.rabbitmq:amqp-client"
-    },
-    {
-      "cve": "CVE-2026-63335",
       "library": "com.rabbitmq:amqp-client"
     },
     {
