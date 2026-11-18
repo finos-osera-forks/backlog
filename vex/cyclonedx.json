@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 296,
+  "version": 297,
   "metadata": {
-    "timestamp": "2026-11-18T16:09:54Z",
+    "timestamp": "2026-11-18T16:14:53Z",
     "tools": {
       "components": [
         {
@@ -2067,6 +2067,17 @@
       "name": "commons-io",
       "version": "2.6.1-osera-00001",
       "purl": "pkg:maven/commons-io/commons-io@2.6.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.6.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.6.1-osera-00002",
+      "purl": "pkg:maven/commons-io/commons-io@2.6.1-osera-00002"
     },
     {
       "type": "library",
@@ -40256,6 +40267,58 @@
       "affects": [
         {
           "ref": "pkg:maven/commons-io/commons-io@2.6.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-29425 on pkg:maven/commons-io/commons-io@2.6.1-osera-00002",
+      "id": "CVE-2021-29425",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-29425"
+      },
+      "references": [
+        {
+          "id": "GHSA-gwrp-pvrq-jmwv",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-gwrp-pvrq-jmwv"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T16:09:26Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/commons-io/commons-io@2.6.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2024-47554 on pkg:maven/commons-io/commons-io@2.6.1-osera-00002",
+      "id": "CVE-2024-47554",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47554"
+      },
+      "references": [
+        {
+          "id": "GHSA-78wr-2p64-hpwj",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-78wr-2p64-hpwj"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T16:09:26Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/commons-io/commons-io@2.6.1-osera-00002"
         }
       ]
     },
