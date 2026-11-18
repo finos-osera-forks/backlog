@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T19:12:49Z. Written by the line manager reconciler.
+Generated 2026-11-18T19:16:49Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 195 | 111 | 57% | 100 | 0 | 84 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 195 | 112 | 57% | 100 | 0 | 83 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 36 | 77% | 0 | 0 | 11 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 39 | 70% | 12 | 0 | 17 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
@@ -23,7 +23,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
-| snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
@@ -71,7 +71,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00004 | 0.9.5.5.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.mchange:mchange-commons-java | 0.2.20 | c3p0-0.9.x, mchange-commons-0.2.x, spring-boot-2.7.x | own project on c3p0-0.9.x (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.2.20.1-osera-00003 | 0.2.20.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.nimbusds:nimbus-jose-jwt | 9.22 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (com.nimbusds:oauth2-oidc-sdk@9.35) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| com.rabbitmq:amqp-client | 5.14.3 | spring-boot-2.7.x | listed by the BOM at 5.14.3 | open | 11 | 3 | 27% | 0 | 0 | 8 | 0 | 5.14.3.1-osera-00003 | 5.14.3.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.rabbitmq:amqp-client | 5.14.3 | spring-boot-2.7.x | listed by the BOM at 5.14.3 | open | 11 | 4 | 36% | 0 | 0 | 7 | 0 | 5.14.3.1-osera-00004 | 5.14.3.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-beanutils:commons-beanutils | 1.6.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.6.1.1-osera-00003 | 1.6.1.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-beanutils:commons-beanutils | 1.8.3 | struts-1.3.x | pulled in by a dependency (commons-digester:commons-digester@1.8.1) | fixed | 2 | 2 | 100% | 1 | 0 | 0 | 0 | 1.8.3.1-osera-00003 | 1.8.3.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-beanutils:commons-beanutils | 1.9.4 | commons-beanutils-1.9.x, spring-boot-2.7.x | own project on commons-beanutils-1.9.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.4.1-osera-00002 | 1.9.4.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
