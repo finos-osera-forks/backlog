@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 309,
+  "version": 310,
   "metadata": {
-    "timestamp": "2026-11-18T21:09:53Z",
+    "timestamp": "2026-11-18T21:19:53Z",
     "tools": {
       "components": [
         {
@@ -13394,6 +13394,17 @@
       "name": "spring-boot",
       "version": "2.7.18.1-osera-00125",
       "purl": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00125"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.springframework.cloud",
+      "name": "spring-cloud-gateway-server",
+      "version": "3.0.8.1-osera-00001",
+      "purl": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00001"
     },
     {
       "type": "library",
@@ -130340,6 +130351,23 @@
       "affects": [
         {
           "ref": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00125"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-41235 on pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00001",
+      "id": "CVE-2025-41235",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41235"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T21:13:35Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00001"
         }
       ]
     },
