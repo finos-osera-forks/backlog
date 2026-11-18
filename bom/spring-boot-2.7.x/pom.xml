@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-18T12:38:36Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-18T13:10:48Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.11.18.10</version>
+  <version>2026.11.18.11</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -386,6 +386,16 @@
         <groupId>org.springframework</groupId>
         <artifactId>spring-websocket</artifactId>
         <version>5.3.39.1-osera-00032</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.amqp</groupId>
+        <artifactId>spring-amqp</artifactId>
+        <version>2.4.17.1-osera-00001</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.amqp</groupId>
+        <artifactId>spring-rabbit</artifactId>
+        <version>2.4.17.1-osera-00001</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>

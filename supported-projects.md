@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T12:36:44Z. Written by the line manager reconciler.
+Generated 2026-11-18T13:09:04Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,7 +8,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 195 | 106 | 54% | 100 | 0 | 89 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 195 | 107 | 55% | 100 | 0 | 88 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 36 | 77% | 0 | 0 | 11 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 39 | 70% | 12 | 0 | 17 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
@@ -126,7 +126,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.eclipse.jetty:jetty-server | 9.2.30.v20200428 | jetty-9.2.x | own project (the anchor's group) | open | 5 | 4 | 80% | 1 | 0 | 1 | 0 | 9.2.30.v20200428-osera-00012 | 9.2.30.v20200428-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-server | 9.4.58.v20250814 | spring-boot-2.7.x | listed by the BOM at 9.4.53.v20231009 (org.eclipse.jetty:jetty-bom@9.4.53.v20231009) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 9.4.58.v20250814-osera-00015 | 9.4.58.v20250814-osera-00015 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | own project on lz4-java-1.8.x (the anchor's group) | open | 7 | 0 | 0% | 0 | 0 | 7 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.springframework.amqp:spring-amqp | 2.4.17 | spring-boot-2.7.x | listed by the BOM at 2.4.17 | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.springframework.amqp:spring-amqp | 2.4.17 | spring-boot-2.7.x | listed by the BOM at 2.4.17 | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 2.4.17.1-osera-00001 | 2.4.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00125 | 2.7.18.1-osera-00125 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.boot:spring-boot-autoconfigure | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.springframework.boot:spring-boot-devtools | 2.7.18 | spring-boot-2.7.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.18.1-osera-00125 | 2.7.18.1-osera-00125 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-438 libraries, 5656 patched version(s).
+441 libraries, 5659 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -552,6 +552,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.hibernate:hibernate-spatial | 5.6.15.Final | listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph | spring-boot-2.7.x |  | 5.6.15.Final-osera-00001 5.6.15.Final-osera-00002 | 5.6.15.Final-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.hibernate:hibernate-testing | 5.6.15.Final | listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph | spring-boot-2.7.x |  | 5.6.15.Final-osera-00001 5.6.15.Final-osera-00002 | 5.6.15.Final-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.hibernate:hibernate-vibur | 5.6.15.Final | listed by the BOM of spring-boot-2.7.x at 5.6.15.Final, not in its dependency graph | spring-boot-2.7.x |  | 5.6.15.Final-osera-00001 5.6.15.Final-osera-00002 | 5.6.15.Final-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.amqp:spring-rabbit-junit | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 | 2.4.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.amqp:spring-rabbit-stream | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 | 2.4.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.springframework.amqp:spring-rabbit-test | 2.4.17 | listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph | spring-boot-2.7.x |  | 2.4.17.1-osera-00001 | 2.4.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-envers | 2.7.18 | listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph | spring-boot-2.7.x |  | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 2.7.18.1-osera-00007 2.7.18.1-osera-00008 2.7.18.1-osera-00009 | 2.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-geode | 2.7.18 | listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph | spring-boot-2.7.x |  | 2.7.18.1-osera-00001 2.7.18.1-osera-00002 2.7.18.1-osera-00003 2.7.18.1-osera-00004 2.7.18.1-osera-00005 2.7.18.1-osera-00006 2.7.18.1-osera-00007 2.7.18.1-osera-00008 2.7.18.1-osera-00009 | 2.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.springframework.data:spring-data-rest-hal-explorer | 3.7.18 | listed by the BOM of spring-boot-2.7.x at 3.7.18, not in its dependency graph | spring-boot-2.7.x |  | 3.7.18.1-osera-00001 3.7.18.1-osera-00002 3.7.18.1-osera-00003 3.7.18.1-osera-00004 3.7.18.1-osera-00005 3.7.18.1-osera-00006 3.7.18.1-osera-00007 3.7.18.1-osera-00008 3.7.18.1-osera-00009 | 3.7.18.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
