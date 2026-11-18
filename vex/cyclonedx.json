@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 302,
+  "version": 303,
   "metadata": {
-    "timestamp": "2026-11-18T19:29:55Z",
+    "timestamp": "2026-11-18T19:34:53Z",
     "tools": {
       "components": [
         {
@@ -1957,6 +1957,17 @@
       "name": "amqp-client",
       "version": "5.14.3.1-osera-00005",
       "purl": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00005"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.rabbitmq",
+      "name": "amqp-client",
+      "version": "5.14.3.1-osera-00006",
+      "purl": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006"
     },
     {
       "type": "library",
@@ -40236,6 +40247,162 @@
       "affects": [
         {
           "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-106121 on pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006",
+      "id": "CVE-2026-106121",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106121"
+      },
+      "references": [
+        {
+          "id": "GHSA-cqgh-8p3p-mx4m",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-cqgh-8p3p-mx4m"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T19:30:42Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-106122 on pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006",
+      "id": "CVE-2026-106122",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106122"
+      },
+      "references": [
+        {
+          "id": "GHSA-7822-rcf6-97fx",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7822-rcf6-97fx"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T19:30:42Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-63335 on pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006",
+      "id": "CVE-2026-63335",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63335"
+      },
+      "references": [
+        {
+          "id": "GHSA-qx7j-jv8m-fppr",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-qx7j-jv8m-fppr"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T19:30:42Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-63337 on pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006",
+      "id": "CVE-2026-63337",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63337"
+      },
+      "references": [
+        {
+          "id": "GHSA-6g32-pxv4-2wfj",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-6g32-pxv4-2wfj"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T19:30:42Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-69219 on pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006",
+      "id": "CVE-2026-69219",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69219"
+      },
+      "references": [
+        {
+          "id": "GHSA-68mj-5wr7-6fgg",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-68mj-5wr7-6fgg"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T19:30:42Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-69220 on pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006",
+      "id": "CVE-2026-69220",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69220"
+      },
+      "references": [
+        {
+          "id": "GHSA-93j5-89vc-pph4",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-93j5-89vc-pph4"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-18T19:30:42Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00006"
         }
       ]
     },
