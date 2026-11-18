@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.18.46",
-  "as_of": "2026-11-18T20:33:48Z",
+  "book_version": "v2026.11.18.47",
+  "as_of": "2026-11-18T20:52:26Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -133,6 +133,14 @@
       "patch": "00032",
       "named_by": "org.springframework:spring-web@5.3.39.1-osera-00032",
       "at": "2026-11-18T09:12:47Z"
+    },
+    {
+      "cve": "CVE-2024-40094",
+      "library": "com.graphql-java:graphql-java",
+      "coordinate": "com.graphql-java:graphql-java@18.5.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.graphql-java:graphql-java@18.5.1-osera-00001",
+      "at": "2026-11-18T20:52:26Z"
     },
     {
       "cve": "CVE-2025-22233",
@@ -968,10 +976,6 @@
     {
       "cve": "CVE-2024-3884",
       "library": "io.undertow:undertow-core"
-    },
-    {
-      "cve": "CVE-2024-40094",
-      "library": "com.graphql-java:graphql-java"
     },
     {
       "cve": "CVE-2024-4027",

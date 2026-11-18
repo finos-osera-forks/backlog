@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.18.46",
-  "as_of": "2026-11-18T20:33:48Z",
+  "book_version": "v2026.11.18.47",
+  "as_of": "2026-11-18T20:52:26Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -141,6 +141,14 @@
       "patch": "00032",
       "named_by": "org.springframework:spring-web@5.3.39.1-osera-00032",
       "at": "2026-11-18T09:12:47Z"
+    },
+    {
+      "cve": "CVE-2024-40094",
+      "library": "com.graphql-java:graphql-java",
+      "coordinate": "com.graphql-java:graphql-java@18.5.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.graphql-java:graphql-java@18.5.1-osera-00001",
+      "at": "2026-11-18T20:52:26Z"
     },
     {
       "cve": "CVE-2025-11226",
@@ -1012,10 +1020,6 @@
     {
       "cve": "CVE-2024-38828",
       "library": "org.springframework:spring-webmvc"
-    },
-    {
-      "cve": "CVE-2024-40094",
-      "library": "com.graphql-java:graphql-java"
     },
     {
       "cve": "CVE-2024-6763",
@@ -2610,5 +2614,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.22"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.23"
 }
