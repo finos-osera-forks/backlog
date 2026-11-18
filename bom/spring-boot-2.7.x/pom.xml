@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-18T19:31:33Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-18T19:43:58Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.11.18.18</version>
+  <version>2026.11.18.19</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -90,7 +90,7 @@
       <dependency>
         <groupId>com.rabbitmq</groupId>
         <artifactId>amqp-client</artifactId>
-        <version>5.14.3.1-osera-00006</version>
+        <version>5.14.3.1-osera-00007</version>
       </dependency>
       <dependency>
         <groupId>commons-beanutils</groupId>

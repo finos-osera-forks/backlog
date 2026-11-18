@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.18.36",
-  "as_of": "2026-11-18T19:29:35Z",
+  "book_version": "v2026.11.18.37",
+  "as_of": "2026-11-18T19:41:43Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -225,18 +225,18 @@
     {
       "cve": "CVE-2026-106121",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "patch": "00006",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "at": "2026-11-18T19:29:35Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "at": "2026-11-18T19:41:43Z"
     },
     {
       "cve": "CVE-2026-106122",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "patch": "00006",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "at": "2026-11-18T19:29:35Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "at": "2026-11-18T19:41:43Z"
     },
     {
       "cve": "CVE-2026-106449",
@@ -831,20 +831,28 @@
       "at": "2026-11-05T11:00:58Z"
     },
     {
+      "cve": "CVE-2026-61634",
+      "library": "com.rabbitmq:amqp-client",
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "at": "2026-11-18T19:41:43Z"
+    },
+    {
       "cve": "CVE-2026-63335",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "patch": "00006",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "at": "2026-11-18T19:29:35Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "at": "2026-11-18T19:41:43Z"
     },
     {
       "cve": "CVE-2026-63337",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "patch": "00006",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "at": "2026-11-18T19:29:35Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "at": "2026-11-18T19:41:43Z"
     },
     {
       "cve": "CVE-2026-6790",
@@ -865,18 +873,18 @@
     {
       "cve": "CVE-2026-69219",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "patch": "00006",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "at": "2026-11-18T19:29:35Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "at": "2026-11-18T19:41:43Z"
     },
     {
       "cve": "CVE-2026-69220",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "patch": "00006",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00006",
-      "at": "2026-11-18T19:29:35Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "patch": "00007",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00007",
+      "at": "2026-11-18T19:41:43Z"
     },
     {
       "cve": "CVE-2026-77310",
@@ -1228,10 +1236,6 @@
     {
       "cve": "CVE-2026-59949",
       "library": "org.lz4:lz4-java"
-    },
-    {
-      "cve": "CVE-2026-61634",
-      "library": "com.rabbitmq:amqp-client"
     },
     {
       "cve": "CVE-2026-63336",
@@ -2594,5 +2598,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.18"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.18.19"
 }
