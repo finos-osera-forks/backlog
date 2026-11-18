@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T13:09:54Z",
-  "feed_version": 293,
+  "generated_at": "2026-11-18T13:14:55Z",
+  "feed_version": 294,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -7219,10 +7219,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00006"
       ],
       "state": "held",
-      "held_since": "2026-11-18T11:54:53Z",
+      "held_since": "2026-11-18T13:14:55Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00006, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00006, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7277,10 +7277,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00007"
       ],
       "state": "held",
-      "held_since": "2026-11-18T13:09:54Z",
+      "held_since": "2026-11-18T13:14:55Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00007, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00007, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -10832,6 +10832,19 @@
       ],
       "state": "in the feed",
       "statements": 7
+    },
+    {
+      "set": "finos-osera-forks/patch-spring-amqp@v2.4.17.1-osera-00001",
+      "members": 5,
+      "coordinates": [
+        "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00001",
+        "org.springframework.amqp:spring-rabbit-junit@2.4.17.1-osera-00001",
+        "org.springframework.amqp:spring-rabbit-stream@2.4.17.1-osera-00001",
+        "org.springframework.amqp:spring-rabbit-test@2.4.17.1-osera-00001",
+        "org.springframework.amqp:spring-rabbit@2.4.17.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-spring-boot@v2.7.18.1-osera-00001",
