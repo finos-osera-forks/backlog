@@ -57132,6 +57132,17 @@
       "first_seen": "2026-11-18T16:01:37Z"
     },
     {
+      "coordinate": "commons-io:commons-io@2.6.1-osera-00002",
+      "library": "commons-io:commons-io",
+      "base": "2.6",
+      "reason": "listed by the BOM of log4j2-2.24.x at 2.17.0, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "commons-io:commons-io@2.6.1-osera-00002: listed by the BOM of log4j2-2.24.x at 2.17.0, not in its dependency graph",
+      "first_seen": "2026-11-18T16:09:05Z"
+    },
+    {
       "coordinate": "glob-parent@3.1.1-osera-00001",
       "library": "glob-parent",
       "base": "3.1.0",
