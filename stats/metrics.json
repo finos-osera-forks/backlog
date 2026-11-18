@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-18T12:24:53Z",
+ "as_of": "2026-11-18T12:54:52Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 446,
-  "library_versions": 673,
-  "releases": 2110,
-  "forks": 85,
-  "artifacts": 17140,
-  "cves": 258,
-  "cve_statements": 6194,
-  "release_sets": 648,
+  "libraries": 472,
+  "library_versions": 699,
+  "releases": 2112,
+  "forks": 86,
+  "artifacts": 17230,
+  "cves": 260,
+  "cve_statements": 6212,
+  "release_sets": 650,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -108,7 +108,7 @@
   },
   {
    "date": "2026-11-18",
-   "count": 160
+   "count": 250
   }
  ],
  "top_cves": [
@@ -926,6 +926,188 @@
    "fixed_entries": 1
   },
   {
+   "library": "io.micrometer:micrometer-bom",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-core",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-appoptics",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-atlas",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-azure-monitor",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-cloudwatch",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-cloudwatch2",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-datadog",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-dynatrace",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-elastic",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-ganglia",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-graphite",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-health",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-humio",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-influx",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-jmx",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-kairos",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-new-relic",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-opentsdb",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-otlp",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-prometheus",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-signalfx",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-stackdriver",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-statsd",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-registry-wavefront",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "io.micrometer:micrometer-test",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "1.9.17.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
    "library": "io.projectreactor.addons:reactor-adapter",
    "ecosystem": "Java",
    "releases": 3,
@@ -1488,449 +1670,449 @@
   {
    "library": "org.eclipse.jetty.fcgi:fcgi-client",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.fcgi:fcgi-server",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.gcloud:jetty-gcloud-session-manager",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.http2:http2-client",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.http2:http2-common",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 3
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 4
   },
   {
    "library": "org.eclipse.jetty.http2:http2-hpack",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.http2:http2-http-client-transport",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.http2:http2-server",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.memcached:jetty-memcached-sessions",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.osgi:jetty-httpservice",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.osgi:jetty-osgi-boot",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.osgi:jetty-osgi-boot-jsp",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.osgi:jetty-osgi-boot-warurl",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.websocket:javax-websocket-client-impl",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.websocket:javax-websocket-server-impl",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.websocket:websocket-api",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.websocket:websocket-client",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.websocket:websocket-common",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.websocket:websocket-server",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty.websocket:websocket-servlet",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:apache-jsp",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:apache-jstl",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:infinispan-common",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:infinispan-embedded-query",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:infinispan-remote-query",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-alpn-client",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-alpn-conscrypt-client",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-alpn-conscrypt-server",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-alpn-java-client",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-alpn-java-server",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-alpn-openjdk8-client",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-alpn-openjdk8-server",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-alpn-server",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-annotations",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 4
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 5
   },
   {
    "library": "org.eclipse.jetty:jetty-ant",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-bom",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-client",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 40
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 46
   },
   {
    "library": "org.eclipse.jetty:jetty-continuation",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-deploy",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-hazelcast",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-http",
    "ecosystem": "Java",
-   "releases": 26,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 69
+   "releases": 27,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 73
   },
   {
    "library": "org.eclipse.jetty:jetty-http-spi",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-io",
    "ecosystem": "Java",
-   "releases": 26,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 27,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 12
   },
   {
    "library": "org.eclipse.jetty:jetty-jaas",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-jaspi",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 11
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 12
   },
   {
    "library": "org.eclipse.jetty:jetty-jmx",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-jndi",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-nosql",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-openid",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-plus",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-project",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-proxy",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 5
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 6
   },
   {
    "library": "org.eclipse.jetty:jetty-quickstart",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-rewrite",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-security",
    "ecosystem": "Java",
-   "releases": 26,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 15
+   "releases": 27,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 16
   },
   {
    "library": "org.eclipse.jetty:jetty-server",
    "ecosystem": "Java",
-   "releases": 26,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 30
+   "releases": 27,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 31
   },
   {
    "library": "org.eclipse.jetty:jetty-servlet",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-servlets",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-spring",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-unixsocket",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-util",
    "ecosystem": "Java",
-   "releases": 26,
-   "latest": "9.4.58.v20250814-osera-00014",
-   "fixed_entries": 17
+   "releases": 27,
+   "latest": "9.4.58.v20250814-osera-00015",
+   "fixed_entries": 18
   },
   {
    "library": "org.eclipse.jetty:jetty-util-ajax",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-webapp",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
    "library": "org.eclipse.jetty:jetty-xml",
    "ecosystem": "Java",
-   "releases": 14,
-   "latest": "9.4.58.v20250814-osera-00014",
+   "releases": 15,
+   "latest": "9.4.58.v20250814-osera-00015",
    "fixed_entries": 0
   },
   {
