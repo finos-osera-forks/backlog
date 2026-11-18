@@ -57110,6 +57110,17 @@
       "first_seen": "2026-11-13T15:33:09Z"
     },
     {
+      "coordinate": "com.graphql-java:graphql-java@18.7.1-osera-00001",
+      "library": "com.graphql-java:graphql-java",
+      "base": "18.7",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 18.5, uploaded on 18.7",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "com.graphql-java:graphql-java@18.7.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 18.5, uploaded on 18.7",
+      "first_seen": "2026-11-18T21:02:38Z"
+    },
+    {
       "coordinate": "com.jayway.jsonpath:json-path-assert@2.7.0.1-osera-00001",
       "library": "com.jayway.jsonpath:json-path-assert",
       "base": "2.7.0",

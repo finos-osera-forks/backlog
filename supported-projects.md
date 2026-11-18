@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-18T20:52:26Z. Written by the line manager reconciler.
+Generated 2026-11-18T21:02:38Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-442 libraries, 5664 patched version(s).
+443 libraries, 5665 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -404,6 +404,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.google.protobuf:protobuf-java | 3.19.6 | not listed by any line |  |  | 3.19.6.1-osera-00001 | 3.19.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.google.protobuf:protobuf-java-util | 3.19.6 | not listed by any line |  |  | 3.19.6.1-osera-00001 | 3.19.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.google.protobuf:protobuf-javalite | 3.19.6 | not listed by any line |  |  | 3.19.6.1-osera-00001 | 3.19.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| com.graphql-java:graphql-java | 18.7 | in the dependency graph of spring-boot-2.7.x at 18.5, uploaded on 18.7 | spring-boot-2.7.x |  | 18.7.1-osera-00001 | 18.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.jayway.jsonpath:json-path-assert | 2.7.0 | listed by the BOM of spring-boot-2.7.x at 2.7.0, not in its dependency graph | spring-boot-2.7.x |  | 2.7.0.1-osera-00001 | 2.7.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-io:commons-io | 2.6 | listed by the BOM of log4j2-2.24.x at 2.17.0, not in its dependency graph | log4j2-2.24.x |  | 2.6.1-osera-00001 2.6.1-osera-00002 | 2.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
