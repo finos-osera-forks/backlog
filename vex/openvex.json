@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-18T12:45:22Z",
-  "version": 293,
+  "last_updated": "2026-11-18T13:14:55Z",
+  "version": 294,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -64295,6 +64295,22 @@
       "products": [
         {
           "@id": "pkg:maven/org.hibernate/hibernate-core@5.6.15.Final-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-41701",
+        "aliases": [
+          "GHSA-p5f7-rjhp-pxvc"
+        ]
+      },
+      "timestamp": "2026-11-18T13:07:54Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.amqp/spring-rabbit@2.4.17.1-osera-00001"
         }
       ],
       "status": "fixed",
