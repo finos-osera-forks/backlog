@@ -70632,6 +70632,39 @@
       "first_seen": "2026-11-05T07:33:38Z"
     },
     {
+      "coordinate": "org.springframework.amqp:spring-rabbit-junit@2.4.17.1-osera-00001",
+      "library": "org.springframework.amqp:spring-rabbit-junit",
+      "base": "2.4.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.amqp:spring-rabbit-junit@2.4.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph",
+      "first_seen": "2026-11-18T13:09:04Z"
+    },
+    {
+      "coordinate": "org.springframework.amqp:spring-rabbit-stream@2.4.17.1-osera-00001",
+      "library": "org.springframework.amqp:spring-rabbit-stream",
+      "base": "2.4.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.amqp:spring-rabbit-stream@2.4.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph",
+      "first_seen": "2026-11-18T13:09:04Z"
+    },
+    {
+      "coordinate": "org.springframework.amqp:spring-rabbit-test@2.4.17.1-osera-00001",
+      "library": "org.springframework.amqp:spring-rabbit-test",
+      "base": "2.4.17",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.amqp:spring-rabbit-test@2.4.17.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 2.4.17, not in its dependency graph",
+      "first_seen": "2026-11-18T13:09:04Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-envers",
       "base": "2.7.18",

@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.18.21",
-  "as_of": "2026-11-18T12:40:21Z",
+  "as_of": "2026-11-18T13:09:04Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -341,6 +341,14 @@
       "patch": "00005",
       "named_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00005",
       "at": "2026-11-05T08:33:00Z"
+    },
+    {
+      "cve": "CVE-2026-41701",
+      "library": "org.springframework.amqp:spring-amqp",
+      "coordinate": "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00001",
+      "at": "2026-11-18T13:09:04Z"
     },
     {
       "cve": "CVE-2026-41711",
@@ -1328,10 +1336,6 @@
     {
       "cve": "CVE-2026-41697",
       "library": "org.springframework.data:spring-data-relational"
-    },
-    {
-      "cve": "CVE-2026-41701",
-      "library": "org.springframework.amqp:spring-amqp"
     },
     {
       "cve": "CVE-2026-41706",
