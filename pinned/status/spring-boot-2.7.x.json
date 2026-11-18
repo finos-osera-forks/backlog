@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.18.35",
-  "as_of": "2026-11-18T19:19:44Z",
+  "as_of": "2026-11-18T19:23:06Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -173,6 +173,14 @@
       "patch": "00039",
       "named_by": "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00039",
       "at": "2026-11-12T12:36:42Z"
+    },
+    {
+      "cve": "CVE-2026-106122",
+      "library": "com.rabbitmq:amqp-client",
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "at": "2026-11-18T19:23:06Z"
     },
     {
       "cve": "CVE-2026-19032",
@@ -649,18 +657,18 @@
     {
       "cve": "CVE-2026-63335",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00004",
-      "patch": "00004",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00004",
-      "at": "2026-11-18T19:16:49Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "at": "2026-11-18T19:23:06Z"
     },
     {
       "cve": "CVE-2026-63337",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00004",
-      "patch": "00004",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00004",
-      "at": "2026-11-18T19:16:49Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "at": "2026-11-18T19:23:06Z"
     },
     {
       "cve": "CVE-2026-68494",
@@ -673,18 +681,18 @@
     {
       "cve": "CVE-2026-69219",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00004",
-      "patch": "00004",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00004",
-      "at": "2026-11-18T19:16:49Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "at": "2026-11-18T19:23:06Z"
     },
     {
       "cve": "CVE-2026-69220",
       "library": "com.rabbitmq:amqp-client",
-      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00004",
-      "patch": "00004",
-      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00004",
-      "at": "2026-11-18T19:16:49Z"
+      "coordinate": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.rabbitmq:amqp-client@5.14.3.1-osera-00005",
+      "at": "2026-11-18T19:23:06Z"
     },
     {
       "cve": "CVE-2026-77310",
@@ -1163,10 +1171,6 @@
     },
     {
       "cve": "CVE-2026-106121",
-      "library": "com.rabbitmq:amqp-client"
-    },
-    {
-      "cve": "CVE-2026-106122",
       "library": "com.rabbitmq:amqp-client"
     },
     {
