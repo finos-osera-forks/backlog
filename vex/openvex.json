@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-18T16:14:53Z",
-  "version": 297,
+  "last_updated": "2026-11-18T18:59:54Z",
+  "version": 298,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -13652,6 +13652,22 @@
       "products": [
         {
           "@id": "pkg:maven/com.mchange/mchange-commons-java@0.2.20.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-63335",
+        "aliases": [
+          "GHSA-qx7j-jv8m-fppr"
+        ]
+      },
+      "timestamp": "2026-11-18T18:53:27Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.rabbitmq/amqp-client@5.14.3.1-osera-00001"
         }
       ],
       "status": "fixed",

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T18:44:53Z",
-  "feed_version": 297,
+  "generated_at": "2026-11-18T18:59:54Z",
+  "feed_version": 298,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -10127,6 +10127,15 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-rabbitmq-java-client@v5.14.3.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "com.rabbitmq:amqp-client@5.14.3.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-reactor@v2020.0.47.1-osera-00001",
