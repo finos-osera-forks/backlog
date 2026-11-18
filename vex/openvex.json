@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-18T21:19:53Z",
-  "version": 310,
+  "last_updated": "2026-11-18T21:29:53Z",
+  "version": 311,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -74451,6 +74451,32 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41235"
+      },
+      "timestamp": "2026-11-18T21:21:12Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-41253"
+      },
+      "timestamp": "2026-11-18T21:21:12Z",
+      "products": [
+        {
+          "@id": "pkg:maven/org.springframework.cloud/spring-cloud-gateway-server@3.0.8.1-osera-00002"
         }
       ],
       "status": "fixed",
