@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T16:09:54Z",
-  "feed_version": 296,
+  "generated_at": "2026-11-18T16:14:53Z",
+  "feed_version": 297,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -2025,6 +2025,15 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-commons-io@v2.6.1-osera-00002",
+      "members": 1,
+      "coordinates": [
+        "commons-io:commons-io@2.6.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 2
     },
     {
       "set": "finos-osera-forks/patch-commons-lang@v2.6.1-osera-00001",
@@ -7054,10 +7063,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00003"
       ],
       "state": "held",
-      "held_since": "2026-11-18T16:09:54Z",
+      "held_since": "2026-11-18T16:14:53Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00003, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00003, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7286,10 +7295,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00007"
       ],
       "state": "held",
-      "held_since": "2026-11-18T14:04:54Z",
+      "held_since": "2026-11-18T16:14:53Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00007, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00007, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },

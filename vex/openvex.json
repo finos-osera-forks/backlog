@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-18T16:09:54Z",
-  "version": 296,
+  "last_updated": "2026-11-18T16:14:53Z",
+  "version": 297,
   "tooling": "osera-feed 589af7c434c53f824735f72d92780c73b19feb63",
   "statements": [
     {
@@ -13950,6 +13950,38 @@
       "products": [
         {
           "@id": "pkg:maven/commons-io/commons-io@2.6.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2021-29425",
+        "aliases": [
+          "GHSA-gwrp-pvrq-jmwv"
+        ]
+      },
+      "timestamp": "2026-11-18T16:09:26Z",
+      "products": [
+        {
+          "@id": "pkg:maven/commons-io/commons-io@2.6.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2024-47554",
+        "aliases": [
+          "GHSA-78wr-2p64-hpwj"
+        ]
+      },
+      "timestamp": "2026-11-18T16:09:26Z",
+      "products": [
+        {
+          "@id": "pkg:maven/commons-io/commons-io@2.6.1-osera-00002"
         }
       ],
       "status": "fixed",
