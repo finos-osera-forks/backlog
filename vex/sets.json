@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T08:40:08Z",
-  "feed_version": 284,
+  "generated_at": "2026-11-18T08:44:57Z",
+  "feed_version": 285,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -6987,10 +6987,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00002"
       ],
       "state": "held",
-      "held_since": "2026-11-18T08:40:08Z",
+      "held_since": "2026-11-18T08:44:57Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00002, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00002, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7335,10 +7335,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00008"
       ],
       "state": "held",
-      "held_since": "2026-11-18T08:40:08Z",
+      "held_since": "2026-11-18T08:44:57Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7393,10 +7393,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00009"
       ],
       "state": "held",
-      "held_since": "2026-11-18T08:40:08Z",
+      "held_since": "2026-11-18T08:44:57Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00009, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00009, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -21934,34 +21934,8 @@
         "org.springframework:spring-webmvc@5.3.39.1-osera-00027",
         "org.springframework:spring-websocket@5.3.39.1-osera-00027"
       ],
-      "state": "held",
-      "held_since": "2026-11-18T08:40:08Z",
-      "reasons": [
-        {
-          "member": "org.springframework:spring-web@5.3.39.1-osera-00027",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework:spring-webflux@5.3.39.1-osera-00027",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework:spring-webmvc@5.3.39.1-osera-00027",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework:spring-websocket@5.3.39.1-osera-00027",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.springframework:spring-test@5.3.39.1-osera-00027",
-          "why": "evidence chain not complete: files: not checked (spring-test-5.3.39.1-osera-00027.jar.sha1, spring-test-5.3.39.1-osera-00027.pom.sha1 not there yet: the last file landed 35s ago and the gate copies the checksums after the jar and the pom); signatures: failed (no signature next to the jar (spring-test-5.3.39.1-osera-00027.jar.asc))"
-        },
-        {
-          "member": "org.springframework:spring-tx@5.3.39.1-osera-00027",
-          "why": "evidence chain not complete: files: not checked (spring-tx-5.3.39.1-osera-00027.jar.sha1, spring-tx-5.3.39.1-osera-00027.pom.sha1 not there yet: the last file landed 35s ago and the gate copies the checksums after the jar and the pom); signatures: failed (no signature next to the jar (spring-tx-5.3.39.1-osera-00027.jar.asc))"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 35
     },
     {
       "set": "finos-osera-forks/patch-spring-graphql@v1.0.6.1-osera-00001",
