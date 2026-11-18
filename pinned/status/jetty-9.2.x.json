@@ -1,7 +1,7 @@
 {
   "line": "jetty-9.2.x",
   "book_version": "v2026.11.18.19",
-  "as_of": "2026-11-18T10:02:52Z",
+  "as_of": "2026-11-18T12:24:22Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 8,
@@ -106,6 +106,7 @@
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00012 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00013 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00014 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.2.30.v20200428",
+    "promoted org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00015 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-http at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00001 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00002 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00003 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
@@ -119,7 +120,8 @@
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00011 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00012 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
     "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00013 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
-    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00014 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428"
+    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00014 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428",
+    "promoted org.eclipse.jetty:jetty-server@9.4.58.v20250814-osera-00015 is on base 9.4.58.v20250814, the line has org.eclipse.jetty:jetty-server at 9.2.30.v20200428"
   ],
   "consume": "org.finos.osera:osera-bom-jetty-9.2.x@2026.11.05"
 }
