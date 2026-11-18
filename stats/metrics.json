@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-18T21:24:53Z",
+ "as_of": "2026-11-18T21:54:53Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 482,
   "library_versions": 710,
-  "releases": 2129,
+  "releases": 2130,
   "forks": 92,
-  "artifacts": 17255,
-  "cves": 276,
-  "cve_statements": 6267,
-  "release_sets": 667,
+  "artifacts": 17256,
+  "cves": 277,
+  "cve_statements": 6269,
+  "release_sets": 668,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -108,7 +108,7 @@
   },
   {
    "date": "2026-11-18",
-   "count": 275
+   "count": 276
   }
  ],
  "top_cves": [
@@ -2790,9 +2790,9 @@
   {
    "library": "org.springframework.cloud:spring-cloud-gateway-server",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "3.0.8.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 2,
+   "latest": "3.0.8.1-osera-00002",
+   "fixed_entries": 3
   },
   {
    "library": "org.springframework.data:spring-data-bom",

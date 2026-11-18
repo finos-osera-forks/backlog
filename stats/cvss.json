@@ -76,6 +76,14 @@
    "value": 7.5,
    "version": "3.1"
   },
+  "CVE-2025-41235": {
+   "value": 8.6,
+   "version": "3.1"
+  },
+  "CVE-2025-41253": {
+   "value": 7.5,
+   "version": "3.1"
+  },
   "CVE-2025-64775": {
    "value": 7.5,
    "version": "3.1"
@@ -338,6 +346,8 @@
   "CVE-2024-47554": "Uncontrolled Resource Consumption vulnerability in Apache Commons IO.",
   "CVE-2024-53677": "File upload logic in Apache Struts is flawed.",
   "CVE-2024-7254": "Any project that parses untrusted Protocol Buffers data containing an arbitrary number of nested groups / series of SGROUP tags can corrupted by exceeding the stack limit i.e.",
+  "CVE-2025-41235": "Spring Cloud Gateway Server forwards the X-Forwarded-For and Forwarded headers from untrusted proxies.",
+  "CVE-2025-41253": "The following versions of Spring Cloud Gateway Server Webflux may be vulnerable to the ability to expose environment variables and system properties to attackers.",
   "CVE-2025-64775": "Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes disk exhaustion.",
   "CVE-2025-66516": "Critical XXE in Apache Tika tika-core (1.13-3.2.1), tika-pdf-module (2.0.0-3.2.1) and tika-parsers (1.13-1.28.5) modules on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF.",
   "CVE-2025-66675": "Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes disk exhaustion.",
@@ -420,6 +430,8 @@
   "CVE-2024-47554",
   "CVE-2024-53677",
   "CVE-2024-7254",
+  "CVE-2025-41235",
+  "CVE-2025-41253",
   "CVE-2025-64775",
   "CVE-2025-66516",
   "CVE-2025-66675",
