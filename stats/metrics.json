@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-18T12:54:52Z",
+ "as_of": "2026-11-18T13:24:53Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 472,
-  "library_versions": 699,
-  "releases": 2112,
-  "forks": 86,
-  "artifacts": 17230,
-  "cves": 260,
-  "cve_statements": 6212,
-  "release_sets": 650,
+  "libraries": 477,
+  "library_versions": 704,
+  "releases": 2114,
+  "forks": 87,
+  "artifacts": 17240,
+  "cves": 262,
+  "cve_statements": 6215,
+  "release_sets": 652,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -108,7 +108,7 @@
   },
   {
    "date": "2026-11-18",
-   "count": 250
+   "count": 260
   }
  ],
  "top_cves": [
@@ -2211,6 +2211,41 @@
    "ecosystem": "Java",
    "releases": 2,
    "latest": "5.6.15.Final-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.amqp:spring-amqp",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "2.4.17.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.amqp:spring-rabbit",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "2.4.17.1-osera-00002",
+   "fixed_entries": 3
+  },
+  {
+   "library": "org.springframework.amqp:spring-rabbit-junit",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "2.4.17.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.amqp:spring-rabbit-stream",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "2.4.17.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.springframework.amqp:spring-rabbit-test",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "2.4.17.1-osera-00002",
    "fixed_entries": 0
   },
   {
