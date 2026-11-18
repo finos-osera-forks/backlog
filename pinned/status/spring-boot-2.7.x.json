@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.18.22",
-  "as_of": "2026-11-18T13:12:51Z",
+  "as_of": "2026-11-18T13:16:06Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -345,10 +345,10 @@
     {
       "cve": "CVE-2026-41701",
       "library": "org.springframework.amqp:spring-amqp",
-      "coordinate": "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00001",
-      "at": "2026-11-18T13:09:04Z"
+      "coordinate": "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00002",
+      "at": "2026-11-18T13:16:06Z"
     },
     {
       "cve": "CVE-2026-41711",
@@ -357,6 +357,14 @@
       "patch": "00009",
       "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00009",
       "at": "2026-11-18T09:46:01Z"
+    },
+    {
+      "cve": "CVE-2026-41714",
+      "library": "org.springframework.amqp:spring-amqp",
+      "coordinate": "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.springframework.amqp:spring-amqp@2.4.17.1-osera-00002",
+      "at": "2026-11-18T13:16:06Z"
     },
     {
       "cve": "CVE-2026-41716",
@@ -1344,10 +1352,6 @@
     {
       "cve": "CVE-2026-41710",
       "library": "org.springframework.retry:spring-retry"
-    },
-    {
-      "cve": "CVE-2026-41714",
-      "library": "org.springframework.amqp:spring-amqp"
     },
     {
       "cve": "CVE-2026-41720",
