@@ -57782,6 +57782,150 @@
       "first_seen": "2026-11-13T10:38:37Z"
     },
     {
+      "coordinate": "org.apache.cxf.archetype:cxf-jaxrs-service@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.archetype:cxf-jaxrs-service",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.archetype:cxf-jaxrs-service@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.archetype:cxf-jaxws-javafirst@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.archetype:cxf-jaxws-javafirst",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.archetype:cxf-jaxws-javafirst@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.archetype:cxf-jaxws-wsdlfirst@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.archetype:cxf-jaxws-wsdlfirst",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.archetype:cxf-jaxws-wsdlfirst@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.karaf:cxf-karaf-commands@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.karaf:cxf-karaf-commands",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.karaf:cxf-karaf-commands@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.sts:cxf-services-sts-core@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.sts:cxf-services-sts-core",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.sts:cxf-services-sts-core@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-api@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-api",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-api@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-service@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-service",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-service@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.wsn:cxf-services-wsn-api@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.wsn:cxf-services-wsn-api",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.wsn:cxf-services-wsn-api@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.wsn:cxf-services-wsn-core@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.wsn:cxf-services-wsn-core",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.wsn:cxf-services-wsn-core@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.wsn:cxf-services-wsn-osgi@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.wsn:cxf-services-wsn-osgi",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.wsn:cxf-services-wsn-osgi@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.xkms:cxf-services-xkms-client@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.xkms:cxf-services-xkms-client",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.xkms:cxf-services-xkms-client@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.xkms:cxf-services-xkms-common@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.xkms:cxf-services-xkms-common",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.xkms:cxf-services-xkms-common@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.xkms:cxf-services-xkms-osgi@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.xkms:cxf-services-xkms-osgi",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.xkms:cxf-services-xkms-osgi@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.xkms:cxf-services-xkms-service@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.xkms:cxf-services-xkms-service",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.xkms:cxf-services-xkms-service@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-handlers@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-handlers",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-handlers@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-repo-ldap@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-repo-ldap",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-repo-ldap@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
       "coordinate": "org.apache.cxf:cxf-bundle-compatible@3.5.11.1-osera-00001",
       "library": "org.apache.cxf:cxf-bundle-compatible",
       "base": "3.5.11",
@@ -57969,6 +58113,582 @@
       "lines": [],
       "words": "org.apache.cxf:cxf-rt-frontend-jaxws@3.5.11.1-osera-00001: not listed by any line",
       "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-frontend-js@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-frontend-js",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-frontend-js@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-frontend-simple@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-frontend-simple",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-frontend-simple@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-javascript@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-javascript",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-javascript@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-management@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-management",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-management@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-client@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-client",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-client@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-extension-providers@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-extension-providers",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-extension-providers@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-extension-reactivestreams@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-extension-reactivestreams",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-extension-reactivestreams@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-extension-reactor@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-extension-reactor",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-extension-reactor@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-extension-rx2@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-extension-rx2",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-extension-rx2@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-extension-rx3@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-extension-rx3",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-extension-rx3@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-extension-rx@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-extension-rx",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-extension-rx@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-extension-search@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-extension-search",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-extension-search@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-http-sci@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-http-sci",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-http-sci@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-json-basic@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-json-basic",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-json-basic@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-mp-client@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-mp-client",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-mp-client@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-security-cors@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-security-cors",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-security-cors@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-security-http-signature@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-security-http-signature",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-security-http-signature@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-security-jose-jaxrs@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-security-jose-jaxrs",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-security-jose-jaxrs@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-security-jose@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-security-jose",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-security-jose@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-security-oauth2-saml@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-security-oauth2-saml",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-security-oauth2-saml@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-security-oauth2@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-security-oauth2",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-security-oauth2@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-security-xml@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-security-xml",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-security-xml@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-service-description-microprofile-openapi@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-service-description-microprofile-openapi",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-service-description-microprofile-openapi@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-service-description-openapi-v3@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-service-description-openapi-v3",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-service-description-openapi-v3@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-service-description-swagger-ui@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-service-description-swagger-ui",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-service-description-swagger-ui@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-service-description-swagger@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-service-description-swagger",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-service-description-swagger@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-service-description@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-service-description",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-service-description@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-rs-sse@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-rs-sse",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-rs-sse@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-security-saml@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-security-saml",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-security-saml@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-security@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-security",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-security@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-http-hc5@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-http-hc5",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-http-hc5@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-http-hc@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-http-hc",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-http-hc@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-http-jetty@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-http-jetty",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-http-jetty@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-http-netty-client@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-http-netty-client",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-http-netty-client@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-http-netty-server@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-http-netty-server",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-http-netty-server@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-http-undertow@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-http-undertow",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-http-undertow@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-http@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-http",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-http@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-jms@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-jms",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-jms@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-local@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-local",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-local@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-udp@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-udp",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-udp@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-transports-websocket@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-transports-websocket",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-transports-websocket@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-ws-addr@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-ws-addr",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-ws-addr@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-ws-eventing@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-ws-eventing",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-ws-eventing@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-ws-mex@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-ws-mex",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-ws-mex@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-ws-policy@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-ws-policy",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-ws-policy@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-ws-rm@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-ws-rm",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-ws-rm@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-ws-security@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-ws-security",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-ws-security@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-ws-transfer@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-ws-transfer",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-ws-transfer@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-wsdl@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-wsdl",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-wsdl@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-servlet-compatible@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-servlet-compatible",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-servlet-compatible@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-spring-boot-autoconfigure@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-spring-boot-autoconfigure",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-spring-boot-autoconfigure@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-spring-boot-starter-jaxrs@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-spring-boot-starter-jaxrs",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-spring-boot-starter-jaxrs@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-spring-boot-starter-jaxws@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-spring-boot-starter-jaxws",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-spring-boot-starter-jaxws@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-testutils@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-testutils",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-testutils@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-common@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-common",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-common@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-corba@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-corba",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-corba@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-java2ws@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-java2ws",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-java2ws@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-misctools@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-misctools",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-misctools@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-validator@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-validator",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-validator@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-wadlto-jaxrs@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-wadlto-jaxrs",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-wadlto-jaxrs@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-wsdlto-core@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-wsdlto-core",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-wsdlto-core@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-wsdlto-databinding-jaxb@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-wsdlto-databinding-jaxb",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-wsdlto-databinding-jaxb@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-wsdlto-frontend-javascript@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-wsdlto-frontend-javascript",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-wsdlto-frontend-javascript@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:49:23Z"
     },
     {
       "coordinate": "org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
