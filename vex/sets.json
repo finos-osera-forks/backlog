@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T16:36:19Z",
+  "generated_at": "2026-11-19T16:41:21Z",
   "feed_version": 317,
   "sets": [
     {
@@ -11,6 +11,43 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-activemq@v5.14.5.1-osera-00001",
+      "members": 15,
+      "coordinates": [
+        "org.apache.activemq:activemq-all@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-amqp@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-broker@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-client@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-jdbc-store@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-mqtt@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-openwire-legacy@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-osgi@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-parent@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-rar@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-spring@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-stomp@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-web-console@5.14.5.1-osera-00001",
+        "org.apache.activemq:activemq-web@5.14.5.1-osera-00001",
+        "org.apache.activemq:apache-activemq@5.14.5.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-19T16:41:21Z",
+      "reasons": [
+        {
+          "member": "org.apache.activemq:activemq-client@5.14.5.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.apache.activemq:activemq-rar@5.14.5.1-osera-00001",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.apache.activemq:activemq-web-console@5.14.5.1-osera-00001",
+          "why": "not promoted"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-assertj-core@v3.22.0.1-osera-00001",
@@ -7309,10 +7346,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00003"
       ],
       "state": "held",
-      "held_since": "2026-11-19T16:36:19Z",
+      "held_since": "2026-11-19T16:41:21Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00003, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00003, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7367,10 +7404,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00004"
       ],
       "state": "held",
-      "held_since": "2026-11-19T15:34:58Z",
+      "held_since": "2026-11-19T16:41:21Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00004, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00004, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7599,10 +7636,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00008"
       ],
       "state": "held",
-      "held_since": "2026-11-19T16:36:19Z",
+      "held_since": "2026-11-19T16:41:21Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7715,10 +7752,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00010"
       ],
       "state": "held",
-      "held_since": "2026-11-19T15:54:54Z",
+      "held_since": "2026-11-19T16:41:21Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00010, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00010, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -10520,6 +10557,20 @@
       ],
       "state": "in the feed",
       "statements": 2
+    },
+    {
+      "set": "finos-osera-forks/patch-santuario-xml-security-java@v2.0.10.1-osera-00001",
+      "members": 1,
+      "coordinates": [
+        "org.apache.santuario:xmlsec@2.0.10.1-osera-00001"
+      ],
+      "state": "held",
+      "held_since": "2026-11-19T16:41:21Z",
+      "reasons": [
+        {
+          "why": "line declaration not read: finos-osera-forks/patch-santuario-xml-security-java carries no .osera/line.yaml at v2.0.10.1-osera-00001, the release tag of the artifacts the gate placed with its declaration at patch/2.0.x, so the release of the line they belong to is not known"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-snakeyaml@v1.16.1-osera-00001",
