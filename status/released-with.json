@@ -883,6 +883,15 @@
       "first_seen": "2026-11-19T08:46:08Z"
     },
     {
+      "coordinate": "org.apache.cxf:cxf-bom@3.5.11.1-osera-00002",
+      "library": "org.apache.cxf:cxf-bom",
+      "base": "3.5.11",
+      "kind": "BOM",
+      "released_with": "patch-cxf v3.5.11.1-osera-00002",
+      "why": "pins the patched modules (REL-009: a pinning BOM releases again)",
+      "first_seen": "2026-11-19T08:56:44Z"
+    },
+    {
       "coordinate": "org.apache.cxf:cxf-parent@3.5.11.1-osera-00001",
       "library": "org.apache.cxf:cxf-parent",
       "base": "3.5.11",

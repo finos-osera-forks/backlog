@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-19T08:49:23Z. Written by the line manager reconciler.
+Generated 2026-11-19T08:56:44Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -726,7 +726,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-37 component(s), 870 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+37 component(s), 871 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -743,7 +743,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.cxf.karaf:apache-cxf | 3.5.11 | parent | patch-cxf v3.5.11.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.cxf.services.xkms:cxf-services-xkms-features | 3.5.11 | parent | patch-cxf v3.5.11.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.cxf:cxf | 3.5.11 | parent | patch-cxf v3.5.11.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.cxf:cxf-bom | 3.5.11 | BOM | patch-cxf v3.5.11.1-osera-00001 | pins the patched modules (REL-009: a pinning BOM releases again) | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-bom | 3.5.11 | BOM | patch-cxf v3.5.11.1-osera-00002 | pins the patched modules (REL-009: a pinning BOM releases again) | 3.5.11.1-osera-00001 3.5.11.1-osera-00002 | 3.5.11.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.cxf:cxf-parent | 3.5.11 | parent | patch-cxf v3.5.11.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.httpcomponents.core5:httpcore5-parent | 5.3.6 | parent | patch-httpcomponents-core v5.3.6.1-osera-00004 | the patched modules name it as their parent, a build needs it to resolve them | 5.3.6.1-osera-00001 5.3.6.1-osera-00002 5.3.6.1-osera-00003 5.3.6.1-osera-00004 | 5.3.6.1-osera-00004 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00006 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 2.17.2.1-osera-00005 2.17.2.1-osera-00006 | 2.17.2.1-osera-00006 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
