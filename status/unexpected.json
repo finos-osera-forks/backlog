@@ -72688,6 +72688,17 @@
       "first_seen": "2026-11-19T09:26:37Z"
     },
     {
+      "coordinate": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00012",
+      "library": "org.springframework.data:spring-data-envers",
+      "base": "2.7.18",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.data:spring-data-envers@2.7.18.1-osera-00012: listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph",
+      "first_seen": "2026-11-19T09:33:31Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-geode@2.7.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-geode",
       "base": "2.7.18",
@@ -72809,6 +72820,17 @@
       "first_seen": "2026-11-19T09:26:37Z"
     },
     {
+      "coordinate": "org.springframework.data:spring-data-geode@2.7.18.1-osera-00012",
+      "library": "org.springframework.data:spring-data-geode",
+      "base": "2.7.18",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.data:spring-data-geode@2.7.18.1-osera-00012: listed by the BOM of spring-boot-2.7.x at 2.7.18, not in its dependency graph",
+      "first_seen": "2026-11-19T09:33:31Z"
+    },
+    {
       "coordinate": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00001",
       "library": "org.springframework.data:spring-data-rest-hal-explorer",
       "base": "3.7.18",
@@ -72928,6 +72950,17 @@
       ],
       "words": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00011: listed by the BOM of spring-boot-2.7.x at 3.7.18, not in its dependency graph",
       "first_seen": "2026-11-19T09:26:37Z"
+    },
+    {
+      "coordinate": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00012",
+      "library": "org.springframework.data:spring-data-rest-hal-explorer",
+      "base": "3.7.18",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 3.7.18, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.data:spring-data-rest-hal-explorer@3.7.18.1-osera-00012: listed by the BOM of spring-boot-2.7.x at 3.7.18, not in its dependency graph",
+      "first_seen": "2026-11-19T09:33:31Z"
     },
     {
       "coordinate": "org.springframework.graphql:spring-graphql-test@1.0.6.1-osera-00001",
