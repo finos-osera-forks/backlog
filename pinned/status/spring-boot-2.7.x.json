@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.19.18",
-  "as_of": "2026-11-19T17:05:17Z",
+  "as_of": "2026-11-19T21:49:09Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -3058,6 +3058,7 @@
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00002 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted io.projectreactor.netty:reactor-netty-http@1.0.48.1-osera-00003 is on base 1.0.48, the line has io.projectreactor.netty:reactor-netty-http at 1.0.39",
     "promoted org.apache.activemq:activemq-broker@5.14.5.1-osera-00001 is on base 5.14.5, the line has org.apache.activemq:activemq-broker at 5.16.7",
+    "promoted org.apache.activemq:activemq-client@5.14.5.1-osera-00001 is on base 5.14.5, the line has org.apache.activemq:activemq-client at 5.16.7",
     "promoted org.apache.activemq:activemq-openwire-legacy@5.14.5.1-osera-00001 is on base 5.14.5, the line has org.apache.activemq:activemq-openwire-legacy at 5.16.7",
     "promoted org.apache.commons:commons-compress@1.20.1-osera-00001 is on base 1.20, the line has org.apache.commons:commons-compress at 1.21",
     "promoted org.apache.commons:commons-compress@1.20.1-osera-00002 is on base 1.20, the line has org.apache.commons:commons-compress at 1.21",
