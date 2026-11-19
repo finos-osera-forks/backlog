@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T08:49:54Z",
-  "feed_version": 311,
+  "generated_at": "2026-11-19T09:00:13Z",
+  "feed_version": 312,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -2236,342 +2236,8 @@
         "org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws@3.5.11.1-osera-00001",
         "org.apache.cxf:cxf@3.5.11.1-osera-00001"
       ],
-      "state": "held",
-      "held_since": "2026-11-19T08:49:54Z",
-      "reasons": [
-        {
-          "member": "org.apache.cxf.archetype:cxf-jaxrs-service@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.archetype:cxf-jaxws-javafirst@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.archetype:cxf-jaxws-wsdlfirst@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.karaf:apache-cxf@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.karaf:cxf-karaf-commands@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.sts:cxf-services-sts-core@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-api@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-service@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.wsn:cxf-services-wsn-api@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.wsn:cxf-services-wsn-core@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.wsn:cxf-services-wsn-osgi@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.xkms:cxf-services-xkms-client@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.xkms:cxf-services-xkms-common@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.xkms:cxf-services-xkms-features@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.xkms:cxf-services-xkms-osgi@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.xkms:cxf-services-xkms-service@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-handlers@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-repo-ldap@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-frontend-js@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-frontend-simple@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-javascript@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-management@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-client@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-extension-providers@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-extension-reactivestreams@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-extension-reactor@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-extension-rx2@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-extension-rx3@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-extension-rx@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-extension-search@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-http-sci@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-json-basic@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-mp-client@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-security-cors@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-security-http-signature@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-security-jose-jaxrs@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-security-jose@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-security-oauth2-saml@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-security-oauth2@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-security-xml@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-service-description-microprofile-openapi@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-service-description-openapi-v3@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-service-description-swagger-ui@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-service-description-swagger@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-service-description@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-rs-sse@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-security-saml@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-security@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-http-hc5@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-http-hc@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-http-jetty@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-http-netty-client@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-http-netty-server@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-http-undertow@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-http@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-jms@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-local@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-udp@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-transports-websocket@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-ws-addr@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-ws-eventing@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-ws-mex@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-ws-policy@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-ws-rm@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-ws-security@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-ws-transfer@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-rt-wsdl@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-servlet-compatible@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-spring-boot-autoconfigure@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-spring-boot-starter-jaxrs@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-spring-boot-starter-jaxws@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-testutils@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-common@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-corba@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-java2ws@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-misctools@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-validator@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-wadlto-jaxrs@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-wsdlto-core@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-wsdlto-databinding-jaxb@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-wsdlto-frontend-javascript@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.apache.cxf:cxf@3.5.11.1-osera-00001",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-dom4j@v1.4.1-osera-00001",
@@ -7413,10 +7079,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-11-19T08:49:54Z",
+      "held_since": "2026-11-19T09:00:13Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00001, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00001, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7703,10 +7369,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00006"
       ],
       "state": "held",
-      "held_since": "2026-11-19T08:49:54Z",
+      "held_since": "2026-11-19T09:00:13Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00006, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00006, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7761,10 +7427,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00007"
       ],
       "state": "held",
-      "held_since": "2026-11-19T08:24:53Z",
+      "held_since": "2026-11-19T09:00:13Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00007, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00007, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
