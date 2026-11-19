@@ -57727,6 +57727,117 @@
       "first_seen": "2026-11-05T08:16:36Z"
     },
     {
+      "coordinate": "org.apache.activemq:activemq-all@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-all",
+      "base": "5.14.5",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-all@5.14.5.1-osera-00001: not listed by any line; other artifacts of org.apache.activemq are in the dependency graph of spring-boot-2.7.x, so the graph there may have a hole",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-amqp@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-amqp",
+      "base": "5.14.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-amqp@5.14.5.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-broker@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-broker",
+      "base": "5.14.5",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-broker@5.14.5.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-jdbc-store@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-jdbc-store",
+      "base": "5.14.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-jdbc-store@5.14.5.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-mqtt@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-mqtt",
+      "base": "5.14.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-mqtt@5.14.5.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-openwire-legacy@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-openwire-legacy",
+      "base": "5.14.5",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-openwire-legacy@5.14.5.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-osgi@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-osgi",
+      "base": "5.14.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-osgi@5.14.5.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-spring@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-spring",
+      "base": "5.14.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-spring@5.14.5.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-stomp@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-stomp",
+      "base": "5.14.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-stomp@5.14.5.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:activemq-web@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-web",
+      "base": "5.14.5",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-web@5.14.5.1-osera-00001: listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
       "coordinate": "org.apache.commons:commons-compress@1.20.1-osera-00001",
       "library": "org.apache.commons:commons-compress",
       "base": "1.20",

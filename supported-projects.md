@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-19T15:03:26Z. Written by the line manager reconciler.
+Generated 2026-11-19T16:32:45Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,9 +8,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 195 | 123 | 63% | 100 | 0 | 72 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 195 | 124 | 64% | 100 | 0 | 71 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 36 | 77% | 0 | 0 | 11 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 41 | 73% | 12 | 0 | 15 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 42 | 75% | 12 | 0 | 14 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | - | 0 | 0 | - | 2 | 0 | 0 | 0 |
@@ -107,7 +107,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j-api | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-core | 2.17.2 | spring-boot-2.7.x | listed by the BOM at 2.17.2 (org.apache.logging.log4j:log4j-bom@2.17.2) | open | 4 | 2 | 50% | 0 | 0 | 2 | 0 | 2.17.2.1-osera-00006 | 2.17.2.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-core | 2.24.3 | log4j2-2.24.x | own project (the anchor's group) | fixed | 5 | 5 | 100% | 0 | 0 | 0 | 0 | 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.santuario:xmlsec | 2.0.10 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.opensaml:opensaml-security-api@3.4.6) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| org.apache.santuario:xmlsec | 2.0.10 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.opensaml:opensaml-security-api@3.4.6) | open | 3 | 1 | 33% | 0 | 0 | 2 | 0 | 2.0.10.1-osera-00001 | 2.0.10.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.struts:struts-core | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 3 | 0 | 0 | 0 | 1.3.10.1-osera-00007 | 1.3.10.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.struts:struts-tiles | 1.3.10 | struts-1.3.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.3.10.1-osera-00007 | 1.3.10.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.velocity:velocity | 1.6.4 | velocity-1.6.x | own project (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.6.4.1-osera-00002 | 1.6.4.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-545 libraries, 5881 patched version(s).
+555 libraries, 5891 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -441,6 +441,16 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.projectreactor.rabbitmq:reactor-rabbitmq | 1.5.6 | listed by the BOM of spring-boot-2.7.x at 1.5.6, not in its dependency graph | spring-boot-2.7.x |  | 1.5.6.1-osera-00001 1.5.6.1-osera-00002 1.5.6.1-osera-00003 | 1.5.6.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-test | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 3.4.41.1-osera-00002 3.4.41.1-osera-00003 | 3.4.41.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-tools | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 3.4.41.1-osera-00002 3.4.41.1-osera-00003 | 3.4.41.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-all | 5.14.5 | not listed by any line |  | spring-boot-2.7.x | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-amqp | 5.14.5 | listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-broker | 5.14.5 | in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5 | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-jdbc-store | 5.14.5 | listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-mqtt | 5.14.5 | listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-openwire-legacy | 5.14.5 | in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5 | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-osgi | 5.14.5 | listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-spring | 5.14.5 | listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-stomp | 5.14.5 | listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-web | 5.14.5 | listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-compress | 1.20 | in the dependency graph of spring-boot-2.7.x at 1.21, uploaded on 1.20 | spring-boot-2.7.x |  | 1.20.1-osera-00001 1.20.1-osera-00002 1.20.1-osera-00003 1.20.1-osera-00004 1.20.1-osera-00005 | 1.20.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.cxf.archetype:cxf-jaxrs-service | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 3.5.11.1-osera-00002 | 3.5.11.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.cxf.archetype:cxf-jaxws-javafirst | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 3.5.11.1-osera-00002 | 3.5.11.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -726,7 +736,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-37 component(s), 887 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+39 component(s), 889 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -740,6 +750,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.google.protobuf:protobuf-parent | 3.19.6 | parent | patch-protobuf v3.19.6.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.19.6.1-osera-00001 | 3.19.6.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-bom | 1.9.17 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-bom | 2020.0.47 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38 | pins the patched modules (REL-009: a pinning BOM releases again) | 2020.0.47.1-osera-00001 2020.0.47.1-osera-00002 2020.0.47.1-osera-00003 | 2020.0.47.1-osera-00003 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:activemq-parent | 5.14.5 | parent | patch-activemq v5.14.5.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.activemq:apache-activemq | 5.14.5 | parent | patch-activemq v5.14.5.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.cxf.karaf:apache-cxf | 3.5.11 | parent | patch-cxf v3.5.11.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 3.5.11.1-osera-00001 3.5.11.1-osera-00002 | 3.5.11.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.cxf.services.xkms:cxf-services-xkms-features | 3.5.11 | parent | patch-cxf v3.5.11.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 3.5.11.1-osera-00001 3.5.11.1-osera-00002 | 3.5.11.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.cxf:cxf | 3.5.11 | parent | patch-cxf v3.5.11.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 3.5.11.1-osera-00001 3.5.11.1-osera-00002 | 3.5.11.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

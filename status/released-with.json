@@ -856,6 +856,24 @@
       "first_seen": "2026-11-05T08:16:36Z"
     },
     {
+      "coordinate": "org.apache.activemq:activemq-parent@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-parent",
+      "base": "5.14.5",
+      "kind": "parent",
+      "released_with": "patch-activemq v5.14.5.1-osera-00001",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
+      "coordinate": "org.apache.activemq:apache-activemq@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:apache-activemq",
+      "base": "5.14.5",
+      "kind": "parent",
+      "released_with": "patch-activemq v5.14.5.1-osera-00001",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-19T16:32:45Z"
+    },
+    {
       "coordinate": "org.apache.cxf.karaf:apache-cxf@3.5.11.1-osera-00001",
       "library": "org.apache.cxf.karaf:apache-cxf",
       "base": "3.5.11",
