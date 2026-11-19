@@ -109,6 +109,18 @@
     <div class="scroll"><table id="cves"></table></div>
   </section>
 
+  <section class="card" style="margin-bottom:12px">
+    <h2>New CVEs, last 2 weeks</h2>
+    <p class="sub" id="new14note"></p>
+    <div class="scroll"><table id="new14"></table></div>
+  </section>
+
+  <section class="card" style="margin-bottom:12px">
+    <h2>New CVEs, last month</h2>
+    <p class="sub" id="new30note"></p>
+    <div class="scroll"><table id="new30"></table></div>
+  </section>
+
   <section class="card">
     <h2>Libraries</h2>
     <input class="search" id="q" type="search" placeholder="Filter libraries" aria-label="Filter libraries">
@@ -272,6 +284,50 @@
       { key: "fixed_entries", label: "CVE statements", num: true },
       { key: "libraries", label: "Libraries remediated", num: true }
     ], cveRows);
+
+    // The new CVEs: the backlog entries first seen in the window, with the status
+    // the backlog has now. One list, cut at 14 and at 30 days from the browser's
+    // clock, as the daily graphs are.
+    function newRows(days) {
+      var cutoff = new Date().getTime() - days * 86400000;
+      return (m.new_cves || []).filter(function (c) {
+        return new Date(c.first_seen).getTime() >= cutoff;
+      }).map(function (c) {
+        return {
+          id: c.id,
+          summary: c.summary || "\u2014",
+          library: c.library,
+          version: c.version,
+          cvss: c.cvss === null ? "\u2014" : c.cvss.toFixed(1),
+          first_seen: c.first_seen.slice(0, 10),
+          status: c.status === "fixed" ? "Fixed" : "Open",
+          fixed_on: c.fixed_at ? c.fixed_at.slice(0, 10) : "\u2014",
+          fixed_by: c.fixed_by || "\u2014"
+        };
+      });
+    }
+    var newCols = [
+      { key: "id", label: "CVE" },
+      { key: "summary", label: "Description", wrap: true },
+      { key: "library", label: "Library" },
+      { key: "version", label: "Version" },
+      { key: "cvss", label: "CVSS", num: true },
+      { key: "first_seen", label: "First seen" },
+      { key: "status", label: "Status" },
+      { key: "fixed_on", label: "Fixed on" },
+      { key: "fixed_by", label: "Fixed by" }
+    ];
+    [["new14", 14], ["new30", 30]].forEach(function (t) {
+      var rows = newRows(t[1]);
+      table(document.getElementById(t[0]), newCols, rows);
+      var note = document.getElementById(t[0] + "note");
+      var windowStart = new Date().getTime() - t[1] * 86400000;
+      var parts = [rows.length + (rows.length === 1 ? " CVE entry" : " CVE entries") + " added to the backlog."];
+      if (m.new_cves_since && new Date(m.new_cves_since).getTime() > windowStart) {
+        parts.push("The record of when entries were added begins " + m.new_cves_since.slice(0, 10) + ".");
+      }
+      note.textContent = parts.join(" ");
+    });
 
     var cols = [
       { key: "library", label: "Library" },
