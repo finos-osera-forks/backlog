@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.11.19.13",
-  "as_of": "2026-11-19T09:21:56Z",
+  "as_of": "2026-11-19T09:26:37Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 56,
@@ -153,18 +153,18 @@
     {
       "cve": "CVE-2026-41711",
       "library": "org.springframework.data:spring-data-commons",
-      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00010",
-      "patch": "00010",
-      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00010",
-      "at": "2026-11-19T09:18:19Z"
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
+      "patch": "00011",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
+      "at": "2026-11-19T09:26:37Z"
     },
     {
       "cve": "CVE-2026-41716",
       "library": "org.springframework.data:spring-data-commons",
-      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00010",
-      "patch": "00010",
-      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00010",
-      "at": "2026-11-19T09:18:19Z"
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
+      "patch": "00011",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
+      "at": "2026-11-19T09:26:37Z"
     },
     {
       "cve": "CVE-2026-41720",
@@ -177,10 +177,10 @@
     {
       "cve": "CVE-2026-41721",
       "library": "org.springframework.data:spring-data-commons",
-      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00010",
-      "patch": "00010",
-      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00010",
-      "at": "2026-11-19T09:18:19Z"
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
+      "patch": "00011",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
+      "at": "2026-11-19T09:26:37Z"
     },
     {
       "cve": "CVE-2026-41848",
@@ -1485,5 +1485,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.11.19"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.11.19.2"
 }
