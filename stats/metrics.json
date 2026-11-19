@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-19T19:16:21Z",
+ "as_of": "2026-11-19T19:56:19Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 588,
-  "library_versions": 816,
-  "releases": 2200,
+  "libraries": 589,
+  "library_versions": 817,
+  "releases": 2201,
   "forks": 93,
-  "artifacts": 17552,
+  "artifacts": 17553,
   "cves": 283,
-  "cve_statements": 6314,
-  "release_sets": 674,
+  "cve_statements": 6315,
+  "release_sets": 675,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -112,7 +112,7 @@
   },
   {
    "date": "2026-11-19",
-   "count": 296
+   "count": 297
   }
  ],
  "top_cves": [
@@ -2356,6 +2356,13 @@
    "releases": 4,
    "latest": "1.7.1-osera-00002",
    "fixed_entries": 4
+  },
+  {
+   "library": "org.apache.velocity:velocity-engine-core",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "2.2.1-osera-00002",
+   "fixed_entries": 1
   },
   {
    "library": "org.assertj:assertj-core",
