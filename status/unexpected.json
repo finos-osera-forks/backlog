@@ -57761,6 +57761,17 @@
       "first_seen": "2026-11-19T16:32:45Z"
     },
     {
+      "coordinate": "org.apache.activemq:activemq-client@5.14.5.1-osera-00001",
+      "library": "org.apache.activemq:activemq-client",
+      "base": "5.14.5",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.apache.activemq:activemq-client@5.14.5.1-osera-00001: in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5",
+      "first_seen": "2026-11-19T21:49:09Z"
+    },
+    {
       "coordinate": "org.apache.activemq:activemq-jdbc-store@5.14.5.1-osera-00001",
       "library": "org.apache.activemq:activemq-jdbc-store",
       "base": "5.14.5",
