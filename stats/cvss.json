@@ -84,6 +84,10 @@
    "value": 7.5,
    "version": "3.1"
   },
+  "CVE-2025-48913": {
+   "value": 9.8,
+   "version": "3.1"
+  },
   "CVE-2025-64775": {
    "value": 7.5,
    "version": "3.1"
@@ -186,6 +190,10 @@
   },
   "CVE-2026-41000": {
    "value": 3.7,
+   "version": "3.1"
+  },
+  "CVE-2026-44417": {
+   "value": 7.5,
    "version": "3.1"
   },
   "CVE-2026-47849": {
@@ -348,6 +356,7 @@
   "CVE-2024-7254": "Any project that parses untrusted Protocol Buffers data containing an arbitrary number of nested groups / series of SGROUP tags can corrupted by exceeding the stack limit i.e.",
   "CVE-2025-41235": "Spring Cloud Gateway Server forwards the X-Forwarded-For and Forwarded headers from untrusted proxies.",
   "CVE-2025-41253": "The following versions of Spring Cloud Gateway Server Webflux may be vulnerable to the ability to expose environment variables and system properties to attackers.",
+  "CVE-2025-48913": "If untrusted users are allowed to configure JMS for Apache CXF, previously they could use RMI or LDAP URLs, potentially leading to code execution capabilities.",
   "CVE-2025-64775": "Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes disk exhaustion.",
   "CVE-2025-66516": "Critical XXE in Apache Tika tika-core (1.13-3.2.1), tika-pdf-module (2.0.0-3.2.1) and tika-parsers (1.13-1.28.5) modules on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF.",
   "CVE-2025-66675": "Denial of Service vulnerability in Apache Struts, file leak in multipart request processing causes disk exhaustion.",
@@ -374,6 +383,7 @@
   "CVE-2026-40996": "Wss4jSecurityInterceptor defaulted allowRSA15KeyTransportAlgorithm to true, overriding Apache WSS4J's safer default for validation RequestData.",
   "CVE-2026-40997": "Several Spring WS integration paths with Spring Security could surface detailed account state (for example locked or disabled user semantics) to remote SOAP clients through exception messages or callback outcomes, instead of failing with g…",
   "CVE-2026-41000": "Wss4jSecurityInterceptor did not consistently wire Apache WSS4J ReplayCache instances into RequestData for validation-time checks.",
+  "CVE-2026-44417": "The fix for CVE-2025-48913: Apache CXF: Untrusted JMS configuration can lead to RCE was not complete, meaning that another path in the code might lead to code execution capabilities, if untrusted users are allowed to configure JMS for Apac…",
   "CVE-2026-47849": "Spring Data REST does not guard identifier (@Id) and version (@Version) properties against mutation via RFC 6902 JSON Patch (application/json-patch+json) requests.",
   "CVE-2026-47864": "SerializingHttpMessageConverter deserializes the body of incoming HTTP requests with a raw java.io.ObjectInputStream and no class filtering.",
   "CVE-2026-47886": "Applications that evaluate user-supplied Spring Expression Language (SpEL) expressions may be vulnerable to a Denial of Service (DoS) attack when the power operator (^) is used with a BigDecimal or BigInteger operand and a large exponent v…",
@@ -432,6 +442,7 @@
   "CVE-2024-7254",
   "CVE-2025-41235",
   "CVE-2025-41253",
+  "CVE-2025-48913",
   "CVE-2025-64775",
   "CVE-2025-66516",
   "CVE-2025-66675",
@@ -458,6 +469,7 @@
   "CVE-2026-40996",
   "CVE-2026-40997",
   "CVE-2026-41000",
+  "CVE-2026-44417",
   "CVE-2026-47849",
   "CVE-2026-47864",
   "CVE-2026-47886",
