@@ -57782,6 +57782,195 @@
       "first_seen": "2026-11-13T10:38:37Z"
     },
     {
+      "coordinate": "org.apache.cxf:cxf-bundle-compatible@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-bundle-compatible",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-bundle-compatible@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-core@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-core",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-core@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-distribution-javadoc@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-distribution-javadoc",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-distribution-javadoc@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-distribution-manifest@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-distribution-manifest",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-distribution-manifest@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-integration-cdi@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-integration-cdi",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-integration-cdi@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-integration-jca@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-integration-jca",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-integration-jca@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-integration-tracing-brave@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-integration-tracing-brave",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-integration-tracing-brave@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-integration-tracing-opentelemetry@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-integration-tracing-opentelemetry",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-integration-tracing-opentelemetry@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-integration-tracing-opentracing@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-integration-tracing-opentracing",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-integration-tracing-opentracing@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-bindings-coloc@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-bindings-coloc",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-bindings-coloc@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-bindings-corba@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-bindings-corba",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-bindings-corba@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-bindings-soap@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-bindings-soap",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-bindings-soap@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-bindings-xml@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-bindings-xml",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-bindings-xml@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-databinding-aegis@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-databinding-aegis",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-databinding-aegis@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-databinding-jaxb@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-databinding-jaxb",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-databinding-jaxb@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-features-clustering@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-features-clustering",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-features-clustering@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-features-logging@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-features-logging",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-features-logging@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-features-metrics@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-features-metrics",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-features-metrics@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-features-throttling@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-features-throttling",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-features-throttling@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-frontend-jaxrs@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-frontend-jaxrs",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-frontend-jaxrs@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
+      "coordinate": "org.apache.cxf:cxf-rt-frontend-jaxws@3.5.11.1-osera-00001",
+      "library": "org.apache.cxf:cxf-rt-frontend-jaxws",
+      "base": "3.5.11",
+      "reason": "not listed by any line",
+      "lines": [],
+      "words": "org.apache.cxf:cxf-rt-frontend-jaxws@3.5.11.1-osera-00001: not listed by any line",
+      "first_seen": "2026-11-19T08:46:08Z"
+    },
+    {
       "coordinate": "org.apache.logging.log4j:log4j-1.2-api@2.17.2.1-osera-00001",
       "library": "org.apache.logging.log4j:log4j-1.2-api",
       "base": "2.17.2",
