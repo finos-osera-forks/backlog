@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-19T08:49:54Z",
+ "as_of": "2026-11-19T09:24:58Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 482,
-  "library_versions": 710,
-  "releases": 2130,
-  "forks": 92,
-  "artifacts": 17256,
-  "cves": 277,
-  "cve_statements": 6269,
-  "release_sets": 668,
+  "libraries": 588,
+  "library_versions": 816,
+  "releases": 2149,
+  "forks": 93,
+  "artifacts": 17489,
+  "cves": 280,
+  "cve_statements": 6281,
+  "release_sets": 671,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -109,6 +109,10 @@
   {
    "date": "2026-11-18",
    "count": 276
+  },
+  {
+   "date": "2026-11-19",
+   "count": 233
   }
  ],
  "top_cves": [
@@ -1260,6 +1264,748 @@
    "releases": 8,
    "latest": "1.9.1-osera-00002",
    "fixed_entries": 8
+  },
+  {
+   "library": "org.apache.cxf.archetype:cxf-jaxrs-service",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.archetype:cxf-jaxws-javafirst",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.archetype:cxf-jaxws-wsdlfirst",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.karaf:apache-cxf",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.karaf:cxf-karaf-commands",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.sts:cxf-services-sts-core",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-api",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.ws-discovery:cxf-services-ws-discovery-service",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.wsn:cxf-services-wsn-api",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.wsn:cxf-services-wsn-core",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.wsn:cxf-services-wsn-osgi",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.xkms:cxf-services-xkms-client",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.xkms:cxf-services-xkms-common",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.xkms:cxf-services-xkms-features",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.xkms:cxf-services-xkms-osgi",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.xkms:cxf-services-xkms-service",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-handlers",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf.services.xkms:cxf-services-xkms-x509-repo-ldap",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-bom",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-bundle-compatible",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-core",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-distribution-javadoc",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-distribution-manifest",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-integration-cdi",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-integration-jca",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-integration-tracing-brave",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-integration-tracing-opentelemetry",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-integration-tracing-opentracing",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-parent",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-bindings-coloc",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-bindings-corba",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-bindings-soap",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-bindings-xml",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-databinding-aegis",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-databinding-jaxb",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-features-clustering",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-features-logging",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-features-metrics",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-features-throttling",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-frontend-jaxrs",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-frontend-jaxws",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-frontend-js",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-frontend-simple",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-javascript",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-management",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-client",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-extension-providers",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-extension-reactivestreams",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-extension-reactor",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-extension-rx",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-extension-rx2",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-extension-rx3",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-extension-search",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-http-sci",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-json-basic",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-mp-client",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-security-cors",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-security-http-signature",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-security-jose",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-security-jose-jaxrs",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-security-oauth2",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-security-oauth2-saml",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-security-xml",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-service-description",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-service-description-microprofile-openapi",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-service-description-openapi-v3",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-service-description-swagger",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-service-description-swagger-ui",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-rs-sse",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-security",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-security-saml",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-http",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-http-hc",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-http-hc5",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-http-jetty",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-http-netty-client",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-http-netty-server",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-http-undertow",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-jms",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 3
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-local",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-udp",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-transports-websocket",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-ws-addr",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-ws-eventing",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-ws-mex",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-ws-policy",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-ws-rm",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-ws-security",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-ws-transfer",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-rt-wsdl",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-servlet-compatible",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-spring-boot-autoconfigure",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-spring-boot-starter-jaxrs",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-spring-boot-starter-jaxws",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-testutils",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-common",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-corba",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-java2ws",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-misctools",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-validator",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-wadlto-jaxrs",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-wsdlto-core",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-wsdlto-databinding-jaxb",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-wsdlto-frontend-javascript",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "3.5.11.1-osera-00002",
+   "fixed_entries": 0
   },
   {
    "library": "org.apache.httpcomponents.client5:httpclient5",
@@ -2797,149 +3543,149 @@
   {
    "library": "org.springframework.data:spring-data-bom",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2021.2.18.1-osera-00009",
+   "releases": 10,
+   "latest": "2021.2.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-cassandra",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "3.4.18.1-osera-00009",
+   "releases": 10,
+   "latest": "3.4.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-commons",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.7.18.1-osera-00009",
-   "fixed_entries": 8
+   "releases": 10,
+   "latest": "2.7.18.1-osera-00010",
+   "fixed_entries": 11
   },
   {
    "library": "org.springframework.data:spring-data-couchbase",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "4.4.18.1-osera-00009",
+   "releases": 10,
+   "latest": "4.4.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-elasticsearch",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "4.4.18.1-osera-00009",
+   "releases": 10,
+   "latest": "4.4.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-envers",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.7.18.1-osera-00009",
+   "releases": 10,
+   "latest": "2.7.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-geode",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.7.18.1-osera-00009",
+   "releases": 10,
+   "latest": "2.7.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-jdbc",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.4.18.1-osera-00009",
+   "releases": 10,
+   "latest": "2.4.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-jpa",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.7.18.1-osera-00009",
+   "releases": 10,
+   "latest": "2.7.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-keyvalue",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.7.18.1-osera-00009",
-   "fixed_entries": 5
+   "releases": 10,
+   "latest": "2.7.18.1-osera-00010",
+   "fixed_entries": 6
   },
   {
    "library": "org.springframework.data:spring-data-ldap",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.7.18.1-osera-00009",
+   "releases": 10,
+   "latest": "2.7.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-mongodb",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "3.4.18.1-osera-00009",
-   "fixed_entries": 13
+   "releases": 10,
+   "latest": "3.4.18.1-osera-00010",
+   "fixed_entries": 15
   },
   {
    "library": "org.springframework.data:spring-data-mongodb-parent",
    "ecosystem": "Java",
-   "releases": 6,
-   "latest": "3.4.18.1-osera-00009",
+   "releases": 7,
+   "latest": "3.4.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-neo4j",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "6.3.18.1-osera-00009",
+   "releases": 10,
+   "latest": "6.3.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-r2dbc",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "1.5.18.1-osera-00009",
+   "releases": 10,
+   "latest": "1.5.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-redis",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.7.18.1-osera-00009",
+   "releases": 10,
+   "latest": "2.7.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-relational",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "2.4.18.1-osera-00009",
+   "releases": 10,
+   "latest": "2.4.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-rest-core",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "3.7.18.1-osera-00009",
+   "releases": 10,
+   "latest": "3.7.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-rest-hal-explorer",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "3.7.18.1-osera-00009",
+   "releases": 10,
+   "latest": "3.7.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-rest-parent",
    "ecosystem": "Java",
-   "releases": 4,
-   "latest": "3.7.18.1-osera-00009",
+   "releases": 5,
+   "latest": "3.7.18.1-osera-00010",
    "fixed_entries": 0
   },
   {
    "library": "org.springframework.data:spring-data-rest-webmvc",
    "ecosystem": "Java",
-   "releases": 9,
-   "latest": "3.7.18.1-osera-00009",
-   "fixed_entries": 17
+   "releases": 10,
+   "latest": "3.7.18.1-osera-00010",
+   "fixed_entries": 20
   },
   {
    "library": "org.springframework.graphql:spring-graphql",
