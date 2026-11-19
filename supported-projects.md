@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-19T19:37:16Z. Written by the line manager reconciler.
+Generated 2026-11-19T19:39:36Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-555 libraries, 5891 patched version(s).
+556 libraries, 5892 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -605,6 +605,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.tika:tika-core | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 | 1.28.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tika:tika-eval | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 | 1.28.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tika:tika-translate | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 | 1.28.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.velocity:velocity-engine-core | 2.2 | not listed by any line |  | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.7.x, velocity-1.6.x | 2.2.1-osera-00002 | 2.2.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcmail-jdk15on | 1.47 | not listed by any line |  | spring-boot-2.7.x, spring-security-5.7.x, bouncycastle-1.78.x, bouncycastle-1.46.x, bouncycastle-1.70.x, bouncycastle-1.69.x | 1.47.1-osera-00001 1.47.1-osera-00002 1.47.1-osera-00003 1.47.1-osera-00004 1.47.1-osera-00005 1.47.1-osera-00006 1.47.1-osera-00007 1.47.1-osera-00008 1.47.1-osera-00009 1.47.1-osera-00010 1.47.1-osera-00011 1.47.1-osera-00012 | 1.47.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpg-jdk15on | 1.47 | not listed by any line |  | spring-boot-2.7.x, spring-security-5.7.x, bouncycastle-1.78.x, bouncycastle-1.46.x, bouncycastle-1.70.x, bouncycastle-1.69.x | 1.47.1-osera-00001 1.47.1-osera-00002 1.47.1-osera-00003 1.47.1-osera-00004 1.47.1-osera-00005 1.47.1-osera-00006 1.47.1-osera-00007 1.47.1-osera-00008 1.47.1-osera-00009 1.47.1-osera-00010 1.47.1-osera-00011 1.47.1-osera-00012 | 1.47.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.bouncycastle:bcpkix-jdk15on | 1.47 | in the dependency graph of spring-boot-2.7.x at 1.70 and spring-security-5.7.x at 1.70 and bouncycastle-1.70.x at 1.70 and bouncycastle-1.69.x at 1.69, uploaded on 1.47 | spring-boot-2.7.x, spring-security-5.7.x, bouncycastle-1.70.x, bouncycastle-1.69.x |  | 1.47.1-osera-00001 1.47.1-osera-00002 1.47.1-osera-00003 1.47.1-osera-00004 1.47.1-osera-00005 1.47.1-osera-00006 1.47.1-osera-00007 1.47.1-osera-00008 1.47.1-osera-00009 1.47.1-osera-00010 1.47.1-osera-00011 1.47.1-osera-00012 | 1.47.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
