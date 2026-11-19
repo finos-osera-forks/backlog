@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:51:20Z",
+  "generated_at": "2026-11-19T21:56:22Z",
   "feed_version": 318,
   "sets": [
     {
@@ -33,12 +33,8 @@
         "org.apache.activemq:apache-activemq@5.14.5.1-osera-00001"
       ],
       "state": "held",
-      "held_since": "2026-11-19T16:41:21Z",
+      "held_since": "2026-11-19T21:56:22Z",
       "reasons": [
-        {
-          "member": "org.apache.activemq:activemq-client@5.14.5.1-osera-00001",
-          "why": "not promoted"
-        },
         {
           "member": "org.apache.activemq:activemq-rar@5.14.5.1-osera-00001",
           "why": "not promoted"
@@ -7752,10 +7748,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00010"
       ],
       "state": "held",
-      "held_since": "2026-11-19T21:51:20Z",
+      "held_since": "2026-11-19T21:56:22Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00010, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00010, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
