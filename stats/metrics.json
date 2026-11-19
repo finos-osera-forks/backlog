@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-19T16:56:24Z",
+ "as_of": "2026-11-19T17:26:20Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -5009,8 +5009,8 @@
    "version": "2.0.10",
    "first_seen": "2026-10-27T23:35:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-19T16:32:45Z",
-   "fixed_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00001",
+   "fixed_at": "2026-11-19T17:02:13Z",
+   "fixed_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00002",
    "cvss": 7.5,
    "cvss_version": "3.1"
   },
@@ -5064,7 +5064,9 @@
    "library": "org.apache.santuario:xmlsec",
    "version": "2.0.10",
    "first_seen": "2026-10-27T23:35:00Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-19T17:02:13Z",
+   "fixed_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00002",
    "cvss": 6.5,
    "cvss_version": "3.1"
   },
@@ -6279,6 +6281,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-19T16:32:45Z",
+ "new_cves_as_of": "2026-11-19T17:02:13Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
