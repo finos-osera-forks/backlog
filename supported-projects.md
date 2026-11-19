@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-19T08:38:43Z. Written by the line manager reconciler.
+Generated 2026-11-19T08:46:08Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-444 libraries, 5667 patched version(s).
+465 libraries, 5688 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -442,6 +442,27 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.projectreactor:reactor-test | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 3.4.41.1-osera-00002 3.4.41.1-osera-00003 | 3.4.41.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-tools | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 3.4.41.1-osera-00002 3.4.41.1-osera-00003 | 3.4.41.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-compress | 1.20 | in the dependency graph of spring-boot-2.7.x at 1.21, uploaded on 1.20 | spring-boot-2.7.x |  | 1.20.1-osera-00001 1.20.1-osera-00002 1.20.1-osera-00003 1.20.1-osera-00004 1.20.1-osera-00005 | 1.20.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-bundle-compatible | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-core | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-distribution-javadoc | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-distribution-manifest | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-integration-cdi | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-integration-jca | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-integration-tracing-brave | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-integration-tracing-opentelemetry | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-integration-tracing-opentracing | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-bindings-coloc | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-bindings-corba | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-bindings-soap | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-bindings-xml | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-databinding-aegis | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-databinding-jaxb | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-features-clustering | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-features-logging | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-features-metrics | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-features-throttling | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-frontend-jaxrs | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-rt-frontend-jaxws | 3.5.11 | not listed by any line |  |  | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-1.2-api | 2.17.2 | listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs | spring-boot-2.7.x, log4j2-2.24.x |  | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 2.17.2.1-osera-00005 2.17.2.1-osera-00006 | 2.17.2.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-1.2-api | 2.24.3 | listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs | spring-boot-2.7.x, log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 2.24.3.1-osera-00006 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-api-test | 2.24.3 | listed by the BOM of log4j2-2.24.x at 2.24.3, not in its dependency graph | log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 2.24.3.1-osera-00006 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -625,7 +646,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-32 component(s), 865 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+34 component(s), 867 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -639,6 +660,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.google.protobuf:protobuf-parent | 3.19.6 | parent | patch-protobuf v3.19.6.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.19.6.1-osera-00001 | 3.19.6.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-bom | 1.9.17 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-bom | 2020.0.47 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2020.0.38 | pins the patched modules (REL-009: a pinning BOM releases again) | 2020.0.47.1-osera-00001 2020.0.47.1-osera-00002 2020.0.47.1-osera-00003 | 2020.0.47.1-osera-00003 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-bom | 3.5.11 | BOM | patch-cxf v3.5.11.1-osera-00001 | pins the patched modules (REL-009: a pinning BOM releases again) | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.cxf:cxf-parent | 3.5.11 | parent | patch-cxf v3.5.11.1-osera-00001 | the patched modules name it as their parent, a build needs it to resolve them | 3.5.11.1-osera-00001 | 3.5.11.1-osera-00001 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.httpcomponents.core5:httpcore5-parent | 5.3.6 | parent | patch-httpcomponents-core v5.3.6.1-osera-00004 | the patched modules name it as their parent, a build needs it to resolve them | 5.3.6.1-osera-00001 5.3.6.1-osera-00002 5.3.6.1-osera-00003 5.3.6.1-osera-00004 | 5.3.6.1-osera-00004 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.17.2 | parent | patch-logging-log4j2 v2.17.2.1-osera-00006 | the patched modules name it as their parent, a build needs it to resolve them | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 2.17.2.1-osera-00005 2.17.2.1-osera-00006 | 2.17.2.1-osera-00006 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j | 2.24.3 | parent | patch-logging-log4j2 v2.24.3.1-osera-00007 | the patched modules name it as their parent, a build needs it to resolve them | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 2.24.3.1-osera-00006 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
