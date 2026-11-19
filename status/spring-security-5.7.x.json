@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.11.19.16",
-  "as_of": "2026-11-19T09:47:53Z",
+  "as_of": "2026-11-19T16:32:45Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 56,
@@ -21,6 +21,14 @@
       "patch": "00002",
       "named_by": "org.apache.velocity:velocity@1.7.1-osera-00002",
       "at": "2026-11-05T13:02:43Z"
+    },
+    {
+      "cve": "CVE-2021-40690",
+      "library": "org.apache.santuario:xmlsec",
+      "coordinate": "org.apache.santuario:xmlsec@2.0.10.1-osera-00001",
+      "patch": "00001",
+      "named_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00001",
+      "at": "2026-11-19T16:32:45Z"
     },
     {
       "cve": "CVE-2022-40152",
@@ -352,10 +360,6 @@
     {
       "cve": "CVE-2020-8908",
       "library": "com.google.guava:guava"
-    },
-    {
-      "cve": "CVE-2021-40690",
-      "library": "org.apache.santuario:xmlsec"
     },
     {
       "cve": "CVE-2022-23437",
@@ -1485,5 +1489,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.11.19.4"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.11.19.5"
 }
