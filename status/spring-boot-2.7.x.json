@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.19.14",
-  "as_of": "2026-11-19T09:30:33Z",
+  "as_of": "2026-11-19T09:33:31Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -497,10 +497,10 @@
     {
       "cve": "CVE-2026-41696",
       "library": "org.springframework.data:spring-data-mongodb",
-      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41700",
@@ -529,10 +529,10 @@
     {
       "cve": "CVE-2026-41711",
       "library": "org.springframework.data:spring-data-commons",
-      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41714",
@@ -545,26 +545,26 @@
     {
       "cve": "CVE-2026-41716",
       "library": "org.springframework.data:spring-data-commons",
-      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41717",
       "library": "org.springframework.data:spring-data-mongodb",
-      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-mongodb@3.4.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41719",
       "library": "org.springframework.data:spring-data-keyvalue",
-      "coordinate": "org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-keyvalue@2.7.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41720",
@@ -577,34 +577,42 @@
     {
       "cve": "CVE-2026-41721",
       "library": "org.springframework.data:spring-data-commons",
-      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-commons@2.7.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41728",
       "library": "org.springframework.data:spring-data-rest-core",
-      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41729",
       "library": "org.springframework.data:spring-data-rest-core",
-      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41730",
       "library": "org.springframework.data:spring-data-rest-core",
-      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00011",
-      "patch": "00011",
-      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00011",
-      "at": "2026-11-19T09:26:37Z"
+      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
+    },
+    {
+      "cve": "CVE-2026-41837",
+      "library": "org.springframework.data:spring-data-rest-core",
+      "coordinate": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00012",
+      "patch": "00012",
+      "named_by": "org.springframework.data:spring-data-rest-core@3.7.18.1-osera-00012",
+      "at": "2026-11-19T09:33:31Z"
     },
     {
       "cve": "CVE-2026-41838",
@@ -1188,10 +1196,6 @@
     {
       "cve": "CVE-2026-41710",
       "library": "org.springframework.retry:spring-retry"
-    },
-    {
-      "cve": "CVE-2026-41837",
-      "library": "org.springframework.data:spring-data-rest-core"
     },
     {
       "cve": "CVE-2026-41839",
@@ -2623,5 +2627,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.19.2"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.19.3"
 }
