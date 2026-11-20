@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-20T15:56:20Z",
+ "as_of": "2026-11-20T16:26:20Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 598,
-  "library_versions": 826,
-  "releases": 2206,
-  "forks": 96,
-  "artifacts": 17572,
-  "cves": 291,
-  "cve_statements": 6328,
-  "release_sets": 680,
+  "libraries": 599,
+  "library_versions": 827,
+  "releases": 2208,
+  "forks": 97,
+  "artifacts": 17574,
+  "cves": 294,
+  "cve_statements": 6333,
+  "release_sets": 682,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -116,7 +116,7 @@
   },
   {
    "date": "2026-11-20",
-   "count": 19
+   "count": 21
   }
  ],
  "top_cves": [
@@ -931,6 +931,13 @@
    "ecosystem": "Java",
    "releases": 3,
    "latest": "0.2.20.1-osera-00003",
+   "fixed_entries": 5
+  },
+  {
+   "library": "com.nimbusds:nimbus-jose-jwt",
+   "ecosystem": "Java",
+   "releases": 2,
+   "latest": "9.22.1-osera-00005",
    "fixed_entries": 5
   },
   {
@@ -5183,8 +5190,8 @@
    "version": "9.22",
    "first_seen": "2026-10-27T23:35:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-20T15:54:45Z",
-   "fixed_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
+   "fixed_at": "2026-11-20T16:03:02Z",
+   "fixed_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
    "cvss": 7.5,
    "cvss_version": "3.1"
   },
@@ -5356,7 +5363,9 @@
    "library": "com.nimbusds:nimbus-jose-jwt",
    "version": "9.22",
    "first_seen": "2026-10-27T23:35:00Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-20T16:03:02Z",
+   "fixed_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
    "cvss": 5.8,
    "cvss_version": "3.1"
   },
@@ -6343,6 +6352,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-20T15:54:45Z",
+ "new_cves_as_of": "2026-11-20T16:03:02Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
