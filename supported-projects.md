@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T13:15:19Z. Written by the line manager reconciler.
+Generated 2026-11-20T13:53:11Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -174,7 +174,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-560 libraries, 5902 patched version(s).
+561 libraries, 5903 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -444,6 +444,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.projectreactor.rabbitmq:reactor-rabbitmq | 1.5.6 | listed by the BOM of spring-boot-2.7.x at 1.5.6, not in its dependency graph | spring-boot-2.7.x |  | 1.5.6.1-osera-00001 1.5.6.1-osera-00002 1.5.6.1-osera-00003 | 1.5.6.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-test | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 3.4.41.1-osera-00002 3.4.41.1-osera-00003 | 3.4.41.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-tools | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 3.4.41.1-osera-00002 3.4.41.1-osera-00003 | 3.4.41.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| net.minidev:json-smart-action | 2.4.11 | not listed by any line |  | spring-boot-2.7.x, spring-security-5.7.x | 2.4.11.1-osera-00001 | 2.4.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.activemq:activemq-all | 5.14.5 | not listed by any line |  | spring-boot-2.7.x | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.activemq:activemq-amqp | 5.14.5 | listed by the BOM of spring-boot-2.7.x at 5.16.7, not in its dependency graph | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.activemq:activemq-broker | 5.14.5 | in the dependency graph of spring-boot-2.7.x at 5.16.8, uploaded on 5.14.5 | spring-boot-2.7.x |  | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
