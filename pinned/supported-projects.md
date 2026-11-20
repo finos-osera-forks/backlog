@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T13:15:19Z. Written by the line manager reconciler.
+Generated 2026-11-20T15:54:45Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,9 +8,9 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 363 | 108 | 30% | 36 | 0 | 255 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 363 | 109 | 30% | 36 | 0 | 254 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 36 | 77% | 0 | 0 | 11 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 73 | 15 | 21% | 4 | 0 | 58 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 73 | 16 | 22% | 4 | 0 | 57 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | in progress | 3 | 2 | 67% | 2 | 0 | 1 | 0 |
@@ -77,7 +77,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | com.mchange:mchange-commons-java | 0.2.15 | spring-boot-2.7.x | pulled in by a dependency (org.quartz-scheduler:quartz@2.3.2) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:mchange-commons-java | 0.2.19 | c3p0-0.9.x | own project (the anchor's group) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | com.mchange:mchange-commons-java | 0.2.20 | mchange-commons-0.2.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.2.20.1-osera-00003 | 0.2.20.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.nimbusds:nimbus-jose-jwt | 9.22 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (com.nimbusds:oauth2-oidc-sdk@9.35) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| com.nimbusds:nimbus-jose-jwt | 9.22 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (com.nimbusds:oauth2-oidc-sdk@9.35) | open | 2 | 1 | 50% | 0 | 0 | 1 | 0 | 9.22.1-osera-00001 | 9.22.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.rabbitmq:amqp-client | 5.14.3 | spring-boot-2.7.x | listed by the BOM at 5.14.3 | open | 11 | 9 | 82% | 0 | 0 | 2 | 0 | 5.14.3.1-osera-00009 | 5.14.3.1-osera-00009 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.sun.mail:jakarta.mail | 1.6.7 | spring-boot-2.7.x | listed by the BOM at 1.6.7 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-beanutils:commons-beanutils | 1.6 | commons-configuration-1.1.x | pulled in by a dependency (commons-digester:commons-digester@1.5) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |

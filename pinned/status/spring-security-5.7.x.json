@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.11.20.26",
-  "as_of": "2026-11-20T15:31:03Z",
+  "as_of": "2026-11-20T15:54:45Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 73,
@@ -77,6 +77,14 @@
       "patch": "00003",
       "named_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
       "at": "2026-11-20T12:37:18Z"
+    },
+    {
+      "cve": "CVE-2023-52428",
+      "library": "com.nimbusds:nimbus-jose-jwt",
+      "coordinate": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
+      "at": "2026-11-20T15:54:45Z"
     },
     {
       "cve": "CVE-2024-29857",
@@ -164,10 +172,6 @@
     {
       "cve": "CVE-2023-1370",
       "library": "net.minidev:json-smart"
-    },
-    {
-      "cve": "CVE-2023-52428",
-      "library": "com.nimbusds:nimbus-jose-jwt"
     },
     {
       "cve": "CVE-2024-22243",
