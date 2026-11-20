@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 318,
+  "version": 319,
   "metadata": {
-    "timestamp": "2026-11-19T19:46:20Z",
+    "timestamp": "2026-11-20T12:41:20Z",
     "tools": {
       "components": [
         {
@@ -2936,6 +2936,17 @@
       "name": "log4j-layout-template-json",
       "version": "2.17.2.1-osera-00006",
       "purl": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00006"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.santuario/xmlsec@2.0.10.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.santuario",
+      "name": "xmlsec",
+      "version": "2.0.10.1-osera-00003",
+      "purl": "pkg:maven/org.apache.santuario/xmlsec@2.0.10.1-osera-00003"
     },
     {
       "type": "library",
@@ -45449,6 +45460,84 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.17.2.1-osera-00006"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2019-12400 on pkg:maven/org.apache.santuario/xmlsec@2.0.10.1-osera-00003",
+      "id": "CVE-2019-12400",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-12400"
+      },
+      "references": [
+        {
+          "id": "GHSA-4q98-wr72-h35w",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-4q98-wr72-h35w"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T12:36:22Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.santuario/xmlsec@2.0.10.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2021-40690 on pkg:maven/org.apache.santuario/xmlsec@2.0.10.1-osera-00003",
+      "id": "CVE-2021-40690",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-40690"
+      },
+      "references": [
+        {
+          "id": "GHSA-j8wc-gxx9-82hx",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-j8wc-gxx9-82hx"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T12:36:22Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.santuario/xmlsec@2.0.10.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-44483 on pkg:maven/org.apache.santuario/xmlsec@2.0.10.1-osera-00003",
+      "id": "CVE-2023-44483",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-44483"
+      },
+      "references": [
+        {
+          "id": "GHSA-xfrj-6vvc-3xm2",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xfrj-6vvc-3xm2"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T12:36:22Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.santuario/xmlsec@2.0.10.1-osera-00003"
         }
       ]
     },
