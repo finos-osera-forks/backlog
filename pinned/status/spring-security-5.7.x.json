@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.11.20.21",
-  "as_of": "2026-11-20T12:41:02Z",
+  "as_of": "2026-11-20T12:59:08Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 73,
@@ -85,6 +85,14 @@
       "patch": "00039",
       "named_by": "org.bouncycastle:bcpkix-jdk15on@1.70.1-osera-00039",
       "at": "2026-11-12T12:36:42Z"
+    },
+    {
+      "cve": "CVE-2026-102554",
+      "library": "com.google.guava:guava",
+      "coordinate": "com.google.guava:guava@20.0.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.google.guava:guava@20.0.1-osera-00001",
+      "at": "2026-11-20T12:59:08Z"
     },
     {
       "cve": "CVE-2026-5588",
@@ -224,10 +232,6 @@
     {
       "cve": "CVE-2025-53864",
       "library": "com.nimbusds:nimbus-jose-jwt"
-    },
-    {
-      "cve": "CVE-2026-102554",
-      "library": "com.google.guava:guava"
     },
     {
       "cve": "CVE-2026-19032",

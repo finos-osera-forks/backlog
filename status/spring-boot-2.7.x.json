@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.20.21",
-  "as_of": "2026-11-20T12:41:02Z",
+  "as_of": "2026-11-20T12:59:08Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -261,6 +261,14 @@
       "patch": "00015",
       "named_by": "org.eclipse.jetty:jetty-security@9.4.58.v20250814-osera-00015",
       "at": "2026-11-18T12:24:22Z"
+    },
+    {
+      "cve": "CVE-2026-102554",
+      "library": "com.google.guava:guava",
+      "coordinate": "com.google.guava:guava@20.0.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.google.guava:guava@20.0.1-osera-00001",
+      "at": "2026-11-20T12:59:08Z"
     },
     {
       "cve": "CVE-2026-106121",
@@ -1092,10 +1100,6 @@
     {
       "cve": "CVE-2025-68161",
       "library": "org.apache.logging.log4j:log4j-core"
-    },
-    {
-      "cve": "CVE-2026-102554",
-      "library": "com.google.guava:guava"
     },
     {
       "cve": "CVE-2026-10532",
@@ -2645,5 +2649,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20.2"
 }
