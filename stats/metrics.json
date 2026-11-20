@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-20T12:56:20Z",
+ "as_of": "2026-11-20T13:26:20Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 590,
-  "library_versions": 818,
-  "releases": 2202,
-  "forks": 94,
-  "artifacts": 17554,
-  "cves": 286,
-  "cve_statements": 6318,
-  "release_sets": 676,
+  "libraries": 595,
+  "library_versions": 823,
+  "releases": 2205,
+  "forks": 95,
+  "artifacts": 17569,
+  "cves": 290,
+  "cve_statements": 6327,
+  "release_sets": 679,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -116,7 +116,7 @@
   },
   {
    "date": "2026-11-20",
-   "count": 1
+   "count": 16
   }
  ],
  "top_cves": [
@@ -827,6 +827,41 @@
    "releases": 1,
    "latest": "5.0.3.1-osera-00001",
    "fixed_entries": 1
+  },
+  {
+   "library": "com.google.guava:guava",
+   "ecosystem": "Java",
+   "releases": 3,
+   "latest": "20.0.1-osera-00003",
+   "fixed_entries": 8
+  },
+  {
+   "library": "com.google.guava:guava-gwt",
+   "ecosystem": "Java",
+   "releases": 3,
+   "latest": "20.0.1-osera-00003",
+   "fixed_entries": 1
+  },
+  {
+   "library": "com.google.guava:guava-parent",
+   "ecosystem": "Java",
+   "releases": 3,
+   "latest": "20.0.1-osera-00003",
+   "fixed_entries": 0
+  },
+  {
+   "library": "com.google.guava:guava-testlib",
+   "ecosystem": "Java",
+   "releases": 3,
+   "latest": "20.0.1-osera-00003",
+   "fixed_entries": 0
+  },
+  {
+   "library": "com.google.guava:guava-tests",
+   "ecosystem": "Java",
+   "releases": 3,
+   "latest": "20.0.1-osera-00003",
+   "fixed_entries": 0
   },
   {
    "library": "com.google.protobuf:protobuf-bom",
@@ -4494,7 +4529,9 @@
    "library": "com.google.guava:guava",
    "version": "20.0",
    "first_seen": "2026-10-28T11:41:16Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-20T13:15:19Z",
+   "fixed_by": "com.google.guava:guava@20.0.1-osera-00003",
    "cvss": 8.2,
    "cvss_version": "4.0"
   },
@@ -4986,7 +5023,9 @@
    "library": "com.google.guava:guava",
    "version": "20.0",
    "first_seen": "2026-10-27T23:35:00Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-20T13:15:19Z",
+   "fixed_by": "com.google.guava:guava@20.0.1-osera-00003",
    "cvss": 5.9,
    "cvss_version": "3.1"
   },
@@ -5018,7 +5057,9 @@
    "library": "com.google.guava:guava",
    "version": "20.0",
    "first_seen": "2026-10-27T23:35:00Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-20T13:15:19Z",
+   "fixed_by": "com.google.guava:guava@20.0.1-osera-00003",
    "cvss": 3.3,
    "cvss_version": "3.1"
   },
@@ -5062,7 +5103,9 @@
    "library": "com.google.guava:guava",
    "version": "20.0",
    "first_seen": "2026-10-27T23:35:00Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-20T13:15:19Z",
+   "fixed_by": "com.google.guava:guava@20.0.1-osera-00003",
    "cvss": 7.1,
    "cvss_version": "3.1"
   },
@@ -6277,6 +6320,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-20T12:37:18Z",
+ "new_cves_as_of": "2026-11-20T13:15:19Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
