@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.20.26",
-  "as_of": "2026-11-20T15:31:03Z",
+  "as_of": "2026-11-20T15:54:45Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -101,6 +101,14 @@
       "patch": "00001",
       "named_by": "com.jayway.jsonpath:json-path@2.7.0.1-osera-00001",
       "at": "2026-11-15T09:25:23Z"
+    },
+    {
+      "cve": "CVE-2023-52428",
+      "library": "com.nimbusds:nimbus-jose-jwt",
+      "coordinate": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
+      "patch": "00001",
+      "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
+      "at": "2026-11-20T15:54:45Z"
     },
     {
       "cve": "CVE-2024-29857",
@@ -928,10 +936,6 @@
     {
       "cve": "CVE-2023-49921",
       "library": "org.elasticsearch:elasticsearch"
-    },
-    {
-      "cve": "CVE-2023-52428",
-      "library": "com.nimbusds:nimbus-jose-jwt"
     },
     {
       "cve": "CVE-2023-5685",
