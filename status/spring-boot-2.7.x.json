@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.20.27",
-  "as_of": "2026-11-20T15:58:09Z",
+  "as_of": "2026-11-20T16:03:02Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -105,10 +105,10 @@
     {
       "cve": "CVE-2023-52428",
       "library": "com.nimbusds:nimbus-jose-jwt",
-      "coordinate": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
-      "patch": "00001",
-      "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
-      "at": "2026-11-20T15:54:45Z"
+      "coordinate": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
+      "at": "2026-11-20T16:03:02Z"
     },
     {
       "cve": "CVE-2024-12801",
@@ -269,6 +269,14 @@
       "patch": "00019",
       "named_by": "com.fasterxml.jackson.core:jackson-core@2.13.5.1-osera-00019",
       "at": "2026-11-17T16:22:32Z"
+    },
+    {
+      "cve": "CVE-2025-53864",
+      "library": "com.nimbusds:nimbus-jose-jwt",
+      "coordinate": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
+      "at": "2026-11-20T16:03:02Z"
     },
     {
       "cve": "CVE-2025-66566",
@@ -1106,10 +1114,6 @@
       "library": "commons-lang:commons-lang"
     },
     {
-      "cve": "CVE-2025-53864",
-      "library": "com.nimbusds:nimbus-jose-jwt"
-    },
-    {
       "cve": "CVE-2025-66566",
       "library": "org.lz4:lz4-java"
     },
@@ -1322,6 +1326,7 @@
     "CVE-2026-54514 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
     "CVE-2026-54515 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
     "CVE-2026-91776 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
+    "fixed, not in the backlog: CVE-2023-1370 on com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
     "fixed, not in the backlog: CVE-2023-33202 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00022",
     "fixed, not in the backlog: CVE-2023-33202 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00023",
     "fixed, not in the backlog: CVE-2023-33202 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00024",
@@ -1474,6 +1479,7 @@
     "fixed, not in the backlog: CVE-2026-0636 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
     "fixed, not in the backlog: CVE-2026-0636 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00038",
     "fixed, not in the backlog: CVE-2026-0636 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00039",
+    "fixed, not in the backlog: CVE-2026-113602 on com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-12185 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00008",
     "fixed, not in the backlog: CVE-2026-12185 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00009",
     "fixed, not in the backlog: CVE-2026-12185 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00010",
@@ -2665,5 +2671,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20.6"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20.7"
 }

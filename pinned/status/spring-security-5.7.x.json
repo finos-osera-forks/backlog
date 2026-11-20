@@ -1,7 +1,7 @@
 {
   "line": "spring-security-5.7.x",
   "book_version": "v2026.11.20.27",
-  "as_of": "2026-11-20T15:58:09Z",
+  "as_of": "2026-11-20T16:03:02Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 73,
@@ -81,10 +81,10 @@
     {
       "cve": "CVE-2023-52428",
       "library": "com.nimbusds:nimbus-jose-jwt",
-      "coordinate": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
-      "patch": "00001",
-      "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00001",
-      "at": "2026-11-20T15:54:45Z"
+      "coordinate": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
+      "at": "2026-11-20T16:03:02Z"
     },
     {
       "cve": "CVE-2024-29857",
@@ -109,6 +109,14 @@
       "patch": "00039",
       "named_by": "org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00039",
       "at": "2026-11-12T12:36:42Z"
+    },
+    {
+      "cve": "CVE-2025-53864",
+      "library": "com.nimbusds:nimbus-jose-jwt",
+      "coordinate": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
+      "patch": "00005",
+      "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
+      "at": "2026-11-20T16:03:02Z"
     },
     {
       "cve": "CVE-2025-8916",
@@ -246,10 +254,6 @@
       "library": "com.fasterxml.jackson.core:jackson-core"
     },
     {
-      "cve": "CVE-2025-53864",
-      "library": "com.nimbusds:nimbus-jose-jwt"
-    },
-    {
       "cve": "CVE-2026-19032",
       "library": "com.fasterxml.jackson.core:jackson-databind"
     },
@@ -368,6 +372,7 @@
   ],
   "not_remediable": [],
   "discrepancies": [
+    "fixed, not in the backlog: CVE-2023-1370 on com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
     "fixed, not in the backlog: CVE-2023-33202 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00022",
     "fixed, not in the backlog: CVE-2023-33202 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00023",
     "fixed, not in the backlog: CVE-2023-33202 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00024",
@@ -488,6 +493,7 @@
     "fixed, not in the backlog: CVE-2026-0636 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00037",
     "fixed, not in the backlog: CVE-2026-0636 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00038",
     "fixed, not in the backlog: CVE-2026-0636 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00039",
+    "fixed, not in the backlog: CVE-2026-113602 on com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-12185 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00008",
     "fixed, not in the backlog: CVE-2026-12185 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00009",
     "fixed, not in the backlog: CVE-2026-12185 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00010",
