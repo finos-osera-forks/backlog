@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T13:16:21Z",
-  "feed_version": 321,
+  "generated_at": "2026-11-20T13:21:21Z",
+  "feed_version": 322,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -2465,6 +2465,19 @@
       ],
       "state": "in the feed",
       "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-guava@v20.0.1-osera-00003",
+      "members": 5,
+      "coordinates": [
+        "com.google.guava:guava-gwt@20.0.1-osera-00003",
+        "com.google.guava:guava-parent@20.0.1-osera-00003",
+        "com.google.guava:guava-testlib@20.0.1-osera-00003",
+        "com.google.guava:guava-tests@20.0.1-osera-00003",
+        "com.google.guava:guava@20.0.1-osera-00003"
+      ],
+      "state": "in the feed",
+      "statements": 5
     },
     {
       "set": "finos-osera-forks/patch-hibernate-orm@v5.6.15.Final-osera-00001",

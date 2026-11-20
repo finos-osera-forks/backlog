@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-20T13:16:21Z",
-  "version": 321,
+  "last_updated": "2026-11-20T13:21:21Z",
+  "version": 322,
   "tooling": "osera-feed 92b81e570e019a6ffef56958d4dc28ef02f62ef0",
   "statements": [
     {
@@ -13403,6 +13403,22 @@
     },
     {
       "vulnerability": {
+        "name": "CVE-2018-10237",
+        "aliases": [
+          "GHSA-mvr2-9pj6-7w5j"
+        ]
+      },
+      "timestamp": "2026-11-20T13:15:13Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.google.guava/guava-gwt@20.0.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
         "name": "CVE-2026-102554",
         "aliases": [
           "GHSA-xxph-c9ww-hj94"
@@ -13460,6 +13476,70 @@
       "products": [
         {
           "@id": "pkg:maven/com.google.guava/guava@20.0.1-osera-00002"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2018-10237",
+        "aliases": [
+          "GHSA-mvr2-9pj6-7w5j"
+        ]
+      },
+      "timestamp": "2026-11-20T13:15:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2020-8908",
+        "aliases": [
+          "GHSA-5mg8-w23w-74h3"
+        ]
+      },
+      "timestamp": "2026-11-20T13:15:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-2976",
+        "aliases": [
+          "GHSA-7g45-4rm6-3mm3"
+        ]
+      },
+      "timestamp": "2026-11-20T13:15:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-102554",
+        "aliases": [
+          "GHSA-xxph-c9ww-hj94"
+        ]
+      },
+      "timestamp": "2026-11-20T13:15:38Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
         }
       ],
       "status": "fixed",
