@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-20T12:41:20Z",
-  "version": 319,
+  "last_updated": "2026-11-20T13:06:54Z",
+  "version": 320,
   "tooling": "osera-feed 92b81e570e019a6ffef56958d4dc28ef02f62ef0",
   "statements": [
     {
@@ -13396,6 +13396,22 @@
       "products": [
         {
           "@id": "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-102554",
+        "aliases": [
+          "GHSA-xxph-c9ww-hj94"
+        ]
+      },
+      "timestamp": "2026-11-20T12:57:43Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.google.guava/guava@20.0.1-osera-00001"
         }
       ],
       "status": "fixed",
