@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-20T12:11:26Z",
+ "as_of": "2026-11-20T12:56:20Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 589,
-  "library_versions": 817,
-  "releases": 2201,
-  "forks": 93,
-  "artifacts": 17553,
-  "cves": 283,
-  "cve_statements": 6315,
-  "release_sets": 675,
+  "libraries": 590,
+  "library_versions": 818,
+  "releases": 2202,
+  "forks": 94,
+  "artifacts": 17554,
+  "cves": 286,
+  "cve_statements": 6318,
+  "release_sets": 676,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -113,6 +113,10 @@
   {
    "date": "2026-11-19",
    "count": 297
+  },
+  {
+   "date": "2026-11-20",
+   "count": 1
   }
  ],
  "top_cves": [
@@ -2279,6 +2283,13 @@
    "releases": 13,
    "latest": "2.24.3.1-osera-00007",
    "fixed_entries": 0
+  },
+  {
+   "library": "org.apache.santuario:xmlsec",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "2.0.10.1-osera-00003",
+   "fixed_entries": 3
   },
   {
    "library": "org.apache.struts.xwork:xwork-core",
@@ -4985,7 +4996,9 @@
    "library": "org.apache.santuario:xmlsec",
    "version": "2.0.10",
    "first_seen": "2026-10-27T23:35:00Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-20T12:37:18Z",
+   "fixed_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
    "cvss": 5.5,
    "cvss_version": "3.1"
   },
@@ -5016,8 +5029,8 @@
    "version": "2.0.10",
    "first_seen": "2026-10-27T23:35:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-19T17:02:13Z",
-   "fixed_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00002",
+   "fixed_at": "2026-11-20T12:37:18Z",
+   "fixed_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
    "cvss": 7.5,
    "cvss_version": "3.1"
   },
@@ -5072,8 +5085,8 @@
    "version": "2.0.10",
    "first_seen": "2026-10-27T23:35:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-19T17:02:13Z",
-   "fixed_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00002",
+   "fixed_at": "2026-11-20T12:37:18Z",
+   "fixed_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
    "cvss": 6.5,
    "cvss_version": "3.1"
   },
@@ -6264,6 +6277,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-20T11:17:11Z",
+ "new_cves_as_of": "2026-11-20T12:37:18Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
