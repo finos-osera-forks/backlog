@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 319,
+  "version": 320,
   "metadata": {
-    "timestamp": "2026-11-20T12:41:20Z",
+    "timestamp": "2026-11-20T13:06:54Z",
     "tools": {
       "components": [
         {
@@ -1800,6 +1800,17 @@
       "name": "woodstox-core",
       "version": "5.0.3.1-osera-00001",
       "purl": "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "20.0.1-osera-00001",
+      "purl": "pkg:maven/com.google.guava/guava@20.0.1-osera-00001"
     },
     {
       "type": "library",
@@ -39757,6 +39768,32 @@
       "affects": [
         {
           "ref": "pkg:maven/com.fasterxml.woodstox/woodstox-core@5.0.3.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-102554 on pkg:maven/com.google.guava/guava@20.0.1-osera-00001",
+      "id": "CVE-2026-102554",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102554"
+      },
+      "references": [
+        {
+          "id": "GHSA-xxph-c9ww-hj94",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xxph-c9ww-hj94"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T12:57:43Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00001"
         }
       ]
     },
