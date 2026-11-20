@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.20.20",
-  "as_of": "2026-11-20T11:19:50Z",
+  "as_of": "2026-11-20T12:37:18Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 195,
@@ -15,6 +15,14 @@
       "at": "2026-11-18T09:12:47Z"
     },
     {
+      "cve": "CVE-2019-12400",
+      "library": "org.apache.santuario:xmlsec",
+      "coordinate": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
+      "at": "2026-11-20T12:37:18Z"
+    },
+    {
       "cve": "CVE-2020-13936",
       "library": "org.apache.velocity:velocity",
       "coordinate": "org.apache.velocity:velocity@1.7.1-osera-00002",
@@ -25,10 +33,10 @@
     {
       "cve": "CVE-2021-40690",
       "library": "org.apache.santuario:xmlsec",
-      "coordinate": "org.apache.santuario:xmlsec@2.0.10.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00002",
-      "at": "2026-11-19T17:02:13Z"
+      "coordinate": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
+      "at": "2026-11-20T12:37:18Z"
     },
     {
       "cve": "CVE-2022-1471",
@@ -57,10 +65,10 @@
     {
       "cve": "CVE-2023-44483",
       "library": "org.apache.santuario:xmlsec",
-      "coordinate": "org.apache.santuario:xmlsec@2.0.10.1-osera-00002",
-      "patch": "00002",
-      "named_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00002",
-      "at": "2026-11-19T17:02:13Z"
+      "coordinate": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
+      "patch": "00003",
+      "named_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
+      "at": "2026-11-20T12:37:18Z"
     },
     {
       "cve": "CVE-2023-51074",
@@ -1012,10 +1020,6 @@
     {
       "cve": "CVE-2018-10237",
       "library": "com.google.guava:guava"
-    },
-    {
-      "cve": "CVE-2019-12400",
-      "library": "org.apache.santuario:xmlsec"
     },
     {
       "cve": "CVE-2020-14338",
@@ -2641,5 +2645,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.19.6"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20"
 }
