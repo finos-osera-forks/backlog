@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T13:51:21Z",
-  "feed_version": 322,
+  "generated_at": "2026-11-20T14:01:21Z",
+  "feed_version": 323,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -7381,10 +7381,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00003"
       ],
       "state": "held",
-      "held_since": "2026-11-20T13:11:20Z",
+      "held_since": "2026-11-20T14:01:21Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00003, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00003, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -9752,6 +9752,17 @@
       ],
       "state": "in the feed",
       "statements": 17
+    },
+    {
+      "set": "finos-osera-forks/patch-json-smart-v2@v2.4.11.1-osera-00001",
+      "members": 3,
+      "coordinates": [
+        "net.minidev:accessors-smart@2.4.11.1-osera-00001",
+        "net.minidev:json-smart-action@2.4.11.1-osera-00001",
+        "net.minidev:json-smart@2.4.11.1-osera-00001"
+      ],
+      "state": "in the feed",
+      "statements": 1
     },
     {
       "set": "finos-osera-forks/patch-log4j@v1.2.17.1-osera-00001",

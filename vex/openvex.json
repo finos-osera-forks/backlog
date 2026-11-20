@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-20T13:21:21Z",
-  "version": 322,
+  "last_updated": "2026-11-20T14:01:21Z",
+  "version": 323,
   "tooling": "osera-feed 92b81e570e019a6ffef56958d4dc28ef02f62ef0",
   "statements": [
     {
@@ -15628,6 +15628,19 @@
       "products": [
         {
           "@id": "pkg:maven/log4j/log4j@1.2.17.1-osera-00008"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-113602"
+      },
+      "timestamp": "2026-11-20T13:51:32Z",
+      "products": [
+        {
+          "@id": "pkg:maven/net.minidev/json-smart@2.4.11.1-osera-00001"
         }
       ],
       "status": "fixed",

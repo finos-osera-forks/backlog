@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 322,
+  "version": 323,
   "metadata": {
-    "timestamp": "2026-11-20T13:21:21Z",
+    "timestamp": "2026-11-20T14:01:21Z",
     "tools": {
       "components": [
         {
@@ -2427,6 +2427,17 @@
       "name": "log4j",
       "version": "1.2.17.1-osera-00008",
       "purl": "pkg:maven/log4j/log4j@1.2.17.1-osera-00008"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.minidev/json-smart@2.4.11.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "net.minidev",
+      "name": "json-smart",
+      "version": "2.4.11.1-osera-00001",
+      "purl": "pkg:maven/net.minidev/json-smart@2.4.11.1-osera-00001"
     },
     {
       "type": "library",
@@ -43395,6 +43406,23 @@
       "affects": [
         {
           "ref": "pkg:maven/log4j/log4j@1.2.17.1-osera-00008"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-113602 on pkg:maven/net.minidev/json-smart@2.4.11.1-osera-00001",
+      "id": "CVE-2026-113602",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113602"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T13:51:32Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/net.minidev/json-smart@2.4.11.1-osera-00001"
         }
       ]
     },
