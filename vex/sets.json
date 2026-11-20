@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T16:01:20Z",
-  "feed_version": 324,
+  "generated_at": "2026-11-20T16:11:42Z",
+  "feed_version": 325,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -10452,6 +10452,15 @@
       ],
       "state": "in the feed",
       "statements": 1
+    },
+    {
+      "set": "finos-osera-forks/patch-nimbus-jose-jwt@v9.22.1-osera-00005",
+      "members": 1,
+      "coordinates": [
+        "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005"
+      ],
+      "state": "in the feed",
+      "statements": 4
     },
     {
       "set": "finos-osera-forks/patch-protobuf@v3.19.6.1-osera-00001",
