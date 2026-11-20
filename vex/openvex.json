@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-20T16:01:20Z",
-  "version": 324,
+  "last_updated": "2026-11-20T16:11:42Z",
+  "version": 325,
   "tooling": "osera-feed 92b81e570e019a6ffef56958d4dc28ef02f62ef0",
   "statements": [
     {
@@ -13860,6 +13860,67 @@
       "products": [
         {
           "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00001"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-1370",
+        "aliases": [
+          "GHSA-493p-pfq6-5258"
+        ]
+      },
+      "timestamp": "2026-11-20T16:02:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-52428",
+        "aliases": [
+          "GHSA-gvpg-vgmx-xg6w"
+        ]
+      },
+      "timestamp": "2026-11-20T16:02:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2025-53864",
+        "aliases": [
+          "GHSA-xwmg-2g98-w7v9"
+        ]
+      },
+      "timestamp": "2026-11-20T16:02:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2026-113602"
+      },
+      "timestamp": "2026-11-20T16:02:56Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
         }
       ],
       "status": "fixed",

@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 324,
+  "version": 325,
   "metadata": {
-    "timestamp": "2026-11-20T16:01:20Z",
+    "timestamp": "2026-11-20T16:11:42Z",
     "tools": {
       "components": [
         {
@@ -1987,6 +1987,17 @@
       "name": "nimbus-jose-jwt",
       "version": "9.22.1-osera-00001",
       "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.nimbusds",
+      "name": "nimbus-jose-jwt",
+      "version": "9.22.1-osera-00005",
+      "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
     },
     {
       "type": "library",
@@ -40577,6 +40588,101 @@
       "affects": [
         {
           "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-1370 on pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005",
+      "id": "CVE-2023-1370",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-1370"
+      },
+      "references": [
+        {
+          "id": "GHSA-493p-pfq6-5258",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-493p-pfq6-5258"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T16:02:56Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-52428 on pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005",
+      "id": "CVE-2023-52428",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52428"
+      },
+      "references": [
+        {
+          "id": "GHSA-gvpg-vgmx-xg6w",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-gvpg-vgmx-xg6w"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T16:02:56Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-53864 on pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005",
+      "id": "CVE-2025-53864",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53864"
+      },
+      "references": [
+        {
+          "id": "GHSA-xwmg-2g98-w7v9",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xwmg-2g98-w7v9"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T16:02:56Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-113602 on pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005",
+      "id": "CVE-2026-113602",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113602"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T16:02:56Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00005"
         }
       ]
     },
