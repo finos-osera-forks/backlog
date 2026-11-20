@@ -57083,6 +57083,43 @@
       "first_seen": "2026-11-05T16:46:50Z"
     },
     {
+      "coordinate": "com.google.guava:guava-gwt@20.0.1-osera-00001",
+      "library": "com.google.guava:guava-gwt",
+      "base": "20.0",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "com.google.guava:guava-gwt@20.0.1-osera-00001: not listed by any line; other artifacts of com.google.guava are in the dependency graph of spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-11-20T12:56:28Z"
+    },
+    {
+      "coordinate": "com.google.guava:guava-testlib@20.0.1-osera-00001",
+      "library": "com.google.guava:guava-testlib",
+      "base": "20.0",
+      "reason": "listed by the BOM of log4j2-2.24.x at 33.3.0-jre, not in its dependency graph",
+      "lines": [
+        "log4j2-2.24.x"
+      ],
+      "words": "com.google.guava:guava-testlib@20.0.1-osera-00001: listed by the BOM of log4j2-2.24.x at 33.3.0-jre, not in its dependency graph",
+      "first_seen": "2026-11-20T12:56:28Z"
+    },
+    {
+      "coordinate": "com.google.guava:guava-tests@20.0.1-osera-00001",
+      "library": "com.google.guava:guava-tests",
+      "base": "20.0",
+      "reason": "not listed by any line",
+      "lines": [],
+      "same_group_on": [
+        "spring-boot-2.7.x",
+        "spring-security-5.7.x"
+      ],
+      "words": "com.google.guava:guava-tests@20.0.1-osera-00001: not listed by any line; other artifacts of com.google.guava are in the dependency graph of spring-boot-2.7.x, spring-security-5.7.x, so the graph there may have a hole",
+      "first_seen": "2026-11-20T12:56:28Z"
+    },
+    {
       "coordinate": "com.google.protobuf:protobuf-java-util@3.19.6.1-osera-00001",
       "library": "com.google.protobuf:protobuf-java-util",
       "base": "3.19.6",
