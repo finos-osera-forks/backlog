@@ -4,8 +4,8 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-20T14:01:21Z",
-  "version": 323,
+  "last_updated": "2026-11-20T16:01:20Z",
+  "version": 324,
   "tooling": "osera-feed 92b81e570e019a6ffef56958d4dc28ef02f62ef0",
   "statements": [
     {
@@ -13844,6 +13844,22 @@
       "products": [
         {
           "@id": "pkg:maven/com.mchange/mchange-commons-java@0.2.20.1-osera-00003"
+        }
+      ],
+      "status": "fixed",
+      "supplier": "moderne"
+    },
+    {
+      "vulnerability": {
+        "name": "CVE-2023-52428",
+        "aliases": [
+          "GHSA-gvpg-vgmx-xg6w"
+        ]
+      },
+      "timestamp": "2026-11-20T15:54:21Z",
+      "products": [
+        {
+          "@id": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00001"
         }
       ],
       "status": "fixed",

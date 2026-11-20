@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 323,
+  "version": 324,
   "metadata": {
-    "timestamp": "2026-11-20T14:01:21Z",
+    "timestamp": "2026-11-20T16:01:20Z",
     "tools": {
       "components": [
         {
@@ -1979,6 +1979,17 @@
       "name": "mchange-commons-java",
       "version": "0.2.20.1-osera-00003",
       "purl": "pkg:maven/com.mchange/mchange-commons-java@0.2.20.1-osera-00003"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00001",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.nimbusds",
+      "name": "nimbus-jose-jwt",
+      "version": "9.22.1-osera-00001",
+      "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00001"
     },
     {
       "type": "library",
@@ -40543,6 +40554,32 @@
       "affects": [
         {
           "ref": "pkg:maven/com.mchange/mchange-commons-java@0.2.20.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-52428 on pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00001",
+      "id": "CVE-2023-52428",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52428"
+      },
+      "references": [
+        {
+          "id": "GHSA-gvpg-vgmx-xg6w",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-gvpg-vgmx-xg6w"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T15:54:21Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22.1-osera-00001"
         }
       ]
     },
