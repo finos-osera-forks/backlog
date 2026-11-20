@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-20T13:05:42Z. Written by the line manager reconciler.
+Generated 2026-11-20T13:08:35Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -65,7 +65,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.fasterxml.jackson.core:jackson-databind | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | fixed | 12 | 12 | 100% | 0 | 0 | 0 | 0 | 2.15.4.1-osera-00021 | 2.15.4.1-osera-00021 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | fixed | 12 | 12 | 100% | 0 | 0 | 0 | 0 | 2.19.4.1-osera-00023 | 2.19.4.1-osera-00023 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.woodstox:woodstox-core | 5.0.3 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (org.apache.santuario:xmlsec@2.0.10) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 5.0.3.1-osera-00001 | 5.0.3.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| com.google.guava:guava | 20.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.shibboleth.utilities:java-support@7.5.2) | open | 4 | 3 | 75% | 0 | 0 | 1 | 0 | 20.0.1-osera-00002 | 20.0.1-osera-00002 | not ready, evidence chain incomplete: signatures | broken | not checked (guava-20.0.1-osera-00002.jar.sha1, guava-20.0.1-osera-00002.pom.sha1 not there yet: the last file landed 17s ago and the gate copies the checksums after the jar and the pom) | OK | NOK (no signature next to the jar (guava-20.0.1-osera-00002.jar.asc)) | OK | OK | OK | OK | OK | OK | OK |
+| com.google.guava:guava | 20.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.shibboleth.utilities:java-support@7.5.2) | open | 4 | 3 | 75% | 0 | 0 | 1 | 0 | 20.0.1-osera-00002 | 20.0.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.graphql-java:graphql-java | 18.5 | spring-boot-2.7.x | listed by the BOM at 18.5 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 18.5.1-osera-00001 | 18.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.jayway.jsonpath:json-path | 2.7.0 | spring-boot-2.7.x | listed by the BOM at 2.7.0 | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.7.0.1-osera-00001 | 2.7.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.mchange:c3p0 | 0.9.5.5 | c3p0-0.9.x | own project (the anchor's group) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 0.9.5.5.1-osera-00004 | 0.9.5.5.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
