@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-20T09:56:30Z",
+ "as_of": "2026-11-20T10:26:20Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -6264,6 +6264,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-20T09:53:33Z",
+ "new_cves_as_of": "2026-11-20T10:04:43Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
