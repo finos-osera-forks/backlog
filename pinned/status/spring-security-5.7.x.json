@@ -1,9 +1,9 @@
 {
   "line": "spring-security-5.7.x",
-  "book_version": "v2026.11.20.22",
-  "as_of": "2026-11-20T13:05:42Z",
+  "book_version": "v2026.11.20.23",
+  "as_of": "2026-11-20T13:08:35Z",
   "status": "in progress",
-  "chain": "broken: 1 artifact",
+  "chain": "complete",
   "in_scope": 73,
   "fixed": [
     {
@@ -1527,10 +1527,7 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00002 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00003 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
-    "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
-    "CVE-2020-8908 on guava 20.0 is patched, the evidence chain is broken: no signature next to the jar (guava-20.0.1-osera-00002.jar.asc)",
-    "CVE-2023-2976 on guava 20.0 is patched, the evidence chain is broken: no signature next to the jar (guava-20.0.1-osera-00002.jar.asc)",
-    "CVE-2026-102554 on guava 20.0 is patched, the evidence chain is broken: no signature next to the jar (guava-20.0.1-osera-00002.jar.asc)"
+    "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.11.20.2"
+  "consume": "org.finos.osera:osera-bom-spring-security-5.7.x@2026.11.20.3"
 }
