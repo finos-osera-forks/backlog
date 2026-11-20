@@ -811,6 +811,15 @@
       "first_seen": "2026-11-20T12:56:28Z"
     },
     {
+      "coordinate": "com.google.guava:guava-parent@20.0.1-osera-00002",
+      "library": "com.google.guava:guava-parent",
+      "base": "20.0",
+      "kind": "parent",
+      "released_with": "patch-guava v20.0.1-osera-00002",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-20T13:05:42Z"
+    },
+    {
       "coordinate": "com.google.protobuf:protobuf-bom@3.19.6.1-osera-00001",
       "library": "com.google.protobuf:protobuf-bom",
       "base": "3.19.6",
