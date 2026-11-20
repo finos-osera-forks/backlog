@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.7",
   "serialNumber": "urn:uuid:3afeff62-58fd-543c-a8e3-d3e69bd90f48",
-  "version": 321,
+  "version": 322,
   "metadata": {
-    "timestamp": "2026-11-20T13:16:21Z",
+    "timestamp": "2026-11-20T13:21:21Z",
     "tools": {
       "components": [
         {
@@ -1806,6 +1806,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava-gwt@20.0.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.google.guava",
+      "name": "guava-gwt",
+      "version": "20.0.1-osera-00003",
+      "purl": "pkg:maven/com.google.guava/guava-gwt@20.0.1-osera-00003"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -1825,6 +1836,17 @@
       "name": "guava",
       "version": "20.0.1-osera-00002",
       "purl": "pkg:maven/com.google.guava/guava@20.0.1-osera-00002"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "20.0.1-osera-00003",
+      "purl": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
     },
     {
       "type": "library",
@@ -39786,6 +39808,32 @@
       ]
     },
     {
+      "bom-ref": "CVE-2018-10237 on pkg:maven/com.google.guava/guava-gwt@20.0.1-osera-00003",
+      "id": "CVE-2018-10237",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-10237"
+      },
+      "references": [
+        {
+          "id": "GHSA-mvr2-9pj6-7w5j",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mvr2-9pj6-7w5j"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T13:15:13Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.google.guava/guava-gwt@20.0.1-osera-00003"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2026-102554 on pkg:maven/com.google.guava/guava@20.0.1-osera-00001",
       "id": "CVE-2026-102554",
       "source": {
@@ -39886,6 +39934,110 @@
       "affects": [
         {
           "ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2018-10237 on pkg:maven/com.google.guava/guava@20.0.1-osera-00003",
+      "id": "CVE-2018-10237",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-10237"
+      },
+      "references": [
+        {
+          "id": "GHSA-mvr2-9pj6-7w5j",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-mvr2-9pj6-7w5j"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T13:15:38Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2020-8908 on pkg:maven/com.google.guava/guava@20.0.1-osera-00003",
+      "id": "CVE-2020-8908",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-8908"
+      },
+      "references": [
+        {
+          "id": "GHSA-5mg8-w23w-74h3",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-5mg8-w23w-74h3"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T13:15:38Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2023-2976 on pkg:maven/com.google.guava/guava@20.0.1-osera-00003",
+      "id": "CVE-2023-2976",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-2976"
+      },
+      "references": [
+        {
+          "id": "GHSA-7g45-4rm6-3mm3",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-7g45-4rm6-3mm3"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T13:15:38Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-102554 on pkg:maven/com.google.guava/guava@20.0.1-osera-00003",
+      "id": "CVE-2026-102554",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102554"
+      },
+      "references": [
+        {
+          "id": "GHSA-xxph-c9ww-hj94",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-xxph-c9ww-hj94"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-20T13:15:38Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/com.google.guava/guava@20.0.1-osera-00003"
         }
       ]
     },
