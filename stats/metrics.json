@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-20T07:26:19Z",
+ "as_of": "2026-11-20T07:56:19Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -6262,32 +6262,8 @@
    "fixed_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00032",
    "cvss": 9.8,
    "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-59889",
-   "summary": "jackson-databind: @JsonView bypassed for @JsonUnwrapped container properties on deserialization",
-   "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
-   "first_seen": "2026-10-20T20:17:11Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
-   "cvss": 6.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-59889",
-   "summary": "jackson-databind: @JsonView bypassed for @JsonUnwrapped container properties on deserialization",
-   "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
-   "first_seen": "2026-10-20T20:17:11Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
-   "cvss": 6.5,
-   "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-19T17:02:13Z",
+ "new_cves_as_of": "2026-11-20T07:56:06Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
