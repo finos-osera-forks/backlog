@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.20.23",
-  "as_of": "2026-11-20T13:08:35Z",
+  "as_of": "2026-11-20T13:15:19Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 363,
@@ -13,6 +13,14 @@
       "patch": "00032",
       "named_by": "org.springframework:spring-web@5.3.39.1-osera-00032",
       "at": "2026-11-18T09:12:47Z"
+    },
+    {
+      "cve": "CVE-2018-10237",
+      "library": "com.google.guava:guava",
+      "coordinate": "com.google.guava:guava@20.0.1-osera-00003",
+      "patch": "00003",
+      "named_by": "com.google.guava:guava@20.0.1-osera-00003",
+      "at": "2026-11-20T13:15:19Z"
     },
     {
       "cve": "CVE-2019-12400",
@@ -33,10 +41,10 @@
     {
       "cve": "CVE-2020-8908",
       "library": "com.google.guava:guava",
-      "coordinate": "com.google.guava:guava@20.0.1-osera-00002",
-      "patch": "00002",
-      "named_by": "com.google.guava:guava@20.0.1-osera-00002",
-      "at": "2026-11-20T13:05:42Z"
+      "coordinate": "com.google.guava:guava@20.0.1-osera-00003",
+      "patch": "00003",
+      "named_by": "com.google.guava:guava@20.0.1-osera-00003",
+      "at": "2026-11-20T13:15:19Z"
     },
     {
       "cve": "CVE-2021-40690",
@@ -65,10 +73,10 @@
     {
       "cve": "CVE-2023-2976",
       "library": "com.google.guava:guava",
-      "coordinate": "com.google.guava:guava@20.0.1-osera-00002",
-      "patch": "00002",
-      "named_by": "com.google.guava:guava@20.0.1-osera-00002",
-      "at": "2026-11-20T13:05:42Z"
+      "coordinate": "com.google.guava:guava@20.0.1-osera-00003",
+      "patch": "00003",
+      "named_by": "com.google.guava:guava@20.0.1-osera-00003",
+      "at": "2026-11-20T13:15:19Z"
     },
     {
       "cve": "CVE-2023-33201",
@@ -233,10 +241,10 @@
     {
       "cve": "CVE-2026-102554",
       "library": "com.google.guava:guava",
-      "coordinate": "com.google.guava:guava@20.0.1-osera-00002",
-      "patch": "00002",
-      "named_by": "com.google.guava:guava@20.0.1-osera-00002",
-      "at": "2026-11-20T13:05:42Z"
+      "coordinate": "com.google.guava:guava@20.0.1-osera-00003",
+      "patch": "00003",
+      "named_by": "com.google.guava:guava@20.0.1-osera-00003",
+      "at": "2026-11-20T13:15:19Z"
     },
     {
       "cve": "CVE-2026-106121",
@@ -868,10 +876,6 @@
     {
       "cve": "CVE-2015-6420",
       "library": "commons-collections:commons-collections"
-    },
-    {
-      "cve": "CVE-2018-10237",
-      "library": "com.google.guava:guava"
     },
     {
       "cve": "CVE-2020-14338",
