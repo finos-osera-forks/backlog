@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-20T13:51:21Z",
+ "as_of": "2026-11-20T14:26:20Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -7,14 +7,14 @@
  ],
  "totals": {
   "supported_lines": 41,
-  "libraries": 595,
-  "library_versions": 823,
-  "releases": 2205,
-  "forks": 95,
-  "artifacts": 17569,
-  "cves": 290,
-  "cve_statements": 6327,
-  "release_sets": 679,
+  "libraries": 598,
+  "library_versions": 826,
+  "releases": 2206,
+  "forks": 96,
+  "artifacts": 17572,
+  "cves": 291,
+  "cve_statements": 6328,
+  "release_sets": 680,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -116,7 +116,7 @@
   },
   {
    "date": "2026-11-20",
-   "count": 16
+   "count": 19
   }
  ],
  "top_cves": [
@@ -1282,6 +1282,27 @@
    "releases": 8,
    "latest": "1.2.17.1-osera-00008",
    "fixed_entries": 35
+  },
+  {
+   "library": "net.minidev:accessors-smart",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "2.4.11.1-osera-00001",
+   "fixed_entries": 0
+  },
+  {
+   "library": "net.minidev:json-smart",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "2.4.11.1-osera-00001",
+   "fixed_entries": 1
+  },
+  {
+   "library": "net.minidev:json-smart-action",
+   "ecosystem": "Java",
+   "releases": 1,
+   "latest": "2.4.11.1-osera-00001",
+   "fixed_entries": 0
   },
   {
    "library": "org.apache.axis:axis",
