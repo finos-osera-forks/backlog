@@ -1178,6 +1178,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-133325",
+   "library": "org.apache.tomcat.embed:tomcat-embed-core",
+   "version": "9.0.124",
+   "first_seen": "2026-11-21T15:46:57Z"
+  },
+  {
    "cve": "CVE-2026-13506",
    "library": "org.bouncycastle:bcprov-jdk18on",
    "version": "1.78.1",
