@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-21T07:46:19Z",
+ "as_of": "2026-11-21T08:26:18Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -4673,11 +4673,9 @@
    "id": "CVE-2025-48924",
    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
    "library": "commons-lang:commons-lang",
-   "version": "2.6",
+   "version": "2.0",
    "first_seen": "2026-10-28T01:05:00Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-13T13:37:38Z",
-   "fixed_by": "commons-lang:commons-lang@2.6.1-osera-00001",
+   "status": "open",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -4685,9 +4683,11 @@
    "id": "CVE-2025-48924",
    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
    "library": "commons-lang:commons-lang",
-   "version": "2.0",
+   "version": "2.6",
    "first_seen": "2026-10-28T01:05:00Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-13T13:37:38Z",
+   "fixed_by": "commons-lang:commons-lang@2.6.1-osera-00001",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -6290,68 +6290,8 @@
    "fixed_by": "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00007",
    "cvss": 7.5,
    "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-19203",
-   "summary": "A client may issue specially crafted HTTP/1.1 chunked requests to a Jetty server that cause Jetty and an intermediary proxy to interpret different request boundaries, potentially resulting in HTTP request smuggling.",
-   "library": "org.eclipse.jetty:jetty-http",
-   "version": "9.4.58.v20250814",
-   "first_seen": "2026-10-21T21:40:49Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-18T12:24:22Z",
-   "fixed_by": "org.eclipse.jetty:jetty-http@9.4.58.v20250814-osera-00015",
-   "cvss": 8.3,
-   "cvss_version": "4.0"
-  },
-  {
-   "id": "CVE-2026-47893",
-   "summary": "A Spring WebFlux application that supports WebSocket connections may expose indirectly sensitive user information by including request headers in an exception reason.",
-   "library": "org.springframework:spring-webflux",
-   "version": "5.3.39",
-   "first_seen": "2026-10-21T21:40:49Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-18T09:12:47Z",
-   "fixed_by": "org.springframework:spring-webflux@5.3.39.1-osera-00032",
-   "cvss": 7.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-59286",
-   "summary": "The GraphiQL page bundled with Spring for GraphQL loads JavaScript libraries from a public CDN, without Subresource Integrity checks. An attacker can inject malicious code in those scripts and execute arbitrary code on the browser loading the GraphiQL page.",
-   "library": "org.springframework.graphql:spring-graphql",
-   "version": "1.0.6",
-   "first_seen": "2026-10-21T21:40:49Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T08:33:00Z",
-   "fixed_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00005",
-   "cvss": 8.1,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-59288",
-   "summary": "The GraphiQL page bundled with Spring for GraphQL sends requests to the GraphQL endpoints of the application. An attacker can share a malicious URL so that the victim's browser might leak confidential information to the attacker's website.",
-   "library": "org.springframework.graphql:spring-graphql",
-   "version": "1.0.6",
-   "first_seen": "2026-10-21T21:40:49Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T08:33:00Z",
-   "fixed_by": "org.springframework.graphql:spring-graphql@1.0.6.1-osera-00005",
-   "cvss": 7.4,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-59313",
-   "summary": "Spring MVC applications using the functional web framework are vulnerable to stream corruption when using Server-Sent Events (SSE).",
-   "library": "org.springframework:spring-webmvc",
-   "version": "5.3.39",
-   "first_seen": "2026-10-21T21:40:49Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-18T09:12:47Z",
-   "fixed_by": "org.springframework:spring-webmvc@5.3.39.1-osera-00032",
-   "cvss": 9.8,
-   "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-20T19:56:26Z",
+ "new_cves_as_of": "2026-11-21T08:26:26Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
