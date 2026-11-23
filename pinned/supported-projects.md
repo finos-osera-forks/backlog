@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-23T23:42:56Z. Written by the line manager reconciler.
+Generated 2026-11-23T23:45:24Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -10,7 +10,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 |---|---|---|---|---|---|---|---|---|---|---|
 | spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 363 | 110 | 30% | 36 | 0 | 253 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 36 | 77% | 0 | 0 | 11 | 0 |
-| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 73 | 17 | 23% | 4 | 0 | 56 | 0 |
+| spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | - | 0 | 0 | - | 4 | 0 | 0 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | in progress | 3 | 2 | 67% | 2 | 0 | 1 | 0 |
@@ -32,7 +32,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 7 | 6 | 86% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
-| jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | fixed | 16 | 16 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | c3p0-0.9.x | maven | `com.mchange:c3p0@0.9.5.5` | in progress | 4 | 2 | 50% | 0 | 0 | 2 | 0 |
 | bouncycastle-1.46.x | maven | `org.bouncycastle:bcmail-jdk15@1.46` | in progress | 4 | 2 | 50% | 10 | 0 | 2 | 0 |
