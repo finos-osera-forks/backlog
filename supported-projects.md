@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-23T09:27:15Z. Written by the line manager reconciler.
+Generated 2026-11-23T09:29:33Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -17,7 +17,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -30,7 +30,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
-| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 |
+| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | fixed | 16 | 16 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | fixed | 15 | 15 | 100% | 0 | 0 | 0 | 0 |
@@ -47,7 +47,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
-| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 
 ## Libraries
