@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-24T21:23:51Z",
+ "as_of": "2026-11-24T21:54:02Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -4474,6 +4474,96 @@
  ],
  "new_cves": [
   {
+   "id": "CVE-2026-111758",
+   "summary": "markdown-it: Quadratic-time rendering of a single multi-line link reference definition with default options (regression since 14.0)",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-111759",
+   "summary": "markdown-it: Quadratic complexity in smartquotes with unmatched closing quotes",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-111766",
+   "summary": "markdown-it: Quadratic-time denial of service in inline HTML parsing with html enabled",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 3.7,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-112942",
+   "summary": "launch-editor: `fs.existsSync()` existence check can be bypassed on Windows",
+   "library": "launch-editor",
+   "version": "2.13.2",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-112943",
+   "summary": "launch-editor: escapeCmdArgs() omits % escaping on Windows",
+   "library": "launch-editor",
+   "version": "2.13.2",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 6.3,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-112944",
+   "summary": "launch-editor: Editor CLI flag misinterpretation causing arbitrary command execution for some editors",
+   "library": "launch-editor",
+   "version": "2.13.2",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 6.3,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-48988",
+   "summary": "markdown-it: Quadratic complexity DoS in smartquotes rule via replaceAt string operations",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-53632",
+   "summary": "launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows",
+   "library": "launch-editor",
+   "version": "2.13.2",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 5.5,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "GHSA-253c-mchw-3w2r",
+   "summary": "markdown-it linkify: true has two quadratic paths, so a few hundred KB of markdown blocks the event loop for tens of seconds",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z",
+   "status": "open",
+   "cvss": 6.3,
+   "cvss_version": "4.0"
+  },
+  {
    "id": "CVE-2024-29415",
    "summary": "ip SSRF improper categorization in isPublic",
    "library": "ip",
@@ -4993,11 +5083,11 @@
    "id": "CVE-2026-54515",
    "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
+   "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5005,23 +5095,11 @@
    "id": "CVE-2026-54515",
    "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
+   "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
-   "cvss": 5.3,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-77310",
-   "summary": "jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization",
-   "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
-   "first_seen": "2026-10-28T00:47:00Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5034,6 +5112,18 @@
    "status": "fixed",
    "fixed_at": "2026-11-05T16:14:59Z",
    "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-77310",
+   "summary": "jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization",
+   "library": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.19.4",
+   "first_seen": "2026-10-28T00:47:00Z",
+   "status": "fixed",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -6428,6 +6518,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-24T21:15:10Z",
+ "new_cves_as_of": "2026-11-24T21:43:50Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }

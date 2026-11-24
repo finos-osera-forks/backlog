@@ -1208,10 +1208,46 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-111758",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z"
+  },
+  {
+   "cve": "CVE-2026-111759",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z"
+  },
+  {
+   "cve": "CVE-2026-111766",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z"
+  },
+  {
    "cve": "CVE-2026-111997",
    "library": "ip-address",
    "version": "9.0.5",
    "first_seen": "2026-11-24T21:15:10Z"
+  },
+  {
+   "cve": "CVE-2026-112942",
+   "library": "launch-editor",
+   "version": "2.13.2",
+   "first_seen": "2026-11-24T21:43:50Z"
+  },
+  {
+   "cve": "CVE-2026-112943",
+   "library": "launch-editor",
+   "version": "2.13.2",
+   "first_seen": "2026-11-24T21:43:50Z"
+  },
+  {
+   "cve": "CVE-2026-112944",
+   "library": "launch-editor",
+   "version": "2.13.2",
+   "first_seen": "2026-11-24T21:43:50Z"
   },
   {
    "cve": "CVE-2026-113730",
@@ -1916,6 +1952,12 @@
    "first_seen": "2026-10-21T21:40:49Z"
   },
   {
+   "cve": "CVE-2026-48988",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z"
+  },
+  {
    "cve": "CVE-2026-49270",
    "library": "org.apache.activemq:activemq-broker",
    "version": "5.16.8",
@@ -1950,6 +1992,12 @@
    "library": "org.apache.activemq:activemq-client",
    "version": "5.16.8",
    "first_seen": "2026-11-05T09:20:51Z"
+  },
+  {
+   "cve": "CVE-2026-53632",
+   "library": "launch-editor",
+   "version": "2.13.2",
+   "first_seen": "2026-11-24T21:43:50Z"
   },
   {
    "cve": "CVE-2026-53917",
@@ -2358,6 +2406,12 @@
    "library": "ch.qos.logback:logback-core",
    "version": "1.2.13",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "GHSA-253c-mchw-3w2r",
+   "library": "markdown-it",
+   "version": "14.1.1",
+   "first_seen": "2026-11-24T21:43:50Z"
   }
  ]
 }
