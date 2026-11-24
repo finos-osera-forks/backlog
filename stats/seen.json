@@ -722,6 +722,12 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2023-44270",
+   "library": "postcss",
+   "version": "7.0.39",
+   "first_seen": "2026-11-24T22:34:53Z"
+  },
+  {
    "cve": "CVE-2023-44483",
    "library": "org.apache.santuario:xmlsec",
    "version": "2.0.10",
@@ -1784,6 +1790,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-41305",
+   "library": "postcss",
+   "version": "7.0.39",
+   "first_seen": "2026-11-24T22:34:53Z"
+  },
+  {
    "cve": "CVE-2026-41694",
    "library": "org.springframework.security:spring-security-saml2-service-provider",
    "version": "5.7.14",
@@ -2088,6 +2100,12 @@
    "library": "org.apache.activemq:activemq-broker",
    "version": "5.16.8",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-45623",
+   "library": "postcss",
+   "version": "7.0.39",
+   "first_seen": "2026-11-24T22:34:53Z"
   },
   {
    "cve": "CVE-2026-47838",
@@ -2474,6 +2492,12 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2026-69153",
+   "library": "postcss",
+   "version": "7.0.39",
+   "first_seen": "2026-11-24T22:34:53Z"
+  },
+  {
    "cve": "CVE-2026-69192",
    "library": "ip-address",
    "version": "9.0.5",
@@ -2490,6 +2514,12 @@
    "library": "com.rabbitmq:amqp-client",
    "version": "5.14.3",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-73646",
+   "library": "postcss",
+   "version": "7.0.39",
+   "first_seen": "2026-11-24T22:34:53Z"
   },
   {
    "cve": "CVE-2026-75516",
