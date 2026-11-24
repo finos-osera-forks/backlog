@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-24T20:23:51Z",
+ "as_of": "2026-11-24T20:53:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -4474,6 +4474,26 @@
  ],
  "new_cves": [
   {
+   "id": "CVE-2024-3651",
+   "summary": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
+   "library": "idna",
+   "version": "2.5",
+   "first_seen": "2026-11-24T20:56:31Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-45409",
+   "summary": "Internationalized Domain Names in Applications (IDNA): Specially crafted inputs to idna.encode() can bypass CVE-2024-3651 fix",
+   "library": "idna",
+   "version": "2.5",
+   "first_seen": "2026-11-24T20:56:31Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
    "id": "CVE-2024-23342",
    "summary": "Minerva timing attack on P-256 in python-ecdsa",
    "library": "ecdsa",
@@ -4719,11 +4739,9 @@
    "id": "CVE-2025-48924",
    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
    "library": "commons-lang:commons-lang",
-   "version": "2.6",
+   "version": "2.0",
    "first_seen": "2026-10-28T01:05:00Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-13T13:37:38Z",
-   "fixed_by": "commons-lang:commons-lang@2.6.1-osera-00001",
+   "status": "open",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -4731,9 +4749,11 @@
    "id": "CVE-2025-48924",
    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
    "library": "commons-lang:commons-lang",
-   "version": "2.0",
+   "version": "2.6",
    "first_seen": "2026-10-28T01:05:00Z",
-   "status": "open",
+   "status": "fixed",
+   "fixed_at": "2026-11-13T13:37:38Z",
+   "fixed_by": "commons-lang:commons-lang@2.6.1-osera-00001",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -4879,11 +4899,11 @@
    "id": "CVE-2026-54514",
    "summary": "jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
+   "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -4891,23 +4911,11 @@
    "id": "CVE-2026-54514",
    "summary": "jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
+   "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
-   "cvss": 5.3,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-54515",
-   "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
-   "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
-   "first_seen": "2026-10-28T00:47:00Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -4920,6 +4928,18 @@
    "status": "fixed",
    "fixed_at": "2026-11-05T16:14:59Z",
    "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-54515",
+   "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
+   "library": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.19.4",
+   "first_seen": "2026-10-28T00:47:00Z",
+   "status": "fixed",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -4951,11 +4971,11 @@
    "id": "CVE-2026-83557",
    "summary": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
+   "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
    "cvss": 5.6,
    "cvss_version": "3.1"
   },
@@ -4963,11 +4983,11 @@
    "id": "CVE-2026-83557",
    "summary": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
+   "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.6,
    "cvss_version": "3.1"
   },
@@ -4975,7 +4995,7 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.27",
+   "version": "1.26",
    "first_seen": "2026-10-28T00:35:02Z",
    "status": "open",
    "cvss": 5.5,
@@ -4985,7 +5005,7 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.26",
+   "version": "1.27",
    "first_seen": "2026-10-28T00:35:02Z",
    "status": "open",
    "cvss": 5.5,
@@ -6338,6 +6358,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-24T20:19:28Z",
+ "new_cves_as_of": "2026-11-24T20:56:31Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
