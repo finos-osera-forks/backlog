@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T20:13:13Z. Written by the line manager reconciler.
+Generated 2026-11-24T20:19:28Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -92,7 +92,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | diff-5.2.x | npm | `diff@5.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dnspython-2.8.x | pypi | `dnspython==2.8.0` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | dulwich-1.2.x | pypi | `dulwich==1.2.21` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ecdsa-0.19.x | pypi | `ecdsa==0.19.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ecdsa-0.19.x | pypi | `ecdsa==0.19.2` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | ejs-3.1.x | npm | `ejs@3.1.10` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | emoji-regex-8.0.x | npm | `emoji-regex@8.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ethtool-0.14.x | pypi | `ethtool==0.14` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-118 libraries across 221 line(s).
+119 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -265,6 +265,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | crypto-js | 4.1.1 | crypto-js-4.1.x | pulled in by a dependency (crypto-js@4.1.1) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 4.1.2-osera-00001 | 4.1.2-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | dnspython | 2.8.0 | dnspython-2.8.x | pulled in by a dependency (dnspython@2.8.0) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| ecdsa | 0.19.2 | ecdsa-0.19.x | pulled in by a dependency (ecdsa@0.19.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00003 | 1.0.48.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.undertow:undertow-core | 2.2.41.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
