@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T10:18:28Z. Written by the line manager reconciler.
+Generated 2026-11-24T11:20:14Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -25,7 +25,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.17.x | maven | `org.yaml:snakeyaml@1.17` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
-| snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
+| snakeyaml-1.16.x | maven | `org.yaml:snakeyaml@1.16` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | snakeyaml-1.29.x | maven | `org.yaml:snakeyaml@1.29` | in progress | 7 | 6 | 86% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 7 | 6 | 86% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 7 | 6 | 86% | 0 | 0 | 1 | 0 |
@@ -45,7 +45,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | log4j2-2.24.x | maven | `org.apache.logging.log4j:log4j-core@2.24.3` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | lz4-java-1.8.x | maven | `org.lz4:lz4-java@1.8.1` | in progress | 14 | 7 | 50% | 0 | 0 | 7 | 0 |
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
-| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
