@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T14:45:49Z. Written by the line manager reconciler.
+Generated 2026-11-24T14:50:20Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -70,10 +70,10 @@ The latest patch view: every library at the latest upstream patch release, the v
 | body-parser-1.20.x | npm | `body-parser@1.20.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | brace-expansion-1.1.x | npm | `brace-expansion@1.1.22` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | braces-3.0.x | npm | `braces@3.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| brotli-1.1.x | pypi | `brotli==1.1.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| brotli-1.1.x | pypi | `brotli==1.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cacheable-request-7.0.x | npm | `cacheable-request@7.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| cffi-2.1.x | pypi | `cffi==2.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| cffi-2.1.x | pypi | `cffi==2.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chalk-4.1.x | npm | `chalk@4.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chardet-3.0.x | pypi | `chardet==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | charset-normalizer-3.5.x | pypi | `charset-normalizer==3.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -591,7 +591,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.graphql-java:graphql-java | 18.7 | in the dependency graph of spring-boot-2.7.x at 18.5, uploaded on 18.7 | spring-boot-2.7.x |  | 18.7.1-osera-00001 | 18.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.jayway.jsonpath:json-path-assert | 2.7.0 | listed by the BOM of spring-boot-2.7.x at 2.7.0, not in its dependency graph | spring-boot-2.7.x |  | 2.7.0.1-osera-00001 | 2.7.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-io:commons-io | 2.6 | listed by the BOM of log4j2-2.24.x at 2.17.0, not in its dependency graph | log4j2-2.24.x |  | 2.6.1-osera-00001 2.6.1-osera-00002 | 2.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x, annotated-types-0.8.x, ansi-regex-5.0.x, ansi-styles-4.3.x, anyio-4.16.x, autocommand-2.2.x, backstage-errors-1.2.x, balanced-match-1.0.x, brace-expansion-1.1.x, certifi-2026.10.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x, annotated-types-0.8.x, ansi-regex-5.0.x, ansi-styles-4.3.x, anyio-4.16.x, autocommand-2.2.x, backstage-errors-1.2.x, balanced-match-1.0.x, brace-expansion-1.1.x, cacheable-request-7.0.x, certifi-2026.10.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-appoptics | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-atlas | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-azure-monitor | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
