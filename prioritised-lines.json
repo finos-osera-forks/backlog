@@ -57,678 +57,6 @@
   },
   {
     "rank": 8,
-    "line_id": "backstage-errors-1.2.x",
-    "ecosystem": "npm",
-    "project": "@backstage/errors",
-    "version_line": "1.2.x",
-    "anchor": "1.2.7"
-  },
-  {
-    "rank": 9,
-    "line_id": "balanced-match-1.0.x",
-    "ecosystem": "npm",
-    "project": "balanced-match",
-    "version_line": "1.0.x",
-    "anchor": "1.0.2"
-  },
-  {
-    "rank": 10,
-    "line_id": "brace-expansion-1.1.x",
-    "ecosystem": "npm",
-    "project": "brace-expansion",
-    "version_line": "1.1.x",
-    "anchor": "1.1.22"
-  },
-  {
-    "rank": 11,
-    "line_id": "certifi-2026.10.x",
-    "ecosystem": "pypi",
-    "project": "certifi",
-    "version_line": "2026.10.x",
-    "anchor": "2026.10.23"
-  },
-  {
-    "rank": 12,
-    "line_id": "cffi-2.1.x",
-    "ecosystem": "pypi",
-    "project": "cffi",
-    "version_line": "2.1.x",
-    "anchor": "2.1.1"
-  },
-  {
-    "rank": 13,
-    "line_id": "chalk-4.1.x",
-    "ecosystem": "npm",
-    "project": "chalk",
-    "version_line": "4.1.x",
-    "anchor": "4.1.2"
-  },
-  {
-    "rank": 14,
-    "line_id": "chardet-3.0.x",
-    "ecosystem": "pypi",
-    "project": "chardet",
-    "version_line": "3.0.x",
-    "anchor": "3.0.4"
-  },
-  {
-    "rank": 15,
-    "line_id": "charset-normalizer-3.5.x",
-    "ecosystem": "pypi",
-    "project": "charset-normalizer",
-    "version_line": "3.5.x",
-    "anchor": "3.5.3"
-  },
-  {
-    "rank": 16,
-    "line_id": "click-8.5.x",
-    "ecosystem": "pypi",
-    "project": "click",
-    "version_line": "8.5.x",
-    "anchor": "8.5.1"
-  },
-  {
-    "rank": 17,
-    "line_id": "color-convert-2.0.x",
-    "ecosystem": "npm",
-    "project": "color-convert",
-    "version_line": "2.0.x",
-    "anchor": "2.0.1"
-  },
-  {
-    "rank": 18,
-    "line_id": "color-name-1.1.x",
-    "ecosystem": "npm",
-    "project": "color-name",
-    "version_line": "1.1.x",
-    "anchor": "1.1.4"
-  },
-  {
-    "rank": 19,
-    "line_id": "cryptography-50.0.x",
-    "ecosystem": "pypi",
-    "project": "cryptography",
-    "version_line": "50.0.x",
-    "anchor": "50.0.2"
-  },
-  {
-    "rank": 20,
-    "line_id": "dbus-python-1.2.x",
-    "ecosystem": "pypi",
-    "project": "dbus-python",
-    "version_line": "1.2.x",
-    "anchor": "1.2.18"
-  },
-  {
-    "rank": 21,
-    "line_id": "debug-2.6.x",
-    "ecosystem": "npm",
-    "project": "debug",
-    "version_line": "2.6.x",
-    "anchor": "2.6.9"
-  },
-  {
-    "rank": 22,
-    "line_id": "decorator-4.2.x",
-    "ecosystem": "pypi",
-    "project": "decorator",
-    "version_line": "4.2.x",
-    "anchor": "4.2.1"
-  },
-  {
-    "rank": 23,
-    "line_id": "emoji-regex-8.0.x",
-    "ecosystem": "npm",
-    "project": "emoji-regex",
-    "version_line": "8.0.x",
-    "anchor": "8.0.0"
-  },
-  {
-    "rank": 24,
-    "line_id": "ethtool-0.14.x",
-    "ecosystem": "pypi",
-    "project": "ethtool",
-    "version_line": "0.14.x",
-    "anchor": "0.14"
-  },
-  {
-    "rank": 25,
-    "line_id": "glob-7.2.x",
-    "ecosystem": "npm",
-    "project": "glob",
-    "version_line": "7.2.x",
-    "anchor": "7.2.3"
-  },
-  {
-    "rank": 26,
-    "line_id": "google-auth-2.62.x",
-    "ecosystem": "pypi",
-    "project": "google-auth",
-    "version_line": "2.62.x",
-    "anchor": "2.62.2"
-  },
-  {
-    "rank": 27,
-    "line_id": "graceful-fs-4.2.x",
-    "ecosystem": "npm",
-    "project": "graceful-fs",
-    "version_line": "4.2.x",
-    "anchor": "4.2.12"
-  },
-  {
-    "rank": 28,
-    "line_id": "h11-0.16.x",
-    "ecosystem": "pypi",
-    "project": "h11",
-    "version_line": "0.16.x",
-    "anchor": "0.16.0"
-  },
-  {
-    "rank": 29,
-    "line_id": "has-flag-4.0.x",
-    "ecosystem": "npm",
-    "project": "has-flag",
-    "version_line": "4.0.x",
-    "anchor": "4.0.0"
-  },
-  {
-    "rank": 30,
-    "line_id": "https-proxy-agent-7.0.x",
-    "ecosystem": "npm",
-    "project": "https-proxy-agent",
-    "version_line": "7.0.x",
-    "anchor": "7.0.6"
-  },
-  {
-    "rank": 31,
-    "line_id": "iconv-lite-0.6.x",
-    "ecosystem": "npm",
-    "project": "iconv-lite",
-    "version_line": "0.6.x",
-    "anchor": "0.6.3"
-  },
-  {
-    "rank": 32,
-    "line_id": "idna-2.5.x",
-    "ecosystem": "pypi",
-    "project": "idna",
-    "version_line": "2.5.x",
-    "anchor": "2.5"
-  },
-  {
-    "rank": 33,
-    "line_id": "importlib-metadata-8.7.x",
-    "ecosystem": "pypi",
-    "project": "importlib-metadata",
-    "version_line": "8.7.x",
-    "anchor": "8.7.1"
-  },
-  {
-    "rank": 34,
-    "line_id": "inherits-2.0.x",
-    "ecosystem": "npm",
-    "project": "inherits",
-    "version_line": "2.0.x",
-    "anchor": "2.0.4"
-  },
-  {
-    "rank": 35,
-    "line_id": "iniparse-0.4.x",
-    "ecosystem": "pypi",
-    "project": "iniparse",
-    "version_line": "0.4.x",
-    "anchor": "0.4"
-  },
-  {
-    "rank": 36,
-    "line_id": "is-fullwidth-code-point-3.0.x",
-    "ecosystem": "npm",
-    "project": "is-fullwidth-code-point",
-    "version_line": "3.0.x",
-    "anchor": "3.0.0"
-  },
-  {
-    "rank": 37,
-    "line_id": "isexe-2.0.x",
-    "ecosystem": "npm",
-    "project": "isexe",
-    "version_line": "2.0.x",
-    "anchor": "2.0.0"
-  },
-  {
-    "rank": 38,
-    "line_id": "jest-util-29.7.x",
-    "ecosystem": "npm",
-    "project": "jest-util",
-    "version_line": "29.7.x",
-    "anchor": "29.7.0"
-  },
-  {
-    "rank": 39,
-    "line_id": "jinja2-3.1.x",
-    "ecosystem": "pypi",
-    "project": "jinja2",
-    "version_line": "3.1.x",
-    "anchor": "3.1.6"
-  },
-  {
-    "rank": 40,
-    "line_id": "json-schema-traverse-1.0.x",
-    "ecosystem": "npm",
-    "project": "json-schema-traverse",
-    "version_line": "1.0.x",
-    "anchor": "1.0.0"
-  },
-  {
-    "rank": 41,
-    "line_id": "lru-cache-10.4.x",
-    "ecosystem": "npm",
-    "project": "lru-cache",
-    "version_line": "10.4.x",
-    "anchor": "10.4.3"
-  },
-  {
-    "rank": 42,
-    "line_id": "markupsafe-3.0.x",
-    "ecosystem": "pypi",
-    "project": "markupsafe",
-    "version_line": "3.0.x",
-    "anchor": "3.0.4"
-  },
-  {
-    "rank": 43,
-    "line_id": "mime-db-1.52.x",
-    "ecosystem": "npm",
-    "project": "mime-db",
-    "version_line": "1.52.x",
-    "anchor": "1.52.0"
-  },
-  {
-    "rank": 44,
-    "line_id": "minimatch-9.0.x",
-    "ecosystem": "npm",
-    "project": "minimatch",
-    "version_line": "9.0.x",
-    "anchor": "9.0.9"
-  },
-  {
-    "rank": 45,
-    "line_id": "minipass-3.3.x",
-    "ecosystem": "npm",
-    "project": "minipass",
-    "version_line": "3.3.x",
-    "anchor": "3.3.6"
-  },
-  {
-    "rank": 46,
-    "line_id": "mkdirp-1.0.x",
-    "ecosystem": "npm",
-    "project": "mkdirp",
-    "version_line": "1.0.x",
-    "anchor": "1.0.4"
-  },
-  {
-    "rank": 47,
-    "line_id": "more-itertools-10.8.x",
-    "ecosystem": "pypi",
-    "project": "more-itertools",
-    "version_line": "10.8.x",
-    "anchor": "10.8.0"
-  },
-  {
-    "rank": 48,
-    "line_id": "ms-2.0.x",
-    "ecosystem": "npm",
-    "project": "ms",
-    "version_line": "2.0.x",
-    "anchor": "2.0.0"
-  },
-  {
-    "rank": 49,
-    "line_id": "negotiator-0.6.x",
-    "ecosystem": "npm",
-    "project": "negotiator",
-    "version_line": "0.6.x",
-    "anchor": "0.6.4"
-  },
-  {
-    "rank": 50,
-    "line_id": "opentelemetry-core-2.2.x",
-    "ecosystem": "npm",
-    "project": "@opentelemetry/core",
-    "version_line": "2.2.x",
-    "anchor": "2.2.0"
-  },
-  {
-    "rank": 51,
-    "line_id": "opentelemetry-resources-2.2.x",
-    "ecosystem": "npm",
-    "project": "@opentelemetry/resources",
-    "version_line": "2.2.x",
-    "anchor": "2.2.0"
-  },
-  {
-    "rank": 52,
-    "line_id": "packaging-26.3.x",
-    "ecosystem": "pypi",
-    "project": "packaging",
-    "version_line": "26.3.x",
-    "anchor": "26.3"
-  },
-  {
-    "rank": 53,
-    "line_id": "picomatch-2.3.x",
-    "ecosystem": "npm",
-    "project": "picomatch",
-    "version_line": "2.3.x",
-    "anchor": "2.3.2"
-  },
-  {
-    "rank": 54,
-    "line_id": "pip-9.0.x",
-    "ecosystem": "pypi",
-    "project": "pip",
-    "version_line": "9.0.x",
-    "anchor": "9.0.3"
-  },
-  {
-    "rank": 55,
-    "line_id": "platformdirs-4.4.x",
-    "ecosystem": "pypi",
-    "project": "platformdirs",
-    "version_line": "4.4.x",
-    "anchor": "4.4.0"
-  },
-  {
-    "rank": 56,
-    "line_id": "pretty-format-28.1.x",
-    "ecosystem": "npm",
-    "project": "pretty-format",
-    "version_line": "28.1.x",
-    "anchor": "28.1.3"
-  },
-  {
-    "rank": 57,
-    "line_id": "protobuf-7.36.x",
-    "ecosystem": "pypi",
-    "project": "protobuf",
-    "version_line": "7.36.x",
-    "anchor": "7.36.2"
-  },
-  {
-    "rank": 58,
-    "line_id": "pyasn1-0.6.x",
-    "ecosystem": "pypi",
-    "project": "pyasn1",
-    "version_line": "0.6.x",
-    "anchor": "0.6.5"
-  },
-  {
-    "rank": 59,
-    "line_id": "pyasn1-modules-0.4.x",
-    "ecosystem": "pypi",
-    "project": "pyasn1-modules",
-    "version_line": "0.4.x",
-    "anchor": "0.4.2"
-  },
-  {
-    "rank": 60,
-    "line_id": "pycparser-3.12.x",
-    "ecosystem": "pypi",
-    "project": "pycparser",
-    "version_line": "3.12.x",
-    "anchor": "3.12"
-  },
-  {
-    "rank": 61,
-    "line_id": "pydantic-2.14.x",
-    "ecosystem": "pypi",
-    "project": "pydantic",
-    "version_line": "2.14.x",
-    "anchor": "2.14.4"
-  },
-  {
-    "rank": 62,
-    "line_id": "pydantic-core-2.50.x",
-    "ecosystem": "pypi",
-    "project": "pydantic-core",
-    "version_line": "2.50.x",
-    "anchor": "2.50.5"
-  },
-  {
-    "rank": 63,
-    "line_id": "pygments-2.21.x",
-    "ecosystem": "pypi",
-    "project": "pygments",
-    "version_line": "2.21.x",
-    "anchor": "2.21.0"
-  },
-  {
-    "rank": 64,
-    "line_id": "pyinotify-0.9.x",
-    "ecosystem": "pypi",
-    "project": "pyinotify",
-    "version_line": "0.9.x",
-    "anchor": "0.9.6"
-  },
-  {
-    "rank": 65,
-    "line_id": "pysocks-1.6.x",
-    "ecosystem": "pypi",
-    "project": "pysocks",
-    "version_line": "1.6.x",
-    "anchor": "1.6.8"
-  },
-  {
-    "rank": 66,
-    "line_id": "python-dateutil-2.6.x",
-    "ecosystem": "pypi",
-    "project": "python-dateutil",
-    "version_line": "2.6.x",
-    "anchor": "2.6.1"
-  },
-  {
-    "rank": 67,
-    "line_id": "pyyaml-6.0.x",
-    "ecosystem": "pypi",
-    "project": "pyyaml",
-    "version_line": "6.0.x",
-    "anchor": "6.0.4"
-  },
-  {
-    "rank": 68,
-    "line_id": "react-is-18.3.x",
-    "ecosystem": "npm",
-    "project": "react-is",
-    "version_line": "18.3.x",
-    "anchor": "18.3.1"
-  },
-  {
-    "rank": 69,
-    "line_id": "readable-stream-3.6.x",
-    "ecosystem": "npm",
-    "project": "readable-stream",
-    "version_line": "3.6.x",
-    "anchor": "3.6.2"
-  },
-  {
-    "rank": 70,
-    "line_id": "requests-2.20.x",
-    "ecosystem": "pypi",
-    "project": "requests",
-    "version_line": "2.20.x",
-    "anchor": "2.20.1"
-  },
-  {
-    "rank": 71,
-    "line_id": "safe-buffer-5.2.x",
-    "ecosystem": "npm",
-    "project": "safe-buffer",
-    "version_line": "5.2.x",
-    "anchor": "5.2.1"
-  },
-  {
-    "rank": 72,
-    "line_id": "semver-6.3.x",
-    "ecosystem": "npm",
-    "project": "semver",
-    "version_line": "6.3.x",
-    "anchor": "6.3.2"
-  },
-  {
-    "rank": 73,
-    "line_id": "setuptools-39.2.x",
-    "ecosystem": "pypi",
-    "project": "setuptools",
-    "version_line": "39.2.x",
-    "anchor": "39.2.0"
-  },
-  {
-    "rank": 74,
-    "line_id": "signal-exit-4.1.x",
-    "ecosystem": "npm",
-    "project": "signal-exit",
-    "version_line": "4.1.x",
-    "anchor": "4.1.0"
-  },
-  {
-    "rank": 75,
-    "line_id": "six-1.11.x",
-    "ecosystem": "pypi",
-    "project": "six",
-    "version_line": "1.11.x",
-    "anchor": "1.11.0"
-  },
-  {
-    "rank": 76,
-    "line_id": "source-map-0.6.x",
-    "ecosystem": "npm",
-    "project": "source-map",
-    "version_line": "0.6.x",
-    "anchor": "0.6.1"
-  },
-  {
-    "rank": 77,
-    "line_id": "string-width-4.2.x",
-    "ecosystem": "npm",
-    "project": "string-width",
-    "version_line": "4.2.x",
-    "anchor": "4.2.3"
-  },
-  {
-    "rank": 78,
-    "line_id": "string_decoder-1.1.x",
-    "ecosystem": "npm",
-    "project": "string_decoder",
-    "version_line": "1.1.x",
-    "anchor": "1.1.1"
-  },
-  {
-    "rank": 79,
-    "line_id": "strip-ansi-6.0.x",
-    "ecosystem": "npm",
-    "project": "strip-ansi",
-    "version_line": "6.0.x",
-    "anchor": "6.0.1"
-  },
-  {
-    "rank": 80,
-    "line_id": "supports-color-7.2.x",
-    "ecosystem": "npm",
-    "project": "supports-color",
-    "version_line": "7.2.x",
-    "anchor": "7.2.0"
-  },
-  {
-    "rank": 81,
-    "line_id": "tomli-2.4.x",
-    "ecosystem": "pypi",
-    "project": "tomli",
-    "version_line": "2.4.x",
-    "anchor": "2.4.1"
-  },
-  {
-    "rank": 82,
-    "line_id": "tslib-1.14.x",
-    "ecosystem": "npm",
-    "project": "tslib",
-    "version_line": "1.14.x",
-    "anchor": "1.14.1"
-  },
-  {
-    "rank": 83,
-    "line_id": "types-node-20.12.x",
-    "ecosystem": "npm",
-    "project": "@types/node",
-    "version_line": "20.12.x",
-    "anchor": "20.12.14"
-  },
-  {
-    "rank": 84,
-    "line_id": "typing-extensions-4.16.x",
-    "ecosystem": "pypi",
-    "project": "typing-extensions",
-    "version_line": "4.16.x",
-    "anchor": "4.16.0"
-  },
-  {
-    "rank": 85,
-    "line_id": "urllib3-1.24.x",
-    "ecosystem": "pypi",
-    "project": "urllib3",
-    "version_line": "1.24.x",
-    "anchor": "1.24.3"
-  },
-  {
-    "rank": 86,
-    "line_id": "uuid-11.1.x",
-    "ecosystem": "npm",
-    "project": "uuid",
-    "version_line": "11.1.x",
-    "anchor": "11.1.1"
-  },
-  {
-    "rank": 87,
-    "line_id": "wheel-0.46.x",
-    "ecosystem": "pypi",
-    "project": "wheel",
-    "version_line": "0.46.x",
-    "anchor": "0.46.3"
-  },
-  {
-    "rank": 88,
-    "line_id": "which-2.0.x",
-    "ecosystem": "npm",
-    "project": "which",
-    "version_line": "2.0.x",
-    "anchor": "2.0.2"
-  },
-  {
-    "rank": 89,
-    "line_id": "wrap-ansi-7.0.x",
-    "ecosystem": "npm",
-    "project": "wrap-ansi",
-    "version_line": "7.0.x",
-    "anchor": "7.0.0"
-  },
-  {
-    "rank": 90,
-    "line_id": "yallist-4.0.x",
-    "ecosystem": "npm",
-    "project": "yallist",
-    "version_line": "4.0.x",
-    "anchor": "4.0.0"
-  },
-  {
-    "rank": 91,
-    "line_id": "zipp-3.23.x",
-    "ecosystem": "pypi",
-    "project": "zipp",
-    "version_line": "3.23.x",
-    "anchor": "3.23.1"
-  },
-  {
-    "rank": 92,
     "line_id": "axis-1.4.x",
     "ecosystem": "maven",
     "project": "org.apache.axis:axis",
@@ -736,7 +64,23 @@
     "anchor": "1.4"
   },
   {
-    "rank": 93,
+    "rank": 9,
+    "line_id": "backstage-errors-1.2.x",
+    "ecosystem": "npm",
+    "project": "@backstage/errors",
+    "version_line": "1.2.x",
+    "anchor": "1.2.7"
+  },
+  {
+    "rank": 10,
+    "line_id": "balanced-match-1.0.x",
+    "ecosystem": "npm",
+    "project": "balanced-match",
+    "version_line": "1.0.x",
+    "anchor": "1.0.2"
+  },
+  {
+    "rank": 11,
     "line_id": "bouncycastle-1.46.x",
     "ecosystem": "maven",
     "project": "org.bouncycastle:bcmail-jdk15",
@@ -744,7 +88,7 @@
     "anchor": "1.46"
   },
   {
-    "rank": 94,
+    "rank": 12,
     "line_id": "bouncycastle-1.69.x",
     "ecosystem": "maven",
     "project": "org.bouncycastle:bcpkix-jdk15on",
@@ -752,7 +96,7 @@
     "anchor": "1.69"
   },
   {
-    "rank": 95,
+    "rank": 13,
     "line_id": "bouncycastle-1.70.x",
     "ecosystem": "maven",
     "project": "org.bouncycastle:bcpkix-jdk15on",
@@ -760,7 +104,7 @@
     "anchor": "1.70"
   },
   {
-    "rank": 96,
+    "rank": 14,
     "line_id": "bouncycastle-1.78.x",
     "ecosystem": "maven",
     "project": "org.bouncycastle:bcpkix-jdk18on",
@@ -768,7 +112,15 @@
     "anchor": "1.78.1"
   },
   {
-    "rank": 97,
+    "rank": 15,
+    "line_id": "brace-expansion-1.1.x",
+    "ecosystem": "npm",
+    "project": "brace-expansion",
+    "version_line": "1.1.x",
+    "anchor": "1.1.22"
+  },
+  {
+    "rank": 16,
     "line_id": "c3p0-0.9.x",
     "ecosystem": "maven",
     "project": "com.mchange:c3p0",
@@ -776,7 +128,71 @@
     "anchor": "0.9.5.5"
   },
   {
-    "rank": 98,
+    "rank": 17,
+    "line_id": "certifi-2026.10.x",
+    "ecosystem": "pypi",
+    "project": "certifi",
+    "version_line": "2026.10.x",
+    "anchor": "2026.10.23"
+  },
+  {
+    "rank": 18,
+    "line_id": "cffi-2.1.x",
+    "ecosystem": "pypi",
+    "project": "cffi",
+    "version_line": "2.1.x",
+    "anchor": "2.1.1"
+  },
+  {
+    "rank": 19,
+    "line_id": "chalk-4.1.x",
+    "ecosystem": "npm",
+    "project": "chalk",
+    "version_line": "4.1.x",
+    "anchor": "4.1.2"
+  },
+  {
+    "rank": 20,
+    "line_id": "chardet-3.0.x",
+    "ecosystem": "pypi",
+    "project": "chardet",
+    "version_line": "3.0.x",
+    "anchor": "3.0.4"
+  },
+  {
+    "rank": 21,
+    "line_id": "charset-normalizer-3.5.x",
+    "ecosystem": "pypi",
+    "project": "charset-normalizer",
+    "version_line": "3.5.x",
+    "anchor": "3.5.3"
+  },
+  {
+    "rank": 22,
+    "line_id": "click-8.5.x",
+    "ecosystem": "pypi",
+    "project": "click",
+    "version_line": "8.5.x",
+    "anchor": "8.5.1"
+  },
+  {
+    "rank": 23,
+    "line_id": "color-convert-2.0.x",
+    "ecosystem": "npm",
+    "project": "color-convert",
+    "version_line": "2.0.x",
+    "anchor": "2.0.1"
+  },
+  {
+    "rank": 24,
+    "line_id": "color-name-1.1.x",
+    "ecosystem": "npm",
+    "project": "color-name",
+    "version_line": "1.1.x",
+    "anchor": "1.1.4"
+  },
+  {
+    "rank": 25,
     "line_id": "commons-beanutils-1.9.x",
     "ecosystem": "maven",
     "project": "commons-beanutils:commons-beanutils",
@@ -784,7 +200,7 @@
     "anchor": "1.9.4"
   },
   {
-    "rank": 99,
+    "rank": 26,
     "line_id": "commons-configuration-1.1.x",
     "ecosystem": "maven",
     "project": "commons-configuration:commons-configuration",
@@ -792,7 +208,7 @@
     "anchor": "1.1"
   },
   {
-    "rank": 100,
+    "rank": 27,
     "line_id": "commons-configuration-1.9.x",
     "ecosystem": "maven",
     "project": "commons-configuration:commons-configuration",
@@ -800,7 +216,7 @@
     "anchor": "1.9"
   },
   {
-    "rank": 101,
+    "rank": 28,
     "line_id": "commons-text-1.6.x",
     "ecosystem": "maven",
     "project": "org.apache.commons:commons-text",
@@ -808,7 +224,7 @@
     "anchor": "1.6"
   },
   {
-    "rank": 102,
+    "rank": 29,
     "line_id": "commons-text-1.7.x",
     "ecosystem": "maven",
     "project": "org.apache.commons:commons-text",
@@ -816,7 +232,7 @@
     "anchor": "1.7"
   },
   {
-    "rank": 103,
+    "rank": 30,
     "line_id": "commons-text-1.8.x",
     "ecosystem": "maven",
     "project": "org.apache.commons:commons-text",
@@ -824,7 +240,7 @@
     "anchor": "1.8"
   },
   {
-    "rank": 104,
+    "rank": 31,
     "line_id": "commons-text-1.9.x",
     "ecosystem": "maven",
     "project": "org.apache.commons:commons-text",
@@ -832,7 +248,7 @@
     "anchor": "1.9"
   },
   {
-    "rank": 105,
+    "rank": 32,
     "line_id": "crypto-js-4.1.x",
     "ecosystem": "npm",
     "project": "crypto-js",
@@ -840,7 +256,95 @@
     "anchor": "4.1.1"
   },
   {
-    "rank": 106,
+    "rank": 33,
+    "line_id": "cryptography-50.0.x",
+    "ecosystem": "pypi",
+    "project": "cryptography",
+    "version_line": "50.0.x",
+    "anchor": "50.0.2"
+  },
+  {
+    "rank": 34,
+    "line_id": "dbus-python-1.2.x",
+    "ecosystem": "pypi",
+    "project": "dbus-python",
+    "version_line": "1.2.x",
+    "anchor": "1.2.18"
+  },
+  {
+    "rank": 35,
+    "line_id": "debug-2.6.x",
+    "ecosystem": "npm",
+    "project": "debug",
+    "version_line": "2.6.x",
+    "anchor": "2.6.9"
+  },
+  {
+    "rank": 36,
+    "line_id": "decorator-4.2.x",
+    "ecosystem": "pypi",
+    "project": "decorator",
+    "version_line": "4.2.x",
+    "anchor": "4.2.1"
+  },
+  {
+    "rank": 37,
+    "line_id": "emoji-regex-8.0.x",
+    "ecosystem": "npm",
+    "project": "emoji-regex",
+    "version_line": "8.0.x",
+    "anchor": "8.0.0"
+  },
+  {
+    "rank": 38,
+    "line_id": "ethtool-0.14.x",
+    "ecosystem": "pypi",
+    "project": "ethtool",
+    "version_line": "0.14.x",
+    "anchor": "0.14"
+  },
+  {
+    "rank": 39,
+    "line_id": "glob-7.2.x",
+    "ecosystem": "npm",
+    "project": "glob",
+    "version_line": "7.2.x",
+    "anchor": "7.2.3"
+  },
+  {
+    "rank": 40,
+    "line_id": "google-auth-2.62.x",
+    "ecosystem": "pypi",
+    "project": "google-auth",
+    "version_line": "2.62.x",
+    "anchor": "2.62.2"
+  },
+  {
+    "rank": 41,
+    "line_id": "graceful-fs-4.2.x",
+    "ecosystem": "npm",
+    "project": "graceful-fs",
+    "version_line": "4.2.x",
+    "anchor": "4.2.12"
+  },
+  {
+    "rank": 42,
+    "line_id": "h11-0.16.x",
+    "ecosystem": "pypi",
+    "project": "h11",
+    "version_line": "0.16.x",
+    "anchor": "0.16.0"
+  },
+  {
+    "rank": 43,
+    "line_id": "has-flag-4.0.x",
+    "ecosystem": "npm",
+    "project": "has-flag",
+    "version_line": "4.0.x",
+    "anchor": "4.0.0"
+  },
+  {
+    "rank": 44,
     "line_id": "httpclient5-5.4.x",
     "ecosystem": "maven",
     "project": "org.apache.httpcomponents.client5:httpclient5",
@@ -848,7 +352,7 @@
     "anchor": "5.4.4"
   },
   {
-    "rank": 107,
+    "rank": 45,
     "line_id": "httpclient5-5.5.x",
     "ecosystem": "maven",
     "project": "org.apache.httpcomponents.client5:httpclient5",
@@ -856,7 +360,7 @@
     "anchor": "5.5.2"
   },
   {
-    "rank": 108,
+    "rank": 46,
     "line_id": "httpcore5-5.3.x",
     "ecosystem": "maven",
     "project": "org.apache.httpcomponents.core5:httpcore5-h2",
@@ -864,7 +368,71 @@
     "anchor": "5.3.6"
   },
   {
-    "rank": 109,
+    "rank": 47,
+    "line_id": "https-proxy-agent-7.0.x",
+    "ecosystem": "npm",
+    "project": "https-proxy-agent",
+    "version_line": "7.0.x",
+    "anchor": "7.0.6"
+  },
+  {
+    "rank": 48,
+    "line_id": "iconv-lite-0.6.x",
+    "ecosystem": "npm",
+    "project": "iconv-lite",
+    "version_line": "0.6.x",
+    "anchor": "0.6.3"
+  },
+  {
+    "rank": 49,
+    "line_id": "idna-2.5.x",
+    "ecosystem": "pypi",
+    "project": "idna",
+    "version_line": "2.5.x",
+    "anchor": "2.5"
+  },
+  {
+    "rank": 50,
+    "line_id": "importlib-metadata-8.7.x",
+    "ecosystem": "pypi",
+    "project": "importlib-metadata",
+    "version_line": "8.7.x",
+    "anchor": "8.7.1"
+  },
+  {
+    "rank": 51,
+    "line_id": "inherits-2.0.x",
+    "ecosystem": "npm",
+    "project": "inherits",
+    "version_line": "2.0.x",
+    "anchor": "2.0.4"
+  },
+  {
+    "rank": 52,
+    "line_id": "iniparse-0.4.x",
+    "ecosystem": "pypi",
+    "project": "iniparse",
+    "version_line": "0.4.x",
+    "anchor": "0.4"
+  },
+  {
+    "rank": 53,
+    "line_id": "is-fullwidth-code-point-3.0.x",
+    "ecosystem": "npm",
+    "project": "is-fullwidth-code-point",
+    "version_line": "3.0.x",
+    "anchor": "3.0.0"
+  },
+  {
+    "rank": 54,
+    "line_id": "isexe-2.0.x",
+    "ecosystem": "npm",
+    "project": "isexe",
+    "version_line": "2.0.x",
+    "anchor": "2.0.0"
+  },
+  {
+    "rank": 55,
     "line_id": "jackson-2.15.x",
     "ecosystem": "maven",
     "project": "com.fasterxml.jackson.core:jackson-databind",
@@ -872,7 +440,7 @@
     "anchor": "2.15.4"
   },
   {
-    "rank": 110,
+    "rank": 56,
     "line_id": "jackson-2.19.x",
     "ecosystem": "maven",
     "project": "com.fasterxml.jackson.core:jackson-databind",
@@ -880,7 +448,15 @@
     "anchor": "2.19.4"
   },
   {
-    "rank": 111,
+    "rank": 57,
+    "line_id": "jest-util-29.7.x",
+    "ecosystem": "npm",
+    "project": "jest-util",
+    "version_line": "29.7.x",
+    "anchor": "29.7.0"
+  },
+  {
+    "rank": 58,
     "line_id": "jetty-9.2.x",
     "ecosystem": "maven",
     "project": "org.eclipse.jetty:jetty-security",
@@ -888,7 +464,23 @@
     "anchor": "9.2.30.v20200428"
   },
   {
-    "rank": 112,
+    "rank": 59,
+    "line_id": "jinja2-3.1.x",
+    "ecosystem": "pypi",
+    "project": "jinja2",
+    "version_line": "3.1.x",
+    "anchor": "3.1.6"
+  },
+  {
+    "rank": 60,
+    "line_id": "json-schema-traverse-1.0.x",
+    "ecosystem": "npm",
+    "project": "json-schema-traverse",
+    "version_line": "1.0.x",
+    "anchor": "1.0.0"
+  },
+  {
+    "rank": 61,
     "line_id": "log4j-1.2.x",
     "ecosystem": "maven",
     "project": "log4j:log4j",
@@ -896,7 +488,7 @@
     "anchor": "1.2.17"
   },
   {
-    "rank": 113,
+    "rank": 62,
     "line_id": "log4j2-2.24.x",
     "ecosystem": "maven",
     "project": "org.apache.logging.log4j:log4j-core",
@@ -904,7 +496,15 @@
     "anchor": "2.24.3"
   },
   {
-    "rank": 114,
+    "rank": 63,
+    "line_id": "lru-cache-10.4.x",
+    "ecosystem": "npm",
+    "project": "lru-cache",
+    "version_line": "10.4.x",
+    "anchor": "10.4.3"
+  },
+  {
+    "rank": 64,
     "line_id": "lz4-java-1.8.x",
     "ecosystem": "maven",
     "project": "org.lz4:lz4-java",
@@ -912,7 +512,15 @@
     "anchor": "1.8.1"
   },
   {
-    "rank": 115,
+    "rank": 65,
+    "line_id": "markupsafe-3.0.x",
+    "ecosystem": "pypi",
+    "project": "markupsafe",
+    "version_line": "3.0.x",
+    "anchor": "3.0.4"
+  },
+  {
+    "rank": 66,
     "line_id": "mchange-commons-0.2.x",
     "ecosystem": "maven",
     "project": "com.mchange:mchange-commons-java",
@@ -920,7 +528,271 @@
     "anchor": "0.2.20"
   },
   {
-    "rank": 116,
+    "rank": 67,
+    "line_id": "mime-db-1.52.x",
+    "ecosystem": "npm",
+    "project": "mime-db",
+    "version_line": "1.52.x",
+    "anchor": "1.52.0"
+  },
+  {
+    "rank": 68,
+    "line_id": "minimatch-9.0.x",
+    "ecosystem": "npm",
+    "project": "minimatch",
+    "version_line": "9.0.x",
+    "anchor": "9.0.9"
+  },
+  {
+    "rank": 69,
+    "line_id": "minipass-3.3.x",
+    "ecosystem": "npm",
+    "project": "minipass",
+    "version_line": "3.3.x",
+    "anchor": "3.3.6"
+  },
+  {
+    "rank": 70,
+    "line_id": "mkdirp-1.0.x",
+    "ecosystem": "npm",
+    "project": "mkdirp",
+    "version_line": "1.0.x",
+    "anchor": "1.0.4"
+  },
+  {
+    "rank": 71,
+    "line_id": "more-itertools-10.8.x",
+    "ecosystem": "pypi",
+    "project": "more-itertools",
+    "version_line": "10.8.x",
+    "anchor": "10.8.0"
+  },
+  {
+    "rank": 72,
+    "line_id": "ms-2.0.x",
+    "ecosystem": "npm",
+    "project": "ms",
+    "version_line": "2.0.x",
+    "anchor": "2.0.0"
+  },
+  {
+    "rank": 73,
+    "line_id": "negotiator-0.6.x",
+    "ecosystem": "npm",
+    "project": "negotiator",
+    "version_line": "0.6.x",
+    "anchor": "0.6.4"
+  },
+  {
+    "rank": 74,
+    "line_id": "opentelemetry-core-2.2.x",
+    "ecosystem": "npm",
+    "project": "@opentelemetry/core",
+    "version_line": "2.2.x",
+    "anchor": "2.2.0"
+  },
+  {
+    "rank": 75,
+    "line_id": "opentelemetry-resources-2.2.x",
+    "ecosystem": "npm",
+    "project": "@opentelemetry/resources",
+    "version_line": "2.2.x",
+    "anchor": "2.2.0"
+  },
+  {
+    "rank": 76,
+    "line_id": "packaging-26.3.x",
+    "ecosystem": "pypi",
+    "project": "packaging",
+    "version_line": "26.3.x",
+    "anchor": "26.3"
+  },
+  {
+    "rank": 77,
+    "line_id": "picomatch-2.3.x",
+    "ecosystem": "npm",
+    "project": "picomatch",
+    "version_line": "2.3.x",
+    "anchor": "2.3.2"
+  },
+  {
+    "rank": 78,
+    "line_id": "pip-9.0.x",
+    "ecosystem": "pypi",
+    "project": "pip",
+    "version_line": "9.0.x",
+    "anchor": "9.0.3"
+  },
+  {
+    "rank": 79,
+    "line_id": "platformdirs-4.4.x",
+    "ecosystem": "pypi",
+    "project": "platformdirs",
+    "version_line": "4.4.x",
+    "anchor": "4.4.0"
+  },
+  {
+    "rank": 80,
+    "line_id": "pretty-format-28.1.x",
+    "ecosystem": "npm",
+    "project": "pretty-format",
+    "version_line": "28.1.x",
+    "anchor": "28.1.3"
+  },
+  {
+    "rank": 81,
+    "line_id": "protobuf-7.36.x",
+    "ecosystem": "pypi",
+    "project": "protobuf",
+    "version_line": "7.36.x",
+    "anchor": "7.36.2"
+  },
+  {
+    "rank": 82,
+    "line_id": "pyasn1-0.6.x",
+    "ecosystem": "pypi",
+    "project": "pyasn1",
+    "version_line": "0.6.x",
+    "anchor": "0.6.5"
+  },
+  {
+    "rank": 83,
+    "line_id": "pyasn1-modules-0.4.x",
+    "ecosystem": "pypi",
+    "project": "pyasn1-modules",
+    "version_line": "0.4.x",
+    "anchor": "0.4.2"
+  },
+  {
+    "rank": 84,
+    "line_id": "pycparser-3.12.x",
+    "ecosystem": "pypi",
+    "project": "pycparser",
+    "version_line": "3.12.x",
+    "anchor": "3.12"
+  },
+  {
+    "rank": 85,
+    "line_id": "pydantic-2.14.x",
+    "ecosystem": "pypi",
+    "project": "pydantic",
+    "version_line": "2.14.x",
+    "anchor": "2.14.4"
+  },
+  {
+    "rank": 86,
+    "line_id": "pydantic-core-2.50.x",
+    "ecosystem": "pypi",
+    "project": "pydantic-core",
+    "version_line": "2.50.x",
+    "anchor": "2.50.5"
+  },
+  {
+    "rank": 87,
+    "line_id": "pygments-2.21.x",
+    "ecosystem": "pypi",
+    "project": "pygments",
+    "version_line": "2.21.x",
+    "anchor": "2.21.0"
+  },
+  {
+    "rank": 88,
+    "line_id": "pyinotify-0.9.x",
+    "ecosystem": "pypi",
+    "project": "pyinotify",
+    "version_line": "0.9.x",
+    "anchor": "0.9.6"
+  },
+  {
+    "rank": 89,
+    "line_id": "pysocks-1.6.x",
+    "ecosystem": "pypi",
+    "project": "pysocks",
+    "version_line": "1.6.x",
+    "anchor": "1.6.8"
+  },
+  {
+    "rank": 90,
+    "line_id": "python-dateutil-2.6.x",
+    "ecosystem": "pypi",
+    "project": "python-dateutil",
+    "version_line": "2.6.x",
+    "anchor": "2.6.1"
+  },
+  {
+    "rank": 91,
+    "line_id": "pyyaml-6.0.x",
+    "ecosystem": "pypi",
+    "project": "pyyaml",
+    "version_line": "6.0.x",
+    "anchor": "6.0.4"
+  },
+  {
+    "rank": 92,
+    "line_id": "react-is-18.3.x",
+    "ecosystem": "npm",
+    "project": "react-is",
+    "version_line": "18.3.x",
+    "anchor": "18.3.1"
+  },
+  {
+    "rank": 93,
+    "line_id": "readable-stream-3.6.x",
+    "ecosystem": "npm",
+    "project": "readable-stream",
+    "version_line": "3.6.x",
+    "anchor": "3.6.2"
+  },
+  {
+    "rank": 94,
+    "line_id": "requests-2.20.x",
+    "ecosystem": "pypi",
+    "project": "requests",
+    "version_line": "2.20.x",
+    "anchor": "2.20.1"
+  },
+  {
+    "rank": 95,
+    "line_id": "safe-buffer-5.2.x",
+    "ecosystem": "npm",
+    "project": "safe-buffer",
+    "version_line": "5.2.x",
+    "anchor": "5.2.1"
+  },
+  {
+    "rank": 96,
+    "line_id": "semver-6.3.x",
+    "ecosystem": "npm",
+    "project": "semver",
+    "version_line": "6.3.x",
+    "anchor": "6.3.2"
+  },
+  {
+    "rank": 97,
+    "line_id": "setuptools-39.2.x",
+    "ecosystem": "pypi",
+    "project": "setuptools",
+    "version_line": "39.2.x",
+    "anchor": "39.2.0"
+  },
+  {
+    "rank": 98,
+    "line_id": "signal-exit-4.1.x",
+    "ecosystem": "npm",
+    "project": "signal-exit",
+    "version_line": "4.1.x",
+    "anchor": "4.1.0"
+  },
+  {
+    "rank": 99,
+    "line_id": "six-1.11.x",
+    "ecosystem": "pypi",
+    "project": "six",
+    "version_line": "1.11.x",
+    "anchor": "1.11.0"
+  },
+  {
+    "rank": 100,
     "line_id": "snakeyaml-1.16.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -928,7 +800,7 @@
     "anchor": "1.16"
   },
   {
-    "rank": 117,
+    "rank": 101,
     "line_id": "snakeyaml-1.17.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -936,7 +808,7 @@
     "anchor": "1.17"
   },
   {
-    "rank": 118,
+    "rank": 102,
     "line_id": "snakeyaml-1.19.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -944,7 +816,7 @@
     "anchor": "1.19"
   },
   {
-    "rank": 119,
+    "rank": 103,
     "line_id": "snakeyaml-1.23.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -952,7 +824,7 @@
     "anchor": "1.23"
   },
   {
-    "rank": 120,
+    "rank": 104,
     "line_id": "snakeyaml-1.26.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -960,7 +832,7 @@
     "anchor": "1.26"
   },
   {
-    "rank": 121,
+    "rank": 105,
     "line_id": "snakeyaml-1.27.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -968,7 +840,7 @@
     "anchor": "1.27"
   },
   {
-    "rank": 122,
+    "rank": 106,
     "line_id": "snakeyaml-1.28.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -976,7 +848,7 @@
     "anchor": "1.28"
   },
   {
-    "rank": 123,
+    "rank": 107,
     "line_id": "snakeyaml-1.29.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -984,7 +856,7 @@
     "anchor": "1.29"
   },
   {
-    "rank": 124,
+    "rank": 108,
     "line_id": "snakeyaml-1.31.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -992,7 +864,7 @@
     "anchor": "1.31"
   },
   {
-    "rank": 125,
+    "rank": 109,
     "line_id": "snakeyaml-1.33.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -1000,7 +872,7 @@
     "anchor": "1.33"
   },
   {
-    "rank": 126,
+    "rank": 110,
     "line_id": "snakeyaml-1.9.x",
     "ecosystem": "maven",
     "project": "org.yaml:snakeyaml",
@@ -1008,7 +880,15 @@
     "anchor": "1.9"
   },
   {
-    "rank": 127,
+    "rank": 111,
+    "line_id": "source-map-0.6.x",
+    "ecosystem": "npm",
+    "project": "source-map",
+    "version_line": "0.6.x",
+    "anchor": "0.6.1"
+  },
+  {
+    "rank": 112,
     "line_id": "spring-boot-2.7.x",
     "ecosystem": "maven",
     "project": "org.springframework.boot:spring-boot-dependencies",
@@ -1016,7 +896,7 @@
     "anchor": "2.7.18"
   },
   {
-    "rank": 128,
+    "rank": 113,
     "line_id": "spring-framework-5.3.x",
     "ecosystem": "maven",
     "project": "org.springframework:spring-framework-bom",
@@ -1024,7 +904,7 @@
     "anchor": "5.3.39"
   },
   {
-    "rank": 129,
+    "rank": 114,
     "line_id": "spring-security-5.7.x",
     "ecosystem": "maven",
     "project": "org.springframework.security:spring-security-bom",
@@ -1032,7 +912,31 @@
     "anchor": "5.7.11"
   },
   {
-    "rank": 130,
+    "rank": 115,
+    "line_id": "string-width-4.2.x",
+    "ecosystem": "npm",
+    "project": "string-width",
+    "version_line": "4.2.x",
+    "anchor": "4.2.3"
+  },
+  {
+    "rank": 116,
+    "line_id": "string_decoder-1.1.x",
+    "ecosystem": "npm",
+    "project": "string_decoder",
+    "version_line": "1.1.x",
+    "anchor": "1.1.1"
+  },
+  {
+    "rank": 117,
+    "line_id": "strip-ansi-6.0.x",
+    "ecosystem": "npm",
+    "project": "strip-ansi",
+    "version_line": "6.0.x",
+    "anchor": "6.0.1"
+  },
+  {
+    "rank": 118,
     "line_id": "struts-1.3.x",
     "ecosystem": "maven",
     "project": "org.apache.struts:struts-tiles",
@@ -1040,7 +944,63 @@
     "anchor": "1.3.10"
   },
   {
-    "rank": 131,
+    "rank": 119,
+    "line_id": "supports-color-7.2.x",
+    "ecosystem": "npm",
+    "project": "supports-color",
+    "version_line": "7.2.x",
+    "anchor": "7.2.0"
+  },
+  {
+    "rank": 120,
+    "line_id": "tomli-2.4.x",
+    "ecosystem": "pypi",
+    "project": "tomli",
+    "version_line": "2.4.x",
+    "anchor": "2.4.1"
+  },
+  {
+    "rank": 121,
+    "line_id": "tslib-1.14.x",
+    "ecosystem": "npm",
+    "project": "tslib",
+    "version_line": "1.14.x",
+    "anchor": "1.14.1"
+  },
+  {
+    "rank": 122,
+    "line_id": "types-node-20.12.x",
+    "ecosystem": "npm",
+    "project": "@types/node",
+    "version_line": "20.12.x",
+    "anchor": "20.12.14"
+  },
+  {
+    "rank": 123,
+    "line_id": "typing-extensions-4.16.x",
+    "ecosystem": "pypi",
+    "project": "typing-extensions",
+    "version_line": "4.16.x",
+    "anchor": "4.16.0"
+  },
+  {
+    "rank": 124,
+    "line_id": "urllib3-1.24.x",
+    "ecosystem": "pypi",
+    "project": "urllib3",
+    "version_line": "1.24.x",
+    "anchor": "1.24.3"
+  },
+  {
+    "rank": 125,
+    "line_id": "uuid-11.1.x",
+    "ecosystem": "npm",
+    "project": "uuid",
+    "version_line": "11.1.x",
+    "anchor": "11.1.1"
+  },
+  {
+    "rank": 126,
     "line_id": "velocity-1.6.x",
     "ecosystem": "maven",
     "project": "org.apache.velocity:velocity",
@@ -1048,11 +1008,51 @@
     "anchor": "1.6.4"
   },
   {
-    "rank": 132,
+    "rank": 127,
     "line_id": "velocity-1.7.x",
     "ecosystem": "maven",
     "project": "org.apache.velocity:velocity",
     "version_line": "1.7.x",
     "anchor": "1.7"
+  },
+  {
+    "rank": 128,
+    "line_id": "wheel-0.46.x",
+    "ecosystem": "pypi",
+    "project": "wheel",
+    "version_line": "0.46.x",
+    "anchor": "0.46.3"
+  },
+  {
+    "rank": 129,
+    "line_id": "which-2.0.x",
+    "ecosystem": "npm",
+    "project": "which",
+    "version_line": "2.0.x",
+    "anchor": "2.0.2"
+  },
+  {
+    "rank": 130,
+    "line_id": "wrap-ansi-7.0.x",
+    "ecosystem": "npm",
+    "project": "wrap-ansi",
+    "version_line": "7.0.x",
+    "anchor": "7.0.0"
+  },
+  {
+    "rank": 131,
+    "line_id": "yallist-4.0.x",
+    "ecosystem": "npm",
+    "project": "yallist",
+    "version_line": "4.0.x",
+    "anchor": "4.0.0"
+  },
+  {
+    "rank": 132,
+    "line_id": "zipp-3.23.x",
+    "ecosystem": "pypi",
+    "project": "zipp",
+    "version_line": "3.23.x",
+    "anchor": "3.23.1"
   }
 ]
