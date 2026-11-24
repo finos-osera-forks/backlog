@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T22:06:05Z. Written by the line manager reconciler.
+Generated 2026-11-24T22:08:52Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -145,8 +145,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | msgpack-1.1.x | pypi | `msgpack==1.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | multer-1.4.x | npm | `multer@1.4.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | negotiator-0.6.x | npm | `negotiator@0.6.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| node-forge-1.3.x | npm | `node-forge@1.3.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| oauthlib-3.3.x | pypi | `oauthlib==3.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| node-forge-1.3.x | npm | `node-forge@1.3.3` | not fixed | 25 | 0 | 0% | 0 | 0 | 25 | 0 |
+| oauthlib-3.3.x | pypi | `oauthlib==3.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | ollama-0.6.x | pypi | `ollama==0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | opentelemetry-resources-2.2.x | npm | `@opentelemetry/resources@2.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-124 libraries across 221 line(s).
+126 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -275,6 +275,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | launch-editor | 2.13.2 | launch-editor-2.13.x | pulled in by a dependency (launch-editor@2.13.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00008 | 1.2.17.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | markdown-it | 14.1.1 | markdown-it-14.1.x | pulled in by a dependency (markdown-it@14.1.1) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| node-forge | 1.3.3 | node-forge-1.3.x | pulled in by a dependency (node-forge@1.3.3) | open | 25 | 0 | 0% | 0 | 0 | 25 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| oauthlib | 3.3.1 | oauthlib-3.3.x | pulled in by a dependency (oauthlib@3.3.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ognl:ognl | 3.1.29 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-broker | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 12 | 0 | 0% | 0 | 0 | 12 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-client | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
