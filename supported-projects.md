@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T22:08:52Z. Written by the line manager reconciler.
+Generated 2026-11-24T22:15:21Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -148,8 +148,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | node-forge-1.3.x | npm | `node-forge@1.3.3` | not fixed | 25 | 0 | 0% | 0 | 0 | 25 | 0 |
 | oauthlib-3.3.x | pypi | `oauthlib==3.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | ollama-0.6.x | pypi | `ollama==0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| opentelemetry-resources-2.2.x | npm | `@opentelemetry/resources@2.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
+| opentelemetry-resources-2.2.x | npm | `@opentelemetry/resources@2.2.0` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | packaging-26.3.x | pypi | `packaging==26.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pacote-20.0.x | npm | `pacote@20.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | picomatch-2.3.x | npm | `picomatch@2.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,10 +232,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-126 libraries across 221 line(s).
+127 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| @opentelemetry/core | 2.2.0 | opentelemetry-core-2.2.x, opentelemetry-resources-2.2.x | pulled in by a dependency on opentelemetry-core-2.2.x (@opentelemetry/core@2.2.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ajv | 6.12.6 | ajv-6.12.x | pulled in by a dependency (ajv@6.12.6) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | pulled in by a dependency on lz4-java-1.8.x (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00008 | 1.8.1.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 6 | 2 | 33% | 0 | 0 | 4 | 0 | 1.2.13.1-osera-00004 | 1.2.13.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
