@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T18:40:19Z. Written by the line manager reconciler.
+Generated 2026-11-24T19:12:29Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -51,7 +51,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | adm-zip-0.6.x | npm | `adm-zip@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | agent-base-7.1.x | npm | `agent-base@7.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ajv-6.12.x | npm | `ajv@6.12.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ajv-6.12.x | npm | `ajv@6.12.6` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | angular-common-19.2.x | npm | `@angular/common@19.2.25` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | angular-router-19.2.x | npm | `@angular/router@19.2.25` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | annotated-types-0.8.x | pypi | `annotated-types==0.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,10 +232,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-116 libraries across 221 line(s).
+117 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ajv | 6.12.6 | ajv-6.12.x | pulled in by a dependency (ajv@6.12.6) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | pulled in by a dependency on lz4-java-1.8.x (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00008 | 1.8.1.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 6 | 2 | 33% | 0 | 0 | 4 | 0 | 1.2.13.1-osera-00004 | 1.2.13.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 2.13.5.1-osera-00019 | 2.13.5.1-osera-00019 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
