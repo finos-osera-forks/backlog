@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T21:03:33Z. Written by the line manager reconciler.
+Generated 2026-11-24T21:08:45Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -115,7 +115,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | inflect-7.3.x | pypi | `inflect==7.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | inherits-2.0.x | npm | `inherits@2.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | iniparse-0.4.x | pypi | `iniparse==0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ip-2.0.x | npm | `ip@2.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ip-2.0.x | npm | `ip@2.0.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | ip-address-9.0.x | npm | `ip-address@9.0.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | is-fullwidth-code-point-3.0.x | npm | `is-fullwidth-code-point@3.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | isexe-2.0.x | npm | `isexe@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-120 libraries across 221 line(s).
+121 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -270,6 +270,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00003 | 1.0.48.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.undertow:undertow-core | 2.2.41.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| ip | 2.0.1 | ip-2.0.x | pulled in by a dependency (ip@2.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00008 | 1.2.17.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ognl:ognl | 3.1.29 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-broker | 5.16.8 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 12 | 0 | 0% | 0 | 0 | 12 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
