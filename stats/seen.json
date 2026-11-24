@@ -1262,10 +1262,148 @@
    "first_seen": "2026-11-24T20:19:28Z"
   },
   {
+   "cve": "CVE-2026-118669",
+   "library": "oauthlib",
+   "version": "3.3.1",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118764",
+   "library": "minimatch",
+   "version": "9.0.9",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118773",
+   "library": "glob",
+   "version": "10.5.0",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118774",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118775",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118776",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118777",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118778",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118779",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118780",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118781",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-118782",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-119186",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-119187",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-119188",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-119189",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-119190",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-119191",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-119192",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
    "cve": "CVE-2026-1225",
    "library": "ch.qos.logback:logback-core",
    "version": "1.2.13",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-125332",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-125333",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-125334",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-125335",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
   },
   {
    "cve": "CVE-2026-128089",
@@ -1434,6 +1572,30 @@
    "library": "org.apache.activemq:activemq-client",
    "version": "5.16.8",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-33891",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-33894",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-33895",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-33896",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
   },
   {
    "cve": "CVE-2026-34197",
@@ -1952,16 +2114,46 @@
    "first_seen": "2026-10-21T21:40:49Z"
   },
   {
+   "cve": "CVE-2026-48758",
+   "library": "@sigstore/core",
+   "version": "2.0.0",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-48815",
+   "library": "sigstore",
+   "version": "3.1.0",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
    "cve": "CVE-2026-48988",
    "library": "markdown-it",
    "version": "14.1.1",
    "first_seen": "2026-11-24T21:43:50Z"
   },
   {
+   "cve": "CVE-2026-49264",
+   "library": "oauthlib",
+   "version": "3.3.1",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-49265",
+   "library": "oauthlib",
+   "version": "3.3.1",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
    "cve": "CVE-2026-49270",
    "library": "org.apache.activemq:activemq-broker",
    "version": "5.16.8",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-49272",
+   "library": "oauthlib",
+   "version": "3.3.1",
+   "first_seen": "2026-11-24T22:22:15Z"
   },
   {
    "cve": "CVE-2026-49434",
@@ -2010,6 +2202,12 @@
    "library": "org.apache.activemq:activemq-client",
    "version": "5.16.8",
    "first_seen": "2026-11-05T09:20:51Z"
+  },
+  {
+   "cve": "CVE-2026-54285",
+   "library": "@opentelemetry/core",
+   "version": "2.2.0",
+   "first_seen": "2026-11-24T22:22:15Z"
   },
   {
    "cve": "CVE-2026-54399",
@@ -2336,6 +2534,12 @@
    "first_seen": "2026-10-28T00:47:00Z"
   },
   {
+   "cve": "CVE-2026-85393",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
    "cve": "CVE-2026-8763",
    "library": "org.bouncycastle:bcprov-jdk18on",
    "version": "1.78.1",
@@ -2400,6 +2604,12 @@
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.19.4",
    "first_seen": "2026-10-18T21:05:14Z"
+  },
+  {
+   "cve": "CVE-2026-9496",
+   "library": "pacote",
+   "version": "20.0.1",
+   "first_seen": "2026-11-24T22:22:15Z"
   },
   {
    "cve": "CVE-2026-9828",
