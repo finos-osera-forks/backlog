@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T19:19:23Z. Written by the line manager reconciler.
+Generated 2026-11-24T19:21:50Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -58,7 +58,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | ansi-regex-5.0.x | npm | `ansi-regex@5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ansi-styles-4.3.x | npm | `ansi-styles@4.3.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ansible-core-2.16.x | pypi | `ansible-core==2.16.20` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| anyio-4.16.x | pypi | `anyio==4.16.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| anyio-4.16.x | pypi | `anyio==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-core-3.3.x | pypi | `apache-airflow-core==3.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-providers-fab-1.5.x | pypi | `apache-airflow-providers-fab==1.5.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-providers-ftp-3.7.x | pypi | `apache-airflow-providers-ftp==3.7.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
