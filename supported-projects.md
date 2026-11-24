@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T22:15:21Z. Written by the line manager reconciler.
+Generated 2026-11-24T22:22:15Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -151,7 +151,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | opentelemetry-resources-2.2.x | npm | `@opentelemetry/resources@2.2.0` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | packaging-26.3.x | pypi | `packaging==26.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pacote-20.0.x | npm | `pacote@20.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pacote-20.0.x | npm | `pacote@20.0.1` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
 | picomatch-2.3.x | npm | `picomatch@2.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pip-9.0.x | pypi | `pip==9.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | piscina-4.8.x | npm | `piscina@4.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,11 +232,12 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-127 libraries across 221 line(s).
+132 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | @opentelemetry/core | 2.2.0 | opentelemetry-core-2.2.x, opentelemetry-resources-2.2.x | pulled in by a dependency on opentelemetry-core-2.2.x (@opentelemetry/core@2.2.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| @sigstore/core | 2.0.0 | pacote-20.0.x | pulled in by a dependency (@sigstore/sign@3.1.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ajv | 6.12.6 | ajv-6.12.x | pulled in by a dependency (ajv@6.12.6) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | pulled in by a dependency on lz4-java-1.8.x (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00008 | 1.8.1.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 6 | 2 | 33% | 0 | 0 | 4 | 0 | 1.2.13.1-osera-00004 | 1.2.13.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -267,6 +268,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | dnspython | 2.8.0 | dnspython-2.8.x | pulled in by a dependency (dnspython@2.8.0) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ecdsa | 0.19.2 | ecdsa-0.19.x | pulled in by a dependency (ecdsa@0.19.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| glob | 10.5.0 | pacote-20.0.x | pulled in by a dependency (@npmcli/package-json@6.2.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | idna | 2.5 | idna-2.5.x | pulled in by a dependency (idna@2.5) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00003 | 1.0.48.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -276,6 +278,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | launch-editor | 2.13.2 | launch-editor-2.13.x | pulled in by a dependency (launch-editor@2.13.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00008 | 1.2.17.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | markdown-it | 14.1.1 | markdown-it-14.1.x | pulled in by a dependency (markdown-it@14.1.1) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| minimatch | 9.0.9 | pacote-20.0.x | pulled in by a dependency (@tufjs/models@3.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | node-forge | 1.3.3 | node-forge-1.3.x | pulled in by a dependency (node-forge@1.3.3) | open | 25 | 0 | 0% | 0 | 0 | 25 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | oauthlib | 3.3.1 | oauthlib-3.3.x | pulled in by a dependency (oauthlib@3.3.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ognl:ognl | 3.1.29 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -361,6 +364,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.yaml:snakeyaml | 1.29 | snakeyaml-1.29.x | own project (the anchor's group) | open | 7 | 6 | 86% | 0 | 0 | 1 | 0 | 1.29.1-osera-00007 | 1.29.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.31 | snakeyaml-1.31.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 1.31.1-osera-00004 | 1.31.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.yaml:snakeyaml | 1.33 | snakeyaml-1.16.x, snakeyaml-1.17.x, snakeyaml-1.19.x, snakeyaml-1.23.x, snakeyaml-1.26.x, snakeyaml-1.27.x, snakeyaml-1.28.x, snakeyaml-1.29.x, snakeyaml-1.31.x, snakeyaml-1.33.x, snakeyaml-1.9.x, spring-boot-2.7.x | own project on snakeyaml-1.16.x (the anchor's group) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.33.1-osera-00002 | 1.33.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| pacote | 20.0.1 | pacote-20.0.x | pulled in by a dependency (pacote@20.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| sigstore | 3.1.0 | pacote-20.0.x | pulled in by a dependency (pacote@20.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 2.2.1.1-osera-00005 | 2.2.1.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
