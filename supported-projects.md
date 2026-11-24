@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T23:23:32Z. Written by the line manager reconciler.
+Generated 2026-11-24T23:25:54Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -183,9 +183,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | requests-2.20.x | pypi | `requests==2.20.1` | not fixed | 16 | 0 | 0% | 0 | 0 | 16 | 0 |
 | safe-buffer-5.2.x | npm | `safe-buffer@5.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | selenium-3.141.x | pypi | `selenium==3.141.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| semver-6.3.x | npm | `semver@6.3.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| serialize-javascript-6.0.x | npm | `serialize-javascript@6.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| setuptools-39.2.x | pypi | `setuptools==39.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| semver-6.3.x | npm | `semver@6.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| serialize-javascript-6.0.x | npm | `serialize-javascript@6.0.2` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
+| setuptools-39.2.x | pypi | `setuptools==39.2.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | shell-quote-1.8.x | npm | `shell-quote@1.8.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | signal-exit-4.1.x | npm | `signal-exit@4.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sigstore-3.1.x | npm | `sigstore@3.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-138 libraries across 221 line(s).
+139 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -370,6 +370,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pymdown-extensions | 10.3.1 | pymdown-extensions-10.3.x | pulled in by a dependency (pymdown-extensions@10.3.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | python-jose | 3.5.0 | python-jose-3.5.x | pulled in by a dependency (python-jose@3.5.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | requests | 2.20.1 | requests-2.20.x | pulled in by a dependency (requests@2.20.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| serialize-javascript | 6.0.2 | serialize-javascript-6.0.x | pulled in by a dependency (serialize-javascript@6.0.2) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | sigstore | 3.1.0 | pacote-20.0.x | pulled in by a dependency (pacote@20.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | urllib3 | 1.24.3 | requests-2.20.x | pulled in by a dependency (requests@2.20.1) | open | 10 | 0 | 0% | 0 | 0 | 10 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 2.2.1.1-osera-00005 | 2.2.1.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
