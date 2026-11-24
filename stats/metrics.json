@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-24T21:54:02Z",
+ "as_of": "2026-11-24T22:23:52Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -4474,6 +4474,356 @@
  ],
  "new_cves": [
   {
+   "id": "CVE-2026-118669",
+   "summary": "OAuthLib: Token grants can use attacker-supplied client_id for authorization after authenticating a different client",
+   "library": "oauthlib",
+   "version": "3.3.1",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 8.4,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-118764",
+   "summary": "minimatch has potential denial of service via globparts amplification",
+   "library": "minimatch",
+   "version": "9.0.9",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 6.9,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-118773",
+   "summary": "Glob: AbortSignal cancellation bypass allows post-timeout filesystem traversal",
+   "library": "glob",
+   "version": "10.5.0",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 6.3,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-118774",
+   "summary": "Forge: Certificate signature verified with the issuer's RSA signature scheme",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-118775",
+   "summary": "Forge: ASN.1 OID first arc truncation in asn1.oidToDer",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-118776",
+   "summary": "Forge: Incomplete PKCS#7 padding validation in AES/DES CBC and ECB decryption",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-118777",
+   "summary": "Forge: Prototype Pollution in forge.http cookie handling via a malicious Set-Cookie",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 6.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-118778",
+   "summary": "Forge: TLS client crash when the server sends no certificate",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.9,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-118779",
+   "summary": "Forge: Regular expression denial of service in PEM decoding (pem.decode)",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-118780",
+   "summary": "Forge: verifyCertificateChain() removes trusted CA certificates with the same subject from the CA store",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 3.7,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-118781",
+   "summary": "Forge: Denial of Service via infinite loop in BigInteger.modInverse() with negative input (incomplete fix of CVE-2026-33891)",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-118782",
+   "summary": "Forge: PKCS#12 MAC forgery and constant-key PBE via zero iteration count",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-119186",
+   "summary": "Forge: AES-GCM authentication bypass via unvalidated tagLength option",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.9,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-119187",
+   "summary": "Forge: Denial of service in TLS record processing via call stack exhaustion",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-119188",
+   "summary": "Forge: Denial of service in TLS record processing via a record interleaved with a fragmented handshake message",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-119189",
+   "summary": "Forge: X.509 pathLenConstraint not enforced by verifyCertificateChain() for CA certificates without keyUsage",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.9,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-119190",
+   "summary": "Forge: X.509 basicConstraints bypass in verifyCertificateChain() via deprecated extension OIDs 2.5.29.10 and 2.5.29.13",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.4,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-119191",
+   "summary": "Forge: ASN.1 resource exhaustion via BIT STRING decoding in asn1.fromDer",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-119192",
+   "summary": "Forge: RSA PKCS#1 v1.5 signature forgery via non-canonical DigestInfo encoding",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-125332",
+   "summary": "Forge: TLS client crash on an unsupported ServerHello compression method",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.9,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-125333",
+   "summary": "Forge: ReDoS in forge.http response header and cookie trimming",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.9,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-125334",
+   "summary": "Forge: TLS client crash on a handshake record received without a session",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.9,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-125335",
+   "summary": "Forge: Ed25519 signature verification accepts small-order public keys",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 3.7,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-33891",
+   "summary": "Forge has Denial of Service via Infinite Loop in BigInteger.modInverse() with Zero Input",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-33894",
+   "summary": "Forge has signature forgery in RSA-PKCS due to ASN.1 extra field",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-33895",
+   "summary": "Forge has signature forgery in Ed25519 due to missing S \u003e L check",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-33896",
+   "summary": "Forge has a basicConstraints bypass in its certificate chain verification (RFC 5280 violation)",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 9.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-48758",
+   "summary": "@sigstore/core has DSSE payloadType type-binding failure",
+   "library": "@sigstore/core",
+   "version": "2.0.0",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.4,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-48815",
+   "summary": "sigstore's `certificateOIDs` verification constraints are silently dropped and never enforced",
+   "library": "sigstore",
+   "version": "3.1.0",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-49264",
+   "summary": "Oauthlib : Unsafe JSONP callback injection in RevocationEndpoint allows arbitrary JavaScript response generation",
+   "library": "oauthlib",
+   "version": "3.3.1",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 6.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-49265",
+   "summary": "Oauthlib: Timing Attack Vulnerability in PKCE code_verifier Comparison (CWE-208)",
+   "library": "oauthlib",
+   "version": "3.3.1",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 6.8,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-49272",
+   "summary": "OAuthLib: Bearer token can be retrieved as long as client knows a valid client ID for device workflow",
+   "library": "oauthlib",
+   "version": "3.3.1",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 8.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-54285",
+   "summary": "OpenTelemetry Core: Unbounded memory allocation in W3C Baggage propagation",
+   "library": "@opentelemetry/core",
+   "version": "2.2.0",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-85393",
+   "summary": "node-forge RSA PKCS#1 v1.5 signature verification accepts extra nested DigestAlgorithm elements",
+   "library": "node-forge",
+   "version": "1.3.3",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-9496",
+   "summary": "pacote is vulnerable to Denial of Service (DoS) via the addGitSha function",
+   "library": "pacote",
+   "version": "20.0.1",
+   "first_seen": "2026-11-24T22:22:15Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
    "id": "CVE-2026-111758",
    "summary": "markdown-it: Quadratic-time rendering of a single multi-line link reference definition with default options (regression since 14.0)",
    "library": "markdown-it",
@@ -5155,16 +5505,6 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.27",
-   "first_seen": "2026-10-28T00:35:02Z",
-   "status": "open",
-   "cvss": 5.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2022-38750",
-   "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
-   "library": "org.yaml:snakeyaml",
    "version": "1.26",
    "first_seen": "2026-10-28T00:35:02Z",
    "status": "open",
@@ -5175,8 +5515,8 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.29",
-   "first_seen": "2026-10-28T00:29:00Z",
+   "version": "1.27",
+   "first_seen": "2026-10-28T00:35:02Z",
    "status": "open",
    "cvss": 5.5,
    "cvss_version": "3.1"
@@ -5186,6 +5526,16 @@
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
    "version": "1.28",
+   "first_seen": "2026-10-28T00:29:00Z",
+   "status": "open",
+   "cvss": 5.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2022-38750",
+   "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+   "library": "org.yaml:snakeyaml",
+   "version": "1.29",
    "first_seen": "2026-10-28T00:29:00Z",
    "status": "open",
    "cvss": 5.5,
@@ -5215,7 +5565,7 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.19",
+   "version": "1.23",
    "first_seen": "2026-10-28T00:16:52Z",
    "status": "open",
    "cvss": 5.5,
@@ -5225,7 +5575,7 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.23",
+   "version": "1.19",
    "first_seen": "2026-10-28T00:16:52Z",
    "status": "open",
    "cvss": 5.5,
@@ -5255,7 +5605,7 @@
    "id": "CVE-2025-48924",
    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
    "library": "org.apache.commons:commons-lang3",
-   "version": "3.9",
+   "version": "3.11",
    "first_seen": "2026-10-27T23:53:00Z",
    "status": "open",
    "cvss": 5.3,
@@ -5265,7 +5615,7 @@
    "id": "CVE-2025-48924",
    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
    "library": "org.apache.commons:commons-lang3",
-   "version": "3.11",
+   "version": "3.9",
    "first_seen": "2026-10-27T23:53:00Z",
    "status": "open",
    "cvss": 5.3,
@@ -6518,6 +6868,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-24T21:43:50Z",
+ "new_cves_as_of": "2026-11-24T22:22:15Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
