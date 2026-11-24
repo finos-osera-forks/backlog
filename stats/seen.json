@@ -788,6 +788,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2024-29415",
+   "library": "ip",
+   "version": "2.0.1",
+   "first_seen": "2026-11-24T21:15:10Z"
+  },
+  {
    "cve": "CVE-2024-29857",
    "library": "org.bouncycastle:bcprov-jdk15on",
    "version": "1.69",
@@ -1094,6 +1100,24 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2026-101911",
+   "library": "ip-address",
+   "version": "9.0.5",
+   "first_seen": "2026-11-24T21:15:10Z"
+  },
+  {
+   "cve": "CVE-2026-101912",
+   "library": "ip-address",
+   "version": "9.0.5",
+   "first_seen": "2026-11-24T21:15:10Z"
+  },
+  {
+   "cve": "CVE-2026-101913",
+   "library": "ip-address",
+   "version": "9.0.5",
+   "first_seen": "2026-11-24T21:15:10Z"
+  },
+  {
    "cve": "CVE-2026-102554",
    "library": "com.google.guava:guava",
    "version": "20.0",
@@ -1182,6 +1206,12 @@
    "library": "org.lz4:lz4-java",
    "version": "1.8.1",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-111997",
+   "library": "ip-address",
+   "version": "9.0.5",
+   "first_seen": "2026-11-24T21:15:10Z"
   },
   {
    "cve": "CVE-2026-113730",
@@ -1838,6 +1868,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-42338",
+   "library": "ip-address",
+   "version": "9.0.5",
+   "first_seen": "2026-11-24T21:15:10Z"
+  },
+  {
    "cve": "CVE-2026-42588",
    "library": "org.apache.activemq:activemq-broker",
    "version": "5.16.8",
@@ -2190,6 +2226,12 @@
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.19.4",
    "first_seen": "2026-10-18T21:05:14Z"
+  },
+  {
+   "cve": "CVE-2026-69192",
+   "library": "ip-address",
+   "version": "9.0.5",
+   "first_seen": "2026-11-24T21:15:10Z"
   },
   {
    "cve": "CVE-2026-69219",
