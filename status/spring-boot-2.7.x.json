@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.24.10",
-  "as_of": "2026-11-24T10:21:17Z",
+  "book_version": "v2026.11.24.11",
+  "as_of": "2026-11-24T10:28:40Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 196,
@@ -1324,12 +1324,6 @@
   ],
   "not_remediable": [],
   "discrepancies": [
-    "CVE-2026-50193 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
-    "CVE-2026-54512 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
-    "CVE-2026-54513 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
-    "CVE-2026-54514 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
-    "CVE-2026-54515 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
-    "CVE-2026-91776 on jackson-databind 2.13.5: promoted artifact com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00010 refused: no verdict for 2.13.5.1-osera-00010 in osera-releases-raw-01",
     "fixed, not in the backlog: CVE-2023-1370 on com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
     "fixed, not in the backlog: CVE-2023-33202 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00022",
     "fixed, not in the backlog: CVE-2023-33202 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00023",
