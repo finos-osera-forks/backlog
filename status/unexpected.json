@@ -57301,9 +57301,10 @@
         "dnspython-2.8.x",
         "dulwich-1.2.x",
         "ecdsa-0.19.x",
-        "ejs-3.1.x"
+        "ejs-3.1.x",
+        "emoji-regex-8.0.x"
       ],
-      "words": "glob-parent@3.1.1-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x, annotated-types-0.8.x, ansi-regex-5.0.x, ansi-styles-4.3.x, anyio-4.16.x, autocommand-2.2.x, backstage-errors-1.2.x, balanced-match-1.0.x, brace-expansion-1.1.x, cacheable-request-7.0.x, certifi-2026.10.x, chalk-4.1.x, chardet-3.0.x, charset-normalizer-3.5.x, click-8.5.x, color-convert-2.0.x, color-name-1.1.x, compression-1.8.x, cssom-0.3.x, datasets-5.0.x, debug-2.6.x, decode-uri-component-0.2.x, decorator-4.2.x, deepmerge-4.3.x, diff-5.2.x, dnspython-2.8.x, dulwich-1.2.x, ecdsa-0.19.x, ejs-3.1.x, so the graph there may have a hole",
+      "words": "glob-parent@3.1.1-osera-00001: not listed by any line; other artifacts of  are in the dependency graph of crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x, annotated-types-0.8.x, ansi-regex-5.0.x, ansi-styles-4.3.x, anyio-4.16.x, autocommand-2.2.x, backstage-errors-1.2.x, balanced-match-1.0.x, brace-expansion-1.1.x, cacheable-request-7.0.x, certifi-2026.10.x, chalk-4.1.x, chardet-3.0.x, charset-normalizer-3.5.x, click-8.5.x, color-convert-2.0.x, color-name-1.1.x, compression-1.8.x, cssom-0.3.x, datasets-5.0.x, debug-2.6.x, decode-uri-component-0.2.x, decorator-4.2.x, deepmerge-4.3.x, diff-5.2.x, dnspython-2.8.x, dulwich-1.2.x, ecdsa-0.19.x, ejs-3.1.x, emoji-regex-8.0.x, so the graph there may have a hole",
       "first_seen": "2026-11-09T15:19:45Z"
     },
     {
