@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T20:59:07Z. Written by the line manager reconciler.
+Generated 2026-11-24T21:03:33Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -112,7 +112,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | iconv-lite-0.6.x | npm | `iconv-lite@0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | idna-2.5.x | pypi | `idna==2.5` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | importlib-metadata-8.7.x | pypi | `importlib-metadata==8.7.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| inflect-7.3.x | pypi | `inflect==7.3.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| inflect-7.3.x | pypi | `inflect==7.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | inherits-2.0.x | npm | `inherits@2.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | iniparse-0.4.x | pypi | `iniparse==0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ip-2.0.x | npm | `ip@2.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
