@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T22:40:49Z. Written by the line manager reconciler.
+Generated 2026-11-24T22:43:35Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -161,8 +161,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pretty-format-28.1.x | npm | `pretty-format@28.1.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | promzard-2.0.x | npm | `promzard@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | protobuf-7.36.x | pypi | `protobuf==7.36.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| proxy-addr-2.0.x | npm | `proxy-addr@2.0.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| py-1.11.x | pypi | `py==1.11.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| proxy-addr-2.0.x | npm | `proxy-addr@2.0.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| py-1.11.x | pypi | `py==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyasn1-0.6.x | pypi | `pyasn1==0.6.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyasn1-modules-0.4.x | pypi | `pyasn1-modules==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pycparser-3.12.x | pypi | `pycparser==3.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
