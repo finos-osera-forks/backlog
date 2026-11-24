@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T23:11:49Z. Written by the line manager reconciler.
+Generated 2026-11-24T23:14:40Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -180,7 +180,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pyyaml-6.0.x | pypi | `pyyaml==6.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | react-is-18.3.x | npm | `react-is@18.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | readable-stream-3.6.x | npm | `readable-stream@3.6.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| requests-2.20.x | pypi | `requests==2.20.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| requests-2.20.x | pypi | `requests==2.20.1` | not fixed | 16 | 0 | 0% | 0 | 0 | 16 | 0 |
 | safe-buffer-5.2.x | npm | `safe-buffer@5.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | selenium-3.141.x | pypi | `selenium==3.141.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | semver-6.3.x | npm | `semver@6.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-135 libraries across 221 line(s).
+138 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -270,6 +270,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | ecdsa | 0.19.2 | ecdsa-0.19.x, python-jose-3.5.x | pulled in by a dependency on ecdsa-0.19.x (ecdsa@0.19.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | glob | 10.5.0 | pacote-20.0.x | pulled in by a dependency (@npmcli/package-json@6.2.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | idna | 2.5 | idna-2.5.x | pulled in by a dependency (idna@2.5) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| idna | 2.7 | requests-2.20.x | pulled in by a dependency (requests@2.20.1) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | io.micrometer:micrometer-core | 1.9.17 | spring-boot-2.7.x | listed by the BOM at 1.9.17 (io.micrometer:micrometer-bom@1.9.17) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor.netty:reactor-netty-http | 1.0.48 | spring-boot-2.7.x | listed by the BOM at 1.0.39 (io.projectreactor:reactor-bom@2020.0.38) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 1.0.48.1-osera-00003 | 1.0.48.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.undertow:undertow-core | 2.2.41.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -368,7 +369,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | postcss | 7.0.39 | postcss-7.0.x | pulled in by a dependency (postcss@7.0.39) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | pymdown-extensions | 10.3.1 | pymdown-extensions-10.3.x | pulled in by a dependency (pymdown-extensions@10.3.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | python-jose | 3.5.0 | python-jose-3.5.x | pulled in by a dependency (python-jose@3.5.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| requests | 2.20.1 | requests-2.20.x | pulled in by a dependency (requests@2.20.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | sigstore | 3.1.0 | pacote-20.0.x | pulled in by a dependency (pacote@20.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| urllib3 | 1.24.3 | requests-2.20.x | pulled in by a dependency (requests@2.20.1) | open | 10 | 0 | 0% | 0 | 0 | 10 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 2.2.1.1-osera-00005 | 2.2.1.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
