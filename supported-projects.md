@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T15:31:56Z. Written by the line manager reconciler.
+Generated 2026-11-24T15:34:34Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -99,9 +99,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | fastapi-0.141.x | pypi | `fastapi==0.141.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | flask-httpauth-4.8.x | pypi | `flask-httpauth==4.8.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | follow-redirects-1.16.x | npm | `follow-redirects@1.16.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| gdal-3.4.x | pypi | `gdal==3.4.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| gdal-3.4.x | pypi | `gdal==3.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | glob-7.2.x | npm | `glob@7.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| google-auth-2.62.x | pypi | `google-auth==2.62.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| google-auth-2.62.x | pypi | `google-auth==2.62.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | graceful-fs-4.2.x | npm | `graceful-fs@4.2.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | h11-0.16.x | pypi | `h11==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | handlebars-4.7.x | npm | `handlebars@4.7.10` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -591,7 +591,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.graphql-java:graphql-java | 18.7 | in the dependency graph of spring-boot-2.7.x at 18.5, uploaded on 18.7 | spring-boot-2.7.x |  | 18.7.1-osera-00001 | 18.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.jayway.jsonpath:json-path-assert | 2.7.0 | listed by the BOM of spring-boot-2.7.x at 2.7.0, not in its dependency graph | spring-boot-2.7.x |  | 2.7.0.1-osera-00001 | 2.7.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-io:commons-io | 2.6 | listed by the BOM of log4j2-2.24.x at 2.17.0, not in its dependency graph | log4j2-2.24.x |  | 2.6.1-osera-00001 2.6.1-osera-00002 | 2.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x, annotated-types-0.8.x, ansi-regex-5.0.x, ansi-styles-4.3.x, anyio-4.16.x, autocommand-2.2.x, backstage-errors-1.2.x, balanced-match-1.0.x, brace-expansion-1.1.x, cacheable-request-7.0.x, certifi-2026.10.x, chalk-4.1.x, chardet-3.0.x, charset-normalizer-3.5.x, click-8.5.x, color-convert-2.0.x, color-name-1.1.x, compression-1.8.x, cssom-0.3.x, datasets-5.0.x, debug-2.6.x, decode-uri-component-0.2.x, decorator-4.2.x, deepmerge-4.3.x, diff-5.2.x, dnspython-2.8.x, dulwich-1.2.x, ecdsa-0.19.x, ejs-3.1.x, emoji-regex-8.0.x, flask-httpauth-4.8.x, follow-redirects-1.16.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x, annotated-types-0.8.x, ansi-regex-5.0.x, ansi-styles-4.3.x, anyio-4.16.x, autocommand-2.2.x, backstage-errors-1.2.x, balanced-match-1.0.x, brace-expansion-1.1.x, cacheable-request-7.0.x, certifi-2026.10.x, chalk-4.1.x, chardet-3.0.x, charset-normalizer-3.5.x, click-8.5.x, color-convert-2.0.x, color-name-1.1.x, compression-1.8.x, cssom-0.3.x, datasets-5.0.x, debug-2.6.x, decode-uri-component-0.2.x, decorator-4.2.x, deepmerge-4.3.x, diff-5.2.x, dnspython-2.8.x, dulwich-1.2.x, ecdsa-0.19.x, ejs-3.1.x, emoji-regex-8.0.x, flask-httpauth-4.8.x, follow-redirects-1.16.x, glob-7.2.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-appoptics | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-atlas | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-azure-monitor | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
