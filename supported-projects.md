@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T14:26:12Z. Written by the line manager reconciler.
+Generated 2026-11-24T14:29:13Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -56,6 +56,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | ansi-styles-4.3.x | npm | `ansi-styles@4.3.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | anyio-4.16.x | pypi | `anyio==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | autocommand-2.2.x | pypi | `autocommand==2.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| backstage-errors-1.2.x | npm | `@backstage/errors@1.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | balanced-match-1.0.x | npm | `balanced-match@1.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | brace-expansion-1.1.x | npm | `brace-expansion@1.1.22` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -97,6 +98,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | more-itertools-10.8.x | pypi | `more-itertools==10.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ms-2.0.x | npm | `ms@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | negotiator-0.6.x | npm | `negotiator@0.6.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| opentelemetry-resources-2.2.x | npm | `@opentelemetry/resources@2.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | packaging-26.3.x | pypi | `packaging==26.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | picomatch-2.3.x | npm | `picomatch@2.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pip-9.0.x | pypi | `pip==9.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -128,6 +131,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tomli-2.4.x | pypi | `tomli==2.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tslib-1.14.x | npm | `tslib@1.14.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| types-node-20.12.x | npm | `@types/node@20.12.14` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | typing-extensions-4.16.x | pypi | `typing-extensions==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | urllib3-1.24.x | pypi | `urllib3==1.24.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | uuid-11.1.x | npm | `uuid@11.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -139,7 +143,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-116 libraries across 128 line(s).
+116 libraries across 132 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -498,7 +502,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.graphql-java:graphql-java | 18.7 | in the dependency graph of spring-boot-2.7.x at 18.5, uploaded on 18.7 | spring-boot-2.7.x |  | 18.7.1-osera-00001 | 18.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.jayway.jsonpath:json-path-assert | 2.7.0 | listed by the BOM of spring-boot-2.7.x at 2.7.0, not in its dependency graph | spring-boot-2.7.x |  | 2.7.0.1-osera-00001 | 2.7.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-io:commons-io | 2.6 | listed by the BOM of log4j2-2.24.x at 2.17.0, not in its dependency graph | log4j2-2.24.x |  | 2.6.1-osera-00001 2.6.1-osera-00002 | 2.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-appoptics | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-atlas | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-azure-monitor | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
