@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T13:44:33Z. Written by the line manager reconciler.
+Generated 2026-11-24T14:26:12Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -49,10 +49,97 @@ The latest patch view: every library at the latest upstream patch release, the v
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
 | httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
+| agent-base-7.1.x | npm | `agent-base@7.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ajv-6.12.x | npm | `ajv@6.12.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| annotated-types-0.8.x | pypi | `annotated-types==0.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ansi-regex-5.0.x | npm | `ansi-regex@5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ansi-styles-4.3.x | npm | `ansi-styles@4.3.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| anyio-4.16.x | pypi | `anyio==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| autocommand-2.2.x | pypi | `autocommand==2.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| balanced-match-1.0.x | npm | `balanced-match@1.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| brace-expansion-1.1.x | npm | `brace-expansion@1.1.22` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| cffi-2.1.x | pypi | `cffi==2.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| chalk-4.1.x | npm | `chalk@4.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| chardet-3.0.x | pypi | `chardet==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| charset-normalizer-3.5.x | pypi | `charset-normalizer==3.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| click-8.5.x | pypi | `click==8.5.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| color-convert-2.0.x | npm | `color-convert@2.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| color-name-1.1.x | npm | `color-name@1.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| cryptography-50.0.x | pypi | `cryptography==50.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| debug-2.6.x | npm | `debug@2.6.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| decorator-4.2.x | pypi | `decorator==4.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| emoji-regex-8.0.x | npm | `emoji-regex@8.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ethtool-0.14.x | pypi | `ethtool==0.14` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| glob-7.2.x | npm | `glob@7.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| google-auth-2.62.x | pypi | `google-auth==2.62.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| graceful-fs-4.2.x | npm | `graceful-fs@4.2.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| h11-0.16.x | pypi | `h11==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| has-flag-4.0.x | npm | `has-flag@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| https-proxy-agent-7.0.x | npm | `https-proxy-agent@7.0.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| iconv-lite-0.6.x | npm | `iconv-lite@0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| idna-2.5.x | pypi | `idna==2.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| importlib-metadata-8.7.x | pypi | `importlib-metadata==8.7.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| inherits-2.0.x | npm | `inherits@2.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| iniparse-0.4.x | pypi | `iniparse==0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| is-fullwidth-code-point-3.0.x | npm | `is-fullwidth-code-point@3.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| isexe-2.0.x | npm | `isexe@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| jest-util-29.7.x | npm | `jest-util@29.7.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| jinja2-3.1.x | pypi | `jinja2==3.1.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| json-schema-traverse-1.0.x | npm | `json-schema-traverse@1.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lru-cache-10.4.x | npm | `lru-cache@10.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| markupsafe-3.0.x | pypi | `markupsafe==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| mime-db-1.52.x | npm | `mime-db@1.52.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| minimatch-9.0.x | npm | `minimatch@9.0.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| minipass-3.3.x | npm | `minipass@3.3.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| mkdirp-1.0.x | npm | `mkdirp@1.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| more-itertools-10.8.x | pypi | `more-itertools==10.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ms-2.0.x | npm | `ms@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| negotiator-0.6.x | npm | `negotiator@0.6.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| packaging-26.3.x | pypi | `packaging==26.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| picomatch-2.3.x | npm | `picomatch@2.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pip-9.0.x | pypi | `pip==9.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| platformdirs-4.4.x | pypi | `platformdirs==4.4.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pretty-format-28.1.x | npm | `pretty-format@28.1.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| protobuf-7.36.x | pypi | `protobuf==7.36.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pyasn1-0.6.x | pypi | `pyasn1==0.6.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pyasn1-modules-0.4.x | pypi | `pyasn1-modules==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pycparser-3.12.x | pypi | `pycparser==3.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pydantic-2.14.x | pypi | `pydantic==2.14.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pydantic-core-2.50.x | pypi | `pydantic-core==2.50.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pygments-2.21.x | pypi | `pygments==2.21.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pyinotify-0.9.x | pypi | `pyinotify==0.9.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pysocks-1.6.x | pypi | `pysocks==1.6.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| python-dateutil-2.6.x | pypi | `python-dateutil==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pyyaml-6.0.x | pypi | `pyyaml==6.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| react-is-18.3.x | npm | `react-is@18.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| readable-stream-3.6.x | npm | `readable-stream@3.6.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| requests-2.20.x | pypi | `requests==2.20.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| safe-buffer-5.2.x | npm | `safe-buffer@5.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| semver-6.3.x | npm | `semver@6.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| setuptools-39.2.x | pypi | `setuptools==39.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| signal-exit-4.1.x | npm | `signal-exit@4.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| six-1.11.x | pypi | `six==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| source-map-0.6.x | npm | `source-map@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| string-width-4.2.x | npm | `string-width@4.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| tomli-2.4.x | pypi | `tomli==2.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| tslib-1.14.x | npm | `tslib@1.14.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| typing-extensions-4.16.x | pypi | `typing-extensions==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| urllib3-1.24.x | pypi | `urllib3==1.24.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| uuid-11.1.x | npm | `uuid@11.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| wheel-0.46.x | pypi | `wheel==0.46.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| which-2.0.x | npm | `which@2.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| wrap-ansi-7.0.x | npm | `wrap-ansi@7.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| yallist-4.0.x | npm | `yallist@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| zipp-3.23.x | pypi | `zipp==3.23.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
-116 libraries across 41 line(s).
+116 libraries across 128 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
