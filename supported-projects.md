@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T23:39:56Z. Written by the line manager reconciler.
+Generated 2026-11-24T23:47:14Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -192,7 +192,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | sigstore-verify-2.1.x | npm | `@sigstore/verify@2.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | six-1.11.x | pypi | `six==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | socket.io-parser-4.2.x | npm | `socket.io-parser@4.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| soupsieve-2.9.x | pypi | `soupsieve==2.9.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| soupsieve-2.9.x | pypi | `soupsieve==2.9.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | source-map-0.6.x | npm | `source-map@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | source-map-js-1.2.x | npm | `source-map-js@1.2.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-140 libraries across 221 line(s).
+141 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -373,6 +373,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | serialize-javascript | 6.0.2 | serialize-javascript-6.0.x | pulled in by a dependency (serialize-javascript@6.0.2) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | shell-quote | 1.8.4 | shell-quote-1.8.x | pulled in by a dependency (shell-quote@1.8.4) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | sigstore | 3.1.0 | pacote-20.0.x, sigstore-3.1.x | pulled in by a dependency on pacote-20.0.x (pacote@20.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| soupsieve | 2.9.2 | soupsieve-2.9.x | pulled in by a dependency (soupsieve@2.9.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | urllib3 | 1.24.3 | requests-2.20.x | pulled in by a dependency (requests@2.20.1) | open | 10 | 0 | 0% | 0 | 0 | 10 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 2.2.1.1-osera-00005 | 2.2.1.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
