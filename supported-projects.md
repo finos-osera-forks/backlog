@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T14:37:37Z. Written by the line manager reconciler.
+Generated 2026-11-24T14:42:46Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -54,11 +54,18 @@ The latest patch view: every library at the latest upstream patch release, the v
 | annotated-types-0.8.x | pypi | `annotated-types==0.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ansi-regex-5.0.x | npm | `ansi-regex@5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ansi-styles-4.3.x | npm | `ansi-styles@4.3.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ansible-core-2.16.x | pypi | `ansible-core==2.16.20` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | anyio-4.16.x | pypi | `anyio==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-core-3.3.x | pypi | `apache-airflow-core==3.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-providers-fab-1.5.x | pypi | `apache-airflow-providers-fab==1.5.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-providers-ftp-3.7.x | pypi | `apache-airflow-providers-ftp==3.7.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-providers-google-10.12.x | pypi | `apache-airflow-providers-google==10.12.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-providers-http-5.5.x | pypi | `apache-airflow-providers-http==5.5.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | autocommand-2.2.x | pypi | `autocommand==2.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | backstage-errors-1.2.x | npm | `@backstage/errors@1.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | balanced-match-1.0.x | npm | `balanced-match@1.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | brace-expansion-1.1.x | npm | `brace-expansion@1.1.22` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| brotli-1.1.x | pypi | `brotli==1.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cffi-2.1.x | pypi | `cffi==2.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chalk-4.1.x | npm | `chalk@4.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -68,11 +75,18 @@ The latest patch view: every library at the latest upstream patch release, the v
 | color-convert-2.0.x | npm | `color-convert@2.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | color-name-1.1.x | npm | `color-name@1.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cryptography-50.0.x | pypi | `cryptography==50.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| datasets-5.0.x | pypi | `datasets==5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | debug-2.6.x | npm | `debug@2.6.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | decorator-4.2.x | pypi | `decorator==4.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| dnspython-2.8.x | pypi | `dnspython==2.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| dulwich-1.2.x | pypi | `dulwich==1.2.21` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ecdsa-0.19.x | pypi | `ecdsa==0.19.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | emoji-regex-8.0.x | npm | `emoji-regex@8.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ethtool-0.14.x | pypi | `ethtool==0.14` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| fastapi-0.141.x | pypi | `fastapi==0.141.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| flask-httpauth-4.8.x | pypi | `flask-httpauth==4.8.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| gdal-3.4.x | pypi | `gdal==3.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | glob-7.2.x | npm | `glob@7.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | google-auth-2.62.x | pypi | `google-auth==2.62.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | graceful-fs-4.2.x | npm | `graceful-fs@4.2.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -82,6 +96,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | iconv-lite-0.6.x | npm | `iconv-lite@0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | idna-2.5.x | pypi | `idna==2.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | importlib-metadata-8.7.x | pypi | `importlib-metadata==8.7.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| inflect-7.3.x | pypi | `inflect==7.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | inherits-2.0.x | npm | `inherits@2.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | iniparse-0.4.x | pypi | `iniparse==0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | is-fullwidth-code-point-3.0.x | npm | `is-fullwidth-code-point@3.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -89,61 +104,90 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jest-util-29.7.x | npm | `jest-util@29.7.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jinja2-3.1.x | pypi | `jinja2==3.1.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | json-schema-traverse-1.0.x | npm | `json-schema-traverse@1.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| kafka-python-2.0.x | pypi | `kafka-python==2.0.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| kerberos-1.3.x | pypi | `kerberos==1.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| litellm-1.85.x | pypi | `litellm==1.85.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lru-cache-10.4.x | npm | `lru-cache@10.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| markdown-3.10.x | pypi | `markdown==3.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markupsafe-3.0.x | pypi | `markupsafe==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mime-db-1.52.x | npm | `mime-db@1.52.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | minimatch-9.0.x | npm | `minimatch@9.0.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | minipass-3.3.x | npm | `minipass@3.3.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| mistune-3.1.x | pypi | `mistune==3.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mkdirp-1.0.x | npm | `mkdirp@1.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| mlflow-skinny-3.14.x | pypi | `mlflow-skinny==3.14.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| mlflow-tracing-3.18.x | pypi | `mlflow-tracing==3.18.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | more-itertools-10.8.x | pypi | `more-itertools==10.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ms-2.0.x | npm | `ms@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| msgpack-1.1.x | pypi | `msgpack==1.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | negotiator-0.6.x | npm | `negotiator@0.6.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| oauthlib-3.3.x | pypi | `oauthlib==3.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ollama-0.6.x | pypi | `ollama==0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | opentelemetry-resources-2.2.x | npm | `@opentelemetry/resources@2.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | packaging-26.3.x | pypi | `packaging==26.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | picomatch-2.3.x | npm | `picomatch@2.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pip-9.0.x | pypi | `pip==9.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | platformdirs-4.4.x | pypi | `platformdirs==4.4.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ply-3.9.x | pypi | `ply==3.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pretty-format-28.1.x | npm | `pretty-format@28.1.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | protobuf-7.36.x | pypi | `protobuf==7.36.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| py-1.11.x | pypi | `py==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyasn1-0.6.x | pypi | `pyasn1==0.6.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyasn1-modules-0.4.x | pypi | `pyasn1-modules==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pycparser-3.12.x | pypi | `pycparser==3.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pycrypto-2.6.x | pypi | `pycrypto==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pydantic-2.14.x | pypi | `pydantic==2.14.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pydantic-core-2.50.x | pypi | `pydantic-core==2.50.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pygments-2.21.x | pypi | `pygments==2.21.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyinotify-0.9.x | pypi | `pyinotify==0.9.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pymdown-extensions-10.3.x | pypi | `pymdown-extensions==10.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pymupdf-1.28.x | pypi | `pymupdf==1.28.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pypdf-6.14.x | pypi | `pypdf==6.14.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pysocks-1.6.x | pypi | `pysocks==1.6.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | python-dateutil-2.6.x | pypi | `python-dateutil==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| python-jose-3.5.x | pypi | `python-jose==3.5.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyyaml-6.0.x | pypi | `pyyaml==6.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | react-is-18.3.x | npm | `react-is@18.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | readable-stream-3.6.x | npm | `readable-stream@3.6.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.20.x | pypi | `requests==2.20.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | safe-buffer-5.2.x | npm | `safe-buffer@5.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| selenium-3.141.x | pypi | `selenium==3.141.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | semver-6.3.x | npm | `semver@6.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | setuptools-39.2.x | pypi | `setuptools==39.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | signal-exit-4.1.x | npm | `signal-exit@4.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | six-1.11.x | pypi | `six==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| soupsieve-2.9.x | pypi | `soupsieve==2.9.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | source-map-0.6.x | npm | `source-map@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | string-width-4.2.x | npm | `string-width@4.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| thrift-0.16.x | pypi | `thrift==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tomli-2.4.x | pypi | `tomli==2.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| torchvision-0.20.x | pypi | `torchvision==0.20.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| transformers-4.48.x | pypi | `transformers==4.48.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tslib-1.14.x | npm | `tslib@1.14.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| typeguard-4.3.x | pypi | `typeguard==4.3.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | types-node-20.12.x | npm | `@types/node@20.12.14` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | typing-extensions-4.16.x | pypi | `typing-extensions==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ujson-5.10.x | pypi | `ujson==5.10.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | urllib3-1.24.x | pypi | `urllib3==1.24.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | uuid-11.1.x | npm | `uuid@11.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| waitress-3.0.x | pypi | `waitress==3.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| webargs-5.5.x | pypi | `webargs==5.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | wheel-0.46.x | pypi | `wheel==0.46.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | which-2.0.x | npm | `which@2.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | wrap-ansi-7.0.x | npm | `wrap-ansi@7.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| xhtml2pdf-0.2.x | pypi | `xhtml2pdf==0.2.29` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | yallist-4.0.x | npm | `yallist@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | zipp-3.23.x | pypi | `zipp==3.23.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
-116 libraries across 132 line(s).
+116 libraries across 176 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -502,7 +546,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | com.graphql-java:graphql-java | 18.7 | in the dependency graph of spring-boot-2.7.x at 18.5, uploaded on 18.7 | spring-boot-2.7.x |  | 18.7.1-osera-00001 | 18.7.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.jayway.jsonpath:json-path-assert | 2.7.0 | listed by the BOM of spring-boot-2.7.x at 2.7.0, not in its dependency graph | spring-boot-2.7.x |  | 2.7.0.1-osera-00001 | 2.7.0.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | commons-io:commons-io | 2.6 | listed by the BOM of log4j2-2.24.x at 2.17.0, not in its dependency graph | log4j2-2.24.x |  | 2.6.1-osera-00001 2.6.1-osera-00002 | 2.6.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x, annotated-types-0.8.x, ansi-regex-5.0.x, ansi-styles-4.3.x, anyio-4.16.x, autocommand-2.2.x, backstage-errors-1.2.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| glob-parent | 3.1.0 | not listed by any line |  | crypto-js-4.1.x, agent-base-7.1.x, ajv-6.12.x, annotated-types-0.8.x, ansi-regex-5.0.x, ansi-styles-4.3.x, anyio-4.16.x, autocommand-2.2.x, backstage-errors-1.2.x, balanced-match-1.0.x, brace-expansion-1.1.x | 3.1.1-osera-00001 | 3.1.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-appoptics | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-atlas | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.micrometer:micrometer-registry-azure-monitor | 1.9.17 | listed by the BOM of spring-boot-2.7.x at 1.9.17, not in its dependency graph | spring-boot-2.7.x |  | 1.9.17.1-osera-00001 | 1.9.17.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
