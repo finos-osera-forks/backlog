@@ -2444,6 +2444,12 @@
    "first_seen": "2026-11-24T22:34:53Z"
   },
   {
+   "cve": "CVE-2026-45736",
+   "library": "ws",
+   "version": "8.17.1",
+   "first_seen": "2026-11-25T06:39:09Z"
+  },
+  {
    "cve": "CVE-2026-45822",
    "library": "decode-uri-component",
    "version": "0.2.2",
@@ -2490,6 +2496,12 @@
    "library": "@sigstore/core",
    "version": "2.0.0",
    "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-48779",
+   "library": "ws",
+   "version": "8.17.1",
+   "first_seen": "2026-11-25T06:39:09Z"
   },
   {
    "cve": "CVE-2026-48815",

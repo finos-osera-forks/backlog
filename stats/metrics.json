@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-25T06:28:51Z",
+ "as_of": "2026-11-25T06:58:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -4474,6 +4474,26 @@
  ],
  "new_cves": [
   {
+   "id": "CVE-2026-45736",
+   "summary": "ws: Uninitialized memory disclosure",
+   "library": "ws",
+   "version": "8.17.1",
+   "first_seen": "2026-11-25T06:39:09Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-48779",
+   "summary": "ws: Memory exhaustion DoS from tiny fragments and data chunks",
+   "library": "ws",
+   "version": "8.17.1",
+   "first_seen": "2026-11-25T06:39:09Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
    "id": "CVE-2023-30608",
    "summary": "sqlparse contains a regular expression that is vulnerable to Regular Expression Denial of Service",
    "library": "sqlparse",
@@ -6347,11 +6367,11 @@
    "id": "CVE-2026-77310",
    "summary": "jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
+   "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -6359,11 +6379,11 @@
    "id": "CVE-2026-77310",
    "summary": "jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
+   "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -6415,7 +6435,7 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.28",
+   "version": "1.29",
    "first_seen": "2026-10-28T00:29:00Z",
    "status": "open",
    "cvss": 5.5,
@@ -6425,7 +6445,7 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.29",
+   "version": "1.28",
    "first_seen": "2026-10-28T00:29:00Z",
    "status": "open",
    "cvss": 5.5,
@@ -7737,18 +7757,6 @@
    "id": "CVE-2026-34479",
    "summary": "Apache Log4j 1 to Log4j 2 bridge: silent log event loss in Log4j1XmlLayout due to unescaped XML 1.0 forbidden characters",
    "library": "org.apache.logging.log4j:log4j-core",
-   "version": "2.17.2",
-   "first_seen": "2026-10-27T23:04:52Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T13:19:38Z",
-   "fixed_by": "org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00006",
-   "cvss": 7.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-34479",
-   "summary": "Apache Log4j 1 to Log4j 2 bridge: silent log event loss in Log4j1XmlLayout due to unescaped XML 1.0 forbidden characters",
-   "library": "org.apache.logging.log4j:log4j-core",
    "version": "2.24.3",
    "first_seen": "2026-10-27T23:04:52Z",
    "status": "fixed",
@@ -7756,8 +7764,20 @@
    "fixed_by": "org.apache.logging.log4j:log4j-core@2.24.3.1-osera-00007",
    "cvss": 7.5,
    "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-34479",
+   "summary": "Apache Log4j 1 to Log4j 2 bridge: silent log event loss in Log4j1XmlLayout due to unescaped XML 1.0 forbidden characters",
+   "library": "org.apache.logging.log4j:log4j-core",
+   "version": "2.17.2",
+   "first_seen": "2026-10-27T23:04:52Z",
+   "status": "fixed",
+   "fixed_at": "2026-11-05T13:19:38Z",
+   "fixed_by": "org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00006",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-25T06:23:06Z",
+ "new_cves_as_of": "2026-11-25T06:39:09Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
