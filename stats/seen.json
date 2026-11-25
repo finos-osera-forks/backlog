@@ -584,6 +584,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2022-40897",
+   "library": "setuptools",
+   "version": "39.2.0",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
    "cve": "CVE-2022-41854",
    "library": "org.yaml:snakeyaml",
    "version": "1.16",
@@ -986,6 +992,12 @@
    "first_seen": "2026-11-24T23:47:14Z"
   },
   {
+   "cve": "CVE-2024-6345",
+   "library": "setuptools",
+   "version": "39.2.0",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
    "cve": "CVE-2024-6763",
    "library": "org.eclipse.jetty:jetty-http",
    "version": "9.2.30.v20200428",
@@ -1062,6 +1074,12 @@
    "library": "commons-configuration:commons-configuration",
    "version": "1.9",
    "first_seen": "2026-10-18T21:05:14Z"
+  },
+  {
+   "cve": "CVE-2025-47273",
+   "library": "setuptools",
+   "version": "39.2.0",
+   "first_seen": "2026-11-25T14:25:00Z"
   },
   {
    "cve": "CVE-2025-47935",
@@ -1304,6 +1322,54 @@
    "first_seen": "2026-11-25T05:38:51Z"
   },
   {
+   "cve": "CVE-2026-102993",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-102994",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-102995",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-102996",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-102997",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-102998",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-102999",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-103000",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
    "cve": "CVE-2026-10532",
    "library": "ch.qos.logback:logback-core",
    "version": "1.2.13",
@@ -1448,6 +1514,54 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-113786",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-113789",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-113790",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-113791",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-113792",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-113793",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-113794",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-113795",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
    "cve": "CVE-2026-114605",
    "library": "dnspython",
    "version": "2.8.0",
@@ -1458,6 +1572,24 @@
    "library": "msgpack",
    "version": "1.1.2",
    "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
+   "cve": "CVE-2026-115572",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-115580",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-115585",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
   },
   {
    "cve": "CVE-2026-115897",
@@ -1584,6 +1716,48 @@
    "library": "node-forge",
    "version": "1.3.3",
    "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-119203",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-119204",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-119205",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-119206",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-119207",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-119208",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-119209",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
   },
   {
    "cve": "CVE-2026-1225",
@@ -2858,6 +3032,12 @@
    "first_seen": "2026-10-20T20:17:11Z"
   },
   {
+   "cve": "CVE-2026-59890",
+   "library": "setuptools",
+   "version": "39.2.0",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
    "cve": "CVE-2026-59893",
    "library": "sqlparse",
    "version": "0.3.1",
@@ -3014,6 +3194,18 @@
    "first_seen": "2026-11-25T06:23:06Z"
   },
   {
+   "cve": "CVE-2026-71852",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-71870",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
    "cve": "CVE-2026-73566",
    "library": "tar",
    "version": "6.2.1",
@@ -3068,6 +3260,12 @@
    "first_seen": "2026-11-25T05:23:34Z"
   },
   {
+   "cve": "CVE-2026-82398",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
    "cve": "CVE-2026-83557",
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.13.5",
@@ -3090,6 +3288,24 @@
    "library": "sqlparse",
    "version": "0.3.1",
    "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
+   "cve": "CVE-2026-84309",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-84310",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
+  },
+  {
+   "cve": "CVE-2026-84311",
+   "library": "pypdf",
+   "version": "6.14.2",
+   "first_seen": "2026-11-25T14:25:00Z"
   },
   {
    "cve": "CVE-2026-85393",
@@ -3228,6 +3444,12 @@
    "library": "msgpack",
    "version": "1.1.2",
    "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
+   "cve": "GHSA-xmj3-9gf7-h52w",
+   "library": "setuptools",
+   "version": "39.2.0",
+   "first_seen": "2026-11-25T14:25:00Z"
   }
  ]
 }
