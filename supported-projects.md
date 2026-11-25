@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T04:57:43Z. Written by the line manager reconciler.
+Generated 2026-11-25T05:05:20Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -128,7 +128,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | launch-editor-2.13.x | npm | `launch-editor@2.13.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | litellm-1.85.x | pypi | `litellm==1.85.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| lodash-4.17.x | npm | `lodash@4.17.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lodash-4.17.x | npm | `lodash@4.17.23` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lru-cache-10.4.x | npm | `lru-cache@10.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markdown-3.10.x | pypi | `markdown==3.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markdown-it-14.1.x | npm | `markdown-it@14.1.1` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
