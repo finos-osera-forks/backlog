@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T07:21:07Z. Written by the line manager reconciler.
+Generated 2026-11-25T07:24:00Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -63,7 +63,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | apache-airflow-providers-fab-1.5.x | pypi | `apache-airflow-providers-fab==1.5.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-providers-ftp-3.7.x | pypi | `apache-airflow-providers-ftp==3.7.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-providers-google-10.12.x | pypi | `apache-airflow-providers-google==10.12.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| apache-airflow-providers-http-5.5.x | pypi | `apache-airflow-providers-http==5.5.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-providers-http-5.5.x | pypi | `apache-airflow-providers-http==5.5.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | autocommand-2.2.x | pypi | `autocommand==2.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | backstage-errors-1.2.x | npm | `@backstage/errors@1.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | balanced-match-1.0.x | npm | `balanced-match@1.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -73,7 +73,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | brotli-1.1.x | pypi | `brotli==1.1.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cacheable-request-7.0.x | npm | `cacheable-request@7.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| cffi-2.1.x | pypi | `cffi==2.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| cffi-2.1.x | pypi | `cffi==2.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chalk-4.1.x | npm | `chalk@4.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chardet-3.0.x | pypi | `chardet==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | charset-normalizer-3.5.x | pypi | `charset-normalizer==3.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -81,7 +81,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | color-convert-2.0.x | npm | `color-convert@2.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | color-name-1.1.x | npm | `color-name@1.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | compression-1.8.x | npm | `compression@1.8.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| cryptography-50.0.x | pypi | `cryptography==50.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| cryptography-50.0.x | pypi | `cryptography==50.0.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cssom-0.3.x | npm | `cssom@0.3.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | datasets-5.0.x | pypi | `datasets==5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
