@@ -104,6 +104,12 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2019-20916",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
+  },
+  {
    "cve": "CVE-2020-10683",
    "library": "dom4j:dom4j",
    "version": "1.4",
@@ -168,6 +174,12 @@
    "library": "org.eclipse.jetty:jetty-server",
    "version": "9.2.30.v20200428",
    "first_seen": "2026-10-28T00:59:00Z"
+  },
+  {
+   "cve": "CVE-2021-3572",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
   },
   {
    "cve": "CVE-2021-40690",
@@ -794,6 +806,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2023-5752",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
+  },
+  {
    "cve": "CVE-2024-12798",
    "library": "ch.qos.logback:logback-core",
    "version": "1.2.13",
@@ -1178,6 +1196,12 @@
    "first_seen": "2026-11-25T05:23:34Z"
   },
   {
+   "cve": "CVE-2025-8869",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
+  },
+  {
    "cve": "CVE-2025-8916",
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "version": "1.69",
@@ -1248,6 +1272,12 @@
    "library": "com.google.guava:guava",
    "version": "20.0",
    "first_seen": "2026-10-28T11:41:16Z"
+  },
+  {
+   "cve": "CVE-2026-102992",
+   "library": "piscina",
+   "version": "4.8.0",
+   "first_seen": "2026-11-25T05:38:51Z"
   },
   {
    "cve": "CVE-2026-10532",
@@ -1592,10 +1622,22 @@
    "first_seen": "2026-11-21T15:46:57Z"
   },
   {
+   "cve": "CVE-2026-13346",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
+  },
+  {
    "cve": "CVE-2026-13506",
    "library": "org.bouncycastle:bcprov-jdk18on",
    "version": "1.78.1",
    "first_seen": "2026-10-18T21:05:14Z"
+  },
+  {
+   "cve": "CVE-2026-1703",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
   },
   {
    "cve": "CVE-2026-18401",
@@ -1752,6 +1794,12 @@
    "library": "lodash",
    "version": "4.17.23",
    "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
+   "cve": "CVE-2026-3219",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
   },
   {
    "cve": "CVE-2026-3260",
@@ -2582,6 +2630,12 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2026-55388",
+   "library": "piscina",
+   "version": "4.8.0",
+   "first_seen": "2026-11-25T05:38:51Z"
+  },
+  {
    "cve": "CVE-2026-5588",
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "version": "1.69",
@@ -2700,6 +2754,12 @@
    "library": "com.rabbitmq:amqp-client",
    "version": "5.14.3",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-6357",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
   },
   {
    "cve": "CVE-2026-64607",
@@ -2856,6 +2916,12 @@
    "library": "python-jose",
    "version": "3.5.0",
    "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
+   "cve": "CVE-2026-8643",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z"
   },
   {
    "cve": "CVE-2026-8763",

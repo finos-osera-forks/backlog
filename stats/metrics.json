@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-25T05:23:51Z",
+ "as_of": "2026-11-25T05:58:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -4474,6 +4474,116 @@
  ],
  "new_cves": [
   {
+   "id": "CVE-2019-20916",
+   "summary": "Path Traversal in pip",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2021-3572",
+   "summary": "Improper Input Validation in pip",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 5.7,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2023-5752",
+   "summary": "Command Injection in pip when used with Mercurial",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 3.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2025-8869",
+   "summary": "pip's fallback tar extraction doesn't check symbolic links point to extraction directory",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 5.9,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-102992",
+   "summary": "piscina: Prototype-pollution gadget in ThreadPool.options allows RCE via execArgv / loadBalancer / env",
+   "library": "piscina",
+   "version": "4.8.0",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 9.2,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-13346",
+   "summary": "pip would incorrectly handle doubly-encoded package URLs from indexes",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 6.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-1703",
+   "summary": "pip Path Traversal vulnerability",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 2,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-3219",
+   "summary": "pip has an interpretation conflict due to handling both concatenated tar and ZIP files as ZIP files",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 4.6,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-55388",
+   "summary": "piscina: Prototype Pollution Gadget → RCE via inherited options.filename",
+   "library": "piscina",
+   "version": "4.8.0",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 8.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-6357",
+   "summary": "pip Vulnerable to Inclusion of Functionality from Untrusted Control Sphere",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-8643",
+   "summary": "pip: Path traversal in console_scripts/gui_scripts entry point names allows installing scripts outside of target directory",
+   "library": "pip",
+   "version": "9.0.3",
+   "first_seen": "2026-11-25T05:38:51Z",
+   "status": "open",
+   "cvss": 5.5,
+   "cvss_version": "3.1"
+  },
+  {
    "id": "CVE-2022-24434",
    "summary": "Crash in HeaderParser in dicer",
    "library": "dicer",
@@ -5969,11 +6079,11 @@
    "id": "CVE-2026-54514",
    "summary": "jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
+   "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5981,18 +6091,6 @@
    "id": "CVE-2026-54514",
    "summary": "jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
-   "first_seen": "2026-10-28T00:47:00Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
-   "cvss": 5.3,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-54515",
-   "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
-   "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
@@ -6014,8 +6112,8 @@
    "cvss_version": "3.1"
   },
   {
-   "id": "CVE-2026-77310",
-   "summary": "jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization",
+   "id": "CVE-2026-54515",
+   "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
@@ -6038,15 +6136,15 @@
    "cvss_version": "3.1"
   },
   {
-   "id": "CVE-2026-83557",
-   "summary": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
+   "id": "CVE-2026-77310",
+   "summary": "jackson-databind: Incomplete fix for CVE-2026-54514: eager DNS resolution (SSRF) still present in InetAddress deserialization",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
+   "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
-   "cvss": 5.6,
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "cvss": 5.3,
    "cvss_version": "3.1"
   },
   {
@@ -6062,13 +6160,15 @@
    "cvss_version": "3.1"
   },
   {
-   "id": "CVE-2022-38750",
-   "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
-   "library": "org.yaml:snakeyaml",
-   "version": "1.27",
-   "first_seen": "2026-10-28T00:35:02Z",
-   "status": "open",
-   "cvss": 5.5,
+   "id": "CVE-2026-83557",
+   "summary": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
+   "library": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.19.4",
+   "first_seen": "2026-10-28T00:47:00Z",
+   "status": "fixed",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "cvss": 5.6,
    "cvss_version": "3.1"
   },
   {
@@ -6085,8 +6185,8 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.29",
-   "first_seen": "2026-10-28T00:29:00Z",
+   "version": "1.27",
+   "first_seen": "2026-10-28T00:35:02Z",
    "status": "open",
    "cvss": 5.5,
    "cvss_version": "3.1"
@@ -6105,8 +6205,8 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.17",
-   "first_seen": "2026-10-28T00:23:00Z",
+   "version": "1.29",
+   "first_seen": "2026-10-28T00:29:00Z",
    "status": "open",
    "cvss": 5.5,
    "cvss_version": "3.1"
@@ -6116,6 +6216,16 @@
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
    "version": "1.16",
+   "first_seen": "2026-10-28T00:23:00Z",
+   "status": "open",
+   "cvss": 5.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2022-38750",
+   "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+   "library": "org.yaml:snakeyaml",
+   "version": "1.17",
    "first_seen": "2026-10-28T00:23:00Z",
    "status": "open",
    "cvss": 5.5,
@@ -7428,6 +7538,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-25T05:23:34Z",
+ "new_cves_as_of": "2026-11-25T05:38:51Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
