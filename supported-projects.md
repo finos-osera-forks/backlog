@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T13:56:42Z. Written by the line manager reconciler.
+Generated 2026-11-25T13:59:37Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -173,7 +173,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pyinotify-0.9.x | pypi | `pyinotify==0.9.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pymdown-extensions-10.3.x | pypi | `pymdown-extensions==10.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | pymupdf-1.28.x | pypi | `pymupdf==1.28.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pypdf-6.14.x | pypi | `pypdf==6.14.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pypdf-6.14.x | pypi | `pypdf==6.14.2` | not fixed | 32 | 0 | 0% | 0 | 0 | 32 | 0 |
 | pysocks-1.6.x | pypi | `pysocks==1.6.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | python-dateutil-2.6.x | pypi | `python-dateutil==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | python-jose-3.5.x | pypi | `python-jose==3.5.0` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-157 libraries across 221 line(s).
+158 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -379,6 +379,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | piscina | 4.8.0 | piscina-4.8.x | pulled in by a dependency (piscina@4.8.0) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | postcss | 7.0.39 | postcss-7.0.x | pulled in by a dependency (postcss@7.0.39) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | pymdown-extensions | 10.3.1 | pymdown-extensions-10.3.x | pulled in by a dependency (pymdown-extensions@10.3.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| pypdf | 6.14.2 | pypdf-6.14.x | pulled in by a dependency (pypdf@6.14.2) | open | 32 | 0 | 0% | 0 | 0 | 32 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | python-jose | 3.5.0 | python-jose-3.5.x | pulled in by a dependency (python-jose@3.5.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | requests | 2.20.1 | requests-2.20.x | pulled in by a dependency (requests@2.20.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | serialize-javascript | 6.0.2 | serialize-javascript-6.0.x | pulled in by a dependency (serialize-javascript@6.0.2) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
