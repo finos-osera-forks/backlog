@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T18:59:40Z. Written by the line manager reconciler.
+Generated 2026-11-25T19:02:14Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -86,7 +86,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | datasets-5.0.x | pypi | `datasets==5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | debug-2.6.x | npm | `debug@2.6.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| decode-uri-component-0.2.x | npm | `decode-uri-component@0.2.2` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
+| decode-uri-component-0.2.x | npm | `decode-uri-component@0.2.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | decorator-4.2.x | pypi | `decorator==4.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | deepmerge-4.3.x | npm | `deepmerge@4.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | diff-5.2.x | npm | `diff@5.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
