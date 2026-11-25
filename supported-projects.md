@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T07:18:46Z. Written by the line manager reconciler.
+Generated 2026-11-25T07:21:07Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -61,16 +61,16 @@ The latest patch view: every library at the latest upstream patch release, the v
 | anyio-4.16.x | pypi | `anyio==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-core-3.3.x | pypi | `apache-airflow-core==3.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-providers-fab-1.5.x | pypi | `apache-airflow-providers-fab==1.5.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| apache-airflow-providers-ftp-3.7.x | pypi | `apache-airflow-providers-ftp==3.7.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| apache-airflow-providers-google-10.12.x | pypi | `apache-airflow-providers-google==10.12.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| apache-airflow-providers-http-5.5.x | pypi | `apache-airflow-providers-http==5.5.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-providers-ftp-3.7.x | pypi | `apache-airflow-providers-ftp==3.7.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-providers-google-10.12.x | pypi | `apache-airflow-providers-google==10.12.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| apache-airflow-providers-http-5.5.x | pypi | `apache-airflow-providers-http==5.5.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | autocommand-2.2.x | pypi | `autocommand==2.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | backstage-errors-1.2.x | npm | `@backstage/errors@1.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | balanced-match-1.0.x | npm | `balanced-match@1.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | body-parser-1.20.x | npm | `body-parser@1.20.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | brace-expansion-1.1.x | npm | `brace-expansion@1.1.22` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | braces-3.0.x | npm | `braces@3.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| brotli-1.1.x | pypi | `brotli==1.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| brotli-1.1.x | pypi | `brotli==1.1.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cacheable-request-7.0.x | npm | `cacheable-request@7.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cffi-2.1.x | pypi | `cffi==2.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
