@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T14:54:18Z. Written by the line manager reconciler.
+Generated 2026-11-25T14:57:03Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -206,8 +206,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | tomli-2.4.x | pypi | `tomli==2.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | torchvision-0.20.x | pypi | `torchvision==0.20.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | transformers-4.48.x | pypi | `transformers==4.48.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| tslib-1.14.x | npm | `tslib@1.14.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| typeguard-4.3.x | pypi | `typeguard==4.3.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| tslib-1.14.x | npm | `tslib@1.14.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| typeguard-4.3.x | pypi | `typeguard==4.3.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | types-node-20.12.x | npm | `@types/node@20.12.14` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | typing-extensions-4.16.x | pypi | `typing-extensions==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ujson-5.10.x | pypi | `ujson==5.10.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
