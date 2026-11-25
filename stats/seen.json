@@ -140,6 +140,12 @@
    "first_seen": "2026-10-28T00:53:00Z"
   },
   {
+   "cve": "CVE-2020-26137",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2020-26939",
    "library": "org.bouncycastle:bcprov-jdk15",
    "version": "1.46",
@@ -668,6 +674,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2023-32681",
+   "library": "requests",
+   "version": "2.20.1",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2023-33201",
    "library": "org.bouncycastle:bcprov-jdk15on",
    "version": "1.69",
@@ -722,6 +734,12 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2023-43804",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2023-44270",
    "library": "postcss",
    "version": "7.0.39",
@@ -732,6 +750,12 @@
    "library": "org.apache.santuario:xmlsec",
    "version": "2.0.10",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2023-45803",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2023-46120",
@@ -842,10 +866,28 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2024-35195",
+   "library": "requests",
+   "version": "2.20.1",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2024-3651",
    "library": "idna",
    "version": "2.5",
    "first_seen": "2026-11-24T20:56:31Z"
+  },
+  {
+   "cve": "CVE-2024-3651",
+   "library": "idna",
+   "version": "2.7",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
+   "cve": "CVE-2024-37891",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2024-38807",
@@ -900,6 +942,12 @@
    "library": "com.graphql-java:graphql-java",
    "version": "18.5",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2024-47081",
+   "library": "requests",
+   "version": "2.20.1",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2024-6763",
@@ -1034,6 +1082,12 @@
    "first_seen": "2026-10-27T23:53:00Z"
   },
   {
+   "cve": "CVE-2025-50181",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2025-52999",
    "library": "com.fasterxml.jackson.core:jackson-core",
    "version": "2.13.5",
@@ -1046,6 +1100,18 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2025-66418",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
+   "cve": "CVE-2025-66471",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2025-66566",
    "library": "at.yawk.lz4:lz4-java",
    "version": "1.8.1",
@@ -1056,6 +1122,12 @@
    "library": "org.lz4:lz4-java",
    "version": "1.8.1",
    "first_seen": "2026-10-18T21:05:14Z"
+  },
+  {
+   "cve": "CVE-2025-68142",
+   "library": "pymdown-extensions",
+   "version": "10.3.1",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2025-68161",
@@ -1122,6 +1194,12 @@
    "library": "ip-address",
    "version": "9.0.5",
    "first_seen": "2026-11-24T21:15:10Z"
+  },
+  {
+   "cve": "CVE-2026-102422",
+   "library": "shell-quote",
+   "version": "1.8.4",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2026-102554",
@@ -1268,6 +1346,12 @@
    "first_seen": "2026-11-24T20:19:28Z"
   },
   {
+   "cve": "CVE-2026-115897",
+   "library": "serialize-javascript",
+   "version": "6.0.2",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2026-118669",
    "library": "oauthlib",
    "version": "3.3.1",
@@ -1412,10 +1496,40 @@
    "first_seen": "2026-11-24T22:22:15Z"
   },
   {
+   "cve": "CVE-2026-126190",
+   "library": "soupsieve",
+   "version": "2.9.2",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
+   "cve": "CVE-2026-126191",
+   "library": "soupsieve",
+   "version": "2.9.2",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
+   "cve": "CVE-2026-126192",
+   "library": "soupsieve",
+   "version": "2.9.2",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
+   "cve": "CVE-2026-126193",
+   "library": "soupsieve",
+   "version": "2.9.2",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2026-128089",
    "library": "dnspython",
    "version": "2.8.0",
    "first_seen": "2026-11-24T20:19:28Z"
+  },
+  {
+   "cve": "CVE-2026-13311",
+   "library": "shell-quote",
+   "version": "1.8.4",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2026-133325",
@@ -1464,6 +1578,12 @@
    "library": "org.eclipse.jetty:jetty-http",
    "version": "9.4.58.v20250814",
    "first_seen": "2026-10-21T21:40:49Z"
+  },
+  {
+   "cve": "CVE-2026-21441",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2026-22732",
@@ -1550,6 +1670,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-25645",
+   "library": "requests",
+   "version": "2.20.1",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2026-27727",
    "library": "com.mchange:mchange-commons-java",
    "version": "0.2.20",
@@ -1602,6 +1728,12 @@
    "library": "node-forge",
    "version": "1.3.3",
    "first_seen": "2026-11-24T22:22:15Z"
+  },
+  {
+   "cve": "CVE-2026-34043",
+   "library": "serialize-javascript",
+   "version": "6.0.2",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2026-34197",
@@ -2090,10 +2222,22 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-44431",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2026-45409",
    "library": "idna",
    "version": "2.5",
    "first_seen": "2026-11-24T20:56:31Z"
+  },
+  {
+   "cve": "CVE-2026-45409",
+   "library": "idna",
+   "version": "2.7",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2026-45505",
@@ -2106,6 +2250,12 @@
    "library": "postcss",
    "version": "7.0.39",
    "first_seen": "2026-11-24T22:34:53Z"
+  },
+  {
+   "cve": "CVE-2026-46338",
+   "library": "pymdown-extensions",
+   "version": "10.3.1",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2026-47838",
@@ -2420,6 +2570,12 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2026-61632",
+   "library": "pymdown-extensions",
+   "version": "10.3.1",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2026-61634",
    "library": "com.rabbitmq:amqp-client",
    "version": "5.14.3",
@@ -2454,6 +2610,12 @@
    "library": "org.apache.httpcomponents.client5:httpclient5",
    "version": "5.5.2",
    "first_seen": "2026-10-28T01:29:01Z"
+  },
+  {
+   "cve": "CVE-2026-67422",
+   "library": "pymdown-extensions",
+   "version": "10.3.1",
+   "first_seen": "2026-11-24T23:47:14Z"
   },
   {
    "cve": "CVE-2026-6790",
@@ -2570,6 +2732,12 @@
    "first_seen": "2026-11-24T22:22:15Z"
   },
   {
+   "cve": "CVE-2026-85394",
+   "library": "python-jose",
+   "version": "3.5.0",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2026-8763",
    "library": "org.bouncycastle:bcprov-jdk18on",
    "version": "1.78.1",
@@ -2642,6 +2810,12 @@
    "first_seen": "2026-11-24T22:22:15Z"
   },
   {
+   "cve": "CVE-2026-97689",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
    "cve": "CVE-2026-9828",
    "library": "ch.qos.logback:logback-core",
    "version": "1.2.13",
@@ -2652,6 +2826,12 @@
    "library": "markdown-it",
    "version": "14.1.1",
    "first_seen": "2026-11-24T21:43:50Z"
+  },
+  {
+   "cve": "GHSA-5c6j-r48x-rmvq",
+   "library": "serialize-javascript",
+   "version": "6.0.2",
+   "first_seen": "2026-11-24T23:47:14Z"
   }
  ]
 }

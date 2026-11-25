@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-24T22:58:51Z",
+ "as_of": "2026-11-24T23:53:51Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -4474,6 +4474,306 @@
  ],
  "new_cves": [
   {
+   "id": "CVE-2020-26137",
+   "summary": "CRLF injection in urllib3",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 6.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2023-32681",
+   "summary": "Unintended leak of Proxy-Authorization header in requests",
+   "library": "requests",
+   "version": "2.20.1",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 6.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2023-43804",
+   "summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 8.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2023-45803",
+   "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 4.2,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2024-35195",
+   "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
+   "library": "requests",
+   "version": "2.20.1",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 5.6,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2024-3651",
+   "summary": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
+   "library": "idna",
+   "version": "2.7",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2024-37891",
+   "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 6.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2024-47081",
+   "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+   "library": "requests",
+   "version": "2.20.1",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2025-50181",
+   "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 6.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2025-66418",
+   "summary": "urllib3 allows an unbounded number of links in the decompression chain",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2025-66471",
+   "summary": "urllib3 streaming API improperly handles highly compressed data",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2025-68142",
+   "summary": "PyMdown Extensions has a ReDOS bug in its Figure Capture extension",
+   "library": "pymdown-extensions",
+   "version": "10.3.1",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-102422",
+   "summary": "shell-quote: `quote()` command injection via a line terminator in a token after a `{ comment }` token",
+   "library": "shell-quote",
+   "version": "1.8.4",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 8.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-115897",
+   "summary": "Serialize JavaScript: Cross-site scripting (XSS) via unescaped \u003c/script at the end of a serialized function body",
+   "library": "serialize-javascript",
+   "version": "6.0.2",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 2.1,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-126190",
+   "summary": "Soup Sieve: Polynomial-time denial of service in the descendant combinator",
+   "library": "soupsieve",
+   "version": "2.9.2",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-126191",
+   "summary": "Soup Sieve: Exponential ReDoS in selector compilation via \\9-run in CSS_ESCAPES/IDENTIFIER",
+   "library": "soupsieve",
+   "version": "2.9.2",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-126192",
+   "summary": "Soup Sieve: General sibling combinator inside :has() matches untrusted HTML in quadratic time",
+   "library": "soupsieve",
+   "version": "2.9.2",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 6.3,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-126193",
+   "summary": "Soup Sieve: Uncontrolled recursion in CSS parser lets nested pseudo-class selectors exhaust the Python call stack",
+   "library": "soupsieve",
+   "version": "2.9.2",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-13311",
+   "summary": "shell-quote: Quadratic-complexity Denial of Service in `parse()` (CWE-407)",
+   "library": "shell-quote",
+   "version": "1.8.4",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-21441",
+   "summary": "Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-25645",
+   "summary": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
+   "library": "requests",
+   "version": "2.20.1",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 5.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-34043",
+   "summary": "Serialize JavaScript has CPU Exhaustion Denial of Service via crafted array-like objects",
+   "library": "serialize-javascript",
+   "version": "6.0.2",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-44431",
+   "summary": "urllib3: Sensitive headers forwarded across origins in proxied low-level redirects",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-45409",
+   "summary": "Internationalized Domain Names in Applications (IDNA): Specially crafted inputs to idna.encode() can bypass CVE-2024-3651 fix",
+   "library": "idna",
+   "version": "2.7",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-46338",
+   "summary": "Regression in pymdownx.snippets reintroduces sibling-prefix path traversal bypass despite restrict_base_path",
+   "library": "pymdown-extensions",
+   "version": "10.3.1",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 4.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-61632",
+   "summary": "PyMdown Extensions: Path traversal in the b64 extension lets \u003cimg src\u003e read files outside base_path",
+   "library": "pymdown-extensions",
+   "version": "10.3.1",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-67422",
+   "summary": "pymdown-extensions: exponential-backtracking ReDoS in caret, tilde, betterem, and magiclink inline processors",
+   "library": "pymdown-extensions",
+   "version": "10.3.1",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-85394",
+   "summary": "python-jose algorithm confusion guard bypassed by DER-encoded public keys",
+   "library": "python-jose",
+   "version": "3.5.0",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 9.1,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-97689",
+   "summary": "urllib3: HTTPResponse.stream()/read_chunked() buffers an unbounded chunk-size line into memory",
+   "library": "urllib3",
+   "version": "1.24.3",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "GHSA-5c6j-r48x-rmvq",
+   "summary": "Serialize JavaScript is Vulnerable to RCE via RegExp.flags and Date.prototype.toISOString()",
+   "library": "serialize-javascript",
+   "version": "6.0.2",
+   "first_seen": "2026-11-24T23:47:14Z",
+   "status": "open",
+   "cvss": 8.1,
+   "cvss_version": "3.1"
+  },
+  {
    "id": "CVE-2023-44270",
    "summary": "PostCSS line return parsing error",
    "library": "postcss",
@@ -5193,11 +5493,11 @@
    "id": "CVE-2026-64607",
    "summary": "Apache HttpComponents Client: Connection Leak on Content-Encoding Decode Error Leads to Pool Exhaustion DoS",
    "library": "org.apache.httpcomponents.client5:httpclient5",
-   "version": "5.4.4",
+   "version": "5.5.2",
    "first_seen": "2026-10-28T01:29:01Z",
    "status": "fixed",
-   "fixed_at": "2026-11-13T07:48:45Z",
-   "fixed_by": "org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00001",
+   "fixed_at": "2026-11-18T06:29:07Z",
+   "fixed_by": "org.apache.httpcomponents.client5:httpclient5@5.5.2.1-osera-00001",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5205,11 +5505,11 @@
    "id": "CVE-2026-64607",
    "summary": "Apache HttpComponents Client: Connection Leak on Content-Encoding Decode Error Leads to Pool Exhaustion DoS",
    "library": "org.apache.httpcomponents.client5:httpclient5",
-   "version": "5.5.2",
+   "version": "5.4.4",
    "first_seen": "2026-10-28T01:29:01Z",
    "status": "fixed",
-   "fixed_at": "2026-11-18T06:29:07Z",
-   "fixed_by": "org.apache.httpcomponents.client5:httpclient5@5.5.2.1-osera-00001",
+   "fixed_at": "2026-11-13T07:48:45Z",
+   "fixed_by": "org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00001",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5483,11 +5783,11 @@
    "id": "CVE-2026-54515",
    "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
+   "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5495,11 +5795,11 @@
    "id": "CVE-2026-54515",
    "summary": "jackson-databind has case-insensitive deserialization bypasses per-property @JsonIgnoreProperties",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
+   "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5531,11 +5831,11 @@
    "id": "CVE-2026-83557",
    "summary": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
+   "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.6,
    "cvss_version": "3.1"
   },
@@ -5543,11 +5843,11 @@
    "id": "CVE-2026-83557",
    "summary": "jackson-databind: Comparable missing from DefaultBaseTypeLimitingValidator's unsafe base types (incomplete PolymorphicTypeValidator denylist)",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
+   "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
    "cvss": 5.6,
    "cvss_version": "3.1"
   },
@@ -5595,16 +5895,6 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.17",
-   "first_seen": "2026-10-28T00:23:00Z",
-   "status": "open",
-   "cvss": 5.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2022-38750",
-   "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
-   "library": "org.yaml:snakeyaml",
    "version": "1.16",
    "first_seen": "2026-10-28T00:23:00Z",
    "status": "open",
@@ -5615,8 +5905,8 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.23",
-   "first_seen": "2026-10-28T00:16:52Z",
+   "version": "1.17",
+   "first_seen": "2026-10-28T00:23:00Z",
    "status": "open",
    "cvss": 5.5,
    "cvss_version": "3.1"
@@ -5626,6 +5916,16 @@
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
    "version": "1.19",
+   "first_seen": "2026-10-28T00:16:52Z",
+   "status": "open",
+   "cvss": 5.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2022-38750",
+   "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+   "library": "org.yaml:snakeyaml",
+   "version": "1.23",
    "first_seen": "2026-10-28T00:16:52Z",
    "status": "open",
    "cvss": 5.5,
@@ -6918,6 +7218,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-24T22:34:53Z",
+ "new_cves_as_of": "2026-11-24T23:47:14Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
