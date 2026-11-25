@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T23:42:19Z. Written by the line manager reconciler.
+Generated 2026-11-25T23:45:36Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -80,7 +80,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | click-8.5.x | pypi | `click==8.5.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | color-convert-2.0.x | npm | `color-convert@2.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | color-name-1.1.x | npm | `color-name@1.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| compression-1.8.x | npm | `compression@1.8.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| compression-1.8.x | npm | `compression@1.8.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cryptography-50.0.x | pypi | `cryptography==50.0.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cssom-0.3.x | npm | `cssom@0.3.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | datasets-5.0.x | pypi | `datasets==5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
