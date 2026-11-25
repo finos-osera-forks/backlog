@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T11:38:24Z",
-  "feed_version": 326,
+  "generated_at": "2026-11-25T11:42:56Z",
+  "feed_version": 327,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -7671,10 +7671,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00008"
       ],
       "state": "held",
-      "held_since": "2026-11-25T10:17:55Z",
+      "held_since": "2026-11-25T11:42:56Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -15779,13 +15779,8 @@
         "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00055",
         "org.springframework.boot:spring-boot@2.7.18.1-osera-00055"
       ],
-      "state": "held",
-      "held_since": "2026-11-25T11:38:24Z",
-      "reasons": [
-        {
-          "why": "line declaration not read: reading .osera/line.yaml of finos-osera-forks/patch-spring-boot at v2.7.18.1-osera-00055: Get \"https://raw.githubusercontent.com/finos-osera-forks/patch-spring-boot/v2.7.18.1-osera-00055/.osera/line.yaml\": read tcp 10.0.29.109:34550-\u003e185.199.110.133:443: read: connection reset by peer"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 3
     },
     {
       "set": "finos-osera-forks/patch-spring-boot@v2.7.18.1-osera-00056",
@@ -16351,13 +16346,8 @@
         "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00062",
         "org.springframework.boot:spring-boot@2.7.18.1-osera-00062"
       ],
-      "state": "held",
-      "held_since": "2026-11-25T11:38:24Z",
-      "reasons": [
-        {
-          "why": "line declaration not read: reading .osera/line.yaml of finos-osera-forks/patch-spring-boot at v2.7.18.1-osera-00062: Get \"https://raw.githubusercontent.com/finos-osera-forks/patch-spring-boot/v2.7.18.1-osera-00062/.osera/line.yaml\": read tcp 10.0.29.109:51872-\u003e185.199.109.133:443: read: connection reset by peer"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 5
     },
     {
       "set": "finos-osera-forks/patch-spring-boot@v2.7.18.1-osera-00063",
@@ -18057,13 +18047,8 @@
         "org.springframework.boot:spring-boot-test@2.7.18.1-osera-00083",
         "org.springframework.boot:spring-boot@2.7.18.1-osera-00083"
       ],
-      "state": "held",
-      "held_since": "2026-11-25T11:38:24Z",
-      "reasons": [
-        {
-          "why": "line declaration not read: reading .osera/line.yaml of finos-osera-forks/patch-spring-boot at v2.7.18.1-osera-00083: Get \"https://raw.githubusercontent.com/finos-osera-forks/patch-spring-boot/v2.7.18.1-osera-00083/.osera/line.yaml\": read tcp 10.0.29.109:60564-\u003e185.199.108.133:443: read: connection reset by peer"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 8
     },
     {
       "set": "finos-osera-forks/patch-spring-boot@v2.7.18.1-osera-00084",
