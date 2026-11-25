@@ -1352,6 +1352,12 @@
    "first_seen": "2026-11-24T23:47:14Z"
   },
   {
+   "cve": "CVE-2026-118664",
+   "library": "decode-uri-component",
+   "version": "0.2.2",
+   "first_seen": "2026-11-25T04:51:51Z"
+  },
+  {
    "cve": "CVE-2026-118669",
    "library": "oauthlib",
    "version": "3.3.1",
@@ -2256,6 +2262,12 @@
    "library": "postcss",
    "version": "7.0.39",
    "first_seen": "2026-11-24T22:34:53Z"
+  },
+  {
+   "cve": "CVE-2026-45822",
+   "library": "decode-uri-component",
+   "version": "0.2.2",
+   "first_seen": "2026-11-25T04:51:51Z"
   },
   {
    "cve": "CVE-2026-46338",
