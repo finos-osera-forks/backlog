@@ -2210,6 +2210,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-41907",
+   "library": "uuid",
+   "version": "8.3.2",
+   "first_seen": "2026-11-25T00:40:25Z"
+  },
+  {
    "cve": "CVE-2026-42338",
    "library": "ip-address",
    "version": "9.0.5",
