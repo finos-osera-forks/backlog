@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-24T23:57:53Z. Written by the line manager reconciler.
+Generated 2026-11-25T00:00:33Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -196,9 +196,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | source-map-0.6.x | npm | `source-map@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | source-map-js-1.2.x | npm | `source-map-js@1.2.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| string-width-4.2.x | npm | `string-width@4.2.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| string-width-4.2.x | npm | `string-width@4.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tar-6.2.x | npm | `tar@6.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | thrift-0.16.x | pypi | `thrift==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
