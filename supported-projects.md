@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T06:10:09Z. Written by the line manager reconciler.
+Generated 2026-11-25T06:16:49Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -200,7 +200,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| tar-6.2.x | npm | `tar@6.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| tar-6.2.x | npm | `tar@6.2.1` | not fixed | 12 | 0 | 0% | 0 | 0 | 12 | 0 |
 | thrift-0.16.x | pypi | `thrift==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tmp-0.0.x | npm | `tmp@0.0.33` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tomli-2.4.x | pypi | `tomli==2.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-151 libraries across 221 line(s).
+152 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -383,6 +383,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | sigstore | 3.1.0 | pacote-20.0.x, sigstore-3.1.x | pulled in by a dependency on pacote-20.0.x (pacote@20.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | soupsieve | 2.9.2 | soupsieve-2.9.x | pulled in by a dependency (soupsieve@2.9.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | sqlparse | 0.3.1 | sqlparse-0.3.x | pulled in by a dependency (sqlparse@0.3.1) | open | 8 | 0 | 0% | 0 | 0 | 8 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| tar | 6.2.1 | tar-6.2.x | pulled in by a dependency (tar@6.2.1) | open | 12 | 0 | 0% | 0 | 0 | 12 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | urllib3 | 1.24.3 | requests-2.20.x, urllib3-1.24.x | pulled in by a dependency on requests-2.20.x (requests@2.20.1) | open | 10 | 0 | 0% | 0 | 0 | 10 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | uuid | 8.3.2 | webpack-dev-server-5.2.x | pulled in by a dependency (sockjs@0.3.24) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 2.2.1.1-osera-00005 | 2.2.1.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
