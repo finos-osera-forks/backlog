@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T07:31:13Z. Written by the line manager reconciler.
+Generated 2026-11-25T07:33:41Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -124,8 +124,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jose-4.15.x | npm | `jose@4.15.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | json-schema-traverse-1.0.x | npm | `json-schema-traverse@1.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | kafka-python-2.0.x | pypi | `kafka-python==2.0.6` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| kerberos-1.3.x | pypi | `kerberos==1.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| kerberos-1.3.x | pypi | `kerberos==1.3.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | launch-editor-2.13.x | npm | `launch-editor@2.13.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | litellm-1.85.x | pypi | `litellm==1.85.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lodash-4.17.x | npm | `lodash@4.17.23` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
