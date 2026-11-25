@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T05:56:17Z. Written by the line manager reconciler.
+Generated 2026-11-25T05:59:03Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -185,7 +185,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | selenium-3.141.x | pypi | `selenium==3.141.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | semver-6.3.x | npm | `semver@6.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | serialize-javascript-6.0.x | npm | `serialize-javascript@6.0.2` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
-| setuptools-39.2.x | pypi | `setuptools==39.2.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| setuptools-39.2.x | pypi | `setuptools==39.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | shell-quote-1.8.x | npm | `shell-quote@1.8.4` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | signal-exit-4.1.x | npm | `signal-exit@4.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sigstore-3.1.x | npm | `sigstore@3.1.0` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
@@ -195,7 +195,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | soupsieve-2.9.x | pypi | `soupsieve==2.9.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | source-map-0.6.x | npm | `source-map@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | source-map-js-1.2.x | npm | `source-map-js@1.2.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | string-width-4.2.x | npm | `string-width@4.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
