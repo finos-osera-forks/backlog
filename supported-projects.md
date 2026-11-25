@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T02:56:54Z. Written by the line manager reconciler.
+Generated 2026-11-25T02:59:18Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -125,9 +125,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | json-schema-traverse-1.0.x | npm | `json-schema-traverse@1.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | kafka-python-2.0.x | pypi | `kafka-python==2.0.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | kerberos-1.3.x | pypi | `kerberos==1.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | launch-editor-2.13.x | npm | `launch-editor@2.13.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
-| litellm-1.85.x | pypi | `litellm==1.85.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| litellm-1.85.x | pypi | `litellm==1.85.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lodash-4.17.x | npm | `lodash@4.17.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lru-cache-10.4.x | npm | `lru-cache@10.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markdown-3.10.x | pypi | `markdown==3.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -138,8 +138,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | minipass-3.3.x | npm | `minipass@3.3.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mistune-3.1.x | pypi | `mistune==3.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mkdirp-1.0.x | npm | `mkdirp@1.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| mlflow-skinny-3.14.x | pypi | `mlflow-skinny==3.14.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| mlflow-tracing-3.18.x | pypi | `mlflow-tracing==3.18.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| mlflow-skinny-3.14.x | pypi | `mlflow-skinny==3.14.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| mlflow-tracing-3.18.x | pypi | `mlflow-tracing==3.18.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | more-itertools-10.8.x | pypi | `more-itertools==10.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ms-2.0.x | npm | `ms@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | msgpack-1.1.x | pypi | `msgpack==1.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
