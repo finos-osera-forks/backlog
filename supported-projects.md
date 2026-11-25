@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T00:37:42Z. Written by the line manager reconciler.
+Generated 2026-11-25T00:40:25Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -218,8 +218,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | vite-6.4.x | npm | `vite@6.4.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | waitress-3.0.x | pypi | `waitress==3.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | webargs-5.5.x | pypi | `webargs==5.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| webpack-dev-middleware-7.4.x | npm | `webpack-dev-middleware@7.4.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| webpack-dev-server-5.2.x | npm | `webpack-dev-server@5.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| webpack-dev-middleware-7.4.x | npm | `webpack-dev-middleware@7.4.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| webpack-dev-server-5.2.x | npm | `webpack-dev-server@5.2.7` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | websocket-driver-0.7.x | npm | `websocket-driver@0.7.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | wheel-0.46.x | pypi | `wheel==0.46.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | which-2.0.x | npm | `which@2.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-141 libraries across 221 line(s).
+142 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -375,6 +375,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | sigstore | 3.1.0 | pacote-20.0.x, sigstore-3.1.x | pulled in by a dependency on pacote-20.0.x (pacote@20.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | soupsieve | 2.9.2 | soupsieve-2.9.x | pulled in by a dependency (soupsieve@2.9.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | urllib3 | 1.24.3 | requests-2.20.x, urllib3-1.24.x | pulled in by a dependency on requests-2.20.x (requests@2.20.1) | open | 10 | 0 | 0% | 0 | 0 | 10 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| uuid | 8.3.2 | webpack-dev-server-5.2.x | pulled in by a dependency (sockjs@0.3.24) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 2.2.1.1-osera-00005 | 2.2.1.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
