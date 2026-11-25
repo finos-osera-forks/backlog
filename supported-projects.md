@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T02:40:24Z. Written by the line manager reconciler.
+Generated 2026-11-25T02:43:08Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -70,10 +70,10 @@ The latest patch view: every library at the latest upstream patch release, the v
 | body-parser-1.20.x | npm | `body-parser@1.20.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | brace-expansion-1.1.x | npm | `brace-expansion@1.1.22` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | braces-3.0.x | npm | `braces@3.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| brotli-1.1.x | pypi | `brotli==1.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| brotli-1.1.x | pypi | `brotli==1.1.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cacheable-request-7.0.x | npm | `cacheable-request@7.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| cffi-2.1.x | pypi | `cffi==2.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| cffi-2.1.x | pypi | `cffi==2.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chalk-4.1.x | npm | `chalk@4.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chardet-3.0.x | pypi | `chardet==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | charset-normalizer-3.5.x | pypi | `charset-normalizer==3.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
