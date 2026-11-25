@@ -284,6 +284,12 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2022-24434",
+   "library": "dicer",
+   "version": "0.2.5",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
    "cve": "CVE-2022-25857",
    "library": "org.yaml:snakeyaml",
    "version": "1.16",
@@ -1028,6 +1034,18 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2025-47935",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
+   "cve": "CVE-2025-47944",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
    "cve": "CVE-2025-48734",
    "library": "commons-beanutils:commons-beanutils",
    "version": "1.6.1",
@@ -1080,6 +1098,12 @@
    "library": "org.apache.commons:commons-lang3",
    "version": "3.9",
    "first_seen": "2026-10-27T23:53:00Z"
+  },
+  {
+   "cve": "CVE-2025-48997",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
   },
   {
    "cve": "CVE-2025-50181",
@@ -1148,6 +1172,12 @@
    "first_seen": "2026-11-24T19:12:29Z"
   },
   {
+   "cve": "CVE-2025-7338",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
    "cve": "CVE-2025-8916",
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "version": "1.69",
@@ -1176,6 +1206,18 @@
    "library": "org.eclipse.jetty:jetty-security",
    "version": "9.4.58.v20250814",
    "first_seen": "2026-10-18T21:05:14Z"
+  },
+  {
+   "cve": "CVE-2026-10142",
+   "library": "kafka-python",
+   "version": "2.0.6",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
+   "cve": "CVE-2026-10143",
+   "library": "kafka-python",
+   "version": "2.0.6",
+   "first_seen": "2026-11-25T05:23:34Z"
   },
   {
    "cve": "CVE-2026-101911",
@@ -1344,6 +1386,12 @@
    "library": "dnspython",
    "version": "2.8.0",
    "first_seen": "2026-11-24T20:19:28Z"
+  },
+  {
+   "cve": "CVE-2026-114613",
+   "library": "msgpack",
+   "version": "1.1.2",
+   "first_seen": "2026-11-25T05:23:34Z"
   },
   {
    "cve": "CVE-2026-115897",
@@ -1670,6 +1718,12 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2026-2359",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
    "cve": "CVE-2026-24400",
    "library": "org.assertj:assertj-core",
    "version": "3.22.0",
@@ -1694,10 +1748,22 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2026-2950",
+   "library": "lodash",
+   "version": "4.17.23",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
    "cve": "CVE-2026-3260",
    "library": "io.undertow:undertow-core",
    "version": "2.2.41.Final",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-3304",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
   },
   {
    "cve": "CVE-2026-33227",
@@ -1800,6 +1866,12 @@
    "library": "org.apache.logging.log4j:log4j-layout-template-json",
    "version": "2.17.2",
    "first_seen": "2026-10-18T21:05:14Z"
+  },
+  {
+   "cve": "CVE-2026-3520",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
   },
   {
    "cve": "CVE-2026-39304",
@@ -2300,6 +2372,12 @@
    "first_seen": "2026-10-21T21:40:49Z"
   },
   {
+   "cve": "CVE-2026-4800",
+   "library": "lodash",
+   "version": "4.17.23",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
    "cve": "CVE-2026-48758",
    "library": "@sigstore/core",
    "version": "2.0.0",
@@ -2370,6 +2448,12 @@
    "library": "org.apache.activemq:activemq-client",
    "version": "5.16.8",
    "first_seen": "2026-11-05T09:20:51Z"
+  },
+  {
+   "cve": "CVE-2026-5079",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
   },
   {
    "cve": "CVE-2026-53632",
@@ -2708,6 +2792,18 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-77063",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
+   "cve": "CVE-2026-77078",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
    "cve": "CVE-2026-77310",
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.13.5",
@@ -2724,6 +2820,12 @@
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z"
+  },
+  {
+   "cve": "CVE-2026-82333",
+   "library": "multer",
+   "version": "1.4.4",
+   "first_seen": "2026-11-25T05:23:34Z"
   },
   {
    "cve": "CVE-2026-83557",
@@ -2850,6 +2952,12 @@
    "library": "serialize-javascript",
    "version": "6.0.2",
    "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
+   "cve": "GHSA-6v7p-g79w-8964",
+   "library": "msgpack",
+   "version": "1.1.2",
+   "first_seen": "2026-11-25T05:23:34Z"
   }
  ]
 }
