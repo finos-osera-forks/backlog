@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T02:45:39Z. Written by the line manager reconciler.
+Generated 2026-11-25T02:48:04Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -81,10 +81,10 @@ The latest patch view: every library at the latest upstream patch release, the v
 | color-convert-2.0.x | npm | `color-convert@2.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | color-name-1.1.x | npm | `color-name@1.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | compression-1.8.x | npm | `compression@1.8.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| cryptography-50.0.x | pypi | `cryptography==50.0.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| cryptography-50.0.x | pypi | `cryptography==50.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cssom-0.3.x | npm | `cssom@0.3.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | datasets-5.0.x | pypi | `datasets==5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | debug-2.6.x | npm | `debug@2.6.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | decode-uri-component-0.2.x | npm | `decode-uri-component@0.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | decorator-4.2.x | pypi | `decorator==4.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -95,8 +95,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | ecdsa-0.19.x | pypi | `ecdsa==0.19.2` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | ejs-3.1.x | npm | `ejs@3.1.10` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | emoji-regex-8.0.x | npm | `emoji-regex@8.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ethtool-0.14.x | pypi | `ethtool==0.14` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| fastapi-0.141.x | pypi | `fastapi==0.141.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ethtool-0.14.x | pypi | `ethtool==0.14` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| fastapi-0.141.x | pypi | `fastapi==0.141.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | flask-httpauth-4.8.x | pypi | `flask-httpauth==4.8.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | follow-redirects-1.16.x | npm | `follow-redirects@1.16.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | gdal-3.4.x | pypi | `gdal==3.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
