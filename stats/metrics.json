@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-25T04:28:51Z",
+ "as_of": "2026-11-25T04:53:56Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -4474,6 +4474,26 @@
  ],
  "new_cves": [
   {
+   "id": "CVE-2026-118664",
+   "summary": "decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs",
+   "library": "decode-uri-component",
+   "version": "0.2.2",
+   "first_seen": "2026-11-25T04:51:51Z",
+   "status": "open",
+   "cvss": 8.2,
+   "cvss_version": "4.0"
+  },
+  {
+   "id": "CVE-2026-45822",
+   "summary": "decode-uri-component: Denial of service via exponential decoding of malformed percent-encoded input",
+   "library": "decode-uri-component",
+   "version": "0.2.2",
+   "first_seen": "2026-11-25T04:51:51Z",
+   "status": "open",
+   "cvss": 6.6,
+   "cvss_version": "4.0"
+  },
+  {
    "id": "CVE-2026-41907",
    "summary": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
    "library": "uuid",
@@ -5745,11 +5765,11 @@
    "id": "CVE-2026-19032",
    "summary": "jackson-databind: Path Deserialization Missing Scheme Allowlist for FileSystemProvider Resolution",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.19.4",
+   "version": "2.15.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:43:43Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5757,23 +5777,11 @@
    "id": "CVE-2026-19032",
    "summary": "jackson-databind: Path Deserialization Missing Scheme Allowlist for FileSystemProvider Resolution",
    "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
+   "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z",
    "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
-   "cvss": 5.3,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-54514",
-   "summary": "jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)",
-   "library": "com.fasterxml.jackson.core:jackson-databind",
-   "version": "2.15.4",
-   "first_seen": "2026-10-28T00:47:00Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-05T16:14:59Z",
-   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
+   "fixed_at": "2026-11-05T16:43:43Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5786,6 +5794,18 @@
    "status": "fixed",
    "fixed_at": "2026-11-05T16:43:43Z",
    "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.19.4.1-osera-00023",
+   "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-54514",
+   "summary": "jackson-databind: InetSocketAddress deserialization triggers eager DNS resolution (SSRF)",
+   "library": "com.fasterxml.jackson.core:jackson-databind",
+   "version": "2.15.4",
+   "first_seen": "2026-10-28T00:47:00Z",
+   "status": "fixed",
+   "fixed_at": "2026-11-05T16:14:59Z",
+   "fixed_by": "com.fasterxml.jackson.core:jackson-databind@2.15.4.1-osera-00021",
    "cvss": 5.3,
    "cvss_version": "3.1"
   },
@@ -5865,7 +5885,7 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.27",
+   "version": "1.26",
    "first_seen": "2026-10-28T00:35:02Z",
    "status": "open",
    "cvss": 5.5,
@@ -5875,7 +5895,7 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.26",
+   "version": "1.27",
    "first_seen": "2026-10-28T00:35:02Z",
    "status": "open",
    "cvss": 5.5,
@@ -5905,16 +5925,6 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.16",
-   "first_seen": "2026-10-28T00:23:00Z",
-   "status": "open",
-   "cvss": 5.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2022-38750",
-   "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
-   "library": "org.yaml:snakeyaml",
    "version": "1.17",
    "first_seen": "2026-10-28T00:23:00Z",
    "status": "open",
@@ -5925,8 +5935,8 @@
    "id": "CVE-2022-38750",
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
-   "version": "1.19",
-   "first_seen": "2026-10-28T00:16:52Z",
+   "version": "1.16",
+   "first_seen": "2026-10-28T00:23:00Z",
    "status": "open",
    "cvss": 5.5,
    "cvss_version": "3.1"
@@ -5936,6 +5946,16 @@
    "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
    "library": "org.yaml:snakeyaml",
    "version": "1.23",
+   "first_seen": "2026-10-28T00:16:52Z",
+   "status": "open",
+   "cvss": 5.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2022-38750",
+   "summary": "snakeYAML before 1.31 vulnerable to Denial of Service due to Out-of-bounds Write",
+   "library": "org.yaml:snakeyaml",
+   "version": "1.19",
    "first_seen": "2026-10-28T00:16:52Z",
    "status": "open",
    "cvss": 5.5,
@@ -5965,7 +5985,7 @@
    "id": "CVE-2025-48924",
    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
    "library": "org.apache.commons:commons-lang3",
-   "version": "3.9",
+   "version": "3.11",
    "first_seen": "2026-10-27T23:53:00Z",
    "status": "open",
    "cvss": 5.3,
@@ -5975,7 +5995,7 @@
    "id": "CVE-2025-48924",
    "summary": "Apache Commons Lang is vulnerable to Uncontrolled Recursion when processing long inputs",
    "library": "org.apache.commons:commons-lang3",
-   "version": "3.11",
+   "version": "3.9",
    "first_seen": "2026-10-27T23:53:00Z",
    "status": "open",
    "cvss": 5.3,
@@ -7228,6 +7248,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-25T02:20:40Z",
+ "new_cves_as_of": "2026-11-25T04:51:51Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
