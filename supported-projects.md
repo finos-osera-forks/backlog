@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T05:07:49Z. Written by the line manager reconciler.
+Generated 2026-11-25T05:14:31Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -128,13 +128,13 @@ The latest patch view: every library at the latest upstream patch release, the v
 | langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | launch-editor-2.13.x | npm | `launch-editor@2.13.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | litellm-1.85.x | pypi | `litellm==1.85.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| lodash-4.17.x | npm | `lodash@4.17.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lodash-4.17.x | npm | `lodash@4.17.23` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | lru-cache-10.4.x | npm | `lru-cache@10.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markdown-3.10.x | pypi | `markdown==3.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markdown-it-14.1.x | npm | `markdown-it@14.1.1` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
 | markupsafe-3.0.x | pypi | `markupsafe==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mime-db-1.52.x | npm | `mime-db@1.52.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| minimatch-9.0.x | npm | `minimatch@9.0.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| minimatch-9.0.x | npm | `minimatch@9.0.9` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | minipass-3.3.x | npm | `minipass@3.3.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mistune-3.1.x | pypi | `mistune==3.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mkdirp-1.0.x | npm | `mkdirp@1.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-144 libraries across 221 line(s).
+145 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -279,9 +279,10 @@ The latest patch view: every library at the latest upstream patch release, the v
 | ip-address | 9.0.5 | ip-address-9.0.x | pulled in by a dependency (ip-address@9.0.5) | open | 6 | 0 | 0% | 0 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | kafka-python | 2.0.6 | kafka-python-2.0.x | pulled in by a dependency (kafka-python@2.0.6) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | launch-editor | 2.13.2 | launch-editor-2.13.x | pulled in by a dependency (launch-editor@2.13.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| lodash | 4.17.23 | lodash-4.17.x | pulled in by a dependency (lodash@4.17.23) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00008 | 1.2.17.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | markdown-it | 14.1.1 | markdown-it-14.1.x | pulled in by a dependency (markdown-it@14.1.1) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| minimatch | 9.0.9 | pacote-20.0.x, sigstore-3.1.x | pulled in by a dependency (@tufjs/models@3.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| minimatch | 9.0.9 | minimatch-9.0.x, pacote-20.0.x, sigstore-3.1.x | pulled in by a dependency on minimatch-9.0.x (minimatch@9.0.9) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | node-forge | 1.3.3 | node-forge-1.3.x | pulled in by a dependency (node-forge@1.3.3) | open | 25 | 0 | 0% | 0 | 0 | 25 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | oauthlib | 3.3.1 | oauthlib-3.3.x | pulled in by a dependency (oauthlib@3.3.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ognl:ognl | 3.1.29 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
