@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T03:02:23Z. Written by the line manager reconciler.
+Generated 2026-11-25T03:04:46Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -147,7 +147,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | negotiator-0.6.x | npm | `negotiator@0.6.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | node-forge-1.3.x | npm | `node-forge@1.3.3` | not fixed | 25 | 0 | 0% | 0 | 0 | 25 | 0 |
 | oauthlib-3.3.x | pypi | `oauthlib==3.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
-| ollama-0.6.x | pypi | `ollama==0.6.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ollama-0.6.x | pypi | `ollama==0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | opentelemetry-resources-2.2.x | npm | `@opentelemetry/resources@2.2.0` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | packaging-26.3.x | pypi | `packaging==26.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -156,7 +156,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pip-9.0.x | pypi | `pip==9.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | piscina-4.8.x | npm | `piscina@4.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | platformdirs-4.4.x | pypi | `platformdirs==4.4.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ply-3.9.x | pypi | `ply==3.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ply-3.9.x | pypi | `ply==3.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | postcss-7.0.x | npm | `postcss@7.0.39` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
 | pretty-format-28.1.x | npm | `pretty-format@28.1.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | promzard-2.0.x | npm | `promzard@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -166,8 +166,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pyasn1-0.6.x | pypi | `pyasn1==0.6.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyasn1-modules-0.4.x | pypi | `pyasn1-modules==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pycparser-3.12.x | pypi | `pycparser==3.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pycrypto-2.6.x | pypi | `pycrypto==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pydantic-2.14.x | pypi | `pydantic==2.14.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pycrypto-2.6.x | pypi | `pycrypto==2.6.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pydantic-2.14.x | pypi | `pydantic==2.14.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pydantic-core-2.50.x | pypi | `pydantic-core==2.50.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pygments-2.21.x | pypi | `pygments==2.21.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyinotify-0.9.x | pypi | `pyinotify==0.9.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
