@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T00:06:12Z. Written by the line manager reconciler.
+Generated 2026-11-25T00:08:40Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -202,8 +202,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tar-6.2.x | npm | `tar@6.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | thrift-0.16.x | pypi | `thrift==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| tmp-0.0.x | npm | `tmp@0.0.33` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| tomli-2.4.x | pypi | `tomli==2.4.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| tmp-0.0.x | npm | `tmp@0.0.33` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| tomli-2.4.x | pypi | `tomli==2.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | torchvision-0.20.x | pypi | `torchvision==0.20.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | transformers-4.48.x | pypi | `transformers==4.48.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tslib-1.14.x | npm | `tslib@1.14.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
