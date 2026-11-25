@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T03:07:21Z. Written by the line manager reconciler.
+Generated 2026-11-25T03:10:32Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -168,13 +168,13 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pycparser-3.12.x | pypi | `pycparser==3.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pycrypto-2.6.x | pypi | `pycrypto==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pydantic-2.14.x | pypi | `pydantic==2.14.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pydantic-core-2.50.x | pypi | `pydantic-core==2.50.5` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pydantic-core-2.50.x | pypi | `pydantic-core==2.50.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pygments-2.21.x | pypi | `pygments==2.21.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pyinotify-0.9.x | pypi | `pyinotify==0.9.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pyinotify-0.9.x | pypi | `pyinotify==0.9.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pymdown-extensions-10.3.x | pypi | `pymdown-extensions==10.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | pymupdf-1.28.x | pypi | `pymupdf==1.28.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pypdf-6.14.x | pypi | `pypdf==6.14.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pysocks-1.6.x | pypi | `pysocks==1.6.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pysocks-1.6.x | pypi | `pysocks==1.6.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | python-dateutil-2.6.x | pypi | `python-dateutil==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | python-jose-3.5.x | pypi | `python-jose==3.5.0` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | pyyaml-6.0.x | pypi | `pyyaml==6.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -201,7 +201,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tar-6.2.x | npm | `tar@6.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| thrift-0.16.x | pypi | `thrift==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| thrift-0.16.x | pypi | `thrift==0.16.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tmp-0.0.x | npm | `tmp@0.0.33` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tomli-2.4.x | pypi | `tomli==2.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | torchvision-0.20.x | pypi | `torchvision==0.20.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
