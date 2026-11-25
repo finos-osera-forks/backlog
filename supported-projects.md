@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T05:59:03Z. Written by the line manager reconciler.
+Generated 2026-11-25T06:03:21Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -189,13 +189,13 @@ The latest patch view: every library at the latest upstream patch release, the v
 | shell-quote-1.8.x | npm | `shell-quote@1.8.4` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | signal-exit-4.1.x | npm | `signal-exit@4.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sigstore-3.1.x | npm | `sigstore@3.1.0` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
-| sigstore-verify-2.1.x | npm | `@sigstore/verify@2.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| sigstore-verify-2.1.x | npm | `@sigstore/verify@2.1.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | six-1.11.x | pypi | `six==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | socket.io-parser-4.2.x | npm | `socket.io-parser@4.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | soupsieve-2.9.x | pypi | `soupsieve==2.9.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | source-map-0.6.x | npm | `source-map@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | source-map-js-1.2.x | npm | `source-map-js@1.2.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | string-width-4.2.x | npm | `string-width@4.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -237,7 +237,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | @opentelemetry/core | 2.2.0 | opentelemetry-core-2.2.x, opentelemetry-resources-2.2.x | pulled in by a dependency on opentelemetry-core-2.2.x (@opentelemetry/core@2.2.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| @sigstore/core | 2.0.0 | pacote-20.0.x, sigstore-3.1.x | pulled in by a dependency (@sigstore/sign@3.1.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| @sigstore/core | 2.0.0 | pacote-20.0.x, sigstore-3.1.x, sigstore-verify-2.1.x | pulled in by a dependency on pacote-20.0.x (@sigstore/sign@3.1.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ajv | 6.12.6 | ajv-6.12.x | pulled in by a dependency (ajv@6.12.6) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | pulled in by a dependency on lz4-java-1.8.x (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00008 | 1.8.1.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 6 | 2 | 33% | 0 | 0 | 4 | 0 | 1.2.13.1-osera-00004 | 1.2.13.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
