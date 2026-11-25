@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T05:05:20Z. Written by the line manager reconciler.
+Generated 2026-11-25T05:07:49Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -123,12 +123,12 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jinja2-3.1.x | pypi | `jinja2==3.1.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jose-4.15.x | npm | `jose@4.15.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | json-schema-traverse-1.0.x | npm | `json-schema-traverse@1.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| kafka-python-2.0.x | pypi | `kafka-python==2.0.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| kafka-python-2.0.x | pypi | `kafka-python==2.0.6` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | kerberos-1.3.x | pypi | `kerberos==1.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | launch-editor-2.13.x | npm | `launch-editor@2.13.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | litellm-1.85.x | pypi | `litellm==1.85.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| lodash-4.17.x | npm | `lodash@4.17.23` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| lodash-4.17.x | npm | `lodash@4.17.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | lru-cache-10.4.x | npm | `lru-cache@10.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markdown-3.10.x | pypi | `markdown==3.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markdown-it-14.1.x | npm | `markdown-it@14.1.1` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-143 libraries across 221 line(s).
+144 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -277,6 +277,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.undertow:undertow-core | 2.2.41.Final | spring-boot-2.7.x | listed by the BOM at 2.2.28.Final | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ip | 2.0.1 | ip-2.0.x | pulled in by a dependency (ip@2.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ip-address | 9.0.5 | ip-address-9.0.x | pulled in by a dependency (ip-address@9.0.5) | open | 6 | 0 | 0% | 0 | 0 | 6 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| kafka-python | 2.0.6 | kafka-python-2.0.x | pulled in by a dependency (kafka-python@2.0.6) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | launch-editor | 2.13.2 | launch-editor-2.13.x | pulled in by a dependency (launch-editor@2.13.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | log4j:log4j | 1.2.17 | log4j-1.2.x | own project (the anchor's group) | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 | 1.2.17.1-osera-00008 | 1.2.17.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | markdown-it | 14.1.1 | markdown-it-14.1.x | pulled in by a dependency (markdown-it@14.1.1) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
