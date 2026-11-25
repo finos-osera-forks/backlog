@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T14:06:39Z. Written by the line manager reconciler.
+Generated 2026-11-25T14:25:00Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -185,7 +185,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | selenium-3.141.x | pypi | `selenium==3.141.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | semver-6.3.x | npm | `semver@6.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | serialize-javascript-6.0.x | npm | `serialize-javascript@6.0.2` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
-| setuptools-39.2.x | pypi | `setuptools==39.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| setuptools-39.2.x | pypi | `setuptools==39.2.0` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
 | shell-quote-1.8.x | npm | `shell-quote@1.8.4` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | signal-exit-4.1.x | npm | `signal-exit@4.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sigstore-3.1.x | npm | `sigstore@3.1.0` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-158 libraries across 221 line(s).
+159 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -383,6 +383,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | python-jose | 3.5.0 | python-jose-3.5.x | pulled in by a dependency (python-jose@3.5.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | requests | 2.20.1 | requests-2.20.x | pulled in by a dependency (requests@2.20.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | serialize-javascript | 6.0.2 | serialize-javascript-6.0.x | pulled in by a dependency (serialize-javascript@6.0.2) | open | 3 | 0 | 0% | 0 | 0 | 3 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| setuptools | 39.2.0 | setuptools-39.2.x | pulled in by a dependency (setuptools@39.2.0) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | shell-quote | 1.8.4 | shell-quote-1.8.x | pulled in by a dependency (shell-quote@1.8.4) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | sigstore | 3.1.0 | pacote-20.0.x, sigstore-3.1.x | pulled in by a dependency on pacote-20.0.x (pacote@20.0.1) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | soupsieve | 2.9.2 | soupsieve-2.9.x | pulled in by a dependency (soupsieve@2.9.2) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
