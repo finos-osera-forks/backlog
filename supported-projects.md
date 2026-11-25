@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T12:30:31Z. Written by the line manager reconciler.
+Generated 2026-11-25T13:05:46Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -136,7 +136,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | mime-db-1.52.x | npm | `mime-db@1.52.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | minimatch-9.0.x | npm | `minimatch@9.0.9` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | minipass-3.3.x | npm | `minipass@3.3.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| mistune-3.1.x | pypi | `mistune==3.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| mistune-3.1.x | pypi | `mistune==3.1.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mkdirp-1.0.x | npm | `mkdirp@1.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mlflow-skinny-3.14.x | pypi | `mlflow-skinny==3.14.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mlflow-tracing-3.18.x | pypi | `mlflow-tracing==3.18.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
