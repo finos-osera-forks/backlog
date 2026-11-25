@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T05:20:49Z. Written by the line manager reconciler.
+Generated 2026-11-25T05:23:34Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -143,7 +143,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | more-itertools-10.8.x | pypi | `more-itertools==10.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ms-2.0.x | npm | `ms@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | msgpack-1.1.x | pypi | `msgpack==1.1.2` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| multer-1.4.x | npm | `multer@1.4.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| multer-1.4.x | npm | `multer@1.4.4` | not fixed | 12 | 0 | 0% | 0 | 0 | 12 | 0 |
 | negotiator-0.6.x | npm | `negotiator@0.6.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | node-forge-1.3.x | npm | `node-forge@1.3.3` | not fixed | 25 | 0 | 0% | 0 | 0 | 25 | 0 |
 | oauthlib-3.3.x | pypi | `oauthlib==3.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-146 libraries across 221 line(s).
+148 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -266,6 +266,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-lang:commons-lang | 2.6 | commons-configuration-1.9.x | pulled in by a dependency (commons-configuration:commons-configuration@1.9) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.6.1-osera-00001 | 2.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | crypto-js | 4.1.1 | crypto-js-4.1.x | pulled in by a dependency (crypto-js@4.1.1) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 4.1.2-osera-00001 | 4.1.2-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | decode-uri-component | 0.2.2 | decode-uri-component-0.2.x | pulled in by a dependency (decode-uri-component@0.2.2) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| dicer | 0.2.5 | multer-1.4.x | pulled in by a dependency (busboy@0.2.14) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | dnspython | 2.8.0 | dnspython-2.8.x | pulled in by a dependency (dnspython@2.8.0) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ecdsa | 0.19.2 | ecdsa-0.19.x, python-jose-3.5.x | pulled in by a dependency on ecdsa-0.19.x (ecdsa@0.19.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
@@ -284,6 +285,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | markdown-it | 14.1.1 | markdown-it-14.1.x | pulled in by a dependency (markdown-it@14.1.1) | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | minimatch | 9.0.9 | minimatch-9.0.x, pacote-20.0.x, sigstore-3.1.x | pulled in by a dependency on minimatch-9.0.x (minimatch@9.0.9) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | msgpack | 1.1.2 | msgpack-1.1.x | pulled in by a dependency (msgpack@1.1.2) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| multer | 1.4.4 | multer-1.4.x | pulled in by a dependency (multer@1.4.4) | open | 11 | 0 | 0% | 0 | 0 | 11 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | node-forge | 1.3.3 | node-forge-1.3.x | pulled in by a dependency (node-forge@1.3.3) | open | 25 | 0 | 0% | 0 | 0 | 25 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | oauthlib | 3.3.1 | oauthlib-3.3.x | pulled in by a dependency (oauthlib@3.3.1) | open | 4 | 0 | 0% | 0 | 0 | 4 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ognl:ognl | 3.1.29 | spring-boot-2.7.x | pulled in by a dependency (org.thymeleaf:thymeleaf@3.0.15.RELEASE) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
