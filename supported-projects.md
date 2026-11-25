@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T04:45:08Z. Written by the line manager reconciler.
+Generated 2026-11-25T04:51:51Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -86,7 +86,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | datasets-5.0.x | pypi | `datasets==5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | debug-2.6.x | npm | `debug@2.6.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| decode-uri-component-0.2.x | npm | `decode-uri-component@0.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| decode-uri-component-0.2.x | npm | `decode-uri-component@0.2.2` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | decorator-4.2.x | pypi | `decorator==4.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | deepmerge-4.3.x | npm | `deepmerge@4.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | diff-5.2.x | npm | `diff@5.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-142 libraries across 221 line(s).
+143 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -265,6 +265,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-lang:commons-lang | 2.4 | spring-boot-2.7.x, spring-security-5.7.x, velocity-1.6.x, velocity-1.7.x | pulled in by a dependency on spring-boot-2.7.x (org.apache.velocity:velocity@1.7) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | commons-lang:commons-lang | 2.6 | commons-configuration-1.9.x | pulled in by a dependency (commons-configuration:commons-configuration@1.9) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 2.6.1-osera-00001 | 2.6.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | crypto-js | 4.1.1 | crypto-js-4.1.x | pulled in by a dependency (crypto-js@4.1.1) | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 | 4.1.2-osera-00001 | 4.1.2-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| decode-uri-component | 0.2.2 | decode-uri-component-0.2.x | pulled in by a dependency (decode-uri-component@0.2.2) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | dnspython | 2.8.0 | dnspython-2.8.x | pulled in by a dependency (dnspython@2.8.0) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | dom4j:dom4j | 1.4 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | fixed | 2 | 2 | 100% | 0 | 0 | 0 | 0 | 1.4.1-osera-00003 | 1.4.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | ecdsa | 0.19.2 | ecdsa-0.19.x, python-jose-3.5.x | pulled in by a dependency on ecdsa-0.19.x (ecdsa@0.19.2) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
