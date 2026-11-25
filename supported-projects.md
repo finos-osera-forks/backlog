@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T02:48:04Z. Written by the line manager reconciler.
+Generated 2026-11-25T02:50:21Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -95,13 +95,13 @@ The latest patch view: every library at the latest upstream patch release, the v
 | ecdsa-0.19.x | pypi | `ecdsa==0.19.2` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | ejs-3.1.x | npm | `ejs@3.1.10` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | emoji-regex-8.0.x | npm | `emoji-regex@8.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ethtool-0.14.x | pypi | `ethtool==0.14` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| fastapi-0.141.x | pypi | `fastapi==0.141.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ethtool-0.14.x | pypi | `ethtool==0.14` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| fastapi-0.141.x | pypi | `fastapi==0.141.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | flask-httpauth-4.8.x | pypi | `flask-httpauth==4.8.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | follow-redirects-1.16.x | npm | `follow-redirects@1.16.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| gdal-3.4.x | pypi | `gdal==3.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| gdal-3.4.x | pypi | `gdal==3.4.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | glob-7.2.x | npm | `glob@7.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| google-auth-2.62.x | pypi | `google-auth==2.62.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| google-auth-2.62.x | pypi | `google-auth==2.62.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | graceful-fs-4.2.x | npm | `graceful-fs@4.2.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | h11-0.16.x | pypi | `h11==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | handlebars-4.7.x | npm | `handlebars@4.7.10` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
