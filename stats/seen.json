@@ -1262,6 +1262,12 @@
    "first_seen": "2026-11-25T05:23:34Z"
   },
   {
+   "cve": "CVE-2026-101896",
+   "library": "@angular/router",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
+  },
+  {
    "cve": "CVE-2026-101911",
    "library": "ip-address",
    "version": "9.0.5",
@@ -1380,6 +1386,18 @@
    "library": "org.lz4:lz4-java",
    "version": "1.8.1",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2026-111752",
+   "library": "@angular/router",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
+  },
+  {
+   "cve": "CVE-2026-111753",
+   "library": "@angular/common",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
   },
   {
    "cve": "CVE-2026-111758",
@@ -2600,6 +2618,24 @@
    "first_seen": "2026-11-05T09:20:51Z"
   },
   {
+   "cve": "CVE-2026-54266",
+   "library": "@angular/common",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
+  },
+  {
+   "cve": "CVE-2026-54267",
+   "library": "@angular/core",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
+  },
+  {
+   "cve": "CVE-2026-54268",
+   "library": "@angular/common",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
+  },
+  {
    "cve": "CVE-2026-54284",
    "library": "sqlparse",
    "version": "0.3.1",
@@ -2936,6 +2972,18 @@
    "first_seen": "2026-10-18T21:05:14Z"
   },
   {
+   "cve": "CVE-2026-68945",
+   "library": "@angular/common",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
+  },
+  {
+   "cve": "CVE-2026-69151",
+   "library": "@angular/core",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
+  },
+  {
    "cve": "CVE-2026-69153",
    "library": "postcss",
    "version": "7.0.39",
@@ -3066,6 +3114,18 @@
    "library": "org.bouncycastle:bcprov-jdk18on",
    "version": "1.78.1",
    "first_seen": "2026-10-18T21:05:14Z"
+  },
+  {
+   "cve": "CVE-2026-88057",
+   "library": "@angular/core",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
+  },
+  {
+   "cve": "CVE-2026-88059",
+   "library": "@angular/common",
+   "version": "19.2.25",
+   "first_seen": "2026-11-25T10:42:01Z"
   },
   {
    "cve": "CVE-2026-89407",
