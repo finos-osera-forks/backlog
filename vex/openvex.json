@@ -4,9 +4,9 @@
   "author": "OSERA Exchange",
   "role": "the exchange republishing the producers' statements for whole promoted release sets",
   "timestamp": "2026-10-15T15:03:01Z",
-  "last_updated": "2026-11-20T16:11:42Z",
-  "version": 325,
-  "tooling": "osera-feed 92b81e570e019a6ffef56958d4dc28ef02f62ef0",
+  "last_updated": "2026-11-25T11:38:24Z",
+  "version": 326,
+  "tooling": "osera-feed f698a7bc7638f896da6415370c907a7c8c2c6837",
   "statements": [
     {
       "vulnerability": {
@@ -67038,35 +67038,6 @@
       "vulnerability": {
         "name": "CVE-2025-22235"
       },
-      "timestamp": "2026-10-15T14:13:10Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00055"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-22733",
-        "aliases": [
-          "GHSA-mgvc-8q2h-5pgc"
-        ]
-      },
-      "timestamp": "2026-10-15T14:13:10Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00055"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2025-22235"
-      },
       "timestamp": "2026-10-15T14:20:21Z",
       "products": [
         {
@@ -67232,35 +67203,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00061"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2025-22235"
-      },
-      "timestamp": "2026-10-15T16:00:04Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00062"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-22733",
-        "aliases": [
-          "GHSA-mgvc-8q2h-5pgc"
-        ]
-      },
-      "timestamp": "2026-10-15T16:00:04Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00062"
         }
       ],
       "status": "fixed",
@@ -67841,35 +67783,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00082"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2025-22235"
-      },
-      "timestamp": "2026-10-29T07:48:27Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00083"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-22733",
-        "aliases": [
-          "GHSA-mgvc-8q2h-5pgc"
-        ]
-      },
-      "timestamp": "2026-10-29T07:48:27Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.18.1-osera-00083"
         }
       ],
       "status": "fixed",
@@ -69148,22 +69061,6 @@
           "GHSA-mqvw-jfmh-93qq"
         ]
       },
-      "timestamp": "2026-10-29T07:48:33Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.7.18.1-osera-00083"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-40974",
-        "aliases": [
-          "GHSA-mqvw-jfmh-93qq"
-        ]
-      },
       "timestamp": "2026-10-29T08:12:33Z",
       "products": [
         {
@@ -69900,22 +69797,6 @@
           "GHSA-56v8-86gj-66jp"
         ]
       },
-      "timestamp": "2026-10-15T14:13:20Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00055"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-40972",
-        "aliases": [
-          "GHSA-56v8-86gj-66jp"
-        ]
-      },
       "timestamp": "2026-10-15T14:20:26Z",
       "products": [
         {
@@ -70000,22 +69881,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00061"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-40972",
-        "aliases": [
-          "GHSA-56v8-86gj-66jp"
-        ]
-      },
-      "timestamp": "2026-10-15T16:00:11Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00062"
         }
       ],
       "status": "fixed",
@@ -70336,22 +70201,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00082"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-40972",
-        "aliases": [
-          "GHSA-56v8-86gj-66jp"
-        ]
-      },
-      "timestamp": "2026-10-29T07:48:34Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-devtools@2.7.18.1-osera-00083"
         }
       ],
       "status": "fixed",
@@ -71084,22 +70933,6 @@
           "GHSA-7cj3-x93g-gj76"
         ]
       },
-      "timestamp": "2026-10-15T16:00:12Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00062"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2024-38807",
-        "aliases": [
-          "GHSA-7cj3-x93g-gj76"
-        ]
-      },
       "timestamp": "2026-10-15T16:05:59Z",
       "products": [
         {
@@ -71408,22 +71241,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00082"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2024-38807",
-        "aliases": [
-          "GHSA-7cj3-x93g-gj76"
-        ]
-      },
-      "timestamp": "2026-10-29T07:48:41Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-loader-tools@2.7.18.1-osera-00083"
         }
       ],
       "status": "fixed",
@@ -72172,22 +71989,6 @@
           "GHSA-7cj3-x93g-gj76"
         ]
       },
-      "timestamp": "2026-10-15T16:00:13Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00062"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2024-38807",
-        "aliases": [
-          "GHSA-7cj3-x93g-gj76"
-        ]
-      },
       "timestamp": "2026-10-15T16:06:03Z",
       "products": [
         {
@@ -72496,22 +72297,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00082"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2024-38807",
-        "aliases": [
-          "GHSA-7cj3-x93g-gj76"
-        ]
-      },
-      "timestamp": "2026-10-29T07:48:40Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot-loader@2.7.18.1-osera-00083"
         }
       ],
       "status": "fixed",
@@ -73408,38 +73193,6 @@
       "products": [
         {
           "@id": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00082"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-40973",
-        "aliases": [
-          "GHSA-wwpq-f5c3-7hvx"
-        ]
-      },
-      "timestamp": "2026-10-29T08:04:11Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00083"
-        }
-      ],
-      "status": "fixed",
-      "supplier": "moderne"
-    },
-    {
-      "vulnerability": {
-        "name": "CVE-2026-40975",
-        "aliases": [
-          "GHSA-m4x9-hx6x-2c43"
-        ]
-      },
-      "timestamp": "2026-10-29T08:04:11Z",
-      "products": [
-        {
-          "@id": "pkg:maven/org.springframework.boot/spring-boot@2.7.18.1-osera-00083"
         }
       ],
       "status": "fixed",
