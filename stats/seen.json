@@ -692,6 +692,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2023-30608",
+   "library": "sqlparse",
+   "version": "0.3.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
    "cve": "CVE-2023-32681",
    "library": "requests",
    "version": "2.20.1",
@@ -968,6 +974,12 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2024-4340",
+   "library": "sqlparse",
+   "version": "0.3.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
    "cve": "CVE-2024-47081",
    "library": "requests",
    "version": "2.20.1",
@@ -1140,6 +1152,12 @@
    "library": "com.nimbusds:nimbus-jose-jwt",
    "version": "9.22",
    "first_seen": "2026-10-27T23:35:00Z"
+  },
+  {
+   "cve": "CVE-2025-54798",
+   "library": "tmp",
+   "version": "0.0.33",
+   "first_seen": "2026-11-25T06:23:06Z"
   },
   {
    "cve": "CVE-2025-66418",
@@ -1766,16 +1784,40 @@
    "first_seen": "2026-11-25T05:23:34Z"
   },
   {
+   "cve": "CVE-2026-23745",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
+   "cve": "CVE-2026-23950",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
    "cve": "CVE-2026-24400",
    "library": "org.assertj:assertj-core",
    "version": "3.22.0",
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-24842",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
    "cve": "CVE-2026-25645",
    "library": "requests",
    "version": "2.20.1",
    "first_seen": "2026-11-24T23:47:14Z"
+  },
+  {
+   "cve": "CVE-2026-26960",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
   },
   {
    "cve": "CVE-2026-27727",
@@ -1794,6 +1836,18 @@
    "library": "lodash",
    "version": "4.17.23",
    "first_seen": "2026-11-25T05:23:34Z"
+  },
+  {
+   "cve": "CVE-2026-29786",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
+   "cve": "CVE-2026-31802",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
   },
   {
    "cve": "CVE-2026-3219",
@@ -2360,6 +2414,12 @@
    "first_seen": "2026-11-24T23:47:14Z"
   },
   {
+   "cve": "CVE-2026-44705",
+   "library": "tmp",
+   "version": "0.0.33",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
    "cve": "CVE-2026-45409",
    "library": "idna",
    "version": "2.5",
@@ -2510,6 +2570,12 @@
    "first_seen": "2026-11-24T21:43:50Z"
   },
   {
+   "cve": "CVE-2026-53655",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
    "cve": "CVE-2026-53917",
    "library": "org.apache.activemq:activemq-broker",
    "version": "5.16.8",
@@ -2520,6 +2586,12 @@
    "library": "org.apache.activemq:activemq-client",
    "version": "5.16.8",
    "first_seen": "2026-11-05T09:20:51Z"
+  },
+  {
+   "cve": "CVE-2026-54284",
+   "library": "sqlparse",
+   "version": "0.3.1",
+   "first_seen": "2026-11-25T06:23:06Z"
   },
   {
    "cve": "CVE-2026-54285",
@@ -2684,6 +2756,30 @@
    "first_seen": "2026-10-21T21:40:49Z"
   },
   {
+   "cve": "CVE-2026-59871",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
+   "cve": "CVE-2026-59873",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
+   "cve": "CVE-2026-59874",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
+   "cve": "CVE-2026-59875",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
    "cve": "CVE-2026-59888",
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.15.4",
@@ -2712,6 +2808,18 @@
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.19.4",
    "first_seen": "2026-10-20T20:17:11Z"
+  },
+  {
+   "cve": "CVE-2026-59893",
+   "library": "sqlparse",
+   "version": "0.3.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
+   "cve": "CVE-2026-59894",
+   "library": "sqlparse",
+   "version": "0.3.1",
+   "first_seen": "2026-11-25T06:23:06Z"
   },
   {
    "cve": "CVE-2026-59949",
@@ -2840,6 +2948,18 @@
    "first_seen": "2026-10-27T23:35:00Z"
   },
   {
+   "cve": "CVE-2026-71491",
+   "library": "sqlparse",
+   "version": "0.3.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
+   "cve": "CVE-2026-73566",
+   "library": "tar",
+   "version": "6.2.1",
+   "first_seen": "2026-11-25T06:23:06Z"
+  },
+  {
    "cve": "CVE-2026-73646",
    "library": "postcss",
    "version": "7.0.39",
@@ -2904,6 +3024,12 @@
    "library": "com.fasterxml.jackson.core:jackson-databind",
    "version": "2.19.4",
    "first_seen": "2026-10-28T00:47:00Z"
+  },
+  {
+   "cve": "CVE-2026-84305",
+   "library": "sqlparse",
+   "version": "0.3.1",
+   "first_seen": "2026-11-25T06:23:06Z"
   },
   {
    "cve": "CVE-2026-85393",
@@ -3012,6 +3138,12 @@
    "library": "markdown-it",
    "version": "14.1.1",
    "first_seen": "2026-11-24T21:43:50Z"
+  },
+  {
+   "cve": "GHSA-27jp-wm6q-gp25",
+   "library": "sqlparse",
+   "version": "0.3.1",
+   "first_seen": "2026-11-25T06:23:06Z"
   },
   {
    "cve": "GHSA-5c6j-r48x-rmvq",
