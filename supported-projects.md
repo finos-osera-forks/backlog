@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T06:23:06Z. Written by the line manager reconciler.
+Generated 2026-11-25T06:39:09Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -224,7 +224,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | wheel-0.46.x | pypi | `wheel==0.46.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | which-2.0.x | npm | `which@2.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | wrap-ansi-7.0.x | npm | `wrap-ansi@7.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ws-8.17.x | npm | `ws@8.17.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ws-8.17.x | npm | `ws@8.17.1` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | xhtml2pdf-0.2.x | pypi | `xhtml2pdf==0.2.29` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | yallist-4.0.x | npm | `yallist@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | yaml-1.10.x | npm | `yaml@1.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -232,7 +232,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries
 
-153 libraries across 221 line(s).
+154 libraries across 221 line(s).
 
 | name | version | lines | why_listed | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -387,6 +387,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | tmp | 0.0.33 | tmp-0.0.x | pulled in by a dependency (tmp@0.0.33) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | urllib3 | 1.24.3 | requests-2.20.x, urllib3-1.24.x | pulled in by a dependency on requests-2.20.x (requests@2.20.1) | open | 10 | 0 | 0% | 0 | 0 | 10 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | uuid | 8.3.2 | webpack-dev-server-5.2.x | pulled in by a dependency (sockjs@0.3.24) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
+| ws | 8.17.1 | ws-8.17.x | pulled in by a dependency (ws@8.17.1) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | xerces:xercesImpl | 2.2.1 | commons-configuration-1.1.x | pulled in by a dependency (commons-configuration:commons-configuration@1.1) | open | 2 | 1 | 50% | 3 | 0 | 1 | 0 | 2.2.1.1-osera-00005 | 2.2.1.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | xerces:xercesImpl | 2.11.0 | spring-boot-2.7.x, spring-security-5.7.x | pulled in by a dependency (net.sourceforge.nekohtml:nekohtml@1.9.22) | open | 2 | 0 | 0% | 2 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 
