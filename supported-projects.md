@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T20:48:12Z. Written by the line manager reconciler.
+Generated 2026-11-26T20:50:40Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -164,15 +164,15 @@ The latest patch view: every library at the latest upstream patch release, the v
 | proxy-addr-2.0.x | npm | `proxy-addr@2.0.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | py-1.11.x | pypi | `py==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyasn1-0.6.x | pypi | `pyasn1==0.6.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pyasn1-modules-0.4.x | pypi | `pyasn1-modules==0.4.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pyasn1-modules-0.4.x | pypi | `pyasn1-modules==0.4.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pycparser-3.12.x | pypi | `pycparser==3.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pycrypto-2.6.x | pypi | `pycrypto==2.6.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pydantic-2.14.x | pypi | `pydantic==2.14.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pydantic-core-2.50.x | pypi | `pydantic-core==2.50.5` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pygments-2.21.x | pypi | `pygments==2.21.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyinotify-0.9.x | pypi | `pyinotify==0.9.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| pymdown-extensions-10.3.x | pypi | `pymdown-extensions==10.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
-| pymupdf-1.28.x | pypi | `pymupdf==1.28.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pymdown-extensions-10.3.x | pypi | `pymdown-extensions==10.3.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pymupdf-1.28.x | pypi | `pymupdf==1.28.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pypdf-6.14.x | pypi | `pypdf==6.14.2` | not fixed | 32 | 0 | 0% | 0 | 0 | 32 | 0 |
 | pysocks-1.6.x | pypi | `pysocks==1.6.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | python-dateutil-2.6.x | pypi | `python-dateutil==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
