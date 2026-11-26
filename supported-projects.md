@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T18:45:32Z. Written by the line manager reconciler.
+Generated 2026-11-26T18:48:56Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -30,7 +30,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | snakeyaml-1.28.x | maven | `org.yaml:snakeyaml@1.28` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.27.x | maven | `org.yaml:snakeyaml@1.27` | in progress | 8 | 7 | 88% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.26.x | maven | `org.yaml:snakeyaml@1.26` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| snakeyaml-1.31.x | maven | `org.yaml:snakeyaml@1.31` | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 |
 | snakeyaml-1.33.x | maven | `org.yaml:snakeyaml@1.33` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.19.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.19.4` | fixed | 16 | 16 | 100% | 0 | 0 | 0 | 0 |
 | jackson-2.15.x | maven | `com.fasterxml.jackson.core:jackson-databind@2.15.4` | fixed | 15 | 15 | 100% | 0 | 0 | 0 | 0 |
@@ -398,7 +398,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-561 libraries, 5909 patched version(s).
+561 libraries, 5911 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -828,8 +828,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j-to-slf4j | 2.24.3 | in the dependency graph of spring-boot-2.7.x at 2.17.2, uploaded on 2.24.3 | spring-boot-2.7.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 2.24.3.1-osera-00006 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-web | 2.17.2 | listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs | spring-boot-2.7.x, log4j2-2.24.x |  | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 2.17.2.1-osera-00005 2.17.2.1-osera-00006 | 2.17.2.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-web | 2.24.3 | listed by the BOM of spring-boot-2.7.x at 2.17.2 and log4j2-2.24.x at 2.24.3, not in their dependency graphs | spring-boot-2.7.x, log4j2-2.24.x |  | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 2.24.3.1-osera-00006 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.struts.xwork:xwork-core | 2.3.37 | not listed by any line |  |  | 2.3.37.1-osera-00001 2.3.37.1-osera-00002 2.3.37.1-osera-00003 2.3.37.1-osera-00004 2.3.37.1-osera-00005 2.3.37.1-osera-00006 2.3.37.1-osera-00007 2.3.37.1-osera-00008 2.3.37.1-osera-00009 2.3.37.1-osera-00010 2.3.37.1-osera-00011 2.3.37.1-osera-00012 | 2.3.37.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.struts:struts2-core | 2.3.37 | not listed by any line |  | struts-1.3.x | 2.3.37.1-osera-00001 2.3.37.1-osera-00002 2.3.37.1-osera-00003 2.3.37.1-osera-00004 2.3.37.1-osera-00005 2.3.37.1-osera-00006 2.3.37.1-osera-00007 2.3.37.1-osera-00008 2.3.37.1-osera-00009 2.3.37.1-osera-00010 2.3.37.1-osera-00011 2.3.37.1-osera-00012 | 2.3.37.1-osera-00012 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.struts.xwork:xwork-core | 2.3.37 | not listed by any line |  |  | 2.3.37.1-osera-00001 2.3.37.1-osera-00002 2.3.37.1-osera-00003 2.3.37.1-osera-00004 2.3.37.1-osera-00005 2.3.37.1-osera-00006 2.3.37.1-osera-00007 2.3.37.1-osera-00008 2.3.37.1-osera-00009 2.3.37.1-osera-00010 2.3.37.1-osera-00011 2.3.37.1-osera-00012 2.3.37.1-osera-00013 | 2.3.37.1-osera-00013 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.struts:struts2-core | 2.3.37 | not listed by any line |  | struts-1.3.x | 2.3.37.1-osera-00001 2.3.37.1-osera-00002 2.3.37.1-osera-00003 2.3.37.1-osera-00004 2.3.37.1-osera-00005 2.3.37.1-osera-00006 2.3.37.1-osera-00007 2.3.37.1-osera-00008 2.3.37.1-osera-00009 2.3.37.1-osera-00010 2.3.37.1-osera-00011 2.3.37.1-osera-00012 2.3.37.1-osera-00013 | 2.3.37.1-osera-00013 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tika:tika-app | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 1.28.5.1-osera-00002 | 1.28.5.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tika:tika-core | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 1.28.5.1-osera-00002 | 1.28.5.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tika:tika-eval | 1.28.5 | not listed by any line |  |  | 1.28.5.1-osera-00001 1.28.5.1-osera-00002 | 1.28.5.1-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -966,7 +966,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-40 component(s), 894 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+40 component(s), 895 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -993,7 +993,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | org.apache.logging.log4j:log4j | 2.24.3 | parent | patch-logging-log4j2 v2.24.3.1-osera-00007 | the patched modules name it as their parent, a build needs it to resolve them | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 2.24.3.1-osera-00006 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-bom | 2.17.2 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.17.2.1-osera-00001 2.17.2.1-osera-00002 2.17.2.1-osera-00003 2.17.2.1-osera-00004 2.17.2.1-osera-00005 2.17.2.1-osera-00006 | 2.17.2.1-osera-00006 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.logging.log4j:log4j-bom | 2.24.3 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2.17.2 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.24.3.1-osera-00001 2.24.3.1-osera-00002 2.24.3.1-osera-00003 2.24.3.1-osera-00004 2.24.3.1-osera-00005 2.24.3.1-osera-00006 2.24.3.1-osera-00007 | 2.24.3.1-osera-00007 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| org.apache.struts:struts2-parent | 2.3.37 | parent | patch-struts v2.3.37.1-osera-00012 | the patched modules name it as their parent, a build needs it to resolve them | 2.3.37.1-osera-00001 2.3.37.1-osera-00002 2.3.37.1-osera-00003 2.3.37.1-osera-00004 2.3.37.1-osera-00005 2.3.37.1-osera-00006 2.3.37.1-osera-00007 2.3.37.1-osera-00008 2.3.37.1-osera-00009 2.3.37.1-osera-00010 2.3.37.1-osera-00011 2.3.37.1-osera-00012 | 2.3.37.1-osera-00012 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.struts:struts2-parent | 2.3.37 | parent | patch-struts v2.3.37.1-osera-00013 | the patched modules name it as their parent, a build needs it to resolve them | 2.3.37.1-osera-00001 2.3.37.1-osera-00002 2.3.37.1-osera-00003 2.3.37.1-osera-00004 2.3.37.1-osera-00005 2.3.37.1-osera-00006 2.3.37.1-osera-00007 2.3.37.1-osera-00008 2.3.37.1-osera-00009 2.3.37.1-osera-00010 2.3.37.1-osera-00011 2.3.37.1-osera-00012 2.3.37.1-osera-00013 | 2.3.37.1-osera-00013 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.tika:tika-parent | 1.28.5 | parent | patch-tika v1.28.5.1-osera-00002 | the patched modules name it as their parent, a build needs it to resolve them | 1.28.5.1-osera-00001 1.28.5.1-osera-00002 | 1.28.5.1-osera-00002 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-bom | 9.4.58.v20250814 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 9.4.53.v20231009 | pins the patched modules (REL-009: a pinning BOM releases again) | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 9.4.58.v20250814-osera-00006 9.4.58.v20250814-osera-00007 9.4.58.v20250814-osera-00008 9.4.58.v20250814-osera-00009 9.4.58.v20250814-osera-00010 9.4.58.v20250814-osera-00011 9.4.58.v20250814-osera-00012 9.4.58.v20250814-osera-00013 9.4.58.v20250814-osera-00014 9.4.58.v20250814-osera-00015 | 9.4.58.v20250814-osera-00015 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.eclipse.jetty:jetty-project | 9.4.58.v20250814 | parent | patch-jetty.project v9.4.58.v20250814-osera-00015 | the patched modules name it as their parent, a build needs it to resolve them | 9.4.58.v20250814-osera-00001 9.4.58.v20250814-osera-00002 9.4.58.v20250814-osera-00003 9.4.58.v20250814-osera-00004 9.4.58.v20250814-osera-00005 9.4.58.v20250814-osera-00006 9.4.58.v20250814-osera-00007 9.4.58.v20250814-osera-00008 9.4.58.v20250814-osera-00009 9.4.58.v20250814-osera-00010 9.4.58.v20250814-osera-00011 9.4.58.v20250814-osera-00012 9.4.58.v20250814-osera-00013 9.4.58.v20250814-osera-00014 9.4.58.v20250814-osera-00015 | 9.4.58.v20250814-osera-00015 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
