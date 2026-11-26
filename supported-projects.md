@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T00:35:25Z. Written by the line manager reconciler.
+Generated 2026-11-26T00:51:37Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -117,7 +117,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | iniparse-0.4.x | pypi | `iniparse==0.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ip-2.0.x | npm | `ip@2.0.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | ip-address-9.0.x | npm | `ip-address@9.0.5` | not fixed | 6 | 0 | 0% | 0 | 0 | 6 | 0 |
-| is-fullwidth-code-point-3.0.x | npm | `is-fullwidth-code-point@3.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| is-fullwidth-code-point-3.0.x | npm | `is-fullwidth-code-point@3.0.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | isexe-2.0.x | npm | `isexe@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jest-util-29.7.x | npm | `jest-util@29.7.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jinja2-3.1.x | pypi | `jinja2==3.1.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
