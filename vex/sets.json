@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T16:32:54Z",
-  "feed_version": 327,
+  "generated_at": "2026-11-26T16:47:56Z",
+  "feed_version": 328,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -7497,10 +7497,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00005"
       ],
       "state": "held",
-      "held_since": "2026-11-26T16:27:55Z",
+      "held_since": "2026-11-26T16:47:56Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00005, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00005, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -23791,6 +23791,19 @@
       ],
       "state": "in the feed",
       "statements": 3
+    },
+    {
+      "set": "finos-osera-forks/patch-tika@v1.28.5.1-osera-00002",
+      "members": 5,
+      "coordinates": [
+        "org.apache.tika:tika-app@1.28.5.1-osera-00002",
+        "org.apache.tika:tika-core@1.28.5.1-osera-00002",
+        "org.apache.tika:tika-eval@1.28.5.1-osera-00002",
+        "org.apache.tika:tika-parent@1.28.5.1-osera-00002",
+        "org.apache.tika:tika-translate@1.28.5.1-osera-00002"
+      ],
+      "state": "in the feed",
+      "statements": 6
     },
     {
       "set": "finos-osera-forks/patch-velocity@v1.6.4.1-osera-00001",
