@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-25T23:45:36Z. Written by the line manager reconciler.
+Generated 2026-11-25T23:59:51Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -91,7 +91,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | deepmerge-4.3.x | npm | `deepmerge@4.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | diff-5.2.x | npm | `diff@5.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dnspython-2.8.x | pypi | `dnspython==2.8.0` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| dulwich-1.2.x | pypi | `dulwich==1.2.21` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| dulwich-1.2.x | pypi | `dulwich==1.2.21` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ecdsa-0.19.x | pypi | `ecdsa==0.19.2` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | ejs-3.1.x | npm | `ejs@3.1.10` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | emoji-regex-8.0.x | npm | `emoji-regex@8.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
