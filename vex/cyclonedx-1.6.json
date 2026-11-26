@@ -2,9 +2,9 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:6bfb27c2-07c0-5ce5-97d6-d974d38cb8cc",
-  "version": 327,
+  "version": 328,
   "metadata": {
-    "timestamp": "2026-11-25T11:42:56Z",
+    "timestamp": "2026-11-26T16:47:56Z",
     "tools": {
       "components": [
         {
@@ -3420,6 +3420,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tika/tika-app@1.28.5.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.tika",
+      "name": "tika-app",
+      "version": "1.28.5.1-osera-00002",
+      "purl": "pkg:maven/org.apache.tika/tika-app@1.28.5.1-osera-00002"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -3431,6 +3442,17 @@
     },
     {
       "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.tika",
+      "name": "tika-core",
+      "version": "1.28.5.1-osera-00002",
+      "purl": "pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00002"
+    },
+    {
+      "type": "library",
       "bom-ref": "pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00001",
       "supplier": {
         "name": "moderne"
@@ -3439,6 +3461,17 @@
       "name": "tika-eval",
       "version": "1.28.5.1-osera-00001",
       "purl": "pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00001"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00002",
+      "supplier": {
+        "name": "moderne"
+      },
+      "group": "org.apache.tika",
+      "name": "tika-eval",
+      "version": "1.28.5.1-osera-00002",
+      "purl": "pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00002"
     },
     {
       "type": "library",
@@ -50234,6 +50267,49 @@
       ]
     },
     {
+      "bom-ref": "CVE-2025-66516 on pkg:maven/org.apache.tika/tika-app@1.28.5.1-osera-00002",
+      "id": "CVE-2025-66516",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66516"
+      },
+      "references": [
+        {
+          "id": "GHSA-f58c-gq56-vjjf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-f58c-gq56-vjjf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-26T16:42:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.tika/tika-app@1.28.5.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-66755 on pkg:maven/org.apache.tika/tika-app@1.28.5.1-osera-00002",
+      "id": "CVE-2026-66755",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66755"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-26T16:42:44Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.tika/tika-app@1.28.5.1-osera-00002"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2025-66516 on pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00001",
       "id": "CVE-2025-66516",
       "source": {
@@ -50260,6 +50336,49 @@
       ]
     },
     {
+      "bom-ref": "CVE-2025-66516 on pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00002",
+      "id": "CVE-2025-66516",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66516"
+      },
+      "references": [
+        {
+          "id": "GHSA-f58c-gq56-vjjf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-f58c-gq56-vjjf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-26T16:42:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-66755 on pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00002",
+      "id": "CVE-2026-66755",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66755"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-26T16:42:29Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.tika/tika-core@1.28.5.1-osera-00002"
+        }
+      ]
+    },
+    {
       "bom-ref": "CVE-2025-66516 on pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00001",
       "id": "CVE-2025-66516",
       "source": {
@@ -50282,6 +50401,49 @@
       "affects": [
         {
           "ref": "pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00001"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2025-66516 on pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00002",
+      "id": "CVE-2025-66516",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66516"
+      },
+      "references": [
+        {
+          "id": "GHSA-f58c-gq56-vjjf",
+          "source": {
+            "name": "GitHub Advisories",
+            "url": "https://github.com/advisories/GHSA-f58c-gq56-vjjf"
+          }
+        }
+      ],
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-26T16:42:12Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00002"
+        }
+      ]
+    },
+    {
+      "bom-ref": "CVE-2026-66755 on pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00002",
+      "id": "CVE-2026-66755",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66755"
+      },
+      "analysis": {
+        "state": "resolved_with_pedigree",
+        "firstIssued": "2026-11-26T16:42:12Z"
+      },
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.tika/tika-eval@1.28.5.1-osera-00002"
         }
       ]
     },
