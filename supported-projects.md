@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T09:36:52Z. Written by the line manager reconciler.
+Generated 2026-11-26T09:39:32Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -220,7 +220,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | webargs-5.5.x | pypi | `webargs==5.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | webpack-dev-middleware-7.4.x | npm | `webpack-dev-middleware@7.4.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | webpack-dev-server-5.2.x | npm | `webpack-dev-server@5.2.7` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
-| websocket-driver-0.7.x | npm | `websocket-driver@0.7.5` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| websocket-driver-0.7.x | npm | `websocket-driver@0.7.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | wheel-0.46.x | pypi | `wheel==0.46.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | which-2.0.x | npm | `which@2.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | wrap-ansi-7.0.x | npm | `wrap-ansi@7.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
