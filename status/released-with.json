@@ -1369,6 +1369,15 @@
       "first_seen": "2026-11-26T18:20:00Z"
     },
     {
+      "coordinate": "org.apache.struts:struts2-parent@2.3.37.1-osera-00013",
+      "library": "org.apache.struts:struts2-parent",
+      "base": "2.3.37",
+      "kind": "parent",
+      "released_with": "patch-struts v2.3.37.1-osera-00013",
+      "why": "the patched modules name it as their parent, a build needs it to resolve them",
+      "first_seen": "2026-11-26T18:48:56Z"
+    },
+    {
       "coordinate": "org.apache.tika:tika-parent@1.28.5.1-osera-00001",
       "library": "org.apache.tika:tika-parent",
       "base": "1.28.5",
