@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T22:52:16Z. Written by the line manager reconciler.
+Generated 2026-11-26T23:03:33Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -200,7 +200,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| tar-6.2.x | npm | `tar@6.2.1` | not fixed | 12 | 0 | 0% | 0 | 0 | 12 | 0 |
+| tar-6.2.x | npm | `tar@6.2.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | thrift-0.16.x | pypi | `thrift==0.16.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tmp-0.0.x | npm | `tmp@0.0.33` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | tomli-2.4.x | pypi | `tomli==2.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
