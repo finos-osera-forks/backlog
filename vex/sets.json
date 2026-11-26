@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T18:22:54Z",
-  "feed_version": 329,
+  "generated_at": "2026-11-26T18:27:55Z",
+  "feed_version": 330,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -7680,10 +7680,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00008"
       ],
       "state": "held",
-      "held_since": "2026-11-26T18:22:54Z",
+      "held_since": "2026-11-26T18:27:55Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -23787,6 +23787,17 @@
       ],
       "state": "in the feed",
       "statements": 24
+    },
+    {
+      "set": "finos-osera-forks/patch-struts@v2.3.37.1-osera-00012",
+      "members": 3,
+      "coordinates": [
+        "org.apache.struts.xwork:xwork-core@2.3.37.1-osera-00012",
+        "org.apache.struts:struts2-core@2.3.37.1-osera-00012",
+        "org.apache.struts:struts2-parent@2.3.37.1-osera-00012"
+      ],
+      "state": "in the feed",
+      "statements": 26
     },
     {
       "set": "finos-osera-forks/patch-tika@v1.28.5.1-osera-00001",
