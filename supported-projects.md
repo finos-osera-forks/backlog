@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T01:04:10Z. Written by the line manager reconciler.
+Generated 2026-11-26T01:06:42Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -131,7 +131,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | lodash-4.17.x | npm | `lodash@4.17.23` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | lru-cache-10.4.x | npm | `lru-cache@10.4.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | markdown-3.10.x | pypi | `markdown==3.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| markdown-it-14.1.x | npm | `markdown-it@14.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| markdown-it-14.1.x | npm | `markdown-it@14.1.1` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
 | markupsafe-3.0.x | pypi | `markupsafe==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mime-db-1.52.x | npm | `mime-db@1.52.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | minimatch-9.0.x | npm | `minimatch@9.0.9` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
