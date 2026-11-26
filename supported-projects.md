@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T21:16:59Z. Written by the line manager reconciler.
+Generated 2026-11-26T21:19:52Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -176,7 +176,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pypdf-6.14.x | pypi | `pypdf==6.14.2` | not fixed | 32 | 0 | 0% | 0 | 0 | 32 | 0 |
 | pysocks-1.6.x | pypi | `pysocks==1.6.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | python-dateutil-2.6.x | pypi | `python-dateutil==2.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| python-jose-3.5.x | pypi | `python-jose==3.5.0` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
+| python-jose-3.5.x | pypi | `python-jose==3.5.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pyyaml-6.0.x | pypi | `pyyaml==6.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | react-is-18.3.x | npm | `react-is@18.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | readable-stream-3.6.x | npm | `readable-stream@3.6.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -198,7 +198,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | string-width-4.2.x | npm | `string-width@4.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tar-6.2.x | npm | `tar@6.2.1` | not fixed | 12 | 0 | 0% | 0 | 0 | 12 | 0 |
 | thrift-0.16.x | pypi | `thrift==0.16.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
