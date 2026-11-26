@@ -1,10 +1,10 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.26.34",
-  "as_of": "2026-11-26T16:36:36Z",
+  "as_of": "2026-11-26T16:47:37Z",
   "status": "in progress",
   "chain": "complete",
-  "in_scope": 363,
+  "in_scope": 369,
   "fixed": [
     {
       "cve": "CVE-2016-1000027",
@@ -1278,6 +1278,10 @@
       "library": "ch.qos.logback:logback-core"
     },
     {
+      "cve": "CVE-2026-106012",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
       "cve": "CVE-2026-106449",
       "library": "org.lz4:lz4-java"
     },
@@ -1300,6 +1304,26 @@
     {
       "cve": "CVE-2026-113730",
       "library": "ognl:ognl"
+    },
+    {
+      "cve": "CVE-2026-116561",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-116600",
+      "library": "org.apache.tomcat.embed:tomcat-embed-websocket"
+    },
+    {
+      "cve": "CVE-2026-116830",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-118233",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
+    },
+    {
+      "cve": "CVE-2026-118436",
+      "library": "org.apache.tomcat.embed:tomcat-embed-core"
     },
     {
       "cve": "CVE-2026-1225",
