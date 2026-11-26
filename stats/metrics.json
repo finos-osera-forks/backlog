@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-26T16:27:55Z",
+ "as_of": "2026-11-26T16:57:54Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 599,
   "library_versions": 827,
-  "releases": 2208,
+  "releases": 2209,
   "forks": 97,
-  "artifacts": 17574,
-  "cves": 294,
-  "cve_statements": 6333,
-  "release_sets": 682,
+  "artifacts": 17579,
+  "cves": 295,
+  "cve_statements": 6339,
+  "release_sets": 683,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -113,6 +113,10 @@
   {
    "date": "2026-11-24",
    "count": 2
+  },
+  {
+   "date": "2026-11-26",
+   "count": 5
   }
  ],
  "top_cves": [
@@ -2388,36 +2392,36 @@
   {
    "library": "org.apache.tika:tika-app",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "1.28.5.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 2,
+   "latest": "1.28.5.1-osera-00002",
+   "fixed_entries": 3
   },
   {
    "library": "org.apache.tika:tika-core",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "1.28.5.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 2,
+   "latest": "1.28.5.1-osera-00002",
+   "fixed_entries": 3
   },
   {
    "library": "org.apache.tika:tika-eval",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "1.28.5.1-osera-00001",
-   "fixed_entries": 1
+   "releases": 2,
+   "latest": "1.28.5.1-osera-00002",
+   "fixed_entries": 3
   },
   {
    "library": "org.apache.tika:tika-parent",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "1.28.5.1-osera-00001",
+   "releases": 2,
+   "latest": "1.28.5.1-osera-00002",
    "fixed_entries": 0
   },
   {
    "library": "org.apache.tika:tika-translate",
    "ecosystem": "Java",
-   "releases": 1,
-   "latest": "1.28.5.1-osera-00001",
+   "releases": 2,
+   "latest": "1.28.5.1-osera-00002",
    "fixed_entries": 0
   },
   {
@@ -8248,6 +8252,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-26T16:10:15Z",
+ "new_cves_as_of": "2026-11-26T16:33:07Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
