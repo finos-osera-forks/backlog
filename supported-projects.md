@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T12:54:07Z. Written by the line manager reconciler.
+Generated 2026-11-26T12:59:51Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -104,7 +104,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | google-auth-2.62.x | pypi | `google-auth==2.62.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | graceful-fs-4.2.x | npm | `graceful-fs@4.2.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | h11-0.16.x | pypi | `h11==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| handlebars-4.7.x | npm | `handlebars@4.7.10` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| handlebars-4.7.x | npm | `handlebars@4.7.10` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | has-flag-4.0.x | npm | `has-flag@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | http-cache-semantics-4.1.x | npm | `http-cache-semantics@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | http-proxy-middleware-2.0.x | npm | `http-proxy-middleware@2.0.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
