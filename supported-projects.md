@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T12:22:24Z. Written by the line manager reconciler.
+Generated 2026-11-26T12:26:22Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -82,7 +82,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | color-name-1.1.x | npm | `color-name@1.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | compression-1.8.x | npm | `compression@1.8.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cryptography-50.0.x | pypi | `cryptography==50.0.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| cssom-0.3.x | npm | `cssom@0.3.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| cssom-0.3.x | npm | `cssom@0.3.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | datasets-5.0.x | pypi | `datasets==5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | debug-2.6.x | npm | `debug@2.6.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
