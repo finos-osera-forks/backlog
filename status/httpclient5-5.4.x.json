@@ -1,7 +1,7 @@
 {
   "line": "httpclient5-5.4.x",
-  "book_version": "v2026.11.25.71",
-  "as_of": "2026-11-26T05:14:50Z",
+  "book_version": "v2026.11.26.34",
+  "as_of": "2026-11-26T17:41:47Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 3,
@@ -25,16 +25,17 @@
     {
       "cve": "CVE-2026-64607",
       "library": "org.apache.httpcomponents.client5:httpclient5",
-      "coordinate": "org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00001",
-      "patch": "00001",
-      "named_by": "org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00001",
-      "at": "2026-11-13T07:48:45Z"
+      "coordinate": "org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00002",
+      "patch": "00002",
+      "named_by": "org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00002",
+      "at": "2026-11-26T17:41:47Z"
     }
   ],
   "in_progress": [],
   "open": [],
   "not_remediable": [],
   "discrepancies": [
+    "fixed, not in the backlog: CVE-2026-71290 on org.apache.httpcomponents.client5:httpclient5@5.4.4.1-osera-00002",
     "promoted org.apache.httpcomponents.client5:httpclient5@5.5.2.1-osera-00001 is on base 5.5.2, the line has org.apache.httpcomponents.client5:httpclient5 at 5.4.4"
   ],
   "consume": "org.finos.osera:osera-bom-httpclient5-5.4.x@2026.11.13"
