@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-26T02:15:38Z. Written by the line manager reconciler.
+Generated 2026-11-26T02:34:24Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -179,7 +179,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | python-jose-3.5.x | pypi | `python-jose==3.5.0` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | pyyaml-6.0.x | pypi | `pyyaml==6.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | react-is-18.3.x | npm | `react-is@18.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| readable-stream-3.6.x | npm | `readable-stream@3.6.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| readable-stream-3.6.x | npm | `readable-stream@3.6.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.20.x | pypi | `requests==2.20.1` | not fixed | 16 | 0 | 0% | 0 | 0 | 16 | 0 |
 | safe-buffer-5.2.x | npm | `safe-buffer@5.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | selenium-3.141.x | pypi | `selenium==3.141.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
