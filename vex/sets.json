@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:13:02Z",
+  "generated_at": "2026-11-27T11:17:55Z",
   "feed_version": 334,
   "sets": [
     {
@@ -569,6 +569,32 @@
       ],
       "state": "in the feed",
       "statements": 16
+    },
+    {
+      "set": "finos-osera-forks/patch-bc-java@v1.47.1-osera-00017",
+      "members": 4,
+      "coordinates": [
+        "org.bouncycastle:bcmail-jdk15on@1.47.1-osera-00017",
+        "org.bouncycastle:bcpg-jdk15on@1.47.1-osera-00017",
+        "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00017",
+        "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00017"
+      ],
+      "state": "held",
+      "held_since": "2026-11-27T11:17:55Z",
+      "reasons": [
+        {
+          "member": "org.bouncycastle:bcmail-jdk15on@1.47.1-osera-00017",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.bouncycastle:bcpg-jdk15on@1.47.1-osera-00017",
+          "why": "not promoted"
+        },
+        {
+          "member": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00017",
+          "why": "not promoted"
+        }
+      ]
     },
     {
       "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00001",
@@ -7600,10 +7626,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00006"
       ],
       "state": "held",
-      "held_since": "2026-11-27T11:13:02Z",
+      "held_since": "2026-11-27T11:17:55Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00006, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00006, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7716,10 +7742,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00008"
       ],
       "state": "held",
-      "held_since": "2026-11-27T11:13:02Z",
+      "held_since": "2026-11-27T11:17:55Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00008, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
@@ -7832,10 +7858,10 @@
         "com.fasterxml.jackson.module:jackson-module-scala_2.12@2.9.10.1-osera-00010"
       ],
       "state": "held",
-      "held_since": "2026-11-27T11:13:02Z",
+      "held_since": "2026-11-27T11:17:55Z",
       "reasons": [
         {
-          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00010, the release tag of the artifacts the gate placed with its declaration at patch/2.9.x, so the release of the line they belong to is not known"
+          "why": "line declaration not read: finos-osera-forks/patch-jackson-bom carries no .osera/line.yaml at v2.9.10.1-osera-00010, the release tag of the artifacts the gate placed with its declaration at patch/2.19.x, so the release of the line they belong to is not known"
         }
       ]
     },
