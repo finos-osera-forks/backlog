@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T08:03:10Z. Written by the line manager reconciler.
+Generated 2026-11-27T08:05:40Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -85,7 +85,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | cssom-0.3.x | npm | `cssom@0.3.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | datasets-5.0.x | pypi | `datasets==5.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dbus-python-1.2.x | pypi | `dbus-python==1.2.18` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| debug-2.6.x | npm | `debug@2.6.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| debug-2.6.x | npm | `debug@2.6.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | decode-uri-component-0.2.x | npm | `decode-uri-component@0.2.2` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | decorator-4.2.x | pypi | `decorator==4.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | deepmerge-4.3.x | npm | `deepmerge@4.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -107,7 +107,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | handlebars-4.7.x | npm | `handlebars@4.7.10` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | has-flag-4.0.x | npm | `has-flag@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | http-cache-semantics-4.1.x | npm | `http-cache-semantics@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| http-proxy-middleware-2.0.x | npm | `http-proxy-middleware@2.0.12` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| http-proxy-middleware-2.0.x | npm | `http-proxy-middleware@2.0.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | https-proxy-agent-7.0.x | npm | `https-proxy-agent@7.0.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | iconv-lite-0.6.x | npm | `iconv-lite@0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | idna-2.5.x | pypi | `idna==2.5` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
