@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-27T11:28:10Z",
+ "as_of": "2026-11-27T11:47:54Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 599,
   "library_versions": 827,
-  "releases": 2216,
+  "releases": 2217,
   "forks": 97,
-  "artifacts": 17602,
-  "cves": 298,
-  "cve_statements": 6458,
-  "release_sets": 690,
+  "artifacts": 17606,
+  "cves": 299,
+  "cve_statements": 6479,
+  "release_sets": 691,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -120,7 +120,7 @@
   },
   {
    "date": "2026-11-27",
-   "count": 16
+   "count": 20
   }
  ],
  "top_cves": [
@@ -167,7 +167,7 @@
   {
    "id": "CVE-2026-59650",
    "summary": "In Bouncy Castle for Java before 1.85, MTI/A0 DH agreement exponentiates unvalidated peer value.",
-   "fixed_entries": 121,
+   "fixed_entries": 122,
    "libraries": 3,
    "cvss": 9.1,
    "cvss_version": "3.1"
@@ -215,7 +215,7 @@
   {
    "id": "CVE-2026-12185",
    "summary": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
-   "fixed_entries": 104,
+   "fixed_entries": 105,
    "libraries": 3,
    "cvss": 8.6,
    "cvss_version": "3.1"
@@ -223,7 +223,7 @@
   {
    "id": "CVE-2026-13586",
    "summary": "In Bouncy Castle for Java before 1.85, PKCS#12 MAC and bag-decryption KDF iteration-count bound (DoS).",
-   "fixed_entries": 103,
+   "fixed_entries": 104,
    "libraries": 5,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -231,7 +231,7 @@
   {
    "id": "CVE-2024-29857",
    "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
-   "fixed_entries": 103,
+   "fixed_entries": 104,
    "libraries": 2,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -255,7 +255,7 @@
   {
    "id": "CVE-2026-12816",
    "summary": "In Bouncy Castle for Java before 1.85, IESEngine stream-mode MAC forgery via length-dependent KDF split.",
-   "fixed_entries": 86,
+   "fixed_entries": 87,
    "libraries": 3,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -279,8 +279,8 @@
   {
    "id": "CVE-2026-59642",
    "summary": "In Bouncy Castle for Java before 1.85, CMS AuthenticatedData content not bound to MAC when authAttrs present.",
-   "fixed_entries": 79,
-   "libraries": 2,
+   "fixed_entries": 80,
+   "libraries": 3,
    "cvss": 7.5,
    "cvss_version": "3.1"
   }
@@ -2459,22 +2459,22 @@
   {
    "library": "org.bouncycastle:bcmail-jdk15on",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "1.47.1-osera-00017",
+   "releases": 17,
+   "latest": "1.47.1-osera-00020",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpg-jdk15on",
    "ecosystem": "Java",
-   "releases": 16,
-   "latest": "1.47.1-osera-00017",
+   "releases": 17,
+   "latest": "1.47.1-osera-00020",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "ecosystem": "Java",
-   "releases": 93,
-   "latest": "1.47.1-osera-00017",
+   "releases": 94,
+   "latest": "1.47.1-osera-00020",
    "fixed_entries": 356
   },
   {
@@ -2494,9 +2494,9 @@
   {
    "library": "org.bouncycastle:bcprov-jdk15on",
    "ecosystem": "Java",
-   "releases": 93,
-   "latest": "1.47.1-osera-00017",
-   "fixed_entries": 1368
+   "releases": 94,
+   "latest": "1.47.1-osera-00020",
+   "fixed_entries": 1389
   },
   {
    "library": "org.bouncycastle:bcprov-jdk18on",
@@ -6514,20 +6514,8 @@
    "fixed_by": "crypto-js@4.1.2-osera-00001",
    "cvss": 9.1,
    "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-102554",
-   "summary": "Google Guava: CompactHashMap/CompactHashSet/MapMakerInternalMap deserialization triggers uncontrolled memory allocation",
-   "library": "com.google.guava:guava",
-   "version": "20.0",
-   "first_seen": "2026-10-28T11:41:16Z",
-   "status": "fixed",
-   "fixed_at": "2026-11-20T13:15:19Z",
-   "fixed_by": "com.google.guava:guava@20.0.1-osera-00003",
-   "cvss": 8.2,
-   "cvss_version": "4.0"
   }
  ],
- "new_cves_as_of": "2026-11-27T11:22:31Z",
+ "new_cves_as_of": "2026-11-27T11:54:24Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
