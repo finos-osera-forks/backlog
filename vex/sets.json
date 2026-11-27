@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T11:17:55Z",
-  "feed_version": 334,
+  "generated_at": "2026-11-27T11:22:55Z",
+  "feed_version": 335,
   "sets": [
     {
       "set": "finos-osera-forks/patch-JsonPath@v2.7.0.1-osera-00001",
@@ -579,22 +579,8 @@
         "org.bouncycastle:bcpkix-jdk15on@1.47.1-osera-00017",
         "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00017"
       ],
-      "state": "held",
-      "held_since": "2026-11-27T11:17:55Z",
-      "reasons": [
-        {
-          "member": "org.bouncycastle:bcmail-jdk15on@1.47.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.bouncycastle:bcpg-jdk15on@1.47.1-osera-00017",
-          "why": "not promoted"
-        },
-        {
-          "member": "org.bouncycastle:bcprov-jdk15on@1.47.1-osera-00017",
-          "why": "not promoted"
-        }
-      ]
+      "state": "in the feed",
+      "statements": 18
     },
     {
       "set": "finos-osera-forks/patch-bc-java@v1.69.1-osera-00001",
