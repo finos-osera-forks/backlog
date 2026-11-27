@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-27T08:27:55Z",
+ "as_of": "2026-11-27T08:57:54Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 599,
   "library_versions": 827,
-  "releases": 2212,
+  "releases": 2213,
   "forks": 97,
-  "artifacts": 17586,
+  "artifacts": 17590,
   "cves": 298,
-  "cve_statements": 6395,
-  "release_sets": 686,
+  "cve_statements": 6409,
+  "release_sets": 687,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -117,6 +117,10 @@
   {
    "date": "2026-11-26",
    "count": 12
+  },
+  {
+   "date": "2026-11-27",
+   "count": 4
   }
  ],
  "top_cves": [
@@ -235,7 +239,7 @@
   {
    "id": "CVE-2024-29857",
    "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
-   "fixed_entries": 99,
+   "fixed_entries": 100,
    "libraries": 2,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -2455,22 +2459,22 @@
   {
    "library": "org.bouncycastle:bcmail-jdk15on",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "1.47.1-osera-00012",
+   "releases": 13,
+   "latest": "1.47.1-osera-00013",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpg-jdk15on",
    "ecosystem": "Java",
-   "releases": 12,
-   "latest": "1.47.1-osera-00012",
+   "releases": 13,
+   "latest": "1.47.1-osera-00013",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "ecosystem": "Java",
-   "releases": 89,
-   "latest": "1.47.1-osera-00012",
+   "releases": 90,
+   "latest": "1.47.1-osera-00013",
    "fixed_entries": 356
   },
   {
@@ -2490,9 +2494,9 @@
   {
    "library": "org.bouncycastle:bcprov-jdk15on",
    "ecosystem": "Java",
-   "releases": 89,
-   "latest": "1.47.1-osera-00012",
-   "fixed_entries": 1305
+   "releases": 90,
+   "latest": "1.47.1-osera-00013",
+   "fixed_entries": 1319
   },
   {
    "library": "org.bouncycastle:bcprov-jdk18on",
@@ -6524,6 +6528,6 @@
    "cvss_version": "4.0"
   }
  ],
- "new_cves_as_of": "2026-11-27T08:20:11Z",
+ "new_cves_as_of": "2026-11-27T08:52:25Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
