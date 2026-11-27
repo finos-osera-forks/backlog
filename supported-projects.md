@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T21:01:07Z. Written by the line manager reconciler.
+Generated 2026-11-27T21:03:36Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -154,7 +154,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | pacote-20.0.x | npm | `pacote@20.0.1` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
 | picomatch-2.3.x | npm | `picomatch@2.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pip-9.0.x | pypi | `pip==9.0.3` | not fixed | 9 | 0 | 0% | 0 | 0 | 9 | 0 |
-| piscina-4.8.x | npm | `piscina@4.8.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| piscina-4.8.x | npm | `piscina@4.8.0` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | platformdirs-4.4.x | pypi | `platformdirs==4.4.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ply-3.9.x | pypi | `ply==3.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | postcss-7.0.x | npm | `postcss@7.0.39` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
