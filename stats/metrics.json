@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-27T09:57:54Z",
+ "as_of": "2026-11-27T10:27:56Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 599,
   "library_versions": 827,
-  "releases": 2213,
+  "releases": 2214,
   "forks": 97,
-  "artifacts": 17590,
+  "artifacts": 17594,
   "cves": 298,
-  "cve_statements": 6409,
-  "release_sets": 687,
+  "cve_statements": 6424,
+  "release_sets": 688,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -120,7 +120,7 @@
   },
   {
    "date": "2026-11-27",
-   "count": 4
+   "count": 8
   }
  ],
  "top_cves": [
@@ -223,9 +223,17 @@
   {
    "id": "CVE-2026-12185",
    "summary": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
-   "fixed_entries": 101,
+   "fixed_entries": 102,
    "libraries": 3,
    "cvss": 8.6,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2024-29857",
+   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+   "fixed_entries": 101,
+   "libraries": 2,
+   "cvss": 7.5,
    "cvss_version": "3.1"
   },
   {
@@ -234,14 +242,6 @@
    "fixed_entries": 100,
    "libraries": 4,
    "cvss": 5.3,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2024-29857",
-   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
-   "fixed_entries": 100,
-   "libraries": 2,
-   "cvss": 7.5,
    "cvss_version": "3.1"
   },
   {
@@ -2459,22 +2459,22 @@
   {
    "library": "org.bouncycastle:bcmail-jdk15on",
    "ecosystem": "Java",
-   "releases": 13,
-   "latest": "1.47.1-osera-00013",
+   "releases": 14,
+   "latest": "1.47.1-osera-00014",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpg-jdk15on",
    "ecosystem": "Java",
-   "releases": 13,
-   "latest": "1.47.1-osera-00013",
+   "releases": 14,
+   "latest": "1.47.1-osera-00014",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "ecosystem": "Java",
-   "releases": 90,
-   "latest": "1.47.1-osera-00013",
+   "releases": 91,
+   "latest": "1.47.1-osera-00014",
    "fixed_entries": 356
   },
   {
@@ -2494,9 +2494,9 @@
   {
    "library": "org.bouncycastle:bcprov-jdk15on",
    "ecosystem": "Java",
-   "releases": 90,
-   "latest": "1.47.1-osera-00013",
-   "fixed_entries": 1319
+   "releases": 91,
+   "latest": "1.47.1-osera-00014",
+   "fixed_entries": 1334
   },
   {
    "library": "org.bouncycastle:bcprov-jdk18on",
@@ -6528,6 +6528,6 @@
    "cvss_version": "4.0"
   }
  ],
- "new_cves_as_of": "2026-11-27T09:44:37Z",
+ "new_cves_as_of": "2026-11-27T10:04:23Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
