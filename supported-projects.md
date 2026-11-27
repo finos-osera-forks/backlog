@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T01:50:20Z. Written by the line manager reconciler.
+Generated 2026-11-27T02:14:02Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -140,8 +140,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | mkdirp-1.0.x | npm | `mkdirp@1.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mlflow-skinny-3.14.x | pypi | `mlflow-skinny==3.14.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | mlflow-tracing-3.18.x | pypi | `mlflow-tracing==3.18.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| more-itertools-10.8.x | pypi | `more-itertools==10.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ms-2.0.x | npm | `ms@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| more-itertools-10.8.x | pypi | `more-itertools==10.8.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ms-2.0.x | npm | `ms@2.0.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | msgpack-1.1.x | pypi | `msgpack==1.1.2` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | multer-1.4.x | npm | `multer@1.4.4` | not fixed | 12 | 0 | 0% | 0 | 0 | 12 | 0 |
 | negotiator-0.6.x | npm | `negotiator@0.6.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
