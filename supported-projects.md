@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T01:00:38Z. Written by the line manager reconciler.
+Generated 2026-11-27T01:03:39Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -100,7 +100,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | flask-httpauth-4.8.x | pypi | `flask-httpauth==4.8.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | follow-redirects-1.16.x | npm | `follow-redirects@1.16.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | gdal-3.4.x | pypi | `gdal==3.4.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| glob-7.2.x | npm | `glob@7.2.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| glob-7.2.x | npm | `glob@7.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | google-auth-2.62.x | pypi | `google-auth==2.62.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | graceful-fs-4.2.x | npm | `graceful-fs@4.2.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | h11-0.16.x | pypi | `h11==0.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
