@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T05:51:27Z. Written by the line manager reconciler.
+Generated 2026-11-27T05:59:26Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -47,7 +47,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | bouncycastle-1.70.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.70` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | bouncycastle-1.69.x | maven | `org.bouncycastle:bcpkix-jdk15on@1.69` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | httpclient5-5.5.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.5.2` | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 |
-| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | in progress | 3 | 1 | 33% | 0 | 0 | 2 | 0 |
+| httpclient5-5.4.x | maven | `org.apache.httpcomponents.client5:httpclient5@5.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | adm-zip-0.6.x | npm | `adm-zip@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | agent-base-7.1.x | npm | `agent-base@7.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
