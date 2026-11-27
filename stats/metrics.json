@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-27T12:52:55Z",
+ "as_of": "2026-11-27T13:52:54Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 599,
   "library_versions": 827,
-  "releases": 2218,
+  "releases": 2220,
   "forks": 97,
-  "artifacts": 17610,
+  "artifacts": 17618,
   "cves": 299,
-  "cve_statements": 6501,
-  "release_sets": 692,
+  "cve_statements": 6551,
+  "release_sets": 694,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -120,7 +120,7 @@
   },
   {
    "date": "2026-11-27",
-   "count": 24
+   "count": 32
   }
  ],
  "top_cves": [
@@ -135,8 +135,8 @@
   {
    "id": "CVE-2026-71888",
    "summary": "In Bouncy Castle for Java before 1.86, the streaming CMS AuthenticatedData parser accepted a message whose digestAlgorithm and authAttrs fields disagreed about whether authenticated attributes were present.",
-   "fixed_entries": 152,
-   "libraries": 4,
+   "fixed_entries": 155,
+   "libraries": 5,
    "cvss": 8.7,
    "cvss_version": "4.0"
   },
@@ -149,19 +149,19 @@
    "cvss_version": "3.1"
   },
   {
+   "id": "CVE-2026-59650",
+   "summary": "In Bouncy Castle for Java before 1.85, MTI/A0 DH agreement exponentiates unvalidated peer value.",
+   "fixed_entries": 125,
+   "libraries": 3,
+   "cvss": 9.1,
+   "cvss_version": "3.1"
+  },
+  {
    "id": "CVE-2026-22733",
    "summary": "Spring Boot has an Authentication Bypass under Actuator CloudFoundry endpoints",
    "fixed_entries": 124,
    "libraries": 1,
    "cvss": 8.1,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-59650",
-   "summary": "In Bouncy Castle for Java before 1.85, MTI/A0 DH agreement exponentiates unvalidated peer value.",
-   "fixed_entries": 123,
-   "libraries": 3,
-   "cvss": 9.1,
    "cvss_version": "3.1"
   },
   {
@@ -175,7 +175,7 @@
   {
    "id": "CVE-2026-71889",
    "summary": "In Bouncy Castle for Java before 1.86, neither copy of PKIXCertPathReviewer - org.bouncycastle.pkix.jcajce.PKIXCertPathReviewer nor the legacy org.bouncycastle.x509.PKIXCertPathReviewer - applied X.509 name constraints to the end-entity ce…",
-   "fixed_entries": 120,
+   "fixed_entries": 122,
    "libraries": 4,
    "cvss": 8.7,
    "cvss_version": "4.0"
@@ -186,6 +186,22 @@
    "fixed_entries": 120,
    "libraries": 3,
    "cvss": 5.3,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-13586",
+   "summary": "In Bouncy Castle for Java before 1.85, PKCS#12 MAC and bag-decryption KDF iteration-count bound (DoS).",
+   "fixed_entries": 108,
+   "libraries": 5,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-12185",
+   "summary": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
+   "fixed_entries": 108,
+   "libraries": 3,
+   "cvss": 8.6,
    "cvss_version": "3.1"
   },
   {
@@ -205,33 +221,17 @@
    "cvss_version": "3.1"
   },
   {
-   "id": "CVE-2026-12185",
-   "summary": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
-   "fixed_entries": 106,
-   "libraries": 3,
-   "cvss": 8.6,
+   "id": "CVE-2024-29857",
+   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+   "fixed_entries": 107,
+   "libraries": 2,
+   "cvss": 7.5,
    "cvss_version": "3.1"
   },
   {
    "id": "CVE-2025-14813",
    "summary": "Bouncy Castle for Java GOST 28147 CTR mode reuses keystream after 255 blocks",
    "fixed_entries": 106,
-   "libraries": 2,
-   "cvss": 7.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-13586",
-   "summary": "In Bouncy Castle for Java before 1.85, PKCS#12 MAC and bag-decryption KDF iteration-count bound (DoS).",
-   "fixed_entries": 105,
-   "libraries": 5,
-   "cvss": 7.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2024-29857",
-   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
-   "fixed_entries": 105,
    "libraries": 2,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -255,7 +255,15 @@
   {
    "id": "CVE-2026-12816",
    "summary": "In Bouncy Castle for Java before 1.85, IESEngine stream-mode MAC forgery via length-dependent KDF split.",
-   "fixed_entries": 88,
+   "fixed_entries": 90,
+   "libraries": 3,
+   "cvss": 7.5,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2026-59642",
+   "summary": "In Bouncy Castle for Java before 1.85, CMS AuthenticatedData content not bound to MAC when authAttrs present.",
+   "fixed_entries": 83,
    "libraries": 3,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -273,14 +281,6 @@
    "summary": "In Bouncy Castle for Java before 1.85, CMS verifySignatures returns true for SignedData with zero signers.",
    "fixed_entries": 82,
    "libraries": 2,
-   "cvss": 7.5,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-59642",
-   "summary": "In Bouncy Castle for Java before 1.85, CMS AuthenticatedData content not bound to MAC when authAttrs present.",
-   "fixed_entries": 81,
-   "libraries": 3,
    "cvss": 7.5,
    "cvss_version": "3.1"
   }
@@ -2459,23 +2459,23 @@
   {
    "library": "org.bouncycastle:bcmail-jdk15on",
    "ecosystem": "Java",
-   "releases": 18,
-   "latest": "1.47.1-osera-00021",
+   "releases": 20,
+   "latest": "1.47.1-osera-00024",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpg-jdk15on",
    "ecosystem": "Java",
-   "releases": 18,
-   "latest": "1.47.1-osera-00021",
-   "fixed_entries": 0
+   "releases": 20,
+   "latest": "1.47.1-osera-00024",
+   "fixed_entries": 1
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "ecosystem": "Java",
-   "releases": 95,
-   "latest": "1.47.1-osera-00021",
-   "fixed_entries": 356
+   "releases": 97,
+   "latest": "1.47.1-osera-00024",
+   "fixed_entries": 359
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk18on",
@@ -2494,9 +2494,9 @@
   {
    "library": "org.bouncycastle:bcprov-jdk15on",
    "ecosystem": "Java",
-   "releases": 95,
-   "latest": "1.47.1-osera-00021",
-   "fixed_entries": 1411
+   "releases": 97,
+   "latest": "1.47.1-osera-00024",
+   "fixed_entries": 1457
   },
   {
    "library": "org.bouncycastle:bcprov-jdk18on",
@@ -6516,6 +6516,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-27T12:38:15Z",
+ "new_cves_as_of": "2026-11-27T13:56:49Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
