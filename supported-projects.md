@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T10:36:36Z. Written by the line manager reconciler.
+Generated 2026-11-27T10:43:55Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -13,7 +13,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 50 | 89% | 12 | 0 | 6 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
-| axis-1.4.x | maven | `org.apache.axis:axis@1.4` | in progress | 3 | 2 | 67% | 2 | 0 | 1 | 0 |
+| axis-1.4.x | maven | `org.apache.axis:axis@1.4` | - | 0 | 0 | - | 2 | 0 | 0 | 0 |
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -217,7 +217,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | uuid-11.1.x | npm | `uuid@11.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | vite-6.4.x | npm | `vite@6.4.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | waitress-3.0.x | pypi | `waitress==3.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| webargs-5.5.x | pypi | `webargs==5.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| webargs-5.5.x | pypi | `webargs==5.5.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | webpack-dev-middleware-7.4.x | npm | `webpack-dev-middleware@7.4.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | webpack-dev-server-5.2.x | npm | `webpack-dev-server@5.2.7` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | websocket-driver-0.7.x | npm | `websocket-driver@0.7.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
