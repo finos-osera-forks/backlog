@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-27T13:52:54Z",
+ "as_of": "2026-11-27T14:27:55Z",
  "environment": "production",
  "ecosystems": [
   "Java",
@@ -9,12 +9,12 @@
   "supported_lines": 41,
   "libraries": 599,
   "library_versions": 827,
-  "releases": 2220,
+  "releases": 2221,
   "forks": 97,
-  "artifacts": 17618,
+  "artifacts": 17622,
   "cves": 299,
-  "cve_statements": 6551,
-  "release_sets": 694,
+  "cve_statements": 6578,
+  "release_sets": 695,
   "undated_artifacts": 0
  },
  "artifacts_per_day": [
@@ -120,14 +120,14 @@
   },
   {
    "date": "2026-11-27",
-   "count": 32
+   "count": 36
   }
  ],
  "top_cves": [
   {
    "id": "CVE-2025-8916",
    "summary": "Bouncy Castle for Java bcpkix, bcprov, bcpkix-fips on All (API modules) allows Excessive Allocation",
-   "fixed_entries": 163,
+   "fixed_entries": 164,
    "libraries": 4,
    "cvss": 6.3,
    "cvss_version": "4.0"
@@ -135,7 +135,7 @@
   {
    "id": "CVE-2026-71888",
    "summary": "In Bouncy Castle for Java before 1.86, the streaming CMS AuthenticatedData parser accepted a message whose digestAlgorithm and authAttrs fields disagreed about whether authenticated attributes were present.",
-   "fixed_entries": 155,
+   "fixed_entries": 157,
    "libraries": 5,
    "cvss": 8.7,
    "cvss_version": "4.0"
@@ -151,7 +151,7 @@
   {
    "id": "CVE-2026-59650",
    "summary": "In Bouncy Castle for Java before 1.85, MTI/A0 DH agreement exponentiates unvalidated peer value.",
-   "fixed_entries": 125,
+   "fixed_entries": 126,
    "libraries": 3,
    "cvss": 9.1,
    "cvss_version": "3.1"
@@ -165,20 +165,20 @@
    "cvss_version": "3.1"
   },
   {
+   "id": "CVE-2026-71889",
+   "summary": "In Bouncy Castle for Java before 1.86, neither copy of PKIXCertPathReviewer - org.bouncycastle.pkix.jcajce.PKIXCertPathReviewer nor the legacy org.bouncycastle.x509.PKIXCertPathReviewer - applied X.509 name constraints to the end-entity ce…",
+   "fixed_entries": 123,
+   "libraries": 4,
+   "cvss": 8.7,
+   "cvss_version": "4.0"
+  },
+  {
    "id": "CVE-2025-22235",
    "summary": "Spring Boot EndpointRequest.to() creates wrong matcher if actuator endpoint is not exposed",
    "fixed_entries": 123,
    "libraries": 1,
    "cvss": 7.3,
    "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2026-71889",
-   "summary": "In Bouncy Castle for Java before 1.86, neither copy of PKIXCertPathReviewer - org.bouncycastle.pkix.jcajce.PKIXCertPathReviewer nor the legacy org.bouncycastle.x509.PKIXCertPathReviewer - applied X.509 name constraints to the end-entity ce…",
-   "fixed_entries": 122,
-   "libraries": 4,
-   "cvss": 8.7,
-   "cvss_version": "4.0"
   },
   {
    "id": "CVE-2026-12860",
@@ -191,7 +191,7 @@
   {
    "id": "CVE-2026-13586",
    "summary": "In Bouncy Castle for Java before 1.85, PKCS#12 MAC and bag-decryption KDF iteration-count bound (DoS).",
-   "fixed_entries": 108,
+   "fixed_entries": 110,
    "libraries": 5,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -199,9 +199,17 @@
   {
    "id": "CVE-2026-12185",
    "summary": "In Bouncy Castle for Java before 1.85, BKS/UBER keystore allocates from untrusted lengths before integrity check.",
-   "fixed_entries": 108,
+   "fixed_entries": 109,
    "libraries": 3,
    "cvss": 8.6,
+   "cvss_version": "3.1"
+  },
+  {
+   "id": "CVE-2024-29857",
+   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
+   "fixed_entries": 108,
+   "libraries": 2,
+   "cvss": 7.5,
    "cvss_version": "3.1"
   },
   {
@@ -218,14 +226,6 @@
    "fixed_entries": 107,
    "libraries": 5,
    "cvss": 8.2,
-   "cvss_version": "3.1"
-  },
-  {
-   "id": "CVE-2024-29857",
-   "summary": "Bouncy Castle certificate parsing issues cause high CPU usage during parameter evaluation.",
-   "fixed_entries": 107,
-   "libraries": 2,
-   "cvss": 7.5,
    "cvss_version": "3.1"
   },
   {
@@ -255,7 +255,7 @@
   {
    "id": "CVE-2026-12816",
    "summary": "In Bouncy Castle for Java before 1.85, IESEngine stream-mode MAC forgery via length-dependent KDF split.",
-   "fixed_entries": 90,
+   "fixed_entries": 91,
    "libraries": 3,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -263,7 +263,7 @@
   {
    "id": "CVE-2026-59642",
    "summary": "In Bouncy Castle for Java before 1.85, CMS AuthenticatedData content not bound to MAC when authAttrs present.",
-   "fixed_entries": 83,
+   "fixed_entries": 84,
    "libraries": 3,
    "cvss": 7.5,
    "cvss_version": "3.1"
@@ -2459,23 +2459,23 @@
   {
    "library": "org.bouncycastle:bcmail-jdk15on",
    "ecosystem": "Java",
-   "releases": 20,
-   "latest": "1.47.1-osera-00024",
+   "releases": 21,
+   "latest": "1.47.1-osera-00025",
    "fixed_entries": 0
   },
   {
    "library": "org.bouncycastle:bcpg-jdk15on",
    "ecosystem": "Java",
-   "releases": 20,
-   "latest": "1.47.1-osera-00024",
-   "fixed_entries": 1
+   "releases": 21,
+   "latest": "1.47.1-osera-00025",
+   "fixed_entries": 2
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk15on",
    "ecosystem": "Java",
-   "releases": 97,
-   "latest": "1.47.1-osera-00024",
-   "fixed_entries": 359
+   "releases": 98,
+   "latest": "1.47.1-osera-00025",
+   "fixed_entries": 362
   },
   {
    "library": "org.bouncycastle:bcpkix-jdk18on",
@@ -2494,9 +2494,9 @@
   {
    "library": "org.bouncycastle:bcprov-jdk15on",
    "ecosystem": "Java",
-   "releases": 97,
-   "latest": "1.47.1-osera-00024",
-   "fixed_entries": 1457
+   "releases": 98,
+   "latest": "1.47.1-osera-00025",
+   "fixed_entries": 1480
   },
   {
    "library": "org.bouncycastle:bcprov-jdk18on",
@@ -6516,6 +6516,6 @@
    "cvss_version": "3.1"
   }
  ],
- "new_cves_as_of": "2026-11-27T13:56:49Z",
+ "new_cves_as_of": "2026-11-27T14:17:12Z",
  "new_cves_since": "2026-10-18T21:05:14Z"
 }
