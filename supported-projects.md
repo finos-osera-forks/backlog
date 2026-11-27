@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T22:39:06Z. Written by the line manager reconciler.
+Generated 2026-11-27T22:41:34Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -193,7 +193,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | six-1.11.x | pypi | `six==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | socket.io-parser-4.2.x | npm | `socket.io-parser@4.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | soupsieve-2.9.x | pypi | `soupsieve==2.9.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
-| source-map-0.6.x | npm | `source-map@0.6.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| source-map-0.6.x | npm | `source-map@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | source-map-js-1.2.x | npm | `source-map-js@1.2.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | string-width-4.2.x | npm | `string-width@4.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
