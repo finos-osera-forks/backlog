@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T02:57:39Z. Written by the line manager reconciler.
+Generated 2026-11-27T03:00:29Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -20,7 +20,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
-| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
@@ -65,14 +65,14 @@ The latest patch view: every library at the latest upstream patch release, the v
 | apache-airflow-providers-google-10.12.x | pypi | `apache-airflow-providers-google==10.12.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-providers-http-5.5.x | pypi | `apache-airflow-providers-http==5.5.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | autocommand-2.2.x | pypi | `autocommand==2.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| backstage-errors-1.2.x | npm | `@backstage/errors@1.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| backstage-errors-1.2.x | npm | `@backstage/errors@1.2.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | balanced-match-1.0.x | npm | `balanced-match@1.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | body-parser-1.20.x | npm | `body-parser@1.20.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | brace-expansion-1.1.x | npm | `brace-expansion@1.1.22` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | braces-3.0.x | npm | `braces@3.0.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | brotli-1.1.x | pypi | `brotli==1.1.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cacheable-request-7.0.x | npm | `cacheable-request@7.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| certifi-2026.10.x | pypi | `certifi==2026.10.23` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cffi-2.1.x | pypi | `cffi==2.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chalk-4.1.x | npm | `chalk@4.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chardet-3.0.x | pypi | `chardet==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
