@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T21:03:36Z. Written by the line manager reconciler.
+Generated 2026-11-27T21:40:13Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -189,7 +189,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | shell-quote-1.8.x | npm | `shell-quote@1.8.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | signal-exit-4.1.x | npm | `signal-exit@4.1.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sigstore-3.1.x | npm | `sigstore@3.1.0` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
-| sigstore-verify-2.1.x | npm | `@sigstore/verify@2.1.1` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
+| sigstore-verify-2.1.x | npm | `@sigstore/verify@2.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | six-1.11.x | pypi | `six==1.11.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | socket.io-parser-4.2.x | npm | `socket.io-parser@4.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | soupsieve-2.9.x | pypi | `soupsieve==2.9.2` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
