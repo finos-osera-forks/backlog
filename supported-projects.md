@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T01:17:32Z. Written by the line manager reconciler.
+Generated 2026-11-27T01:47:38Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -122,7 +122,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | jest-util-29.7.x | npm | `jest-util@29.7.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jinja2-3.1.x | pypi | `jinja2==3.1.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | jose-4.15.x | npm | `jose@4.15.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| json-schema-traverse-1.0.x | npm | `json-schema-traverse@1.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| json-schema-traverse-1.0.x | npm | `json-schema-traverse@1.0.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | kafka-python-2.0.x | pypi | `kafka-python==2.0.6` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | kerberos-1.3.x | pypi | `kerberos==1.3.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | langchain-community-0.4.x | pypi | `langchain-community==0.4.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
