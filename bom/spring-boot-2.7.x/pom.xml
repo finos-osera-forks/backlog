@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-27T16:26:56Z by the line manager.
+  The OSERA BOM of the spring-boot-2.7.x line, built 2026-11-27T16:56:02Z by the line manager.
   Every promoted patched version on the line, nothing else. Import it above the line's own dependency list.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.finos.osera</groupId>
   <artifactId>osera-bom-spring-boot-2.7.x</artifactId>
-  <version>2026.11.27</version>
+  <version>2026.11.27.2</version>
   <packaging>pom</packaging>
   <name>OSERA BOM for spring-boot-2.7.x</name>
   <dependencyManagement>
@@ -985,12 +985,12 @@
       <dependency>
         <groupId>org.thymeleaf</groupId>
         <artifactId>thymeleaf</artifactId>
-        <version>3.0.15.RELEASE-osera-00001</version>
+        <version>3.0.15.RELEASE-osera-00002</version>
       </dependency>
       <dependency>
         <groupId>org.thymeleaf</groupId>
         <artifactId>thymeleaf-spring5</artifactId>
-        <version>3.0.15.RELEASE-osera-00001</version>
+        <version>3.0.15.RELEASE-osera-00002</version>
       </dependency>
       <dependency>
         <groupId>org.yaml</groupId>
