@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T22:57:38Z. Written by the line manager reconciler.
+Generated 2026-11-27T23:02:04Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -16,7 +16,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | - | 0 | 0 | - | 2 | 0 | 0 | 0 |
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
-| commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
@@ -228,7 +228,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | xhtml2pdf-0.2.x | pypi | `xhtml2pdf==0.2.29` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | yallist-4.0.x | npm | `yallist@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | yaml-1.10.x | npm | `yaml@1.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| zipp-3.23.x | pypi | `zipp==3.23.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| zipp-3.23.x | pypi | `zipp==3.23.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
 ## Libraries
 
