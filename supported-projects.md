@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T18:48:53Z. Written by the line manager reconciler.
+Generated 2026-11-27T18:51:23Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -148,9 +148,9 @@ The latest patch view: every library at the latest upstream patch release, the v
 | node-forge-1.3.x | npm | `node-forge@1.3.3` | not fixed | 25 | 0 | 0% | 0 | 0 | 25 | 0 |
 | oauthlib-3.3.x | pypi | `oauthlib==3.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
 | ollama-0.6.x | pypi | `ollama==0.6.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
+| opentelemetry-core-2.2.x | npm | `@opentelemetry/core@2.2.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | opentelemetry-resources-2.2.x | npm | `@opentelemetry/resources@2.2.0` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
-| packaging-26.3.x | pypi | `packaging==26.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| packaging-26.3.x | pypi | `packaging==26.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pacote-20.0.x | npm | `pacote@20.0.1` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
 | picomatch-2.3.x | npm | `picomatch@2.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | pip-9.0.x | pypi | `pip==9.0.3` | not fixed | 9 | 0 | 0% | 0 | 0 | 9 | 0 |
