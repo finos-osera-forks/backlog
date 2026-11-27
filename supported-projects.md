@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T20:00:05Z. Written by the line manager reconciler.
+Generated 2026-11-27T20:25:05Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -142,8 +142,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | mlflow-tracing-3.18.x | pypi | `mlflow-tracing==3.18.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | more-itertools-10.8.x | pypi | `more-itertools==10.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ms-2.0.x | npm | `ms@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| msgpack-1.1.x | pypi | `msgpack==1.1.2` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| multer-1.4.x | npm | `multer@1.4.4` | not fixed | 12 | 0 | 0% | 0 | 0 | 12 | 0 |
+| msgpack-1.1.x | pypi | `msgpack==1.1.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| multer-1.4.x | npm | `multer@1.4.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | negotiator-0.6.x | npm | `negotiator@0.6.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | node-forge-1.3.x | npm | `node-forge@1.3.3` | not fixed | 25 | 0 | 0% | 0 | 0 | 25 | 0 |
 | oauthlib-3.3.x | pypi | `oauthlib==3.3.1` | not fixed | 4 | 0 | 0% | 0 | 0 | 4 | 0 |
