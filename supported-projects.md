@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-27T15:05:27Z. Written by the line manager reconciler.
+Generated 2026-11-27T15:08:06Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -64,7 +64,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | apache-airflow-providers-ftp-3.7.x | pypi | `apache-airflow-providers-ftp==3.7.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-providers-google-10.12.x | pypi | `apache-airflow-providers-google==10.12.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | apache-airflow-providers-http-5.5.x | pypi | `apache-airflow-providers-http==5.5.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| autocommand-2.2.x | pypi | `autocommand==2.2.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| autocommand-2.2.x | pypi | `autocommand==2.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | backstage-errors-1.2.x | npm | `@backstage/errors@1.2.7` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | balanced-match-1.0.x | npm | `balanced-match@1.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | body-parser-1.20.x | npm | `body-parser@1.20.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
