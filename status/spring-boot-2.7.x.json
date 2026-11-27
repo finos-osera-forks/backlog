@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.27.42",
-  "as_of": "2026-11-27T16:21:10Z",
+  "as_of": "2026-11-27T16:25:33Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 196,
@@ -501,6 +501,38 @@
       "patch": "00006",
       "named_by": "org.apache.logging.log4j:log4j-core@2.17.2.1-osera-00006",
       "at": "2026-11-05T13:19:38Z"
+    },
+    {
+      "cve": "CVE-2026-40477",
+      "library": "org.thymeleaf:thymeleaf",
+      "coordinate": "org.thymeleaf:thymeleaf@3.0.15.RELEASE-osera-00001",
+      "patch": "00001",
+      "named_by": "org.thymeleaf:thymeleaf@3.0.15.RELEASE-osera-00001",
+      "at": "2026-11-27T16:25:33Z"
+    },
+    {
+      "cve": "CVE-2026-40477",
+      "library": "org.thymeleaf:thymeleaf-spring5",
+      "coordinate": "org.thymeleaf:thymeleaf-spring5@3.0.15.RELEASE-osera-00001",
+      "patch": "00001",
+      "named_by": "org.thymeleaf:thymeleaf-spring5@3.0.15.RELEASE-osera-00001",
+      "at": "2026-11-27T16:25:33Z"
+    },
+    {
+      "cve": "CVE-2026-40478",
+      "library": "org.thymeleaf:thymeleaf",
+      "coordinate": "org.thymeleaf:thymeleaf@3.0.15.RELEASE-osera-00001",
+      "patch": "00001",
+      "named_by": "org.thymeleaf:thymeleaf@3.0.15.RELEASE-osera-00001",
+      "at": "2026-11-27T16:25:33Z"
+    },
+    {
+      "cve": "CVE-2026-40478",
+      "library": "org.thymeleaf:thymeleaf-spring5",
+      "coordinate": "org.thymeleaf:thymeleaf-spring5@3.0.15.RELEASE-osera-00001",
+      "patch": "00001",
+      "named_by": "org.thymeleaf:thymeleaf-spring5@3.0.15.RELEASE-osera-00001",
+      "at": "2026-11-27T16:25:33Z"
     },
     {
       "cve": "CVE-2026-40972",
@@ -1200,22 +1232,6 @@
     {
       "cve": "CVE-2026-40466",
       "library": "org.apache.activemq:activemq-broker"
-    },
-    {
-      "cve": "CVE-2026-40477",
-      "library": "org.thymeleaf:thymeleaf"
-    },
-    {
-      "cve": "CVE-2026-40477",
-      "library": "org.thymeleaf:thymeleaf-spring5"
-    },
-    {
-      "cve": "CVE-2026-40478",
-      "library": "org.thymeleaf:thymeleaf"
-    },
-    {
-      "cve": "CVE-2026-40478",
-      "library": "org.thymeleaf:thymeleaf-spring5"
     },
     {
       "cve": "CVE-2026-41001",
@@ -2687,5 +2703,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.20.7"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.27"
 }
