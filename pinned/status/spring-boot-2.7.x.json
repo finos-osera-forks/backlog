@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.28.42",
-  "as_of": "2026-11-28T13:54:28Z",
+  "as_of": "2026-11-28T14:11:35Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 369,
@@ -73,10 +73,10 @@
     {
       "cve": "CVE-2023-1973",
       "library": "io.undertow:undertow-core",
-      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00001",
-      "patch": "00001",
-      "named_by": "io.undertow:undertow-core@2.2.28.Final-osera-00001",
-      "at": "2026-11-28T13:54:28Z"
+      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00002",
+      "patch": "00002",
+      "named_by": "io.undertow:undertow-core@2.2.28.Final-osera-00002",
+      "at": "2026-11-28T14:11:35Z"
     },
     {
       "cve": "CVE-2023-2976",
@@ -101,6 +101,14 @@
       "patch": "00003",
       "named_by": "org.apache.santuario:xmlsec@2.0.10.1-osera-00003",
       "at": "2026-11-20T12:37:18Z"
+    },
+    {
+      "cve": "CVE-2023-4639",
+      "library": "io.undertow:undertow-core",
+      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00002",
+      "patch": "00002",
+      "named_by": "io.undertow:undertow-core@2.2.28.Final-osera-00002",
+      "at": "2026-11-28T14:11:35Z"
     },
     {
       "cve": "CVE-2023-51074",
@@ -988,10 +996,6 @@
     {
       "cve": "CVE-2023-46120",
       "library": "com.rabbitmq:amqp-client"
-    },
-    {
-      "cve": "CVE-2023-4639",
-      "library": "io.undertow:undertow-core"
     },
     {
       "cve": "CVE-2023-49921",
