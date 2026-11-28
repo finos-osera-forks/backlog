@@ -77718,6 +77718,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-zeromq@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-zeromq",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-zeromq@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T10:06:03Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-zookeeper@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-zookeeper",
       "base": "5.5.20",
@@ -77760,6 +77771,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-zookeeper@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-zookeeper@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-zookeeper",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-zookeeper@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T10:06:03Z"
     },
     {
       "coordinate": "org.springframework.kafka:spring-kafka-test@2.8.11.1-osera-00001",
