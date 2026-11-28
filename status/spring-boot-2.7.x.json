@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.28.28",
-  "as_of": "2026-11-28T11:48:53Z",
+  "book_version": "v2026.11.28.29",
+  "as_of": "2026-11-28T11:52:57Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 196,
@@ -111,12 +111,20 @@
       "at": "2026-11-20T16:03:02Z"
     },
     {
+      "cve": "CVE-2024-12798",
+      "library": "ch.qos.logback:logback-core",
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00005",
+      "patch": "00005",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00005",
+      "at": "2026-11-28T11:52:57Z"
+    },
+    {
       "cve": "CVE-2024-12801",
       "library": "ch.qos.logback:logback-core",
-      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00004",
-      "patch": "00004",
-      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00004",
-      "at": "2026-11-05T07:38:45Z"
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00005",
+      "patch": "00005",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00005",
+      "at": "2026-11-28T11:52:57Z"
     },
     {
       "cve": "CVE-2024-29857",
@@ -209,10 +217,10 @@
     {
       "cve": "CVE-2025-11226",
       "library": "ch.qos.logback:logback-core",
-      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00004",
-      "patch": "00004",
-      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00004",
-      "at": "2026-11-05T07:38:45Z"
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00005",
+      "patch": "00005",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00005",
+      "at": "2026-11-28T11:52:57Z"
     },
     {
       "cve": "CVE-2025-22227",
@@ -1126,10 +1134,6 @@
       "library": "com.rabbitmq:amqp-client"
     },
     {
-      "cve": "CVE-2024-12798",
-      "library": "ch.qos.logback:logback-core"
-    },
-    {
       "cve": "CVE-2024-25710",
       "library": "org.apache.commons:commons-compress"
     },
@@ -1637,6 +1641,7 @@
     "fixed, not in the backlog: CVE-2026-12860 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00039",
     "fixed, not in the backlog: CVE-2026-13006 on ch.qos.logback:logback-core@1.2.13.1-osera-00003",
     "fixed, not in the backlog: CVE-2026-13006 on ch.qos.logback:logback-core@1.2.13.1-osera-00004",
+    "fixed, not in the backlog: CVE-2026-13006 on ch.qos.logback:logback-core@1.2.13.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-13506 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-13506 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-13506 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00019",
@@ -2717,5 +2722,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.28"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.28.2"
 }
