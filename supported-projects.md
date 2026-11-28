@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T00:19:43Z. Written by the line manager reconciler.
+Generated 2026-11-28T00:22:25Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -217,14 +217,14 @@ The latest patch view: every library at the latest upstream patch release, the v
 | uuid-11.1.x | npm | `uuid@11.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | vite-6.4.x | npm | `vite@6.4.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | waitress-3.0.x | pypi | `waitress==3.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| webargs-5.5.x | pypi | `webargs==5.5.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| webargs-5.5.x | pypi | `webargs==5.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | webpack-dev-middleware-7.4.x | npm | `webpack-dev-middleware@7.4.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | webpack-dev-server-5.2.x | npm | `webpack-dev-server@5.2.7` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
 | websocket-driver-0.7.x | npm | `websocket-driver@0.7.5` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | wheel-0.46.x | pypi | `wheel==0.46.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | which-2.0.x | npm | `which@2.0.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | wrap-ansi-7.0.x | npm | `wrap-ansi@7.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ws-8.17.x | npm | `ws@8.17.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| ws-8.17.x | npm | `ws@8.17.1` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | xhtml2pdf-0.2.x | pypi | `xhtml2pdf==0.2.29` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | yallist-4.0.x | npm | `yallist@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | yaml-1.10.x | npm | `yaml@1.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
