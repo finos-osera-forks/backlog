@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T09:17:47Z. Written by the line manager reconciler.
+Generated 2026-11-28T11:04:31Z. Written by the line manager reconciler.
 
 The pinned view: every library at the version the line's anchor pins, tracked only. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -291,7 +291,7 @@ The pinned view: every library at the version the line's anchor pins, tracked on
 | org.apache.activemq:activemq-broker | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 12 | 0 | 0% | 0 | 0 | 12 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-client | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 5 | 0 | 0% | 0 | 0 | 5 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.activemq:activemq-openwire-legacy | 5.16.7 | spring-boot-2.7.x | listed by the BOM at 5.16.7 | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
-| org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 2 | 67% | 2 | 0 | 1 | 0 | 1.4.1-osera-00004 | 1.4.1-osera-00004 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| org.apache.axis:axis | 1.4 | axis-1.4.x | own project (the anchor's group) | open | 3 | 2 | 67% | 2 | 0 | 1 | 0 | 1.4.1-osera-00005 | 1.4.1-osera-00005 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.commons:commons-compress | 1.21 | spring-boot-2.7.x | pulled in by a dependency (org.springframework.boot:spring-boot-buildpack-platform@2.7.18) | open | 2 | 0 | 0% | 0 | 0 | 2 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-lang3 | 3.8.1 | commons-text-1.6.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | org.apache.commons:commons-lang3 | 3.9 | commons-text-1.7.x, commons-text-1.8.x | own project (the anchor's group) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
