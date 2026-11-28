@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.28.8",
-  "as_of": "2026-11-28T08:18:51Z",
+  "as_of": "2026-11-28T08:22:13Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 196,
@@ -2438,6 +2438,7 @@
     "promoted com.fasterxml.jackson.core:jackson-databind@2.9.10.8.1-osera-00009 is on base 2.9.10.8, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.9.10.8.1-osera-00010 is on base 2.9.10.8, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.9.10.8.1-osera-00011 is on base 2.9.10.8, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
+    "promoted com.fasterxml.jackson.core:jackson-databind@2.9.10.8.1-osera-00012 is on base 2.9.10.8, the line has com.fasterxml.jackson.core:jackson-databind at 2.13.5",
     "promoted com.graphql-java:graphql-java@18.7.1-osera-00001 is on base 18.7, the line has com.graphql-java:graphql-java at 18.5",
     "promoted commons-beanutils:commons-beanutils@1.6.1.1-osera-00001 is on base 1.6.1, the line has commons-beanutils:commons-beanutils at 1.9.4",
     "promoted commons-beanutils:commons-beanutils@1.6.1.1-osera-00002 is on base 1.6.1, the line has commons-beanutils:commons-beanutils at 1.9.4",
