@@ -1,7 +1,7 @@
 {
   "line": "jackson-2.15.x",
-  "book_version": "v2026.11.28.5",
-  "as_of": "2026-11-28T07:51:06Z",
+  "book_version": "v2026.11.28.6",
+  "as_of": "2026-11-28T08:03:41Z",
   "status": "fixed",
   "chain": "complete",
   "in_scope": 15,
@@ -214,6 +214,7 @@
     "promoted com.fasterxml.jackson.core:jackson-core@2.9.10.1-osera-00009 is on base 2.9.10, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
     "promoted com.fasterxml.jackson.core:jackson-core@2.9.10.1-osera-00010 is on base 2.9.10, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
     "promoted com.fasterxml.jackson.core:jackson-core@2.9.10.1-osera-00011 is on base 2.9.10, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
+    "promoted com.fasterxml.jackson.core:jackson-core@2.9.10.1-osera-00012 is on base 2.9.10, the line has com.fasterxml.jackson.core:jackson-core at 2.15.4",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00001 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00002 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
     "promoted com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00003 is on base 2.13.5, the line has com.fasterxml.jackson.core:jackson-databind at 2.15.4",
