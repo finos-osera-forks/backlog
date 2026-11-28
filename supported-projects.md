@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T06:14:04Z. Written by the line manager reconciler.
+Generated 2026-11-28T06:16:32Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -197,7 +197,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | source-map-js-1.2.x | npm | `source-map-js@1.2.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | sqlparse-0.3.x | pypi | `sqlparse==0.3.1` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | string-width-4.2.x | npm | `string-width@4.2.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| string_decoder-1.1.x | npm | `string_decoder@1.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| string_decoder-1.1.x | npm | `string_decoder@1.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | strip-ansi-6.0.x | npm | `strip-ansi@6.0.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | supports-color-7.2.x | npm | `supports-color@7.2.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | tar-6.2.x | npm | `tar@6.2.1` | not fixed | 12 | 0 | 0% | 0 | 0 | 12 | 0 |
@@ -212,7 +212,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | typing-extensions-4.16.x | pypi | `typing-extensions==4.16.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ujson-5.10.x | pypi | `ujson==5.10.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | undici-7.30.x | npm | `undici@7.30.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| uri-js-4.4.x | npm | `uri-js@4.4.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| uri-js-4.4.x | npm | `uri-js@4.4.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | urllib3-1.24.x | pypi | `urllib3==1.24.3` | not fixed | 10 | 0 | 0% | 0 | 0 | 10 | 0 |
 | uuid-11.1.x | npm | `uuid@11.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | vite-6.4.x | npm | `vite@6.4.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
