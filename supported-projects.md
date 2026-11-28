@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T15:23:42Z. Written by the line manager reconciler.
+Generated 2026-11-28T15:28:24Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -20,7 +20,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
 | velocity-1.7.x | maven | `org.apache.velocity:velocity@1.7` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
-| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| velocity-1.6.x | maven | `org.apache.velocity:velocity@1.6.4` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.9.x | maven | `org.yaml:snakeyaml@1.9` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.23.x | maven | `org.yaml:snakeyaml@1.23` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
 | snakeyaml-1.19.x | maven | `org.yaml:snakeyaml@1.19` | in progress | 9 | 8 | 89% | 0 | 0 | 1 | 0 |
@@ -226,7 +226,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | wrap-ansi-7.0.x | npm | `wrap-ansi@7.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ws-8.17.x | npm | `ws@8.17.1` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | xhtml2pdf-0.2.x | pypi | `xhtml2pdf==0.2.29` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| yallist-4.0.x | npm | `yallist@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| yallist-4.0.x | npm | `yallist@4.0.0` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | yaml-1.10.x | npm | `yaml@1.10.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | zipp-3.23.x | pypi | `zipp==3.23.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 
