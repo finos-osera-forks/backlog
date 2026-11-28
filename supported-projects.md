@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T00:51:01Z. Written by the line manager reconciler.
+Generated 2026-11-28T01:09:40Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -74,7 +74,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | cacheable-request-7.0.x | npm | `cacheable-request@7.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | certifi-2026.10.x | pypi | `certifi==2026.10.23` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | cffi-2.1.x | pypi | `cffi==2.1.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| chalk-4.1.x | npm | `chalk@4.1.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| chalk-4.1.x | npm | `chalk@4.1.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | chardet-3.0.x | pypi | `chardet==3.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | charset-normalizer-3.5.x | pypi | `charset-normalizer==3.5.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | click-8.5.x | pypi | `click==8.5.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
