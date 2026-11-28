@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T02:33:05Z. Written by the line manager reconciler.
+Generated 2026-11-28T03:20:16Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -88,7 +88,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | debug-2.6.x | npm | `debug@2.6.9` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | decode-uri-component-0.2.x | npm | `decode-uri-component@0.2.2` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | decorator-4.2.x | pypi | `decorator==4.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| deepmerge-4.3.x | npm | `deepmerge@4.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| deepmerge-4.3.x | npm | `deepmerge@4.3.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | diff-5.2.x | npm | `diff@5.2.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | dnspython-2.8.x | pypi | `dnspython==2.8.0` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
 | dulwich-1.2.x | pypi | `dulwich==1.2.21` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
