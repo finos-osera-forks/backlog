@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T14:08:50Z. Written by the line manager reconciler.
+Generated 2026-11-28T14:11:35Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -108,10 +108,10 @@ The latest patch view: every library at the latest upstream patch release, the v
 | has-flag-4.0.x | npm | `has-flag@4.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | http-cache-semantics-4.1.x | npm | `http-cache-semantics@4.1.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | http-proxy-middleware-2.0.x | npm | `http-proxy-middleware@2.0.12` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| https-proxy-agent-7.0.x | npm | `https-proxy-agent@7.0.6` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| https-proxy-agent-7.0.x | npm | `https-proxy-agent@7.0.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | iconv-lite-0.6.x | npm | `iconv-lite@0.6.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | idna-2.5.x | pypi | `idna==2.5` | not fixed | 2 | 0 | 0% | 0 | 0 | 2 | 0 |
-| importlib-metadata-8.7.x | pypi | `importlib-metadata==8.7.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| importlib-metadata-8.7.x | pypi | `importlib-metadata==8.7.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | inflect-7.3.x | pypi | `inflect==7.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | inherits-2.0.x | npm | `inherits@2.0.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | iniparse-0.4.x | pypi | `iniparse==0.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -398,7 +398,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-564 libraries, 6129 patched version(s).
+564 libraries, 6131 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -668,8 +668,8 @@ The latest patch view: every library at the latest upstream patch release, the v
 | io.projectreactor.rabbitmq:reactor-rabbitmq | 1.5.6 | listed by the BOM of spring-boot-2.7.x at 1.5.6, not in its dependency graph | spring-boot-2.7.x |  | 1.5.6.1-osera-00001 1.5.6.1-osera-00002 1.5.6.1-osera-00003 | 1.5.6.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-test | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 3.4.41.1-osera-00002 3.4.41.1-osera-00003 | 3.4.41.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.projectreactor:reactor-tools | 3.4.41 | listed by the BOM of spring-boot-2.7.x at 3.4.34, not in its dependency graph | spring-boot-2.7.x |  | 3.4.41.1-osera-00001 3.4.41.1-osera-00002 3.4.41.1-osera-00003 | 3.4.41.1-osera-00003 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.undertow:undertow-core | 2.2.28.Final | in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final | spring-boot-2.7.x |  | 2.2.28.Final-osera-00001 | 2.2.28.Final-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| io.undertow:undertow-servlet | 2.2.28.Final | in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final | spring-boot-2.7.x |  | 2.2.28.Final-osera-00001 | 2.2.28.Final-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.undertow:undertow-core | 2.2.28.Final | in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final | spring-boot-2.7.x |  | 2.2.28.Final-osera-00001 2.2.28.Final-osera-00002 | 2.2.28.Final-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| io.undertow:undertow-servlet | 2.2.28.Final | in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final | spring-boot-2.7.x |  | 2.2.28.Final-osera-00001 2.2.28.Final-osera-00002 | 2.2.28.Final-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | io.undertow:undertow-websockets-jsr | 2.2.28.Final | in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final | spring-boot-2.7.x |  | 2.2.28.Final-osera-00001 2.2.28.Final-osera-00002 | 2.2.28.Final-osera-00002 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | net.minidev:json-smart-action | 2.4.11 | not listed by any line |  | spring-boot-2.7.x, spring-security-5.7.x | 2.4.11.1-osera-00001 | 2.4.11.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | org.apache.activemq:activemq-all | 5.14.5 | not listed by any line |  | spring-boot-2.7.x | 5.14.5.1-osera-00001 | 5.14.5.1-osera-00001 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |

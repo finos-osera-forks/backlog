@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.28.42",
-  "as_of": "2026-11-28T13:54:28Z",
+  "as_of": "2026-11-28T14:11:35Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 196,
@@ -2470,6 +2470,7 @@
     "promoted commons-beanutils:commons-beanutils@1.8.3.1-osera-00003 is on base 1.8.3, the line has commons-beanutils:commons-beanutils at 1.9.4",
     "promoted commons-lang:commons-lang@2.6.1-osera-00001 is on base 2.6, the line has commons-lang:commons-lang at 2.4",
     "promoted io.undertow:undertow-core@2.2.28.Final-osera-00001 is on base 2.2.28.Final, the line has io.undertow:undertow-core at 2.2.41.Final",
+    "promoted io.undertow:undertow-core@2.2.28.Final-osera-00002 is on base 2.2.28.Final, the line has io.undertow:undertow-core at 2.2.41.Final",
     "promoted org.apache.activemq:activemq-broker@5.14.5.1-osera-00001 is on base 5.14.5, the line has org.apache.activemq:activemq-broker at 5.16.8",
     "promoted org.apache.activemq:activemq-client@5.14.5.1-osera-00001 is on base 5.14.5, the line has org.apache.activemq:activemq-client at 5.16.8",
     "promoted org.apache.commons:commons-compress@1.20.1-osera-00001 is on base 1.20, the line has org.apache.commons:commons-compress at 1.21",
