@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T15:48:38Z. Written by the line manager reconciler.
+Generated 2026-11-28T15:57:10Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -183,7 +183,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | requests-2.20.x | pypi | `requests==2.20.1` | not fixed | 16 | 0 | 0% | 0 | 0 | 16 | 0 |
 | safe-buffer-5.2.x | npm | `safe-buffer@5.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | selenium-3.141.x | pypi | `selenium==3.141.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| semver-6.3.x | npm | `semver@6.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| semver-6.3.x | npm | `semver@6.3.2` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | serialize-javascript-6.0.x | npm | `serialize-javascript@6.0.2` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
 | setuptools-39.2.x | pypi | `setuptools==39.2.0` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
 | shell-quote-1.8.x | npm | `shell-quote@1.8.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
