@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T13:03:43Z. Written by the line manager reconciler.
+Generated 2026-11-28T13:15:31Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -51,7 +51,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | crypto-js-4.1.x | npm | `crypto-js@4.1.1` | fixed | 1 | 1 | 100% | 0 | 0 | 0 | 0 |
 | adm-zip-0.6.x | npm | `adm-zip@0.6.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | agent-base-7.1.x | npm | `agent-base@7.1.4` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
-| ajv-6.12.x | npm | `ajv@6.12.6` | not fixed | 1 | 0 | 0% | 0 | 0 | 1 | 0 |
+| ajv-6.12.x | npm | `ajv@6.12.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | angular-common-19.2.x | npm | `@angular/common@19.2.25` | not fixed | 8 | 0 | 0% | 0 | 0 | 8 | 0 |
 | angular-router-19.2.x | npm | `@angular/router@19.2.25` | not fixed | 10 | 0 | 0% | 0 | 0 | 10 | 0 |
 | annotated-types-0.8.x | pypi | `annotated-types==0.8.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
