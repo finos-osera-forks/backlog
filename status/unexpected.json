@@ -76233,6 +76233,17 @@
       "first_seen": "2026-11-05T08:19:01Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-http@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-http",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-http@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-ip@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-ip",
       "base": "5.5.20",
@@ -76275,6 +76286,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-ip@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:19:01Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-ip@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-ip",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-ip@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-jdbc@5.5.20.1-osera-00001",
@@ -76321,6 +76343,17 @@
       "first_seen": "2026-11-05T08:19:01Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-jdbc@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-jdbc",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-jdbc@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-jms@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-jms",
       "base": "5.5.20",
@@ -76363,6 +76396,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-jms@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:19:01Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-jms@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-jms",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-jms@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-jmx@5.5.20.1-osera-00001",
@@ -76409,6 +76453,17 @@
       "first_seen": "2026-11-05T08:19:01Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-jmx@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-jmx",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-jmx@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-jpa@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-jpa",
       "base": "5.5.20",
@@ -76451,6 +76506,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-jpa@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:19:01Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-jpa@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-jpa",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-jpa@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-kafka@5.5.20.1-osera-00001",
@@ -76497,6 +76563,17 @@
       "first_seen": "2026-11-05T08:19:01Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-kafka@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-kafka",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-kafka@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-mail@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-mail",
       "base": "5.5.20",
@@ -76539,6 +76616,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-mail@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:19:01Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-mail@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-mail",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-mail@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-mongodb@5.5.20.1-osera-00001",
@@ -76585,6 +76673,17 @@
       "first_seen": "2026-11-05T08:19:01Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-mongodb@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-mongodb",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-mongodb@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-mqtt@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-mqtt",
       "base": "5.5.20",
@@ -76627,6 +76726,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-mqtt@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:19:01Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-mqtt@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-mqtt",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-mqtt@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-r2dbc@5.5.20.1-osera-00001",
@@ -76673,6 +76783,17 @@
       "first_seen": "2026-11-05T08:19:01Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-r2dbc@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-r2dbc",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-r2dbc@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-redis@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-redis",
       "base": "5.5.20",
@@ -76715,6 +76836,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-redis@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-redis@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-redis",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-redis@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-rmi@5.5.20.1-osera-00001",
@@ -76761,6 +76893,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-rmi@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-rmi",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-rmi@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-rsocket@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-rsocket",
       "base": "5.5.20",
@@ -76803,6 +76946,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-rsocket@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-rsocket@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-rsocket",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-rsocket@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-scripting@5.5.20.1-osera-00001",
@@ -76849,6 +77003,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-scripting@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-scripting",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-scripting@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-security@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-security",
       "base": "5.5.20",
@@ -76891,6 +77056,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-security@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-security@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-security",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-security@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-sftp@5.5.20.1-osera-00001",
@@ -76937,6 +77113,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-sftp@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-sftp",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-sftp@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-stomp@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-stomp",
       "base": "5.5.20",
@@ -76979,6 +77166,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-stomp@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-stomp@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-stomp",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-stomp@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-stream@5.5.20.1-osera-00001",
@@ -77025,6 +77223,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-stream@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-stream",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-stream@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-syslog@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-syslog",
       "base": "5.5.20",
@@ -77067,6 +77276,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-syslog@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-syslog@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-syslog",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-syslog@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-test-support@5.5.20.1-osera-00001",
@@ -77113,6 +77333,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-test-support@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-test-support",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-test-support@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-test@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-test",
       "base": "5.5.20",
@@ -77155,6 +77386,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-test@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-test@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-test",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-test@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-webflux@5.5.20.1-osera-00001",
@@ -77201,6 +77443,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-webflux@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-webflux",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-webflux@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-websocket@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-websocket",
       "base": "5.5.20",
@@ -77243,6 +77496,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-websocket@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-websocket@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-websocket",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-websocket@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-ws@5.5.20.1-osera-00001",
@@ -77289,6 +77553,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-ws@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-ws",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-ws@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-xml@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-xml",
       "base": "5.5.20",
@@ -77333,6 +77608,17 @@
       "first_seen": "2026-11-05T08:21:53Z"
     },
     {
+      "coordinate": "org.springframework.integration:spring-integration-xml@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-xml",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-xml@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
+    },
+    {
       "coordinate": "org.springframework.integration:spring-integration-xmpp@5.5.20.1-osera-00001",
       "library": "org.springframework.integration:spring-integration-xmpp",
       "base": "5.5.20",
@@ -77375,6 +77661,17 @@
       ],
       "words": "org.springframework.integration:spring-integration-xmpp@5.5.20.1-osera-00004: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
       "first_seen": "2026-11-05T08:21:53Z"
+    },
+    {
+      "coordinate": "org.springframework.integration:spring-integration-xmpp@5.5.20.1-osera-00005",
+      "library": "org.springframework.integration:spring-integration-xmpp",
+      "base": "5.5.20",
+      "reason": "listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "org.springframework.integration:spring-integration-xmpp@5.5.20.1-osera-00005: listed by the BOM of spring-boot-2.7.x at 5.5.20, not in its dependency graph",
+      "first_seen": "2026-11-28T09:59:04Z"
     },
     {
       "coordinate": "org.springframework.integration:spring-integration-zeromq@5.5.20.1-osera-00001",
