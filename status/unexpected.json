@@ -59771,6 +59771,17 @@
       "first_seen": "2026-11-28T14:46:11Z"
     },
     {
+      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00004",
+      "library": "io.undertow:undertow-core",
+      "base": "2.2.28.Final",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.undertow:undertow-core@2.2.28.Final-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final",
+      "first_seen": "2026-11-28T15:13:11Z"
+    },
+    {
       "coordinate": "io.undertow:undertow-servlet@2.2.28.Final-osera-00001",
       "library": "io.undertow:undertow-servlet",
       "base": "2.2.28.Final",
@@ -59804,6 +59815,17 @@
       "first_seen": "2026-11-28T14:46:11Z"
     },
     {
+      "coordinate": "io.undertow:undertow-servlet@2.2.28.Final-osera-00004",
+      "library": "io.undertow:undertow-servlet",
+      "base": "2.2.28.Final",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.undertow:undertow-servlet@2.2.28.Final-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final",
+      "first_seen": "2026-11-28T15:13:11Z"
+    },
+    {
       "coordinate": "io.undertow:undertow-websockets-jsr@2.2.28.Final-osera-00001",
       "library": "io.undertow:undertow-websockets-jsr",
       "base": "2.2.28.Final",
@@ -59835,6 +59857,17 @@
       ],
       "words": "io.undertow:undertow-websockets-jsr@2.2.28.Final-osera-00003: in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final",
       "first_seen": "2026-11-28T14:46:11Z"
+    },
+    {
+      "coordinate": "io.undertow:undertow-websockets-jsr@2.2.28.Final-osera-00004",
+      "library": "io.undertow:undertow-websockets-jsr",
+      "base": "2.2.28.Final",
+      "reason": "in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final",
+      "lines": [
+        "spring-boot-2.7.x"
+      ],
+      "words": "io.undertow:undertow-websockets-jsr@2.2.28.Final-osera-00004: in the dependency graph of spring-boot-2.7.x at 2.2.41.Final, uploaded on 2.2.28.Final",
+      "first_seen": "2026-11-28T15:13:11Z"
     },
     {
       "coordinate": "net.minidev:json-smart-action@2.4.11.1-osera-00001",
