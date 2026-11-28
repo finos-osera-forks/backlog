@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
   "book_version": "v2026.11.28.39",
-  "as_of": "2026-11-28T12:49:07Z",
+  "as_of": "2026-11-28T12:57:16Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 196,
@@ -113,18 +113,18 @@
     {
       "cve": "CVE-2024-12798",
       "library": "ch.qos.logback:logback-core",
-      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00006",
-      "patch": "00006",
-      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00006",
-      "at": "2026-11-28T12:29:28Z"
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "patch": "00007",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "at": "2026-11-28T12:57:16Z"
     },
     {
       "cve": "CVE-2024-12801",
       "library": "ch.qos.logback:logback-core",
-      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00006",
-      "patch": "00006",
-      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00006",
-      "at": "2026-11-28T12:29:28Z"
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "patch": "00007",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "at": "2026-11-28T12:57:16Z"
     },
     {
       "cve": "CVE-2024-29857",
@@ -217,10 +217,10 @@
     {
       "cve": "CVE-2025-11226",
       "library": "ch.qos.logback:logback-core",
-      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00006",
-      "patch": "00006",
-      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00006",
-      "at": "2026-11-28T12:29:28Z"
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "patch": "00007",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "at": "2026-11-28T12:57:16Z"
     },
     {
       "cve": "CVE-2025-22227",
@@ -321,10 +321,10 @@
     {
       "cve": "CVE-2026-10532",
       "library": "ch.qos.logback:logback-core",
-      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00006",
-      "patch": "00006",
-      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00006",
-      "at": "2026-11-28T12:29:28Z"
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "patch": "00007",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "at": "2026-11-28T12:57:16Z"
     },
     {
       "cve": "CVE-2026-106121",
@@ -1125,6 +1125,14 @@
       "patch": "00019",
       "named_by": "com.fasterxml.jackson.core:jackson-databind@2.13.5.1-osera-00019",
       "at": "2026-11-17T16:22:32Z"
+    },
+    {
+      "cve": "CVE-2026-9828",
+      "library": "ch.qos.logback:logback-core",
+      "coordinate": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "patch": "00007",
+      "named_by": "ch.qos.logback:logback-core@1.2.13.1-osera-00007",
+      "at": "2026-11-28T12:57:16Z"
     }
   ],
   "in_progress": [],
@@ -1348,10 +1356,6 @@
     {
       "cve": "CVE-2026-75516",
       "library": "com.rabbitmq:amqp-client"
-    },
-    {
-      "cve": "CVE-2026-9828",
-      "library": "ch.qos.logback:logback-core"
     }
   ],
   "not_remediable": [],
@@ -1647,6 +1651,7 @@
     "fixed, not in the backlog: CVE-2026-13006 on ch.qos.logback:logback-core@1.2.13.1-osera-00004",
     "fixed, not in the backlog: CVE-2026-13006 on ch.qos.logback:logback-core@1.2.13.1-osera-00005",
     "fixed, not in the backlog: CVE-2026-13006 on ch.qos.logback:logback-core@1.2.13.1-osera-00006",
+    "fixed, not in the backlog: CVE-2026-13006 on ch.qos.logback:logback-core@1.2.13.1-osera-00007",
     "fixed, not in the backlog: CVE-2026-13506 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00017",
     "fixed, not in the backlog: CVE-2026-13506 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00018",
     "fixed, not in the backlog: CVE-2026-13506 on org.bouncycastle:bcprov-jdk15on@1.70.1-osera-00019",
@@ -2727,5 +2732,5 @@
     "promoted xerces:xercesImpl@2.2.1.1-osera-00004 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0",
     "promoted xerces:xercesImpl@2.2.1.1-osera-00005 is on base 2.2.1, the line has xerces:xercesImpl at 2.11.0"
   ],
-  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.28.3"
+  "consume": "org.finos.osera:osera-bom-spring-boot-2.7.x@2026.11.28.4"
 }

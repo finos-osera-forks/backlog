@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T12:29:28Z. Written by the line manager reconciler.
+Generated 2026-11-28T12:57:16Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -8,14 +8,14 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 | line_id | ecosystem | anchor | status | CVE_in_scope | CVE_fixed | CVE_fixed_% | CVE_out_of_scope | CVE_in_progress | CVE_left | CVE_not_remediable |
 |---|---|---|---|---|---|---|---|---|---|---|
-| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 196 | 140 | 71% | 100 | 0 | 56 | 0 |
+| spring-boot-2.7.x | maven | `org.springframework.boot:spring-boot-dependencies@2.7.18` | in progress | 196 | 141 | 72% | 100 | 0 | 55 | 0 |
 | spring-framework-5.3.x | maven | `org.springframework:spring-framework-bom@5.3.39` | in progress | 47 | 36 | 77% | 0 | 0 | 11 | 0 |
 | spring-security-5.7.x | maven | `org.springframework.security:spring-security-bom@5.7.11` | in progress | 56 | 50 | 89% | 12 | 0 | 6 | 0 |
 | commons-beanutils-1.9.x | maven | `commons-beanutils:commons-beanutils@1.9.4` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | log4j-1.2.x | maven | `log4j:log4j@1.2.17` | fixed | 6 | 6 | 100% | 0 | 0 | 0 | 0 |
 | axis-1.4.x | maven | `org.apache.axis:axis@1.4` | - | 0 | 0 | - | 2 | 0 | 0 | 0 |
 | commons-text-1.9.x | maven | `org.apache.commons:commons-text@1.9` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
-| commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | in progress | 2 | 1 | 50% | 0 | 0 | 1 | 0 |
+| commons-text-1.8.x | maven | `org.apache.commons:commons-text@1.8` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.7.x | maven | `org.apache.commons:commons-text@1.7` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | commons-text-1.6.x | maven | `org.apache.commons:commons-text@1.6` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | bouncycastle-1.78.x | maven | `org.bouncycastle:bcpkix-jdk18on@1.78.1` | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 |
@@ -243,7 +243,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | @sigstore/core | 2.0.0 | pacote-20.0.x, sigstore-3.1.x, sigstore-verify-2.1.x | pulled in by a dependency on pacote-20.0.x (@sigstore/sign@3.1.0) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | ajv | 6.12.6 | ajv-6.12.x | pulled in by a dependency (ajv@6.12.6) | open | 1 | 0 | 0% | 0 | 0 | 1 | 0 |  |  | not claimed |  |  |  |  |  |  |  |  |  |  |  |
 | at.yawk.lz4:lz4-java | 1.8.1 | lz4-java-1.8.x, spring-boot-2.7.x | pulled in by a dependency on lz4-java-1.8.x (org.lz4:lz4-java@1.8.1) | fixed | 7 | 7 | 100% | 0 | 0 | 0 | 0 | 1.8.1.1-osera-00008 | 1.8.1.1-osera-00008 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
-| ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 6 | 4 | 67% | 0 | 0 | 2 | 0 | 1.2.13.1-osera-00006 | 1.2.13.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| ch.qos.logback:logback-core | 1.2.13 | spring-boot-2.7.x | listed by the BOM at 1.2.12 | open | 6 | 5 | 83% | 0 | 0 | 1 | 0 | 1.2.13.1-osera-00007 | 1.2.13.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.13.5 | spring-boot-2.7.x, spring-security-5.7.x | listed by the BOM of spring-boot-2.7.x at 2.13.5 (com.fasterxml.jackson:jackson-bom@2.13.5) | fixed | 3 | 3 | 100% | 1 | 0 | 0 | 0 | 2.13.5.1-osera-00019 | 2.13.5.1-osera-00019 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.15.4 | jackson-2.15.x | own project (the anchor's group) | fixed | 3 | 3 | 100% | 0 | 0 | 0 | 0 | 2.15.4.1-osera-00021 | 2.15.4.1-osera-00021 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.19.4 | jackson-2.19.x | own project (the anchor's group) | fixed | 4 | 4 | 100% | 0 | 0 | 0 | 0 | 2.19.4.1-osera-00023 | 2.19.4.1-osera-00023 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -398,11 +398,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Libraries promoted, not in the backlog
 
-561 libraries, 6123 patched version(s).
+561 libraries, 6124 patched version(s).
 
 | name | base_version | reason | lines | same group on | patched_as | consumed | consumption_readiness | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| ch.qos.logback:logback-access | 1.2.13 | listed by the BOM of spring-boot-2.7.x at 1.2.12, not in its dependency graph | spring-boot-2.7.x |  | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 1.2.13.1-osera-00003 1.2.13.1-osera-00004 1.2.13.1-osera-00005 1.2.13.1-osera-00006 | 1.2.13.1-osera-00006 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| ch.qos.logback:logback-access | 1.2.13 | listed by the BOM of spring-boot-2.7.x at 1.2.12, not in its dependency graph | spring-boot-2.7.x |  | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 1.2.13.1-osera-00003 1.2.13.1-osera-00004 1.2.13.1-osera-00005 1.2.13.1-osera-00006 1.2.13.1-osera-00007 | 1.2.13.1-osera-00007 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-annotations | 2.9.10 | in the dependency graph of spring-boot-2.7.x at 2.13.5 and spring-security-5.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4, uploaded on 2.9.10 | spring-boot-2.7.x, spring-security-5.7.x, jackson-2.19.x, jackson-2.15.x |  | 2.9.10.1-osera-00001 2.9.10.1-osera-00002 2.9.10.1-osera-00003 2.9.10.1-osera-00004 2.9.10.1-osera-00005 2.9.10.1-osera-00006 2.9.10.1-osera-00007 2.9.10.1-osera-00008 2.9.10.1-osera-00009 2.9.10.1-osera-00010 2.9.10.1-osera-00011 2.9.10.1-osera-00012 2.9.10.1-osera-00013 | 2.9.10.1-osera-00013 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-core | 2.9.10 | in the dependency graph of spring-boot-2.7.x at 2.13.5 and spring-security-5.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4, uploaded on 2.9.10 | spring-boot-2.7.x, spring-security-5.7.x, jackson-2.19.x, jackson-2.15.x |  | 2.9.10.1-osera-00001 2.9.10.1-osera-00002 2.9.10.1-osera-00003 2.9.10.1-osera-00004 2.9.10.1-osera-00005 2.9.10.1-osera-00006 2.9.10.1-osera-00007 2.9.10.1-osera-00008 2.9.10.1-osera-00009 2.9.10.1-osera-00010 2.9.10.1-osera-00011 2.9.10.1-osera-00012 2.9.10.1-osera-00013 | 2.9.10.1-osera-00013 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.core:jackson-databind | 2.9.10.8 | in the dependency graph of spring-boot-2.7.x at 2.13.5 and spring-security-5.7.x at 2.13.5 and jackson-2.19.x at 2.19.4 and jackson-2.15.x at 2.15.4, uploaded on 2.9.10.8 | spring-boot-2.7.x, spring-security-5.7.x, jackson-2.19.x, jackson-2.15.x |  | 2.9.10.8.1-osera-00001 2.9.10.8.1-osera-00002 2.9.10.8.1-osera-00003 2.9.10.8.1-osera-00004 2.9.10.8.1-osera-00005 2.9.10.8.1-osera-00006 2.9.10.8.1-osera-00007 2.9.10.8.1-osera-00008 2.9.10.8.1-osera-00009 2.9.10.8.1-osera-00010 2.9.10.8.1-osera-00011 2.9.10.8.1-osera-00012 2.9.10.8.1-osera-00013 | 2.9.10.8.1-osera-00013 | ready | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
@@ -966,11 +966,11 @@ The latest patch view: every library at the latest upstream patch release, the v
 
 ## Released with the lines
 
-40 component(s), 901 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
+40 component(s), 902 patched version(s). Expected parts of a line release (REL-009), not unexpected uploads.
 
 | name | version | kind | released with | why it is needed | patched_as | consumed | chain | files | evidence | signatures | document | producer | verdict | fork | tag | upload | tagger |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| ch.qos.logback:logback-parent | 1.2.13 | parent | patch-logback v1.2.13.1-osera-00006 | the patched modules name it as their parent, a build needs it to resolve them | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 1.2.13.1-osera-00003 1.2.13.1-osera-00004 1.2.13.1-osera-00005 1.2.13.1-osera-00006 | 1.2.13.1-osera-00006 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
+| ch.qos.logback:logback-parent | 1.2.13 | parent | patch-logback v1.2.13.1-osera-00007 | the patched modules name it as their parent, a build needs it to resolve them | 1.2.13.1-osera-00001 1.2.13.1-osera-00002 1.2.13.1-osera-00003 1.2.13.1-osera-00004 1.2.13.1-osera-00005 1.2.13.1-osera-00006 1.2.13.1-osera-00007 | 1.2.13.1-osera-00007 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson.dataformat:jackson-dataformats-text | 2.13.5 | parent | patch-jackson-dataformats-text v2.13.5.1-osera-00019 | the patched modules name it as their parent, a build needs it to resolve them | 2.13.5.1-osera-00008 2.13.5.1-osera-00009 2.13.5.1-osera-00010 2.13.5.1-osera-00011 2.13.5.1-osera-00012 2.13.5.1-osera-00013 2.13.5.1-osera-00014 2.13.5.1-osera-00015 2.13.5.1-osera-00016 2.13.5.1-osera-00017 2.13.5.1-osera-00018 2.13.5.1-osera-00019 | 2.13.5.1-osera-00019 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson:jackson-bom | 2.9.10.20210106 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18 at 2.13.5, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.9.10.20210106.1-osera-00001 2.9.10.20210106.1-osera-00002 2.9.10.20210106.1-osera-00003 2.9.10.20210106.1-osera-00004 2.9.10.20210106.1-osera-00005 2.9.10.20210106.1-osera-00006 2.9.10.20210106.1-osera-00007 2.9.10.20210106.1-osera-00008 2.9.10.20210106.1-osera-00009 2.9.10.20210106.1-osera-00010 2.9.10.20210106.1-osera-00011 2.9.10.20210106.1-osera-00012 2.9.10.20210106.1-osera-00013 | 2.9.10.20210106.1-osera-00013 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
 | com.fasterxml.jackson:jackson-bom | 2.13.5 | BOM | imported by org.springframework.boot:spring-boot-dependencies@2.7.18, org.apache.logging.log4j:log4j@2.24.3 at 2.17.2 | pins the patched modules (REL-009: a pinning BOM releases again) | 2.13.5.1-osera-00001 2.13.5.1-osera-00002 2.13.5.1-osera-00003 2.13.5.1-osera-00004 2.13.5.1-osera-00005 2.13.5.1-osera-00006 2.13.5.1-osera-00007 2.13.5.1-osera-00008 2.13.5.1-osera-00009 2.13.5.1-osera-00010 2.13.5.1-osera-00011 2.13.5.1-osera-00012 2.13.5.1-osera-00013 2.13.5.1-osera-00014 2.13.5.1-osera-00015 2.13.5.1-osera-00016 2.13.5.1-osera-00017 2.13.5.1-osera-00018 2.13.5.1-osera-00019 | 2.13.5.1-osera-00019 | complete | OK | OK | OK | OK | OK | OK | OK | OK | OK | OK |
