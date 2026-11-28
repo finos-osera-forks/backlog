@@ -1,7 +1,7 @@
 {
   "line": "spring-boot-2.7.x",
-  "book_version": "v2026.11.28.44",
-  "as_of": "2026-11-28T14:33:58Z",
+  "book_version": "v2026.11.28.45",
+  "as_of": "2026-11-28T14:46:11Z",
   "status": "in progress",
   "chain": "complete",
   "in_scope": 369,
@@ -73,10 +73,10 @@
     {
       "cve": "CVE-2023-1973",
       "library": "io.undertow:undertow-core",
-      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00002",
-      "patch": "00002",
-      "named_by": "io.undertow:undertow-core@2.2.28.Final-osera-00002",
-      "at": "2026-11-28T14:11:35Z"
+      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00003",
+      "patch": "00003",
+      "named_by": "io.undertow:undertow-core@2.2.28.Final-osera-00003",
+      "at": "2026-11-28T14:46:11Z"
     },
     {
       "cve": "CVE-2023-2976",
@@ -105,10 +105,10 @@
     {
       "cve": "CVE-2023-4639",
       "library": "io.undertow:undertow-core",
-      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00002",
-      "patch": "00002",
-      "named_by": "io.undertow:undertow-core@2.2.28.Final-osera-00002",
-      "at": "2026-11-28T14:11:35Z"
+      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00003",
+      "patch": "00003",
+      "named_by": "io.undertow:undertow-core@2.2.28.Final-osera-00003",
+      "at": "2026-11-28T14:46:11Z"
     },
     {
       "cve": "CVE-2023-51074",
@@ -125,6 +125,14 @@
       "patch": "00005",
       "named_by": "com.nimbusds:nimbus-jose-jwt@9.22.1-osera-00005",
       "at": "2026-11-20T16:03:02Z"
+    },
+    {
+      "cve": "CVE-2024-1635",
+      "library": "io.undertow:undertow-core",
+      "coordinate": "io.undertow:undertow-core@2.2.28.Final-osera-00003",
+      "patch": "00003",
+      "named_by": "io.undertow:undertow-core@2.2.28.Final-osera-00003",
+      "at": "2026-11-28T14:46:11Z"
     },
     {
       "cve": "CVE-2024-29857",
@@ -1035,10 +1043,6 @@
     },
     {
       "cve": "CVE-2024-1459",
-      "library": "io.undertow:undertow-core"
-    },
-    {
-      "cve": "CVE-2024-1635",
       "library": "io.undertow:undertow-core"
     },
     {
