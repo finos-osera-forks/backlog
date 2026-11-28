@@ -1,6 +1,6 @@
 # Supported projects
 
-Generated 2026-11-28T04:30:57Z. Written by the line manager reconciler.
+Generated 2026-11-28T04:33:25Z. Written by the line manager reconciler.
 
 The latest patch view: every library at the latest upstream patch release, the view the work follows. Every library and version the exchange maintains, ordered by library and then by version. A library that sits on more than one line is one row, with every line it belongs to named. For reporting only.
 
@@ -158,7 +158,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | platformdirs-4.4.x | pypi | `platformdirs==4.4.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | ply-3.9.x | pypi | `ply==3.9` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | postcss-7.0.x | npm | `postcss@7.0.39` | not fixed | 5 | 0 | 0% | 0 | 0 | 5 | 0 |
-| pretty-format-28.1.x | npm | `pretty-format@28.1.3` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| pretty-format-28.1.x | npm | `pretty-format@28.1.3` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | promzard-2.0.x | npm | `promzard@2.0.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | protobuf-7.36.x | pypi | `protobuf==7.36.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | proxy-addr-2.0.x | npm | `proxy-addr@2.0.8` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
@@ -181,7 +181,7 @@ The latest patch view: every library at the latest upstream patch release, the v
 | react-is-18.3.x | npm | `react-is@18.3.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | readable-stream-3.6.x | npm | `readable-stream@3.6.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | requests-2.20.x | pypi | `requests==2.20.1` | not fixed | 16 | 0 | 0% | 0 | 0 | 16 | 0 |
-| safe-buffer-5.2.x | npm | `safe-buffer@5.2.1` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
+| safe-buffer-5.2.x | npm | `safe-buffer@5.2.1` | - | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | selenium-3.141.x | pypi | `selenium==3.141.0` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | semver-6.3.x | npm | `semver@6.3.2` | nothing in scope | 0 | 0 | - | 0 | 0 | 0 | 0 |
 | serialize-javascript-6.0.x | npm | `serialize-javascript@6.0.2` | not fixed | 3 | 0 | 0% | 0 | 0 | 3 | 0 |
